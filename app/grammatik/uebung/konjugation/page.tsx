@@ -3,13 +3,12 @@
 import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { ConjugationTrainer } from "@/components/ConjugationTrainer";
-import { TENSE_LABELS } from "@/lib/conjugation/trainer";
-import type { TenseKey } from "@/lib/types";
+import { FORM_LABELS, type FormKey } from "@/lib/conjugation/trainer";
 
 function Inner() {
   const sp = useSearchParams();
   const raw = sp.get("tense") ?? "";
-  const tense: TenseKey = (raw in TENSE_LABELS ? raw : "presente") as TenseKey;
+  const tense: FormKey = (raw in FORM_LABELS ? raw : "presente") as FormKey;
   return <ConjugationTrainer initialTense={tense} />;
 }
 

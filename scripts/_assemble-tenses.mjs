@@ -53,7 +53,9 @@ for (const id of ORDER) {
   if (endings) {
     topic.endings = { label: { de: "Regelmäßige Endungen", en: "Regular endings" }, ar: endings.ar, er: endings.er, ir: endings.ir };
   }
+  const SPECIAL = { imperativo: "imperativo-af", gerundio: "gerundio", participio: "participio" };
   if (!NON_SIX.has(id)) topic.practiceTenseKey = id;
+  else if (SPECIAL[id]) topic.practiceTenseKey = SPECIAL[id];
   out.push(topic);
 }
 

@@ -7,21 +7,22 @@ import { loadVerbs } from "@/lib/data";
 import { addSession, recordResult } from "@/lib/storage/db";
 import {
   PERSON_LABELS,
-  TENSE_LABELS,
-  TENSE_GROUPS,
+  FORM_LABELS,
+  FORM_GROUPS,
   buildConjSession,
   checkConjugation,
   type ConjQuestion,
+  type FormKey,
 } from "@/lib/conjugation/trainer";
-import type { TenseKey, Tier } from "@/lib/types";
+import type { Tier } from "@/lib/types";
 
 type Phase = "setup" | "run" | "done";
 type Status = "idle" | "right" | "wrong";
 
-export function ConjugationTrainer({ initialTense = "presente" }: { initialTense?: TenseKey }) {
+export function ConjugationTrainer({ initialTense = "presente" }: { initialTense?: FormKey }) {
   const { t, locale } = useI18n();
   const [phase, setPhase] = useState<Phase>("setup");
-  const [tense, setTense] = useState<TenseKey>(initialTense);
+  const [tense, setTense] = useState<FormKey>(initialTense);
   const [tier, setTier] = useState<Tier>(1);
   const [questions, setQuestions] = useState<ConjQuestion[]>([]);
   const [idx, setIdx] = useState(0);
@@ -60,18 +61,18 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
         </div>
         <select
           value={tense}
-          onChange={(e) => setTense(e.target.value as TenseKey)}
+          onChange={(e) => setTense(e.target.value as FormKey)}
           className="w-full rounded-lg border border-border bg-card px-3 py-2.5 text-sm font-semibold outline-none focus:border-brand"
         >
-          {TENSE_GROUPS.map((g) => (
+          {FORM_GROUPS.map((g) => (
             <optgroup key={g.mood} label={g.mood}>
               {g.keys.map((k) => (
-                <option key={k} value={k}>{TENSE_LABELS[k]}</option>
+                <option key={k} value={k}>{FORM_LABELS[k]}</option>
               ))}
             </optgroup>
           ))}
         </select>
-        <p className="text-sm font-medium text-muted">{t("conj.pickDifficulty")} · {TENSE_LABELS[tense]}</p>
+        <p className="text-sm font-medium text-muted">{t("conj.pickDifficulty")} · {FORM_LABELS[tense]}</p>
         <div className="grid gap-3">
           {([1, 2, 3, 4] as Tier[]).map((tr) => (
             <button
@@ -155,12 +156,12 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
 
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         <div className="text-xs font-semibold uppercase tracking-wide text-muted">
-          {t("conj.prompt")} · {TENSE_LABELS[tense]}
+          {t("conj.prompt")} · {FORM_LABELS[tense]}
         </div>
         <div className="mt-3 text-3xl font-bold text-brand" lang="es">{q.infinitive}</div>
         <div className="mt-1 text-sm text-muted">{q.meaning}</div>
         <div className="mt-4 inline-block rounded-lg bg-foreground/5 px-3 py-1.5 text-lg font-semibold" lang="es">
-          {persons[q.person]}
+          {q.person >= 0 ? persons[q.person] : q.formLabel}
         </div>
       </div>
 
