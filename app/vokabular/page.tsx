@@ -11,19 +11,19 @@ export default function VokabularPage() {
       href: "/vokabular/quiz?mode=common&dir=es-en",
       title: t("vocab.mode.commonEsEn"),
       desc: t("vocab.mode.commonEsEn.desc"),
-      badge: "ES → EN",
+      badge: t("vocab.dir.esEn"),
     },
     {
       href: "/vokabular/quiz?mode=common&dir=en-es",
       title: t("vocab.mode.commonEnEs"),
       desc: t("vocab.mode.commonEnEs.desc"),
-      badge: "EN → ES",
+      badge: t("vocab.dir.enEs"),
     },
     {
       href: "/vokabular/quiz?mode=verbs&dir=es-en",
       title: t("vocab.mode.verbs"),
       desc: t("vocab.mode.verbs.desc"),
-      badge: "ES → EN",
+      badge: t("vocab.dir.esEn"),
     },
   ];
   const soon = [t("vocab.mode.nouns"), t("vocab.mode.adj")];

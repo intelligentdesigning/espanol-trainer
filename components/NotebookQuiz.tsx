@@ -97,7 +97,7 @@ export function NotebookQuiz({ entries, onExit }: { entries: NotebookEntry[]; on
       </div>
 
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
-        <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("quiz.translateToEn")} / DE</div>
+        <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("quiz.meaning")}</div>
         <div className="mt-3 text-3xl font-bold" lang="es">{q.prompt}</div>
       </div>
 
@@ -115,7 +115,9 @@ export function NotebookQuiz({ entries, onExit }: { entries: NotebookEntry[]; on
         {status !== "idle" && (
           <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
-            {status === "wrong" && <div className="mt-1 text-foreground">{t("quiz.answerWas")} <b>{q.canonical}</b></div>}
+            <div className="mt-1 text-foreground">
+              {status === "wrong" ? t("quiz.answerWas") : `${t("quiz.meaning")}:`} <b>{q.canonical}</b>
+            </div>
           </div>
         )}
         <div className="flex gap-2">

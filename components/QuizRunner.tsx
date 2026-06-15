@@ -131,9 +131,13 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
         {status !== "idle" && (
           <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
-            {status === "wrong" && (
-              <div className="mt-1 text-foreground">{t("quiz.answerWas")} <b>{q.canonical}</b></div>
-            )}
+            <div className="mt-1 text-foreground">
+              {status === "wrong"
+                ? <>{t("quiz.answerWas")} <b>{q.canonical}</b></>
+                : config.direction === "es-en"
+                  ? <>{t("quiz.meaning")}: <b>{q.canonical}</b></>
+                  : <>{t("quiz.answerWas")} <b>{q.canonical}</b></>}
+            </div>
           </div>
         )}
 
