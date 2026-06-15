@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #faf8f5;
+  --foreground: #1c1917;
+  --card: #ffffff;
+  --border: #e7e2da;
+  --muted: #78716c;
+  --brand: #d6452a;       /* warm Spanish red */
+  --brand-2: #e8a13a;     /* amber */
+  --accent-vocab: #0e7490;/* teal for vocab */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #14110f;
+    --foreground: #f5f0ea;
+    --card: #1f1b18;
+    --border: #322c27;
+    --muted: #a8a29e;
+    --brand: #f0613f;
+    --brand-2: #f0b855;
+    --accent-vocab: #38bdf8;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-vocab: var(--accent-vocab);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* subtle focus ring for inputs/buttons */
+* {
+  outline-color: var(--brand);
 }
