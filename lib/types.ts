@@ -75,6 +75,26 @@ export interface GrammarSection {
   intro?: LocalizedText;
   rules: GrammarRule[];
 }
+
+/** A solvable practice question for a grammar topic. */
+export interface PracticeItem {
+  kind: "choice" | "fill";
+  prompt: string;            // Spanish sentence with a "___" blank
+  promptGloss?: LocalizedText;
+  options?: string[];        // present for kind "choice"
+  answer: string;            // correct option text, or the fill-in answer
+  altAnswers?: string[];     // extra accepted answers (fill)
+  explain: LocalizedText;
+}
+
+/** A topic in "Andere Grammatikformen": rules + examples + solvable practice. */
+export interface GrammarTopic {
+  id: string;
+  name: LocalizedText;
+  summary: LocalizedText;
+  rules: GrammarRule[];
+  practice: PracticeItem[];
+}
 export interface TenseTopic {
   id: string;
   name: LocalizedText;

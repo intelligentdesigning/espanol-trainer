@@ -1,0 +1,1764 @@
+{
+ "presente": {
+  "kind": "simple",
+  "endings": {
+   "ar": [
+    "-o",
+    "-as",
+    "-a",
+    "-amos",
+    "-áis",
+    "-an"
+   ],
+   "er": [
+    "-o",
+    "-es",
+    "-e",
+    "-emos",
+    "-éis",
+    "-en"
+   ],
+   "ir": [
+    "-o",
+    "-es",
+    "-e",
+    "-imos",
+    "-ís",
+    "-en"
+   ]
+  },
+  "verbs": {
+   "hablar": [
+    "hablo",
+    "hablas",
+    "habla",
+    "hablamos",
+    "habláis",
+    "hablan"
+   ],
+   "comer": [
+    "como",
+    "comes",
+    "come",
+    "comemos",
+    "coméis",
+    "comen"
+   ],
+   "vivir": [
+    "vivo",
+    "vives",
+    "vive",
+    "vivimos",
+    "vivís",
+    "viven"
+   ],
+   "ser": [
+    "soy",
+    "eres",
+    "es",
+    "somos",
+    "sois",
+    "son"
+   ],
+   "estar": [
+    "estoy",
+    "estás",
+    "está",
+    "estamos",
+    "estáis",
+    "están"
+   ],
+   "ir": [
+    "voy",
+    "vas",
+    "va",
+    "vamos",
+    "vais",
+    "van"
+   ],
+   "tener": [
+    "tengo",
+    "tienes",
+    "tiene",
+    "tenemos",
+    "tenéis",
+    "tienen"
+   ],
+   "hacer": [
+    "hago",
+    "haces",
+    "hace",
+    "hacemos",
+    "hacéis",
+    "hacen"
+   ],
+   "poder": [
+    "puedo",
+    "puedes",
+    "puede",
+    "podemos",
+    "podéis",
+    "pueden"
+   ],
+   "decir": [
+    "digo",
+    "dices",
+    "dice",
+    "decimos",
+    "decís",
+    "dicen"
+   ],
+   "querer": [
+    "quiero",
+    "quieres",
+    "quiere",
+    "queremos",
+    "queréis",
+    "quieren"
+   ],
+   "dormir": [
+    "duermo",
+    "duermes",
+    "duerme",
+    "dormimos",
+    "dormís",
+    "duermen"
+   ]
+  }
+ },
+ "preterito-imperfecto": {
+  "kind": "simple",
+  "endings": {
+   "ar": [
+    "-aba",
+    "-abas",
+    "-aba",
+    "-ábamos",
+    "-abais",
+    "-aban"
+   ],
+   "er": [
+    "-ía",
+    "-ías",
+    "-ía",
+    "-íamos",
+    "-íais",
+    "-ían"
+   ],
+   "ir": [
+    "-ía",
+    "-ías",
+    "-ía",
+    "-íamos",
+    "-íais",
+    "-ían"
+   ]
+  },
+  "verbs": {
+   "hablar": [
+    "hablaba",
+    "hablabas",
+    "hablaba",
+    "hablábamos",
+    "hablabais",
+    "hablaban"
+   ],
+   "comer": [
+    "comía",
+    "comías",
+    "comía",
+    "comíamos",
+    "comíais",
+    "comían"
+   ],
+   "vivir": [
+    "vivía",
+    "vivías",
+    "vivía",
+    "vivíamos",
+    "vivíais",
+    "vivían"
+   ],
+   "ser": [
+    "era",
+    "eras",
+    "era",
+    "éramos",
+    "erais",
+    "eran"
+   ],
+   "estar": [
+    "estaba",
+    "estabas",
+    "estaba",
+    "estábamos",
+    "estabais",
+    "estaban"
+   ],
+   "ir": [
+    "iba",
+    "ibas",
+    "iba",
+    "íbamos",
+    "ibais",
+    "iban"
+   ],
+   "tener": [
+    "tenía",
+    "tenías",
+    "tenía",
+    "teníamos",
+    "teníais",
+    "tenían"
+   ],
+   "hacer": [
+    "hacía",
+    "hacías",
+    "hacía",
+    "hacíamos",
+    "hacíais",
+    "hacían"
+   ],
+   "poder": [
+    "podía",
+    "podías",
+    "podía",
+    "podíamos",
+    "podíais",
+    "podían"
+   ],
+   "decir": [
+    "decía",
+    "decías",
+    "decía",
+    "decíamos",
+    "decíais",
+    "decían"
+   ],
+   "querer": [
+    "quería",
+    "querías",
+    "quería",
+    "queríamos",
+    "queríais",
+    "querían"
+   ],
+   "dormir": [
+    "dormía",
+    "dormías",
+    "dormía",
+    "dormíamos",
+    "dormíais",
+    "dormían"
+   ]
+  }
+ },
+ "preterito-indefinido": {
+  "kind": "simple",
+  "endings": {
+   "ar": [
+    "-é",
+    "-aste",
+    "-ó",
+    "-amos",
+    "-asteis",
+    "-aron"
+   ],
+   "er": [
+    "-í",
+    "-iste",
+    "-ió",
+    "-imos",
+    "-isteis",
+    "-ieron"
+   ],
+   "ir": [
+    "-í",
+    "-iste",
+    "-ió",
+    "-imos",
+    "-isteis",
+    "-ieron"
+   ]
+  },
+  "verbs": {
+   "hablar": [
+    "hablé",
+    "hablaste",
+    "habló",
+    "hablamos",
+    "hablasteis",
+    "hablaron"
+   ],
+   "comer": [
+    "comí",
+    "comiste",
+    "comió",
+    "comimos",
+    "comisteis",
+    "comieron"
+   ],
+   "vivir": [
+    "viví",
+    "viviste",
+    "vivió",
+    "vivimos",
+    "vivisteis",
+    "vivieron"
+   ],
+   "ser": [
+    "fui",
+    "fuiste",
+    "fue",
+    "fuimos",
+    "fuisteis",
+    "fueron"
+   ],
+   "estar": [
+    "estuve",
+    "estuviste",
+    "estuvo",
+    "estuvimos",
+    "estuvisteis",
+    "estuvieron"
+   ],
+   "ir": [
+    "fui",
+    "fuiste",
+    "fue",
+    "fuimos",
+    "fuisteis",
+    "fueron"
+   ],
+   "tener": [
+    "tuve",
+    "tuviste",
+    "tuvo",
+    "tuvimos",
+    "tuvisteis",
+    "tuvieron"
+   ],
+   "hacer": [
+    "hice",
+    "hiciste",
+    "hizo",
+    "hicimos",
+    "hicisteis",
+    "hicieron"
+   ],
+   "poder": [
+    "pude",
+    "pudiste",
+    "pudo",
+    "pudimos",
+    "pudisteis",
+    "pudieron"
+   ],
+   "decir": [
+    "dije",
+    "dijiste",
+    "dijo",
+    "dijimos",
+    "dijisteis",
+    "dijeron"
+   ],
+   "querer": [
+    "quise",
+    "quisiste",
+    "quiso",
+    "quisimos",
+    "quisisteis",
+    "quisieron"
+   ],
+   "dormir": [
+    "dormí",
+    "dormiste",
+    "durmió",
+    "dormimos",
+    "dormisteis",
+    "durmieron"
+   ]
+  }
+ },
+ "futuro": {
+  "kind": "simple",
+  "endings": {
+   "ar": [
+    "-é",
+    "-ás",
+    "-á",
+    "-emos",
+    "-éis",
+    "-án"
+   ],
+   "er": [
+    "-é",
+    "-ás",
+    "-á",
+    "-emos",
+    "-éis",
+    "-án"
+   ],
+   "ir": [
+    "-é",
+    "-ás",
+    "-á",
+    "-emos",
+    "-éis",
+    "-án"
+   ]
+  },
+  "verbs": {
+   "hablar": [
+    "hablaré",
+    "hablarás",
+    "hablará",
+    "hablaremos",
+    "hablaréis",
+    "hablarán"
+   ],
+   "comer": [
+    "comeré",
+    "comerás",
+    "comerá",
+    "comeremos",
+    "comeréis",
+    "comerán"
+   ],
+   "vivir": [
+    "viviré",
+    "vivirás",
+    "vivirá",
+    "viviremos",
+    "viviréis",
+    "vivirán"
+   ],
+   "ser": [
+    "seré",
+    "serás",
+    "será",
+    "seremos",
+    "seréis",
+    "serán"
+   ],
+   "estar": [
+    "estaré",
+    "estarás",
+    "estará",
+    "estaremos",
+    "estaréis",
+    "estarán"
+   ],
+   "ir": [
+    "iré",
+    "irás",
+    "irá",
+    "iremos",
+    "iréis",
+    "irán"
+   ],
+   "tener": [
+    "tendré",
+    "tendrás",
+    "tendrá",
+    "tendremos",
+    "tendréis",
+    "tendrán"
+   ],
+   "hacer": [
+    "haré",
+    "harás",
+    "hará",
+    "haremos",
+    "haréis",
+    "harán"
+   ],
+   "poder": [
+    "podré",
+    "podrás",
+    "podrá",
+    "podremos",
+    "podréis",
+    "podrán"
+   ],
+   "decir": [
+    "diré",
+    "dirás",
+    "dirá",
+    "diremos",
+    "diréis",
+    "dirán"
+   ],
+   "querer": [
+    "querré",
+    "querrás",
+    "querrá",
+    "querremos",
+    "querréis",
+    "querrán"
+   ],
+   "dormir": [
+    "dormiré",
+    "dormirás",
+    "dormirá",
+    "dormiremos",
+    "dormiréis",
+    "dormirán"
+   ]
+  }
+ },
+ "condicional": {
+  "kind": "simple",
+  "endings": {
+   "ar": [
+    "-ía",
+    "-ías",
+    "-ía",
+    "-íamos",
+    "-íais",
+    "-ían"
+   ],
+   "er": [
+    "-ía",
+    "-ías",
+    "-ía",
+    "-íamos",
+    "-íais",
+    "-ían"
+   ],
+   "ir": [
+    "-ía",
+    "-ías",
+    "-ía",
+    "-íamos",
+    "-íais",
+    "-ían"
+   ]
+  },
+  "verbs": {
+   "hablar": [
+    "hablaría",
+    "hablarías",
+    "hablaría",
+    "hablaríamos",
+    "hablaríais",
+    "hablarían"
+   ],
+   "comer": [
+    "comería",
+    "comerías",
+    "comería",
+    "comeríamos",
+    "comeríais",
+    "comerían"
+   ],
+   "vivir": [
+    "viviría",
+    "vivirías",
+    "viviría",
+    "viviríamos",
+    "viviríais",
+    "vivirían"
+   ],
+   "ser": [
+    "sería",
+    "serías",
+    "sería",
+    "seríamos",
+    "seríais",
+    "serían"
+   ],
+   "estar": [
+    "estaría",
+    "estarías",
+    "estaría",
+    "estaríamos",
+    "estaríais",
+    "estarían"
+   ],
+   "ir": [
+    "iría",
+    "irías",
+    "iría",
+    "iríamos",
+    "iríais",
+    "irían"
+   ],
+   "tener": [
+    "tendría",
+    "tendrías",
+    "tendría",
+    "tendríamos",
+    "tendríais",
+    "tendrían"
+   ],
+   "hacer": [
+    "haría",
+    "harías",
+    "haría",
+    "haríamos",
+    "haríais",
+    "harían"
+   ],
+   "poder": [
+    "podría",
+    "podrías",
+    "podría",
+    "podríamos",
+    "podríais",
+    "podrían"
+   ],
+   "decir": [
+    "diría",
+    "dirías",
+    "diría",
+    "diríamos",
+    "diríais",
+    "dirían"
+   ],
+   "querer": [
+    "querría",
+    "querrías",
+    "querría",
+    "querríamos",
+    "querríais",
+    "querrían"
+   ],
+   "dormir": [
+    "dormiría",
+    "dormirías",
+    "dormiría",
+    "dormiríamos",
+    "dormiríais",
+    "dormirían"
+   ]
+  }
+ },
+ "preterito-perfecto": {
+  "kind": "compound",
+  "endings": null,
+  "verbs": {
+   "hablar": [
+    "he hablado",
+    "has hablado",
+    "ha hablado",
+    "hemos hablado",
+    "habéis hablado",
+    "han hablado"
+   ],
+   "comer": [
+    "he comido",
+    "has comido",
+    "ha comido",
+    "hemos comido",
+    "habéis comido",
+    "han comido"
+   ],
+   "vivir": [
+    "he vivido",
+    "has vivido",
+    "ha vivido",
+    "hemos vivido",
+    "habéis vivido",
+    "han vivido"
+   ],
+   "ser": [
+    "he sido",
+    "has sido",
+    "ha sido",
+    "hemos sido",
+    "habéis sido",
+    "han sido"
+   ],
+   "estar": [
+    "he estado",
+    "has estado",
+    "ha estado",
+    "hemos estado",
+    "habéis estado",
+    "han estado"
+   ],
+   "ir": [
+    "he ido",
+    "has ido",
+    "ha ido",
+    "hemos ido",
+    "habéis ido",
+    "han ido"
+   ],
+   "tener": [
+    "he tenido",
+    "has tenido",
+    "ha tenido",
+    "hemos tenido",
+    "habéis tenido",
+    "han tenido"
+   ],
+   "hacer": [
+    "he hecho",
+    "has hecho",
+    "ha hecho",
+    "hemos hecho",
+    "habéis hecho",
+    "han hecho"
+   ],
+   "poder": [
+    "he podido",
+    "has podido",
+    "ha podido",
+    "hemos podido",
+    "habéis podido",
+    "han podido"
+   ],
+   "decir": [
+    "he dicho",
+    "has dicho",
+    "ha dicho",
+    "hemos dicho",
+    "habéis dicho",
+    "han dicho"
+   ],
+   "querer": [
+    "he querido",
+    "has querido",
+    "ha querido",
+    "hemos querido",
+    "habéis querido",
+    "han querido"
+   ],
+   "dormir": [
+    "he dormido",
+    "has dormido",
+    "ha dormido",
+    "hemos dormido",
+    "habéis dormido",
+    "han dormido"
+   ]
+  }
+ },
+ "pluscuamperfecto": {
+  "kind": "compound",
+  "endings": null,
+  "verbs": {
+   "hablar": [
+    "había hablado",
+    "habías hablado",
+    "había hablado",
+    "habíamos hablado",
+    "habíais hablado",
+    "habían hablado"
+   ],
+   "comer": [
+    "había comido",
+    "habías comido",
+    "había comido",
+    "habíamos comido",
+    "habíais comido",
+    "habían comido"
+   ],
+   "vivir": [
+    "había vivido",
+    "habías vivido",
+    "había vivido",
+    "habíamos vivido",
+    "habíais vivido",
+    "habían vivido"
+   ],
+   "ser": [
+    "había sido",
+    "habías sido",
+    "había sido",
+    "habíamos sido",
+    "habíais sido",
+    "habían sido"
+   ],
+   "estar": [
+    "había estado",
+    "habías estado",
+    "había estado",
+    "habíamos estado",
+    "habíais estado",
+    "habían estado"
+   ],
+   "ir": [
+    "había ido",
+    "habías ido",
+    "había ido",
+    "habíamos ido",
+    "habíais ido",
+    "habían ido"
+   ],
+   "tener": [
+    "había tenido",
+    "habías tenido",
+    "había tenido",
+    "habíamos tenido",
+    "habíais tenido",
+    "habían tenido"
+   ],
+   "hacer": [
+    "había hecho",
+    "habías hecho",
+    "había hecho",
+    "habíamos hecho",
+    "habíais hecho",
+    "habían hecho"
+   ],
+   "poder": [
+    "había podido",
+    "habías podido",
+    "había podido",
+    "habíamos podido",
+    "habíais podido",
+    "habían podido"
+   ],
+   "decir": [
+    "había dicho",
+    "habías dicho",
+    "había dicho",
+    "habíamos dicho",
+    "habíais dicho",
+    "habían dicho"
+   ],
+   "querer": [
+    "había querido",
+    "habías querido",
+    "había querido",
+    "habíamos querido",
+    "habíais querido",
+    "habían querido"
+   ],
+   "dormir": [
+    "había dormido",
+    "habías dormido",
+    "había dormido",
+    "habíamos dormido",
+    "habíais dormido",
+    "habían dormido"
+   ]
+  }
+ },
+ "futuro-perfecto": {
+  "kind": "compound",
+  "endings": null,
+  "verbs": {
+   "hablar": [
+    "habré hablado",
+    "habrás hablado",
+    "habrá hablado",
+    "habremos hablado",
+    "habréis hablado",
+    "habrán hablado"
+   ],
+   "comer": [
+    "habré comido",
+    "habrás comido",
+    "habrá comido",
+    "habremos comido",
+    "habréis comido",
+    "habrán comido"
+   ],
+   "vivir": [
+    "habré vivido",
+    "habrás vivido",
+    "habrá vivido",
+    "habremos vivido",
+    "habréis vivido",
+    "habrán vivido"
+   ],
+   "ser": [
+    "habré sido",
+    "habrás sido",
+    "habrá sido",
+    "habremos sido",
+    "habréis sido",
+    "habrán sido"
+   ],
+   "estar": [
+    "habré estado",
+    "habrás estado",
+    "habrá estado",
+    "habremos estado",
+    "habréis estado",
+    "habrán estado"
+   ],
+   "ir": [
+    "habré ido",
+    "habrás ido",
+    "habrá ido",
+    "habremos ido",
+    "habréis ido",
+    "habrán ido"
+   ],
+   "tener": [
+    "habré tenido",
+    "habrás tenido",
+    "habrá tenido",
+    "habremos tenido",
+    "habréis tenido",
+    "habrán tenido"
+   ],
+   "hacer": [
+    "habré hecho",
+    "habrás hecho",
+    "habrá hecho",
+    "habremos hecho",
+    "habréis hecho",
+    "habrán hecho"
+   ],
+   "poder": [
+    "habré podido",
+    "habrás podido",
+    "habrá podido",
+    "habremos podido",
+    "habréis podido",
+    "habrán podido"
+   ],
+   "decir": [
+    "habré dicho",
+    "habrás dicho",
+    "habrá dicho",
+    "habremos dicho",
+    "habréis dicho",
+    "habrán dicho"
+   ],
+   "querer": [
+    "habré querido",
+    "habrás querido",
+    "habrá querido",
+    "habremos querido",
+    "habréis querido",
+    "habrán querido"
+   ],
+   "dormir": [
+    "habré dormido",
+    "habrás dormido",
+    "habrá dormido",
+    "habremos dormido",
+    "habréis dormido",
+    "habrán dormido"
+   ]
+  }
+ },
+ "condicional-perfecto": {
+  "kind": "compound",
+  "endings": null,
+  "verbs": {
+   "hablar": [
+    "habría hablado",
+    "habrías hablado",
+    "habría hablado",
+    "habríamos hablado",
+    "habríais hablado",
+    "habrían hablado"
+   ],
+   "comer": [
+    "habría comido",
+    "habrías comido",
+    "habría comido",
+    "habríamos comido",
+    "habríais comido",
+    "habrían comido"
+   ],
+   "vivir": [
+    "habría vivido",
+    "habrías vivido",
+    "habría vivido",
+    "habríamos vivido",
+    "habríais vivido",
+    "habrían vivido"
+   ],
+   "ser": [
+    "habría sido",
+    "habrías sido",
+    "habría sido",
+    "habríamos sido",
+    "habríais sido",
+    "habrían sido"
+   ],
+   "estar": [
+    "habría estado",
+    "habrías estado",
+    "habría estado",
+    "habríamos estado",
+    "habríais estado",
+    "habrían estado"
+   ],
+   "ir": [
+    "habría ido",
+    "habrías ido",
+    "habría ido",
+    "habríamos ido",
+    "habríais ido",
+    "habrían ido"
+   ],
+   "tener": [
+    "habría tenido",
+    "habrías tenido",
+    "habría tenido",
+    "habríamos tenido",
+    "habríais tenido",
+    "habrían tenido"
+   ],
+   "hacer": [
+    "habría hecho",
+    "habrías hecho",
+    "habría hecho",
+    "habríamos hecho",
+    "habríais hecho",
+    "habrían hecho"
+   ],
+   "poder": [
+    "habría podido",
+    "habrías podido",
+    "habría podido",
+    "habríamos podido",
+    "habríais podido",
+    "habrían podido"
+   ],
+   "decir": [
+    "habría dicho",
+    "habrías dicho",
+    "habría dicho",
+    "habríamos dicho",
+    "habríais dicho",
+    "habrían dicho"
+   ],
+   "querer": [
+    "habría querido",
+    "habrías querido",
+    "habría querido",
+    "habríamos querido",
+    "habríais querido",
+    "habrían querido"
+   ],
+   "dormir": [
+    "habría dormido",
+    "habrías dormido",
+    "habría dormido",
+    "habríamos dormido",
+    "habríais dormido",
+    "habrían dormido"
+   ]
+  }
+ },
+ "subjuntivo-presente": {
+  "kind": "simple",
+  "endings": {
+   "ar": [
+    "-e",
+    "-es",
+    "-e",
+    "-emos",
+    "-éis",
+    "-en"
+   ],
+   "er": [
+    "-a",
+    "-as",
+    "-a",
+    "-amos",
+    "-áis",
+    "-an"
+   ],
+   "ir": [
+    "-a",
+    "-as",
+    "-a",
+    "-amos",
+    "-áis",
+    "-an"
+   ]
+  },
+  "verbs": {
+   "hablar": [
+    "hable",
+    "hables",
+    "hable",
+    "hablemos",
+    "habléis",
+    "hablen"
+   ],
+   "comer": [
+    "coma",
+    "comas",
+    "coma",
+    "comamos",
+    "comáis",
+    "coman"
+   ],
+   "vivir": [
+    "viva",
+    "vivas",
+    "viva",
+    "vivamos",
+    "viváis",
+    "vivan"
+   ],
+   "ser": [
+    "sea",
+    "seas",
+    "sea",
+    "seamos",
+    "seáis",
+    "sean"
+   ],
+   "estar": [
+    "esté",
+    "estés",
+    "esté",
+    "estemos",
+    "estéis",
+    "estén"
+   ],
+   "ir": [
+    "vaya",
+    "vayas",
+    "vaya",
+    "vayamos",
+    "vayáis",
+    "vayan"
+   ],
+   "tener": [
+    "tenga",
+    "tengas",
+    "tenga",
+    "tengamos",
+    "tengáis",
+    "tengan"
+   ],
+   "hacer": [
+    "haga",
+    "hagas",
+    "haga",
+    "hagamos",
+    "hagáis",
+    "hagan"
+   ],
+   "poder": [
+    "pueda",
+    "puedas",
+    "pueda",
+    "podamos",
+    "podáis",
+    "puedan"
+   ],
+   "decir": [
+    "diga",
+    "digas",
+    "diga",
+    "digamos",
+    "digáis",
+    "digan"
+   ],
+   "querer": [
+    "quiera",
+    "quieras",
+    "quiera",
+    "queramos",
+    "queráis",
+    "quieran"
+   ],
+   "dormir": [
+    "duerma",
+    "duermas",
+    "duerma",
+    "durmamos",
+    "durmáis",
+    "duerman"
+   ]
+  }
+ },
+ "subjuntivo-imperfecto": {
+  "kind": "simple",
+  "endings": {
+   "ar": [
+    "-ara",
+    "-aras",
+    "-ara",
+    "-áramos",
+    "-arais",
+    "-aran"
+   ],
+   "er": [
+    "-iera",
+    "-ieras",
+    "-iera",
+    "-iéramos",
+    "-ierais",
+    "-ieran"
+   ],
+   "ir": [
+    "-iera",
+    "-ieras",
+    "-iera",
+    "-iéramos",
+    "-ierais",
+    "-ieran"
+   ]
+  },
+  "verbs": {
+   "hablar": [
+    "hablara",
+    "hablaras",
+    "hablara",
+    "habláramos",
+    "hablarais",
+    "hablaran"
+   ],
+   "comer": [
+    "comiera",
+    "comieras",
+    "comiera",
+    "comiéramos",
+    "comierais",
+    "comieran"
+   ],
+   "vivir": [
+    "viviera",
+    "vivieras",
+    "viviera",
+    "viviéramos",
+    "vivierais",
+    "vivieran"
+   ],
+   "ser": [
+    "fuera",
+    "fueras",
+    "fuera",
+    "fuéramos",
+    "fuerais",
+    "fueran"
+   ],
+   "estar": [
+    "estuviera",
+    "estuvieras",
+    "estuviera",
+    "estuviéramos",
+    "estuvierais",
+    "estuvieran"
+   ],
+   "ir": [
+    "fuera",
+    "fueras",
+    "fuera",
+    "fuéramos",
+    "fuerais",
+    "fueran"
+   ],
+   "tener": [
+    "tuviera",
+    "tuvieras",
+    "tuviera",
+    "tuviéramos",
+    "tuvierais",
+    "tuvieran"
+   ],
+   "hacer": [
+    "hiciera",
+    "hicieras",
+    "hiciera",
+    "hiciéramos",
+    "hicierais",
+    "hicieran"
+   ],
+   "poder": [
+    "pudiera",
+    "pudieras",
+    "pudiera",
+    "pudiéramos",
+    "pudierais",
+    "pudieran"
+   ],
+   "decir": [
+    "dijera",
+    "dijeras",
+    "dijera",
+    "dijéramos",
+    "dijerais",
+    "dijeran"
+   ],
+   "querer": [
+    "quisiera",
+    "quisieras",
+    "quisiera",
+    "quisiéramos",
+    "quisierais",
+    "quisieran"
+   ],
+   "dormir": [
+    "durmiera",
+    "durmieras",
+    "durmiera",
+    "durmiéramos",
+    "durmierais",
+    "durmieran"
+   ]
+  }
+ },
+ "subjuntivo-perfecto": {
+  "kind": "compound",
+  "endings": null,
+  "verbs": {
+   "hablar": [
+    "haya hablado",
+    "hayas hablado",
+    "haya hablado",
+    "hayamos hablado",
+    "hayáis hablado",
+    "hayan hablado"
+   ],
+   "comer": [
+    "haya comido",
+    "hayas comido",
+    "haya comido",
+    "hayamos comido",
+    "hayáis comido",
+    "hayan comido"
+   ],
+   "vivir": [
+    "haya vivido",
+    "hayas vivido",
+    "haya vivido",
+    "hayamos vivido",
+    "hayáis vivido",
+    "hayan vivido"
+   ],
+   "ser": [
+    "haya sido",
+    "hayas sido",
+    "haya sido",
+    "hayamos sido",
+    "hayáis sido",
+    "hayan sido"
+   ],
+   "estar": [
+    "haya estado",
+    "hayas estado",
+    "haya estado",
+    "hayamos estado",
+    "hayáis estado",
+    "hayan estado"
+   ],
+   "ir": [
+    "haya ido",
+    "hayas ido",
+    "haya ido",
+    "hayamos ido",
+    "hayáis ido",
+    "hayan ido"
+   ],
+   "tener": [
+    "haya tenido",
+    "hayas tenido",
+    "haya tenido",
+    "hayamos tenido",
+    "hayáis tenido",
+    "hayan tenido"
+   ],
+   "hacer": [
+    "haya hecho",
+    "hayas hecho",
+    "haya hecho",
+    "hayamos hecho",
+    "hayáis hecho",
+    "hayan hecho"
+   ],
+   "poder": [
+    "haya podido",
+    "hayas podido",
+    "haya podido",
+    "hayamos podido",
+    "hayáis podido",
+    "hayan podido"
+   ],
+   "decir": [
+    "haya dicho",
+    "hayas dicho",
+    "haya dicho",
+    "hayamos dicho",
+    "hayáis dicho",
+    "hayan dicho"
+   ],
+   "querer": [
+    "haya querido",
+    "hayas querido",
+    "haya querido",
+    "hayamos querido",
+    "hayáis querido",
+    "hayan querido"
+   ],
+   "dormir": [
+    "haya dormido",
+    "hayas dormido",
+    "haya dormido",
+    "hayamos dormido",
+    "hayáis dormido",
+    "hayan dormido"
+   ]
+  }
+ },
+ "subjuntivo-pluscuamperfecto": {
+  "kind": "compound",
+  "endings": null,
+  "verbs": {
+   "hablar": [
+    "hubiera hablado",
+    "hubieras hablado",
+    "hubiera hablado",
+    "hubiéramos hablado",
+    "hubierais hablado",
+    "hubieran hablado"
+   ],
+   "comer": [
+    "hubiera comido",
+    "hubieras comido",
+    "hubiera comido",
+    "hubiéramos comido",
+    "hubierais comido",
+    "hubieran comido"
+   ],
+   "vivir": [
+    "hubiera vivido",
+    "hubieras vivido",
+    "hubiera vivido",
+    "hubiéramos vivido",
+    "hubierais vivido",
+    "hubieran vivido"
+   ],
+   "ser": [
+    "hubiera sido",
+    "hubieras sido",
+    "hubiera sido",
+    "hubiéramos sido",
+    "hubierais sido",
+    "hubieran sido"
+   ],
+   "estar": [
+    "hubiera estado",
+    "hubieras estado",
+    "hubiera estado",
+    "hubiéramos estado",
+    "hubierais estado",
+    "hubieran estado"
+   ],
+   "ir": [
+    "hubiera ido",
+    "hubieras ido",
+    "hubiera ido",
+    "hubiéramos ido",
+    "hubierais ido",
+    "hubieran ido"
+   ],
+   "tener": [
+    "hubiera tenido",
+    "hubieras tenido",
+    "hubiera tenido",
+    "hubiéramos tenido",
+    "hubierais tenido",
+    "hubieran tenido"
+   ],
+   "hacer": [
+    "hubiera hecho",
+    "hubieras hecho",
+    "hubiera hecho",
+    "hubiéramos hecho",
+    "hubierais hecho",
+    "hubieran hecho"
+   ],
+   "poder": [
+    "hubiera podido",
+    "hubieras podido",
+    "hubiera podido",
+    "hubiéramos podido",
+    "hubierais podido",
+    "hubieran podido"
+   ],
+   "decir": [
+    "hubiera dicho",
+    "hubieras dicho",
+    "hubiera dicho",
+    "hubiéramos dicho",
+    "hubierais dicho",
+    "hubieran dicho"
+   ],
+   "querer": [
+    "hubiera querido",
+    "hubieras querido",
+    "hubiera querido",
+    "hubiéramos querido",
+    "hubierais querido",
+    "hubieran querido"
+   ],
+   "dormir": [
+    "hubiera dormido",
+    "hubieras dormido",
+    "hubiera dormido",
+    "hubiéramos dormido",
+    "hubierais dormido",
+    "hubieran dormido"
+   ]
+  }
+ },
+ "gerundio": {
+  "kind": "gerundio",
+  "verbs": {
+   "hablar": "hablando",
+   "comer": "comiendo",
+   "vivir": "viviendo",
+   "ser": "siendo",
+   "estar": "estando",
+   "ir": "yendo",
+   "tener": "teniendo",
+   "hacer": "haciendo",
+   "poder": "pudiendo",
+   "decir": "diciendo",
+   "querer": "queriendo",
+   "dormir": "durmiendo"
+  }
+ },
+ "participio": {
+  "kind": "participio",
+  "verbs": {
+   "hablar": "hablado",
+   "comer": "comido",
+   "vivir": "vivido",
+   "ser": "sido",
+   "estar": "estado",
+   "ir": "ido",
+   "tener": "tenido",
+   "hacer": "hecho",
+   "poder": "podido",
+   "decir": "dicho",
+   "querer": "querido",
+   "dormir": "dormido",
+   "ver": "visto",
+   "escribir": "escrito",
+   "abrir": "abierto",
+   "volver": "vuelto",
+   "poner": "puesto",
+   "romper": "roto"
+  }
+ },
+ "imperativo": {
+  "kind": "imperative",
+  "verbs": {
+   "hablar": {
+    "afirmativo": [
+     "-",
+     "habla",
+     "-",
+     "hablemos",
+     "hablad",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no hables",
+     "-",
+     "no hablemos",
+     "no habléis",
+     "-"
+    ]
+   },
+   "comer": {
+    "afirmativo": [
+     "-",
+     "come",
+     "-",
+     "comamos",
+     "comed",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no comas",
+     "-",
+     "no comamos",
+     "no comáis",
+     "-"
+    ]
+   },
+   "vivir": {
+    "afirmativo": [
+     "-",
+     "vive",
+     "-",
+     "vivamos",
+     "vivid",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no vivas",
+     "-",
+     "no vivamos",
+     "no viváis",
+     "-"
+    ]
+   },
+   "ser": {
+    "afirmativo": [
+     "-",
+     "sé",
+     "-",
+     "seamos",
+     "sed",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no seas",
+     "-",
+     "no seamos",
+     "no seáis",
+     "-"
+    ]
+   },
+   "estar": {
+    "afirmativo": [
+     "-",
+     "está",
+     "-",
+     "estemos",
+     "estad",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no estés",
+     "-",
+     "no estemos",
+     "no estéis",
+     "-"
+    ]
+   },
+   "ir": {
+    "afirmativo": [
+     "-",
+     "ve",
+     "-",
+     "vayamos",
+     "id",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no vayas",
+     "-",
+     "no vayamos",
+     "no vayáis",
+     "-"
+    ]
+   },
+   "tener": {
+    "afirmativo": [
+     "-",
+     "ten",
+     "-",
+     "tengamos",
+     "tened",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no tengas",
+     "-",
+     "no tengamos",
+     "no tengáis",
+     "-"
+    ]
+   },
+   "hacer": {
+    "afirmativo": [
+     "-",
+     "haz",
+     "-",
+     "hagamos",
+     "haced",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no hagas",
+     "-",
+     "no hagamos",
+     "no hagáis",
+     "-"
+    ]
+   },
+   "poder": {
+    "afirmativo": [
+     "-",
+     "puede",
+     "-",
+     "podamos",
+     "poded",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no puedas",
+     "-",
+     "no podamos",
+     "no podáis",
+     "-"
+    ]
+   },
+   "decir": {
+    "afirmativo": [
+     "-",
+     "di",
+     "-",
+     "digamos",
+     "decid",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no digas",
+     "-",
+     "no digamos",
+     "no digáis",
+     "-"
+    ]
+   },
+   "querer": {
+    "afirmativo": [
+     "-",
+     "quiere",
+     "-",
+     "queramos",
+     "quered",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no quieras",
+     "-",
+     "no queramos",
+     "no queráis",
+     "-"
+    ]
+   },
+   "dormir": {
+    "afirmativo": [
+     "-",
+     "duerme",
+     "-",
+     "durmamos",
+     "dormid",
+     "-"
+    ],
+    "negativo": [
+     "-",
+     "no duermas",
+     "-",
+     "no durmamos",
+     "no durmáis",
+     "-"
+    ]
+   }
+  }
+ }
+}
