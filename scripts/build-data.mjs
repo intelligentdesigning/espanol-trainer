@@ -8,7 +8,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { analyze, conjugatePresentAll, difficultyTier } from "../lib/conjugation/engine.mjs";
+import { analyze, conjugatePresentAll, conjugateImperfectoAll, difficultyTier } from "../lib/conjugation/engine.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -175,8 +175,9 @@ ranked.forEach((k, i) => {
   if (pos === "verb") {
     const a = analyze(r.es);
     const present = conjugatePresentAll(r.es);
+    const imperfecto = conjugateImperfectoAll(r.es);
     diff = difficultyTier(a.irregularityScore, rank);
-    if (a.confident && present) {
+    if (a.confident && present && imperfecto) {
       verbForms++;
       verbs.push({
         inf: r.es,
@@ -184,7 +185,7 @@ ranked.forEach((k, i) => {
         rank,
         irr: a.irregularityScore,
         tier: diff,
-        present,
+        tenses: { presente: present, imperfecto },
       });
     } else {
       unhandledVerbs.push(r.es);
@@ -228,7 +229,7 @@ if (unhandledVerbs.length) {
 console.log("\nsample conjugations (eyeball check):");
 for (const inf of ["hablar", "comer", "vivir", "pensar", "poder", "pedir", "tener", "ser", "ir", "conocer", "jugar", "construir"]) {
   const v = verbs.find((x) => x.inf === inf);
-  console.log("  ", inf.padEnd(12), v ? v.present.join(", ") : "(not in set)");
+  console.log("  ", inf.padEnd(12), v ? `PRES ${v.tenses.presente.join(", ")} | IMP ${v.tenses.imperfecto.join(", ")}` : "(not in set)");
 }
 const MUST = "ser estar tener hacer ir ver dar bueno casa agua uno dos rojo lunes".split(" ");
 const present = new Set(vocab.map((v) => v.es.toLowerCase()));

@@ -7,18 +7,20 @@ import { loadVerbs } from "@/lib/data";
 import { addSession, recordResult } from "@/lib/storage/db";
 import {
   PERSON_LABELS,
+  TENSE_LABELS,
   buildConjSession,
   checkConjugation,
   type ConjQuestion,
 } from "@/lib/conjugation/trainer";
-import type { Tier } from "@/lib/types";
+import type { TenseKey, Tier } from "@/lib/types";
 
 type Phase = "setup" | "run" | "done";
 type Status = "idle" | "right" | "wrong";
 
-export function ConjugationTrainer() {
+export function ConjugationTrainer({ initialTense = "presente" }: { initialTense?: TenseKey }) {
   const { t, locale } = useI18n();
   const [phase, setPhase] = useState<Phase>("setup");
+  const [tense, setTense] = useState<TenseKey>(initialTense);
   const [tier, setTier] = useState<Tier>(1);
   const [questions, setQuestions] = useState<ConjQuestion[]>([]);
   const [idx, setIdx] = useState(0);
@@ -38,7 +40,7 @@ export function ConjugationTrainer() {
 
   const start = async (chosen: Tier) => {
     const verbs = await loadVerbs();
-    const qs = buildConjSession(verbs, chosen, 15);
+    const qs = buildConjSession(verbs, chosen, 15, tense);
     setTier(chosen);
     setQuestions(qs);
     setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
@@ -50,11 +52,25 @@ export function ConjugationTrainer() {
   if (phase === "setup") {
     return (
       <div className="space-y-6">
-        <Link href="/grammatik/zeitformen/presente" className="text-sm text-muted hover:text-foreground">← {t("nav.grammar")}</Link>
+        <Link href="/grammatik/zeitformen" className="text-sm text-muted hover:text-foreground">← {t("grammar.area.zeitformen")}</Link>
         <div>
           <h1 className="text-2xl font-bold tracking-tight">{t("conj.title")}</h1>
-          <p className="mt-1 text-muted">{t("conj.pickDifficulty")} · Presente</p>
+          <p className="mt-1 text-muted">{t("conj.pickTense")}</p>
         </div>
+        <div className="flex gap-2">
+          {(["presente", "imperfecto"] as TenseKey[]).map((tk) => (
+            <button
+              key={tk}
+              onClick={() => setTense(tk)}
+              className={`flex-1 rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
+                tense === tk ? "border-brand bg-brand/10 text-brand" : "border-border text-muted hover:bg-foreground/5"
+              }`}
+            >
+              {TENSE_LABELS[tk]}
+            </button>
+          ))}
+        </div>
+        <p className="text-sm font-medium text-muted">{t("conj.pickDifficulty")} · {TENSE_LABELS[tense]}</p>
         <div className="grid gap-3">
           {([1, 2, 3, 4] as Tier[]).map((tr) => (
             <button
@@ -138,7 +154,7 @@ export function ConjugationTrainer() {
 
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         <div className="text-xs font-semibold uppercase tracking-wide text-muted">
-          {t("conj.prompt")} · Presente
+          {t("conj.prompt")} · {TENSE_LABELS[tense]}
         </div>
         <div className="mt-3 text-3xl font-bold text-brand" lang="es">{q.infinitive}</div>
         <div className="mt-1 text-sm text-muted">{q.meaning}</div>

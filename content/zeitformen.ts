@@ -116,8 +116,68 @@ export const zeitformen: TenseTopic[] = [
   // --- listed but not yet authored (coming in later phases) ---
   stub("preterito-indefinido", "Indefinido (pretérito indefinido)", "Preterite (pretérito indefinido)", "Indikativ", "Indicative",
     "Abgeschlossene Handlungen in der Vergangenheit.", "Completed actions in the past."),
-  stub("preterito-imperfecto", "Imperfekt (pretérito imperfecto)", "Imperfect (pretérito imperfecto)", "Indikativ", "Indicative",
-    "Gewohnheiten und Beschreibungen in der Vergangenheit.", "Past habits and descriptions."),
+  {
+    id: "preterito-imperfecto",
+    name: { de: "Imperfekt (pretérito imperfecto)", en: "Imperfect (pretérito imperfecto)" },
+    shortName: { de: "Imperfekt", en: "Imperfect" },
+    mood: { de: "Indikativ", en: "Indicative" },
+    summary: {
+      de: "Vergangenes ohne klares Ende: Gewohnheiten, wiederholte Handlungen, Beschreibungen, Alter/Uhrzeit/Wetter – „ich pflegte / war gerade dabei“.",
+      en: "The unbounded past: habits, repeated actions, descriptions, age/time/weather – “used to / was doing”.",
+    },
+    rules: [
+      {
+        id: "regular",
+        title: { de: "Regelmäßige Bildung", en: "Regular formation" },
+        body: {
+          de: "Sehr regelmäßig: -ar → -aba-Endungen; -er und -ir → identische -ía-Endungen.",
+          en: "Very regular: -ar → -aba endings; -er and -ir share the same -ía endings.",
+        },
+        examples: [
+          { es: "hablar → hablaba, hablabas …", gloss: { de: "ich sprach (immer) …", en: "I used to speak …" } },
+          { es: "comer → comía, comías …", gloss: { de: "ich aß (immer) …", en: "I used to eat …" } },
+          { es: "vivir → vivía, vivías …", gloss: { de: "ich lebte (damals) …", en: "I used to live …" } },
+        ],
+      },
+      {
+        id: "irregular",
+        title: { de: "Nur drei unregelmäßige Verben", en: "Only three irregular verbs" },
+        body: {
+          de: "Im Imperfekt sind nur ser, ir und ver unregelmäßig – sonst keine Ausnahmen, keine Stammwechsel.",
+          en: "Only ser, ir and ver are irregular in the imperfect – no other exceptions, no stem changes.",
+        },
+        examples: [
+          { es: "ser → era, eras, era, éramos, erais, eran", gloss: { de: "war/warst …", en: "was/were …" } },
+          { es: "ir → iba, ibas, iba, íbamos, ibais, iban", gloss: { de: "ging (immer) …", en: "used to go …" } },
+          { es: "ver → veía, veías, veía …", gloss: { de: "sah (immer) …", en: "used to see …" } },
+        ],
+      },
+      {
+        id: "use",
+        title: { de: "Verwendung", en: "Usage" },
+        body: {
+          de: "Gewohnheiten/Wiederholung in der Vergangenheit, Beschreibungen, gleichzeitige Hintergrund­handlungen, Alter, Uhrzeit und Wetter.",
+          en: "Past habits/repetition, descriptions, simultaneous background actions, age, time of day and weather.",
+        },
+        examples: [
+          { es: "De niño jugaba al fútbol.", gloss: { de: "Als Kind spielte ich Fußball.", en: "As a child I played football." }, note: { de: "Gewohnheit", en: "habit" } },
+          { es: "Eran las tres y llovía.", gloss: { de: "Es war drei Uhr und es regnete.", en: "It was three o'clock and it was raining." }, note: { de: "Uhrzeit + Beschreibung", en: "time + description" } },
+        ],
+      },
+    ],
+    endings: {
+      label: { de: "Regelmäßige Endungen", en: "Regular endings" },
+      ar: ["-aba", "-abas", "-aba", "-ábamos", "-abais", "-aban"],
+      er: ["-ía", "-ías", "-ía", "-íamos", "-íais", "-ían"],
+      ir: ["-ía", "-ías", "-ía", "-íamos", "-íais", "-ían"],
+    },
+    examples: [
+      { es: "Antes vivíamos en Madrid.", gloss: { de: "Früher wohnten wir in Madrid.", en: "We used to live in Madrid." } },
+      { es: "Siempre comíamos juntos.", gloss: { de: "Wir aßen immer zusammen.", en: "We always ate together." } },
+    ],
+    practiceTenseKey: "imperfecto",
+    available: true,
+  },
   stub("preterito-perfecto", "Perfekt (pretérito perfecto)", "Present perfect (pretérito perfecto)", "Indikativ", "Indicative",
     "haber (Präsens) + Partizip; jüngste Vergangenheit.", "haber (present) + participle; recent past."),
   stub("pluscuamperfecto", "Plusquamperfekt", "Past perfect (pluscuamperfecto)", "Indikativ", "Indicative",

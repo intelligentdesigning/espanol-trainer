@@ -33,6 +33,7 @@ export const ui = {
     "vocab.mode.commonEnEs": "Häufigste Wörter · EN → ES",
     "vocab.mode.commonEnEs.desc": "Englisches Wort sehen, spanische Übersetzung tippen.",
     "vocab.mode.verbs": "Nur Verben",
+    "vocab.mode.verbs.desc": "Nur Verben: spanisches Verb → englische Bedeutung.",
     "vocab.mode.nouns": "Nur Nomen",
     "vocab.mode.adj": "Nur Adjektive",
 
@@ -118,6 +119,7 @@ export const ui = {
     "vocab.mode.commonEnEs": "Most common · EN → ES",
     "vocab.mode.commonEnEs.desc": "See the English word, type the Spanish translation.",
     "vocab.mode.verbs": "Verbs only",
+    "vocab.mode.verbs.desc": "Verbs only: Spanish verb → English meaning.",
     "vocab.mode.nouns": "Nouns only",
     "vocab.mode.adj": "Adjectives only",
 

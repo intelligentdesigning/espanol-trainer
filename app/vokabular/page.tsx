@@ -19,8 +19,14 @@ export default function VokabularPage() {
       desc: t("vocab.mode.commonEnEs.desc"),
       badge: "EN → ES",
     },
+    {
+      href: "/vokabular/quiz?mode=verbs&dir=es-en",
+      title: t("vocab.mode.verbs"),
+      desc: t("vocab.mode.verbs.desc"),
+      badge: "ES → EN",
+    },
   ];
-  const soon = [t("vocab.mode.verbs"), t("vocab.mode.nouns"), t("vocab.mode.adj")];
+  const soon = [t("vocab.mode.nouns"), t("vocab.mode.adj")];
 
   return (
     <div className="space-y-6">

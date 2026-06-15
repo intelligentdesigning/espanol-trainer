@@ -1,4 +1,9 @@
-import type { Locale, Tier, VerbItem } from "@/lib/types";
+import type { Locale, TenseKey, Tier, VerbItem } from "@/lib/types";
+
+export const TENSE_LABELS: Record<TenseKey, string> = {
+  presente: "Presente",
+  imperfecto: "Imperfecto",
+};
 
 export const PERSON_LABELS: Record<Locale, string[]> = {
   de: [
@@ -12,7 +17,7 @@ export const PERSON_LABELS: Record<Locale, string[]> = {
 };
 
 export interface ConjQuestion {
-  itemKey: string;       // conj:<inf>:presente:<person>
+  itemKey: string;       // conj:<inf>:<tense>:<person>
   infinitive: string;
   meaning: string;       // English clue of the verb
   person: number;        // 0..5
@@ -34,8 +39,13 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-export function buildConjSession(verbs: VerbItem[], tier: Tier, count: number): ConjQuestion[] {
-  const pool = verbs.filter((v) => v.tier === tier);
+export function buildConjSession(
+  verbs: VerbItem[],
+  tier: Tier,
+  count: number,
+  tense: TenseKey
+): ConjQuestion[] {
+  const pool = verbs.filter((v) => v.tier === tier && v.tenses[tense]);
   if (pool.length === 0) return [];
   const questions: ConjQuestion[] = [];
   // Sample verbs with replacement if the pool is small, varying the person each time.
@@ -44,11 +54,11 @@ export function buildConjSession(verbs: VerbItem[], tier: Tier, count: number): 
     const v = order[i % order.length];
     const person = Math.floor(Math.random() * 6);
     questions.push({
-      itemKey: `conj:${v.inf}:presente:${person}`,
+      itemKey: `conj:${v.inf}:${tense}:${person}`,
       infinitive: v.inf,
       meaning: v.en,
       person,
-      expected: v.present[person],
+      expected: v.tenses[tense][person],
     });
   }
   return questions;

@@ -22,14 +22,17 @@ export interface VocabItem {
   diff: Tier;
 }
 
-/** One row of public/data/verbs.json (present-tense trainer pool) */
+/** Conjugation tenses currently supported by the trainer. */
+export type TenseKey = "presente" | "imperfecto";
+
+/** One row of public/data/verbs.json (conjugation trainer pool) */
 export interface VerbItem {
   inf: string;
   en: string;
   rank: number;
   irr: number;        // 0..5 irregularity score
   tier: Tier;
-  present: string[];  // 6 forms: yo, tú, él/ella, nosotros, vosotros, ellos
+  tenses: Record<TenseKey, string[]>; // each: 6 forms yo..ellos
 }
 
 export interface VocabIndex {
