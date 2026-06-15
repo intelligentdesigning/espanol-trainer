@@ -14,6 +14,8 @@ import {
   type ConjQuestion,
   type FormKey,
 } from "@/lib/conjugation/trainer";
+import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
+import { ScoreRing } from "@/components/ScoreRing";
 import type { Tier } from "@/lib/types";
 
 type Phase = "setup" | "run" | "done";
@@ -30,7 +32,7 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
   const [status, setStatus] = useState<Status>("idle");
   const [correct, setCorrect] = useState(0);
   const startedAt = useRef(Date.now());
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<SpanishInputHandle>(null);
 
   useEffect(() => {
     if (phase === "run" && status === "idle") inputRef.current?.focus();
@@ -92,15 +94,10 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
 
   if (phase === "done") {
     const total = questions.length;
-    const pct = Math.round((correct / total) * 100);
     return (
       <div className="mx-auto max-w-md space-y-6 text-center">
-        <div className="text-5xl">{pct >= 80 ? "🎉" : pct >= 50 ? "👍" : "💪"}</div>
         <h1 className="text-2xl font-bold">{t("quiz.result.title")}</h1>
-        <div className="rounded-2xl border border-border bg-card p-6">
-          <div className="text-4xl font-bold text-brand">{correct}/{total}</div>
-          <div className="mt-1 text-sm text-muted">{pct}%</div>
-        </div>
+        <div className="flex justify-center"><ScoreRing correct={correct} total={total} /></div>
         <div className="flex justify-center gap-3">
           <button onClick={() => start(tier)} className="rounded-lg bg-brand px-4 py-2 font-medium text-white hover:opacity-90">
             {t("quiz.result.again")}
@@ -165,17 +162,14 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
         </div>
       </div>
 
-      <form onSubmit={(e) => { e.preventDefault(); submit(); }} className="space-y-3">
-        <input
+      <div className="space-y-3">
+        <SpanishInput
           ref={inputRef}
           value={input}
-          onChange={(e) => setInput(e.target.value)}
+          onChange={setInput}
+          onEnter={submit}
           disabled={status !== "idle"}
           placeholder={t("quiz.placeholder")}
-          lang="es"
-          autoComplete="off"
-          autoCapitalize="off"
-          spellCheck={false}
           className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${
             status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-brand"
           }`}
@@ -190,10 +184,10 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
           </div>
         )}
 
-        <button type="submit" className="w-full rounded-xl bg-brand px-4 py-3 font-semibold text-white hover:opacity-90">
+        <button type="button" onClick={submit} className="w-full rounded-xl bg-brand px-4 py-3 font-semibold text-white hover:opacity-90">
           {status === "idle" ? t("common.check") : t("common.continue")}
         </button>
-      </form>
+      </div>
       <p className="text-center text-xs text-muted">{t("conj.tip.accents")}</p>
     </div>
   );

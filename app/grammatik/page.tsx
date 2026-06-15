@@ -2,14 +2,15 @@
 
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
+import { IconLetters, IconClock, IconShapes, IconArrowRight } from "@/components/icons";
 
 export default function GrammatikPage() {
   const { t } = useI18n();
 
   const areas = [
-    { href: "/grammatik/grundregeln", icon: "🔤", title: t("grammar.area.grundregeln"), desc: t("grammar.area.grundregeln.desc"), enabled: true },
-    { href: "/grammatik/zeitformen", icon: "⏱️", title: t("grammar.area.zeitformen"), desc: t("grammar.area.zeitformen.desc"), enabled: true },
-    { href: "/grammatik/andere", icon: "🧩", title: t("grammar.area.andere"), desc: t("grammar.area.andere.desc"), enabled: true },
+    { href: "/grammatik/grundregeln", Icon: IconLetters, title: t("grammar.area.grundregeln"), desc: t("grammar.area.grundregeln.desc") },
+    { href: "/grammatik/zeitformen", Icon: IconClock, title: t("grammar.area.zeitformen"), desc: t("grammar.area.zeitformen.desc") },
+    { href: "/grammatik/andere", Icon: IconShapes, title: t("grammar.area.andere"), desc: t("grammar.area.andere.desc") },
   ];
 
   return (
@@ -20,32 +21,22 @@ export default function GrammatikPage() {
       </div>
 
       <div className="grid gap-3">
-        {areas.map((a) =>
-          a.enabled ? (
-            <Link
-              key={a.title}
-              href={a.href}
-              className="group flex items-start gap-4 rounded-xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
-            >
-              <span className="text-2xl">{a.icon}</span>
-              <div>
-                <div className="font-semibold group-hover:text-brand">{a.title}</div>
-                <div className="mt-0.5 text-sm text-muted">{a.desc}</div>
-              </div>
-            </Link>
-          ) : (
-            <div key={a.title} className="flex items-start gap-4 rounded-xl border border-dashed border-border p-5 opacity-70">
-              <span className="text-2xl grayscale">{a.icon}</span>
-              <div>
-                <div className="flex items-center gap-2 font-semibold">
-                  {a.title}
-                  <span className="rounded-full bg-foreground/5 px-2 py-0.5 text-[10px] font-semibold uppercase">{t("common.comingSoon")}</span>
-                </div>
-                <div className="mt-0.5 text-sm text-muted">{a.desc}</div>
-              </div>
+        {areas.map((a) => (
+          <Link
+            key={a.title}
+            href={a.href}
+            className="group flex items-center gap-4 rounded-xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+          >
+            <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
+              <a.Icon className="h-6 w-6" />
+            </span>
+            <div className="flex-1">
+              <div className="font-semibold group-hover:text-brand">{a.title}</div>
+              <div className="mt-0.5 text-sm text-muted">{a.desc}</div>
             </div>
-          )
-        )}
+            <IconArrowRight className="h-5 w-5 text-muted transition-colors group-hover:text-brand" />
+          </Link>
+        ))}
       </div>
     </div>
   );

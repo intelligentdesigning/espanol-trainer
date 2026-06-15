@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
+import { IconArrowRight } from "@/components/icons";
 import { zeitformen } from "@/content/zeitformen";
 
 export default function ZeitformenIndex() {
@@ -15,8 +16,8 @@ export default function ZeitformenIndex() {
         href="/grammatik/uebung/konjugation"
         className="flex items-center justify-between rounded-xl bg-brand px-5 py-4 font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
       >
-        🎯 {t("conj.title")}
-        <span>→</span>
+        {t("conj.title")}
+        <IconArrowRight className="h-5 w-5" />
       </Link>
 
       <div className="grid gap-2">

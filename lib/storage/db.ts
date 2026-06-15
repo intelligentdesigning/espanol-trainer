@@ -3,7 +3,7 @@
 import type { ItemKind, ProgressRecord, SessionRecord } from "@/lib/types";
 
 const DB_NAME = "espanol-trainer";
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 const LEITNER_DAYS = [0, 1, 2, 4, 8, 16];
 
 let dbPromise: Promise<IDBDatabase> | null = null;
@@ -25,6 +25,9 @@ function openDB(): Promise<IDBDatabase> {
       }
       if (!db.objectStoreNames.contains("meta")) {
         db.createObjectStore("meta", { keyPath: "key" });
+      }
+      if (!db.objectStoreNames.contains("notebook")) {
+        db.createObjectStore("notebook", { keyPath: "id" });
       }
     };
     req.onsuccess = () => resolve(req.result);
@@ -142,5 +145,32 @@ export async function resetAll(): Promise<void> {
   try {
     await tx("progress", "readwrite", (s) => s.clear());
     await tx("sessions", "readwrite", (s) => s.clear());
+  } catch {}
+}
+
+// --- Vokabelheft (personal notebook) ---------------------------------------
+export interface NotebookEntry {
+  id: string;
+  es: string;
+  de: string;
+  en: string;
+  createdAt: number;
+  updatedAt: number;
+}
+
+export async function getNotebook(): Promise<NotebookEntry[]> {
+  const all = await getAll<NotebookEntry>("notebook");
+  return all.sort((a, b) => a.createdAt - b.createdAt);
+}
+
+export async function saveNote(entry: NotebookEntry): Promise<void> {
+  try {
+    await tx("notebook", "readwrite", (s) => s.put(entry));
+  } catch {}
+}
+
+export async function deleteNote(id: string): Promise<void> {
+  try {
+    await tx("notebook", "readwrite", (s) => s.delete(id));
   } catch {}
 }

@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
 import { checkPractice } from "@/lib/practice";
 import { recordResult, addSession } from "@/lib/storage/db";
+import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
+import { ScoreRing } from "@/components/ScoreRing";
 import type { PracticeItem } from "@/lib/types";
 
 type Status = "idle" | "right" | "wrong";
@@ -30,7 +32,7 @@ export function GrammarPractice({ topicId, items }: { topicId: string; items: Pr
   const [correct, setCorrect] = useState(0);
   const [done, setDone] = useState(false);
   const startedAt = useRef(Date.now());
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<SpanishInputHandle>(null);
 
   useEffect(() => {
     if (started && status === "idle") inputRef.current?.focus();
@@ -44,17 +46,16 @@ export function GrammarPractice({ topicId, items }: { topicId: string; items: Pr
         onClick={() => { setStarted(true); startedAt.current = Date.now(); }}
         className="w-full rounded-xl bg-brand px-5 py-4 text-center font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
       >
-        🎯 {t("practice.start")} ({items.length})
+        {t("practice.start")} ({items.length})
       </button>
     );
   }
 
   if (done) {
-    const pct = Math.round((correct / items.length) * 100);
     return (
       <div className="rounded-2xl border border-border bg-card p-6 text-center">
-        <div className="text-3xl">{pct >= 80 ? "🎉" : pct >= 50 ? "👍" : "💪"}</div>
-        <div className="mt-2 text-2xl font-bold text-brand">{correct}/{items.length}</div>
+        <ScoreRing correct={correct} total={items.length} size={112} />
+        <br />
         <button
           onClick={() => { setStarted(true); setDone(false); setIdx(0); setInput(""); setPicked(null); setStatus("idle"); setCorrect(0); startedAt.current = Date.now(); }}
           className="mt-4 rounded-lg bg-brand px-4 py-2 font-medium text-white hover:opacity-90"
@@ -132,25 +133,22 @@ export function GrammarPractice({ topicId, items }: { topicId: string; items: Pr
             })}
           </div>
         ) : (
-          <form onSubmit={(e) => { e.preventDefault(); status === "idle" ? answer(input) : next(); }} className="mt-4 flex gap-2">
-            <input
+          <div className="mt-4 space-y-2">
+            <SpanishInput
               ref={inputRef}
               value={input}
-              onChange={(e) => setInput(e.target.value)}
+              onChange={setInput}
+              onEnter={() => (status === "idle" ? answer(input) : next())}
               disabled={status !== "idle"}
               placeholder={t("quiz.placeholder")}
-              lang="es"
-              autoComplete="off"
-              autoCapitalize="off"
-              spellCheck={false}
-              className={`flex-1 rounded-lg border-2 bg-card px-3 py-2 outline-none ${
+              className={`w-full rounded-lg border-2 bg-card px-3 py-2 outline-none ${
                 status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-brand"
               }`}
             />
             {status === "idle" && (
-              <button type="submit" className="rounded-lg bg-brand px-4 py-2 font-semibold text-white hover:opacity-90">{t("common.check")}</button>
+              <button type="button" onClick={() => answer(input)} className="w-full rounded-lg bg-brand px-4 py-2 font-semibold text-white hover:opacity-90">{t("common.check")}</button>
             )}
-          </form>
+          </div>
         )}
       </div>
 

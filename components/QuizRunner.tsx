@@ -6,6 +6,8 @@ import { useI18n } from "@/lib/i18n/locale";
 import { loadVocab } from "@/lib/data";
 import { buildSession, checkAnswer, type QuizConfig, type QuizQuestion } from "@/lib/quiz";
 import { recordResult, addSession } from "@/lib/storage/db";
+import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
+import { ScoreRing } from "@/components/ScoreRing";
 
 type Status = "idle" | "right" | "wrong";
 
@@ -19,7 +21,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
   const [streak, setStreak] = useState(0);
   const [finished, setFinished] = useState(false);
   const startedAt = useRef(Date.now());
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<SpanishInputHandle>(null);
 
   useEffect(() => {
     loadVocab().then((v) => setQuestions(buildSession(v, config)));
@@ -71,15 +73,10 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
   };
 
   if (finished) {
-    const pct = Math.round((correctCount / total) * 100);
     return (
       <div className="mx-auto max-w-md space-y-6 text-center">
-        <div className="text-5xl">{pct >= 80 ? "🎉" : pct >= 50 ? "👍" : "💪"}</div>
         <h1 className="text-2xl font-bold">{t("quiz.result.title")}</h1>
-        <div className="rounded-2xl border border-border bg-card p-6">
-          <div className="text-4xl font-bold text-vocab">{correctCount}/{total}</div>
-          <div className="mt-1 text-sm text-muted">{pct}%</div>
-        </div>
+        <div className="flex justify-center"><ScoreRing correct={correctCount} total={total} /></div>
         <div className="flex justify-center gap-3">
           <button
             onClick={() => {
@@ -105,7 +102,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
       {/* progress */}
       <div className="flex items-center justify-between text-sm text-muted">
         <span>{idx + 1} / {total}</span>
-        <span>{t("quiz.score")}: <b className="text-foreground">{correctCount}</b>{streak >= 2 && <span className="ml-2">🔥{streak}</span>}</span>
+        <span>{t("quiz.score")}: <b className="text-foreground">{correctCount}</b>{streak >= 2 && <span className="ml-2 rounded-full bg-brand/10 px-2 py-0.5 text-xs font-semibold text-brand">×{streak}</span>}</span>
       </div>
       <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
         <div className="h-full bg-vocab transition-all" style={{ width: `${(idx / total) * 100}%` }} />
@@ -117,20 +114,15 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
         <div className="mt-3 text-3xl font-bold" lang={config.direction === "es-en" ? "es" : "en"}>{q.prompt}</div>
       </div>
 
-      <form
-        onSubmit={(e) => { e.preventDefault(); submit(); }}
-        className="space-y-3"
-      >
-        <input
+      <div className="space-y-3">
+        <SpanishInput
           ref={inputRef}
           value={input}
-          onChange={(e) => setInput(e.target.value)}
+          onChange={setInput}
+          onEnter={submit}
           disabled={status !== "idle"}
           placeholder={t("quiz.placeholder")}
-          lang={config.direction === "es-en" ? "en" : "es"}
-          autoComplete="off"
-          autoCapitalize="off"
-          spellCheck={false}
+          showAccents={config.direction === "en-es"}
           className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${
             status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-vocab"
           }`}
@@ -147,7 +139,8 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
 
         <div className="flex gap-2">
           <button
-            type="submit"
+            type="button"
+            onClick={submit}
             className="flex-1 rounded-xl bg-vocab px-4 py-3 font-semibold text-white hover:opacity-90"
           >
             {status === "idle" ? t("common.check") : t("common.continue")}
@@ -162,7 +155,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
             </button>
           )}
         </div>
-      </form>
+      </div>
     </div>
   );
 }

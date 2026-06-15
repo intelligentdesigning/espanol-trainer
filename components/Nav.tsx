@@ -12,6 +12,7 @@ export function Nav() {
     { href: "/", key: "nav.home" },
     { href: "/vokabular", key: "nav.vocab" },
     { href: "/grammatik", key: "nav.grammar" },
+    { href: "/vokabelheft", key: "nav.notebook" },
     { href: "/stats", key: "nav.stats" },
   ];
 
@@ -20,12 +21,12 @@ export function Nav() {
 
   return (
     <header className="sticky top-0 z-10 border-b border-border bg-background/85 backdrop-blur">
-      <div className="mx-auto flex max-w-3xl items-center gap-1 px-4 py-3">
-        <Link href="/" className="mr-auto flex items-center gap-2 font-bold tracking-tight">
-          <span className="text-brand">●</span>
+      <div className="mx-auto flex max-w-3xl items-center gap-2 px-4 py-3">
+        <Link href="/" className="flex shrink-0 items-center gap-2 font-bold tracking-tight">
+          <span className="inline-block h-2.5 w-2.5 rounded-full bg-brand" />
           <span>Español</span>
         </Link>
-        <nav className="flex items-center gap-1">
+        <nav className="flex flex-1 items-center gap-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {links.map((l) => (
             <Link
               key={l.href}
@@ -39,14 +40,14 @@ export function Nav() {
               {t(l.key)}
             </Link>
           ))}
-          <button
-            onClick={toggle}
-            aria-label={t("lang.label")}
-            className="ml-1 rounded-md border border-border px-2 py-1.5 text-xs font-semibold text-muted hover:text-foreground"
-          >
-            {locale === "de" ? "EN" : "DE"}
-          </button>
         </nav>
+        <button
+          onClick={toggle}
+          aria-label={t("lang.label")}
+          className="shrink-0 rounded-md border border-border px-2 py-1.5 text-xs font-semibold text-muted hover:text-foreground"
+        >
+          {locale === "de" ? "EN" : "DE"}
+        </button>
       </div>
     </header>
   );
