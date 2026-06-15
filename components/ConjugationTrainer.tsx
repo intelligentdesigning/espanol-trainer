@@ -181,6 +181,7 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
             {status === "wrong" && (
               <div className="mt-1 text-foreground" lang="es">{t("conj.answerWas")} <b>{q.expected}</b></div>
             )}
+            <div className="mt-1 text-foreground">{t("quiz.meaning")}: <b>{q.meaning}</b></div>
           </div>
         )}
 
