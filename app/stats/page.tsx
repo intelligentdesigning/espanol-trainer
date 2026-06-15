@@ -26,11 +26,12 @@ export default function StatsPage() {
         <p className="text-muted">{t("stats.none")}</p>
       ) : (
         <>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
             <Stat label={t("stats.totalQuestions")} value={String(stats!.totalQuestions)} />
             <Stat label={t("stats.accuracy")} value={`${stats!.accuracy}%`} />
             <Stat label={t("stats.wordsSeen")} value={String(stats!.vocabSeen)} />
             <Stat label={t("stats.verbsSeen")} value={String(stats!.verbSeen)} />
+            <Stat label={t("stats.grammarSeen")} value={String(stats!.grammarSeen)} />
           </div>
 
           {sessions.length > 0 && (

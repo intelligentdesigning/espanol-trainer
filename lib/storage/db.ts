@@ -111,6 +111,7 @@ export interface Stats {
   accuracy: number;
   vocabSeen: number;
   verbSeen: number;
+  grammarSeen: number;
 }
 
 export async function getStats(): Promise<Stats> {
@@ -119,11 +120,13 @@ export async function getStats(): Promise<Stats> {
   let totalCorrect = 0;
   let vocabSeen = 0;
   let verbSeen = 0;
+  let grammarSeen = 0;
   for (const p of progress) {
     totalQuestions += p.seen;
     totalCorrect += p.correct;
     if (p.kind === "vocab") vocabSeen += 1;
-    else verbSeen += 1;
+    else if (p.kind === "conj") verbSeen += 1;
+    else grammarSeen += 1;
   }
   return {
     totalQuestions,
@@ -131,6 +134,7 @@ export async function getStats(): Promise<Stats> {
     accuracy: totalQuestions ? Math.round((totalCorrect / totalQuestions) * 100) : 0,
     vocabSeen,
     verbSeen,
+    grammarSeen,
   };
 }
 

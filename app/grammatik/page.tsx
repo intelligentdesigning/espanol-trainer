@@ -9,7 +9,7 @@ export default function GrammatikPage() {
   const areas = [
     { href: "/grammatik/grundregeln", icon: "🔤", title: t("grammar.area.grundregeln"), desc: t("grammar.area.grundregeln.desc"), enabled: true },
     { href: "/grammatik/zeitformen", icon: "⏱️", title: t("grammar.area.zeitformen"), desc: t("grammar.area.zeitformen.desc"), enabled: true },
-    { href: "#", icon: "🧩", title: t("grammar.area.andere"), desc: t("grammar.area.andere.desc"), enabled: false },
+    { href: "/grammatik/andere", icon: "🧩", title: t("grammar.area.andere"), desc: t("grammar.area.andere.desc"), enabled: true },
   ];
 
   return (

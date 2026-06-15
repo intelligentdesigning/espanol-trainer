@@ -109,7 +109,7 @@ export interface TenseTopic {
 }
 
 // --- Local progress / SRS (IndexedDB) --------------------------------------
-export type ItemKind = "vocab" | "conj";
+export type ItemKind = "vocab" | "conj" | "grammar";
 export interface ProgressRecord {
   itemKey: string;   // stable, e.g. "vocab:casa" | "conj:hablar:presente:1"
   kind: ItemKind;
