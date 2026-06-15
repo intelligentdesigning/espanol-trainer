@@ -8,6 +8,7 @@ import { addSession, recordResult } from "@/lib/storage/db";
 import {
   PERSON_LABELS,
   TENSE_LABELS,
+  TENSE_GROUPS,
   buildConjSession,
   checkConjugation,
   type ConjQuestion,
@@ -57,19 +58,19 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
           <h1 className="text-2xl font-bold tracking-tight">{t("conj.title")}</h1>
           <p className="mt-1 text-muted">{t("conj.pickTense")}</p>
         </div>
-        <div className="flex gap-2">
-          {(["presente", "imperfecto"] as TenseKey[]).map((tk) => (
-            <button
-              key={tk}
-              onClick={() => setTense(tk)}
-              className={`flex-1 rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
-                tense === tk ? "border-brand bg-brand/10 text-brand" : "border-border text-muted hover:bg-foreground/5"
-              }`}
-            >
-              {TENSE_LABELS[tk]}
-            </button>
+        <select
+          value={tense}
+          onChange={(e) => setTense(e.target.value as TenseKey)}
+          className="w-full rounded-lg border border-border bg-card px-3 py-2.5 text-sm font-semibold outline-none focus:border-brand"
+        >
+          {TENSE_GROUPS.map((g) => (
+            <optgroup key={g.mood} label={g.mood}>
+              {g.keys.map((k) => (
+                <option key={k} value={k}>{TENSE_LABELS[k]}</option>
+              ))}
+            </optgroup>
           ))}
-        </div>
+        </select>
         <p className="text-sm font-medium text-muted">{t("conj.pickDifficulty")} · {TENSE_LABELS[tense]}</p>
         <div className="grid gap-3">
           {([1, 2, 3, 4] as Tier[]).map((tr) => (

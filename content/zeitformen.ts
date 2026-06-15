@@ -175,7 +175,7 @@ export const zeitformen: TenseTopic[] = [
       { es: "Antes vivíamos en Madrid.", gloss: { de: "Früher wohnten wir in Madrid.", en: "We used to live in Madrid." } },
       { es: "Siempre comíamos juntos.", gloss: { de: "Wir aßen immer zusammen.", en: "We always ate together." } },
     ],
-    practiceTenseKey: "imperfecto",
+    practiceTenseKey: "preterito-imperfecto",
     available: true,
   },
   stub("preterito-perfecto", "Perfekt (pretérito perfecto)", "Present perfect (pretérito perfecto)", "Indikativ", "Indicative",

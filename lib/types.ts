@@ -22,8 +22,21 @@ export interface VocabItem {
   diff: Tier;
 }
 
-/** Conjugation tenses currently supported by the trainer. */
-export type TenseKey = "presente" | "imperfecto";
+/** Six-person conjugation tenses supported by the trainer (keys match content ids). */
+export type TenseKey =
+  | "presente"
+  | "preterito-imperfecto"
+  | "preterito-indefinido"
+  | "futuro"
+  | "condicional"
+  | "preterito-perfecto"
+  | "pluscuamperfecto"
+  | "futuro-perfecto"
+  | "condicional-perfecto"
+  | "subjuntivo-presente"
+  | "subjuntivo-imperfecto"
+  | "subjuntivo-perfecto"
+  | "subjuntivo-pluscuamperfecto";
 
 /** One row of public/data/verbs.json (conjugation trainer pool) */
 export interface VerbItem {
@@ -32,7 +45,9 @@ export interface VerbItem {
   rank: number;
   irr: number;        // 0..5 irregularity score
   tier: Tier;
-  tenses: Record<TenseKey, string[]>; // each: 6 forms yo..ellos
+  tenses: Record<TenseKey, string[]>;          // each: 6 forms yo..ellos
+  nonfinite: { gerundio: string; participio: string };
+  imperative: { afirmativo: string[]; negativo: string[] }; // 6 with "-" placeholders
 }
 
 export interface VocabIndex {

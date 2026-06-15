@@ -11,6 +11,14 @@ export default function ZeitformenIndex() {
       <Link href="/grammatik" className="text-sm text-muted hover:text-foreground">← {t("nav.grammar")}</Link>
       <h1 className="text-2xl font-bold tracking-tight">{t("grammar.area.zeitformen")}</h1>
 
+      <Link
+        href="/grammatik/uebung/konjugation"
+        className="flex items-center justify-between rounded-xl bg-brand px-5 py-4 font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
+      >
+        🎯 {t("conj.title")}
+        <span>→</span>
+      </Link>
+
       <div className="grid gap-2">
         {zeitformen.map((tn) =>
           tn.available ? (

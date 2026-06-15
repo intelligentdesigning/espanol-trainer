@@ -1,9 +1,38 @@
 import type { Locale, TenseKey, Tier, VerbItem } from "@/lib/types";
 
 export const TENSE_LABELS: Record<TenseKey, string> = {
-  presente: "Presente",
-  imperfecto: "Imperfecto",
+  "presente": "Presente",
+  "preterito-imperfecto": "Pretérito imperfecto",
+  "preterito-indefinido": "Pretérito indefinido",
+  "futuro": "Futuro simple",
+  "condicional": "Condicional simple",
+  "preterito-perfecto": "Pretérito perfecto",
+  "pluscuamperfecto": "Pluscuamperfecto",
+  "futuro-perfecto": "Futuro perfecto",
+  "condicional-perfecto": "Condicional perfecto",
+  "subjuntivo-presente": "Subjuntivo presente",
+  "subjuntivo-imperfecto": "Subjuntivo imperfecto",
+  "subjuntivo-perfecto": "Subjuntivo perfecto",
+  "subjuntivo-pluscuamperfecto": "Subjuntivo pluscuamperfecto",
 };
+
+export const TENSE_GROUPS: { mood: string; keys: TenseKey[] }[] = [
+  {
+    mood: "Indicativo",
+    keys: [
+      "presente", "preterito-imperfecto", "preterito-indefinido", "futuro",
+      "condicional", "preterito-perfecto", "pluscuamperfecto",
+      "futuro-perfecto", "condicional-perfecto",
+    ],
+  },
+  {
+    mood: "Subjuntivo",
+    keys: [
+      "subjuntivo-presente", "subjuntivo-imperfecto",
+      "subjuntivo-perfecto", "subjuntivo-pluscuamperfecto",
+    ],
+  },
+];
 
 export const PERSON_LABELS: Record<Locale, string[]> = {
   de: [

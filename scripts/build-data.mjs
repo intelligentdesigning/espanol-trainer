@@ -8,7 +8,38 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
-import { analyze, conjugatePresentAll, conjugateImperfectoAll, difficultyTier } from "../lib/conjugation/engine.mjs";
+import { analyze, difficultyTier } from "../lib/conjugation/engine.mjs";
+import pkg from "@jirimracek/conjugate-esp";
+
+const { Conjugator } = pkg;
+const conjugator = new Conjugator();
+
+// Map our content tense-ids -> the library's mood/tense fields (all 6-person).
+const TENSE_MAP = {
+  "presente": (c) => c.Indicativo.Presente,
+  "preterito-imperfecto": (c) => c.Indicativo.PreteritoImperfecto,
+  "preterito-indefinido": (c) => c.Indicativo.PreteritoIndefinido,
+  "futuro": (c) => c.Indicativo.FuturoImperfecto,
+  "condicional": (c) => c.Indicativo.CondicionalSimple,
+  "preterito-perfecto": (c) => c.Indicativo.PreteritoPerfecto,
+  "pluscuamperfecto": (c) => c.Indicativo.PreteritoPluscuamperfecto,
+  "futuro-perfecto": (c) => c.Indicativo.FuturoPerfecto,
+  "condicional-perfecto": (c) => c.Indicativo.CondicionalCompuesto,
+  "subjuntivo-presente": (c) => c.Subjuntivo.Presente,
+  "subjuntivo-imperfecto": (c) => c.Subjuntivo.PreteritoImperfectoRa,
+  "subjuntivo-perfecto": (c) => c.Subjuntivo.PreteritoPerfecto,
+  "subjuntivo-pluscuamperfecto": (c) => c.Subjuntivo.PreteritoPluscuamperfectoRa,
+};
+
+function conjugateAll(infinitive) {
+  try {
+    const res = conjugator.conjugateSync(infinitive);
+    if (!res || !res.length) return null;
+    return res[0].conjugation;
+  } catch {
+    return null;
+  }
+}
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -174,18 +205,21 @@ ranked.forEach((k, i) => {
   let diff = freqTier(rank);
   if (pos === "verb") {
     const a = analyze(r.es);
-    const present = conjugatePresentAll(r.es);
-    const imperfecto = conjugateImperfectoAll(r.es);
     diff = difficultyTier(a.irregularityScore, rank);
-    if (a.confident && present && imperfecto) {
+    const conj = conjugateAll(r.es);
+    if (conj) {
       verbForms++;
+      const tenses = {};
+      for (const [key, fn] of Object.entries(TENSE_MAP)) tenses[key] = fn(conj);
       verbs.push({
         inf: r.es,
         en: r.clue,
         rank,
         irr: a.irregularityScore,
         tier: diff,
-        tenses: { presente: present, imperfecto },
+        tenses,
+        nonfinite: { gerundio: conj.Impersonal.Gerundio, participio: conj.Impersonal.Participio },
+        imperative: { afirmativo: conj.Imperativo.Afirmativo, negativo: conj.Imperativo.Negativo },
       });
     } else {
       unhandledVerbs.push(r.es);
@@ -226,10 +260,13 @@ if (unhandledVerbs.length) {
   console.log(`verbs excluded from trainer (low confidence): ${unhandledVerbs.length}`);
   console.log("  ", unhandledVerbs.slice(0, 30).join(", "));
 }
-console.log("\nsample conjugations (eyeball check):");
-for (const inf of ["hablar", "comer", "vivir", "pensar", "poder", "pedir", "tener", "ser", "ir", "conocer", "jugar", "construir"]) {
+console.log("\ntenses per verb:", Object.keys(TENSE_MAP).length, "(+ gerundio/participio + imperative)");
+console.log("sample conjugations (eyeball check, yo/él/ellos):");
+for (const inf of ["hablar", "tener", "ser", "ir", "hacer", "decir", "poder", "dormir", "leer"]) {
   const v = verbs.find((x) => x.inf === inf);
-  console.log("  ", inf.padEnd(12), v ? `PRES ${v.tenses.presente.join(", ")} | IMP ${v.tenses.imperfecto.join(", ")}` : "(not in set)");
+  if (!v) { console.log("  ", inf, "(not in set)"); continue; }
+  const p = (t) => `${v.tenses[t][0]}/${v.tenses[t][2]}/${v.tenses[t][5]}`;
+  console.log("  ", inf.padEnd(9), "indef:", p("preterito-indefinido").padEnd(26), "fut:", v.tenses.futuro[0].padEnd(10), "subjPres:", v.tenses["subjuntivo-presente"][0].padEnd(10), "part:", v.nonfinite.participio);
 }
 const MUST = "ser estar tener hacer ir ver dar bueno casa agua uno dos rojo lunes".split(" ");
 const present = new Set(vocab.map((v) => v.es.toLowerCase()));
