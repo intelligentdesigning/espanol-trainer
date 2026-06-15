@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
 import { SpanishInput } from "@/components/SpanishInput";
+import { NotebookQuiz } from "@/components/NotebookQuiz";
 import { suggestSpanish } from "@/lib/data";
 import { getNotebook, saveNote, deleteNote, type NotebookEntry } from "@/lib/storage/db";
 
@@ -15,6 +16,7 @@ export function Notebook() {
   const [en, setEn] = useState("");
   const [suggestion, setSuggestion] = useState<{ es: string; en: string } | null>(null);
   const [query, setQuery] = useState("");
+  const [mode, setMode] = useState<"list" | "quiz">("list");
 
   useEffect(() => {
     getNotebook().then((n) => { setNotes(n); setLoaded(true); });
@@ -64,12 +66,29 @@ export function Notebook() {
   }, [notes, query]);
 
   const cell = "rounded-lg border border-border bg-card px-3 py-2 text-sm outline-none focus:border-brand";
+  const usable = notes.filter((n) => n.es.trim() && (n.de.trim() || n.en.trim())).length;
+
+  if (mode === "quiz") {
+    return (
+      <div className="space-y-6">
+        <h1 className="text-2xl font-bold tracking-tight">{t("notebook.title")}</h1>
+        <NotebookQuiz entries={notes} onExit={() => setMode("list")} />
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold tracking-tight">{t("notebook.title")}</h1>
-        <p className="mt-1 text-muted">{t("notebook.subtitle")}</p>
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <h1 className="text-2xl font-bold tracking-tight">{t("notebook.title")}</h1>
+          <p className="mt-1 text-muted">{t("notebook.subtitle")}</p>
+        </div>
+        {usable >= 4 && (
+          <button onClick={() => setMode("quiz")} className="shrink-0 rounded-lg bg-vocab px-4 py-2 text-sm font-semibold text-white hover:opacity-90">
+            {t("notebook.practice")}
+          </button>
+        )}
       </div>
 
       {/* add form */}

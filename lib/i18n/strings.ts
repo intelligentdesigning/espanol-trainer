@@ -31,6 +31,9 @@ export const ui = {
     "notebook.delete": "Löschen",
     "notebook.count": "Wörter",
     "notebook.search": "Suchen …",
+    "notebook.practice": "Üben",
+    "notebook.list": "Liste",
+    "notebook.needMore": "Mindestens 4 Wörter mit Übersetzung nötig.",
 
     "common.start": "Start",
     "common.back": "Zurück",
@@ -137,6 +140,9 @@ export const ui = {
     "notebook.delete": "Delete",
     "notebook.count": "words",
     "notebook.search": "Search …",
+    "notebook.practice": "Practice",
+    "notebook.list": "List",
+    "notebook.needMore": "Need at least 4 words with a translation.",
 
     "common.start": "Start",
     "common.back": "Back",

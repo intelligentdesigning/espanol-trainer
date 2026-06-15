@@ -14,19 +14,19 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das presente de indicativo (Präsens) beschreibt Gewohnheiten, allgemeine Tatsachen und aktuelle Zustände in der Gegenwart und wird im Spanischen oft auch für die nahe Zukunft verwendet.",
-   "en": "The presente de indicativo (present indicative) describes habits, general truths and current states in the present, and in Spanish it is also commonly used for the near future."
+   "de": "Für Gewohnheiten, allgemeine Wahrheiten, aktuelle Zustände und die nahe Zukunft.",
+   "en": "For habits, general truths, current states, and the near future."
   },
   "rules": [
    {
-    "id": "regular",
+    "id": "regular-endings",
     "title": {
-     "de": "Regelmäßige Bildung (-ar, -er, -ir)",
-     "en": "Regular formation (-ar, -er, -ir)"
+     "de": "Regelmäßige Endungen",
+     "en": "Regular endings"
     },
     "body": {
-     "de": "Bei regelmäßigen Verben streicht man die Endung -ar, -er oder -ir vom Infinitiv und hängt die passende Personalendung an den Stamm. -ar: -o, -as, -a, -amos, -áis, -an; -er: -o, -es, -e, -emos, -éis, -en; -ir: -o, -es, -e, -imos, -ís, -en. -er und -ir unterscheiden sich nur in der 1./2. Person Plural.",
-     "en": "For regular verbs you drop the -ar, -er or -ir ending of the infinitive and add the matching personal ending to the stem. -ar: -o, -as, -a, -amos, -áis, -an; -er: -o, -es, -e, -emos, -éis, -en; -ir: -o, -es, -e, -imos, -ís, -en. -er and -ir differ only in the 1st/2nd person plural."
+     "de": "Stamm plus -ar, -er oder -ir Endungen; -er und -ir sind fast gleich.",
+     "en": "Stem plus -ar, -er, or -ir endings; -er and -ir are nearly identical."
     },
     "examples": [
      {
@@ -36,8 +36,8 @@
        "en": "I speak Spanish every day."
       },
       "note": {
-       "de": "hablar (-ar): yo-Form auf -o.",
-       "en": "hablar (-ar): yo form ends in -o."
+       "de": "-ar: Gewohnheit",
+       "en": "-ar: habit"
       }
      },
      {
@@ -47,8 +47,8 @@
        "en": "We eat at two."
       },
       "note": {
-       "de": "comer (-er): nosotros auf -emos.",
-       "en": "comer (-er): nosotros ends in -emos."
+       "de": "-er: nosotros",
+       "en": "-er: nosotros"
       }
      },
      {
@@ -58,102 +58,67 @@
        "en": "Where do you live?"
       },
       "note": {
-       "de": "vivir (-ir): tú auf -es.",
-       "en": "vivir (-ir): tú ends in -es."
+       "de": "-ir Form",
+       "en": "-ir form"
       }
      }
     ]
    },
    {
-    "id": "uses",
+    "id": "stem-change",
     "title": {
-     "de": "Gebrauch: Gewohnheiten, Tatsachen, nahe Zukunft",
-     "en": "Use: habits, facts, near future"
+     "de": "Stammwechsel",
+     "en": "Stem change"
     },
     "body": {
-     "de": "Das Präsens steht für regelmäßige Gewohnheiten, allgemeingültige Tatsachen und Zustände jetzt. Sehr typisch fürs Spanische: Es ersetzt oft das Futur, wenn die Handlung bald passiert oder schon geplant ist.",
-     "en": "The present is used for regular habits, general truths and states right now. Very typical of Spanish: it often replaces the future tense when the action happens soon or is already planned."
+     "de": "Vokal ändert sich (e>ie, o>ue, e>i, u>ue), außer bei nosotros und vosotros.",
+     "en": "Stem vowel changes (e>ie, o>ue, e>i, u>ue) except in nosotros and vosotros."
     },
     "examples": [
      {
-      "es": "El sol sale por el este.",
+      "es": "Quiero un café, pero queremos agua.",
       "gloss": {
-       "de": "Die Sonne geht im Osten auf.",
-       "en": "The sun rises in the east."
+       "de": "Ich will einen Kaffee, aber wir wollen Wasser.",
+       "en": "I want a coffee, but we want water."
       },
       "note": {
-       "de": "Allgemeine Tatsache.",
-       "en": "General truth."
+       "de": "e>ie, nosotros normal",
+       "en": "e>ie, nosotros plain"
       }
      },
      {
-      "es": "Mañana hablo con María.",
+      "es": "No puedo dormir bien.",
       "gloss": {
-       "de": "Morgen spreche ich mit María.",
-       "en": "Tomorrow I'll talk to María."
+       "de": "Ich kann nicht gut schlafen.",
+       "en": "I can't sleep well."
       },
       "note": {
-       "de": "Präsens für die nahe Zukunft.",
-       "en": "Present used for the near future."
+       "de": "o>ue",
+       "en": "o>ue"
+      }
+     },
+     {
+      "es": "Él siempre dice la verdad.",
+      "gloss": {
+       "de": "Er sagt immer die Wahrheit.",
+       "en": "He always tells the truth."
+      },
+      "note": {
+       "de": "e>i",
+       "en": "e>i"
       }
      }
     ]
    },
    {
-    "id": "stemchange",
+    "id": "irregular-yo",
     "title": {
-     "de": "Diphthongierung im Stamm (e>ie, o>ue, e>i, u>ue)",
-     "en": "Stem changes (e>ie, o>ue, e>i, u>ue)"
+     "de": "Unregelmäßiges yo",
+     "en": "Irregular yo"
     },
     "body": {
-     "de": "Bei vielen Verben ändert sich der betonte Stammvokal in allen Formen außer nosotros und vosotros, weil dort die Betonung auf der Endung liegt. Typische Wechsel: e>ie (querer: quiero), o>ue (poder: puedo; dormir: duermo), e>i (decir: dice). Im Infinitiv und bei nosotros/vosotros bleibt der ursprüngliche Vokal (queremos, podemos, dormimos).",
-     "en": "In many verbs the stressed stem vowel changes in all forms except nosotros and vosotros, because there the stress falls on the ending. Typical changes: e>ie (querer: quiero), o>ue (poder: puedo; dormir: duermo), e>i (decir: dice). The infinitive and the nosotros/vosotros forms keep the original vowel (queremos, podemos, dormimos)."
-    },
-    "examples": [
-     {
-      "es": "Quiero un café.",
-      "gloss": {
-       "de": "Ich möchte einen Kaffee.",
-       "en": "I want a coffee."
-      },
-      "note": {
-       "de": "querer: e>ie, aber queremos bleibt.",
-       "en": "querer: e>ie, but queremos stays."
-      }
-     },
-     {
-      "es": "No puedo ahora, pero podemos mañana.",
-      "gloss": {
-       "de": "Ich kann jetzt nicht, aber wir können morgen.",
-       "en": "I can't now, but we can tomorrow."
-      },
-      "note": {
-       "de": "poder: puedo (o>ue) vs. podemos (kein Wechsel).",
-       "en": "poder: puedo (o>ue) vs. podemos (no change)."
-      }
-     },
-     {
-      "es": "Los niños duermen mucho.",
-      "gloss": {
-       "de": "Die Kinder schlafen viel.",
-       "en": "The children sleep a lot."
-      },
-      "note": {
-       "de": "dormir: o>ue (duermen).",
-       "en": "dormir: o>ue (duermen)."
-      }
-     }
-    ]
-   },
-   {
-    "id": "irregularyo",
-    "title": {
-     "de": "Unregelmäßige yo-Form (-go, -zco)",
-     "en": "Irregular yo form (-go, -zco)"
-    },
-    "body": {
-     "de": "Manche Verben sind nur in der 1. Person Singular (yo) unregelmäßig, der Rest folgt dem normalen Muster. Häufig endet die yo-Form auf -go (tener: tengo, hacer: hago) oder auf -zco (conocer: conozco). Achtung: tener und decir haben zusätzlich noch einen Stammwechsel in den anderen Formen (tienes, dices).",
-     "en": "Some verbs are irregular only in the 1st person singular (yo); the rest follows the normal pattern. The yo form often ends in -go (tener: tengo, hacer: hago) or -zco (conocer: conozco). Note: tener and decir additionally have a stem change in the other forms (tienes, dices)."
+     "de": "Viele Verben haben nur in der yo-Form -go (tengo, hago); Rest oft normal.",
+     "en": "Many verbs take -go only in the yo form (tengo, hago); rest often regular."
     },
     "examples": [
      {
@@ -163,54 +128,89 @@
        "en": "I have two siblings."
       },
       "note": {
-       "de": "tener: yo tengo (-go); tú tienes (e>ie).",
-       "en": "tener: yo tengo (-go); tú tienes (e>ie)."
+       "de": "yo: -go",
+       "en": "yo: -go"
       }
      },
      {
-      "es": "Hago la cena los lunes.",
+      "es": "Hago la cena hoy.",
       "gloss": {
-       "de": "Montags mache ich das Abendessen.",
-       "en": "On Mondays I make dinner."
+       "de": "Ich mache heute das Abendessen.",
+       "en": "I'm making dinner today."
       },
       "note": {
-       "de": "hacer: nur yo unregelmäßig (hago), hace regelmäßig.",
-       "en": "hacer: only yo is irregular (hago), hace is regular."
+       "de": "nur yo irregulär",
+       "en": "only yo irregular"
       }
      }
     ]
    },
    {
-    "id": "fullyirregular",
+    "id": "fully-irregular",
     "title": {
-     "de": "Komplett unregelmäßig: ser, estar, ir",
-     "en": "Fully irregular: ser, estar, ir"
+     "de": "Ganz unregelmäßig",
+     "en": "Fully irregular"
     },
     "body": {
-     "de": "Einige Schlüsselverben muss man als Ganzes lernen. ser (dauerhafte Eigenschaften): soy, eres, es, somos, sois, son. estar (Ort, vorübergehende Zustände): estoy, estás, está, estamos, estáis, están. ir (gehen): voy, vas, va, vamos, vais, van. Mit ir + a + Infinitiv drückt man die nahe Zukunft aus.",
-     "en": "A few key verbs must be learned as whole forms. ser (permanent qualities): soy, eres, es, somos, sois, son. estar (location, temporary states): estoy, estás, está, estamos, estáis, están. ir (to go): voy, vas, va, vamos, vais, van. With ir + a + infinitive you express the near future."
+     "de": "ser, estar, ir haben eigene Formen und müssen auswendig gelernt werden.",
+     "en": "ser, estar, and ir have unique forms you must memorize."
     },
     "examples": [
      {
       "es": "Soy de Alemania y estoy en Madrid.",
       "gloss": {
-       "de": "Ich bin aus Deutschland und bin (gerade) in Madrid.",
+       "de": "Ich bin aus Deutschland und bin in Madrid.",
        "en": "I'm from Germany and I'm in Madrid."
       },
       "note": {
-       "de": "ser für Herkunft, estar für Ort.",
-       "en": "ser for origin, estar for location."
+       "de": "ser vs. estar",
+       "en": "ser vs. estar"
       }
      },
      {
-      "es": "Vamos a comer ahora.",
+      "es": "Vamos al cine esta noche.",
       "gloss": {
-       "de": "Wir gehen jetzt essen / Wir werden jetzt essen.",
-       "en": "We're going to eat now."
+       "de": "Wir gehen heute Abend ins Kino.",
+       "en": "We're going to the cinema tonight."
       },
       "note": {
-       "de": "ir + a + Infinitiv = nahe Zukunft.",
-       "en": "ir + a + infinitive = near future."
+       "de": "ir: vamos",
+       "en": "ir: vamos"
+      }
+     }
+    ]
+   },
+   {
+    "id": "near-future",
+    "title": {
+     "de": "Nahe Zukunft",
+     "en": "Near future"
+    },
+    "body": {
+     "de": "Das Präsens drückt auch geplante, baldige Handlungen aus.",
+     "en": "The present also expresses planned, upcoming actions."
+    },
+    "examples": [
+     {
+      "es": "Mañana voy a la playa.",
+      "gloss": {
+       "de": "Morgen gehe ich an den Strand.",
+       "en": "Tomorrow I'm going to the beach."
+      },
+      "note": {
+       "de": "Zukunft mit Präsens",
+       "en": "future via present"
+      }
+     },
+     {
+      "es": "Esta tarde como con María.",
+      "gloss": {
+       "de": "Heute Nachmittag esse ich mit María.",
+       "en": "This afternoon I'm eating with María."
+      },
+      "note": {
+       "de": "geplant",
+       "en": "planned"
       }
      }
     ]
@@ -218,47 +218,31 @@
   ],
   "examples": [
    {
-    "es": "Todos los días como fruta y bebo agua.",
+    "es": "Los niños duermen ocho horas.",
     "gloss": {
-     "de": "Jeden Tag esse ich Obst und trinke Wasser.",
-     "en": "Every day I eat fruit and drink water."
-    },
-    "note": {
-     "de": "Gewohnheit; comer regelmäßig (-er).",
-     "en": "Habit; comer is regular (-er)."
+     "de": "Die Kinder schlafen acht Stunden.",
+     "en": "The children sleep eight hours."
     }
    },
    {
-    "es": "Mi hermana es profesora y vive en Sevilla.",
+    "es": "El sol sale por el este.",
     "gloss": {
-     "de": "Meine Schwester ist Lehrerin und wohnt in Sevilla.",
-     "en": "My sister is a teacher and lives in Seville."
-    },
-    "note": {
-     "de": "ser (Eigenschaft) + vivir (regelmäßig).",
-     "en": "ser (quality) + vivir (regular)."
+     "de": "Die Sonne geht im Osten auf.",
+     "en": "The sun rises in the east."
     }
    },
    {
-    "es": "¿Qué quieres hacer hoy?",
+    "es": "¿Qué haces los fines de semana?",
     "gloss": {
-     "de": "Was möchtest du heute machen?",
-     "en": "What do you want to do today?"
-    },
-    "note": {
-     "de": "querer: e>ie (quieres) + Infinitiv hacer.",
-     "en": "querer: e>ie (quieres) + infinitive hacer."
+     "de": "Was machst du am Wochenende?",
+     "en": "What do you do on weekends?"
     }
    },
    {
-    "es": "Esta noche vamos al cine.",
+    "es": "Ahora mismo estamos cansados.",
     "gloss": {
-     "de": "Heute Abend gehen wir ins Kino.",
-     "en": "Tonight we're going to the cinema."
-    },
-    "note": {
-     "de": "ir (vamos) im Präsens für die nahe Zukunft.",
-     "en": "ir (vamos) in the present for the near future."
+     "de": "Gerade jetzt sind wir müde.",
+     "en": "Right now we are tired."
     }
    }
   ],
@@ -310,135 +294,151 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das pretérito imperfecto beschreibt die Vergangenheit als andauernd, gewohnheitsmäßig oder wiederholt: frühere Gewohnheiten und wiederkehrende Handlungen, Beschreibungen und Hintergrund einer Szene sowie Alter, Uhrzeit und Wetter. Es zeigt, wie etwas war oder pflegte zu sein, ohne den Anfang oder das Ende zu betonen.",
-   "en": "The pretérito imperfecto describes the past as ongoing, habitual or repeated: former habits and recurring actions, descriptions and background of a scene, plus age, time of day and weather. It tells how things used to be, without focusing on a clear start or end."
+   "de": "Für gewohnheitsmäßige oder wiederholte Handlungen in der Vergangenheit sowie für Beschreibungen, Hintergrund, Alter, Uhrzeit und Wetter.",
+   "en": "For habitual or repeated past actions, plus descriptions, background, age, time and weather."
   },
   "rules": [
    {
-    "id": "formation-regular",
+    "id": "uses",
     "title": {
-     "de": "Bildung: regelmäßige Endungen -aba und -ía",
-     "en": "Formation: regular endings -aba and -ía"
+     "de": "Wann man es benutzt",
+     "en": "When to use it"
     },
     "body": {
-     "de": "Man hängt feste Endungen an den Wortstamm. Verben auf -ar bekommen die Endungen -aba, -abas, -aba, -ábamos, -abais, -aban. Verben auf -er und -ir teilen sich die Endungen -ía, -ías, -ía, -íamos, -íais, -ían. Es gibt keine Stammänderungen.",
-     "en": "Attach fixed endings to the stem. -ar verbs take -aba, -abas, -aba, -ábamos, -abais, -aban. -er and -ir verbs share -ía, -ías, -ía, -íamos, -íais, -ían. There are no stem changes."
+     "de": "Für frühere Gewohnheiten, wiederholte Handlungen, Beschreibungen, Hintergrund sowie Alter, Uhrzeit und Wetter.",
+     "en": "For past habits, repeated actions, descriptions, background, and age, time and weather."
     },
     "examples": [
      {
-      "es": "Yo hablaba mucho.",
+      "es": "De niño, hablaba mucho.",
       "gloss": {
-       "de": "Ich redete viel.",
-       "en": "I used to talk a lot."
+       "de": "Als Kind redete ich viel.",
+       "en": "As a child, I talked a lot."
       },
       "note": {
-       "de": "hablar (-ar) → hablaba",
-       "en": "hablar (-ar) → hablaba"
+       "de": "frühere Gewohnheit",
+       "en": "past habit"
       }
      },
      {
-      "es": "Nosotros comíamos juntos.",
+      "es": "Llovía y hacía frío.",
       "gloss": {
-       "de": "Wir aßen zusammen.",
-       "en": "We used to eat together."
+       "de": "Es regnete und es war kalt.",
+       "en": "It was raining and cold."
       },
       "note": {
-       "de": "comer (-er) → comíamos",
-       "en": "comer (-er) → comíamos"
-      }
-     },
-     {
-      "es": "Ella vivía en Madrid.",
-      "gloss": {
-       "de": "Sie wohnte in Madrid.",
-       "en": "She used to live in Madrid."
-      },
-      "note": {
-       "de": "vivir (-ir) → vivía",
-       "en": "vivir (-ir) → vivía"
+       "de": "Wetter",
+       "en": "weather"
       }
      }
     ]
    },
    {
-    "id": "habits-repetition",
+    "id": "regular-aba",
     "title": {
-     "de": "Gewohnheiten und wiederholte Handlungen",
-     "en": "Habits and repeated actions"
+     "de": "-ar-Verben: -aba",
+     "en": "-ar verbs: -aba"
     },
     "body": {
-     "de": "Für Dinge, die man früher regelmäßig oder immer wieder tat. Typische Signalwörter sind siempre (immer), todos los días (jeden Tag) oder a menudo (oft). Im Deutschen oft mit \"immer\" oder \"früher\".",
-     "en": "For things one used to do regularly or over and over. Typical signal words are siempre (always), todos los días (every day) or a menudo (often). English often uses \"used to\" or \"would\"."
+     "de": "-ar-Verben bilden das Imperfekt mit -aba, -abas, -aba, -ábamos, -abais, -aban.",
+     "en": "-ar verbs take -aba, -abas, -aba, -ábamos, -abais, -aban."
     },
     "examples": [
      {
-      "es": "Todos los días comíamos a las dos.",
+      "es": "Hablábamos español en casa.",
       "gloss": {
-       "de": "Jeden Tag aßen wir um zwei.",
-       "en": "Every day we used to eat at two."
-      },
-      "note": {
-       "de": "wiederholte Gewohnheit",
-       "en": "repeated habit"
+       "de": "Wir sprachen zu Hause Spanisch.",
+       "en": "We spoke Spanish at home."
       }
      },
      {
-      "es": "De niño, yo dormía mucho.",
+      "es": "Ella estaba cansada.",
       "gloss": {
-       "de": "Als Kind schlief ich viel.",
-       "en": "As a child, I used to sleep a lot."
+       "de": "Sie war müde.",
+       "en": "She was tired."
       },
       "note": {
-       "de": "dormir hat im Imperfekt keine Stammänderung",
-       "en": "dormir has no stem change in the imperfect"
+       "de": "Beschreibung",
+       "en": "description"
       }
      }
     ]
    },
    {
-    "id": "description-background",
+    "id": "regular-ia",
     "title": {
-     "de": "Beschreibung und Hintergrund",
-     "en": "Description and background"
+     "de": "-er/-ir-Verben: -ía",
+     "en": "-er/-ir verbs: -ía"
     },
     "body": {
-     "de": "Zum Beschreiben von Personen, Orten, Gefühlen und Umständen in der Vergangenheit. Es malt die Kulisse einer Szene, statt einzelne abgeschlossene Ereignisse zu erzählen.",
-     "en": "To describe people, places, feelings and circumstances in the past. It paints the setting of a scene rather than narrating single completed events."
+     "de": "-er- und -ir-Verben teilen sich dieselben Endungen: -ía, -ías, -ía, -íamos, -íais, -ían.",
+     "en": "-er and -ir verbs share the same endings: -ía, -ías, -ía, -íamos, -íais, -ían."
     },
     "examples": [
      {
-      "es": "La casa era grande.",
+      "es": "Comíamos juntos cada día.",
       "gloss": {
-       "de": "Das Haus war groß.",
-       "en": "The house was big."
+       "de": "Wir aßen jeden Tag zusammen.",
+       "en": "We ate together every day."
       },
       "note": {
-       "de": "ser → era (Beschreibung)",
-       "en": "ser → era (description)"
+       "de": "wiederholt",
+       "en": "repeated"
       }
      },
      {
-      "es": "Yo estaba cansado y quería dormir.",
+      "es": "Vivía cerca del mar.",
       "gloss": {
-       "de": "Ich war müde und wollte schlafen.",
-       "en": "I was tired and wanted to sleep."
-      },
-      "note": {
-       "de": "Zustand + Wunsch als Hintergrund",
-       "en": "state + wish as background"
+       "de": "Ich wohnte in Meeresnähe.",
+       "en": "I lived near the sea."
       }
      }
     ]
    },
    {
-    "id": "age-time-weather",
+    "id": "irregulars",
     "title": {
-     "de": "Alter, Uhrzeit und Wetter",
-     "en": "Age, time and weather"
+     "de": "Nur ser, ir, ver unregelmäßig",
+     "en": "Only ser, ir, ver irregular"
     },
     "body": {
-     "de": "Für Alter (tener), Uhrzeit (ser) und Wetterangaben in der Vergangenheit nimmt man fast immer das Imperfekt. Die Uhrzeit steht im Singular era la una, sonst eran las ...",
-     "en": "For age (tener), telling the time (ser) and weather in the past, the imperfect is almost always used. For one o'clock use era la una, otherwise eran las ..."
+     "de": "Nur ser (era), ir (iba) und ver sind unregelmäßig; alle anderen Verben folgen der Regel.",
+     "en": "Only ser (era), ir (iba) and ver are irregular; every other verb is regular."
+    },
+    "examples": [
+     {
+      "es": "Era muy alto.",
+      "gloss": {
+       "de": "Er war sehr groß.",
+       "en": "He was very tall."
+      },
+      "note": {
+       "de": "ser → era",
+       "en": "ser → era"
+      }
+     },
+     {
+      "es": "Íbamos al parque.",
+      "gloss": {
+       "de": "Wir gingen in den Park.",
+       "en": "We used to go to the park."
+      },
+      "note": {
+       "de": "ir → iba",
+       "en": "ir → iba"
+      }
+     }
+    ]
+   },
+   {
+    "id": "no-stem-change",
+    "title": {
+     "de": "Keine Stammänderung",
+     "en": "No stem changes"
+    },
+    "body": {
+     "de": "Im Imperfekt gibt es keine Stammänderungen; auch Verben wie tener und querer bleiben regelmäßig.",
+     "en": "The imperfect has no stem changes; even verbs like tener and querer stay regular."
     },
     "examples": [
      {
@@ -448,54 +448,15 @@
        "en": "I was ten years old."
       },
       "note": {
-       "de": "Alter immer mit tener",
-       "en": "age always with tener"
+       "de": "Alter",
+       "en": "age"
       }
      },
      {
-      "es": "Eran las tres de la tarde.",
+      "es": "Quería ser médico.",
       "gloss": {
-       "de": "Es war drei Uhr nachmittags.",
-       "en": "It was three in the afternoon."
-      },
-      "note": {
-       "de": "Uhrzeit mit ser → eran",
-       "en": "time with ser → eran"
-      }
-     }
-    ]
-   },
-   {
-    "id": "irregular-ser-ir-ver",
-    "title": {
-     "de": "Nur drei unregelmäßige Verben: ser, ir, ver",
-     "en": "Only three irregular verbs: ser, ir, ver"
-    },
-    "body": {
-     "de": "Das Imperfekt ist fast komplett regelmäßig. Nur ser (era, eras, era, éramos, erais, eran), ir (iba, ibas, iba, íbamos, ibais, iban) und ver (veía, ...) sind unregelmäßig und müssen auswendig gelernt werden.",
-     "en": "The imperfect is almost entirely regular. Only ser (era, eras, era, éramos, erais, eran), ir (iba, ibas, iba, íbamos, ibais, iban) and ver (veía, ...) are irregular and must be memorised."
-    },
-    "examples": [
-     {
-      "es": "Yo iba a la escuela.",
-      "gloss": {
-       "de": "Ich ging (immer) zur Schule.",
-       "en": "I used to go to school."
-      },
-      "note": {
-       "de": "ir → iba (unregelmäßig)",
-       "en": "ir → iba (irregular)"
-      }
-     },
-     {
-      "es": "Éramos buenos amigos.",
-      "gloss": {
-       "de": "Wir waren gute Freunde.",
-       "en": "We were good friends."
-      },
-      "note": {
-       "de": "ser → éramos (unregelmäßig)",
-       "en": "ser → éramos (irregular)"
+       "de": "Ich wollte Arzt werden.",
+       "en": "I wanted to be a doctor."
       }
      }
     ]
@@ -503,47 +464,31 @@
   ],
   "examples": [
    {
-    "es": "Cuando era niño, vivía en un pueblo pequeño.",
+    "es": "Siempre hacía la tarea por la tarde.",
     "gloss": {
-     "de": "Als ich ein Kind war, wohnte ich in einem kleinen Dorf.",
-     "en": "When I was a child, I used to live in a small village."
-    },
-    "note": {
-     "de": "ser (era) für Beschreibung, vivir (vivía) für Gewohnheit",
-     "en": "ser (era) for description, vivir (vivía) for habit"
+     "de": "Ich machte die Hausaufgaben immer nachmittags.",
+     "en": "I always did my homework in the afternoon."
     }
    },
    {
-    "es": "Todos los veranos íbamos a la playa.",
+    "es": "Eran las tres de la tarde.",
     "gloss": {
-     "de": "Jeden Sommer fuhren wir ans Meer.",
-     "en": "Every summer we used to go to the beach."
-    },
-    "note": {
-     "de": "ir (íbamos) für eine wiederholte Gewohnheit",
-     "en": "ir (íbamos) for a repeated habit"
+     "de": "Es war drei Uhr nachmittags.",
+     "en": "It was three in the afternoon."
     }
    },
    {
-    "es": "Eran las ocho y mi madre hacía la cena.",
+    "es": "Mis abuelos tenían una casa grande.",
     "gloss": {
-     "de": "Es war acht Uhr und meine Mutter machte das Abendessen.",
-     "en": "It was eight o'clock and my mother was making dinner."
-    },
-    "note": {
-     "de": "Uhrzeit (eran) plus Hintergrundhandlung (hacía)",
-     "en": "time (eran) plus background action (hacía)"
+     "de": "Meine Großeltern hatten ein großes Haus.",
+     "en": "My grandparents had a big house."
     }
    },
    {
-    "es": "Mis abuelos tenían una casa donde comíamos los domingos.",
+    "es": "De pequeños, íbamos a la playa.",
     "gloss": {
-     "de": "Meine Großeltern hatten ein Haus, in dem wir sonntags aßen.",
-     "en": "My grandparents had a house where we used to eat on Sundays."
-    },
-    "note": {
-     "de": "tener (tenían) für Zustand, comer (comíamos) für Gewohnheit",
-     "en": "tener (tenían) for a state, comer (comíamos) for a habit"
+     "de": "Als wir klein waren, gingen wir zum Strand.",
+     "en": "When we were little, we used to go to the beach."
     }
    }
   ],
@@ -595,19 +540,19 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das pretérito indefinido (perfecto simple) beschreibt abgeschlossene, punktuelle Handlungen in der Vergangenheit, oft mit klarem Anfang oder Ende, sowie aufeinanderfolgende Ereignisse einer Erzählung.",
-   "en": "The pretérito indefinido (perfecto simple) describes completed, one-time past actions with a clear beginning or end, and chains of consecutive events in a narrative."
+   "de": "Für abgeschlossene Handlungen in der Vergangenheit und für aufeinanderfolgende Ereignisse.",
+   "en": "For completed past actions and for a sequence of events."
   },
   "rules": [
    {
-    "id": "regular-endings",
+    "id": "uso",
     "title": {
-     "de": "Regelmäßige Endungen",
-     "en": "Regular endings"
+     "de": "Wann benutzt man es",
+     "en": "When to use it"
     },
     "body": {
-     "de": "Bei regelmäßigen Verben hängt man die Endungen an den Verbstamm. Für -ar gilt: -é, -aste, -ó, -amos, -asteis, -aron. Für -er und -ir gilt dieselbe Reihe: -í, -iste, -ió, -imos, -isteis, -ieron. Achte auf den Akzent in der 1. und 3. Person Singular (hablé, habló).",
-     "en": "For regular verbs you attach the endings to the verb stem. For -ar verbs: -é, -aste, -ó, -amos, -asteis, -aron. For -er and -ir verbs the same set: -í, -iste, -ió, -imos, -isteis, -ieron. Note the accent on the 1st and 3rd person singular (hablé, habló)."
+     "de": "Für einzelne abgeschlossene Handlungen und für eine Kette von Ereignissen in der Vergangenheit.",
+     "en": "For single completed actions and for a chain of events in the past."
     },
     "examples": [
      {
@@ -615,159 +560,239 @@
       "gloss": {
        "de": "Gestern sprach ich mit meiner Mutter.",
        "en": "Yesterday I spoke with my mother."
-      }
-     },
-     {
-      "es": "Comió toda la tarta.",
-      "gloss": {
-       "de": "Er/Sie aß die ganze Torte.",
-       "en": "He/She ate the whole cake."
-      }
-     },
-     {
-      "es": "Vivimos dos años en Madrid.",
-      "gloss": {
-       "de": "Wir wohnten zwei Jahre in Madrid.",
-       "en": "We lived in Madrid for two years."
       },
       "note": {
-       "de": "Die Wir-Form ist bei -ar und -ir gleich wie im Präsens (vivimos).",
-       "en": "The we-form of -ar and -ir verbs looks the same as in the present (vivimos)."
+       "de": "abgeschlossen",
+       "en": "completed"
+      }
+     },
+     {
+      "es": "Comí, viví y dormí allí.",
+      "gloss": {
+       "de": "Ich aß, lebte und schlief dort.",
+       "en": "I ate, lived and slept there."
+      },
+      "note": {
+       "de": "Reihenfolge",
+       "en": "sequence"
       }
      }
     ]
    },
    {
-    "id": "single-and-sequence",
+    "id": "regulares",
     "title": {
-     "de": "Abgeschlossene Handlung und Ereignisfolge",
-     "en": "Completed action and sequence of events"
+     "de": "Regelmäßige Endungen",
+     "en": "Regular endings"
     },
     "body": {
-     "de": "Man verwendet das indefinido für einzelne, abgeschlossene Handlungen in der Vergangenheit und für mehrere Ereignisse, die nacheinander geschahen. Es treibt eine Erzählung voran (zuerst dies, dann das).",
-     "en": "Use the indefinido for single, completed past actions and for several events that happened one after another. It moves a story forward (first this, then that)."
+     "de": "-ar: é, aste, ó, amos, asteis, aron; -er/-ir: í, iste, ió, imos, isteis, ieron.",
+     "en": "-ar: é, aste, ó, amos, asteis, aron; -er/-ir: í, iste, ió, imos, isteis, ieron."
     },
     "examples": [
      {
-      "es": "Comí, hablé con Ana y dormí.",
+      "es": "Hablaste mucho.",
       "gloss": {
-       "de": "Ich aß, sprach mit Ana und schlief.",
-       "en": "I ate, talked with Ana and slept."
-      },
-      "note": {
-       "de": "Drei aufeinanderfolgende Handlungen in einer Reihe.",
-       "en": "Three consecutive actions in a row."
+       "de": "Du hast viel geredet.",
+       "en": "You talked a lot."
       }
      },
      {
-      "es": "El año pasado viví en otra ciudad.",
+      "es": "Comieron en casa.",
       "gloss": {
-       "de": "Letztes Jahr wohnte ich in einer anderen Stadt.",
-       "en": "Last year I lived in another city."
+       "de": "Sie aßen zu Hause.",
+       "en": "They ate at home."
+      }
+     },
+     {
+      "es": "Vivió en Madrid.",
+      "gloss": {
+       "de": "Er/Sie lebte in Madrid.",
+       "en": "He/She lived in Madrid."
       }
      }
     ]
    },
    {
-    "id": "strong-preterites",
+    "id": "irregulares",
     "title": {
-     "de": "Starke Pretéritos mit unregelmäßigem Stamm",
-     "en": "Strong preterites with an irregular stem"
+     "de": "Starke unregelmäßige Stämme",
+     "en": "Strong irregular stems"
     },
     "body": {
-     "de": "Einige sehr häufige Verben haben einen veränderten Stamm und eine eigene, akzentlose Endungsreihe: -e, -iste, -o, -imos, -isteis, -ieron. So werden tener > tuv- (tuve, tuvo), estar > estuv- (estuve, estuvo), hacer > hic-/hiz- (hice, hizo), poder > pud- (pude, pudo) und querer > quis- (quise, quiso). Bei decir > dij- fällt das i der 3. Person Plural weg: dijeron.",
-     "en": "Several very common verbs change their stem and take a special, accent-free set of endings: -e, -iste, -o, -imos, -isteis, -ieron. Thus tener > tuv- (tuve, tuvo), estar > estuv- (estuve, estuvo), hacer > hic-/hiz- (hice, hizo), poder > pud- (pude, pudo) and querer > quis- (quise, quiso). With decir > dij- the i of the 3rd person plural drops: dijeron."
+     "de": "Neuer Stamm plus betonungslose Endungen e, iste, o, imos, isteis, ieron (kein Akzent).",
+     "en": "New stem plus unstressed endings e, iste, o, imos, isteis, ieron (no accent)."
     },
     "examples": [
      {
-      "es": "No pude dormir anoche.",
+      "es": "Tuve que trabajar.",
       "gloss": {
-       "de": "Letzte Nacht konnte ich nicht schlafen.",
-       "en": "I couldn't sleep last night."
+       "de": "Ich musste arbeiten.",
+       "en": "I had to work."
+      },
+      "note": {
+       "de": "tener > tuv-",
+       "en": "tener > tuv-"
       }
      },
      {
-      "es": "Hizo la tarea y tuvo tiempo libre.",
+      "es": "Estuvimos en casa.",
       "gloss": {
-       "de": "Er/Sie machte die Aufgabe und hatte Freizeit.",
-       "en": "He/She did the homework and had free time."
+       "de": "Wir waren zu Hause.",
+       "en": "We were at home."
       },
       "note": {
-       "de": "In hizo wird das c zu z, damit der Laut vor o erhalten bleibt.",
-       "en": "In hizo the c becomes z so the sound is kept before o."
+       "de": "estar > estuv-",
+       "en": "estar > estuv-"
       }
      },
+     {
+      "es": "No pude dormir.",
+      "gloss": {
+       "de": "Ich konnte nicht schlafen.",
+       "en": "I couldn't sleep."
+      },
+      "note": {
+       "de": "poder > pud-",
+       "en": "poder > pud-"
+      }
+     }
+    ]
+   },
+   {
+    "id": "dij-hiz",
+    "title": {
+     "de": "decir, hacer und querer",
+     "en": "decir, hacer and querer"
+    },
+    "body": {
+     "de": "dij- verliert das i in dijeron; hacer wird hizo (z); querer wird quis-.",
+     "en": "dij- drops the i in dijeron; hacer becomes hizo (z); querer becomes quis-."
+    },
+    "examples": [
      {
       "es": "Me dijo la verdad.",
       "gloss": {
        "de": "Er/Sie sagte mir die Wahrheit.",
        "en": "He/She told me the truth."
+      },
+      "note": {
+       "de": "decir > dij-",
+       "en": "decir > dij-"
+      }
+     },
+     {
+      "es": "Hizo la cena.",
+      "gloss": {
+       "de": "Er/Sie machte das Abendessen.",
+       "en": "He/She made dinner."
+      },
+      "note": {
+       "de": "c wird z",
+       "en": "c becomes z"
+      }
+     },
+     {
+      "es": "Quise ayudar.",
+      "gloss": {
+       "de": "Ich wollte helfen.",
+       "en": "I wanted to help."
+      },
+      "note": {
+       "de": "querer > quis-",
+       "en": "querer > quis-"
       }
      }
     ]
    },
    {
-    "id": "ir-stem-change",
+    "id": "ser-ir-cambio",
     "title": {
-     "de": "Stammwechsel der -ir-Verben in der 3. Person",
-     "en": "-ir verb stem change in the 3rd person"
+     "de": "fui für ser/ir und ó>u",
+     "en": "fui for ser/ir and ó>u"
     },
     "body": {
-     "de": "Bei manchen -ir-Verben ändert sich der Stammvokal nur in der 3. Person Singular und Plural: o wird zu u, e wird zu i. So heißt es bei dormir: durmió und durmieron (aber dormí, dormiste). Verben wie pedir folgen demselben Muster (pidió, pidieron).",
-     "en": "In some -ir verbs the stem vowel changes only in the 3rd person singular and plural: o becomes u, e becomes i. So dormir gives durmió and durmieron (but dormí, dormiste). Verbs like pedir follow the same pattern (pidió, pidieron)."
+     "de": "ser und ir teilen fui, fue; -ir-Verben ändern in der 3. Person o zu u: durmió.",
+     "en": "ser and ir share fui, fue; -ir verbs change o to u in the 3rd person: durmió."
     },
     "examples": [
      {
-      "es": "El niño durmió toda la noche.",
+      "es": "Fui al cine.",
       "gloss": {
-       "de": "Das Kind schlief die ganze Nacht.",
-       "en": "The child slept all night."
+       "de": "Ich ging ins Kino.",
+       "en": "I went to the cinema."
+      },
+      "note": {
+       "de": "ir",
+       "en": "ir"
       }
      },
      {
-      "es": "Los gatos durmieron en el sofá.",
+      "es": "Fue un buen día.",
       "gloss": {
-       "de": "Die Katzen schliefen auf dem Sofa.",
-       "en": "The cats slept on the sofa."
+       "de": "Es war ein guter Tag.",
+       "en": "It was a good day."
       },
       "note": {
-       "de": "Nur 3. Person: dormí und dormiste behalten das o.",
-       "en": "Only the 3rd person changes: dormí and dormiste keep the o."
+       "de": "ser",
+       "en": "ser"
+      }
+     },
+     {
+      "es": "El niño durmió bien.",
+      "gloss": {
+       "de": "Das Kind schlief gut.",
+       "en": "The child slept well."
+      },
+      "note": {
+       "de": "o wird u",
+       "en": "o becomes u"
       }
      }
     ]
    },
    {
-    "id": "ser-ir-spelling",
+    "id": "ortografia",
     "title": {
-     "de": "ser/ir gleich und Rechtschreibänderungen",
-     "en": "ser/ir identical and spelling changes"
+     "de": "Schreibänderung in der 1. Person",
+     "en": "Spelling change in the 1st person"
     },
     "body": {
-     "de": "ser und ir teilen sich im indefinido dieselben Formen: fui, fuiste, fue, fuimos, fuisteis, fueron. Welches Verb gemeint ist, ergibt sich aus dem Kontext. Außerdem ändern -ar-Verben auf -car, -gar, -zar in der Ich-Form die Schreibung, um den Klang zu erhalten: c > qu (busqué), g > gu (llegué), z > c (empecé).",
-     "en": "ser and ir share the same forms in the indefinido: fui, fuiste, fue, fuimos, fuisteis, fueron. Context tells you which verb is meant. Also, -ar verbs ending in -car, -gar, -zar change their spelling in the I-form to keep the sound: c > qu (busqué), g > gu (llegué), z > c (empecé)."
+     "de": "Vor -é wird c>qu, g>gu, z>c, damit der Laut gleich bleibt.",
+     "en": "Before -é, c>qu, g>gu, z>c, so the sound stays the same."
     },
     "examples": [
      {
-      "es": "Fui al cine y luego fui muy feliz.",
+      "es": "Busqué las llaves.",
       "gloss": {
-       "de": "Ich ging ins Kino und war danach sehr glücklich.",
-       "en": "I went to the cinema and afterwards I was very happy."
+       "de": "Ich suchte die Schlüssel.",
+       "en": "I looked for the keys."
       },
       "note": {
-       "de": "Erstes fui = ir (gehen), zweites fui = ser (sein).",
-       "en": "First fui = ir (to go), second fui = ser (to be)."
+       "de": "buscar",
+       "en": "buscar"
       }
      },
      {
-      "es": "Busqué las llaves y llegué tarde.",
+      "es": "Llegué tarde.",
       "gloss": {
-       "de": "Ich suchte die Schlüssel und kam zu spät.",
-       "en": "I looked for the keys and arrived late."
+       "de": "Ich kam spät an.",
+       "en": "I arrived late."
       },
       "note": {
-       "de": "busqué (buscar) und llegué (llegar): nur die Ich-Form ändert die Schreibung.",
-       "en": "busqué (buscar) and llegué (llegar): only the I-form changes spelling."
+       "de": "llegar",
+       "en": "llegar"
+      }
+     },
+     {
+      "es": "Empecé a leer.",
+      "gloss": {
+       "de": "Ich fing an zu lesen.",
+       "en": "I started to read."
+      },
+      "note": {
+       "de": "empezar",
+       "en": "empezar"
       }
      }
     ]
@@ -775,31 +800,31 @@
   ],
   "examples": [
    {
-    "es": "El verano pasado estuve en España y hablé mucho español.",
+    "es": "Ella vivió diez años en París.",
     "gloss": {
-     "de": "Letzten Sommer war ich in Spanien und sprach viel Spanisch.",
-     "en": "Last summer I was in Spain and spoke a lot of Spanish."
+     "de": "Sie lebte zehn Jahre in Paris.",
+     "en": "She lived ten years in Paris."
     }
    },
    {
-    "es": "Ella quiso ayudar, pero no tuvo tiempo.",
+    "es": "Tuvimos un problema, pero lo hicimos bien.",
     "gloss": {
-     "de": "Sie wollte helfen, hatte aber keine Zeit.",
-     "en": "She wanted to help, but had no time."
+     "de": "Wir hatten ein Problem, aber wir machten es gut.",
+     "en": "We had a problem, but we did it well."
     }
    },
    {
-    "es": "Comimos en casa y luego mi hermano durmió una siesta.",
+    "es": "Dijeron que no quisieron venir.",
     "gloss": {
-     "de": "Wir aßen zu Hause und danach hielt mein Bruder einen Mittagsschlaf.",
-     "en": "We ate at home and then my brother took a nap."
+     "de": "Sie sagten, dass sie nicht kommen wollten.",
+     "en": "They said they didn't want to come."
     }
    },
    {
-    "es": "Hice las maletas, fui al aeropuerto y dije adiós.",
+    "es": "Comimos y luego dormimos.",
     "gloss": {
-     "de": "Ich packte die Koffer, fuhr zum Flughafen und sagte Auf Wiedersehen.",
-     "en": "I packed the suitcases, went to the airport and said goodbye."
+     "de": "Wir aßen und dann schliefen wir.",
+     "en": "We ate and then we slept."
     }
    }
   ],
@@ -851,19 +876,19 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das pretérito perfecto compuesto (zusammengesetzte Perfekt) beschreibt abgeschlossene Handlungen, die einen Bezug zur Gegenwart haben - also gerade Geschehenes, etwas innerhalb eines noch laufenden Zeitraums (heute, diese Woche) oder Lebenserfahrungen ohne festen Zeitpunkt.",
-   "en": "The pretérito perfecto compuesto (present perfect) describes completed actions that are connected to the present - things that just happened, events within a time frame that is still going on (today, this week), or life experiences without a fixed point in time."
+   "de": "Vergangene Handlung mit Bezug zur Gegenwart oder Erfahrung bis jetzt.",
+   "en": "Past action with present relevance, or an experience up to now."
   },
   "rules": [
    {
     "id": "formation",
     "title": {
-     "de": "Bildung: haber (Präsens) + Partizip",
-     "en": "Formation: haber (present) + past participle"
+     "de": "Bildung: haber + Partizip",
+     "en": "Formation: haber + participle"
     },
     "body": {
-     "de": "Man bildet das Perfekt mit dem Hilfsverb haber im Präsens (he, has, ha, hemos, habéis, han) plus dem Partizip Perfekt (participio) des Hauptverbs. Beide Teile stehen immer direkt zusammen und werden nie getrennt. Das Partizip verändert sich hier nie nach Geschlecht oder Zahl.",
-     "en": "You form the perfect with the auxiliary verb haber in the present tense (he, has, ha, hemos, habéis, han) plus the past participle (participio) of the main verb. The two parts always stay together and are never split. The participle never changes for gender or number here."
+     "de": "haber im Präsens (he, has, ha, hemos, habéis, han) plus Partizip Perfekt.",
+     "en": "haber in the present (he, has, ha, hemos, habéis, han) plus the past participle."
     },
     "examples": [
      {
@@ -873,8 +898,8 @@
        "en": "I have spoken with María."
       },
       "note": {
-       "de": "he (haber) + hablado (Partizip).",
-       "en": "he (haber) + hablado (participle)."
+       "de": "he + Partizip",
+       "en": "he + participle"
       }
      },
      {
@@ -883,71 +908,95 @@
        "de": "Wir haben zu Hause gegessen.",
        "en": "We have eaten at home."
       }
+     }
+    ]
+   },
+   {
+    "id": "compound",
+    "title": {
+     "de": "Zusammengesetzte Zeit",
+     "en": "A compound tense"
+    },
+    "body": {
+     "de": "Es gibt keine eigenen Endungen; nur haber wird konjugiert, das Partizip bleibt gleich.",
+     "en": "It has no own endings; only haber is conjugated, the participle stays the same."
+    },
+    "examples": [
+     {
+      "es": "Has vivido aquí.",
+      "gloss": {
+       "de": "Du hast hier gewohnt.",
+       "en": "You have lived here."
+      }
      },
      {
       "es": "Han vivido aquí.",
       "gloss": {
        "de": "Sie haben hier gewohnt.",
        "en": "They have lived here."
+      },
+      "note": {
+       "de": "Partizip unverändert",
+       "en": "participle unchanged"
       }
      }
     ]
    },
    {
-    "id": "participle-formation",
+    "id": "recent-relevance",
     "title": {
-     "de": "Regelmäßiges Partizip: -ado und -ido",
-     "en": "Regular participle: -ado and -ido"
+     "de": "Jüngste Vergangenheit",
+     "en": "Recent past"
     },
     "body": {
-     "de": "Das regelmäßige Partizip bildet man, indem man bei -ar-Verben die Endung durch -ado ersetzt (hablar → hablado) und bei -er-/-ir-Verben durch -ido (comer → comido, vivir → vivido). Diese Form bleibt für alle Personen gleich; nur das haber davor verändert sich.",
-     "en": "The regular participle is formed by replacing the ending of -ar verbs with -ado (hablar → hablado) and of -er/-ir verbs with -ido (comer → comido, vivir → vivido). This form stays the same for all persons; only the haber in front of it changes."
+     "de": "Für eine kürzlich Geschehenes mit Bezug zum Jetzt, oft mit hoy, esta semana, ya.",
+     "en": "For something recent that still matters now, often with hoy, esta semana, ya."
     },
     "examples": [
      {
-      "es": "¿Has comido ya?",
+      "es": "Hoy he tenido un buen día.",
       "gloss": {
-       "de": "Hast du schon gegessen?",
-       "en": "Have you eaten yet?"
+       "de": "Heute hatte ich einen guten Tag.",
+       "en": "Today I have had a good day."
       },
       "note": {
-       "de": "comer → comido (-er-Verb).",
-       "en": "comer → comido (-er verb)."
+       "de": "Signalwort: hoy",
+       "en": "signal word: hoy"
       }
      },
      {
-      "es": "Habéis dormido bien.",
+      "es": "Ya he hecho la tarea.",
       "gloss": {
-       "de": "Ihr habt gut geschlafen.",
-       "en": "You (pl.) have slept well."
+       "de": "Ich habe die Aufgabe schon gemacht.",
+       "en": "I have already done the task."
       },
       "note": {
-       "de": "dormir → dormido (-ir-Verb).",
-       "en": "dormir → dormido (-ir verb)."
+       "de": "ya = schon",
+       "en": "ya = already"
       }
      }
     ]
    },
    {
-    "id": "use-recent-relevance",
+    "id": "experience",
     "title": {
-     "de": "Gebrauch: jüngste Vergangenheit mit Gegenwartsbezug",
-     "en": "Use: recent past with present relevance"
+     "de": "Erfahrungen im Leben",
+     "en": "Life experiences"
     },
     "body": {
-     "de": "Man verwendet das Perfekt für etwas, das gerade eben oder innerhalb eines noch andauernden Zeitraums passiert ist (hoy = heute, esta semana = diese Woche, este año = dieses Jahr). Typische Signalwörter sind ya (schon), todavía no / aún no (noch nicht) und hoy. Das Geschehen wird als für die Gegenwart relevant empfunden.",
-     "en": "You use the perfect for something that has happened just now or within a time frame that is still ongoing (hoy = today, esta semana = this week, este año = this year). Typical signal words are ya (already), todavía no / aún no (not yet) and hoy. The event is felt to be relevant to the present."
+     "de": "Für Erfahrungen bis jetzt, oft mit alguna vez, nunca, todavía no.",
+     "en": "For experiences up to now, often with alguna vez, nunca, todavía no."
     },
     "examples": [
      {
-      "es": "Hoy he hecho la compra.",
+      "es": "¿Alguna vez has estado en España?",
       "gloss": {
-       "de": "Heute habe ich den Einkauf erledigt.",
-       "en": "Today I have done the shopping."
+       "de": "Warst du schon mal in Spanien?",
+       "en": "Have you ever been to Spain?"
       },
       "note": {
-       "de": "hacer → hecho (unregelmäßig); hoy ist Signalwort.",
-       "en": "hacer → hecho (irregular); hoy is a signal word."
+       "de": "alguna vez = je",
+       "en": "alguna vez = ever"
       }
      },
      {
@@ -957,43 +1006,8 @@
        "en": "I haven't seen the film yet."
       },
       "note": {
-       "de": "todavía no = noch nicht; ver → visto.",
-       "en": "todavía no = not yet; ver → visto."
-      }
-     }
-    ]
-   },
-   {
-    "id": "use-experiences",
-    "title": {
-     "de": "Gebrauch: Erfahrungen im Leben",
-     "en": "Use: life experiences"
-    },
-    "body": {
-     "de": "Das Perfekt drückt Erfahrungen aus, also ob man etwas schon einmal getan hat - ohne dass ein konkreter Zeitpunkt genannt wird. Dazu passen Ausdrücke wie alguna vez (jemals / schon einmal), nunca (nie), ya (schon) und varias veces (mehrmals).",
-     "en": "The perfect expresses experiences, i.e. whether you have ever done something - without naming a specific moment. Expressions like alguna vez (ever / at some point), nunca (never), ya (already) and varias veces (several times) fit here."
-    },
-    "examples": [
-     {
-      "es": "¿Has estado alguna vez en Madrid?",
-      "gloss": {
-       "de": "Bist du schon einmal in Madrid gewesen?",
-       "en": "Have you ever been to Madrid?"
-      },
-      "note": {
-       "de": "alguna vez = jemals; estar → estado.",
-       "en": "alguna vez = ever; estar → estado."
-      }
-     },
-     {
-      "es": "Nunca he querido eso.",
-      "gloss": {
-       "de": "Das habe ich nie gewollt.",
-       "en": "I have never wanted that."
-      },
-      "note": {
-       "de": "querer → querido.",
-       "en": "querer → querido."
+       "de": "visto = unregelmäßig",
+       "en": "visto = irregular"
       }
      }
     ]
@@ -1005,41 +1019,30 @@
      "en": "Irregular participles"
     },
     "body": {
-     "de": "Einige häufige Verben haben ein unregelmäßiges Partizip, das man auswendig lernen muss: hacer → hecho, decir → dicho, ver → visto, escribir → escrito, volver → vuelto, poner → puesto, romper → roto, abrir → abierto. Sie werden genauso mit haber im Präsens kombiniert wie die regelmäßigen Formen.",
-     "en": "Some common verbs have an irregular participle that you have to memorize: hacer → hecho, decir → dicho, ver → visto, escribir → escrito, volver → vuelto, poner → puesto, romper → roto, abrir → abierto. They combine with present-tense haber exactly like the regular forms."
+     "de": "Manche Partizipien sind unregelmäßig: hecho, dicho, visto, escrito, vuelto, puesto, roto, abierto.",
+     "en": "Some participles are irregular: hecho, dicho, visto, escrito, vuelto, puesto, roto, abierto."
     },
     "examples": [
      {
+      "es": "He hecho un pastel.",
+      "gloss": {
+       "de": "Ich habe einen Kuchen gemacht.",
+       "en": "I have made a cake."
+      },
+      "note": {
+       "de": "hacer -> hecho",
+       "en": "hacer -> hecho"
+      }
+     },
+     {
       "es": "Ha dicho la verdad.",
       "gloss": {
-       "de": "Er/Sie hat die Wahrheit gesagt.",
-       "en": "He/She has told the truth."
+       "de": "Er hat die Wahrheit gesagt.",
+       "en": "He has told the truth."
       },
       "note": {
-       "de": "decir → dicho.",
-       "en": "decir → dicho."
-      }
-     },
-     {
-      "es": "Han vuelto a casa.",
-      "gloss": {
-       "de": "Sie sind nach Hause zurückgekehrt.",
-       "en": "They have returned home."
-      },
-      "note": {
-       "de": "volver → vuelto.",
-       "en": "volver → vuelto."
-      }
-     },
-     {
-      "es": "He escrito una carta.",
-      "gloss": {
-       "de": "Ich habe einen Brief geschrieben.",
-       "en": "I have written a letter."
-      },
-      "note": {
-       "de": "escribir → escrito.",
-       "en": "escribir → escrito."
+       "de": "decir -> dicho",
+       "en": "decir -> dicho"
       }
      }
     ]
@@ -1047,47 +1050,31 @@
   ],
   "examples": [
    {
-    "es": "Esta semana he tenido mucho trabajo.",
+    "es": "Habéis sido muy amables.",
     "gloss": {
-     "de": "Diese Woche hatte ich viel Arbeit.",
-     "en": "This week I have had a lot of work."
-    },
-    "note": {
-     "de": "tener → tenido; esta semana = noch laufender Zeitraum.",
-     "en": "tener → tenido; esta semana = a time frame still in progress."
+     "de": "Ihr seid sehr nett gewesen.",
+     "en": "You have been very kind."
     }
    },
    {
-    "es": "¿Ya has hecho los deberes?",
+    "es": "Esta mañana he ido al médico.",
     "gloss": {
-     "de": "Hast du die Hausaufgaben schon gemacht?",
-     "en": "Have you done the homework already?"
-    },
-    "note": {
-     "de": "ya = schon; hacer → hecho.",
-     "en": "ya = already; hacer → hecho."
+     "de": "Heute Morgen bin ich zum Arzt gegangen.",
+     "en": "This morning I have gone to the doctor."
     }
    },
    {
-    "es": "Nunca hemos estado en Sevilla.",
+    "es": "No hemos podido dormir.",
     "gloss": {
-     "de": "Wir sind noch nie in Sevilla gewesen.",
-     "en": "We have never been to Seville."
-    },
-    "note": {
-     "de": "estar → estado; nunca betont Erfahrung.",
-     "en": "estar → estado; nunca emphasizes experience."
+     "de": "Wir haben nicht schlafen können.",
+     "en": "We have not been able to sleep."
     }
    },
    {
-    "es": "Han abierto una tienda nueva.",
+    "es": "¿Has querido decir eso?",
     "gloss": {
-     "de": "Sie haben einen neuen Laden eröffnet.",
-     "en": "They have opened a new shop."
-    },
-    "note": {
-     "de": "abrir → abierto (unregelmäßiges Partizip).",
-     "en": "abrir → abierto (irregular participle)."
+     "de": "Wolltest du das sagen?",
+     "en": "Have you meant to say that?"
     }
    }
   ],
@@ -1109,72 +1096,95 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das Pretérito pluscuamperfecto (Plusquamperfekt) beschreibt eine Handlung, die schon abgeschlossen war, bevor eine andere Handlung in der Vergangenheit geschah – die Vergangenheit vor der Vergangenheit. Es wird mit haber im Imperfekt (había...) plus Partizip gebildet.",
-   "en": "The pretérito pluscuamperfecto (past perfect) describes an action that was already completed before another past action took place – the past-before-the-past. It is formed with haber in the imperfect (había...) plus a participle."
+   "de": "Für eine Handlung, die schon vor einem anderen Ereignis in der Vergangenheit abgeschlossen war (die Vorvergangenheit).",
+   "en": "For an action already completed before another past event (the past-before-the-past)."
   },
   "rules": [
    {
     "id": "formation",
     "title": {
-     "de": "Bildung: había + Partizip",
-     "en": "Formation: había + participle"
+     "de": "Bildung",
+     "en": "Formation"
     },
     "body": {
-     "de": "Du bildest das Plusquamperfekt mit dem Hilfsverb haber im Imperfekt (había, habías, había, habíamos, habíais, habían) und dem Partizip des Hauptverbs. Das Partizip endet bei -ar-Verben auf -ado und bei -er-/-ir-Verben auf -ido.",
-     "en": "Form the past perfect with the auxiliary verb haber in the imperfect (había, habías, había, habíamos, habíais, habían) plus the participle of the main verb. The participle ends in -ado for -ar verbs and in -ido for -er/-ir verbs."
+     "de": "haber im Imperfekt (había, habías, había, habíamos, habíais, habían) plus Partizip.",
+     "en": "haber in the imperfect (había, habías, había, habíamos, habíais, habían) plus the participle."
     },
     "examples": [
      {
-      "es": "había hablado",
+      "es": "yo había hablado",
       "gloss": {
        "de": "ich hatte gesprochen",
        "en": "I had spoken"
       },
       "note": {
-       "de": "había (haber im Imperfekt) + hablado (Partizip von hablar)",
-       "en": "había (haber in imperfect) + hablado (participle of hablar)"
+       "de": "había + Partizip",
+       "en": "había + participle"
       }
      },
      {
-      "es": "habíamos comido",
+      "es": "nosotros habíamos comido",
       "gloss": {
        "de": "wir hatten gegessen",
        "en": "we had eaten"
-      },
-      "note": {
-       "de": "Partizip auf -ido bei -er-Verben",
-       "en": "-ido participle for -er verbs"
       }
      }
     ]
    },
    {
-    "id": "past-before-past",
+    "id": "use-before-past",
     "title": {
-     "de": "Die Vergangenheit vor der Vergangenheit",
-     "en": "The past-before-the-past"
+     "de": "Vergangenheit vor der Vergangenheit",
+     "en": "Past before the past"
     },
     "body": {
-     "de": "Das Plusquamperfekt zeigt, dass eine Handlung schon vorbei war, als eine andere vergangene Handlung passierte. Die ältere Handlung steht im Plusquamperfekt, die spätere meist im Indefinido oder Imperfekt.",
-     "en": "The past perfect shows that one action was already over when another past action happened. The earlier action goes in the past perfect; the later one is usually in the indefinido or imperfect."
+     "de": "Beschreibt eine Handlung, die vor einem anderen Vergangenheitsereignis schon vorbei war.",
+     "en": "Describes an action that was already over before another past event."
     },
     "examples": [
      {
-      "es": "Cuando llegué, ya habían comido.",
+      "es": "Ya habíamos comido cuando llegó.",
       "gloss": {
-       "de": "Als ich ankam, hatten sie schon gegessen.",
-       "en": "When I arrived, they had already eaten."
-      },
-      "note": {
-       "de": "habían comido geschah vor llegué",
-       "en": "habían comido happened before llegué"
+       "de": "Wir hatten schon gegessen, als er kam.",
+       "en": "We had already eaten when he arrived."
       }
      },
      {
-      "es": "Ella ya había salido cuando llamaste.",
+      "es": "Ella ya había salido.",
       "gloss": {
-       "de": "Sie war schon weg, als du anriefst.",
-       "en": "She had already left when you called."
+       "de": "Sie war schon gegangen.",
+       "en": "She had already left."
+      }
+     }
+    ]
+   },
+   {
+    "id": "participle-fixed",
+    "title": {
+     "de": "Partizip bleibt unverändert",
+     "en": "Participle stays fixed"
+    },
+    "body": {
+     "de": "Das Partizip endet immer auf -o und verändert sich nie nach Person oder Geschlecht.",
+     "en": "The participle always ends in -o and never changes for person or gender."
+    },
+    "examples": [
+     {
+      "es": "habían vivido",
+      "gloss": {
+       "de": "sie hatten gelebt",
+       "en": "they had lived"
+      },
+      "note": {
+       "de": "-o bleibt fest",
+       "en": "-o stays fixed"
+      }
+     },
+     {
+      "es": "habíamos ido",
+      "gloss": {
+       "de": "wir waren gegangen",
+       "en": "we had gone"
       }
      }
     ]
@@ -1186,61 +1196,49 @@
      "en": "Irregular participles"
     },
     "body": {
-     "de": "Einige Verben haben ein unregelmäßiges Partizip, das du dir merken musst, z. B. hacer → hecho und decir → dicho. Das Hilfsverb había bleibt dabei immer gleich.",
-     "en": "Some verbs have an irregular participle you simply have to memorize, e.g. hacer → hecho and decir → dicho. The auxiliary había stays the same in every case."
+     "de": "Einige Verben haben ein eigenes Partizip, etwa hacer → hecho und decir → dicho.",
+     "en": "Some verbs have a special participle, like hacer → hecho and decir → dicho."
     },
     "examples": [
      {
-      "es": "había hecho",
+      "es": "Yo ya había hecho la cena.",
       "gloss": {
-       "de": "ich hatte gemacht",
-       "en": "I had done/made"
-      },
-      "note": {
-       "de": "hecho ist unregelmäßig (nicht 'hacido')",
-       "en": "hecho is irregular (not 'hacido')"
+       "de": "Ich hatte das Abendessen schon gemacht.",
+       "en": "I had already made dinner."
       }
      },
      {
-      "es": "habían dicho",
+      "es": "Tú habías dicho la verdad.",
       "gloss": {
-       "de": "sie hatten gesagt",
-       "en": "they had said"
-      },
-      "note": {
-       "de": "dicho ist unregelmäßig (nicht 'decido')",
-       "en": "dicho is irregular (not 'decido')"
+       "de": "Du hattest die Wahrheit gesagt.",
+       "en": "You had told the truth."
       }
      }
     ]
    },
    {
-    "id": "fixed-unit",
+    "id": "two-parts",
     "title": {
-     "de": "Feste Einheit – nichts dazwischen",
-     "en": "A fixed unit – nothing in between"
+     "de": "Zwei feste Teile",
+     "en": "Two fixed parts"
     },
     "body": {
-     "de": "haber und Partizip gehören zusammen und werden nicht getrennt. Verneinung (no) und Pronomen stehen vor dem Hilfsverb, nicht zwischen haber und Partizip. Das Partizip ändert sich hier nie nach Geschlecht oder Zahl.",
-     "en": "haber and the participle form one unit and are never split. Negation (no) and pronouns go before the auxiliary, not between haber and the participle. The participle never changes for gender or number here."
+     "de": "haber und Partizip stehen zusammen; dazwischen kommt nur das Wort no.",
+     "en": "haber and the participle stay together; only the word no goes between them around them."
     },
     "examples": [
      {
-      "es": "Todavía no había vivido en Madrid.",
+      "es": "No habías tenido tiempo.",
       "gloss": {
-       "de": "Ich hatte noch nicht in Madrid gewohnt.",
-       "en": "I had not yet lived in Madrid."
-      },
-      "note": {
-       "de": "no steht vor había, nicht dazwischen",
-       "en": "no goes before había, not in between"
+       "de": "Du hattest keine Zeit gehabt.",
+       "en": "You had not had time."
       }
      },
      {
-      "es": "Nunca habíamos estado allí.",
+      "es": "Todavía no habían dormido.",
       "gloss": {
-       "de": "Wir waren nie dort gewesen.",
-       "en": "We had never been there."
+       "de": "Sie hatten noch nicht geschlafen.",
+       "en": "They had not slept yet."
       }
      }
     ]
@@ -1248,39 +1246,31 @@
   ],
   "examples": [
    {
-    "es": "Cuando volví a casa, mi hermano ya había hecho la cena.",
+    "es": "Cuando llamaste, yo ya había salido.",
     "gloss": {
-     "de": "Als ich nach Hause kam, hatte mein Bruder das Abendessen schon gemacht.",
-     "en": "When I came home, my brother had already made dinner."
-    },
-    "note": {
-     "de": "había hecho (frühere Handlung) vor volví",
-     "en": "había hecho (earlier action) before volví"
+     "de": "Als du anriefst, war ich schon gegangen.",
+     "en": "When you called, I had already left."
     }
    },
    {
-    "es": "Antes de 2010 nunca habíamos vivido en otro país.",
+    "es": "Nunca habíamos estado en Madrid.",
     "gloss": {
-     "de": "Vor 2010 hatten wir nie in einem anderen Land gewohnt.",
-     "en": "Before 2010 we had never lived in another country."
+     "de": "Wir waren noch nie in Madrid gewesen.",
+     "en": "We had never been in Madrid."
     }
    },
    {
-    "es": "Me dijo que ya había hablado con el profesor.",
+    "es": "Ella había vivido allí muchos años.",
     "gloss": {
-     "de": "Er sagte mir, dass er schon mit dem Lehrer gesprochen hatte.",
-     "en": "He told me that he had already spoken with the teacher."
-    },
-    "note": {
-     "de": "había hablado lag vor dem Moment des Sagens",
-     "en": "había hablado was prior to the moment of telling"
+     "de": "Sie hatte dort viele Jahre gelebt.",
+     "en": "She had lived there for many years."
     }
    },
    {
-    "es": "Cuando empezó la película, ellos todavía no habían llegado.",
+    "es": "Antes de la clase ya habían hecho los deberes.",
     "gloss": {
-     "de": "Als der Film anfing, waren sie noch nicht angekommen.",
-     "en": "When the film started, they had not yet arrived."
+     "de": "Vor dem Unterricht hatten sie die Hausaufgaben schon gemacht.",
+     "en": "Before class they had already done the homework."
     }
    }
   ],
@@ -1302,83 +1292,60 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das Futuro simple beschreibt zukünftige Handlungen und Vorhersagen (\"ich werde ...\"). Es drückt außerdem Vermutungen über die Gegenwart aus (\"es wird wohl ...\").",
-   "en": "The futuro simple describes future actions and predictions (\"I will ...\"). It also expresses conjecture about the present (\"it must be / probably is ...\")."
+   "de": "Das Futuro simple beschreibt zukünftige Handlungen, Vorhersagen und Vermutungen über die Gegenwart.",
+   "en": "The futuro simple expresses future actions, predictions, and conjecture about the present."
   },
   "rules": [
    {
     "id": "endings-on-infinitive",
     "title": {
-     "de": "Endungen an den ganzen Infinitiv",
-     "en": "Endings attach to the full infinitive"
+     "de": "Endungen am ganzen Infinitiv",
+     "en": "Endings on the full infinitive"
     },
     "body": {
-     "de": "Anders als in den meisten Zeiten hängst du die Endungen -é, -ás, -á, -emos, -éis, -án nicht an einen Stamm, sondern an den kompletten Infinitiv. Für -ar, -er und -ir gelten dieselben Endungen. Bis auf die nosotros-Form (-emos) trägt jede Form einen Akzent.",
-     "en": "Unlike most tenses, you add the endings -é, -ás, -á, -emos, -éis, -án not to a stem but to the whole infinitive. The endings are identical for -ar, -er and -ir verbs. Every form except nosotros (-emos) carries a written accent."
+     "de": "Die Endungen -é, -ás, -á, -emos, -éis, -án werden an den vollen Infinitiv gehängt.",
+     "en": "The endings -é, -ás, -á, -emos, -éis, -án attach to the full infinitive."
     },
     "examples": [
      {
-      "es": "Mañana hablaré con mi jefe.",
+      "es": "Mañana hablaré con ella.",
       "gloss": {
-       "de": "Morgen werde ich mit meinem Chef sprechen.",
-       "en": "Tomorrow I will talk to my boss."
-      },
-      "note": {
-       "de": "hablar + é = hablaré (Infinitiv bleibt vollständig).",
-       "en": "hablar + é = hablaré (the full infinitive is kept)."
+       "de": "Morgen werde ich mit ihr sprechen.",
+       "en": "Tomorrow I will talk with her."
       }
      },
      {
-      "es": "Comerás algo más tarde.",
+      "es": "Comeremos a las dos.",
       "gloss": {
-       "de": "Du wirst später etwas essen.",
-       "en": "You will eat something later."
-      },
-      "note": {
-       "de": "Gleiche Endung wie bei -ar: comer + ás.",
-       "en": "Same ending as -ar verbs: comer + ás."
-      }
-     },
-     {
-      "es": "Vivirán en Madrid el próximo año.",
-      "gloss": {
-       "de": "Sie werden nächstes Jahr in Madrid wohnen.",
-       "en": "They will live in Madrid next year."
+       "de": "Wir werden um zwei essen.",
+       "en": "We will eat at two."
       }
      }
     ]
    },
    {
-    "id": "future-and-predictions",
+    "id": "same-for-all-conjugations",
     "title": {
-     "de": "Zukunft und Vorhersagen",
-     "en": "Future and predictions"
+     "de": "Gleiche Endungen für alle Verben",
+     "en": "Same endings for all verbs"
     },
     "body": {
-     "de": "Die Hauptbedeutung ist die einfache Zukunft: Pläne, Versprechen und Vorhersagen über das, was kommen wird. Häufige Zeitangaben sind mañana (morgen), la próxima semana (nächste Woche) oder el próximo año (nächstes Jahr).",
-     "en": "The main use is the simple future: plans, promises and predictions about what is going to happen. Common time markers are mañana (tomorrow), la próxima semana (next week) or el próximo año (next year)."
+     "de": "-ar, -er und -ir bekommen dieselben Endungen; nur der Infinitiv ändert sich.",
+     "en": "-ar, -er and -ir verbs share the same endings; only the infinitive changes."
     },
     "examples": [
      {
-      "es": "La próxima semana iré a la playa.",
+      "es": "Vivirás en Madrid.",
       "gloss": {
-       "de": "Nächste Woche werde ich an den Strand fahren.",
-       "en": "Next week I will go to the beach."
-      },
-      "note": {
-       "de": "ir ist hier regelmäßig: iré.",
-       "en": "ir is regular here: iré."
+       "de": "Du wirst in Madrid wohnen.",
+       "en": "You will live in Madrid."
       }
      },
      {
-      "es": "Creo que mañana hará sol.",
+      "es": "Vivirán juntos.",
       "gloss": {
-       "de": "Ich glaube, morgen wird die Sonne scheinen.",
-       "en": "I think it will be sunny tomorrow."
-      },
-      "note": {
-       "de": "Vorhersage über das Wetter.",
-       "en": "A weather prediction."
+       "de": "Sie werden zusammen wohnen.",
+       "en": "They will live together."
       }
      }
     ]
@@ -1390,41 +1357,72 @@
      "en": "Irregular stems"
     },
     "body": {
-     "de": "Einige häufige Verben benutzen einen veränderten Stamm, an den dieselben Endungen angehängt werden: tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-, poder → podr-, saber → sabr-, haber → habr-, querer → querr-, hacer → har-, decir → dir-, caber → cabr-, valer → valdr-. Die Endungen bleiben identisch.",
-     "en": "A few common verbs use a changed stem, to which the same endings are added: tener → tendr-, poner → pondr-, salir → saldr-, venir → vendr-, poder → podr-, saber → sabr-, haber → habr-, querer → querr-, hacer → har-, decir → dir-, caber → cabr-, valer → valdr-. The endings stay the same."
+     "de": "Manche Verben nutzen einen besonderen Stamm wie tendr-, podr- oder har-, die Endungen bleiben gleich.",
+     "en": "Some verbs use a special stem like tendr-, podr- or har-, but the endings stay the same."
     },
     "examples": [
      {
-      "es": "Tendrás tiempo el sábado.",
+      "es": "Tendré tiempo el lunes.",
       "gloss": {
-       "de": "Du wirst am Samstag Zeit haben.",
-       "en": "You will have time on Saturday."
+       "de": "Ich werde am Montag Zeit haben.",
+       "en": "I will have time on Monday."
       },
       "note": {
-       "de": "tener → tendr- + ás.",
-       "en": "tener → tendr- + ás."
+       "de": "tener: tendr-",
+       "en": "tener: tendr-"
       }
      },
      {
-      "es": "No podremos ir a la fiesta.",
+      "es": "No podremos venir.",
       "gloss": {
-       "de": "Wir werden nicht zur Party gehen können.",
-       "en": "We won't be able to go to the party."
+       "de": "Wir werden nicht kommen können.",
+       "en": "We won't be able to come."
       },
       "note": {
-       "de": "poder → podr- + emos.",
-       "en": "poder → podr- + emos."
+       "de": "poder: podr-",
+       "en": "poder: podr-"
       }
      },
      {
-      "es": "Ella te dirá la verdad.",
+      "es": "¿Qué harás después?",
       "gloss": {
-       "de": "Sie wird dir die Wahrheit sagen.",
-       "en": "She will tell you the truth."
+       "de": "Was wirst du danach machen?",
+       "en": "What will you do afterward?"
       },
       "note": {
-       "de": "decir → dir- + á.",
-       "en": "decir → dir- + á."
+       "de": "hacer: har-",
+       "en": "hacer: har-"
+      }
+     }
+    ]
+   },
+   {
+    "id": "predictions",
+    "title": {
+     "de": "Vorhersagen",
+     "en": "Predictions"
+    },
+    "body": {
+     "de": "Das Futuro drückt aus, was man erwartet oder voraussagt.",
+     "en": "The futuro states what you expect or predict will happen."
+    },
+    "examples": [
+     {
+      "es": "Será un buen día.",
+      "gloss": {
+       "de": "Es wird ein guter Tag sein.",
+       "en": "It will be a good day."
+      }
+     },
+     {
+      "es": "Dirán que sí.",
+      "gloss": {
+       "de": "Sie werden Ja sagen.",
+       "en": "They will say yes."
+      },
+      "note": {
+       "de": "decir: dir-",
+       "en": "decir: dir-"
       }
      }
     ]
@@ -1436,30 +1434,26 @@
      "en": "Conjecture about the present"
     },
     "body": {
-     "de": "Das Futuro simple kann auch eine Vermutung über etwas Gegenwärtiges ausdrücken: Man rät oder schätzt, statt über die Zukunft zu sprechen. Im Deutschen passt oft \"wohl\", \"wird wohl\" oder \"vermutlich\".",
-     "en": "The futuro simple can also express a guess about something happening now: you estimate or suppose instead of talking about the future. In English this matches \"must be\", \"probably is\" or \"I wonder\"."
+     "de": "Das Futuro kann eine Vermutung über etwas Gegenwärtiges ausdrücken (wohl, wahrscheinlich).",
+     "en": "The futuro can express a guess about something happening now (probably, must be)."
     },
     "examples": [
      {
-      "es": "¿Qué hora será?",
+      "es": "Estará en casa ahora.",
       "gloss": {
-       "de": "Wie spät mag es wohl sein?",
-       "en": "I wonder what time it is."
-      },
-      "note": {
-       "de": "ser → será als Vermutung, nicht als Zukunft.",
-       "en": "ser → será as a guess, not a future event."
+       "de": "Er wird wohl jetzt zu Hause sein.",
+       "en": "He must be at home now."
       }
      },
      {
-      "es": "Estará en casa ahora.",
+      "es": "Querrán descansar.",
       "gloss": {
-       "de": "Er wird jetzt wohl zu Hause sein.",
-       "en": "He must be at home now."
+       "de": "Sie wollen wohl ausruhen.",
+       "en": "They probably want to rest."
       },
       "note": {
-       "de": "Vermutung über die Gegenwart (ahora = jetzt).",
-       "en": "A guess about the present (ahora = now)."
+       "de": "querer: querr-",
+       "en": "querer: querr-"
       }
      }
     ]
@@ -1467,47 +1461,31 @@
   ],
   "examples": [
    {
-    "es": "El año que viene estudiaré español en Salamanca.",
+    "es": "El año que viene viviré en España.",
     "gloss": {
-     "de": "Nächstes Jahr werde ich in Salamanca Spanisch lernen.",
-     "en": "Next year I will study Spanish in Salamanca."
-    },
-    "note": {
-     "de": "Regelmäßiges -ar-Verb: estudiar → estudiaré.",
-     "en": "Regular -ar verb: estudiar → estudiaré."
+     "de": "Nächstes Jahr werde ich in Spanien leben.",
+     "en": "Next year I will live in Spain."
     }
    },
    {
-    "es": "Mañana haré la compra y comeré contigo.",
+    "es": "Pondremos la mesa más tarde.",
     "gloss": {
-     "de": "Morgen werde ich einkaufen und mit dir essen.",
-     "en": "Tomorrow I will do the shopping and eat with you."
-    },
-    "note": {
-     "de": "hacer ist unregelmäßig (har-), comer regelmäßig.",
-     "en": "hacer is irregular (har-), comer is regular."
+     "de": "Wir werden später den Tisch decken.",
+     "en": "We will set the table later."
     }
    },
    {
-    "es": "Mis amigos vendrán a la fiesta y querrán bailar.",
+    "es": "¿Vendrás a la fiesta?",
     "gloss": {
-     "de": "Meine Freunde werden zur Party kommen und tanzen wollen.",
-     "en": "My friends will come to the party and will want to dance."
-    },
-    "note": {
-     "de": "venir → vendr-, querer → querr-.",
-     "en": "venir → vendr-, querer → querr-."
+     "de": "Wirst du zur Party kommen?",
+     "en": "Will you come to the party?"
     }
    },
    {
-    "es": "Serán las diez; el tren llegará pronto.",
+    "es": "Lo sabrás pronto.",
     "gloss": {
-     "de": "Es wird wohl zehn Uhr sein; der Zug wird bald ankommen.",
-     "en": "It must be ten o'clock; the train will arrive soon."
-    },
-    "note": {
-     "de": "serán = Vermutung, llegará = Zukunft.",
-     "en": "serán = conjecture, llegará = future."
+     "de": "Du wirst es bald wissen.",
+     "en": "You will know it soon."
     }
    }
   ],
@@ -1559,19 +1537,19 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das Futuro perfecto (vollendete Zukunft) drückt aus, dass eine Handlung bis zu einem bestimmten Zeitpunkt in der Zukunft abgeschlossen sein wird. Außerdem dient es als Vermutung über etwas, das in der jüngsten Vergangenheit wahrscheinlich passiert ist.",
-   "en": "The futuro perfecto (future perfect) expresses that an action will have been completed by a certain point in the future. It also conveys a guess or supposition about something that has probably just happened in the recent past."
+   "de": "Das Futuro perfecto beschreibt, was bis zu einem Zeitpunkt in der Zukunft abgeschlossen sein wird, oder eine Vermutung über die jüngste Vergangenheit.",
+   "en": "The futuro perfecto expresses what will have happened by a point in the future, or a guess about the recent past."
   },
   "rules": [
    {
     "id": "formation",
     "title": {
-     "de": "Bildung: habré + Partizip",
-     "en": "Formation: habré + participle"
+     "de": "Bildung: haber im Futur + Partizip",
+     "en": "Formation: haber in the future + participle"
     },
     "body": {
-     "de": "Das Futuro perfecto ist eine zusammengesetzte Zeit. Du nimmst das Hilfsverb haber im Futur (habré, habrás, habrá, habremos, habréis, habrán) und hängst das Partizip Perfekt des Hauptverbs an. Das Partizip endet bei regelmäßigen Verben auf -ado (-ar) bzw. -ido (-er/-ir) und bleibt immer unverändert.",
-     "en": "The futuro perfecto is a compound tense. You take the auxiliary verb haber in the future (habré, habrás, habrá, habremos, habréis, habrán) and add the past participle of the main verb. For regular verbs the participle ends in -ado (-ar) or -ido (-er/-ir) and never changes form."
+     "de": "haber im Futur (habré, habrás, habrá, habremos, habréis, habrán) plus das Partizip Perfekt.",
+     "en": "haber in the future (habré, habrás, habrá, habremos, habréis, habrán) plus the past participle."
     },
     "examples": [
      {
@@ -1581,8 +1559,8 @@
        "en": "I will have spoken"
       },
       "note": {
-       "de": "habré (haber im Futur) + hablado (Partizip von hablar).",
-       "en": "habré (haber in the future) + hablado (participle of hablar)."
+       "de": "habré + Partizip",
+       "en": "habré + participle"
       }
      },
      {
@@ -1591,78 +1569,91 @@
        "de": "wir werden gegessen haben",
        "en": "we will have eaten"
       }
-     },
-     {
-      "es": "habrán vivido",
-      "gloss": {
-       "de": "sie werden gelebt haben",
-       "en": "they will have lived"
-      }
      }
     ]
    },
    {
-    "id": "completed-by-future-point",
+    "id": "completed-by-future",
     "title": {
-     "de": "Abgeschlossen bis zu einem Zeitpunkt in der Zukunft",
-     "en": "Completed by a point in the future"
+     "de": "Abgeschlossen bis zu einem Zeitpunkt",
+     "en": "Completed by a future point"
     },
     "body": {
-     "de": "Die Hauptverwendung: eine Handlung ist zu einem späteren, in der Zukunft liegenden Zeitpunkt bereits beendet. Oft stehen Zeitangaben wie para mañana (bis morgen), antes de (vor) oder cuando (wenn) dabei.",
-     "en": "The main use: an action will already be finished by a later moment that itself lies in the future. It often appears with time markers like para mañana (by tomorrow), antes de (before) or cuando (when)."
+     "de": "Es sagt, dass eine Handlung vor einem bestimmten Zeitpunkt in der Zukunft fertig sein wird.",
+     "en": "It says an action will be finished before a certain point in the future."
     },
     "examples": [
      {
-      "es": "Para mañana habré terminado el trabajo.",
+      "es": "Para mañana ya habré terminado.",
       "gloss": {
-       "de": "Bis morgen werde ich die Arbeit beendet haben.",
-       "en": "By tomorrow I will have finished the work."
+       "de": "Bis morgen werde ich schon fertig sein.",
+       "en": "By tomorrow I will already have finished."
       },
       "note": {
-       "de": "terminar ist regelmäßig wie hablar, daher habré terminado.",
-       "en": "terminar is regular like hablar, hence habré terminado."
+       "de": "Zeitpunkt: para mañana",
+       "en": "Point: para mañana"
       }
      },
      {
-      "es": "Antes de la fiesta habremos comido.",
+      "es": "A las ocho habremos vivido aquí un año.",
       "gloss": {
-       "de": "Vor der Feier werden wir gegessen haben.",
-       "en": "Before the party we will have eaten."
+       "de": "Um acht werden wir ein Jahr hier gewohnt haben.",
+       "en": "By eight we will have lived here a year."
       }
      }
     ]
    },
    {
-    "id": "conjecture-recent-past",
+    "id": "conjecture-past",
     "title": {
      "de": "Vermutung über die jüngste Vergangenheit",
-     "en": "Conjecture about the recent past"
+     "en": "Guess about the recent past"
     },
     "body": {
-     "de": "Das Futuro perfecto drückt auch eine Vermutung über etwas aus, das gerade oder kürzlich passiert sein dürfte. Im Deutschen entspricht das oft \"wird wohl ... haben\" oder \"vermutlich\".",
-     "en": "The futuro perfecto also expresses a guess about something that has probably just or recently happened. In English this matches \"must have ...\" or \"probably (has)\"."
+     "de": "Es drückt eine Vermutung darüber aus, was wohl gerade passiert ist.",
+     "en": "It expresses a guess about what has probably just happened."
     },
     "examples": [
      {
-      "es": "Ya habrá llegado a casa.",
+      "es": "Habrá comido ya.",
       "gloss": {
-       "de": "Er wird wohl schon zu Hause angekommen sein.",
-       "en": "He must have arrived home by now."
+       "de": "Er wird wohl schon gegessen haben.",
+       "en": "He has probably already eaten."
       },
       "note": {
-       "de": "llegar ist regelmäßig wie hablar: habrá llegado.",
-       "en": "llegar is regular like hablar: habrá llegado."
+       "de": "Vermutung, kein echtes Futur",
+       "en": "A guess, not real future"
       }
      },
      {
       "es": "¿Qué habrá dicho Ana?",
       "gloss": {
        "de": "Was Ana wohl gesagt hat?",
-       "en": "I wonder what Ana has said."
+       "en": "I wonder what Ana has said?"
+      }
+     }
+    ]
+   },
+   {
+    "id": "compound-fixed",
+    "title": {
+     "de": "Zusammengesetzte Zeit, festes Partizip",
+     "en": "Compound tense, fixed participle"
+    },
+    "body": {
+     "de": "Das Partizip bleibt immer gleich; nur haber verändert sich nach der Person.",
+     "en": "The participle never changes; only haber changes with the person."
+    },
+    "examples": [
+     {
+      "es": "habré hecho, habrás hecho, habrá hecho",
+      "gloss": {
+       "de": "ich/du/er werde(n) gemacht haben",
+       "en": "I/you/he will have done"
       },
       "note": {
-       "de": "decir hat das unregelmäßige Partizip dicho: habrá dicho.",
-       "en": "decir has the irregular participle dicho: habrá dicho."
+       "de": "Partizip unverändert",
+       "en": "Participle unchanged"
       }
      }
     ]
@@ -1674,26 +1665,26 @@
      "en": "Irregular participles"
     },
     "body": {
-     "de": "Einige Verben haben ein unregelmäßiges Partizip, das du dir merken musst, z. B. hacer → hecho und decir → dicho. Das Hilfsverb haber bleibt dabei ganz normal: habré, habrás, habrá ...",
-     "en": "Some verbs have an irregular participle you must memorize, e.g. hacer → hecho and decir → dicho. The auxiliary haber stays completely regular: habré, habrás, habrá ..."
+     "de": "Manche Partizipien sind unregelmäßig, etwa hecho (hacer) und dicho (decir).",
+     "en": "Some participles are irregular, such as hecho (hacer) and dicho (decir)."
     },
     "examples": [
      {
-      "es": "habré hecho",
+      "es": "Lo habré hecho para el lunes.",
       "gloss": {
-       "de": "ich werde gemacht haben",
-       "en": "I will have done/made"
-      },
-      "note": {
-       "de": "hecho ist das unregelmäßige Partizip von hacer.",
-       "en": "hecho is the irregular participle of hacer."
+       "de": "Bis Montag werde ich es gemacht haben.",
+       "en": "I will have done it by Monday."
       }
      },
      {
-      "es": "habrás dicho",
+      "es": "Habrán dicho la verdad.",
       "gloss": {
-       "de": "du wirst gesagt haben",
-       "en": "you will have said"
+       "de": "Sie werden wohl die Wahrheit gesagt haben.",
+       "en": "They have probably told the truth."
+      },
+      "note": {
+       "de": "decir → dicho",
+       "en": "decir → dicho"
       }
      }
     ]
@@ -1701,39 +1692,31 @@
   ],
   "examples": [
    {
-    "es": "Cuando llegues, ya habré hecho la cena.",
+    "es": "Para el viernes habré terminado el trabajo.",
     "gloss": {
-     "de": "Wenn du ankommst, werde ich das Abendessen schon gemacht haben.",
-     "en": "When you arrive, I will have already made dinner."
-    },
-    "note": {
-     "de": "habré hecho mit unregelmäßigem Partizip hecho.",
-     "en": "habré hecho with the irregular participle hecho."
+     "de": "Bis Freitag werde ich die Arbeit beendet haben.",
+     "en": "By Friday I will have finished the work."
     }
    },
    {
-    "es": "Para el lunes habrán vivido aquí un año.",
+    "es": "Cuando llegues, ya habremos comido.",
     "gloss": {
-     "de": "Bis Montag werden sie ein Jahr lang hier gewohnt haben.",
-     "en": "By Monday they will have lived here for a year."
+     "de": "Wenn du ankommst, werden wir schon gegessen haben.",
+     "en": "When you arrive, we will already have eaten."
     }
    },
    {
-    "es": "Supongo que ya habrás comido algo.",
+    "es": "Habrá tenido un problema en el camino.",
     "gloss": {
-     "de": "Ich nehme an, du wirst schon etwas gegessen haben.",
-     "en": "I suppose you must have already eaten something."
-    },
-    "note": {
-     "de": "Vermutung über die jüngste Vergangenheit.",
-     "en": "Conjecture about the recent past."
+     "de": "Er wird wohl unterwegs ein Problem gehabt haben.",
+     "en": "He has probably had a problem on the way."
     }
    },
    {
-    "es": "Antes de las ocho habremos terminado.",
+    "es": "Para entonces habrás aprendido mucho.",
     "gloss": {
-     "de": "Vor acht Uhr werden wir fertig sein.",
-     "en": "Before eight o'clock we will have finished."
+     "de": "Bis dahin wirst du viel gelernt haben.",
+     "en": "By then you will have learned a lot."
     }
    }
   ],
@@ -1755,41 +1738,163 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das condicional simple drückt aus, was unter bestimmten Umständen passieren würde. Man nutzt es für höfliche Bitten und Wünsche, für Hypothesen und Vermutungen, für Ratschläge und für die Zukunft aus der Vergangenheit gesehen (\"würde\").",
-   "en": "The condicional simple expresses what would happen under certain circumstances. It is used for polite requests and wishes, for hypotheses and guesses, for advice, and for the future seen from a past viewpoint (\"would\")."
+   "de": "Das condicional simple drückt Höflichkeit, Hypothesen, Ratschläge und die Zukunft aus der Vergangenheit aus.",
+   "en": "The simple conditional expresses politeness, hypotheses, advice, and the future-in-the-past."
   },
   "rules": [
    {
     "id": "formation",
     "title": {
-     "de": "Bildung: Infinitiv + -ía-Endungen",
-     "en": "Formation: infinitive + -ía endings"
+     "de": "Bildung: Infinitiv + -ía",
+     "en": "Formation: infinitive + -ía"
     },
     "body": {
-     "de": "Das condicional simple bildet man, indem man die Endungen -ía, -ías, -ía, -íamos, -íais, -ían direkt an den vollen Infinitiv hängt. Bei allen drei Verbgruppen (-ar, -er, -ir) sind die Endungen gleich. Fachbegriff: condicional simple (einfacher Konditional). Einfach gesagt: die deutsche \"würde\"-Form.",
-     "en": "Form the condicional simple by attaching the endings -ía, -ías, -ía, -íamos, -íais, -ían directly to the full infinitive. All three verb groups (-ar, -er, -ir) take the same endings. Grammar term: condicional simple. In plain terms: the English \"would\" form."
+     "de": "An den ganzen Infinitiv kommen die Endungen -ía, -ías, -ía, -íamos, -íais, -ían.",
+     "en": "Add the endings -ía, -ías, -ía, -íamos, -íais, -ían to the full infinitive."
     },
     "examples": [
      {
-      "es": "Yo hablaría con él.",
+      "es": "Yo hablaría con ella.",
       "gloss": {
-       "de": "Ich würde mit ihm sprechen.",
-       "en": "I would talk to him."
-      },
-      "note": {
-       "de": "hablar + -ía",
-       "en": "hablar + -ía"
+       "de": "Ich würde mit ihr sprechen.",
+       "en": "I would talk to her."
       }
      },
      {
-      "es": "Nosotros viviríamos aquí.",
+      "es": "Comeríamos más tarde.",
       "gloss": {
-       "de": "Wir würden hier wohnen.",
-       "en": "We would live here."
+       "de": "Wir würden später essen.",
+       "en": "We would eat later."
+      }
+     },
+     {
+      "es": "Vivirían en el campo.",
+      "gloss": {
+       "de": "Sie würden auf dem Land leben.",
+       "en": "They would live in the countryside."
+      }
+     }
+    ]
+   },
+   {
+    "id": "politeness",
+    "title": {
+     "de": "Höflichkeit",
+     "en": "Politeness"
+    },
+    "body": {
+     "de": "Mit dem condicional klingen Bitten und Wünsche höflicher und weicher.",
+     "en": "The conditional makes requests and wishes sound more polite and softer."
+    },
+    "examples": [
+     {
+      "es": "¿Podría ayudarme?",
+      "gloss": {
+       "de": "Könnten Sie mir helfen?",
+       "en": "Could you help me?"
       },
       "note": {
-       "de": "Endung -íamos für nosotros",
-       "en": "ending -íamos for nosotros"
+       "de": "höfliche Bitte",
+       "en": "polite request"
+      }
+     },
+     {
+      "es": "Querría un café.",
+      "gloss": {
+       "de": "Ich hätte gern einen Kaffee.",
+       "en": "I would like a coffee."
+      }
+     }
+    ]
+   },
+   {
+    "id": "hypotheses",
+    "title": {
+     "de": "Hypothesen",
+     "en": "Hypotheses"
+    },
+    "body": {
+     "de": "Es beschreibt, was unter einer Bedingung passieren würde, oft im Nebensatz.",
+     "en": "It describes what would happen under a condition, often in the main clause."
+    },
+    "examples": [
+     {
+      "es": "Yo sería más feliz allí.",
+      "gloss": {
+       "de": "Ich wäre dort glücklicher.",
+       "en": "I would be happier there."
+      }
+     },
+     {
+      "es": "Tendríamos más tiempo.",
+      "gloss": {
+       "de": "Wir hätten mehr Zeit.",
+       "en": "We would have more time."
+      }
+     },
+     {
+      "es": "Eso no haría falta.",
+      "gloss": {
+       "de": "Das wäre nicht nötig.",
+       "en": "That would not be necessary."
+      }
+     }
+    ]
+   },
+   {
+    "id": "advice",
+    "title": {
+     "de": "Ratschläge",
+     "en": "Advice"
+    },
+    "body": {
+     "de": "Mit deber oder poder im condicional gibt man freundliche Empfehlungen.",
+     "en": "Use deber or poder in the conditional to give friendly recommendations."
+    },
+    "examples": [
+     {
+      "es": "Deberías descansar más.",
+      "gloss": {
+       "de": "Du solltest dich mehr ausruhen.",
+       "en": "You should rest more."
+      },
+      "note": {
+       "de": "freundlicher Tipp",
+       "en": "friendly tip"
+      }
+     },
+     {
+      "es": "Podrías hablar con él.",
+      "gloss": {
+       "de": "Du könntest mit ihm reden.",
+       "en": "You could talk to him."
+      }
+     }
+    ]
+   },
+   {
+    "id": "future-in-past",
+    "title": {
+     "de": "Zukunft aus der Vergangenheit",
+     "en": "Future-in-the-past"
+    },
+    "body": {
+     "de": "Es nennt etwas, das aus einem Vergangenheitspunkt heraus noch bevorstand.",
+     "en": "It names something still to come as seen from a point in the past."
+    },
+    "examples": [
+     {
+      "es": "Dijo que vendría pronto.",
+      "gloss": {
+       "de": "Er sagte, dass er bald kommen würde.",
+       "en": "He said he would come soon."
+      }
+     },
+     {
+      "es": "Pensé que lo harías.",
+      "gloss": {
+       "de": "Ich dachte, du würdest es tun.",
+       "en": "I thought you would do it."
       }
      }
     ]
@@ -1798,138 +1903,44 @@
     "id": "irregular-stems",
     "title": {
      "de": "Unregelmäßige Stämme wie im Futur",
-     "en": "Irregular stems, same as the future"
+     "en": "Irregular stems as in the future"
     },
     "body": {
-     "de": "Verben, die im Futur einen unregelmäßigen Stamm haben, benutzen genau denselben Stamm im condicional simple – nur mit den -ía-Endungen statt der Futur-Endungen. So wird aus tener → tendr-, hacer → har-, poder → podr-, decir → dir-. Die Endungen bleiben dabei völlig regelmäßig.",
-     "en": "Verbs with an irregular stem in the future use exactly the same stem in the condicional simple, just with the -ía endings instead of the future endings. So tener → tendr-, hacer → har-, poder → podr-, decir → dir-. The endings themselves stay perfectly regular."
+     "de": "Verben mit unregelmäßigem Futurstamm nutzen denselben Stamm plus die -ía-Endungen.",
+     "en": "Verbs with an irregular future stem use that same stem plus the -ía endings."
     },
     "examples": [
      {
-      "es": "Tendría más tiempo.",
+      "es": "Tendría que irme ya.",
       "gloss": {
-       "de": "Ich hätte mehr Zeit.",
-       "en": "I would have more time."
+       "de": "Ich müsste schon gehen.",
+       "en": "I would have to leave now."
       },
       "note": {
-       "de": "Stamm tendr- + -ía",
-       "en": "stem tendr- + -ía"
+       "de": "tener: tendr-",
+       "en": "tener: tendr-"
       }
      },
      {
-      "es": "Eso no lo haría.",
+      "es": "¿Qué dirías tú?",
+      "gloss": {
+       "de": "Was würdest du sagen?",
+       "en": "What would you say?"
+      },
+      "note": {
+       "de": "decir: dir-",
+       "en": "decir: dir-"
+      }
+     },
+     {
+      "es": "Yo no haría eso.",
       "gloss": {
        "de": "Das würde ich nicht tun.",
-       "en": "I wouldn't do that."
+       "en": "I would not do that."
       },
       "note": {
-       "de": "hacer → har-",
-       "en": "hacer → har-"
-      }
-     }
-    ]
-   },
-   {
-    "id": "politeness",
-    "title": {
-     "de": "Höfliche Bitten und Wünsche",
-     "en": "Polite requests and wishes"
-    },
-    "body": {
-     "de": "Mit dem condicional simple klingt eine Bitte oder ein Wunsch deutlich höflicher und weicher als im Präsens. Sehr häufig sind dabei die Formen von querer (querría) und poder (podría) – vergleichbar mit dem deutschen \"würde gern\" oder \"könnten Sie\".",
-     "en": "The condicional simple makes a request or wish sound noticeably more polite and softer than the present tense. The forms of querer (querría) and poder (podría) are especially common, like English \"would like\" or \"could you\"."
-    },
-    "examples": [
-     {
-      "es": "Querría un café, por favor.",
-      "gloss": {
-       "de": "Ich hätte gern einen Kaffee, bitte.",
-       "en": "I would like a coffee, please."
-      },
-      "note": {
-       "de": "querer → querr-, höflicher als quiero",
-       "en": "querer → querr-, softer than quiero"
-      }
-     },
-     {
-      "es": "¿Podrías ayudarme?",
-      "gloss": {
-       "de": "Könntest du mir helfen?",
-       "en": "Could you help me?"
-      },
-      "note": {
-       "de": "poder → podr-",
-       "en": "poder → podr-"
-      }
-     }
-    ]
-   },
-   {
-    "id": "hypotheses",
-    "title": {
-     "de": "Hypothesen und Vermutungen",
-     "en": "Hypotheses and guesses"
-    },
-    "body": {
-     "de": "Das condicional simple beschreibt, was passieren würde, wenn die Lage anders wäre, sowie Vermutungen über etwas Ungewisses. Es entspricht oft dem deutschen \"würde\" oder \"wäre wohl\".",
-     "en": "The condicional simple describes what would happen if things were different, and also guesses about something uncertain. It often matches English \"would\" or \"would probably\"."
-    },
-    "examples": [
-     {
-      "es": "Yo no diría eso.",
-      "gloss": {
-       "de": "Das würde ich nicht sagen.",
-       "en": "I wouldn't say that."
-      },
-      "note": {
-       "de": "decir → dir-",
-       "en": "decir → dir-"
-      }
-     },
-     {
-      "es": "Sería una buena idea.",
-      "gloss": {
-       "de": "Das wäre eine gute Idee.",
-       "en": "That would be a good idea."
-      },
-      "note": {
-       "de": "ser → ser- + -ía",
-       "en": "ser → ser- + -ía"
-      }
-     }
-    ]
-   },
-   {
-    "id": "advice-future-in-past",
-    "title": {
-     "de": "Ratschläge und Zukunft aus der Vergangenheit",
-     "en": "Advice and future-in-the-past"
-    },
-    "body": {
-     "de": "Zwei weitere typische Verwendungen: Ratschläge (oft mit \"an deiner Stelle ...\") und die sogenannte Zukunft aus der Vergangenheit – wenn man aus einem früheren Standpunkt über etwas Späteres spricht (\"er sagte, er würde kommen\").",
-     "en": "Two more typical uses: giving advice (often with \"in your place ...\") and the so-called future-in-the-past, when you speak from an earlier viewpoint about something later (\"he said he would come\")."
-    },
-    "examples": [
-     {
-      "es": "Yo dormiría más.",
-      "gloss": {
-       "de": "Ich würde mehr schlafen.",
-       "en": "I would sleep more."
-      },
-      "note": {
-       "de": "Ratschlag mit dormir",
-       "en": "advice with dormir"
-      }
-     },
-     {
-      "es": "Dijo que vendría, pero no diría cuándo.",
-      "gloss": {
-       "de": "Er sagte, er würde kommen, aber er wollte nicht sagen, wann.",
-       "en": "He said he would come, but he wouldn't say when."
-      },
-      "note": {
-       "de": "Zukunft aus der Vergangenheit: diría = würde sagen",
-       "en": "future-in-the-past: diría = would say"
+       "de": "hacer: har-",
+       "en": "hacer: har-"
       }
      }
     ]
@@ -1937,47 +1948,31 @@
   ],
   "examples": [
    {
-    "es": "¿Podría hablar con usted un momento?",
+    "es": "¿Te gustaría venir con nosotros?",
     "gloss": {
-     "de": "Könnte ich einen Moment mit Ihnen sprechen?",
-     "en": "Could I speak with you for a moment?"
-    },
-    "note": {
-     "de": "höfliche Bitte: podría + Infinitiv",
-     "en": "polite request: podría + infinitive"
+     "de": "Würdest du gern mitkommen?",
+     "en": "Would you like to come with us?"
     }
    },
    {
-    "es": "Nosotros iríamos a la playa, pero hace frío.",
+    "es": "En tu lugar, dormiría más.",
     "gloss": {
-     "de": "Wir würden an den Strand gehen, aber es ist kalt.",
-     "en": "We would go to the beach, but it's cold."
-    },
-    "note": {
-     "de": "ir → ir- + -íamos",
-     "en": "ir → ir- + -íamos"
+     "de": "An deiner Stelle würde ich mehr schlafen.",
+     "en": "In your place, I would sleep more."
     }
    },
    {
-    "es": "Yo comería algo ahora.",
+    "es": "Ellos estarían muy contentos.",
     "gloss": {
-     "de": "Ich würde jetzt etwas essen.",
-     "en": "I would eat something now."
-    },
-    "note": {
-     "de": "regelmäßiges -er-Verb: comer + -ía",
-     "en": "regular -er verb: comer + -ía"
+     "de": "Sie wären sehr zufrieden.",
+     "en": "They would be very happy."
     }
    },
    {
-    "es": "Ella estaría muy contenta con la noticia.",
+    "es": "Querríamos quedarnos un día más.",
     "gloss": {
-     "de": "Sie wäre sehr glücklich über die Nachricht.",
-     "en": "She would be very happy with the news."
-    },
-    "note": {
-     "de": "estar → estar- + -ía (Vermutung)",
-     "en": "estar → estar- + -ía (a guess)"
+     "de": "Wir würden gern einen Tag länger bleiben.",
+     "en": "We would like to stay one more day."
     }
    }
   ],
@@ -2029,68 +2024,37 @@
    "en": "Indicative"
   },
   "summary": {
-   "de": "Das condicional perfecto (zusammengesetztes Konditional) drückt aus, was unter bestimmten Bedingungen geschehen wäre, aber nicht geschehen ist. Es steht oft im Hauptsatz von irrealen Bedingungssätzen der Vergangenheit (si + Plusquamperfekt Konjunktiv).",
-   "en": "The condicional perfecto (conditional perfect) expresses what would have happened under certain conditions but did not. It typically appears in the main clause of past unreal conditional sentences (si + pluperfect subjunctive)."
+   "de": "Für etwas, das unter bestimmten Bedingungen passiert wäre, aber nicht eingetreten ist.",
+   "en": "For something that would have happened under certain conditions but did not occur."
   },
   "rules": [
    {
     "id": "formation",
     "title": {
-     "de": "Bildung: habría + Partizip",
-     "en": "Formation: habría + participle"
+     "de": "Bildung",
+     "en": "Formation"
     },
     "body": {
-     "de": "Man bildet das condicional perfecto mit dem Hilfsverb haber im einfachen Konditional (habría, habrías, habría, habríamos, habríais, habrían) plus dem Partizip Perfekt (z. B. hablado, comido, vivido). Es ist eine zusammengesetzte Zeitform: Das Partizip bleibt immer gleich, nur haber wird konjugiert.",
-     "en": "Form the condicional perfecto with the auxiliary haber in the simple conditional (habría, habrías, habría, habríamos, habríais, habrían) plus the past participle (e.g. hablado, comido, vivido). It is a compound tense: the participle never changes; only haber is conjugated."
+     "de": "habría im Konditional plus Partizip Perfekt des Hauptverbs.",
+     "en": "habría in the conditional plus the past participle of the main verb."
     },
     "examples": [
      {
-      "es": "Yo habría hablado con ella.",
+      "es": "Yo habría comido más.",
       "gloss": {
-       "de": "Ich hätte mit ihr gesprochen.",
-       "en": "I would have spoken with her."
+       "de": "Ich hätte mehr gegessen.",
+       "en": "I would have eaten more."
       },
       "note": {
-       "de": "habría (haber) + hablado (Partizip).",
-       "en": "habría (haber) + hablado (participle)."
+       "de": "habría + Partizip",
+       "en": "habría + participle"
       }
      },
      {
-      "es": "Nosotros habríamos comido más temprano.",
+      "es": "Ellos habrían venido.",
       "gloss": {
-       "de": "Wir hätten früher gegessen.",
-       "en": "We would have eaten earlier."
-      }
-     }
-    ]
-   },
-   {
-    "id": "use-past-unreal",
-    "title": {
-     "de": "Was wäre gewesen, wenn",
-     "en": "What would have been"
-    },
-    "body": {
-     "de": "Das condicional perfecto beschreibt eine Handlung, die in der Vergangenheit unter anderen Umständen passiert wäre, aber tatsächlich nicht eingetreten ist. Im Deutschen entspricht es meist dem Konjunktiv mit hätte/wäre + Partizip.",
-     "en": "The condicional perfecto describes an action that would have happened in the past under different circumstances but did not actually occur. In English it corresponds to 'would have' + past participle."
-    },
-    "examples": [
-     {
-      "es": "En tu lugar, yo habría dicho la verdad.",
-      "gloss": {
-       "de": "An deiner Stelle hätte ich die Wahrheit gesagt.",
-       "en": "In your place, I would have told the truth."
-      },
-      "note": {
-       "de": "dicho ist das unregelmäßige Partizip von decir.",
-       "en": "dicho is the irregular participle of decir."
-      }
-     },
-     {
-      "es": "Ella habría sido una buena profesora.",
-      "gloss": {
-       "de": "Sie wäre eine gute Lehrerin gewesen.",
-       "en": "She would have been a good teacher."
+       "de": "Sie wären gekommen.",
+       "en": "They would have come."
       }
      }
     ]
@@ -2098,65 +2062,108 @@
    {
     "id": "si-clause",
     "title": {
-     "de": "Im Bedingungssatz (si + Plusquamperfekt Konjunktiv)",
-     "en": "In conditional sentences (si + pluperfect subjunctive)"
+     "de": "Mit si-Satz",
+     "en": "With si-clause"
     },
     "body": {
-     "de": "Sehr häufig steht das condicional perfecto im Hauptsatz eines irrealen Bedingungssatzes der Vergangenheit. Der wenn-Satz steht dann im Plusquamperfekt Konjunktiv (hubiera + Partizip): 'Si hubiera ..., habría ...'. Beide Teile drücken eine nicht erfüllte Bedingung in der Vergangenheit aus.",
-     "en": "Very often the condicional perfecto appears in the main clause of a past unreal conditional sentence. The 'if' clause then uses the pluperfect subjunctive (hubiera + participle): 'Si hubiera ..., habría ...'. Both parts express an unfulfilled past condition."
+     "de": "Oft mit si plus Plusquamperfekt Subjunktiv: was unter einer Bedingung passiert wäre.",
+     "en": "Often with si plus pluperfect subjunctive: what would have happened under a condition."
     },
     "examples": [
      {
-      "es": "Si hubiera tenido tiempo, habría hecho la tarea.",
+      "es": "Si hubiera estudiado, habría aprobado.",
       "gloss": {
-       "de": "Wenn ich Zeit gehabt hätte, hätte ich die Aufgabe gemacht.",
-       "en": "If I had had time, I would have done the homework."
+       "de": "Wenn ich gelernt hätte, hätte ich bestanden.",
+       "en": "If I had studied, I would have passed."
       },
       "note": {
-       "de": "Hauptsatz: habría hecho; Nebensatz: hubiera tenido.",
-       "en": "Main clause: habría hecho; if-clause: hubiera tenido."
+       "de": "irreale Vergangenheit",
+       "en": "unreal past"
       }
      },
      {
-      "es": "Si hubieras estudiado, habrías podido aprobar.",
+      "es": "Habríamos ido si fuera posible.",
       "gloss": {
-       "de": "Wenn du gelernt hättest, hättest du bestehen können.",
-       "en": "If you had studied, you would have been able to pass."
+       "de": "Wir wären gegangen, wenn es möglich gewesen wäre.",
+       "en": "We would have gone if it had been possible."
       }
      }
     ]
    },
    {
-    "id": "regret-conjecture",
+    "id": "regret",
     "title": {
-     "de": "Bedauern und Vermutung über die Vergangenheit",
-     "en": "Regret and conjecture about the past"
+     "de": "Anders gehandelt",
+     "en": "Done differently"
     },
     "body": {
-     "de": "Mit dem condicional perfecto kann man auch Bedauern oder eine höfliche Kritik ausdrücken ('ich hätte ...') sowie eine Vermutung über etwas, das vor einem Zeitpunkt in der Vergangenheit schon passiert war.",
-     "en": "The condicional perfecto can also express regret or polite criticism ('I would have ...') as well as a guess about something that had probably happened before a point in the past."
+     "de": "Drückt aus, was man getan hätte, aber nicht getan hat.",
+     "en": "Expresses what one would have done but did not do."
     },
     "examples": [
      {
-      "es": "Yo no habría ido a esa fiesta.",
+      "es": "Yo habría dicho la verdad.",
       "gloss": {
-       "de": "Ich wäre nicht zu dieser Party gegangen.",
-       "en": "I would not have gone to that party."
-      },
-      "note": {
-       "de": "ido ist das Partizip von ir.",
-       "en": "ido is the participle of ir."
+       "de": "Ich hätte die Wahrheit gesagt.",
+       "en": "I would have told the truth."
       }
      },
      {
-      "es": "Ya habrían dormido cuando llamaste.",
+      "es": "Ella habría hecho lo mismo.",
       "gloss": {
-       "de": "Sie hatten wohl schon geschlafen, als du anriefst.",
-       "en": "They had probably already slept when you called."
+       "de": "Sie hätte dasselbe gemacht.",
+       "en": "She would have done the same."
+      }
+     }
+    ]
+   },
+   {
+    "id": "participle-fixed",
+    "title": {
+     "de": "Partizip bleibt gleich",
+     "en": "Participle stays fixed"
+    },
+    "body": {
+     "de": "Das Partizip ändert sich nie; nur habría wird gebeugt.",
+     "en": "The participle never changes; only habría is conjugated."
+    },
+    "examples": [
+     {
+      "es": "Tú habrías tenido suerte.",
+      "gloss": {
+       "de": "Du hättest Glück gehabt.",
+       "en": "You would have been lucky."
+      }
+     },
+     {
+      "es": "Vosotros habríais podido ayudar.",
+      "gloss": {
+       "de": "Ihr hättet helfen können.",
+       "en": "You all could have helped."
+      }
+     }
+    ]
+   },
+   {
+    "id": "probability",
+    "title": {
+     "de": "Vermutung über die Vergangenheit",
+     "en": "Guess about the past"
+    },
+    "body": {
+     "de": "Kann eine Vermutung über etwas Vergangenes ausdrücken.",
+     "en": "Can express a guess about something in the past."
+    },
+    "examples": [
+     {
+      "es": "Ya habrían comido cuando llegué.",
+      "gloss": {
+       "de": "Sie hätten wohl schon gegessen, als ich ankam.",
+       "en": "They had probably already eaten when I arrived."
       },
       "note": {
-       "de": "Vermutung über die Vergangenheit.",
-       "en": "Conjecture about the past."
+       "de": "Vermutung",
+       "en": "probability"
       }
      }
     ]
@@ -2164,35 +2171,31 @@
   ],
   "examples": [
    {
-    "es": "Sin tu ayuda, no habría podido terminar.",
+    "es": "Habría sido más fácil con tu ayuda.",
     "gloss": {
-     "de": "Ohne deine Hilfe hätte ich nicht fertig werden können.",
-     "en": "Without your help, I would not have been able to finish."
+     "de": "Es wäre mit deiner Hilfe einfacher gewesen.",
+     "en": "It would have been easier with your help."
     }
    },
    {
-    "es": "Ellos habrían querido quedarse un día más.",
+    "es": "Nosotros habríamos dormido mejor allí.",
     "gloss": {
-     "de": "Sie hätten gern noch einen Tag länger geblieben.",
-     "en": "They would have wanted to stay one more day."
+     "de": "Wir hätten dort besser geschlafen.",
+     "en": "We would have slept better there."
     }
    },
    {
-    "es": "¿Tú qué habrías hecho en mi situación?",
+    "es": "¿Tú qué habrías hecho?",
     "gloss": {
-     "de": "Was hättest du in meiner Situation gemacht?",
-     "en": "What would you have done in my situation?"
-    },
-    "note": {
-     "de": "hecho ist das unregelmäßige Partizip von hacer.",
-     "en": "hecho is the irregular participle of hacer."
+     "de": "Was hättest du gemacht?",
+     "en": "What would you have done?"
     }
    },
    {
-    "es": "Nosotros habríamos estado más cómodos en casa.",
+    "es": "Yo no habría querido ir.",
     "gloss": {
-     "de": "Wir wären zu Hause bequemer gewesen.",
-     "en": "We would have been more comfortable at home."
+     "de": "Ich hätte nicht gehen wollen.",
+     "en": "I would not have wanted to go."
     }
    }
   ],
@@ -2214,41 +2217,125 @@
    "en": "Subjunctive"
   },
   "summary": {
-   "de": "Der presente de subjuntivo (Subjunktiv der Gegenwart) steht nach Ausdrücken von Wunsch, Gefühl, Zweifel, Notwendigkeit und unpersönlicher Wertung sowie nach bestimmten Auslösern wie ojalá, para que und cuando + Zukunft. Er erscheint fast immer im Nebensatz nach que und drückt nicht Tatsachen, sondern Wünsche, Möglichkeiten oder Bewertungen aus.",
-   "en": "The present subjunctive is used after expressions of wish, emotion, doubt, necessity and impersonal opinion, as well as after triggers like ojalá, para que and cuando + future. It almost always appears in a subordinate clause after que and conveys not facts but wishes, possibilities or evaluations."
+   "de": "Der presente de subjuntivo steht nach Ausdrücken von Wunsch, Gefühl, Zweifel, Notwendigkeit und unpersönlicher Wertung, meist im Nebensatz mit que.",
+   "en": "The present subjunctive is used after expressions of wish, emotion, doubt, necessity and impersonal opinion, usually in a que-clause."
   },
   "rules": [
    {
-    "id": "trigger-que",
+    "id": "triggers",
     "title": {
-     "de": "Auslöser + que: Wunsch, Gefühl, Zweifel",
-     "en": "Trigger + que: wish, emotion, doubt"
+     "de": "Auslöser: Wunsch, Gefühl, Zweifel",
+     "en": "Triggers: wish, emotion, doubt"
     },
     "body": {
-     "de": "Steht im Hauptsatz ein Verb des Wünschens (querer que), Fühlens (alegrarse de que), Zweifelns (dudar que) oder eine Notwendigkeit/Wertung, folgt im Nebensatz nach que der Subjunktiv. Voraussetzung sind meist zwei verschiedene Subjekte.",
-     "en": "When the main clause expresses wishing (querer que), emotion (alegrarse de que), doubt (dudar que), or a necessity/judgment, the subordinate clause after que takes the subjunctive. This normally requires two different subjects."
+     "de": "Nach Wunsch, Gefühl, Zweifel oder Notwendigkeit folgt im que-Nebensatz der Subjuntivo.",
+     "en": "After wish, emotion, doubt or necessity, the que-clause takes the subjunctive."
     },
     "examples": [
      {
-      "es": "Quiero que comas más.",
+      "es": "Quiero que hables conmigo.",
       "gloss": {
-       "de": "Ich will, dass du mehr isst.",
-       "en": "I want you to eat more."
+       "de": "Ich will, dass du mit mir sprichst.",
+       "en": "I want you to talk to me."
       },
       "note": {
-       "de": "querer que loest den Subjunktiv aus.",
-       "en": "querer que triggers the subjunctive."
+       "de": "Wunsch",
+       "en": "wish"
       }
      },
      {
-      "es": "Dudo que tengas razon.",
+      "es": "Me alegro de que comas más.",
       "gloss": {
-       "de": "Ich bezweifle, dass du recht hast.",
-       "en": "I doubt that you are right."
+       "de": "Ich freue mich, dass du mehr isst.",
+       "en": "I'm glad you eat more."
       },
       "note": {
-       "de": "Zweifel -> Subjunktiv.",
-       "en": "Doubt -> subjunctive."
+       "de": "Gefühl",
+       "en": "emotion"
+      }
+     },
+     {
+      "es": "Dudo que puedan venir.",
+      "gloss": {
+       "de": "Ich bezweifle, dass sie kommen können.",
+       "en": "I doubt they can come."
+      },
+      "note": {
+       "de": "Zweifel",
+       "en": "doubt"
+      }
+     }
+    ]
+   },
+   {
+    "id": "impersonal",
+    "title": {
+     "de": "Unpersönliche Wertung",
+     "en": "Impersonal opinion"
+    },
+    "body": {
+     "de": "Unpersönliche Wendungen wie es ist nötig/gut, dass verlangen ebenfalls den Subjuntivo.",
+     "en": "Impersonal phrases like it's necessary/good that also require the subjunctive."
+    },
+    "examples": [
+     {
+      "es": "Es necesario que tengas paciencia.",
+      "gloss": {
+       "de": "Es ist nötig, dass du Geduld hast.",
+       "en": "It's necessary that you have patience."
+      }
+     },
+     {
+      "es": "Es bueno que duermas bien.",
+      "gloss": {
+       "de": "Es ist gut, dass du gut schläfst.",
+       "en": "It's good that you sleep well."
+      }
+     }
+    ]
+   },
+   {
+    "id": "ojala-paraque-cuando",
+    "title": {
+     "de": "ojalá, para que, cuando + Zukunft",
+     "en": "ojalá, para que, cuando + future"
+    },
+    "body": {
+     "de": "ojalá, para que und cuando (bei Zukunftsbezug) lösen den Subjuntivo aus.",
+     "en": "ojalá, para que and cuando (referring to the future) trigger the subjunctive."
+    },
+    "examples": [
+     {
+      "es": "Ojalá haga buen tiempo.",
+      "gloss": {
+       "de": "Hoffentlich ist schönes Wetter.",
+       "en": "Hopefully the weather is nice."
+      },
+      "note": {
+       "de": "hoffentlich",
+       "en": "hopefully"
+      }
+     },
+     {
+      "es": "Te lo digo para que sepas la verdad.",
+      "gloss": {
+       "de": "Ich sage es dir, damit du die Wahrheit weißt.",
+       "en": "I tell you so that you know the truth."
+      },
+      "note": {
+       "de": "Absicht",
+       "en": "purpose"
+      }
+     },
+     {
+      "es": "Cuando vayas, llámame.",
+      "gloss": {
+       "de": "Wenn du gehst, ruf mich an.",
+       "en": "When you go, call me."
+      },
+      "note": {
+       "de": "Zukunft",
+       "en": "future"
       }
      }
     ]
@@ -2256,157 +2343,91 @@
    {
     "id": "formation",
     "title": {
-     "de": "Bildung: yo-Stamm + gegengleiche Endungen",
-     "en": "Formation: yo-stem + opposite endings"
+     "de": "Bildung: yo-Stamm, Endung tauschen",
+     "en": "Formation: yo-stem, swap endings"
     },
     "body": {
-     "de": "Man nimmt den Stamm der yo-Form des Praesens (hablo -> habl-, como -> com-) und haengt die 'gegengleichen' Endungen an: -ar-Verben bekommen -e-Endungen, -er-/-ir-Verben bekommen -a-Endungen. So wird hablar zu hable, hables, hable, hablemos, habléis, hablen.",
-     "en": "Take the stem of the present-tense yo form (hablo -> habl-, como -> com-) and add the 'opposite' endings: -ar verbs take -e endings, -er/-ir verbs take -a endings. Thus hablar becomes hable, hables, hable, hablemos, habléis, hablen."
+     "de": "Vom yo-Stamm des Präsens ausgehen und die Endung tauschen: -ar zu -e, -er/-ir zu -a.",
+     "en": "Take the yo present stem and swap endings: -ar to -e, -er/-ir to -a."
     },
     "examples": [
      {
-      "es": "hable, hables, hablemos, hablen",
+      "es": "Espero que hablen claro.",
       "gloss": {
-       "de": "(hablar mit -e-Endungen)",
-       "en": "(hablar with -e endings)"
+       "de": "Ich hoffe, dass sie deutlich sprechen.",
+       "en": "I hope they speak clearly."
       },
       "note": {
-       "de": "-ar -> -e",
-       "en": "-ar -> -e"
+       "de": "-ar zu -en",
+       "en": "-ar to -en"
       }
      },
      {
-      "es": "coma, comas, comamos, coman",
+      "es": "Quiero que comas algo.",
       "gloss": {
-       "de": "(comer mit -a-Endungen)",
-       "en": "(comer with -a endings)"
+       "de": "Ich will, dass du etwas isst.",
+       "en": "I want you to eat something."
       },
       "note": {
-       "de": "-er/-ir -> -a",
-       "en": "-er/-ir -> -a"
+       "de": "-er zu -as",
+       "en": "-er to -as"
       }
      },
      {
-      "es": "viva, vivas, vivamos, vivan",
+      "es": "Es raro que tenga miedo.",
       "gloss": {
-       "de": "(vivir mit -a-Endungen)",
-       "en": "(vivir with -a endings)"
+       "de": "Es ist seltsam, dass er Angst hat.",
+       "en": "It's strange that he is afraid."
+      },
+      "note": {
+       "de": "tengo zu tenga",
+       "en": "tengo to tenga"
       }
      }
     ]
    },
    {
-    "id": "yo-stem-irregular",
+    "id": "irregulars-stem",
     "title": {
-     "de": "Unregelmaessiger yo-Stamm bleibt erhalten",
-     "en": "Irregular yo-stem carries over"
+     "de": "Unregelmäßige & Stammwechsel",
+     "en": "Irregulars & stem changes"
     },
     "body": {
-     "de": "Verben mit unregelmaessiger yo-Form im Praesens behalten diesen Stamm im ganzen Subjunktiv: tengo -> tenga, hago -> haga, digo -> diga. Das gilt fuer alle Personen, also auch tengas, hagas, digan.",
-     "en": "Verbs with an irregular yo form in the present keep that stem throughout the subjunctive: tengo -> tenga, hago -> haga, digo -> diga. This holds for every person, e.g. tengas, hagas, digan."
+     "de": "Eigene Formen: sea, vaya, haya, sepa, dé, esté; Stammwechsel bleiben erhalten (quiera, pueda, duerma).",
+     "en": "Special forms: sea, vaya, haya, sepa, dé, esté; stem changes carry over (quiera, pueda, duerma)."
     },
     "examples": [
      {
-      "es": "Espero que tengas tiempo.",
+      "es": "Espero que sea verdad.",
       "gloss": {
-       "de": "Ich hoffe, dass du Zeit hast.",
-       "en": "I hope you have time."
+       "de": "Ich hoffe, dass es wahr ist.",
+       "en": "I hope it's true."
       },
       "note": {
-       "de": "tengo -> tenga -> tengas",
-       "en": "tengo -> tenga -> tengas"
+       "de": "ser",
+       "en": "ser"
       }
      },
      {
-      "es": "Es mejor que lo hagas hoy.",
+      "es": "Quiero que estés aquí.",
       "gloss": {
-       "de": "Es ist besser, dass du es heute machst.",
-       "en": "It is better that you do it today."
+       "de": "Ich will, dass du hier bist.",
+       "en": "I want you to be here."
       },
       "note": {
-       "de": "hago -> haga -> hagas",
-       "en": "hago -> haga -> hagas"
-      }
-     }
-    ]
-   },
-   {
-    "id": "stem-change",
-    "title": {
-     "de": "Diphthong- und Stammwechsel uebertragen sich",
-     "en": "Diphthong and stem changes carry over"
-    },
-    "body": {
-     "de": "Stammveraenderungen aus dem Praesens erscheinen auch im Subjunktiv: poder -> pueda, querer -> quiera, dormir -> duerma. Wie im Praesens bleibt die nosotros-Form oft ohne Diphthong (podamos, queramos), bei -ir-Verben mit kleiner Aenderung (durmamos).",
-     "en": "Stem changes from the present appear in the subjunctive too: poder -> pueda, querer -> quiera, dormir -> duerma. As in the present, the nosotros form often has no diphthong (podamos, queramos), and -ir verbs show a small shift (durmamos)."
-    },
-    "examples": [
-     {
-      "es": "Ojala puedas venir.",
-      "gloss": {
-       "de": "Hoffentlich kannst du kommen.",
-       "en": "Hopefully you can come."
-      },
-      "note": {
-       "de": "ojala loest immer den Subjunktiv aus.",
-       "en": "ojala always triggers the subjunctive."
+       "de": "estar",
+       "en": "estar"
       }
      },
      {
-      "es": "Quiero que duermas bien.",
+      "es": "No creo que quieras eso.",
       "gloss": {
-       "de": "Ich will, dass du gut schlaefst.",
-       "en": "I want you to sleep well."
+       "de": "Ich glaube nicht, dass du das willst.",
+       "en": "I don't think you want that."
       },
       "note": {
-       "de": "o -> ue: duerma, duermas",
-       "en": "o -> ue: duerma, duermas"
-      }
-     }
-    ]
-   },
-   {
-    "id": "full-irregular",
-    "title": {
-     "de": "Komplett unregelmaessig: sea, vaya, esté",
-     "en": "Fully irregular: sea, vaya, esté"
-    },
-    "body": {
-     "de": "Einige sehr haeufige Verben haben ganz eigene Subjunktiv-Staemme, die man auswendig lernt: ser -> sea, ir -> vaya, estar -> esté. Sie folgen dann den normalen Endungen (seas, vayas, estés).",
-     "en": "A few very common verbs have their own special subjunctive stems that must be memorized: ser -> sea, ir -> vaya, estar -> esté. They then take the regular endings (seas, vayas, estés)."
-    },
-    "examples": [
-     {
-      "es": "Es importante que seas honesto.",
-      "gloss": {
-       "de": "Es ist wichtig, dass du ehrlich bist.",
-       "en": "It is important that you are honest."
-      },
-      "note": {
-       "de": "ser -> sea -> seas",
-       "en": "ser -> sea -> seas"
-      }
-     },
-     {
-      "es": "Cuando vayas a casa, llamame.",
-      "gloss": {
-       "de": "Wenn du nach Hause gehst, ruf mich an.",
-       "en": "When you go home, call me."
-      },
-      "note": {
-       "de": "cuando + Zukunftsbezug -> Subjunktiv (vaya, vayas).",
-       "en": "cuando + future reference -> subjunctive (vaya, vayas)."
-      }
-     },
-     {
-      "es": "Me alegro de que estés aqui.",
-      "gloss": {
-       "de": "Ich freue mich, dass du hier bist.",
-       "en": "I am glad that you are here."
-      },
-      "note": {
-       "de": "Gefuehl + estar -> esté, estés.",
-       "en": "Emotion + estar -> esté, estés."
+       "de": "Stammwechsel",
+       "en": "stem change"
       }
      }
     ]
@@ -2414,47 +2435,31 @@
   ],
   "examples": [
    {
-    "es": "Ojala haga buen tiempo manana.",
+    "es": "Ojalá vengan pronto.",
     "gloss": {
-     "de": "Hoffentlich ist morgen gutes Wetter.",
-     "en": "Hopefully the weather is good tomorrow."
-    },
-    "note": {
-     "de": "ojala + Subjunktiv (hacer -> haga).",
-     "en": "ojala + subjunctive (hacer -> haga)."
+     "de": "Hoffentlich kommen sie bald.",
+     "en": "Hopefully they come soon."
     }
    },
    {
-    "es": "Te lo explico para que lo entiendas mejor.",
+    "es": "Es importante que vivamos en paz.",
     "gloss": {
-     "de": "Ich erklaere es dir, damit du es besser verstehst.",
-     "en": "I am explaining it so that you understand it better."
-    },
-    "note": {
-     "de": "para que loest immer den Subjunktiv aus.",
-     "en": "para que always triggers the subjunctive."
+     "de": "Es ist wichtig, dass wir in Frieden leben.",
+     "en": "It's important that we live in peace."
     }
    },
    {
-    "es": "Cuando seas mayor, lo comprenderas.",
+    "es": "Dudo que puedas hacerlo solo.",
     "gloss": {
-     "de": "Wenn du aelter bist, wirst du es verstehen.",
-     "en": "When you are older, you will understand it."
-    },
-    "note": {
-     "de": "cuando mit Zukunftsbezug -> seas (ser).",
-     "en": "cuando with future reference -> seas (ser)."
+     "de": "Ich bezweifle, dass du es allein schaffst.",
+     "en": "I doubt you can do it alone."
     }
    },
    {
-    "es": "No creo que vivan aqui.",
+    "es": "No creo que digas la verdad.",
     "gloss": {
-     "de": "Ich glaube nicht, dass sie hier wohnen.",
-     "en": "I do not think they live here."
-    },
-    "note": {
-     "de": "Verneinte Meinung -> Subjunktiv (vivir -> vivan).",
-     "en": "Negated opinion -> subjunctive (vivir -> vivan)."
+     "de": "Ich glaube nicht, dass du die Wahrheit sagst.",
+     "en": "I don't think you're telling the truth."
     }
    }
   ],
@@ -2506,76 +2511,52 @@
    "en": "Subjunctive"
   },
   "summary": {
-   "de": "Der pretérito imperfecto de subjuntivo (Imperfekt des Konjunktivs) steht für Wünsche, Annahmen und Forderungen in der Vergangenheit sowie in irrealen oder unwahrscheinlichen Bedingungssätzen (Si tuviera...) und in höflichen Bitten (Quisiera...). Er drückt Nicht-Reales, Hypothetisches und Konjunktiv-Auslöser aus, deren Bezugspunkt in der Vergangenheit oder im Irrealen liegt.",
-   "en": "The pretérito imperfecto de subjuntivo (past subjunctive) expresses wishes, assumptions and demands set in the past, as well as unreal or unlikely conditions (Si tuviera...) and polite requests (Quisiera...). It signals the non-real or hypothetical, triggered from a past or counterfactual point of view."
+   "de": "Vergangenheits-Konjunktiv: nach Vergangenheits-Auslösern, in irrealen Bedingungssätzen (Si...) und für höfliche Wünsche.",
+   "en": "Past subjunctive: after past triggers, in unreal if-clauses (Si...), and for polite wishes."
   },
   "rules": [
    {
     "id": "formation",
     "title": {
-     "de": "Bildung: aus dem ellos-Stamm des Indefinido",
-     "en": "Formation: from the ellos preterite stem"
+     "de": "Bildung aus dem Stamm",
+     "en": "Built from the stem"
     },
     "body": {
-     "de": "Man nimmt die 3. Person Plural (ellos) des Indefinido (preterite), streicht die Endung -ron und hängt die Endungen -ra, -ras, -ra, -´ramos, -rais, -ran an. Dadurch werden alle Unregelmäßigkeiten des Indefinido automatisch mitgenommen: tener > tuvieron > tuviera, hacer > hicieron > hiciera. Bei -ar-Verben entsteht so -ara, bei -er-/-ir-Verben -iera. Achtung: Die nosotros-Form trägt immer einen Akzent (habláramos, tuviéramos).",
-     "en": "Take the third-person plural (ellos) of the preterite, drop the -ron ending, and add -ra, -ras, -ra, -´ramos, -rais, -ran. This automatically carries over every preterite irregularity: tener > tuvieron > tuviera, hacer > hicieron > hiciera. So -ar verbs get -ara, while -er/-ir verbs get -iera. Note: the nosotros form always takes an accent (habláramos, tuviéramos)."
+     "de": "Nimm den ellos-Stamm des Indefinido und hänge -ara oder -iera an.",
+     "en": "Take the ellos preterite stem and add -ara or -iera endings."
     },
     "examples": [
      {
-      "es": "hablar > hablaron > hablara",
+      "es": "hablar > hablara",
       "gloss": {
-       "de": "sprechen > sie sprachen > (dass) ich/er sprin­ge ein: spräche",
-       "en": "to speak > they spoke > (that) I/he spoke / would speak"
+       "de": "sprechen > sprächte",
+       "en": "to speak > spoke (subj.)"
       },
       "note": {
-       "de": "Regelmäßiges -ar-Verb: Stamm habla- plus -ra.",
-       "en": "Regular -ar verb: stem habla- plus -ra."
+       "de": "-ar-Verben: -ara",
+       "en": "-ar verbs: -ara"
       }
      },
      {
-      "es": "tener > tuvieron > tuviera",
+      "es": "tener > tuviera",
       "gloss": {
-       "de": "haben > sie hatten > (dass) ich/er hätte",
-       "en": "to have > they had > (that) I/he had / would have"
+       "de": "haben > hätte",
+       "en": "to have > had (subj.)"
       },
       "note": {
-       "de": "Unregelmäßiger Indefinido-Stamm tuv- bleibt erhalten.",
-       "en": "The irregular preterite stem tuv- is kept."
-      }
-     }
-    ]
-   },
-   {
-    "id": "trigger-past",
-    "title": {
-     "de": "Konjunktiv-Auslöser in der Vergangenheit",
-     "en": "Subjunctive triggers in a past context"
-    },
-    "body": {
-     "de": "Steht der auslösende Ausdruck (Wunsch, Bitte, Gefühl, Zweifel, Wertung) in der Vergangenheit, folgt im Nebensatz mit que der Imperfekt-Subjuntivo statt des Präsens-Subjuntivo. Typische Auslöser: querer que, pedir que, esperar que, es importante que, no creer que. Die Zeitenfolge verlangt also die Vergangenheitsform.",
-     "en": "When the triggering expression (wish, request, emotion, doubt, judgement) is in the past, the que-clause takes the past subjunctive instead of the present subjunctive. Typical triggers: querer que, pedir que, esperar que, es importante que, no creer que. The sequence of tenses calls for the past form."
-    },
-    "examples": [
-     {
-      "es": "Quería que hablaras más despacio.",
-      "gloss": {
-       "de": "Ich wollte, dass du langsamer sprichst (sprächest).",
-       "en": "I wanted you to speak more slowly."
-      },
-      "note": {
-       "de": "Hauptsatz im Imperfekt (quería) > Nebensatz im Imperfekt-Subjuntivo.",
-       "en": "Main clause in the imperfect (quería) > clause in the past subjunctive."
+       "de": "Stamm tuv- aus tuvieron",
+       "en": "stem from tuvieron"
       }
      },
      {
-      "es": "Esperaban que tuviéramos tiempo.",
+      "es": "comer > comiera",
       "gloss": {
-       "de": "Sie hofften, dass wir Zeit hätten.",
-       "en": "They hoped that we would have time."
+       "de": "essen > äße",
+       "en": "to eat > ate (subj.)"
       },
       "note": {
-       "de": "nosotros-Form mit Akzent: tuviéramos.",
-       "en": "Accented nosotros form: tuviéramos."
+       "de": "-er/-ir-Verben: -iera",
+       "en": "-er/-ir verbs: -iera"
       }
      }
     ]
@@ -2583,34 +2564,61 @@
    {
     "id": "si-clauses",
     "title": {
-     "de": "Irreale Bedingungssätze mit si",
-     "en": "Unreal conditional sentences with si"
+     "de": "Irreale Bedingung (Si...)",
+     "en": "Unreal if-clauses (Si...)"
     },
     "body": {
-     "de": "Für unwahrscheinliche oder unmögliche Bedingungen in der Gegenwart steht im si-Satz der Imperfekt-Subjuntivo, im Hauptsatz das Konditional (condicional). Muster: Si + Imperfekt-Subjuntivo, ... Konditional. Nach si steht hier nie der Präsens-Subjuntivo.",
-     "en": "For unlikely or impossible present conditions, the si-clause uses the past subjunctive and the main clause uses the conditional. Pattern: Si + past subjunctive, ... conditional. After si you never use the present subjunctive here."
+     "de": "Nach si steht diese Form für eine unwahrscheinliche oder unmögliche Bedingung in der Gegenwart.",
+     "en": "After si it marks an unlikely or impossible present condition."
     },
     "examples": [
      {
-      "es": "Si tuviera dinero, viajaría a España.",
+      "es": "Si tuviera tiempo, viajaría más.",
       "gloss": {
-       "de": "Wenn ich Geld hätte, würde ich nach Spanien reisen.",
-       "en": "If I had money, I would travel to Spain."
-      },
-      "note": {
-       "de": "tuviera (Imperfekt-Subjuntivo) + viajaría (Konditional).",
-       "en": "tuviera (past subjunctive) + viajaría (conditional)."
+       "de": "Wenn ich Zeit hätte, würde ich mehr reisen.",
+       "en": "If I had time, I'd travel more."
       }
      },
      {
-      "es": "Si fuera tú, hablaría con ella.",
+      "es": "Si fuera rico, no trabajaría.",
       "gloss": {
-       "de": "Wenn ich du wäre, würde ich mit ihr sprechen.",
-       "en": "If I were you, I would talk to her."
+       "de": "Wenn ich reich wäre, würde ich nicht arbeiten.",
+       "en": "If I were rich, I wouldn't work."
       },
       "note": {
-       "de": "fuera ist die Form von ser und ir zugleich.",
-       "en": "fuera serves for both ser and ir."
+       "de": "fuera = ser/ir",
+       "en": "fuera = ser/ir"
+      }
+     }
+    ]
+   },
+   {
+    "id": "past-triggers",
+    "title": {
+     "de": "Nach Vergangenheits-Auslösern",
+     "en": "After past triggers"
+    },
+    "body": {
+     "de": "Steht der Hauptsatz in der Vergangenheit, folgt im Nebensatz der Imperfekt-Konjunktiv.",
+     "en": "When the main clause is past, the subordinate clause takes this form."
+    },
+    "examples": [
+     {
+      "es": "Quería que vinieras.",
+      "gloss": {
+       "de": "Ich wollte, dass du kommst.",
+       "en": "I wanted you to come."
+      },
+      "note": {
+       "de": "Wunsch in der Vergangenheit",
+       "en": "wish in the past"
+      }
+     },
+     {
+      "es": "Esperaba que durmieras bien.",
+      "gloss": {
+       "de": "Ich hoffte, dass du gut schläfst.",
+       "en": "I hoped you'd sleep well."
       }
      }
     ]
@@ -2618,34 +2626,23 @@
    {
     "id": "politeness",
     "title": {
-     "de": "Höfliche Bitten und Wünsche",
-     "en": "Polite requests and wishes"
+     "de": "Höfliche Wünsche",
+     "en": "Polite wishes"
     },
     "body": {
-     "de": "Mit den Verben querer, poder und deber im Imperfekt-Subjuntivo klingt eine Bitte oder ein Wunsch besonders höflich und zurückhaltend, ähnlich dem deutschen Konjunktiv (ich hätte gern, ich würde gern). Die Form quisiera ist hier die geläufigste.",
-     "en": "Using querer, poder or deber in the past subjunctive makes a request or wish sound especially polite and tentative, much like English would like to / could. The form quisiera is the most common here."
+     "de": "Mit quisiera klingt eine Bitte oder ein Wunsch besonders höflich und sanft.",
+     "en": "Quisiera makes a request or wish sound especially polite and soft."
     },
     "examples": [
      {
       "es": "Quisiera un café, por favor.",
       "gloss": {
        "de": "Ich hätte gern einen Kaffee, bitte.",
-       "en": "I would like a coffee, please."
+       "en": "I'd like a coffee, please."
       },
       "note": {
-       "de": "quisiera klingt höflicher als quiero.",
-       "en": "quisiera is more polite than quiero."
-      }
-     },
-     {
-      "es": "¿Pudiera ayudarme un momento?",
-      "gloss": {
-       "de": "Könnten Sie mir kurz helfen?",
-       "en": "Could you help me for a moment?"
-      },
-      "note": {
-       "de": "pudiera als besonders höfliche Variante von poder.",
-       "en": "pudiera as a very polite variant of poder."
+       "de": "höflicher als quiero",
+       "en": "softer than quiero"
       }
      }
     ]
@@ -2653,23 +2650,23 @@
    {
     "id": "ra-vs-se",
     "title": {
-     "de": "Zwei Formen: -ra und -se",
-     "en": "Two forms: -ra and -se"
+     "de": "-ra ist Standard",
+     "en": "-ra is standard"
     },
     "body": {
-     "de": "Den Imperfekt-Subjuntivo gibt es in zwei austauschbaren Endungs-Varianten: -ra (hablara) und -se (hablase). Die Bedeutung ist gleich; die -ra-Form ist im Alltag und besonders in Lateinamerika der Standard und wird daher hier verwendet. Die -se-Form ist eher schriftsprachlich und kann nicht für höfliche Bitten genutzt werden.",
-     "en": "The past subjunctive has two interchangeable ending sets: -ra (hablara) and -se (hablase). The meaning is identical; the -ra form is the everyday standard, especially in Latin America, and is the one used here. The -se form is more literary and cannot be used for polite requests."
+     "de": "Es gibt zwei Endungen (-ra und -se); die -ra-Form ist heute üblich und Standard.",
+     "en": "There are two endings (-ra and -se); the -ra form is the everyday standard."
     },
     "examples": [
      {
-      "es": "hablara / hablase",
+      "es": "Ojalá pudiera ayudarte.",
       "gloss": {
-       "de": "(dass) er spräche — beide Formen",
-       "en": "(that) he spoke — both forms"
+       "de": "Hoffentlich könnte ich dir helfen.",
+       "en": "I wish I could help you."
       },
       "note": {
-       "de": "Gleiche Bedeutung; in dieser App nutzen wir die -ra-Form.",
-       "en": "Same meaning; this app uses the -ra form."
+       "de": "-ra-Form, ganz normal",
+       "en": "-ra form, fully normal"
       }
      }
     ]
@@ -2677,47 +2674,31 @@
   ],
   "examples": [
    {
-    "es": "Me pidió que dijera la verdad.",
+    "es": "Si estuviera aquí, te lo diría.",
     "gloss": {
-     "de": "Er bat mich, die Wahrheit zu sagen.",
-     "en": "He asked me to tell the truth."
-    },
-    "note": {
-     "de": "Auslöser pedir in der Vergangenheit > dijera (von decir).",
-     "en": "Trigger pedir in the past > dijera (from decir)."
+     "de": "Wenn er hier wäre, würde ich es dir sagen.",
+     "en": "If he were here, I'd tell you."
     }
    },
    {
-    "es": "Si pudiera, dormiría todo el día.",
+    "es": "Me pidió que hablara más despacio.",
     "gloss": {
-     "de": "Wenn ich könnte, würde ich den ganzen Tag schlafen.",
-     "en": "If I could, I would sleep all day."
-    },
-    "note": {
-     "de": "Irrealer si-Satz: pudiera + Konditional dormiría.",
-     "en": "Unreal si-clause: pudiera + conditional dormiría."
+     "de": "Er bat mich, langsamer zu sprechen.",
+     "en": "He asked me to speak more slowly."
     }
    },
    {
-    "es": "No creía que hicieras eso.",
+    "es": "No había nadie que hiciera el trabajo.",
     "gloss": {
-     "de": "Ich glaubte nicht, dass du das tust (tätest).",
-     "en": "I didn't think you would do that."
-    },
-    "note": {
-     "de": "Verneinte Meinung in der Vergangenheit > hicieras (von hacer).",
-     "en": "Negated opinion in the past > hicieras (from hacer)."
+     "de": "Es gab niemanden, der die Arbeit machte.",
+     "en": "There was nobody who did the work."
     }
    },
    {
-    "es": "Ojalá estuviera aquí ahora.",
+    "es": "Si comieras menos, dormirías mejor.",
     "gloss": {
-     "de": "Wenn er/sie doch jetzt hier wäre.",
-     "en": "I wish he/she were here now."
-    },
-    "note": {
-     "de": "Ojalá + Imperfekt-Subjuntivo für einen kaum erfüllbaren Wunsch.",
-     "en": "Ojalá + past subjunctive for an unlikely wish."
+     "de": "Wenn du weniger äßest, würdest du besser schlafen.",
+     "en": "If you ate less, you'd sleep better."
     }
    }
   ],
@@ -2769,8 +2750,8 @@
    "en": "Subjunctive"
   },
   "summary": {
-   "de": "Das Pretérito perfecto de subjuntivo (Perfekt des Konjunktivs) wird im Nebensatz benutzt, wenn der Hauptsatz Subjunktiv verlangt (Wunsch, Zweifel, Gefühl, Wertung) und die Handlung im Nebensatz bereits abgeschlossen ist – meist eine kürzlich beendete Handlung mit Bezug zur Gegenwart. Beispiel: Espero que hayas comido („Ich hoffe, du hast gegessen“).",
-   "en": "The pretérito perfecto de subjuntivo (present perfect subjunctive) is used in a subordinate clause when the main clause triggers the subjunctive (wish, doubt, emotion, judgement) and the action in that clause is already completed – usually a recently finished action with a link to the present. Example: Espero que hayas comido (\"I hope you have eaten\")."
+   "de": "Für eine abgeschlossene Handlung in einem Satz, der den Subjunktiv verlangt (Wunsch, Zweifel, Gefühl).",
+   "en": "For a completed action inside a sentence that triggers the subjunctive (wish, doubt, emotion)."
   },
   "rules": [
    {
@@ -2780,32 +2761,39 @@
      "en": "Formation: haya + participle"
     },
     "body": {
-     "de": "Dieses Perfekt des Konjunktivs ist eine zusammengesetzte Zeit: Konjunktiv-Präsens von „haber“ (haya, hayas, haya, hayamos, hayáis, hayan) plus dem Partizip Perfekt (-ado bei -ar-Verben, -ido bei -er-/-ir-Verben). Das Partizip bleibt immer unverändert.",
-     "en": "This subjunctive perfect is a compound tense: the present subjunctive of \"haber\" (haya, hayas, haya, hayamos, hayáis, hayan) plus the past participle (-ado for -ar verbs, -ido for -er/-ir verbs). The participle never changes its form."
+     "de": "Subjunktiv-Präsens von haber (haya, hayas, haya, hayamos, hayáis, hayan) plus Partizip.",
+     "en": "Present subjunctive of haber (haya, hayas, haya, hayamos, hayáis, hayan) plus the participle."
     },
     "examples": [
      {
-      "es": "que yo haya hablado, que tú hayas comido, que él haya vivido",
+      "es": "que yo haya hablado",
       "gloss": {
-       "de": "dass ich gesprochen habe, dass du gegessen hast, dass er gelebt hat",
-       "en": "that I have spoken, that you have eaten, that he has lived"
+       "de": "dass ich gesprochen habe",
+       "en": "that I have spoken"
       },
       "note": {
-       "de": "Die drei regelmäßigen Muster: -ar → hablado, -er → comido, -ir → vivido.",
-       "en": "The three regular patterns: -ar → hablado, -er → comido, -ir → vivido."
+       "de": "haya + Partizip",
+       "en": "haya + participle"
+      }
+     },
+     {
+      "es": "que nosotros hayamos comido",
+      "gloss": {
+       "de": "dass wir gegessen haben",
+       "en": "that we have eaten"
       }
      }
     ]
    },
    {
-    "id": "trigger-main-clause",
+    "id": "trigger",
     "title": {
      "de": "Auslöser im Hauptsatz",
      "en": "Trigger in the main clause"
     },
     "body": {
-     "de": "Die Form steht nach denselben Auslösern wie der Subjunktiv allgemein – Wunsch, Hoffnung, Gefühl, Zweifel oder Wertung – plus „que“. Der Unterschied zum einfachen Subjunktiv: Im Nebensatz ist die Handlung schon abgeschlossen.",
-     "en": "The form appears after the same triggers as the subjunctive in general – wish, hope, emotion, doubt or judgement – plus \"que\". The difference from the simple subjunctive: the action in the clause is already completed."
+     "de": "Steht nach Ausdrücken von Wunsch, Zweifel oder Gefühl, meist mit que eingeleitet.",
+     "en": "Used after expressions of wish, doubt or emotion, usually introduced by que."
     },
     "examples": [
      {
@@ -2815,89 +2803,97 @@
        "en": "I hope you have eaten."
       },
       "note": {
-       "de": "„Espero que“ löst den Subjunktiv aus; „hayas comido“ zeigt die abgeschlossene Handlung.",
-       "en": "\"Espero que\" triggers the subjunctive; \"hayas comido\" marks the completed action."
+       "de": "Wunsch löst Subjunktiv aus",
+       "en": "wish triggers subjunctive"
       }
      },
      {
-      "es": "Me alegro de que haya venido.",
+      "es": "Dudo que haya venido.",
       "gloss": {
-       "de": "Ich freue mich, dass er gekommen ist.",
-       "en": "I'm glad that he has come."
-      },
-      "note": {
-       "de": "Gefühl im Hauptsatz + abgeschlossene Handlung im Nebensatz.",
-       "en": "Emotion in the main clause + completed action in the subordinate clause."
+       "de": "Ich bezweifle, dass er gekommen ist.",
+       "en": "I doubt that he has come."
       }
      }
     ]
    },
    {
-    "id": "completed-recent",
+    "id": "completed",
     "title": {
-     "de": "Abgeschlossene, jüngste Handlung",
-     "en": "Completed, recent action"
+     "de": "Abgeschlossene Handlung",
+     "en": "Completed action"
     },
     "body": {
-     "de": "Das Perfekt des Konjunktivs drückt eine Handlung aus, die zum Sprechzeitpunkt schon vorbei ist, aber noch Bezug zur Gegenwart hat (so wie das normale Perfekt mit „he/has/ha“). Oft geht es um etwas, das gerade erst passiert ist oder bis jetzt (noch nicht) geschehen ist.",
-     "en": "The present perfect subjunctive expresses an action already finished at the moment of speaking but still connected to the present (like the ordinary present perfect with \"he/has/ha\"). It often refers to something that has just happened or that has (not) happened up to now."
+     "de": "Drückt eine vor dem Bezugspunkt schon beendete Handlung aus, oft mit Gegenwartsbezug.",
+     "en": "Expresses an action already finished before the reference point, often linked to the present."
     },
     "examples": [
      {
-      "es": "No creo que hayan llegado todavía.",
+      "es": "Me alegro de que hayas venido.",
       "gloss": {
-       "de": "Ich glaube nicht, dass sie schon angekommen sind.",
-       "en": "I don't think they have arrived yet."
-      },
-      "note": {
-       "de": "Zweifel + Bezug zum Jetzt: bis jetzt noch nicht.",
-       "en": "Doubt + link to now: not yet up to this moment."
+       "de": "Ich freue mich, dass du gekommen bist.",
+       "en": "I'm glad that you have come."
       }
      },
      {
-      "es": "Es posible que ya lo haya hecho.",
+      "es": "Es raro que no hayan dicho nada.",
       "gloss": {
-       "de": "Es ist möglich, dass er es schon gemacht hat.",
-       "en": "It's possible that he has already done it."
-      },
-      "note": {
-       "de": "„hecho“ ist das unregelmäßige Partizip von „hacer“.",
-       "en": "\"hecho\" is the irregular participle of \"hacer\"."
+       "de": "Es ist seltsam, dass sie nichts gesagt haben.",
+       "en": "It's odd that they haven't said anything."
       }
      }
     ]
    },
    {
-    "id": "irregular-participles",
+    "id": "participle",
+    "title": {
+     "de": "Partizip bleibt gleich",
+     "en": "Participle stays fixed"
+    },
+    "body": {
+     "de": "Nur haber ändert sich nach Person; das Partizip bleibt unveränderlich.",
+     "en": "Only haber changes with the person; the participle never changes."
+    },
+    "examples": [
+     {
+      "es": "que tú hayas hecho",
+      "gloss": {
+       "de": "dass du gemacht hast",
+       "en": "that you have done"
+      },
+      "note": {
+       "de": "hecho unverändert",
+       "en": "hecho stays the same"
+      }
+     },
+     {
+      "es": "que ellos hayan hecho",
+      "gloss": {
+       "de": "dass sie gemacht haben",
+       "en": "that they have done"
+      }
+     }
+    ]
+   },
+   {
+    "id": "irregular-part",
     "title": {
      "de": "Unregelmäßige Partizipien",
      "en": "Irregular participles"
     },
     "body": {
-     "de": "Einige häufige Verben haben ein unregelmäßiges Partizip, das du auswendig lernen musst. Der „haber“-Teil bleibt aber immer regelmäßig. Beispiele: hacer → hecho, decir → dicho.",
-     "en": "Some common verbs have an irregular participle you simply have to memorise. The \"haber\" part, however, stays regular. Examples: hacer → hecho, decir → dicho."
+     "de": "Einige Verben haben ein unregelmäßiges Partizip, etwa decir → dicho, hacer → hecho.",
+     "en": "Some verbs have an irregular participle, e.g. decir → dicho, hacer → hecho."
     },
     "examples": [
      {
-      "es": "Ojalá que haya dicho la verdad.",
+      "es": "No creo que haya dicho eso.",
       "gloss": {
-       "de": "Hoffentlich hat er die Wahrheit gesagt.",
-       "en": "I hope he has told the truth."
+       "de": "Ich glaube nicht, dass er das gesagt hat.",
+       "en": "I don't think he has said that."
       },
       "note": {
-       "de": "„dicho“ statt „decido“ – unregelmäßig.",
-       "en": "\"dicho\", not \"decido\" – irregular."
-      }
-     },
-     {
-      "es": "Dudo que hayan hecho los deberes.",
-      "gloss": {
-       "de": "Ich bezweifle, dass sie die Hausaufgaben gemacht haben.",
-       "en": "I doubt that they have done the homework."
-      },
-      "note": {
-       "de": "„hayan hecho“: regelmäßiges haber + unregelmäßiges Partizip.",
-       "en": "\"hayan hecho\": regular haber + irregular participle."
+       "de": "dicho statt decido",
+       "en": "dicho, not decido"
       }
      }
     ]
@@ -2905,47 +2901,31 @@
   ],
   "examples": [
    {
-    "es": "Espero que hayas dormido bien.",
+    "es": "Ojalá hayas dormido bien.",
     "gloss": {
-     "de": "Ich hoffe, du hast gut geschlafen.",
+     "de": "Hoffentlich hast du gut geschlafen.",
      "en": "I hope you have slept well."
-    },
-    "note": {
-     "de": "Wunsch im Hauptsatz, abgeschlossene Handlung in der Nacht davor.",
-     "en": "Wish in the main clause, action completed during the previous night."
     }
    },
    {
-    "es": "Me alegro de que hayáis podido venir.",
+    "es": "No creo que hayan estado aquí.",
     "gloss": {
-     "de": "Ich freue mich, dass ihr kommen konntet.",
-     "en": "I'm glad that you (pl.) have been able to come."
-    },
-    "note": {
-     "de": "2. Person Plural: „hayáis“ + Partizip von „poder“.",
-     "en": "2nd person plural: \"hayáis\" + participle of \"poder\"."
+     "de": "Ich glaube nicht, dass sie hier gewesen sind.",
+     "en": "I don't think they have been here."
     }
    },
    {
-    "es": "No creo que hayamos sido los últimos.",
+    "es": "Es posible que haya sido un error.",
     "gloss": {
-     "de": "Ich glaube nicht, dass wir die Letzten gewesen sind.",
-     "en": "I don't think we have been the last ones."
-    },
-    "note": {
-     "de": "„hayamos sido“ – Partizip von „ser“ ist „sido“.",
-     "en": "\"hayamos sido\" – the participle of \"ser\" is \"sido\"."
+     "de": "Es ist möglich, dass es ein Fehler war.",
+     "en": "It's possible that it has been a mistake."
     }
    },
    {
-    "es": "Es una pena que se haya ido tan pronto.",
+    "es": "Me sorprende que hayáis podido venir.",
     "gloss": {
-     "de": "Es ist schade, dass er so früh gegangen ist.",
-     "en": "It's a pity that he has left so early."
-    },
-    "note": {
-     "de": "Wertung im Hauptsatz löst den Subjunktiv aus; „haya ido“ von „ir“.",
-     "en": "A judgement in the main clause triggers the subjunctive; \"haya ido\" from \"ir\"."
+     "de": "Es überrascht mich, dass ihr kommen konntet.",
+     "en": "I'm surprised that you have been able to come."
     }
    }
   ],
@@ -2967,170 +2947,126 @@
    "en": "Subjunctive"
   },
   "summary": {
-   "de": "Das Pretérito pluscuamperfecto de subjuntivo (Plusquamperfekt des Subjunktivs) drückt hypothetische, irreale oder unerfüllte Handlungen in der Vergangenheit aus – das, was hätte geschehen können, aber nicht geschah. Es steht oft nach 'si' (wenn) in irrealen Bedingungssätzen oder nach Verben/Ausdrücken, die den Subjunktiv verlangen und sich auf eine abgeschlossene Vergangenheit beziehen.",
-   "en": "The pretérito pluscuamperfecto de subjuntivo (past perfect subjunctive) expresses hypothetical, unreal, or unfulfilled past actions – what could have happened but didn't. It is common after 'si' (if) in unreal conditional sentences and after verbs/expressions that trigger the subjunctive when referring to a completed past."
+   "de": "Für hypothetische, nicht eingetretene Vergangenheit – meist nach 'si' und in irrealen Wünschen.",
+   "en": "For hypothetical, unrealized past situations – usually after 'si' and in unreal wishes."
   },
   "rules": [
    {
     "id": "formation",
     "title": {
-     "de": "Bildung: hubiera + Partizip",
-     "en": "Formation: hubiera + participle"
+     "de": "Bildung",
+     "en": "Formation"
     },
     "body": {
-     "de": "Du bildest diese Zeit mit dem Imperfekt des Subjunktivs von 'haber' (hubiera, hubieras, hubiera, hubiéramos, hubierais, hubieran) plus dem Partizip Perfekt des Hauptverbs (z. B. hablado, comido, vivido). Das Partizip bleibt immer gleich; nur 'hubiera' wird an die Person angepasst.",
-     "en": "Form this tense with the imperfect subjunctive of 'haber' (hubiera, hubieras, hubiera, hubiéramos, hubierais, hubieran) plus the past participle of the main verb (e.g. hablado, comido, vivido). The participle never changes; only 'hubiera' is conjugated for the person."
+     "de": "Imperfekt-Subjuntivo von 'haber' (hubiera, hubieras…) plus Partizip Perfekt.",
+     "en": "Imperfect subjunctive of 'haber' (hubiera, hubieras…) plus past participle."
     },
     "examples": [
      {
-      "es": "yo hubiera hablado",
+      "es": "si hubiera sabido",
       "gloss": {
-       "de": "ich hätte gesprochen / gesprochen hätte",
-       "en": "I had spoken / would have spoken"
+       "de": "wenn ich gewusst hätte",
+       "en": "if I had known"
       },
       "note": {
-       "de": "hubiera (1. Person) + Partizip hablado",
-       "en": "hubiera (1st person) + participle hablado"
+       "de": "haber + Partizip",
+       "en": "haber + participle"
       }
      },
      {
-      "es": "nosotros hubiéramos comido",
+      "es": "si lo hubieras dicho",
       "gloss": {
-       "de": "wir hätten gegessen",
-       "en": "we had eaten / would have eaten"
-      },
-      "note": {
-       "de": "Nur die wir-Form trägt den Akzent: hubiéramos",
-       "en": "Only the 'we' form carries the accent: hubiéramos"
+       "de": "wenn du es gesagt hättest",
+       "en": "if you had said it"
       }
      }
     ]
    },
    {
-    "id": "irregular-participles",
+    "id": "irreal-past",
     "title": {
-     "de": "Unregelmäßige Partizipien",
-     "en": "Irregular participles"
+     "de": "Irreale Vergangenheit (si)",
+     "en": "Unreal past (si)"
     },
     "body": {
-     "de": "Regelmäßige Verben bilden das Partizip auf -ado (ar-Verben) oder -ido (er-/ir-Verben). Einige häufige Verben haben aber unregelmäßige Partizipien, die du auswendig lernen musst, z. B. hacer → hecho und decir → dicho. 'hubiera' bleibt davon unberührt.",
-     "en": "Regular verbs form the participle in -ado (ar-verbs) or -ido (er-/ir-verbs). But some common verbs have irregular participles you must memorize, e.g. hacer → hecho and decir → dicho. 'hubiera' itself stays the same."
+     "de": "Nach 'si' steht es für eine Bedingung, die in der Vergangenheit nicht eintrat.",
+     "en": "After 'si' it marks a condition that did not happen in the past."
     },
     "examples": [
      {
-      "es": "Ojalá lo hubiera hecho antes.",
+      "es": "Si hubiera tenido tiempo, te habría ayudado.",
       "gloss": {
-       "de": "Hätte ich es nur früher gemacht.",
-       "en": "If only I had done it earlier."
+       "de": "Wenn ich Zeit gehabt hätte, hätte ich dir geholfen.",
+       "en": "If I had had time, I would have helped you."
       },
       "note": {
-       "de": "hacer → unregelmäßiges Partizip hecho",
-       "en": "hacer → irregular participle hecho"
+       "de": "mit Konditional Perfekt",
+       "en": "with conditional perfect"
       }
      },
      {
-      "es": "No creía que ella hubiera dicho eso.",
+      "es": "Si hubieran podido, habrían venido.",
       "gloss": {
-       "de": "Ich glaubte nicht, dass sie das gesagt hatte.",
-       "en": "I didn't believe she had said that."
-      },
-      "note": {
-       "de": "decir → unregelmäßiges Partizip dicho",
-       "en": "decir → irregular participle dicho"
+       "de": "Wenn sie gekonnt hätten, wären sie gekommen.",
+       "en": "If they had been able, they would have come."
       }
      }
     ]
    },
    {
-    "id": "si-clauses",
+    "id": "wishes",
     "title": {
-     "de": "Irreale Bedingung in der Vergangenheit (si …)",
-     "en": "Unreal past conditions (si …)"
+     "de": "Irreale Wünsche",
+     "en": "Unreal wishes"
     },
     "body": {
-     "de": "Die häufigste Verwendung: in si-Sätzen, die eine nicht erfüllte Bedingung der Vergangenheit ausdrücken. Im si-Teil steht das Plusquamperfekt des Subjunktivs, im Hauptsatz meist das condicional perfecto (habría + Partizip). Es beschreibt, was passiert wäre, wenn etwas anders gewesen wäre.",
-     "en": "The most common use: in 'si' clauses expressing an unfulfilled past condition. The 'si' part takes the past perfect subjunctive, and the main clause usually takes the conditional perfect (habría + participle). It describes what would have happened if things had been different."
+     "de": "Nach 'ojalá' oder 'como si' für unerfüllte Wünsche über die Vergangenheit.",
+     "en": "After 'ojalá' or 'como si' for unfulfilled wishes about the past."
     },
     "examples": [
      {
-      "es": "Si hubiera tenido tiempo, habría comido contigo.",
+      "es": "Ojalá hubiera comido más.",
       "gloss": {
-       "de": "Wenn ich Zeit gehabt hätte, hätte ich mit dir gegessen.",
-       "en": "If I had had time, I would have eaten with you."
+       "de": "Hätte ich doch mehr gegessen.",
+       "en": "I wish I had eaten more."
       },
       "note": {
-       "de": "si + hubiera tenido (irreale Bedingung) → habría comido (Folge)",
-       "en": "si + hubiera tenido (unreal condition) → habría comido (result)"
+       "de": "unerfüllter Wunsch",
+       "en": "unfulfilled wish"
       }
      },
      {
-      "es": "Si lo hubieras dicho, todo habría sido distinto.",
+      "es": "Habla como si hubiera estado allí.",
       "gloss": {
-       "de": "Wenn du es gesagt hättest, wäre alles anders gewesen.",
-       "en": "If you had said it, everything would have been different."
-      },
-      "note": {
-       "de": "Bedingung und Folge liegen beide in der Vergangenheit und sind irreal",
-       "en": "Both condition and result are in the past and are unreal"
+       "de": "Er redet, als wäre er dort gewesen.",
+       "en": "He talks as if he had been there."
       }
      }
     ]
    },
    {
-    "id": "wishes-doubt",
+    "id": "subordinate",
     "title": {
-     "de": "Wünsche und Zweifel über die Vergangenheit (ojalá, no creer …)",
-     "en": "Wishes and doubt about the past (ojalá, no creer …)"
+     "de": "In Nebensätzen",
+     "en": "In subordinate clauses"
     },
     "body": {
-     "de": "Nach 'ojalá' (hoffentlich / wenn doch nur) drückt diese Form einen unerfüllten Wunsch über die Vergangenheit aus. Ebenso steht sie nach Ausdrücken des Zweifelns oder Verneinens (z. B. no creer que, no pensar que), wenn sich der Nebensatz auf eine abgeschlossene Vergangenheit bezieht.",
-     "en": "After 'ojalá' (I wish / if only) this form expresses an unfulfilled wish about the past. It also appears after expressions of doubt or denial (e.g. no creer que, no pensar que) when the subordinate clause refers to a completed past."
+     "de": "Nach Auslösern, die den Subjuntivo verlangen, für ein früheres, irreales Geschehen.",
+     "en": "After triggers requiring the subjunctive, for an earlier, unreal event."
     },
     "examples": [
      {
-      "es": "Ojalá hubiéramos podido ir.",
+      "es": "No creía que hubiera sido tan fácil.",
       "gloss": {
-       "de": "Wenn wir nur hätten gehen können.",
-       "en": "I wish we had been able to go."
-      },
-      "note": {
-       "de": "ojalá + Plusquamperfekt Subjunktiv = unerfüllter Wunsch",
-       "en": "ojalá + past perfect subjunctive = unfulfilled wish"
+       "de": "Ich glaubte nicht, dass es so einfach gewesen wäre.",
+       "en": "I didn't think it had been so easy."
       }
      },
      {
-      "es": "No creía que hubieran vivido aquí.",
+      "es": "Me alegró que hubieras venido.",
       "gloss": {
-       "de": "Ich glaubte nicht, dass sie hier gewohnt hatten.",
-       "en": "I didn't believe they had lived here."
-      },
-      "note": {
-       "de": "Verneintes Glauben löst den Subjunktiv aus",
-       "en": "Negated belief triggers the subjunctive"
-      }
-     }
-    ]
-   },
-   {
-    "id": "alt-form",
-    "title": {
-     "de": "Variante mit hubiese",
-     "en": "The hubiese variant"
-    },
-    "body": {
-     "de": "Wie beim Imperfekt des Subjunktivs gibt es zwei austauschbare Formen von 'haber': hubiera und hubiese (hubiese, hubieses, hubiese, hubiésemos, hubieseis, hubiesen). Die Bedeutung ist identisch; 'hubiera' ist im Alltag etwas häufiger. In dieser App wird durchgehend die -ra-Form geübt.",
-     "en": "As with the imperfect subjunctive, 'haber' has two interchangeable forms: hubiera and hubiese (hubiese, hubieses, hubiese, hubiésemos, hubieseis, hubiesen). The meaning is identical; 'hubiera' is a bit more common in everyday speech. This app practises the -ra form throughout."
-    },
-    "examples": [
-     {
-      "es": "Si hubiera ido… / Si hubiese ido…",
-      "gloss": {
-       "de": "Wenn ich gegangen wäre …",
-       "en": "If I had gone …"
-      },
-      "note": {
-       "de": "Beide Formen sind korrekt und bedeuten dasselbe",
-       "en": "Both forms are correct and mean the same"
+       "de": "Es freute mich, dass du gekommen warst.",
+       "en": "I was glad you had come."
       }
      }
     ]
@@ -3138,47 +3074,31 @@
   ],
   "examples": [
    {
-    "es": "Si hubiéramos tenido más dinero, habríamos vivido en el centro.",
+    "es": "Si hubiéramos vivido allí, lo sabríamos.",
     "gloss": {
-     "de": "Wenn wir mehr Geld gehabt hätten, hätten wir im Zentrum gewohnt.",
-     "en": "If we had had more money, we would have lived in the centre."
-    },
-    "note": {
-     "de": "Klassischer irrealer Bedingungssatz der Vergangenheit",
-     "en": "Classic unreal past conditional sentence"
+     "de": "Wenn wir dort gelebt hätten, wüssten wir es.",
+     "en": "If we had lived there, we would know it."
     }
    },
    {
-    "es": "Ojalá no hubieras dicho nada.",
+    "es": "Ojalá hubiera hecho los deberes.",
     "gloss": {
-     "de": "Hättest du doch nur nichts gesagt.",
-     "en": "I wish you hadn't said anything."
-    },
-    "note": {
-     "de": "ojalá + Plusquamperfekt Subjunktiv für einen unerfüllten Wunsch",
-     "en": "ojalá + past perfect subjunctive for an unfulfilled wish"
+     "de": "Hätte ich doch die Hausaufgaben gemacht.",
+     "en": "I wish I had done the homework."
     }
    },
    {
-    "es": "Me molestó que ella hubiera hecho eso sin avisar.",
+    "es": "Nadie pensó que hubieras querido eso.",
     "gloss": {
-     "de": "Es störte mich, dass sie das ohne Bescheid getan hatte.",
-     "en": "It annoyed me that she had done that without warning."
-    },
-    "note": {
-     "de": "Gefühlsausdruck in der Vergangenheit löst den Subjunktiv aus",
-     "en": "A past emotional reaction triggers the subjunctive"
+     "de": "Niemand dachte, dass du das gewollt hättest.",
+     "en": "Nobody thought you had wanted that."
     }
    },
    {
-    "es": "No había nadie que hubiera podido ayudarnos.",
+    "es": "Actuó como si no hubiera dormido nada.",
     "gloss": {
-     "de": "Es gab niemanden, der uns hätte helfen können.",
-     "en": "There was no one who could have helped us."
-    },
-    "note": {
-     "de": "Verneinte Existenz im Hauptsatz verlangt den Subjunktiv",
-     "en": "A negated existence in the main clause requires the subjunctive"
+     "de": "Er tat, als hätte er gar nicht geschlafen.",
+     "en": "He acted as if he hadn't slept at all."
     }
    }
   ],
@@ -3200,57 +3120,99 @@
    "en": "Imperative"
   },
   "summary": {
-   "de": "Den Imperativ benutzt man, um Befehle, Aufforderungen, Bitten oder Anweisungen zu geben - also jemandem zu sagen, was er tun (bejaht) oder nicht tun (verneint) soll. Er existiert für tú, usted, nosotros, vosotros und ustedes.",
-   "en": "The imperative is used to give commands, requests, or instructions - telling someone what to do (affirmative) or what not to do (negative). It exists for tú, usted, nosotros, vosotros and ustedes."
+   "de": "Befehle, Bitten und Aufforderungen — jemandem direkt sagen, etwas zu tun oder zu lassen.",
+   "en": "Commands, requests, and instructions — telling someone directly to do or not do something."
   },
   "rules": [
    {
-    "id": "affirmative-tu",
+    "id": "tu-afirmativo",
     "title": {
-     "de": "Bejahter Befehl an tú",
-     "en": "Affirmative command for tú"
+     "de": "Bejahtes tú = 3. Person Präsens",
+     "en": "Affirmative tú = 3rd-person present"
     },
     "body": {
-     "de": "Der bejahte tú-Befehl ist gleich der 3. Person Singular Präsens: hablar -> habla, comer -> come, vivir -> vive. Es gibt acht unregelmäßige Kurzformen, die man auswendig lernt: ten, ven, pon, sal, haz, di, sé, ve.",
-     "en": "The affirmative tú command equals the 3rd-person singular of the present tense: hablar -> habla, comer -> come, vivir -> vive. Eight irregular short forms must be memorized: ten, ven, pon, sal, haz, di, sé, ve."
+     "de": "Für den bejahten tú-Befehl nimmst du die er/ella-Form des Präsens.",
+     "en": "For the affirmative tú command, use the present-tense he/she form."
     },
     "examples": [
      {
-      "es": "¡Habla más despacio!",
+      "es": "Habla más despacio.",
       "gloss": {
-       "de": "Sprich langsamer!",
-       "en": "Speak more slowly!"
+       "de": "Sprich langsamer.",
+       "en": "Speak more slowly."
       }
      },
      {
-      "es": "Come algo antes de salir.",
+      "es": "Come la fruta.",
       "gloss": {
-       "de": "Iss etwas, bevor du gehst.",
-       "en": "Eat something before leaving."
+       "de": "Iss das Obst.",
+       "en": "Eat the fruit."
       }
      },
      {
-      "es": "Haz la tarea ahora.",
+      "es": "Duerme un poco.",
       "gloss": {
-       "de": "Mach die Aufgabe jetzt.",
-       "en": "Do the homework now."
-      },
-      "note": {
-       "de": "haz ist eine unregelmäßige Kurzform von hacer.",
-       "en": "haz is an irregular short form of hacer."
+       "de": "Schlaf ein bisschen.",
+       "en": "Sleep a little."
       }
      }
     ]
    },
    {
-    "id": "negative-and-formal",
+    "id": "tu-irregular",
     "title": {
-     "de": "Verneinung und usted/ustedes/nosotros mit dem Subjuntivo",
-     "en": "Negative plus usted/ustedes/nosotros use the subjunctive"
+     "de": "Unregelmäßige tú-Befehle",
+     "en": "Irregular tú commands"
     },
     "body": {
-     "de": "Alle verneinten Formen sowie die Formen für usted, ustedes und nosotros werden aus dem Subjuntivo gebildet: no hables, no comas, hable, hablen, hablemos. So entstehen höfliche und förmliche Befehle.",
-     "en": "All negative forms as well as the usted, ustedes and nosotros forms are taken from the subjunctive: no hables, no comas, hable, hablen, hablemos. This also produces polite/formal commands."
+     "de": "Einige tú-Befehle sind kurz und unregelmäßig: ten, ven, pon, sal, haz, di, sé, ve.",
+     "en": "A few tú commands are short and irregular: ten, ven, pon, sal, haz, di, sé, ve."
+    },
+    "examples": [
+     {
+      "es": "Haz la tarea.",
+      "gloss": {
+       "de": "Mach die Aufgabe.",
+       "en": "Do the homework."
+      },
+      "note": {
+       "de": "von hacer",
+       "en": "from hacer"
+      }
+     },
+     {
+      "es": "Di la verdad.",
+      "gloss": {
+       "de": "Sag die Wahrheit.",
+       "en": "Tell the truth."
+      },
+      "note": {
+       "de": "von decir",
+       "en": "from decir"
+      }
+     },
+     {
+      "es": "Ten paciencia.",
+      "gloss": {
+       "de": "Hab Geduld.",
+       "en": "Be patient."
+      },
+      "note": {
+       "de": "von tener",
+       "en": "from tener"
+      }
+     }
+    ]
+   },
+   {
+    "id": "negativo-subjuntivo",
+    "title": {
+     "de": "Verneinung mit Subjuntivo",
+     "en": "Negative uses subjunctive"
+    },
+    "body": {
+     "de": "Verneinte Befehle bildest du mit no plus der Subjuntivo-Form.",
+     "en": "Form negative commands with no plus the subjunctive form."
     },
     "examples": [
      {
@@ -3261,83 +3223,87 @@
       }
      },
      {
-      "es": "No comas tan deprisa.",
+      "es": "No comas eso.",
       "gloss": {
-       "de": "Iss nicht so hastig.",
-       "en": "Don't eat so quickly."
+       "de": "Iss das nicht.",
+       "en": "Don't eat that."
       }
      },
      {
-      "es": "No digas eso.",
+      "es": "No seas así.",
       "gloss": {
-       "de": "Sag das nicht.",
-       "en": "Don't say that."
-      },
-      "note": {
-       "de": "decir: bejaht di, verneint no digas.",
-       "en": "decir: affirmative di, negative no digas."
+       "de": "Sei nicht so.",
+       "en": "Don't be like that."
       }
      }
     ]
    },
    {
-    "id": "nosotros-vosotros",
+    "id": "usted-nosotros",
     "title": {
-     "de": "nosotros (\"lass uns\") und vosotros",
-     "en": "nosotros (\"let's\") and vosotros"
+     "de": "usted/ustedes und nosotros",
+     "en": "usted/ustedes and nosotros"
     },
     "body": {
-     "de": "Mit nosotros sagt man \"lass uns ...\": hablemos, comamos. Der bejahte vosotros-Befehl endet auf -ad/-ed/-id: hablad, comed, vivid; verneint steht der Subjuntivo: no habléis, no comáis.",
-     "en": "The nosotros form means \"let's ...\": hablemos, comamos. The affirmative vosotros command ends in -ad/-ed/-id: hablad, comed, vivid; the negative uses the subjunctive: no habléis, no comáis."
+     "de": "Höfliche und Wir-Befehle nehmen immer die Subjuntivo-Form, auch bejaht.",
+     "en": "Polite and let's-commands always use the subjunctive form, even affirmative."
     },
     "examples": [
      {
-      "es": "Hablemos de otra cosa.",
+      "es": "Hable más alto, por favor.",
       "gloss": {
-       "de": "Lass uns über etwas anderes reden.",
-       "en": "Let's talk about something else."
-      }
-     },
-     {
-      "es": "Comed antes de las ocho.",
-      "gloss": {
-       "de": "Esst vor acht Uhr.",
-       "en": "Eat before eight o'clock."
+       "de": "Sprechen Sie lauter, bitte.",
+       "en": "Speak louder, please."
       },
       "note": {
-       "de": "comed ist die bejahte vosotros-Form von comer.",
-       "en": "comed is the affirmative vosotros form of comer."
+       "de": "usted",
+       "en": "usted"
       }
      },
      {
-      "es": "No habléis tan alto.",
+      "es": "Hablemos de eso.",
       "gloss": {
-       "de": "Sprecht nicht so laut.",
-       "en": "Don't speak so loud."
+       "de": "Reden wir darüber.",
+       "en": "Let's talk about that."
+      },
+      "note": {
+       "de": "nosotros",
+       "en": "nosotros"
+      }
+     },
+     {
+      "es": "No hagan ruido.",
+      "gloss": {
+       "de": "Macht keinen Lärm.",
+       "en": "Don't make noise."
+      },
+      "note": {
+       "de": "ustedes",
+       "en": "ustedes"
       }
      }
     ]
    },
    {
-    "id": "pronouns",
+    "id": "pronombres",
     "title": {
-     "de": "Stellung der Pronomen",
-     "en": "Position of pronouns"
+     "de": "Pronomen: dran oder davor",
+     "en": "Pronouns: attached or before"
     },
     "body": {
-     "de": "Beim bejahten Befehl werden Pronomen direkt angehängt (und es wird oft ein Akzent gesetzt): dímelo. Beim verneinten Befehl stehen die Pronomen davor: no me lo digas.",
-     "en": "With affirmative commands, pronouns attach to the end (often adding an accent): dímelo. With negative commands, the pronouns go before the verb: no me lo digas."
+     "de": "Beim bejahten Befehl hängst du Pronomen an, beim verneinten stehen sie davor.",
+     "en": "Attach pronouns to affirmative commands; place them before negative ones."
     },
     "examples": [
      {
-      "es": "Dímelo ahora.",
+      "es": "Dímelo.",
       "gloss": {
-       "de": "Sag es mir jetzt.",
-       "en": "Tell it to me now."
+       "de": "Sag es mir.",
+       "en": "Tell it to me."
       },
       "note": {
-       "de": "di + me + lo, mit angehängten Pronomen und Akzent.",
-       "en": "di + me + lo, with attached pronouns and an accent."
+       "de": "bejaht: angehängt",
+       "en": "affirmative: attached"
       }
      },
      {
@@ -3345,48 +3311,10 @@
       "gloss": {
        "de": "Sag es mir nicht.",
        "en": "Don't tell it to me."
-      }
-     }
-    ]
-   },
-   {
-    "id": "irregular-tu",
-    "title": {
-     "de": "Die acht unregelmäßigen tú-Formen",
-     "en": "The eight irregular tú forms"
-    },
-    "body": {
-     "de": "Acht Verben haben eine unregelmäßige bejahte tú-Form: ten (tener), ven (venir), pon (poner), sal (salir), haz (hacer), di (decir), sé (ser), ve (ir). Verneint folgen sie wieder dem Subjuntivo: no tengas, no hagas, no digas, no seas, no vayas.",
-     "en": "Eight verbs have an irregular affirmative tú form: ten (tener), ven (venir), pon (poner), sal (salir), haz (hacer), di (decir), sé (ser), ve (ir). In the negative they follow the subjunctive again: no tengas, no hagas, no digas, no seas, no vayas."
-    },
-    "examples": [
-     {
-      "es": "Ten paciencia.",
-      "gloss": {
-       "de": "Hab Geduld.",
-       "en": "Have patience."
       },
       "note": {
-       "de": "ten ist die unregelmäßige Form von tener.",
-       "en": "ten is the irregular form of tener."
-      }
-     },
-     {
-      "es": "Sé amable.",
-      "gloss": {
-       "de": "Sei freundlich.",
-       "en": "Be kind."
-      },
-      "note": {
-       "de": "sé (ser) trägt einen Akzent zur Unterscheidung von se.",
-       "en": "sé (ser) carries an accent to distinguish it from se."
-      }
-     },
-     {
-      "es": "No tengas miedo.",
-      "gloss": {
-       "de": "Hab keine Angst.",
-       "en": "Don't be afraid."
+       "de": "verneint: davor",
+       "en": "negative: before"
       }
      }
     ]
@@ -3394,43 +3322,31 @@
   ],
   "examples": [
    {
-    "es": "Vive el momento y no tengas prisa.",
+    "es": "Ve a casa.",
     "gloss": {
-     "de": "Lebe den Moment und hab keine Eile.",
-     "en": "Live in the moment and don't be in a hurry."
-    },
-    "note": {
-     "de": "vive (bejaht, tú) und no tengas (verneint, tú) zusammen.",
-     "en": "vive (affirmative tú) and no tengas (negative tú) combined."
+     "de": "Geh nach Hause.",
+     "en": "Go home."
     }
    },
    {
-    "es": "Ve a casa, pero no vayas solo.",
+    "es": "No vayas sola.",
     "gloss": {
-     "de": "Geh nach Hause, aber geh nicht allein.",
-     "en": "Go home, but don't go alone."
-    },
-    "note": {
-     "de": "ir: bejaht ve, verneint no vayas.",
-     "en": "ir: affirmative ve, negative no vayas."
+     "de": "Geh nicht allein.",
+     "en": "Don't go alone."
     }
    },
    {
-    "es": "Di la verdad y no digas mentiras.",
+    "es": "Comamos juntos.",
     "gloss": {
-     "de": "Sag die Wahrheit und erzähl keine Lügen.",
-     "en": "Tell the truth and don't tell lies."
+     "de": "Lass uns zusammen essen.",
+     "en": "Let's eat together."
     }
    },
    {
-    "es": "Hablemos ahora y comamos después.",
+    "es": "No estés triste.",
     "gloss": {
-     "de": "Lass uns jetzt reden und danach essen.",
-     "en": "Let's talk now and eat afterwards."
-    },
-    "note": {
-     "de": "Beide nosotros-Formen aus dem Subjuntivo.",
-     "en": "Both nosotros forms come from the subjunctive."
+     "de": "Sei nicht traurig.",
+     "en": "Don't be sad."
     }
    }
   ],
@@ -3452,87 +3368,57 @@
    "en": "Non-finite"
   },
   "summary": {
-   "de": "Das Gerundio ist die Verlaufsform des Spanischen (vergleichbar mit der -ing-Form im Englischen). Es beschreibt eine gerade ablaufende Handlung, meist mit 'estar' (estar + Gerundio), oder die Art und Weise, wie etwas geschieht. Es ist keine konjugierte Personalform, sondern unveränderlich.",
-   "en": "The gerundio is Spanish's continuous/progressive form (like the English -ing form). It expresses an action in progress, usually with 'estar' (estar + gerundio), or the manner in which something is done. It is not a six-person conjugated form; it stays invariable."
+   "de": "Das Gerundio beschreibt eine gerade laufende Handlung, meist mit \"estar\" (gerade dabei sein, etwas zu tun), oder die Art und Weise.",
+   "en": "The gerundio describes an ongoing action, usually with \"estar\" (to be in the middle of doing something), or the manner of an action."
   },
   "rules": [
    {
     "id": "formation-regular",
     "title": {
-     "de": "Regelmäßige Bildung: -ando / -iendo",
-     "en": "Regular formation: -ando / -iendo"
+     "de": "Regelmäßige Bildung",
+     "en": "Regular formation"
     },
     "body": {
-     "de": "Man hängt die Endung an den Wortstamm (Verb ohne -ar/-er/-ir). Bei -ar-Verben wird die Endung -ando, bei -er- und -ir-Verben wird sie -iendo. Die Form ist unveränderlich und ändert sich nicht nach Person oder Zahl.",
-     "en": "Take the verb stem (drop -ar/-er/-ir) and add the ending. -ar verbs take -ando; -er and -ir verbs take -iendo. The form is invariable and never changes for person or number."
+     "de": "-ar wird zu -ando, -er und -ir werden zu -iendo; die Form ändert sich nie nach Person.",
+     "en": "-ar becomes -ando, -er and -ir become -iendo; the form never changes by person."
     },
     "examples": [
      {
-      "es": "hablando",
+      "es": "hablando, comiendo, viviendo",
       "gloss": {
-       "de": "sprechend (von hablar)",
-       "en": "speaking (from hablar)"
+       "de": "sprechend, essend, lebend",
+       "en": "speaking, eating, living"
       },
       "note": {
-       "de": "-ar-Verb: habl- + -ando",
-       "en": "-ar verb: habl- + -ando"
+       "de": "drei Endungstypen",
+       "en": "three ending types"
       }
      },
      {
-      "es": "comiendo",
+      "es": "teniendo, haciendo, queriendo",
       "gloss": {
-       "de": "essend (von comer)",
-       "en": "eating (from comer)"
-      },
-      "note": {
-       "de": "-er-Verb: com- + -iendo",
-       "en": "-er verb: com- + -iendo"
-      }
-     },
-     {
-      "es": "viviendo",
-      "gloss": {
-       "de": "lebend (von vivir)",
-       "en": "living (from vivir)"
-      },
-      "note": {
-       "de": "-ir-Verb: viv- + -iendo",
-       "en": "-ir verb: viv- + -iendo"
+       "de": "habend, machend, wollend",
+       "en": "having, doing, wanting"
       }
      }
     ]
    },
    {
-    "id": "progressive-estar",
+    "id": "estar-progressive",
     "title": {
-     "de": "Verlaufsform: estar + Gerundio",
-     "en": "Progressive: estar + gerundio"
+     "de": "estar + Gerundio (Verlaufsform)",
+     "en": "estar + gerundio (progressive)"
     },
     "body": {
-     "de": "Die häufigste Verwendung ist die Verlaufsform mit dem konjugierten Verb 'estar' plus Gerundio. Sie betont, dass eine Handlung genau jetzt (oder zum genannten Zeitpunkt) im Gange ist. Nur 'estar' wird an die Person angepasst; das Gerundio bleibt gleich.",
-     "en": "The most common use is the progressive with conjugated 'estar' plus the gerundio. It stresses that an action is happening right now (or at the referenced moment). Only 'estar' agrees with the person; the gerundio stays the same."
+     "de": "Mit \"estar\" plus Gerundio sagst du, dass etwas genau jetzt im Gange ist.",
+     "en": "With \"estar\" plus gerundio you say something is happening right now."
     },
     "examples": [
      {
-      "es": "Estoy comiendo.",
+      "es": "Estoy comiendo ahora.",
       "gloss": {
        "de": "Ich esse gerade.",
-       "en": "I am eating."
-      },
-      "note": {
-       "de": "estoy (estar, ich) + Gerundio",
-       "en": "estoy (estar, I) + gerundio"
-      }
-     },
-     {
-      "es": "Estamos hablando con María.",
-      "gloss": {
-       "de": "Wir sprechen gerade mit María.",
-       "en": "We are talking to María."
-      },
-      "note": {
-       "de": "estamos = estar (wir)",
-       "en": "estamos = estar (we)"
+       "en": "I'm eating right now."
       }
      },
      {
@@ -3540,102 +3426,44 @@
       "gloss": {
        "de": "Die Kinder schlafen gerade.",
        "en": "The children are sleeping."
-      },
-      "note": {
-       "de": "están = estar (sie)",
-       "en": "están = estar (they)"
+      }
+     },
+     {
+      "es": "¿Qué estás haciendo?",
+      "gloss": {
+       "de": "Was machst du gerade?",
+       "en": "What are you doing?"
       }
      }
     ]
    },
    {
-    "id": "irregular-yendo-vowel",
+    "id": "irregular-yforms",
     "title": {
-     "de": "Unregelmäßig: -yendo nach Vokal",
-     "en": "Irregular: -yendo after a vowel"
+     "de": "Unregelmäßig: y und Stammwechsel",
+     "en": "Irregular: y and stem changes"
     },
     "body": {
-     "de": "Endet der Stamm auf einen Vokal, wird das -i- der Endung zu -y-, weil ein 'i' zwischen zwei Vokalen sonst nicht stehen kann. So entstehen leyendo (leer), oyendo (oír) und yendo (ir).",
-     "en": "When the stem ends in a vowel, the -i- of the ending becomes -y-, since an unstressed 'i' cannot stand between two vowels. This gives leyendo (leer), oyendo (oír) and yendo (ir)."
+     "de": "Manche Verben schreiben sich mit y oder ändern den Stamm: diciendo, durmiendo, yendo.",
+     "en": "Some verbs use y or change their stem: diciendo, durmiendo, yendo."
     },
     "examples": [
      {
-      "es": "yendo",
+      "es": "Está diciendo la verdad.",
       "gloss": {
-       "de": "gehend (von ir)",
-       "en": "going (from ir)"
-      },
-      "note": {
-       "de": "ir hat das einzige Gerundio yendo",
-       "en": "ir's gerundio is simply yendo"
+       "de": "Er sagt gerade die Wahrheit.",
+       "en": "He is telling the truth."
       }
      },
      {
-      "es": "Estoy leyendo un libro.",
+      "es": "Está durmiendo bien.",
       "gloss": {
-       "de": "Ich lese gerade ein Buch.",
-       "en": "I am reading a book."
+       "de": "Er schläft gut.",
+       "en": "He is sleeping well."
       },
       "note": {
-       "de": "leer → leyendo (Vokalstamm)",
-       "en": "leer → leyendo (vowel stem)"
-      }
-     },
-     {
-      "es": "Está oyendo música.",
-      "gloss": {
-       "de": "Er/Sie hört gerade Musik.",
-       "en": "He/she is listening to music."
-      },
-      "note": {
-       "de": "oír → oyendo",
-       "en": "oír → oyendo"
-      }
-     }
-    ]
-   },
-   {
-    "id": "irregular-stem-change",
-    "title": {
-     "de": "Unregelmäßig: Stammwechsel e>i, o>u",
-     "en": "Irregular: stem change e>i, o>u"
-    },
-    "body": {
-     "de": "Viele -ir-Verben mit Vokalwechsel verändern auch im Gerundio den Stammvokal: e wird zu i, o wird zu u. So entstehen diciendo (decir), pidiendo (pedir) und durmiendo (dormir). Die Endung bleibt -iendo.",
-     "en": "Many stem-changing -ir verbs also change their stem vowel in the gerundio: e becomes i, o becomes u. This gives diciendo (decir), pidiendo (pedir) and durmiendo (dormir). The ending stays -iendo."
-    },
-    "examples": [
-     {
-      "es": "diciendo",
-      "gloss": {
-       "de": "sagend (von decir)",
-       "en": "saying (from decir)"
-      },
-      "note": {
-       "de": "e → i: dec- → dic-",
-       "en": "e → i: dec- → dic-"
-      }
-     },
-     {
-      "es": "Está durmiendo.",
-      "gloss": {
-       "de": "Er/Sie schläft gerade.",
-       "en": "He/she is sleeping."
-      },
-      "note": {
-       "de": "o → u: dorm- → durm-",
-       "en": "o → u: dorm- → durm-"
-      }
-     },
-     {
-      "es": "pidiendo",
-      "gloss": {
-       "de": "bittend / bestellend (von pedir)",
-       "en": "asking for / ordering (from pedir)"
-      },
-      "note": {
-       "de": "e → i: ped- → pid-",
-       "en": "e → i: ped- → pid-"
+       "de": "o wird zu u",
+       "en": "o becomes u"
       }
      }
     ]
@@ -3643,34 +3471,54 @@
    {
     "id": "manner",
     "title": {
-     "de": "Art und Weise: 'wie' etwas geschieht",
-     "en": "Manner: 'how' something happens"
+     "de": "Art und Weise",
+     "en": "Manner"
     },
     "body": {
-     "de": "Das Gerundio kann auch allein stehen und beschreiben, auf welche Art oder gleichzeitig wozu etwas getan wird. Im Deutschen übersetzt man es oft mit 'indem' oder mit einem Nebensatz, nicht wörtlich mit der -end-Form.",
-     "en": "The gerundio can also stand alone to describe how, or simultaneously with what, something is done. In English it often maps to the -ing form; in German it usually becomes 'indem' or a subordinate clause rather than the literal -end form."
+     "de": "Allein steht das Gerundio für die Art und Weise: wie etwas getan wird (wobei, dadurch dass).",
+     "en": "On its own the gerundio expresses manner: how something is done (while, by doing)."
     },
     "examples": [
      {
-      "es": "Aprendo español hablando con amigos.",
+      "es": "Aprendo español viendo películas.",
       "gloss": {
-       "de": "Ich lerne Spanisch, indem ich mit Freunden spreche.",
-       "en": "I learn Spanish by talking with friends."
+       "de": "Ich lerne Spanisch, indem ich Filme schaue.",
+       "en": "I learn Spanish by watching films."
       },
       "note": {
-       "de": "Gerundio gibt die Art und Weise an",
-       "en": "the gerundio expresses the manner"
+       "de": "viendo = wie?",
+       "en": "viendo = how?"
       }
      },
      {
       "es": "Llegó corriendo.",
       "gloss": {
-       "de": "Er/Sie kam angerannt.",
-       "en": "He/she arrived running."
+       "de": "Er kam angerannt.",
+       "en": "He came running."
+      }
+     }
+    ]
+   },
+   {
+    "id": "not-six-person",
+    "title": {
+     "de": "Keine Personalform",
+     "en": "Not a six-person form"
+    },
+    "body": {
+     "de": "Das Gerundio hat nur eine Form für alle; die Person zeigt das Hilfsverb (estar).",
+     "en": "The gerundio has just one form for everyone; the person is shown by the helper verb (estar)."
+    },
+    "examples": [
+     {
+      "es": "Estamos viviendo aquí.",
+      "gloss": {
+       "de": "Wir wohnen gerade hier.",
+       "en": "We are living here."
       },
       "note": {
-       "de": "correr → corriendo, beschreibt das Wie",
-       "en": "correr → corriendo, describes how"
+       "de": "estar trägt die Person",
+       "en": "estar carries the person"
       }
      }
     ]
@@ -3678,47 +3526,31 @@
   ],
   "examples": [
    {
-    "es": "¿Qué estás haciendo?",
+    "es": "Estoy aprendiendo, no, estoy comiendo.",
     "gloss": {
-     "de": "Was machst du gerade?",
-     "en": "What are you doing?"
-    },
-    "note": {
-     "de": "hacer → haciendo; estás = estar (du)",
-     "en": "hacer → haciendo; estás = estar (you)"
+     "de": "Ich esse gerade.",
+     "en": "I'm eating right now."
     }
    },
    {
-    "es": "Estamos viviendo en Madrid este año.",
+    "es": "Estás siendo muy amable.",
     "gloss": {
-     "de": "Wir leben dieses Jahr in Madrid.",
-     "en": "We are living in Madrid this year."
-    },
-    "note": {
-     "de": "vivir → viviendo",
-     "en": "vivir → viviendo"
+     "de": "Du bist gerade sehr nett.",
+     "en": "You're being very kind."
     }
    },
    {
-    "es": "Mi hermano está diciendo la verdad.",
+    "es": "Voy yendo poco a poco.",
     "gloss": {
-     "de": "Mein Bruder sagt die Wahrheit.",
-     "en": "My brother is telling the truth."
-    },
-    "note": {
-     "de": "decir → diciendo (e → i)",
-     "en": "decir → diciendo (e → i)"
+     "de": "Ich komme nach und nach voran.",
+     "en": "I'm getting there bit by bit."
     }
    },
    {
-    "es": "El bebé está durmiendo ahora.",
+    "es": "Estamos haciendo la cena.",
     "gloss": {
-     "de": "Das Baby schläft jetzt gerade.",
-     "en": "The baby is sleeping now."
-    },
-    "note": {
-     "de": "dormir → durmiendo (o → u)",
-     "en": "dormir → durmiendo (o → u)"
+     "de": "Wir machen gerade das Abendessen.",
+     "en": "We're making dinner."
     }
    }
   ],
@@ -3740,174 +3572,180 @@
    "en": "Non-finite"
   },
   "summary": {
-   "de": "Das Partizip (participio pasado) ist eine unveraenderliche Verbform, die du fuer zusammengesetzte Zeiten mit dem Hilfsverb haber brauchst (z. B. he hablado) und die du als Adjektiv verwenden kannst, das sich dann in Geschlecht und Zahl anpasst (una puerta abierta).",
-   "en": "The past participle (participio pasado) is a verb form used to build compound tenses with the auxiliary haber (e.g. he hablado) and also used as an adjective, in which case it agrees in gender and number (una puerta abierta)."
+   "de": "Das Partizip bildet die zusammengesetzten Zeiten mit haber und dient als Adjektiv.",
+   "en": "The past participle forms compound tenses with haber and works as an adjective."
   },
   "rules": [
    {
-    "id": "formation",
+    "id": "formacion-regular",
     "title": {
-     "de": "Bildung der regelmaessigen Partizipien",
-     "en": "Forming regular participles"
+     "de": "Regelmäßige Bildung",
+     "en": "Regular formation"
     },
     "body": {
-     "de": "Verben auf -ar bekommen die Endung -ado, Verben auf -er und -ir die Endung -ido. Du haengst die Endung einfach an den Wortstamm an: hablar wird zu hablado, comer zu comido, vivir zu vivido.",
-     "en": "Verbs ending in -ar take -ado; verbs ending in -er and -ir take -ido. Just add the ending to the stem: hablar becomes hablado, comer becomes comido, vivir becomes vivido."
+     "de": "-ar wird zu -ado, -er und -ir werden zu -ido.",
+     "en": "-ar becomes -ado, while -er and -ir become -ido."
     },
     "examples": [
      {
-      "es": "hablar -> hablado",
+      "es": "hablado, comido, vivido",
       "gloss": {
-       "de": "sprechen -> gesprochen",
-       "en": "to speak -> spoken"
-      }
-     },
-     {
-      "es": "comer -> comido",
-      "gloss": {
-       "de": "essen -> gegessen",
-       "en": "to eat -> eaten"
-      }
-     },
-     {
-      "es": "vivir -> vivido",
-      "gloss": {
-       "de": "leben -> gelebt",
-       "en": "to live -> lived"
-      }
-     }
-    ]
-   },
-   {
-    "id": "irregulars",
-    "title": {
-     "de": "Wichtige unregelmaessige Partizipien",
-     "en": "Key irregular participles"
-    },
-    "body": {
-     "de": "Einige haeufige Verben bilden ein eigenes Partizip, das du auswendig lernen solltest. Diese Formen folgen keiner -ado/-ido-Regel.",
-     "en": "Several common verbs have their own irregular participle that you simply need to memorize. These forms do not follow the -ado/-ido pattern."
-    },
-    "examples": [
-     {
-      "es": "hacer -> hecho; decir -> dicho; ver -> visto",
-      "gloss": {
-       "de": "machen -> gemacht; sagen -> gesagt; sehen -> gesehen",
-       "en": "to do/make -> done/made; to say -> said; to see -> seen"
-      }
-     },
-     {
-      "es": "escribir -> escrito; volver -> vuelto; poner -> puesto",
-      "gloss": {
-       "de": "schreiben -> geschrieben; zurueckkehren -> zurueckgekehrt; stellen/legen -> gestellt/gelegt",
-       "en": "to write -> written; to return -> returned; to put -> put"
-      }
-     },
-     {
-      "es": "romper -> roto; abrir -> abierto; morir -> muerto",
-      "gloss": {
-       "de": "kaputtmachen -> kaputt(gemacht); oeffnen -> geoeffnet; sterben -> gestorben",
-       "en": "to break -> broken; to open -> opened; to die -> dead/died"
-      }
-     }
-    ]
-   },
-   {
-    "id": "compound",
-    "title": {
-     "de": "Partizip in zusammengesetzten Zeiten (mit haber)",
-     "en": "Participle in compound tenses (with haber)"
-    },
-    "body": {
-     "de": "Nach dem Hilfsverb haber steht das Partizip und bleibt immer unveraendert, egal welche Person oder welches Geschlecht. So bildest du z. B. das perfecto: he hablado, has comido, ha hecho.",
-     "en": "After the auxiliary haber the participle stays completely unchanged, no matter the person or gender. This is how you build, for example, the present perfect: he hablado, has comido, ha hecho."
-    },
-    "examples": [
-     {
-      "es": "He hablado con ella.",
-      "gloss": {
-       "de": "Ich habe mit ihr gesprochen.",
-       "en": "I have spoken with her."
+       "de": "gesprochen, gegessen, gelebt",
+       "en": "spoken, eaten, lived"
       },
       "note": {
-       "de": "Nach haber bleibt das Partizip immer gleich.",
-       "en": "After haber the participle never changes."
+       "de": "ein Stamm, drei Endungen",
+       "en": "one stem, three endings"
       }
      },
      {
-      "es": "Ya ha hecho la tarea.",
+      "es": "tenido, podido, dormido",
       "gloss": {
-       "de": "Er/Sie hat die Aufgabe schon gemacht.",
-       "en": "He/She has already done the homework."
-      }
-     },
-     {
-      "es": "¿Has visto la película?",
-      "gloss": {
-       "de": "Hast du den Film gesehen?",
-       "en": "Have you seen the movie?"
+       "de": "gehabt, gekonnt, geschlafen",
+       "en": "had, been able, slept"
       }
      }
     ]
    },
    {
-    "id": "adjective",
+    "id": "irregulares",
     "title": {
-     "de": "Partizip als Adjektiv (mit Angleichung)",
-     "en": "Participle as an adjective (with agreement)"
+     "de": "Wichtige unregelmäßige Formen",
+     "en": "Key irregular forms"
     },
     "body": {
-     "de": "Als Adjektiv beschreibt das Partizip ein Nomen und passt sich dann in Geschlecht und Zahl an: -o/-a/-os/-as. Das gilt besonders nach estar oder direkt beim Nomen: una puerta abierta, los libros escritos.",
-     "en": "Used as an adjective, the participle describes a noun and then agrees in gender and number: -o/-a/-os/-as. This applies especially after estar or directly with the noun: una puerta abierta, los libros escritos."
+     "de": "Manche Partizipien muss man auswendig lernen, weil sie der Regel nicht folgen.",
+     "en": "Some participles must be memorized because they break the regular rule."
+    },
+    "examples": [
+     {
+      "es": "hecho, dicho, visto",
+      "gloss": {
+       "de": "gemacht, gesagt, gesehen",
+       "en": "done, said, seen"
+      },
+      "note": {
+       "de": "hacer, decir, ver",
+       "en": "hacer, decir, ver"
+      }
+     },
+     {
+      "es": "escrito, vuelto, puesto",
+      "gloss": {
+       "de": "geschrieben, zurückgekehrt, gestellt",
+       "en": "written, returned, put"
+      },
+      "note": {
+       "de": "escribir, volver, poner",
+       "en": "escribir, volver, poner"
+      }
+     },
+     {
+      "es": "roto, abierto",
+      "gloss": {
+       "de": "kaputt, geöffnet",
+       "en": "broken, opened"
+      },
+      "note": {
+       "de": "romper, abrir",
+       "en": "romper, abrir"
+      }
+     }
+    ]
+   },
+   {
+    "id": "tiempos-compuestos",
+    "title": {
+     "de": "Zusammengesetzte Zeiten mit haber",
+     "en": "Compound tenses with haber"
+    },
+    "body": {
+     "de": "Nach haber bleibt das Partizip immer unverändert auf -o.",
+     "en": "After haber the participle always stays unchanged, ending in -o."
+    },
+    "examples": [
+     {
+      "es": "He comido en casa.",
+      "gloss": {
+       "de": "Ich habe zu Hause gegessen.",
+       "en": "I have eaten at home."
+      }
+     },
+     {
+      "es": "Ella ha dicho la verdad.",
+      "gloss": {
+       "de": "Sie hat die Wahrheit gesagt.",
+       "en": "She has told the truth."
+      },
+      "note": {
+       "de": "haber + Partizip",
+       "en": "haber + participle"
+      }
+     }
+    ]
+   },
+   {
+    "id": "como-adjetivo",
+    "title": {
+     "de": "Als Adjektiv anpassen",
+     "en": "As an adjective it agrees"
+    },
+    "body": {
+     "de": "Als Adjektiv passt sich das Partizip in Geschlecht und Zahl an.",
+     "en": "Used as an adjective, the participle agrees in gender and number."
     },
     "examples": [
      {
       "es": "una puerta abierta",
       "gloss": {
-       "de": "eine offene Tuer",
+       "de": "eine offene Tür",
        "en": "an open door"
       },
       "note": {
-       "de": "Weiblich + Einzahl: abierto wird zu abierta.",
-       "en": "Feminine + singular: abierto becomes abierta."
+       "de": "weiblich, Einzahl",
+       "en": "feminine, singular"
       }
      },
      {
-      "es": "La ventana está rota.",
+      "es": "los platos rotos",
       "gloss": {
-       "de": "Das Fenster ist kaputt.",
-       "en": "The window is broken."
+       "de": "die kaputten Teller",
+       "en": "the broken plates"
+      },
+      "note": {
+       "de": "männlich, Mehrzahl",
+       "en": "masculine, plural"
       }
      },
      {
-      "es": "los platos puestos en la mesa",
+      "es": "las cartas escritas",
       "gloss": {
-       "de": "die auf den Tisch gestellten Teller",
-       "en": "the plates put on the table"
+       "de": "die geschriebenen Briefe",
+       "en": "the written letters"
       }
      }
     ]
    },
    {
-    "id": "not-six-person",
+    "id": "no-conjugado",
     "title": {
      "de": "Keine sechs Personen",
-     "en": "Not a six-person tense"
+     "en": "Not a six-person form"
     },
     "body": {
-     "de": "Das Partizip ist keine konjugierte Zeitform mit sechs Personen wie yo/tu/el. Es gibt pro Verb nur eine Grundform (z. B. comido). Die Person zeigt das Hilfsverb haber an; nur in der Adjektiv-Funktion aendert sich die Endung nach Geschlecht und Zahl.",
-     "en": "The participle is not a conjugated tense with six persons like yo/tu/el. There is only one base form per verb (e.g. comido). The person is shown by the auxiliary haber; only in its adjective role does the ending change for gender and number."
+     "de": "Das Partizip hat keine eigenen Personalformen wie ein normales Verb.",
+     "en": "The participle has no personal forms like a normal conjugated verb."
     },
     "examples": [
      {
-      "es": "comido (immer gleich nach haber)",
+      "es": "hecho, puesto, vuelto",
       "gloss": {
-       "de": "gegessen (nach haber stets unveraendert)",
-       "en": "eaten (always the same after haber)"
+       "de": "gemacht, gestellt, zurückgekehrt",
+       "en": "done, put, returned"
       },
       "note": {
-       "de": "Vergleiche: he comido, has comido, han comido.",
-       "en": "Compare: he comido, has comido, han comido."
+       "de": "eine Grundform",
+       "en": "one base form"
       }
      }
     ]
@@ -3915,43 +3753,31 @@
   ],
   "examples": [
    {
+    "es": "Han visto la película juntos.",
+    "gloss": {
+     "de": "Sie haben den Film zusammen gesehen.",
+     "en": "They have seen the film together."
+    }
+   },
+   {
+    "es": "La ventana está abierta.",
+    "gloss": {
+     "de": "Das Fenster ist offen.",
+     "en": "The window is open."
+    }
+   },
+   {
     "es": "Hemos vivido aquí muchos años.",
     "gloss": {
      "de": "Wir haben viele Jahre hier gelebt.",
      "en": "We have lived here for many years."
-    },
-    "note": {
-     "de": "perfecto: hemos + Partizip vivido, unveraendert.",
-     "en": "Present perfect: hemos + participle vivido, unchanged."
     }
    },
    {
-    "es": "Han abierto una tienda nueva.",
+    "es": "He puesto los libros en la mesa.",
     "gloss": {
-     "de": "Sie haben einen neuen Laden eroeffnet.",
-     "en": "They have opened a new shop."
-    },
-    "note": {
-     "de": "Nach haber bleibt abierto gleich; als Adjektiv waere es abierta/abiertas.",
-     "en": "After haber abierto stays fixed; as an adjective it would be abierta/abiertas."
-    }
-   },
-   {
-    "es": "El libro está escrito en español.",
-    "gloss": {
-     "de": "Das Buch ist auf Spanisch geschrieben.",
-     "en": "The book is written in Spanish."
-    },
-    "note": {
-     "de": "Hier ist escrito ein Adjektiv und passt sich dem Nomen an.",
-     "en": "Here escrito is an adjective and agrees with the noun."
-    }
-   },
-   {
-    "es": "No he dicho nada.",
-    "gloss": {
-     "de": "Ich habe nichts gesagt.",
-     "en": "I have not said anything."
+     "de": "Ich habe die Bücher auf den Tisch gestellt.",
+     "en": "I have put the books on the table."
     }
    }
   ],
