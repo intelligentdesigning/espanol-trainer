@@ -11,6 +11,7 @@ export function Nav() {
   const links: { href: string; key: Parameters<typeof t>[0] }[] = [
     { href: "/", key: "nav.home" },
     { href: "/vokabular", key: "nav.vocab" },
+    { href: "/konjugation", key: "nav.conj" },
     { href: "/grammatik", key: "nav.grammar" },
     { href: "/vokabelheft", key: "nav.notebook" },
     { href: "/stats", key: "nav.stats" },

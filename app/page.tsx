@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
-import { IconCards, IconBook, IconNotebook } from "@/components/icons";
+import { IconCards, IconBook, IconNotebook, IconConjugate } from "@/components/icons";
 
 export default function Home() {
   const { t } = useI18n();
 
   const cards = [
     { href: "/vokabular", Icon: IconCards, title: t("home.vocab.title"), desc: t("home.vocab.desc"), accent: "text-vocab", bg: "bg-vocab/10" },
+    { href: "/konjugation", Icon: IconConjugate, title: t("home.conj.title"), desc: t("home.conj.desc"), accent: "text-brand", bg: "bg-brand/10" },
     { href: "/grammatik", Icon: IconBook, title: t("home.grammar.title"), desc: t("home.grammar.desc"), accent: "text-brand", bg: "bg-brand/10" },
     { href: "/vokabelheft", Icon: IconNotebook, title: t("home.notebook.title"), desc: t("home.notebook.desc"), accent: "text-brand-2", bg: "bg-brand-2/10" },
   ] as const;
@@ -22,7 +23,7 @@ export default function Home() {
         <p className="mt-3 text-lg text-muted">{t("app.tagline")}</p>
       </section>
 
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2">
         {cards.map(({ href, Icon, title, desc, accent, bg }) => (
           <Link
             key={href}

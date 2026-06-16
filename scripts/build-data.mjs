@@ -47,6 +47,12 @@ const OUT = join(ROOT, "public", "data");
 
 const stripAccents = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "");
 
+// Accurate POS tags from the pos-tag-vocab workflow (es -> pos). Falls back to heuristics.
+let posMap = {};
+try {
+  posMap = JSON.parse(readFileSync(join(__dirname, "vendor", "pos.json"), "utf8"));
+} catch {}
+
 // --- 1. parse + dedup -------------------------------------------------------
 const raw = readFileSync(join(ROOT, "data", "master.tsv"), "utf8");
 const rows = [];
@@ -198,7 +204,7 @@ const unhandledVerbs = [];
 ranked.forEach((k, i) => {
   const r = byKey.get(k);
   const rank = i + 1;
-  const pos = guessPos(r);
+  const pos = posMap[r.es] ?? guessPos(r);
   counts[pos] = (counts[pos] || 0) + 1;
   const en = r.enAnswers.split(" / ").map((s) => s.trim()).filter(Boolean);
 

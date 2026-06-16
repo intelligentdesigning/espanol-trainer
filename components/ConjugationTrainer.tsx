@@ -11,6 +11,7 @@ import {
   FORM_GROUPS,
   buildConjSession,
   checkConjugation,
+  explainConjugation,
   type ConjQuestion,
   type FormKey,
 } from "@/lib/conjugation/trainer";
@@ -182,6 +183,9 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
               <div className="mt-1 text-foreground" lang="es">{t("conj.answerWas")} <b>{q.expected}</b></div>
             )}
             <div className="mt-1 text-foreground">{t("quiz.meaning")}: <b>{q.meaning}</b></div>
+            {status === "wrong" && (
+              <div className="mt-2 border-t border-foreground/10 pt-2 text-foreground/80">{explainConjugation(q, input, locale)}</div>
+            )}
           </div>
         )}
 

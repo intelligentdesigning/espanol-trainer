@@ -36,6 +36,9 @@ export const IconCheck = ({ className }: P) => (
 export const IconArrowRight = ({ className }: P) => (
   <svg {...base(className)}><path d="M5 12h14M13 6l6 6-6 6" /></svg>
 );
+export const IconConjugate = ({ className }: P) => (
+  <svg {...base(className)}><path d="M3 12a9 9 0 0 1 15-6.7L21 8" /><path d="M21 3v5h-5" /><path d="M21 12a9 9 0 0 1-15 6.7L3 16" /><path d="M3 21v-5h5" /></svg>
+);
 export const IconTrophy = ({ className }: P) => (
   <svg {...base(className)}><path d="M7 4h10v4a5 5 0 0 1-10 0z" /><path d="M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3" /><path d="M10 14h4M9 20h6M12 14v6" /></svg>
 );

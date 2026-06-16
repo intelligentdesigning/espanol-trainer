@@ -25,8 +25,20 @@ export default function VokabularPage() {
       desc: t("vocab.mode.verbs.desc"),
       badge: t("vocab.dir.esEn"),
     },
+    {
+      href: "/vokabular/quiz?mode=nouns&dir=es-en",
+      title: t("vocab.mode.nouns"),
+      desc: t("vocab.mode.nouns.desc"),
+      badge: t("vocab.dir.esEn"),
+    },
+    {
+      href: "/vokabular/quiz?mode=adj&dir=es-en",
+      title: t("vocab.mode.adj"),
+      desc: t("vocab.mode.adj.desc"),
+      badge: t("vocab.dir.esEn"),
+    },
   ];
-  const soon = [t("vocab.mode.nouns"), t("vocab.mode.adj")];
+  const soon: string[] = [];
 
   return (
     <div className="space-y-6">
@@ -50,19 +62,21 @@ export default function VokabularPage() {
         ))}
       </div>
 
-      <div className="grid gap-3 sm:grid-cols-3">
-        {soon.map((label) => (
-          <div
-            key={label}
-            className="flex items-center justify-between rounded-xl border border-dashed border-border p-4 text-sm text-muted"
-          >
-            {label}
-            <span className="rounded-full bg-foreground/5 px-2 py-0.5 text-[10px] font-semibold uppercase">
-              {t("common.comingSoon")}
-            </span>
-          </div>
-        ))}
-      </div>
+      {soon.length > 0 && (
+        <div className="grid gap-3 sm:grid-cols-3">
+          {soon.map((label) => (
+            <div
+              key={label}
+              className="flex items-center justify-between rounded-xl border border-dashed border-border p-4 text-sm text-muted"
+            >
+              {label}
+              <span className="rounded-full bg-foreground/5 px-2 py-0.5 text-[10px] font-semibold uppercase">
+                {t("common.comingSoon")}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
