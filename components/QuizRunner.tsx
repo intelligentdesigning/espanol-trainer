@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { loadVocab, loadDetails } from "@/lib/data";
 import { buildSession, checkAnswer, type QuizConfig, type QuizQuestion } from "@/lib/quiz";
-import { recordResult, addSession } from "@/lib/storage/db";
+import { recordResult, addSession, getAllProgress } from "@/lib/storage/db";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
 import { QuizWithPanels } from "@/components/QuizPanels";
-import type { VocabDetails } from "@/lib/types";
+import type { ProgressRecord, VocabDetails } from "@/lib/types";
 
 type Status = "idle" | "right" | "wrong";
 
@@ -26,8 +26,17 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
   const startedAt = useRef(Date.now());
   const inputRef = useRef<SpanishInputHandle>(null);
 
+  // Build a fresh session, seeded with current per-word progress so the scope
+  // filter (smart/weak/new) can prioritise — and fade out mastered words.
+  const buildFromStore = () =>
+    Promise.all([loadVocab(), getAllProgress()]).then(([v, prog]) => {
+      const map = new Map<string, ProgressRecord>();
+      for (const r of prog) if (r.kind === "vocab") map.set(r.itemKey.slice(6), r);
+      setQuestions(buildSession(v, config, map));
+    });
+
   useEffect(() => {
-    loadVocab().then((v) => setQuestions(buildSession(v, config)));
+    buildFromStore();
     loadDetails().then(setDetails);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [modeId]);
@@ -40,7 +49,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
   if (questions.length === 0)
     return (
       <div className="space-y-4">
-        <p className="text-muted">{t("quiz.empty")}</p>
+        <p className="text-muted">{config.scope === "weak" ? t("vocab.empty.mastered") : t("quiz.empty")}</p>
         <Link href="/vokabular" className="text-brand underline">{t("common.back")}</Link>
       </div>
     );
@@ -89,7 +98,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
               setIdx(0); setInput(""); setStatus("idle");
               setCorrectCount(0); setStreak(0); setFinished(false);
               startedAt.current = Date.now();
-              loadVocab().then((v) => setQuestions(buildSession(v, config)));
+              buildFromStore();
             }}
             className="rounded-lg bg-brand px-4 py-2 font-medium text-white hover:opacity-90"
           >

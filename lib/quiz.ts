@@ -1,12 +1,16 @@
-import type { Pos, VocabItem } from "@/lib/types";
+import type { Pos, ProgressRecord, VocabItem } from "@/lib/types";
 
 export type Direction = "es-en" | "en-es";
+export type QuizScope = "smart" | "weak" | "new" | "all";
+
+const MASTERED_BOX = 4; // keep in sync with lib/progress.ts
 
 export interface QuizConfig {
   pos?: Pos | "all";
   direction: Direction;
   count: number;
   freqWindow?: [number, number];
+  scope?: QuizScope; // default "smart"
 }
 
 export interface QuizQuestion {
@@ -69,7 +73,11 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-export function buildSession(vocab: VocabItem[], config: QuizConfig): QuizQuestion[] {
+export function buildSession(
+  vocab: VocabItem[],
+  config: QuizConfig,
+  progress?: Map<string, ProgressRecord>,
+): QuizQuestion[] {
   let pool = vocab;
   if (config.pos && config.pos !== "all") pool = pool.filter((v) => v.pos === config.pos);
   if (config.freqWindow) {
@@ -111,5 +119,33 @@ export function buildSession(vocab: VocabItem[], config: QuizConfig): QuizQuesti
     });
   }
 
-  return shuffle(questions).slice(0, config.count);
+  // --- scope: pick which questions to ask, based on per-word mastery ---------
+  const scope = config.scope ?? "smart";
+  const recOf = (q: QuizQuestion) => progress?.get(q.id);
+  const seen = (q: QuizQuestion) => { const r = recOf(q); return !!r && r.seen > 0; };
+  const mastered = (q: QuizQuestion) => { const r = recOf(q); return !!r && r.seen > 0 && r.box >= MASTERED_BOX; };
+  const wrongLast = (q: QuizQuestion) => recOf(q)?.lastResult === "wrong";
+  const due = (q: QuizQuestion) => { const r = recOf(q); return !!r && r.dueAt <= Date.now(); };
+
+  if (scope === "all") return shuffle(questions).slice(0, config.count);
+  if (scope === "new") return shuffle(questions.filter((q) => !seen(q))).slice(0, config.count);
+  if (scope === "weak") {
+    const weak = questions.filter((q) => seen(q) && !mastered(q));
+    const wrong = shuffle(weak.filter(wrongLast));
+    const rest = shuffle(weak.filter((q) => !wrongLast(q)));
+    return [...wrong, ...rest].slice(0, config.count);
+  }
+  // smart (default): new + weak first, mastered last → known words fade out naturally.
+  const tier = (q: QuizQuestion) => {
+    if (!seen(q)) return 0;              // new material
+    if (!mastered(q)) {
+      if (wrongLast(q)) return 1;        // shaky, missed last time
+      if (due(q)) return 2;             // due for review
+      return 3;                          // still learning
+    }
+    return 4;                            // mastered — light reinforcement
+  };
+  const ordered = shuffle(questions);
+  ordered.sort((a, b) => tier(a) - tier(b)); // stable sort → shuffled within each tier
+  return ordered.slice(0, config.count);
 }

@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { loadVocab } from "@/lib/data";
+import { loadMastery, type MasterySnapshot } from "@/lib/progress";
+import type { QuizScope } from "@/lib/quiz";
 import type { Pos, VocabItem } from "@/lib/types";
 import {
   IconCards,
@@ -15,6 +17,9 @@ import {
 
 type CatId = "common" | "verbs" | "nouns" | "adj";
 type BandId = "easy" | "medium" | "hard" | "all";
+
+const FOCI: QuizScope[] = ["smart", "weak", "new"];
+const COUNTS = [10, 20, 30, 50];
 
 const CATS: {
   id: CatId;
@@ -48,11 +53,15 @@ const inBand = (v: VocabItem, w: [number, number] | null) =>
 export default function VokabularPage() {
   const { t } = useI18n();
   const [vocab, setVocab] = useState<VocabItem[] | null>(null);
+  const [snap, setSnap] = useState<MasterySnapshot | null>(null);
   const [cat, setCat] = useState<CatId | null>(null);
   const [band, setBand] = useState<BandId>("easy");
+  const [scope, setScope] = useState<QuizScope>("smart");
+  const [count, setCount] = useState(20);
 
   useEffect(() => {
     loadVocab().then(setVocab);
+    loadMastery().then(setSnap);
   }, []);
 
   // counts per category, and per band within the selected category
@@ -103,6 +112,15 @@ export default function VokabularPage() {
                     <span className={`h-1.5 w-1.5 rounded-full ${c.dot}`} />
                     {vocab ? `${catCounts[c.id]} ${t("vocab.cat.words")}` : "…"}
                   </div>
+                  {/* mastery progress (high-score at a glance) */}
+                  <div className="mt-3">
+                    <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
+                      <div className={`h-full ${c.dot} transition-all`} style={{ width: `${snap ? snap.byCat[c.id].masteredPct : 0}%` }} />
+                    </div>
+                    <div className="mt-1 text-[11px] text-muted">
+                      {snap ? `${snap.byCat[c.id].masteredPct}% ${t("vocab.cat.mastered")}` : " "}
+                    </div>
+                  </div>
                 </div>
                 <IconArrowRight className={`ml-auto h-5 w-5 shrink-0 text-muted transition-transform group-hover:translate-x-1 ${c.hoverText}`} />
               </div>
@@ -113,9 +131,9 @@ export default function VokabularPage() {
     );
   }
 
-  // ---- Step 2: setup (difficulty + direction) -----------------------------
+  // ---- Step 2: setup (difficulty + focus + round + direction) --------------
   const href = (dir: "es-en" | "en-es") =>
-    `/vokabular/quiz?mode=${active.id}&dir=${dir}&diff=${band}`;
+    `/vokabular/quiz?mode=${active.id}&dir=${dir}&diff=${band}&scope=${scope}&count=${count}`;
 
   const directions: { dir: "en-es" | "es-en"; title: string; desc: string; from: string; to: string }[] = [
     { dir: "en-es", title: t("vocab.setup.typeEs"), desc: t("vocab.setup.typeEs.desc"), from: "EN", to: "ES" },
@@ -160,6 +178,48 @@ export default function VokabularPage() {
               </button>
             );
           })}
+        </div>
+      </div>
+
+      {/* focus (which words) + round length — compact, sensible defaults */}
+      <div className="grid gap-5 sm:grid-cols-2">
+        <div>
+          <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.focus")}</div>
+          <div className="flex flex-wrap gap-2">
+            {FOCI.map((s) => {
+              const selected = scope === s;
+              return (
+                <button
+                  key={s}
+                  onClick={() => setScope(s)}
+                  className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                    selected ? `${active.bg} ${active.text} border-transparent` : "border-border text-muted hover:text-foreground hover:bg-foreground/5"
+                  }`}
+                >
+                  {t(`vocab.focus.${s}` as never)}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+        <div>
+          <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.round")}</div>
+          <div className="flex flex-wrap gap-2">
+            {COUNTS.map((n) => {
+              const selected = count === n;
+              return (
+                <button
+                  key={n}
+                  onClick={() => setCount(n)}
+                  className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                    selected ? `${active.bg} ${active.text} border-transparent` : "border-border text-muted hover:text-foreground hover:bg-foreground/5"
+                  }`}
+                >
+                  {n}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
 
