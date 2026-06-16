@@ -61,6 +61,14 @@ export interface BuchData {
   entries: BuchEntry[];
 }
 
+/** public/data/details.json — learner-dictionary content per vocab id. */
+export interface VocabDetail {
+  defEs: string; defDe: string; defEn: string;   // definition: Spanish + translations
+  exEs: string;  exDe: string;  exEn: string;    // example sentence: Spanish + translations
+}
+export type VocabDetails = Record<string, VocabDetail>; // keyed by vocab id
+export type BuchDetails = Record<string, VocabDetail>;  // keyed by accent-stripped es
+
 export interface VocabIndex {
   total: number;
   counts: Partial<Record<Pos, number>>;

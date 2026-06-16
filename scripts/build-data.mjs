@@ -300,3 +300,40 @@ try {
 } catch (e) {
   console.log("buch.json skipped:", e.message);
 }
+
+// --- 8. Definitions + example sentences (vocab-enrich workflow) -> details.json
+try {
+  const details = JSON.parse(readFileSync(join(__dirname, "vendor", "details.json"), "utf8"));
+  // keep only ids that exist in the current vocab, drop empty entries
+  const ids = new Set(vocab.map((v) => v.id));
+  const out = {};
+  let kept = 0;
+  for (const [id, d] of Object.entries(details)) {
+    if (!ids.has(id) || !d || !d.defEs || !d.exEs) continue;
+    out[id] = { defEs: d.defEs, defDe: d.defDe, defEn: d.defEn, exEs: d.exEs, exDe: d.exDe, exEn: d.exEn };
+    kept++;
+  }
+  writeFileSync(join(OUT, "details.json"), JSON.stringify(out));
+  const coverage = ((kept / vocab.length) * 100).toFixed(1);
+  console.log(`details.json: ${kept}/${vocab.length} words (${coverage}% coverage)`);
+} catch (e) {
+  console.log("details.json skipped:", e.message);
+}
+
+// --- 9. Coursebook definitions + examples (buch-enrich workflow) -> buch-details.json
+try {
+  const bdetails = JSON.parse(readFileSync(join(__dirname, "vendor", "buch-details.json"), "utf8"));
+  const buch = JSON.parse(readFileSync(join(OUT, "buch.json"), "utf8"));
+  const keys = new Set(buch.entries.map((e) => stripAccents(e.es).toLowerCase().trim()));
+  const out = {};
+  let kept = 0;
+  for (const [k, d] of Object.entries(bdetails)) {
+    if (!keys.has(k) || !d || !d.defEs || !d.exEs) continue;
+    out[k] = { defEs: d.defEs, defDe: d.defDe, defEn: d.defEn, exEs: d.exEs, exDe: d.exDe, exEn: d.exEn };
+    kept++;
+  }
+  writeFileSync(join(OUT, "buch-details.json"), JSON.stringify(out));
+  console.log(`buch-details.json: ${kept}/${keys.size} unique words (${((kept / keys.size) * 100).toFixed(1)}% coverage)`);
+} catch (e) {
+  console.log("buch-details.json skipped:", e.message);
+}

@@ -2,12 +2,13 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
-import { loadBuch } from "@/lib/data";
+import { loadBuch, loadBuchDetails } from "@/lib/data";
 import { checkAnswer } from "@/lib/quiz";
 import { recordResult, addSession } from "@/lib/storage/db";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
-import type { BuchData, BuchEntry } from "@/lib/types";
+import { QuizWithPanels } from "@/components/QuizPanels";
+import type { BuchData, BuchEntry, BuchDetails } from "@/lib/types";
 
 type Dir = "es-de" | "de-es";
 type Phase = "setup" | "run" | "done";
@@ -15,6 +16,9 @@ type Status = "idle" | "right" | "wrong";
 
 const splitMeanings = (s: string) =>
   [s.trim(), ...s.split(/[,/;]|\boder\b/).map((x) => x.trim())].filter(Boolean);
+
+// Must match the key used in build-data.mjs (accent-stripped, lowercased es).
+const keyOf = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
 
 function shuffle<T>(a: T[]): T[] {
   const r = a.slice();
@@ -25,11 +29,12 @@ function shuffle<T>(a: T[]): T[] {
   return r;
 }
 
-interface Q { id: string; prompt: string; accepted: string[]; canonical: string; }
+interface Q { id: string; es: string; prompt: string; accepted: string[]; canonical: string; }
 
 export function BuchTrainer() {
   const { t } = useI18n();
   const [data, setData] = useState<BuchData | null>(null);
+  const [details, setDetails] = useState<BuchDetails>({});
   const [lektion, setLektion] = useState<string>("__all__");
   const [dir, setDir] = useState<Dir>("es-de");
   const [phase, setPhase] = useState<Phase>("setup");
@@ -42,7 +47,7 @@ export function BuchTrainer() {
   const startedAt = useRef(Date.now());
   const inputRef = useRef<SpanishInputHandle>(null);
 
-  useEffect(() => { loadBuch().then(setData); }, []);
+  useEffect(() => { loadBuch().then(setData); loadBuchDetails().then(setDetails); }, []);
   useEffect(() => { if (phase === "run" && status === "idle") inputRef.current?.focus(); }, [phase, status, idx]);
 
   const start = () => {
@@ -51,7 +56,7 @@ export function BuchTrainer() {
     const qs: Q[] = shuffle(pool).slice(0, 20).map((e: BuchEntry, i) => {
       const prompt = dir === "es-de" ? e.es : e.de;
       const ans = dir === "es-de" ? e.de : e.es;
-      return { id: `${e.lektion}:${i}:${e.es}`, prompt, accepted: splitMeanings(ans), canonical: ans };
+      return { id: `${e.lektion}:${i}:${e.es}`, es: e.es, prompt, accepted: splitMeanings(ans), canonical: ans };
     });
     setQuestions(qs); setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
     startedAt.current = Date.now();
@@ -130,11 +135,14 @@ export function BuchTrainer() {
     setIdx((i) => i + 1); setInput(""); setStatus("idle");
   };
 
-  return (
-    <div className="mx-auto max-w-md space-y-5">
-      <div className="flex items-center justify-between text-sm text-muted">
-        <span>{idx + 1} / {total}</span>
-        <span>{t("quiz.score")}: <b className="text-foreground">{correct}</b></span>
+  const center = (
+    <div className="space-y-5">
+      <div className="flex items-end justify-between">
+        <div>
+          <div className="text-sm font-medium text-foreground">{t("quiz.round")} {idx + 1} / {total}</div>
+          <div className="text-xs text-muted">{t("quiz.roundNote")}</div>
+        </div>
+        <span className="text-sm text-muted">{t("quiz.score")}: <b className="text-foreground">{correct}</b></span>
       </div>
       <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
         <div className="h-full bg-vocab transition-all" style={{ width: `${(idx / total) * 100}%` }} />
@@ -146,7 +154,7 @@ export function BuchTrainer() {
       </div>
 
       <div className="space-y-3">
-        <SpanishInput ref={inputRef} value={input} onChange={setInput} onEnter={submit} disabled={status !== "idle"}
+        <SpanishInput ref={inputRef} value={input} onChange={setInput} onEnter={submit} readOnly={status !== "idle"}
           placeholder={t("quiz.placeholder")} showAccents={dir === "de-es"}
           className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-vocab"}`} />
         {status !== "idle" && (
@@ -160,5 +168,11 @@ export function BuchTrainer() {
         </button>
       </div>
     </div>
+  );
+
+  return (
+    <QuizWithPanels detail={details[keyOf(q.es)]} answered={status !== "idle"} enabled={Object.keys(details).length > 0}>
+      {center}
+    </QuizWithPanels>
   );
 }

@@ -11,13 +11,16 @@ export interface QuizConfig {
 
 export interface QuizQuestion {
   itemKey: string;
+  id: string;           // vocab id (for the details/definition lookup)
+  es: string;           // the Spanish word (shown in the context panels)
   prompt: string;       // what the learner sees
   accepted: string[];   // accepted answers (raw, accented)
   canonical: string;    // the "official" answer to display
 }
 
 // --- answer normalization (accent/case-insensitive, like the JetPunk rules) ---
-const LEADING = /^(to|the|el|la|los|las|un|una|unos|unas)\s+/;
+// Strip leading articles (EN/ES/DE) and the EN infinitive marker "to".
+const LEADING = /^(to|the|el|la|los|las|un|una|unos|unas|der|die|das|den|dem|des|ein|eine|einen|einem|einer|eines)\s+/;
 
 export function normalize(s: string): string {
   let v = s
@@ -28,14 +31,33 @@ export function normalize(s: string): string {
     .replace(/\s+/g, " ")
     .replace(/[.,;!?¿¡"'()]/g, "")
     .trim();
-  v = v.replace(LEADING, "");
+  // Strip leading articles repeatedly so "das der Kaffee" → "kaffee".
+  let prev;
+  do { prev = v; v = v.replace(LEADING, ""); } while (v !== prev);
   return v.trim();
+}
+
+/** Whole-word containment: every token in `needle` appears as a token in `hay`. */
+function containsAllTokens(hay: string, needle: string): boolean {
+  if (!needle) return false;
+  const hayTokens = new Set(hay.split(" ").filter(Boolean));
+  const needleTokens = needle.split(" ").filter(Boolean);
+  if (!needleTokens.length || needleTokens.length > hayTokens.size) return false;
+  return needleTokens.every((t) => hayTokens.has(t));
 }
 
 export function checkAnswer(input: string, accepted: string[]): boolean {
   const n = normalize(input);
   if (!n) return false;
-  return accepted.some((a) => normalize(a) === n);
+  for (const a of accepted) {
+    const na = normalize(a);
+    if (!na) continue;
+    if (na === n) return true;
+    // Lenient match: the correct answer is contained whole-word in the user's
+    // answer (e.g. "das Kaffee" ⊇ "Kaffee"), or vice-versa.
+    if (containsAllTokens(n, na) || containsAllTokens(na, n)) return true;
+  }
+  return false;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -61,6 +83,8 @@ export function buildSession(vocab: VocabItem[], config: QuizConfig): QuizQuesti
       .filter((v) => v.en.length > 0)
       .map((v) => ({
         itemKey: `vocab:${v.id}`,
+        id: v.id,
+        es: v.es,
         prompt: v.es,
         accepted: v.en,
         canonical: v.en.join(" / "),
@@ -78,6 +102,8 @@ export function buildSession(vocab: VocabItem[], config: QuizConfig): QuizQuesti
       items.sort((a, b) => a.rank - b.rank);
       return {
         itemKey: `vocab:${items[0].id}`,
+        id: items[0].id,
+        es: items[0].es,
         prompt: items[0].clue,
         accepted: items.map((i) => i.es),
         canonical: items.map((i) => i.es).join(" / "),

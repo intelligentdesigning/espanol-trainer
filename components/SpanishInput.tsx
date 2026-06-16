@@ -1,6 +1,6 @@
 "use client";
 
-import { forwardRef, useImperativeHandle, useRef } from "react";
+import { forwardRef, useImperativeHandle, useRef, useEffect } from "react";
 
 const ACCENTS = ["á", "é", "í", "ó", "ú", "ñ", "ü", "¿", "¡"];
 
@@ -12,7 +12,13 @@ interface Props {
   value: string;
   onChange: (v: string) => void;
   onEnter?: () => void;
+  onBlur?: () => void;
   disabled?: boolean;
+  /** Like disabled, but keeps the input focusable so Enter still fires onEnter. */
+  readOnly?: boolean;
+  /** Render an auto-growing textarea (multi-word notes). Enter = newline, Cmd/Ctrl+Enter = onEnter. */
+  multiline?: boolean;
+  rows?: number;
   placeholder?: string;
   className?: string;
   showAccents?: boolean;
@@ -20,11 +26,21 @@ interface Props {
 
 /** Text input with a clickable Spanish accent bar (for keyboards without dead keys). */
 export const SpanishInput = forwardRef<SpanishInputHandle, Props>(function SpanishInput(
-  { value, onChange, onEnter, disabled, placeholder, className, showAccents = true },
+  { value, onChange, onEnter, onBlur, disabled, readOnly, multiline, rows = 2, placeholder, className, showAccents = true },
   ref
 ) {
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLInputElement | HTMLTextAreaElement>(null);
   useImperativeHandle(ref, () => ({ focus: () => inputRef.current?.focus() }));
+
+  // Grow a textarea to fit its content.
+  const autoGrow = () => {
+    const el = inputRef.current;
+    if (el && multiline) {
+      el.style.height = "auto";
+      el.style.height = `${el.scrollHeight}px`;
+    }
+  };
+  useEffect(() => { autoGrow(); }, [value, multiline]);
 
   const insert = (ch: string) => {
     const el = inputRef.current;
@@ -39,31 +55,54 @@ export const SpanishInput = forwardRef<SpanishInputHandle, Props>(function Spani
       el.focus();
       const pos = start + ch.length;
       el.setSelectionRange(pos, pos);
+      autoGrow();
     });
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => onChange(e.target.value);
+
+  const handleKey = (e: React.KeyboardEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    if (e.key !== "Enter" || !onEnter) return;
+    if (e.nativeEvent.isComposing) return; // don't submit mid-IME-composition
+    if (multiline) {
+      // plain Enter inserts a newline; Cmd/Ctrl+Enter submits
+      if ((e.metaKey || e.ctrlKey) && !e.repeat) { e.preventDefault(); onEnter(); }
+      return;
+    }
+    if (e.repeat) return; // ignore key auto-repeat so a held Enter can't double-fire
+    e.preventDefault();
+    onEnter();
+  };
+
+  const common = {
+    value,
+    onChange: handleChange,
+    onKeyDown: handleKey,
+    onBlur,
+    disabled,
+    readOnly,
+    placeholder,
+    lang: "es" as const,
+    autoComplete: "off",
+    autoCapitalize: "off",
+    autoCorrect: "off",
+    spellCheck: false,
   };
 
   return (
     <div className="space-y-2">
-      <input
-        ref={inputRef}
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        onKeyDown={(e) => {
-          if (e.key === "Enter" && onEnter) {
-            e.preventDefault();
-            onEnter();
-          }
-        }}
-        disabled={disabled}
-        placeholder={placeholder}
-        lang="es"
-        autoComplete="off"
-        autoCapitalize="off"
-        autoCorrect="off"
-        spellCheck={false}
-        className={className}
-      />
-      {showAccents && !disabled && (
+      {multiline ? (
+        <textarea
+          {...common}
+          ref={inputRef as React.RefObject<HTMLTextAreaElement>}
+          rows={rows}
+          onInput={autoGrow}
+          className={`${className ?? ""} resize-none overflow-hidden`}
+        />
+      ) : (
+        <input {...common} ref={inputRef as React.RefObject<HTMLInputElement>} className={className} />
+      )}
+      {showAccents && !disabled && !readOnly && (
         <div className="flex flex-wrap gap-1.5">
           {ACCENTS.map((c) => (
             <button

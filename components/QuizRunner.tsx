@@ -3,17 +3,20 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
-import { loadVocab } from "@/lib/data";
+import { loadVocab, loadDetails } from "@/lib/data";
 import { buildSession, checkAnswer, type QuizConfig, type QuizQuestion } from "@/lib/quiz";
 import { recordResult, addSession } from "@/lib/storage/db";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
+import { QuizWithPanels } from "@/components/QuizPanels";
+import type { VocabDetails } from "@/lib/types";
 
 type Status = "idle" | "right" | "wrong";
 
 export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: string }) {
   const { t } = useI18n();
   const [questions, setQuestions] = useState<QuizQuestion[] | null>(null);
+  const [details, setDetails] = useState<VocabDetails>({});
   const [idx, setIdx] = useState(0);
   const [input, setInput] = useState("");
   const [status, setStatus] = useState<Status>("idle");
@@ -25,6 +28,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
 
   useEffect(() => {
     loadVocab().then((v) => setQuestions(buildSession(v, config)));
+    loadDetails().then(setDetails);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [modeId]);
 
@@ -43,7 +47,9 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
 
   const total = questions.length;
   const q = questions[idx];
+  const d = details[q.id];
   const promptLabel = config.direction === "es-en" ? t("quiz.translateToEn") : t("quiz.translateToEs");
+  const answered = status !== "idle";
 
   const submit = () => {
     if (status !== "idle") return next();
@@ -97,12 +103,18 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
     );
   }
 
-  return (
-    <div className="mx-auto max-w-md space-y-5">
+  const center = (
+    <div className="space-y-5">
       {/* progress */}
-      <div className="flex items-center justify-between text-sm text-muted">
-        <span>{idx + 1} / {total}</span>
-        <span>{t("quiz.score")}: <b className="text-foreground">{correctCount}</b>{streak >= 2 && <span className="ml-2 rounded-full bg-brand/10 px-2 py-0.5 text-xs font-semibold text-brand">×{streak}</span>}</span>
+      <div className="flex items-end justify-between">
+        <div>
+          <div className="text-sm font-medium text-foreground">{t("quiz.round")} {idx + 1} / {total}</div>
+          <div className="text-xs text-muted">{t("quiz.roundNote")}</div>
+        </div>
+        <span className="text-sm text-muted">
+          {t("quiz.score")}: <b className="text-foreground">{correctCount}</b>
+          {streak >= 2 && <span className="ml-2 rounded-full bg-brand/10 px-2 py-0.5 text-xs font-semibold text-brand">×{streak}</span>}
+        </span>
       </div>
       <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
         <div className="h-full bg-vocab transition-all" style={{ width: `${(idx / total) * 100}%` }} />
@@ -120,7 +132,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
           value={input}
           onChange={setInput}
           onEnter={submit}
-          disabled={status !== "idle"}
+          readOnly={status !== "idle"}
           placeholder={t("quiz.placeholder")}
           showAccents={config.direction === "en-es"}
           className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${
@@ -128,7 +140,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
           }`}
         />
 
-        {status !== "idle" && (
+        {answered && (
           <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
             <div className="mt-1 text-foreground">
@@ -161,5 +173,11 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
         </div>
       </div>
     </div>
+  );
+
+  return (
+    <QuizWithPanels detail={d} answered={answered} enabled={Object.keys(details).length > 0}>
+      {center}
+    </QuizWithPanels>
   );
 }

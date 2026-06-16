@@ -169,7 +169,7 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
           value={input}
           onChange={setInput}
           onEnter={submit}
-          disabled={status !== "idle"}
+          readOnly={status !== "idle"}
           placeholder={t("quiz.placeholder")}
           className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${
             status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-brand"

@@ -9,6 +9,11 @@
   --brand: #d6452a;       /* warm Spanish red */
   --brand-2: #e8a13a;     /* amber */
   --accent-vocab: #0e7490;/* teal for vocab */
+  /* vocab category accents */
+  --cat-verb: #dc2626;    /* red    – Verben */
+  --cat-noun: #2563eb;    /* blue   – Nomen */
+  --cat-adj: #ca8a04;     /* gold   – Adjektive */
+  --cat-common: #0e7490;  /* teal   – häufigste Wörter */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +26,10 @@
     --brand: #f0613f;
     --brand-2: #f0b855;
     --accent-vocab: #38bdf8;
+    --cat-verb: #f87171;    /* red-400  */
+    --cat-noun: #60a5fa;    /* blue-400 */
+    --cat-adj: #fbbf24;     /* amber-400 (gelb) */
+    --cat-common: #38bdf8;  /* sky-400  */
   }
 }
 
@@ -33,6 +42,10 @@
   --color-brand: var(--brand);
   --color-brand-2: var(--brand-2);
   --color-vocab: var(--accent-vocab);
+  --color-verb: var(--cat-verb);
+  --color-noun: var(--cat-noun);
+  --color-adj: var(--cat-adj);
+  --color-common: var(--cat-common);
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -45,4 +58,9 @@ body {
 /* subtle focus ring for inputs/buttons */
 * {
   outline-color: var(--brand);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
 }
