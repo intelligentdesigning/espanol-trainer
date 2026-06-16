@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
-import { IconCards, IconBook, IconNotebook, IconConjugate } from "@/components/icons";
+import { IconCards, IconBook, IconNotebook, IconConjugate, IconBookOpen } from "@/components/icons";
 
 export default function Home() {
   const { t } = useI18n();
@@ -11,6 +11,7 @@ export default function Home() {
     { href: "/vokabular", Icon: IconCards, title: t("home.vocab.title"), desc: t("home.vocab.desc"), accent: "text-vocab", bg: "bg-vocab/10" },
     { href: "/konjugation", Icon: IconConjugate, title: t("home.conj.title"), desc: t("home.conj.desc"), accent: "text-brand", bg: "bg-brand/10" },
     { href: "/grammatik", Icon: IconBook, title: t("home.grammar.title"), desc: t("home.grammar.desc"), accent: "text-brand", bg: "bg-brand/10" },
+    { href: "/buch", Icon: IconBookOpen, title: t("home.buch.title"), desc: t("home.buch.desc"), accent: "text-vocab", bg: "bg-vocab/10" },
     { href: "/vokabelheft", Icon: IconNotebook, title: t("home.notebook.title"), desc: t("home.notebook.desc"), accent: "text-brand-2", bg: "bg-brand-2/10" },
   ] as const;
 

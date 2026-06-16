@@ -36,6 +36,9 @@ export const IconCheck = ({ className }: P) => (
 export const IconArrowRight = ({ className }: P) => (
   <svg {...base(className)}><path d="M5 12h14M13 6l6 6-6 6" /></svg>
 );
+export const IconBookOpen = ({ className }: P) => (
+  <svg {...base(className)}><path d="M12 6.5C10.5 5 8 4.5 4 5v13c4-.5 6.5 0 8 1.5 1.5-1.5 4-2 8-1.5V5c-4-.5-6.5 0-8 1.5z" /><path d="M12 6.5V20" /></svg>
+);
 export const IconConjugate = ({ className }: P) => (
   <svg {...base(className)}><path d="M3 12a9 9 0 0 1 15-6.7L21 8" /><path d="M21 3v5h-5" /><path d="M21 12a9 9 0 0 1-15 6.7L3 16" /><path d="M3 21v-5h5" /></svg>
 );

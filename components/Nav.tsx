@@ -13,6 +13,7 @@ export function Nav() {
     { href: "/vokabular", key: "nav.vocab" },
     { href: "/konjugation", key: "nav.conj" },
     { href: "/grammatik", key: "nav.grammar" },
+    { href: "/buch", key: "nav.buch" },
     { href: "/vokabelheft", key: "nav.notebook" },
     { href: "/stats", key: "nav.stats" },
   ];

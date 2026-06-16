@@ -50,6 +50,17 @@ export interface VerbItem {
   imperative: { afirmativo: string[]; negativo: string[] }; // 6 with "-" placeholders
 }
 
+/** public/data/buch.json — vocabulary from the user's coursebook (Estudiantes.ELE A1). */
+export interface BuchEntry {
+  es: string;
+  de: string;
+  lektion: string;
+}
+export interface BuchData {
+  lektionen: { name: string; count: number }[];
+  entries: BuchEntry[];
+}
+
 export interface VocabIndex {
   total: number;
   counts: Partial<Record<Pos, number>>;

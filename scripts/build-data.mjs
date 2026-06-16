@@ -279,3 +279,24 @@ const present = new Set(vocab.map((v) => v.es.toLowerCase()));
 const missing = MUST.filter((w) => !present.has(w));
 console.log("\nessential words present:", missing.length ? `MISSING ${missing}` : "OK");
 console.log("top 15 by frequency:", vocab.slice(0, 15).map((v) => v.es).join(", "));
+
+// --- 7. Buch-Vokabeln (allango Estudiantes.ELE A1) -> buch.json -------------
+try {
+  const btsv = readFileSync(join(ROOT, "data", "buch-vokabeln.tsv"), "utf8");
+  const bentries = [];
+  for (const line of btsv.split("\n").slice(1)) {
+    if (!line.trim()) continue;
+    const [es, de, lektion] = line.split("\t").map((s) => (s || "").trim());
+    if (es && de && lektion) bentries.push({ es, de, lektion });
+  }
+  const ORDER = ["Para empezar", "Unidad 1", "Unidad 2", "Unidad 3", "Unidad 4", "Unidad 5", "Unidad 6"];
+  const present2 = new Set(bentries.map((e) => e.lektion));
+  const lektionen = ORDER.filter((l) => present2.has(l)).map((name) => ({
+    name,
+    count: bentries.filter((e) => e.lektion === name).length,
+  }));
+  writeFileSync(join(OUT, "buch.json"), JSON.stringify({ lektionen, entries: bentries }));
+  console.log("buch.json:", bentries.length, "entries,", lektionen.length, "lektionen");
+} catch (e) {
+  console.log("buch.json skipped:", e.message);
+}

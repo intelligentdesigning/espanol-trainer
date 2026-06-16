@@ -1,9 +1,10 @@
-import type { VocabItem, VerbItem, VocabIndex } from "@/lib/types";
+import type { VocabItem, VerbItem, VocabIndex, BuchData } from "@/lib/types";
 
 // Client-side loaders for the committed data files (in public/data, fetched lazily).
 let vocabPromise: Promise<VocabItem[]> | null = null;
 let verbsPromise: Promise<VerbItem[]> | null = null;
 let indexPromise: Promise<VocabIndex> | null = null;
+let buchPromise: Promise<BuchData> | null = null;
 
 function load<T>(file: string): Promise<T> {
   return fetch(`/data/${file}`).then((r) => {
@@ -20,6 +21,9 @@ export function loadVerbs(): Promise<VerbItem[]> {
 }
 export function loadIndex(): Promise<VocabIndex> {
   return (indexPromise ??= load<VocabIndex>("vocab.index.json"));
+}
+export function loadBuch(): Promise<BuchData> {
+  return (buchPromise ??= load<BuchData>("buch.json"));
 }
 
 const strip = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
