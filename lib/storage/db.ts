@@ -185,6 +185,18 @@ export async function getRecentSessions(limit = 10): Promise<SessionRecord[]> {
   return all.sort((a, b) => b.endedAt - a.endedAt).slice(0, limit);
 }
 
+export function getAllSessions(): Promise<SessionRecord[]> {
+  return getAll<SessionRecord>("sessions");
+}
+
+/** Best score (0..100) + attempts for one grammar chapter test (mode `grammar:<id>`). */
+export async function getChapterBest(chapterId: string): Promise<{ bestPct: number; attempts: number }> {
+  const all = await getAll<SessionRecord>("sessions");
+  const mine = all.filter((s) => s.mode === `grammar:${chapterId}` && s.total > 0);
+  const bestPct = mine.length ? Math.max(...mine.map((s) => Math.round((s.correct / s.total) * 100))) : 0;
+  return { bestPct, attempts: mine.length };
+}
+
 export interface Stats {
   totalQuestions: number;
   totalCorrect: number;

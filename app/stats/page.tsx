@@ -1,10 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { getStats, getRecentSessions, resetAll, getDailyStats, getDailyHistory, type Stats, type DailyStats } from "@/lib/storage/db";
 import { loadMastery, type MasterySnapshot, type CatId } from "@/lib/progress";
+import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progress";
 import { ScoreRing } from "@/components/ScoreRing";
+import { IconArrowRight } from "@/components/icons";
 import type { SessionRecord } from "@/lib/types";
 
 const CATS: CatId[] = ["common", "verbs", "nouns", "adj"];
@@ -16,6 +19,7 @@ export default function StatsPage() {
   const [snap, setSnap] = useState<MasterySnapshot | null>(null);
   const [today, setToday] = useState<DailyStats | null>(null);
   const [history, setHistory] = useState<{ date: string; total: number; correct: number }[]>([]);
+  const [gprog, setGprog] = useState<GrammarProgress | null>(null);
 
   const refresh = () => {
     getStats().then(setStats);
@@ -23,6 +27,7 @@ export default function StatsPage() {
     loadMastery().then(setSnap);
     getDailyStats().then(setToday);
     getDailyHistory(30).then(setHistory);
+    loadGrammarProgress().then(setGprog);
   };
   useEffect(refresh, []);
 
@@ -115,6 +120,19 @@ export default function StatsPage() {
                 </div>
               </div>
             </div>
+          )}
+
+          {/* grammar level */}
+          {gprog && (
+            <Link href="/grammatik" className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+              <ScoreRing correct={gprog.passedCount} total={gprog.total} size={84} />
+              <div className="min-w-0 flex-1">
+                <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("grammar.progressTitle")}</div>
+                <div className="text-lg font-bold"><span className="text-brand">{t("grammar.level")} {gprog.level}</span> · {gprog.levelTitle}</div>
+                <div className="text-sm text-muted">{gprog.passedCount}/{gprog.total} {t("grammar.chaptersPassed")}</div>
+              </div>
+              <IconArrowRight className="h-5 w-5 shrink-0 text-muted" />
+            </Link>
           )}
 
           {/* per-category breakdown */}

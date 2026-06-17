@@ -1,5 +1,740 @@
 [
  {
+  "id": "grundregeln",
+  "name": {
+   "de": "Grundregeln",
+   "en": "Foundations"
+  },
+  "summary": {
+   "de": "Aussprache, Betonung und Schreibregeln – die Basis. Jede Regel mit Beispiel.",
+   "en": "Pronunciation, stress and spelling – the basics. Every rule with an example."
+  },
+  "rules": [
+   {
+    "id": "vokale",
+    "title": {
+     "de": "Die 5 Vokale",
+     "en": "The 5 vowels"
+    },
+    "body": {
+     "de": "Spanisch hat 5 reine, immer gleich klingende Vokale: a, e, i, o, u. Sie werden kurz und klar gesprochen – keine Diphthong-Verschleifung wie im Deutschen/Englischen.",
+     "en": "Spanish has 5 pure vowels that always sound the same: a, e, i, o, u. Short and clear – no gliding like in English."
+    },
+    "examples": [
+     {
+      "es": "casa",
+      "gloss": {
+       "de": "Haus",
+       "en": "house"
+      },
+      "note": {
+       "de": "a wie in „Vater“",
+       "en": "a as in “father”"
+      }
+     },
+     {
+      "es": "mesa",
+      "gloss": {
+       "de": "Tisch",
+       "en": "table"
+      }
+     },
+     {
+      "es": "uno",
+      "gloss": {
+       "de": "eins",
+       "en": "one"
+      }
+     }
+    ]
+   },
+   {
+    "id": "c-z",
+    "title": {
+     "de": "c und z",
+     "en": "c and z"
+    },
+    "body": {
+     "de": "c vor e/i und z klingen wie stimmloses „s“ (in Spanien wie englisches „th“). c vor a/o/u klingt wie „k“.",
+     "en": "c before e/i and z sound like a soft “s” (in Spain like English “th”). c before a/o/u sounds like “k”."
+    },
+    "examples": [
+     {
+      "es": "cinco",
+      "gloss": {
+       "de": "fünf",
+       "en": "five"
+      },
+      "note": {
+       "de": "ci = „si/thi“",
+       "en": "ci = “si/thi”"
+      }
+     },
+     {
+      "es": "zapato",
+      "gloss": {
+       "de": "Schuh",
+       "en": "shoe"
+      }
+     },
+     {
+      "es": "casa",
+      "gloss": {
+       "de": "Haus",
+       "en": "house"
+      },
+      "note": {
+       "de": "ca = „ka“",
+       "en": "ca = “ka”"
+      }
+     }
+    ]
+   },
+   {
+    "id": "g-j",
+    "title": {
+     "de": "g, j und gu/gü",
+     "en": "g, j and gu/gü"
+    },
+    "body": {
+     "de": "g vor e/i und j klingen rau (wie deutsches „ch“ in „Bach“). Für hartes „g“ vor e/i schreibt man gu (das u ist stumm); soll das u klingen, schreibt man ü: güe/güi.",
+     "en": "g before e/i and j sound harsh (like the “ch” in Scottish “loch”). For a hard “g” before e/i write gu (silent u); to pronounce the u, write ü: güe/güi."
+    },
+    "examples": [
+     {
+      "es": "gente",
+      "gloss": {
+       "de": "Leute",
+       "en": "people"
+      },
+      "note": {
+       "de": "ge = raues „che“",
+       "en": "ge = harsh “he”"
+      }
+     },
+     {
+      "es": "guitarra",
+      "gloss": {
+       "de": "Gitarre",
+       "en": "guitar"
+      },
+      "note": {
+       "de": "gu = hartes „gi“, u stumm",
+       "en": "gu = hard “gi”, silent u"
+      }
+     },
+     {
+      "es": "pingüino",
+      "gloss": {
+       "de": "Pinguin",
+       "en": "penguin"
+      },
+      "note": {
+       "de": "ü wird gesprochen",
+       "en": "the ü is pronounced"
+      }
+     }
+    ]
+   },
+   {
+    "id": "h-muda",
+    "title": {
+     "de": "Das stumme h",
+     "en": "The silent h"
+    },
+    "body": {
+     "de": "Das h wird nie gesprochen. Die Kombination ch dagegen klingt wie „tsch“.",
+     "en": "The letter h is always silent. But the combination ch sounds like English “ch”."
+    },
+    "examples": [
+     {
+      "es": "hola",
+      "gloss": {
+       "de": "hallo",
+       "en": "hello"
+      },
+      "note": {
+       "de": "klingt „ola“",
+       "en": "sounds like “ola”"
+      }
+     },
+     {
+      "es": "hombre",
+      "gloss": {
+       "de": "Mann",
+       "en": "man"
+      }
+     },
+     {
+      "es": "muchacho",
+      "gloss": {
+       "de": "Junge",
+       "en": "boy"
+      },
+      "note": {
+       "de": "ch = „tsch“",
+       "en": "ch = “ch”"
+      }
+     }
+    ]
+   },
+   {
+    "id": "ll-n-rr",
+    "title": {
+     "de": "ll, ñ und rr",
+     "en": "ll, ñ and rr"
+    },
+    "body": {
+     "de": "ll klingt wie „j“ (in „ja“). ñ ist ein „nj“ (wie in „Champignon“). rr ist ein gerolltes, kräftiges r.",
+     "en": "ll sounds like “y” (as in “yes”). ñ is “ny” (as in “canyon”). rr is a strongly rolled r."
+    },
+    "examples": [
+     {
+      "es": "llave",
+      "gloss": {
+       "de": "Schlüssel",
+       "en": "key"
+      },
+      "note": {
+       "de": "ll = „j“",
+       "en": "ll = “y”"
+      }
+     },
+     {
+      "es": "niño",
+      "gloss": {
+       "de": "Kind/Junge",
+       "en": "child/boy"
+      }
+     },
+     {
+      "es": "perro",
+      "gloss": {
+       "de": "Hund",
+       "en": "dog"
+      },
+      "note": {
+       "de": "rr gerollt – perro ≠ pero",
+       "en": "rolled rr – perro ≠ pero"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b-v",
+    "title": {
+     "de": "b und v klingen gleich",
+     "en": "b and v sound the same"
+    },
+    "body": {
+     "de": "b und v werden identisch ausgesprochen (beide wie ein weiches „b“). Die Schreibweise muss man sich merken.",
+     "en": "b and v are pronounced identically (both like a soft “b”). You simply have to memorize the spelling."
+    },
+    "examples": [
+     {
+      "es": "vivir",
+      "gloss": {
+       "de": "leben",
+       "en": "to live"
+      },
+      "note": {
+       "de": "klingt „bibir“",
+       "en": "sounds like “bibir”"
+      }
+     },
+     {
+      "es": "bueno",
+      "gloss": {
+       "de": "gut",
+       "en": "good"
+      }
+     }
+    ]
+   },
+   {
+    "id": "betonung",
+    "title": {
+     "de": "Betonungsregeln (agudas/llanas/esdrújulas)",
+     "en": "Stress rules"
+    },
+    "body": {
+     "de": "Ohne Akzent gilt: Wörter auf Vokal, -n oder -s werden auf der VORLETZTEN Silbe betont (llanas); alle anderen auf der LETZTEN Silbe (agudas). Weicht die Betonung davon ab, steht ein Akzent (tilde). Wörter mit Betonung auf der drittletzten Silbe (esdrújulas) tragen IMMER einen Akzent.",
+     "en": "Without an accent: words ending in a vowel, -n or -s are stressed on the SECOND-TO-LAST syllable (llanas); all others on the LAST syllable (agudas). If the stress differs, a written accent (tilde) appears. Words stressed on the third-to-last syllable (esdrújulas) ALWAYS carry an accent."
+    },
+    "examples": [
+     {
+      "es": "casa",
+      "gloss": {
+       "de": "Haus",
+       "en": "house"
+      },
+      "note": {
+       "de": "endet auf Vokal → llana, kein Akzent (CA-sa)",
+       "en": "ends in a vowel → llana, no accent (CA-sa)"
+      }
+     },
+     {
+      "es": "hablar",
+      "gloss": {
+       "de": "sprechen",
+       "en": "to speak"
+      },
+      "note": {
+       "de": "endet auf -r → aguda (ha-BLAR)",
+       "en": "ends in -r → aguda (ha-BLAR)"
+      }
+     },
+     {
+      "es": "canción",
+      "gloss": {
+       "de": "Lied",
+       "en": "song"
+      },
+      "note": {
+       "de": "endet auf -n, aber letzte Silbe betont → Akzent nötig",
+       "en": "ends in -n but stressed on the last syllable → accent needed"
+      }
+     },
+     {
+      "es": "música",
+      "gloss": {
+       "de": "Musik",
+       "en": "music"
+      },
+      "note": {
+       "de": "esdrújula → immer Akzent (MÚ-si-ca)",
+       "en": "esdrújula → always an accent (MÚ-si-ca)"
+      }
+     }
+    ]
+   },
+   {
+    "id": "diakritisch",
+    "title": {
+     "de": "Diakritische Akzente",
+     "en": "Diacritical accents"
+    },
+    "body": {
+     "de": "Manche kurzen Wörter werden nur durch den Akzent unterschieden – die Bedeutung ändert sich, nicht die Aussprache.",
+     "en": "Some short words are distinguished only by the accent – it changes the meaning, not the pronunciation."
+    },
+    "examples": [
+     {
+      "es": "tú / tu",
+      "gloss": {
+       "de": "du / dein",
+       "en": "you / your"
+      }
+     },
+     {
+      "es": "él / el",
+      "gloss": {
+       "de": "er / der (Artikel)",
+       "en": "he / the"
+      }
+     },
+     {
+      "es": "sí / si",
+      "gloss": {
+       "de": "ja / wenn",
+       "en": "yes / if"
+      }
+     },
+     {
+      "es": "más / mas",
+      "gloss": {
+       "de": "mehr / aber",
+       "en": "more / but"
+      }
+     },
+     {
+      "es": "qué / que",
+      "gloss": {
+       "de": "was? / dass",
+       "en": "what? / that"
+      }
+     }
+    ]
+   },
+   {
+    "id": "diphthong",
+    "title": {
+     "de": "Diphthonge und Hiat",
+     "en": "Diphthongs and hiatus"
+    },
+    "body": {
+     "de": "Schwache Vokale (i, u) bilden mit starken (a, e, o) einen Diphthong = eine Silbe. Ein Akzent auf dem schwachen Vokal trennt die Silben (Hiat).",
+     "en": "Weak vowels (i, u) combine with strong ones (a, e, o) into a diphthong = one syllable. An accent on the weak vowel splits the syllables (hiatus)."
+    },
+    "examples": [
+     {
+      "es": "bien",
+      "gloss": {
+       "de": "gut",
+       "en": "well"
+      },
+      "note": {
+       "de": "ie = ein Diphthong, eine Silbe",
+       "en": "ie = one diphthong, one syllable"
+      }
+     },
+     {
+      "es": "día",
+      "gloss": {
+       "de": "Tag",
+       "en": "day"
+      },
+      "note": {
+       "de": "í trennt: dí-a (zwei Silben)",
+       "en": "í splits: dí-a (two syllables)"
+      }
+     }
+    ]
+   },
+   {
+    "id": "satzzeichen",
+    "title": {
+     "de": "¿ ¡ und Klein­schreibung",
+     "en": "¿ ¡ and lowercase"
+    },
+    "body": {
+     "de": "Fragen und Ausrufe stehen zwischen umgedrehten und normalen Zeichen: ¿…? ¡…! Wochentage, Monate, Sprachen und Nationalitäten schreibt man klein.",
+     "en": "Questions and exclamations are framed by inverted and normal marks: ¿…? ¡…! Weekdays, months, languages and nationalities are lowercase."
+    },
+    "examples": [
+     {
+      "es": "¿Cómo estás?",
+      "gloss": {
+       "de": "Wie geht's?",
+       "en": "How are you?"
+      }
+     },
+     {
+      "es": "¡Hola!",
+      "gloss": {
+       "de": "Hallo!",
+       "en": "Hello!"
+      }
+     },
+     {
+      "es": "lunes, enero, español",
+      "gloss": {
+       "de": "Montag, Januar, Spanisch – alles klein",
+       "en": "Monday, January, Spanish – all lowercase"
+      }
+     }
+    ]
+   }
+  ],
+  "practice": [
+   {
+    "kind": "choice",
+    "prompt": "¿Qué palabra se escribe correctamente para „fünf“?",
+    "answer": "cinco",
+    "explain": {
+     "de": "Vor e/i schreibt man den s/th-Laut mit c, nicht mit z: „cinco“. „zinco“ ist falsch, denn z steht im Spanischen normalerweise vor a/o/u, nicht vor i.",
+     "en": "Before e/i the s/th-sound is written with c, not z: „cinco“. „zinco“ is wrong because z normally goes before a/o/u, not before i."
+    },
+    "promptGloss": {
+     "de": "Welche Schreibweise ist richtig für „fünf“?",
+     "en": "Which spelling is correct for „five“?"
+    },
+    "options": [
+     "cinco",
+     "zinco",
+     "sinco"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "El plural de „lápiz“ es „lápi___es“ (Bleistifte).",
+    "answer": "c",
+    "explain": {
+     "de": "Vor e/i wird der z-Laut als c geschrieben: aus „lápiz“ wird „lápices“. Ein z vor e (lápizes) ist im Spanischen nicht zulässig.",
+     "en": "Before e/i the z-sound is written as c: „lápiz“ becomes „lápices“. A z before e (lápizes) is not allowed in Spanish."
+    },
+    "promptGloss": {
+     "de": "Welcher Buchstabe steht hier? z wird vor e zu … – „lápices“.",
+     "en": "Which letter goes here? Before e, z becomes … – „lápices“."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Para que la u suene en „pingüino“, hay que escribirla con ___ (los dos puntos encima).",
+    "answer": "ü",
+    "explain": {
+     "de": "Nach g klingt das u vor e/i nur, wenn es ein Trema trägt: güe/güi. Ohne die Punkte (gui) bliebe das u stumm wie in „guitarra“.",
+     "en": "After g, the u before e/i is only pronounced when it has a diaeresis: güe/güi. Without the dots (gui) the u stays silent as in „guitarra“."
+    },
+    "promptGloss": {
+     "de": "Schreibe nur den einen Vokal mit den zwei Punkten, damit das u in „pingüino“ klingt.",
+     "en": "Write just the one vowel with the two dots so the u in „pingüino“ is pronounced."
+    },
+    "altAnswers": [
+     "u"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Cómo se escribe la palabra que significa „Gitarre“?",
+    "answer": "guitarra",
+    "explain": {
+     "de": "Für ein hartes „g“ vor i braucht man ein stummes u: „guitarra“. „gitarra“ klänge wie „chi“ (raues g), und das Trema (güi) würde das u hörbar machen.",
+     "en": "A hard „g“ before i needs a silent u: „guitarra“. „gitarra“ would sound like a harsh „g“, and the diaeresis (güi) would make the u audible."
+    },
+    "promptGloss": {
+     "de": "Wie schreibt man das Wort für „Gitarre“ (hartes „gi“)?",
+     "en": "How do you write the word for „guitar“ (hard „gi“)?"
+    },
+    "options": [
+     "guitarra",
+     "gitarra",
+     "güitarra"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Cuál es la forma correcta del saludo „hallo“?",
+    "answer": "hola",
+    "explain": {
+     "de": "Das h ist stumm, wird aber geschrieben: „hola“. „ola“ existiert zwar, bedeutet aber „Welle“ – die Schreibung mit h unterscheidet die Wörter.",
+     "en": "The h is silent but still written: „hola“. „ola“ exists too but means „wave“ – the h-spelling distinguishes the words."
+    },
+    "promptGloss": {
+     "de": "Welche Schreibweise von „hallo“ ist richtig?",
+     "en": "Which spelling of „hello“ is correct?"
+    },
+    "options": [
+     "hola",
+     "ola",
+     "jola"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Tengo un ___ que ladra mucho. (Tier, das „wuff“ macht)",
+    "answer": "perro",
+    "explain": {
+     "de": "„perro“ (Hund) hat ein gerolltes rr; „pero“ mit einfachem r bedeutet „aber“. Das Doppel-r ist bedeutungsunterscheidend.",
+     "en": "„perro“ (dog) has a rolled rr; „pero“ with a single r means „but“. The double r changes the meaning."
+    },
+    "promptGloss": {
+     "de": "Ich habe einen Hund, der viel bellt. – Welches Wort meint „Hund“?",
+     "en": "I have a dog that barks a lot. – Which word means „dog“?"
+    },
+    "options": [
+     "perro",
+     "pero"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Escribe la letra que falta en la palabra para „Junge/Kind“: el ni___o.",
+    "answer": "ñ",
+    "explain": {
+     "de": "„niño“ wird mit ñ geschrieben; das ñ klingt wie „nj“. Ein einfaches n (nino) wäre ein anderes, falsches Wort.",
+     "en": "„niño“ is written with ñ; the ñ sounds like „ny“. A plain n (nino) would be a different, wrong word."
+    },
+    "promptGloss": {
+     "de": "Schreibe den fehlenden Buchstaben in „niño“ (Junge/Kind) – den Buchstaben mit der Tilde-Welle.",
+     "en": "Write the missing letter in „niño“ (boy/child) – the letter with the wavy tilde on top."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Qué palabra significa „leben“ y se pronuncia „bibir“?",
+    "answer": "vivir",
+    "explain": {
+     "de": "b und v klingen gleich, daher hört man „bibir“, aber geschrieben wird „vivir“. Die Schreibweise muss man sich merken – „bibir“ existiert nicht.",
+     "en": "b and v sound the same, so you hear „bibir“, but it is written „vivir“. The spelling must be memorized – „bibir“ does not exist."
+    },
+    "promptGloss": {
+     "de": "Welches Wort heißt „leben“ und klingt wie „bibir“?",
+     "en": "Which word means „to live“ and is pronounced „bibir“?"
+    },
+    "options": [
+     "vivir",
+     "bibir",
+     "vivvir"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "La palabra „casa“ (CA-sa) es una palabra…",
+    "answer": "llana (sin tilde)",
+    "explain": {
+     "de": "„casa“ endet auf Vokal und wird auf der vorletzten Silbe betont → llana, regelkonform und ohne Akzent. Aguda wäre Endsilbenbetonung, esdrújula die drittletzte.",
+     "en": "„casa“ ends in a vowel and is stressed on the second-to-last syllable → llana, regular and without an accent. Aguda would mean last-syllable stress, esdrújula the third-to-last."
+    },
+    "promptGloss": {
+     "de": "Welche Betonungsklasse ist „casa“ (Betonung CA-sa)?",
+     "en": "Which stress class is „casa“ (stressed CA-sa)?"
+    },
+    "options": [
+     "llana (sin tilde)",
+     "aguda (sin tilde)",
+     "esdrújula (con tilde)"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Necesita tilde la palabra „hablar“ (ha-BLAR, sprechen)?",
+    "answer": "No, no necesita tilde",
+    "explain": {
+     "de": "„hablar“ endet auf -r und wird auf der letzten Silbe betont → aguda nach Regel, also kein Akzent. Agudas tragen nur dann eine Tilde, wenn sie auf Vokal, -n oder -s enden.",
+     "en": "„hablar“ ends in -r and is stressed on the last syllable → a regular aguda, so no accent. Agudas only take a tilde when they end in a vowel, -n or -s."
+    },
+    "promptGloss": {
+     "de": "Braucht „hablar“ (Betonung ha-BLAR) einen Akzent?",
+     "en": "Does „hablar“ (stressed ha-BLAR) need a written accent?"
+    },
+    "options": [
+     "No, no necesita tilde",
+     "Sí, se escribe „háblar“",
+     "Sí, se escribe „hablár“"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Escribe correctamente la palabra para „Lied“: cancion → ___ (acentúa la sílaba final).",
+    "answer": "canción",
+    "explain": {
+     "de": "„canción“ endet auf -n, wird aber auf der letzten Silbe betont – das widerspricht der llana-Regel, also braucht die Aguda eine Tilde. Ohne Akzent (cancion) wäre die Betonung falsch markiert.",
+     "en": "„canción“ ends in -n but is stressed on the last syllable – this breaks the llana rule, so the aguda needs a tilde. Without the accent (cancion) the stress would be marked wrongly."
+    },
+    "promptGloss": {
+     "de": "Schreibe „Lied“ richtig mit Akzent: aus „cancion“ wird …",
+     "en": "Write „song“ correctly with its accent: „cancion“ becomes …"
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Escribe la palabra para „Musik“ con tilde (se acentúa la antepenúltima sílaba, MÚ-si-ca): ___",
+    "answer": "música",
+    "explain": {
+     "de": "Wörter mit Betonung auf der drittletzten Silbe (esdrújulas) tragen IMMER eine Tilde: „música“. Ohne Akzent (musica) würde man falsch mu-SI-ca lesen.",
+     "en": "Words stressed on the third-to-last syllable (esdrújulas) ALWAYS carry a tilde: „música“. Without it (musica) one would wrongly read mu-SI-ca."
+    },
+    "promptGloss": {
+     "de": "Schreibe „Musik“ mit Akzent (drittletzte Silbe betont, MÚ-si-ca).",
+     "en": "Write „music“ with its accent (third-to-last syllable stressed, MÚ-si-ca)."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "___ eres mi mejor amigo. (Anrede: „du“)",
+    "answer": "Tú",
+    "explain": {
+     "de": "„tú“ mit Akzent ist das Personalpronomen „du“; „tu“ ohne Akzent ist das Possessiv „dein“. Hier ist das Subjekt gemeint, also „Tú“.",
+     "en": "„tú“ with an accent is the pronoun „you“; „tu“ without one is the possessive „your“. Here the subject is meant, so „Tú“."
+    },
+    "promptGloss": {
+     "de": "Du bist mein bester Freund. – „du“ (Personalpronomen)?",
+     "en": "You are my best friend. – „you“ (subject pronoun)?"
+    },
+    "options": [
+     "Tú",
+     "Tu"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "No sé ___ vendrá a la fiesta, pero espero que sí. (Bedingung: „wenn/ob“)",
+    "answer": "si",
+    "explain": {
+     "de": "„si“ ohne Akzent heißt „wenn/ob“ (Bedingung). „sí“ mit Akzent bedeutet „ja“ – das passt am Anfang des Satzes nicht, wohl aber am Ende („espero que sí“).",
+     "en": "„si“ without an accent means „if/whether“. „sí“ with an accent means „yes“ – which fits at the end („espero que sí“) but not here."
+    },
+    "promptGloss": {
+     "de": "Ich weiß nicht, ob er zur Party kommt … – „si“ oder „sí“?",
+     "en": "I don't know if he will come to the party … – „si“ or „sí“?"
+    },
+    "options": [
+     "si",
+     "sí"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Quiero ___ café, por favor. (Komparativ-Adverb: „mehr“, mit Akzent)",
+    "answer": "más",
+    "explain": {
+     "de": "„más“ mit Akzent bedeutet „mehr“ (Menge/Grad). „mas“ ohne Akzent ist ein veraltetes „aber“ und passt hier nicht.",
+     "en": "„más“ with an accent means „more“. „mas“ without one is an old-fashioned „but“ and does not fit here."
+    },
+    "promptGloss": {
+     "de": "Ich möchte mehr Kaffee, bitte. – Schreibe „mehr“ (mit Akzent).",
+     "en": "I want more coffee, please. – Write „more“ (with its accent)."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿___ quieres comer hoy? (direkte Frage: „Was?“, mit Akzent)",
+    "answer": "Qué",
+    "explain": {
+     "de": "In direkten und indirekten Fragen trägt „qué“ („was?“) einen diakritischen Akzent. Das „que“ ohne Akzent ist die Konjunktion „dass“ und steht nicht im Fragesatz.",
+     "en": "In direct and indirect questions „qué“ („what?“) carries a diacritical accent. The unaccented „que“ is the conjunction „that“ and does not appear in a question."
+    },
+    "promptGloss": {
+     "de": "Was möchtest du heute essen? – Schreibe das Fragewort „was“ (mit Akzent).",
+     "en": "What do you want to eat today? – Write the question word „what“ (with its accent)."
+    },
+    "altAnswers": [
+     "qué"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Escribe la palabra para „Tag“ con la tilde que rompe el diptongo (dí-a, dos sílabas): ___",
+    "answer": "día",
+    "explain": {
+     "de": "Der Akzent auf dem schwachen Vokal i löst den Diphthong auf und erzwingt einen Hiat: dí-a (zwei Silben). Ohne Tilde (dia) würde „ia“ als ein Diphthong in einer Silbe gelesen.",
+     "en": "The accent on the weak vowel i breaks the diphthong and forces a hiatus: dí-a (two syllables). Without the tilde (dia) „ia“ would be read as one diphthong in a single syllable."
+    },
+    "promptGloss": {
+     "de": "Schreibe „Tag“ mit dem Akzent, der die Silben trennt (dí-a, zwei Silben).",
+     "en": "Write „day“ with the accent that breaks the diphthong (dí-a, two syllables)."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Cuál de estas palabras contiene un diptongo (una sola sílaba con dos vocales juntas)?",
+    "answer": "bien",
+    "explain": {
+     "de": "In „bien“ bilden i (schwach) und e (stark) ohne Akzent einen Diphthong = eine Silbe. In „día“ und „país“ trennt die Tilde auf dem schwachen Vokal die Silben (Hiat).",
+     "en": "In „bien“ the weak i and strong e form a diphthong = one syllable. In „día“ and „país“ the accent on the weak vowel splits them into a hiatus."
+    },
+    "promptGloss": {
+     "de": "Welches Wort enthält einen Diphthong (zwei Vokale in einer Silbe)?",
+     "en": "Which word contains a diphthong (two vowels in one syllable)?"
+    },
+    "options": [
+     "bien",
+     "día",
+     "país"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Cuál de estas frases respeta las reglas de mayúsculas y signos del español?",
+    "answer": "¿Estudias español el lunes?",
+    "explain": {
+     "de": "Fragen brauchen ein einleitendes ¿, und Sprachen wie „español“ sowie Wochentage wie „lunes“ schreibt man klein. Die anderen Optionen verletzen entweder das ¿ oder schreiben „Español/Lunes“ fälschlich groß.",
+     "en": "Questions need an opening ¿, and languages like „español“ and weekdays like „lunes“ are lowercase. The other options either omit the ¿ or wrongly capitalize „Español/Lunes“."
+    },
+    "promptGloss": {
+     "de": "Welcher Satz folgt den spanischen Regeln zu ¿¡ und Kleinschreibung (Wochentage/Sprachen klein)?",
+     "en": "Which sentence follows Spanish rules for ¿¡ and lowercase (weekdays/languages lowercase)?"
+    },
+    "options": [
+     "¿Estudias español el lunes?",
+     "Estudias Español el Lunes?",
+     "¿Estudias Español el lunes?"
+    ]
+   }
+  ]
+ },
+ {
   "id": "ser-estar",
   "name": {
    "de": "ser vs estar",
