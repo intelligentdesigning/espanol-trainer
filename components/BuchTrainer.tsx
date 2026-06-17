@@ -9,6 +9,7 @@ import { loadBuchMastery, type BuchMastery } from "@/lib/buch-progress";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
 import { QuizWithPanels } from "@/components/QuizPanels";
+import { ProgressCounts } from "@/components/ProgressCounts";
 import type { BuchData, BuchDetails, ProgressRecord } from "@/lib/types";
 
 type Dir = "es-de" | "de-es";
@@ -77,6 +78,7 @@ export function BuchTrainer() {
         selected ? "border-transparent bg-vocab/10 text-vocab" : "border-border text-muted hover:bg-foreground/5 hover:text-foreground"
       }`;
     const pct = (name: string) => (name === "__all__" ? mastery?.overall.masteredPct : mastery?.byLektion.get(name)?.masteredPct) ?? 0;
+    const stat = (name: string) => (name === "__all__" ? mastery?.overall : mastery?.byLektion.get(name));
 
     return (
       <div className="space-y-6">
@@ -121,6 +123,7 @@ export function BuchTrainer() {
                 <div className="h-full bg-vocab transition-all" style={{ width: `${pct(l.name)}%` }} />
               </div>
               <div className="mt-1 text-[11px] text-muted">{mastery ? `${pct(l.name)}% ${t("vocab.cat.mastered")}` : " "}</div>
+              {(() => { const st = stat(l.name); return st ? <ProgressCounts right={st.right} wrong={st.wrong} neu={st.new} /> : null; })()}
             </button>
           ))}
         </div>

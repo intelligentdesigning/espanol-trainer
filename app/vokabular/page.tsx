@@ -14,6 +14,7 @@ import {
   IconLetters,
   IconArrowRight,
 } from "@/components/icons";
+import { ProgressCounts } from "@/components/ProgressCounts";
 
 type CatId = "common" | "verbs" | "nouns" | "adj";
 type BandId = "easy" | "medium" | "hard" | "all";
@@ -117,6 +118,7 @@ export default function VokabularPage() {
                     <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
                       <div className={`h-full ${c.dot} transition-all`} style={{ width: `${snap ? snap.byCat[c.id].masteredPct : 0}%` }} />
                     </div>
+                    {snap && <ProgressCounts right={snap.byCat[c.id].right} wrong={snap.byCat[c.id].wrong} neu={snap.byCat[c.id].new} />}
                     <div className="mt-1 text-[11px] text-muted">
                       {snap ? `${snap.byCat[c.id].masteredPct}% ${t("vocab.cat.mastered")}` : " "}
                     </div>

@@ -24,6 +24,8 @@ export interface CatProgress {
   mastered: number;
   learning: number;
   new: number;
+  right: number;       // last answer was correct
+  wrong: number;       // last answer was wrong
   accuracy: number;    // 0..100 over answered questions in this category
   masteredPct: number; // 0..100 = mastered / total
 }
@@ -35,7 +37,7 @@ export interface MasterySnapshot {
 }
 
 function computeCat(items: VocabItem[], records: Map<string, ProgressRecord>): CatProgress {
-  const c: CatProgress = { total: items.length, seen: 0, mastered: 0, learning: 0, new: 0, accuracy: 0, masteredPct: 0 };
+  const c: CatProgress = { total: items.length, seen: 0, mastered: 0, learning: 0, new: 0, right: 0, wrong: 0, accuracy: 0, masteredPct: 0 };
   let correct = 0;
   let answered = 0;
   for (const v of items) {
@@ -44,7 +46,10 @@ function computeCat(items: VocabItem[], records: Map<string, ProgressRecord>): C
     if (m === "mastered") c.mastered++;
     else if (m === "learning") c.learning++;
     else c.new++;
-    if (rec && rec.seen > 0) { c.seen++; correct += rec.correct; answered += rec.seen; }
+    if (rec && rec.seen > 0) {
+      c.seen++; correct += rec.correct; answered += rec.seen;
+      if (rec.lastResult === "right") c.right++; else c.wrong++;
+    }
   }
   c.accuracy = answered ? Math.round((correct / answered) * 100) : 0;
   c.masteredPct = c.total ? Math.round((c.mastered / c.total) * 100) : 0;
