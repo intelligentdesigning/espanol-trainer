@@ -1,18 +1,146 @@
 {
- "que": { "defEs": "Conjunción que enlaza oraciones o introduce un complemento.", "defDe": "Konjunktion, die Sätze verbindet oder einen Nebensatz einleitet (dass).", "defEn": "Conjunction that links clauses or introduces a subordinate clause (that).", "exEs": "Espero que tengas un buen día.", "exDe": "Ich hoffe, dass du einen schönen Tag hast.", "exEn": "I hope (that) you have a good day." },
- "qué": { "defEs": "Palabra interrogativa y exclamativa; pregunta por una cosa.", "defDe": "Frage- und Ausrufewort (was).", "defEn": "Interrogative/exclamative word (what).", "exEs": "¿Qué quieres comer hoy?", "exDe": "Was möchtest du heute essen?", "exEn": "What do you want to eat today?" },
- "el": { "defEs": "Artículo determinado masculino singular.", "defDe": "Bestimmter Artikel, männlich Singular (der).", "defEn": "Masculine singular definite article (the).", "exEs": "El libro está sobre la mesa.", "exDe": "Das Buch liegt auf dem Tisch.", "exEn": "The book is on the table." },
- "él": { "defEs": "Pronombre personal masculino de tercera persona.", "defDe": "Personalpronomen 3. Person männlich (er).", "defEn": "Third-person masculine personal pronoun (he).", "exEs": "Él trabaja en un hospital.", "exDe": "Er arbeitet in einem Krankenhaus.", "exEn": "He works in a hospital." },
- "si": { "defEs": "Conjunción que introduce una condición o una duda.", "defDe": "Konjunktion für eine Bedingung (wenn/falls) oder indirekte Frage (ob).", "defEn": "Conjunction introducing a condition (if) or an indirect question (whether).", "exEs": "Si llueve, nos quedamos en casa.", "exDe": "Wenn es regnet, bleiben wir zu Hause.", "exEn": "If it rains, we stay home." },
- "sí": { "defEs": "Se usa para afirmar o responder de forma positiva.", "defDe": "Wird verwendet, um zu bejahen oder positiv zu antworten (ja).", "defEn": "Used to affirm or answer positively (yes).", "exEs": "—¿Vienes conmigo? —Sí, claro.", "exDe": "— Kommst du mit? — Ja, klar.", "exEn": "— Are you coming with me? — Yes, of course." },
- "cuando": { "defEs": "Conjunción temporal; indica el momento en que ocurre algo.", "defDe": "Temporale Konjunktion (wenn/als).", "defEn": "Temporal conjunction (when).", "exEs": "Cuando llego a casa, preparo la cena.", "exDe": "Wenn ich nach Hause komme, mache ich das Abendessen.", "exEn": "When I get home, I make dinner." },
- "cuándo": { "defEs": "Palabra interrogativa; pregunta por el momento o el tiempo.", "defDe": "Fragewort nach dem Zeitpunkt (wann).", "defEn": "Interrogative word asking about time (when).", "exEs": "¿Cuándo empieza la película?", "exDe": "Wann beginnt der Film?", "exEn": "When does the film start?" },
- "mi": { "defEs": "Adjetivo posesivo; indica que algo me pertenece.", "defDe": "Possessivbegleiter (mein/e).", "defEn": "Possessive adjective (my).", "exEs": "Mi hermana vive en Madrid.", "exDe": "Meine Schwester wohnt in Madrid.", "exEn": "My sister lives in Madrid." },
- "mí": { "defEs": "Pronombre personal que se usa después de una preposición.", "defDe": "Personalpronomen nach einer Präposition (mir/mich).", "defEn": "Personal pronoun used after a preposition (me).", "exEs": "Este regalo es para mí.", "exDe": "Dieses Geschenk ist für mich.", "exEn": "This gift is for me." },
- "te": { "defEs": "Pronombre personal átono de segunda persona (objeto).", "defDe": "Unbetontes Objektpronomen 2. Person (dich/dir).", "defEn": "Unstressed second-person object pronoun (you).", "exEs": "Te llamo esta noche.", "exDe": "Ich rufe dich heute Abend an.", "exEn": "I'll call you tonight." },
- "té": { "defEs": "Bebida caliente que se prepara con hojas en agua.", "defDe": "Heißes Getränk aus Blättern in Wasser (Tee).", "defEn": "Hot drink made from leaves in water (tea).", "exEs": "Por la mañana tomo un té con limón.", "exDe": "Morgens trinke ich einen Tee mit Zitrone.", "exEn": "In the morning I have a tea with lemon." },
- "donde": { "defEs": "Adverbio relativo; señala el lugar de algo.", "defDe": "Relativadverb für den Ort (wo).", "defEn": "Relative adverb indicating place (where).", "exEs": "Esta es la casa donde nací.", "exDe": "Das ist das Haus, wo ich geboren bin.", "exEn": "This is the house where I was born." },
- "dónde": { "defEs": "Palabra interrogativa; pregunta por el lugar.", "defDe": "Fragewort nach dem Ort (wo).", "defEn": "Interrogative word asking about place (where).", "exEs": "¿Dónde está la estación de tren?", "exDe": "Wo ist der Bahnhof?", "exEn": "Where is the train station?" },
- "quien": { "defEs": "Pronombre relativo que se refiere a personas.", "defDe": "Relativpronomen für Personen (der/die/wer).", "defEn": "Relative pronoun referring to people (who).", "exEs": "La persona con quien hablo es mi jefe.", "exDe": "Die Person, mit der ich spreche, ist mein Chef.", "exEn": "The person I'm talking to is my boss." },
- "quién": { "defEs": "Palabra interrogativa; pregunta por una persona.", "defDe": "Fragewort nach einer Person (wer).", "defEn": "Interrogative word asking about a person (who).", "exEs": "¿Quién es ese chico?", "exDe": "Wer ist dieser Junge?", "exEn": "Who is that boy?" }
+ "que": {
+  "defEs": "Conjunción que enlaza oraciones o introduce un complemento.",
+  "defDe": "Konjunktion, die Sätze verbindet oder einen Nebensatz einleitet (dass).",
+  "defEn": "Conjunction that links clauses or introduces a subordinate clause (that).",
+  "exEs": "Espero que tengas un buen día.",
+  "exDe": "Ich hoffe, dass du einen schönen Tag hast.",
+  "exEn": "I hope (that) you have a good day."
+ },
+ "qué": {
+  "defEs": "Palabra interrogativa y exclamativa; pregunta por una cosa.",
+  "defDe": "Frage- und Ausrufewort (was).",
+  "defEn": "Interrogative/exclamative word (what).",
+  "exEs": "¿Qué quieres comer hoy?",
+  "exDe": "Was möchtest du heute essen?",
+  "exEn": "What do you want to eat today?"
+ },
+ "el": {
+  "defEs": "Artículo determinado masculino singular.",
+  "defDe": "Bestimmter Artikel, männlich Singular (der).",
+  "defEn": "Masculine singular definite article (the).",
+  "exEs": "El libro está sobre la mesa.",
+  "exDe": "Das Buch liegt auf dem Tisch.",
+  "exEn": "The book is on the table."
+ },
+ "él": {
+  "defEs": "Pronombre personal masculino de tercera persona.",
+  "defDe": "Personalpronomen 3. Person männlich (er).",
+  "defEn": "Third-person masculine personal pronoun (he).",
+  "exEs": "Él trabaja en un hospital.",
+  "exDe": "Er arbeitet in einem Krankenhaus.",
+  "exEn": "He works in a hospital."
+ },
+ "si": {
+  "defEs": "Conjunción que introduce una condición o una duda.",
+  "defDe": "Konjunktion für eine Bedingung (wenn/falls) oder indirekte Frage (ob).",
+  "defEn": "Conjunction introducing a condition (if) or an indirect question (whether).",
+  "exEs": "Si llueve, nos quedamos en casa.",
+  "exDe": "Wenn es regnet, bleiben wir zu Hause.",
+  "exEn": "If it rains, we stay home."
+ },
+ "sí": {
+  "defEs": "Se usa para afirmar o responder de forma positiva.",
+  "defDe": "Wird verwendet, um zu bejahen oder positiv zu antworten (ja).",
+  "defEn": "Used to affirm or answer positively (yes).",
+  "exEs": "—¿Vienes conmigo? —Sí, claro.",
+  "exDe": "— Kommst du mit? — Ja, klar.",
+  "exEn": "— Are you coming with me? — Yes, of course."
+ },
+ "cuando": {
+  "defEs": "Conjunción temporal; indica el momento en que ocurre algo.",
+  "defDe": "Temporale Konjunktion (wenn/als).",
+  "defEn": "Temporal conjunction (when).",
+  "exEs": "Cuando llego a casa, preparo la cena.",
+  "exDe": "Wenn ich nach Hause komme, mache ich das Abendessen.",
+  "exEn": "When I get home, I make dinner."
+ },
+ "cuándo": {
+  "defEs": "Palabra interrogativa; pregunta por el momento o el tiempo.",
+  "defDe": "Fragewort nach dem Zeitpunkt (wann).",
+  "defEn": "Interrogative word asking about time (when).",
+  "exEs": "¿Cuándo empieza la película?",
+  "exDe": "Wann beginnt der Film?",
+  "exEn": "When does the film start?"
+ },
+ "mi": {
+  "defEs": "Adjetivo posesivo; indica que algo me pertenece.",
+  "defDe": "Possessivbegleiter (mein/e).",
+  "defEn": "Possessive adjective (my).",
+  "exEs": "Mi hermana vive en Madrid.",
+  "exDe": "Meine Schwester wohnt in Madrid.",
+  "exEn": "My sister lives in Madrid."
+ },
+ "mí": {
+  "defEs": "Pronombre personal que se usa después de una preposición.",
+  "defDe": "Personalpronomen nach einer Präposition (mir/mich).",
+  "defEn": "Personal pronoun used after a preposition (me).",
+  "exEs": "Este regalo es para mí.",
+  "exDe": "Dieses Geschenk ist für mich.",
+  "exEn": "This gift is for me."
+ },
+ "te": {
+  "defEs": "Pronombre personal átono de segunda persona (objeto).",
+  "defDe": "Unbetontes Objektpronomen 2. Person (dich/dir).",
+  "defEn": "Unstressed second-person object pronoun (you).",
+  "exEs": "Te llamo esta noche.",
+  "exDe": "Ich rufe dich heute Abend an.",
+  "exEn": "I'll call you tonight."
+ },
+ "té": {
+  "defEs": "Bebida caliente que se prepara con hojas en agua.",
+  "defDe": "Heißes Getränk aus Blättern in Wasser (Tee).",
+  "defEn": "Hot drink made from leaves in water (tea).",
+  "exEs": "Por la mañana tomo un té con limón.",
+  "exDe": "Morgens trinke ich einen Tee mit Zitrone.",
+  "exEn": "In the morning I have a tea with lemon."
+ },
+ "donde": {
+  "defEs": "Adverbio relativo; señala el lugar de algo.",
+  "defDe": "Relativadverb für den Ort (wo).",
+  "defEn": "Relative adverb indicating place (where).",
+  "exEs": "Esta es la casa donde nací.",
+  "exDe": "Das ist das Haus, wo ich geboren bin.",
+  "exEn": "This is the house where I was born."
+ },
+ "dónde": {
+  "defEs": "Palabra interrogativa; pregunta por el lugar.",
+  "defDe": "Fragewort nach dem Ort (wo).",
+  "defEn": "Interrogative word asking about place (where).",
+  "exEs": "¿Dónde está la estación de tren?",
+  "exDe": "Wo ist der Bahnhof?",
+  "exEn": "Where is the train station?"
+ },
+ "quien": {
+  "defEs": "Pronombre relativo que se refiere a personas.",
+  "defDe": "Relativpronomen für Personen (der/die/wer).",
+  "defEn": "Relative pronoun referring to people (who).",
+  "exEs": "La persona con quien hablo es mi jefe.",
+  "exDe": "Die Person, mit der ich spreche, ist mein Chef.",
+  "exEn": "The person I'm talking to is my boss."
+ },
+ "quién": {
+  "defEs": "Palabra interrogativa; pregunta por una persona.",
+  "defDe": "Fragewort nach einer Person (wer).",
+  "defEn": "Interrogative word asking about a person (who).",
+  "exEs": "¿Quién es ese chico?",
+  "exDe": "Wer ist dieser Junge?",
+  "exEn": "Who is that boy?"
+ },
+ "fin": {
+  "defEs": "Momento o parte en que algo termina.",
+  "defDe": "Moment oder Teil, an dem etwas endet.",
+  "defEn": "The point or part where something ends.",
+  "exEs": "El fin de la película fue muy triste.",
+  "exDe": "Das Ende des Films war sehr traurig.",
+  "exEn": "The end of the film was very sad."
+ },
+ "naranja": {
+  "defEs": "Del color de la fruta naranja, entre el rojo y el amarillo.",
+  "defDe": "Von der Farbe der Orange, zwischen Rot und Gelb.",
+  "defEn": "Of the color of an orange, between red and yellow.",
+  "exEs": "Lleva una camiseta naranja muy llamativa.",
+  "exDe": "Er trägt ein sehr auffälliges oranges T-Shirt.",
+  "exEn": "He is wearing a very striking orange T-shirt."
+ }
 }
