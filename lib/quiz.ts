@@ -119,33 +119,40 @@ export function buildSession(
     });
   }
 
-  // --- scope: pick which questions to ask, based on per-word mastery ---------
-  const scope = config.scope ?? "smart";
-  const recOf = (q: QuizQuestion) => progress?.get(q.id);
-  const seen = (q: QuizQuestion) => { const r = recOf(q); return !!r && r.seen > 0; };
-  const mastered = (q: QuizQuestion) => { const r = recOf(q); return !!r && r.seen > 0 && r.box >= MASTERED_BOX; };
-  const wrongLast = (q: QuizQuestion) => recOf(q)?.lastResult === "wrong";
-  const due = (q: QuizQuestion) => { const r = recOf(q); return !!r && r.dueAt <= Date.now(); };
+  return orderByScope(questions, (q) => progress?.get(q.id), config.scope ?? "smart", config.count);
+}
 
-  if (scope === "all") return shuffle(questions).slice(0, config.count);
-  if (scope === "new") return shuffle(questions.filter((q) => !seen(q))).slice(0, config.count);
+/**
+ * Pick `count` items by mastery scope (reused by the vocab quiz AND the Buch trainer):
+ * - all  = random
+ * - new  = only unseen
+ * - weak = only seen-but-not-mastered (wrong-last first); may return < count
+ * - smart= new + weak first, due reviews, then mastered last (fades known items out)
+ * `recOf` maps an item to its ProgressRecord (or undefined).
+ */
+export function orderByScope<T>(
+  items: T[],
+  recOf: (t: T) => ProgressRecord | undefined,
+  scope: QuizScope,
+  count: number,
+): T[] {
+  const seen = (q: T) => { const r = recOf(q); return !!r && r.seen > 0; };
+  const mastered = (q: T) => { const r = recOf(q); return !!r && r.seen > 0 && r.box >= MASTERED_BOX; };
+  const wrongLast = (q: T) => recOf(q)?.lastResult === "wrong";
+  const due = (q: T) => { const r = recOf(q); return !!r && r.dueAt <= Date.now(); };
+
+  if (scope === "all") return shuffle(items).slice(0, count);
+  if (scope === "new") return shuffle(items.filter((q) => !seen(q))).slice(0, count);
   if (scope === "weak") {
-    const weak = questions.filter((q) => seen(q) && !mastered(q));
-    const wrong = shuffle(weak.filter(wrongLast));
-    const rest = shuffle(weak.filter((q) => !wrongLast(q)));
-    return [...wrong, ...rest].slice(0, config.count);
+    const weak = items.filter((q) => seen(q) && !mastered(q));
+    return [...shuffle(weak.filter(wrongLast)), ...shuffle(weak.filter((q) => !wrongLast(q)))].slice(0, count);
   }
-  // smart (default): new + weak first, mastered last → known words fade out naturally.
-  const tier = (q: QuizQuestion) => {
-    if (!seen(q)) return 0;              // new material
-    if (!mastered(q)) {
-      if (wrongLast(q)) return 1;        // shaky, missed last time
-      if (due(q)) return 2;             // due for review
-      return 3;                          // still learning
-    }
-    return 4;                            // mastered — light reinforcement
+  const tier = (q: T) => {
+    if (!seen(q)) return 0;
+    if (!mastered(q)) { if (wrongLast(q)) return 1; if (due(q)) return 2; return 3; }
+    return 4;
   };
-  const ordered = shuffle(questions);
+  const ordered = shuffle(items);
   ordered.sort((a, b) => tier(a) - tier(b)); // stable sort → shuffled within each tier
-  return ordered.slice(0, config.count);
+  return ordered.slice(0, count);
 }

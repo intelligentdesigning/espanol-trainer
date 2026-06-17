@@ -1,33 +1,28 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
 import { loadBuch, loadBuchDetails } from "@/lib/data";
-import { checkAnswer } from "@/lib/quiz";
-import { recordResult, addSession } from "@/lib/storage/db";
+import { checkAnswer, orderByScope, type QuizScope } from "@/lib/quiz";
+import { recordResult, addSession, getAllProgress } from "@/lib/storage/db";
+import { loadBuchMastery, type BuchMastery } from "@/lib/buch-progress";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
 import { QuizWithPanels } from "@/components/QuizPanels";
-import type { BuchData, BuchEntry, BuchDetails } from "@/lib/types";
+import type { BuchData, BuchDetails, ProgressRecord } from "@/lib/types";
 
 type Dir = "es-de" | "de-es";
 type Phase = "setup" | "run" | "done";
 type Status = "idle" | "right" | "wrong";
 
+const FOCI: QuizScope[] = ["smart", "weak", "new"];
+const COUNTS = [10, 20, 30, 50];
+
 const splitMeanings = (s: string) =>
   [s.trim(), ...s.split(/[,/;]|\boder\b/).map((x) => x.trim())].filter(Boolean);
 
-// Must match the key used in build-data.mjs (accent-stripped, lowercased es).
+// Stable, accent-stripped key per word → mastery accumulates across rounds.
 const keyOf = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
-
-function shuffle<T>(a: T[]): T[] {
-  const r = a.slice();
-  for (let i = r.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [r[i], r[j]] = [r[j], r[i]];
-  }
-  return r;
-}
 
 interface Q { id: string; es: string; prompt: string; accepted: string[]; canonical: string; }
 
@@ -35,8 +30,12 @@ export function BuchTrainer() {
   const { t } = useI18n();
   const [data, setData] = useState<BuchData | null>(null);
   const [details, setDetails] = useState<BuchDetails>({});
+  const [mastery, setMastery] = useState<BuchMastery | null>(null);
   const [lektion, setLektion] = useState<string>("__all__");
   const [dir, setDir] = useState<Dir>("es-de");
+  const [scope, setScope] = useState<QuizScope>("smart");
+  const [count, setCount] = useState(20);
+  const [note, setNote] = useState("");
   const [phase, setPhase] = useState<Phase>("setup");
 
   const [questions, setQuestions] = useState<Q[]>([]);
@@ -47,25 +46,38 @@ export function BuchTrainer() {
   const startedAt = useRef(Date.now());
   const inputRef = useRef<SpanishInputHandle>(null);
 
-  useEffect(() => { loadBuch().then(setData); loadBuchDetails().then(setDetails); }, []);
+  const refreshMastery = () => loadBuchMastery().then(setMastery);
+  useEffect(() => { loadBuch().then(setData); loadBuchDetails().then(setDetails); refreshMastery(); }, []);
   useEffect(() => { if (phase === "run" && status === "idle") inputRef.current?.focus(); }, [phase, status, idx]);
 
-  const start = () => {
+  const start = async () => {
     if (!data) return;
+    const prog = await getAllProgress();
+    const recs = new Map<string, ProgressRecord>();
+    for (const r of prog) if (r.kind === "vocab" && r.itemKey.startsWith("buch:")) recs.set(r.itemKey.slice(5), r);
     const pool = lektion === "__all__" ? data.entries : data.entries.filter((e) => e.lektion === lektion);
-    const qs: Q[] = shuffle(pool).slice(0, 20).map((e: BuchEntry, i) => {
+    const picked = orderByScope(pool, (e) => recs.get(keyOf(e.es)), scope, count);
+    if (picked.length === 0) { setNote(scope === "weak" ? t("vocab.empty.mastered") : t("quiz.empty")); return; }
+    setNote("");
+    const qs: Q[] = picked.map((e) => {
       const prompt = dir === "es-de" ? e.es : e.de;
       const ans = dir === "es-de" ? e.de : e.es;
-      return { id: `${e.lektion}:${i}:${e.es}`, es: e.es, prompt, accepted: splitMeanings(ans), canonical: ans };
+      return { id: keyOf(e.es), es: e.es, prompt, accepted: splitMeanings(ans), canonical: ans };
     });
     setQuestions(qs); setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
     startedAt.current = Date.now();
-    setPhase(qs.length ? "run" : "setup");
+    setPhase("run");
   };
 
   if (!data) return <p className="text-muted">{t("common.loading")}</p>;
 
   if (phase === "setup") {
+    const chip = (selected: boolean) =>
+      `rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
+        selected ? "border-transparent bg-vocab/10 text-vocab" : "border-border text-muted hover:bg-foreground/5 hover:text-foreground"
+      }`;
+    const pct = (name: string) => (name === "__all__" ? mastery?.overall.masteredPct : mastery?.byLektion.get(name)?.masteredPct) ?? 0;
+
     return (
       <div className="space-y-6">
         <div>
@@ -82,20 +94,38 @@ export function BuchTrainer() {
           ))}
         </div>
 
+        <div className="grid gap-5 sm:grid-cols-2">
+          <div>
+            <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.focus")}</div>
+            <div className="flex flex-wrap gap-2">
+              {FOCI.map((s) => <button key={s} onClick={() => setScope(s)} className={chip(scope === s)}>{t(`vocab.focus.${s}` as never)}</button>)}
+            </div>
+          </div>
+          <div>
+            <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.round")}</div>
+            <div className="flex flex-wrap gap-2">
+              {COUNTS.map((n) => <button key={n} onClick={() => setCount(n)} className={chip(count === n)}>{n}</button>)}
+            </div>
+          </div>
+        </div>
+
         <div className="grid gap-2 sm:grid-cols-2">
-          <button onClick={() => setLektion("__all__")}
-            className={`flex items-center justify-between rounded-xl border p-4 text-left ${lektion === "__all__" ? "border-vocab bg-vocab/10" : "border-border hover:bg-foreground/5"}`}>
-            <span className="font-semibold">{t("buch.all")}</span>
-            <span className="text-sm text-muted">{data.entries.length}</span>
-          </button>
-          {data.lektionen.map((l) => (
+          {[{ name: "__all__", label: t("buch.all"), n: data.entries.length }, ...data.lektionen.map((l) => ({ name: l.name, label: l.name, n: l.count }))].map((l) => (
             <button key={l.name} onClick={() => setLektion(l.name)}
-              className={`flex items-center justify-between rounded-xl border p-4 text-left ${lektion === l.name ? "border-vocab bg-vocab/10" : "border-border hover:bg-foreground/5"}`}>
-              <span className="font-semibold">{l.name}</span>
-              <span className="text-sm text-muted">{l.count}</span>
+              className={`rounded-xl border p-4 text-left transition-colors ${lektion === l.name ? "border-vocab bg-vocab/10" : "border-border hover:bg-foreground/5"}`}>
+              <div className="flex items-center justify-between">
+                <span className="font-semibold">{l.label}</span>
+                <span className="text-sm text-muted">{l.n}</span>
+              </div>
+              <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
+                <div className="h-full bg-vocab transition-all" style={{ width: `${pct(l.name)}%` }} />
+              </div>
+              <div className="mt-1 text-[11px] text-muted">{mastery ? `${pct(l.name)}% ${t("vocab.cat.mastered")}` : " "}</div>
             </button>
           ))}
         </div>
+
+        {note && <p className="rounded-xl border border-dashed border-border p-4 text-sm text-muted">{note}</p>}
 
         <button onClick={start} className="w-full rounded-xl bg-vocab px-5 py-4 font-semibold text-white hover:opacity-90">
           {t("common.start")}
@@ -110,7 +140,7 @@ export function BuchTrainer() {
         <ScoreRing correct={correct} total={questions.length} />
         <div className="flex justify-center gap-3">
           <button onClick={start} className="rounded-lg bg-vocab px-4 py-2 font-medium text-white hover:opacity-90">{t("quiz.result.again")}</button>
-          <button onClick={() => setPhase("setup")} className="rounded-lg border border-border px-4 py-2 font-medium hover:bg-foreground/5">{t("buch.title")}</button>
+          <button onClick={() => { setPhase("setup"); refreshMastery(); }} className="rounded-lg border border-border px-4 py-2 font-medium hover:bg-foreground/5">{t("buch.title")}</button>
         </div>
       </div>
     );
@@ -129,6 +159,7 @@ export function BuchTrainer() {
   const next = () => {
     if (idx + 1 >= total) {
       addSession({ id: `${startedAt.current}-buch`, mode: `buch:${lektion}:${dir}`, startedAt: startedAt.current, endedAt: Date.now(), total, correct });
+      refreshMastery();
       setPhase("done");
       return;
     }
