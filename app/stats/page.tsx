@@ -7,6 +7,7 @@ import { getStats, getRecentSessions, resetAll, getDailyStats, getDailyHistory, 
 import { loadMastery, type MasterySnapshot, type CatId } from "@/lib/progress";
 import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progress";
 import { loadBuchMastery, type BuchMastery } from "@/lib/buch-progress";
+import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progress";
 import { ScoreRing } from "@/components/ScoreRing";
 import { IconArrowRight } from "@/components/icons";
 import type { SessionRecord } from "@/lib/types";
@@ -22,6 +23,7 @@ export default function StatsPage() {
   const [history, setHistory] = useState<{ date: string; total: number; correct: number }[]>([]);
   const [gprog, setGprog] = useState<GrammarProgress | null>(null);
   const [buch, setBuch] = useState<BuchMastery | null>(null);
+  const [art, setArt] = useState<ArticleProgress | null>(null);
 
   const refresh = () => {
     getStats().then(setStats);
@@ -31,6 +33,7 @@ export default function StatsPage() {
     getDailyHistory(30).then(setHistory);
     loadGrammarProgress().then(setGprog);
     loadBuchMastery().then(setBuch);
+    loadArticleProgress().then(setArt);
   };
   useEffect(refresh, []);
 
@@ -146,6 +149,19 @@ export default function StatsPage() {
                 <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("home.buch.title")}</div>
                 <div className="text-lg font-bold">{buch.overall.masteredPct}% <span className="text-sm font-medium text-muted">{t("vocab.cat.mastered")}</span></div>
                 <div className="text-sm text-muted">{buch.overall.mastered}/{buch.overall.total}</div>
+              </div>
+              <IconArrowRight className="h-5 w-5 shrink-0 text-muted" />
+            </Link>
+          )}
+
+          {/* article (gender) trainer */}
+          {art && art.total > 0 && (
+            <Link href="/vokabular/artikel" className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+              <ScoreRing correct={art.mastered} total={art.total} size={84} />
+              <div className="min-w-0 flex-1">
+                <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("artikel.title")}</div>
+                <div className="text-lg font-bold">{art.masteredPct}% <span className="text-sm font-medium text-muted">{t("vocab.cat.mastered")}</span></div>
+                <div className="text-sm text-muted">{art.mastered}/{art.total}</div>
               </div>
               <IconArrowRight className="h-5 w-5 shrink-0 text-muted" />
             </Link>

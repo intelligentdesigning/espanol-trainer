@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { loadVocab } from "@/lib/data";
 import { loadMastery, type MasterySnapshot } from "@/lib/progress";
+import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progress";
 import type { QuizScope } from "@/lib/quiz";
 import type { Pos, VocabItem } from "@/lib/types";
 import {
@@ -55,6 +56,7 @@ export default function VokabularPage() {
   const { t } = useI18n();
   const [vocab, setVocab] = useState<VocabItem[] | null>(null);
   const [snap, setSnap] = useState<MasterySnapshot | null>(null);
+  const [artProg, setArtProg] = useState<ArticleProgress | null>(null);
   const [cat, setCat] = useState<CatId | null>(null);
   const [band, setBand] = useState<BandId>("easy");
   const [scope, setScope] = useState<QuizScope>("smart");
@@ -63,6 +65,7 @@ export default function VokabularPage() {
   useEffect(() => {
     loadVocab().then(setVocab);
     loadMastery().then(setSnap);
+    loadArticleProgress().then(setArtProg);
   }, []);
 
   // counts per category, and per band within the selected category
@@ -135,9 +138,10 @@ export default function VokabularPage() {
             <div className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-article/10 text-article">
               <IconLetters className="h-6 w-6" />
             </div>
-            <div className="min-w-0">
+            <div className="min-w-0 flex-1">
               <div className="text-lg font-semibold transition-colors group-hover:text-article">{t("vocab.cat.article")}</div>
               <p className="mt-0.5 text-sm leading-snug text-muted">{t("vocab.cat.article.desc")}</p>
+              {artProg && <MasteryBar right={artProg.right} wrong={artProg.wrong} neu={artProg.new} />}
             </div>
             <IconArrowRight className="ml-auto h-5 w-5 shrink-0 text-muted transition-transform group-hover:translate-x-1 group-hover:text-article" />
           </div>

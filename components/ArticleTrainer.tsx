@@ -4,8 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { loadArticles, loadVocab } from "@/lib/data";
-import { recordResult, addSession, getAllProgress } from "@/lib/storage/db";
+import { recordResult, addSession } from "@/lib/storage/db";
+import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progress";
 import { ScoreRing } from "@/components/ScoreRing";
+import { MasteryBar } from "@/components/MasteryBar";
 import type { NounArticle } from "@/lib/types";
 
 type Mode = "mixed" | "hard";
@@ -23,7 +25,7 @@ export function ArticleTrainer() {
   const { t, L } = useI18n();
   const [articles, setArticles] = useState<NounArticle[] | null>(null);
   const [meaning, setMeaning] = useState<Map<string, string>>(new Map());
-  const [mastered, setMastered] = useState(0);
+  const [prog, setProg] = useState<ArticleProgress | null>(null);
   const [mode, setMode] = useState<Mode>("mixed");
   const [count, setCount] = useState(20);
   const [phase, setPhase] = useState<Phase>("setup");
@@ -37,8 +39,7 @@ export function ArticleTrainer() {
   const [roundMs, setRoundMs] = useState(0);
   const startedAt = useRef(Date.now());
 
-  const refreshMastery = () =>
-    getAllProgress().then((p) => setMastered(p.filter((r) => r.itemKey.startsWith("art:") && r.box >= 4).length));
+  const refreshMastery = () => loadArticleProgress().then(setProg);
   useEffect(() => {
     loadArticles().then(setArticles);
     loadVocab().then((v) => { const m = new Map<string, string>(); for (const x of v) if (!m.has(x.es)) m.set(x.es, x.clue || x.en[0] || ""); setMeaning(m); });
@@ -95,9 +96,12 @@ export function ArticleTrainer() {
           </div>
         </div>
 
-        <div className="rounded-2xl border border-border bg-card p-4 text-sm">
-          <span className="font-semibold text-article">{mastered}</span>
-          <span className="text-muted"> / {articles.length} {t("artikel.sure")} · {irrN} {t("artikel.irregular")}</span>
+        <div className="rounded-2xl border border-border bg-card p-4">
+          <div className="flex items-baseline justify-between text-sm">
+            <span className="font-semibold">{t("artikel.title")}</span>
+            <span className="text-muted">{prog?.mastered ?? 0} {t("artikel.sure")} · {irrN} {t("artikel.irregular")}</span>
+          </div>
+          {prog ? <MasteryBar right={prog.right} wrong={prog.wrong} neu={prog.new} /> : <div className="mt-2.5 h-2 w-full rounded-full bg-foreground/10" />}
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2">
