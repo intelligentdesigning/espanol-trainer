@@ -1,0 +1,220 @@
+[
+  {
+    "kind": "fill",
+    "prompt": "Nosotros ___ pizza los viernes. (comer)",
+    "promptGloss": {
+      "de": "Wir essen freitags Pizza.",
+      "en": "We eat pizza on Fridays."
+    },
+    "answer": "comemos",
+    "explain": {
+      "de": "Bei -er-Verben lautet die nosotros-Endung -emos (com- + -emos). Verwechsle es nicht mit -imos, das nur zu -ir-Verben gehört.",
+      "en": "For -er verbs the nosotros ending is -emos (com- + -emos). Don't confuse it with -imos, which belongs only to -ir verbs."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿Dónde ___ tú? (vivir)",
+    "promptGloss": {
+      "de": "Wo wohnst du?",
+      "en": "Where do you live?"
+    },
+    "answer": "vives",
+    "explain": {
+      "de": "-ir-Verben haben in der tú-Form die Endung -es (viv- + -es), genau wie -er-Verben. Die Endung -as gehört dagegen nur zu -ar-Verben.",
+      "en": "-ir verbs take -es in the tú form (viv- + -es), just like -er verbs. The ending -as belongs only to -ar verbs."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Yo ___ español todos los días.",
+    "promptGloss": {
+      "de": "Ich spreche jeden Tag Spanisch.",
+      "en": "I speak Spanish every day."
+    },
+    "options": ["hablo", "hablas", "habla", "hablamos"],
+    "answer": "hablo",
+    "explain": {
+      "de": "Die yo-Form aller regelmäßigen Verben endet auf -o (habl- + -o). 'hablas' wäre tú und 'habla' wäre él/ella.",
+      "en": "The yo form of all regular verbs ends in -o (habl- + -o). 'hablas' is tú and 'habla' is él/ella."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Vosotros ___ a las dos de la tarde.",
+    "promptGloss": {
+      "de": "Ihr esst um zwei Uhr nachmittags.",
+      "en": "You (pl.) eat at two in the afternoon."
+    },
+    "options": ["coméis", "comáis", "comeis", "comen"],
+    "answer": "coméis",
+    "explain": {
+      "de": "Die vosotros-Endung bei -er-Verben ist -éis mit Akzent auf dem e (com- + -éis). 'comen' ist die ellos-Form und ohne Akzent ist die Schreibung falsch.",
+      "en": "The vosotros ending for -er verbs is -éis with an accent on the e (com- + -éis). 'comen' is the ellos form and without the accent the spelling is wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Yo ___ un café, pero nosotros ___ agua.",
+    "promptGloss": {
+      "de": "Ich will einen Kaffee, aber wir wollen Wasser.",
+      "en": "I want a coffee, but we want water."
+    },
+    "options": ["quiero / queremos", "quero / queremos", "quiero / quieremos", "quiero / quieren"],
+    "answer": "quiero / queremos",
+    "explain": {
+      "de": "querer hat den Stammwechsel e>ie (quiero), aber bei nosotros bleibt der Stamm unverändert (queremos). 'quieremos' ist falsch, weil nosotros nie den Wechsel macht.",
+      "en": "querer has the stem change e>ie (quiero), but in nosotros the stem stays unchanged (queremos). 'quieremos' is wrong because nosotros never takes the change."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No ___ dormir bien por la noche. (poder, yo)",
+    "promptGloss": {
+      "de": "Ich kann nachts nicht gut schlafen.",
+      "en": "I can't sleep well at night."
+    },
+    "answer": "puedo",
+    "explain": {
+      "de": "poder hat den Stammwechsel o>ue, der in der yo-Form auftritt: pod- wird zu pued- + -o = puedo. Ein bloßes 'podo' ohne Wechsel wäre falsch.",
+      "en": "poder has the stem change o>ue, which appears in the yo form: pod- becomes pued- + -o = puedo. A plain 'podo' without the change would be wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Él siempre ___ la verdad.",
+    "promptGloss": {
+      "de": "Er sagt immer die Wahrheit.",
+      "en": "He always tells the truth."
+    },
+    "options": ["dice", "dece", "die", "dije"],
+    "answer": "dice",
+    "explain": {
+      "de": "decir hat den Stammwechsel e>i: dec- wird zu dic- + -e = dice. 'dije' ist die Vergangenheit (Indefinido), nicht das Präsens.",
+      "en": "decir has the stem change e>i: dec- becomes dic- + -e = dice. 'dije' is the past tense (preterite), not the present."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Yo ___ dos hermanos y una hermana. (tener)",
+    "promptGloss": {
+      "de": "Ich habe zwei Brüder und eine Schwester.",
+      "en": "I have two brothers and a sister."
+    },
+    "answer": "tengo",
+    "explain": {
+      "de": "tener gehört zu den Verben mit unregelmäßiger yo-Form auf -go (teng- + -o = tengo). Zusätzlich macht der Rest den Stammwechsel e>ie (tienes, tiene).",
+      "en": "tener belongs to the verbs with an irregular yo form in -go (teng- + -o = tengo). The other persons additionally take the stem change e>ie (tienes, tiene)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hoy yo ___ la cena para toda la familia.",
+    "promptGloss": {
+      "de": "Heute mache ich das Abendessen für die ganze Familie.",
+      "en": "Today I'm making dinner for the whole family."
+    },
+    "options": ["hago", "haco", "hazo", "haço"],
+    "answer": "hago",
+    "explain": {
+      "de": "hacer hat eine unregelmäßige yo-Form auf -go: hag- + -o = hago. Die anderen Formen (haces, hace) sind dagegen regelmäßig.",
+      "en": "hacer has an irregular yo form in -go: hag- + -o = hago. The other forms (haces, hace) are regular."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "(Yo) ___ de Alemania, pero ahora ___ en Madrid.",
+    "promptGloss": {
+      "de": "Ich bin aus Deutschland, aber jetzt bin ich in Madrid.",
+      "en": "I'm from Germany, but right now I'm in Madrid."
+    },
+    "options": ["soy / estoy", "estoy / soy", "soy / soy", "estoy / estoy"],
+    "answer": "soy / estoy",
+    "explain": {
+      "de": "Herkunft drückt man mit ser aus (soy de Alemania), den momentanen Ort dagegen mit estar (estoy en Madrid). ser und estar sind beide völlig unregelmäßig.",
+      "en": "Origin is expressed with ser (soy de Alemania), while a current location uses estar (estoy en Madrid). Both ser and estar are fully irregular."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Esta noche (nosotros) ___ al cine con unos amigos. (ir)",
+    "promptGloss": {
+      "de": "Heute Abend gehen wir mit ein paar Freunden ins Kino.",
+      "en": "Tonight we are going to the cinema with some friends."
+    },
+    "answer": "vamos",
+    "explain": {
+      "de": "ir ist völlig unregelmäßig; die nosotros-Form lautet vamos und hat nichts mit dem Infinitivstamm zu tun. Man muss sie auswendig lernen.",
+      "en": "ir is fully irregular; the nosotros form is vamos and has nothing to do with the infinitive stem. It must be memorized."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mañana (yo) ___ a la playa con mi familia.",
+    "promptGloss": {
+      "de": "Morgen gehe ich mit meiner Familie an den Strand.",
+      "en": "Tomorrow I'm going to the beach with my family."
+    },
+    "options": ["voy", "iré", "vaya", "voyé"],
+    "answer": "voy",
+    "explain": {
+      "de": "Das Präsens drückt auch eine geplante nahe Zukunft aus, deshalb steht hier voy trotz 'mañana'. 'iré' ist das Futur und hier nicht nötig.",
+      "en": "The present also expresses a planned near future, so voy is used here despite 'mañana'. 'iré' is the future tense and not needed here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El sol ___ por el este cada mañana.",
+    "promptGloss": {
+      "de": "Die Sonne geht jeden Morgen im Osten auf.",
+      "en": "The sun rises in the east every morning."
+    },
+    "options": ["sale", "está saliendo", "salió", "saldrá"],
+    "answer": "sale",
+    "explain": {
+      "de": "Für allgemeine Wahrheiten und immer Gültiges verwendet man das einfache Präsens (sale). Die Verlaufsform 'está saliendo' würde nur einen gerade ablaufenden Vorgang bezeichnen.",
+      "en": "General truths and always-valid facts use the simple present (sale). The progressive 'está saliendo' would describe only an action happening right now."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Los niños ___ ocho horas cada noche.",
+    "promptGloss": {
+      "de": "Die Kinder schlafen jede Nacht acht Stunden.",
+      "en": "The children sleep eight hours every night."
+    },
+    "options": ["duermen", "dormen", "duermes", "duermo"],
+    "answer": "duermen",
+    "explain": {
+      "de": "dormir hat den Stammwechsel o>ue, der auch in der ellos-Form steht: duerm- + -en = duermen. 'dormen' ohne Wechsel und 'duermes' (tú) passen nicht zum Subjekt 'los niños'.",
+      "en": "dormir takes the stem change o>ue, which also appears in the ellos form: duerm- + -en = duermen. 'dormen' without the change and 'duermes' (tú) don't match the subject 'los niños'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ahora mismo (nosotros) ___ muy cansados. (estar)",
+    "promptGloss": {
+      "de": "Gerade jetzt sind wir sehr müde.",
+      "en": "Right now we are very tired."
+    },
+    "answer": "estamos",
+    "explain": {
+      "de": "Ein vorübergehender Zustand wie Müdigkeit verlangt estar, nicht ser; die nosotros-Form lautet estamos. Mit ser ('somos cansados') wäre die Bedeutung falsch.",
+      "en": "A temporary state like tiredness requires estar, not ser; the nosotros form is estamos. With ser ('somos cansados') the meaning would be wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Qué ___ (tú) los fines de semana?",
+    "promptGloss": {
+      "de": "Was machst du am Wochenende?",
+      "en": "What do you do on weekends?"
+    },
+    "options": ["haces", "hagas", "hago", "haz"],
+    "answer": "haces",
+    "explain": {
+      "de": "Die unregelmäßige -go-Form von hacer betrifft nur yo (hago); die tú-Form ist regelmäßig: hac- + -es = haces. 'hagas' ist Subjuntiv und 'haz' ist der Imperativ.",
+      "en": "hacer's irregular -go form affects only yo (hago); the tú form is regular: hac- + -es = haces. 'hagas' is subjunctive and 'haz' is the imperative."
+    }
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Tengo una mesa ___.",
+    "promptGloss": {
+      "de": "Ich habe einen weißen Tisch.",
+      "en": "I have a white table."
+    },
+    "options": ["blanca", "blanco", "blancas", "blancos"],
+    "answer": "blanca",
+    "explain": {
+      "de": "'mesa' ist feminin und Singular, daher braucht 'blanco' die feminine Singularform 'blanca'. 'blanco' bliebe maskulin und passt nicht zum Nomen.",
+      "en": "'mesa' is feminine singular, so 'blanco' must take the feminine singular form 'blanca'. 'blanco' would stay masculine and not match the noun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Los zapatos son muy ___. (caro)",
+    "promptGloss": {
+      "de": "Die Schuhe sind sehr teuer.",
+      "en": "The shoes are very expensive."
+    },
+    "answer": "caros",
+    "explain": {
+      "de": "'zapatos' ist maskulin Plural, also wird 'caro' zu 'caros' (Geschlecht -o, Plural -s). Eine unveränderte Form 'caro' gleicht weder Zahl noch Bezug an.",
+      "en": "'zapatos' is masculine plural, so 'caro' becomes 'caros' (gender -o, plural -s). An unchanged 'caro' fails to agree in number."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ana es una chica muy ___.",
+    "promptGloss": {
+      "de": "Ana ist ein sehr intelligentes Mädchen.",
+      "en": "Ana is a very intelligent girl."
+    },
+    "options": ["inteligente", "inteligenta", "inteligento", "inteligentes"],
+    "answer": "inteligente",
+    "explain": {
+      "de": "Adjektive auf -e ändern sich nicht nach Geschlecht, daher bleibt 'inteligente' auch bei einem femininen Nomen gleich. Formen wie 'inteligenta' existieren nicht.",
+      "en": "Adjectives ending in -e do not change for gender, so 'inteligente' stays the same with a feminine noun. Forms like 'inteligenta' do not exist."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Son dos exámenes muy ___. (fácil)",
+    "promptGloss": {
+      "de": "Das sind zwei sehr leichte Prüfungen.",
+      "en": "They are two very easy exams."
+    },
+    "answer": "fáciles",
+    "explain": {
+      "de": "Adjektive auf Konsonant gleichen sich nicht im Geschlecht an, aber im Plural hängen sie -es an: 'fácil' → 'fáciles'. Ein bloßes 'fácils' wäre falsch, da nach Konsonant -es nötig ist.",
+      "en": "Adjectives ending in a consonant do not change for gender but add -es in the plural: 'fácil' → 'fáciles'. A bare 'fácils' is wrong, since -es is required after a consonant."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Me gusta el ___.",
+    "promptGloss": {
+      "de": "Ich mag den Rotwein.",
+      "en": "I like red wine."
+    },
+    "options": ["vino tinto", "tinto vino", "vino tinta", "tinta vino"],
+    "answer": "vino tinto",
+    "explain": {
+      "de": "Farbadjektive stehen nach dem Nomen, also 'vino tinto', nicht 'tinto vino'. Außerdem ist 'vino' maskulin, daher 'tinto' und nicht 'tinta'.",
+      "en": "Color adjectives follow the noun, so 'vino tinto', not 'tinto vino'. Also 'vino' is masculine, hence 'tinto' and not 'tinta'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Vimos una película ___ anoche. (español)",
+    "promptGloss": {
+      "de": "Wir haben gestern Abend einen spanischen Film gesehen.",
+      "en": "We saw a Spanish film last night."
+    },
+    "answer": "española",
+    "explain": {
+      "de": "Herkunftsadjektive stehen nach dem Nomen und gleichen sich an: 'película' ist feminin, also 'española'. Auch Nationalitäten auf Konsonant (español) bilden eine feminine Form auf -a.",
+      "en": "Adjectives of origin follow the noun and agree: 'película' is feminine, so 'española'. Even nationalities ending in a consonant (español) form a feminine in -a."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Pablo es un ___ amigo y siempre me ayuda.",
+    "promptGloss": {
+      "de": "Pablo ist ein guter Freund und hilft mir immer.",
+      "en": "Pablo is a good friend and always helps me."
+    },
+    "options": ["buen", "bueno", "buena", "buenos"],
+    "answer": "buen",
+    "explain": {
+      "de": "'bueno' verliert vor einem maskulinen Singular-Nomen das -o und wird zu 'buen' (un buen amigo). Das volle 'bueno' stünde nur nach dem Nomen (un amigo bueno).",
+      "en": "'bueno' drops the -o before a masculine singular noun, becoming 'buen' (un buen amigo). The full 'bueno' would only stand after the noun (un amigo bueno)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Hoy es un ___ día para pasear. (bueno)",
+    "promptGloss": {
+      "de": "Heute ist ein guter Tag zum Spazierengehen.",
+      "en": "Today is a good day for a walk."
+    },
+    "answer": "buen",
+    "explain": {
+      "de": "Vor dem maskulinen Singular 'día' verkürzt sich 'bueno' zu 'buen'. Obwohl 'día' auf -a endet, ist es maskulin, daher gilt die Verkürzung.",
+      "en": "Before the masculine singular 'día', 'bueno' shortens to 'buen'. Although 'día' ends in -a, it is masculine, so the shortening applies."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hace ___ tiempo que no te veo.",
+    "promptGloss": {
+      "de": "Es ist schlechtes Wetter / Ich habe dich lange nicht gesehen.",
+      "en": "It's been a bad while since I last saw you."
+    },
+    "options": ["mal", "malo", "mala", "malos"],
+    "answer": "mal",
+    "explain": {
+      "de": "'malo' verliert vor maskulinem Singular-Nomen das -o und wird zu 'mal' (mal tiempo). 'malo' bliebe ungekürzt und stünde nur nachgestellt (un tiempo malo).",
+      "en": "'malo' drops the -o before a masculine singular noun, becoming 'mal' (mal tiempo). 'malo' stays unshortened and would only follow the noun (un tiempo malo)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Fue una ___ idea invitar a todos.",
+    "promptGloss": {
+      "de": "Es war eine großartige Idee, alle einzuladen.",
+      "en": "It was a great idea to invite everyone."
+    },
+    "options": ["gran", "grande", "grana", "grandes"],
+    "answer": "gran",
+    "explain": {
+      "de": "'grande' verkürzt sich vor jedem Singular-Nomen — maskulin wie feminin — zu 'gran' (una gran idea). 'grande' bliebe nur nachgestellt erhalten (una idea grande = groß an Größe).",
+      "en": "'grande' shortens to 'gran' before any singular noun, masculine or feminine (una gran idea). 'grande' would remain only after the noun (una idea grande = big in size)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Madrid es una ___ ciudad. (grande)",
+    "promptGloss": {
+      "de": "Madrid ist eine große Stadt.",
+      "en": "Madrid is a great/big city."
+    },
+    "answer": "gran",
+    "explain": {
+      "de": "Vor jedem Singular-Nomen wird 'grande' zu 'gran', auch vor dem femininen 'ciudad'. Die Verkürzung gilt anders als bei bueno/malo für beide Geschlechter.",
+      "en": "Before any singular noun 'grande' becomes 'gran', including the feminine 'ciudad'. Unlike bueno/malo, this shortening applies to both genders."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Tengo ___ amigos en la universidad.",
+    "promptGloss": {
+      "de": "Ich habe gute Freunde an der Universität.",
+      "en": "I have good friends at the university."
+    },
+    "options": ["buenos", "buen", "bueno", "buenas"],
+    "answer": "buenos",
+    "explain": {
+      "de": "Die Verkürzung zu 'buen' gilt nur im maskulinen Singular; im Plural bleibt die volle Form 'buenos' (buenos amigos). 'buen amigos' ist deshalb falsch.",
+      "en": "The shortening to 'buen' applies only in the masculine singular; in the plural the full form 'buenos' is kept (buenos amigos). So 'buen amigos' is wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Einstein fue un ___ porque cambió la ciencia.",
+    "promptGloss": {
+      "de": "Einstein war ein bedeutender Mann, weil er die Wissenschaft veränderte.",
+      "en": "Einstein was a great man because he changed science."
+    },
+    "options": ["gran hombre", "hombre grande", "gran hombro", "hombre gran"],
+    "answer": "gran hombre",
+    "explain": {
+      "de": "Vorangestellt bedeutet 'gran hombre' ein bedeutender Mann (Wert), während nachgestelltes 'hombre grande' einen großgewachsenen Mann meint. Der Kontext (cambió la ciencia) verlangt die Wertbedeutung.",
+      "en": "Placed before, 'gran hombre' means a great man (quality), whereas 'hombre grande' after the noun means a tall/big man. The context (changed science) calls for the quality meaning."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Carlos es un amigo ___; lo conozco desde que éramos niños.",
+    "promptGloss": {
+      "de": "Carlos ist ein langjähriger Freund; ich kenne ihn, seit wir Kinder waren.",
+      "en": "Carlos is an old (longtime) friend; I've known him since we were children."
+    },
+    "options": ["viejo amigo", "amigo viejo", "viejo", "amigo grande"],
+    "answer": "viejo",
+    "explain": {
+      "de": "Hier muss nur das Adjektiv ergänzt werden: Der Satz beginnt mit 'un amigo ___'. Doch Achtung — nachgestellt heißt 'amigo viejo' eigentlich 'betagter Freund', während 'un viejo amigo' (vorangestellt) den langjährigen Freund meint. Da die Lücke nach dem Nomen steht, ist nur 'viejo' formal einsetzbar, und der Lerner erkennt am Gloss den Stellungsunterschied.",
+      "en": "Only the adjective fits the gap after 'un amigo ___'. Note the contrast: after the noun 'amigo viejo' literally means an elderly friend, while 'un viejo amigo' (before) means a longtime friend. Since the gap is post-nominal, only 'viejo' fits the slot, and the gloss flags the position difference."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No es un amigo cualquiera: es un ___ amigo de la infancia. (viejo)",
+    "promptGloss": {
+      "de": "Er ist nicht irgendein Freund: Er ist ein langjähriger Freund aus der Kindheit.",
+      "en": "He's not just any friend: he's an old (longtime) friend from childhood."
+    },
+    "answer": "viejo",
+    "explain": {
+      "de": "Vorangestellt ('un viejo amigo') bedeutet das Adjektiv 'langjährig', genau wie es der Kontext 'de la infancia' verlangt. Nachgestellt ('un amigo viejo') hieße dagegen 'ein betagter Freund'.",
+      "en": "Placed before ('un viejo amigo') the adjective means 'longtime', exactly what 'de la infancia' implies. After the noun ('un amigo viejo') it would mean an elderly friend instead."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Compré unas sillas ___ para la cocina.",
+    "promptGloss": {
+      "de": "Ich habe neue Stühle für die Küche gekauft.",
+      "en": "I bought new chairs for the kitchen."
+    },
+    "options": ["nuevas", "nuevos", "nueva", "nuevo"],
+    "answer": "nuevas",
+    "explain": {
+      "de": "'sillas' ist feminin Plural, daher muss 'nuevo' beide Merkmale angleichen: feminin -a und Plural -s → 'nuevas'. 'nuevos' wäre maskulin und passt nicht.",
+      "en": "'sillas' is feminine plural, so 'nuevo' must agree in both: feminine -a and plural -s → 'nuevas'. 'nuevos' would be masculine and not fit."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Es un coche y una moto ___.",
+    "promptGloss": {
+      "de": "Es sind ein rotes Auto und ein rotes Motorrad.",
+      "en": "It's a red car and a red motorbike."
+    },
+    "options": ["rojos", "rojas", "roja", "rojo"],
+    "answer": "rojos",
+    "explain": {
+      "de": "Beschreibt ein Adjektiv mehrere Nomen unterschiedlichen Geschlechts ('coche' maskulin, 'moto' feminin), steht es im maskulinen Plural: 'rojos'. Die feminine Form 'rojas' wäre nur bei rein femininen Nomen korrekt.",
+      "en": "When one adjective modifies several nouns of different genders ('coche' masculine, 'moto' feminine), it takes the masculine plural: 'rojos'. The feminine 'rojas' would only be correct with purely feminine nouns."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Estos libros son muy ___. (interesante)",
+    "promptGloss": {
+      "de": "Diese Bücher sind sehr interessant.",
+      "en": "These books are very interesting."
+    },
+    "answer": "interesantes",
+    "explain": {
+      "de": "Adjektive auf -e ändern sich nicht nach Geschlecht, aber im Plural hängen sie -s an: 'interesante' → 'interesantes'. Eine eigene maskuline Form gibt es nicht.",
+      "en": "Adjectives ending in -e don't change for gender but add -s in the plural: 'interesante' → 'interesantes'. There is no separate masculine form."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hicimos un ___ esfuerzo, pero no fue un esfuerzo ___.",
+    "promptGloss": {
+      "de": "Wir machten eine große (bedeutende) Anstrengung, aber es war keine große (umfangreiche) Anstrengung.",
+      "en": "We made a great effort, but it wasn't a big effort."
+    },
+    "options": ["gran ... grande", "grande ... gran", "gran ... gran", "grande ... grande"],
+    "answer": "gran ... grande",
+    "explain": {
+      "de": "Vor dem maskulinen Singular-Nomen verkürzt sich 'grande' zu 'gran' (gran esfuerzo); nachgestellt bleibt die volle Form 'grande' (esfuerzo grande). Daher 'gran ... grande'.",
+      "en": "Before a masculine singular noun 'grande' shortens to 'gran' (gran esfuerzo); after the noun the full form 'grande' is kept (esfuerzo grande). Hence 'gran ... grande'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "La profesora es muy ___ con sus alumnos. (trabajador)",
+    "promptGloss": {
+      "de": "Die Lehrerin ist sehr fleißig mit ihren Schülern.",
+      "en": "The teacher is very hardworking with her students."
+    },
+    "answer": "trabajadora",
+    "explain": {
+      "de": "Adjektive auf -or bilden eine eigene feminine Form mit -a: 'trabajador' → 'trabajadora'. Sie sind also nicht unveränderlich wie reine Konsonant-Adjektive (z. B. fácil).",
+      "en": "Adjectives ending in -or form a distinct feminine in -a: 'trabajador' → 'trabajadora'. They are therefore not invariable like plain consonant adjectives (e.g. fácil)."
+    }
+  }
+]

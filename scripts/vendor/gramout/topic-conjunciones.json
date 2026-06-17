@@ -1,0 +1,277 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "El profesor es muy paciente ___ inteligente.",
+    "promptGloss": {
+      "de": "Der Lehrer ist sehr geduldig und intelligent.",
+      "en": "The teacher is very patient and intelligent."
+    },
+    "options": ["y", "e"],
+    "answer": "e",
+    "explain": {
+      "de": "Vor einem Wort, das mit i- (hier 'inteligente') beginnt, wird 'y' zu 'e'. 'y inteligente' wäre wegen des i-Lauts falsch.",
+      "en": "Before a word starting with i- (here 'inteligente'), 'y' becomes 'e'. 'y inteligente' would be wrong because of the i- sound."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Necesitamos madera ___ hierro para la construcción.",
+    "promptGloss": {
+      "de": "Wir brauchen Holz und Eisen für den Bau.",
+      "en": "We need wood and iron for the construction."
+    },
+    "options": ["e", "y"],
+    "answer": "y",
+    "explain": {
+      "de": "'hierro' beginnt mit hie-, nicht mit i- oder hi-; vor hie- bleibt es 'y'. Die Regel y→e greift hier ausdrücklich NICHT.",
+      "en": "'hierro' starts with hie-, not i- or hi-; before hie- it stays 'y'. The y→e rule explicitly does NOT apply here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Es una historia triste ___ increíble a la vez.",
+    "promptGloss": {
+      "de": "Es ist eine zugleich traurige und unglaubliche Geschichte.",
+      "en": "It is a sad and incredible story at the same time."
+    },
+    "answer": "e",
+    "explain": {
+      "de": "'increíble' beginnt mit i-, daher wird 'y' zu 'e'. Der Anfangsbuchstabe des Folgeworts, nicht das vorangehende Wort, entscheidet.",
+      "en": "'increíble' starts with i-, so 'y' becomes 'e'. The following word's initial sound, not the preceding word, decides this."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Vienen unos ___ otros invitados a la cena?",
+    "promptGloss": {
+      "de": "Kommen die einen oder die anderen Gäste zum Abendessen?",
+      "en": "Are some or other guests coming to the dinner?"
+    },
+    "options": ["u", "o"],
+    "answer": "u",
+    "explain": {
+      "de": "Vor einem Wort mit o- (hier 'otros') wird 'o' zu 'u'. 'o otros' würde zu einer schwer hörbaren Doppelung führen.",
+      "en": "Before a word starting with o- (here 'otros'), 'o' becomes 'u'. 'o otros' would create a hard-to-hear repetition."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No sé si eran siete ___ ocho personas en la sala.",
+    "promptGloss": {
+      "de": "Ich weiß nicht, ob es sieben oder acht Personen im Raum waren.",
+      "en": "I don't know whether there were seven or eight people in the room."
+    },
+    "answer": "u",
+    "explain": {
+      "de": "'ocho' beginnt mit o-, deshalb wird 'o' zu 'u'. Klassischer Fall: 'siete u ocho'.",
+      "en": "'ocho' starts with o-, so 'o' becomes 'u'. A classic case: 'siete u ocho'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Prefieres trabajar de día ___ de noche?",
+    "promptGloss": {
+      "de": "Arbeitest du lieber tagsüber oder nachts?",
+      "en": "Do you prefer to work by day or by night?"
+    },
+    "options": ["o", "u"],
+    "answer": "o",
+    "explain": {
+      "de": "'de' beginnt mit d-, nicht mit o- oder ho-, also bleibt es 'o'. 'u' steht nur vor o-/ho-.",
+      "en": "'de' starts with d-, not o- or ho-, so it stays 'o'. 'u' is used only before o-/ho-."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No quiero café, ___ té.",
+    "promptGloss": {
+      "de": "Ich will keinen Kaffee, sondern Tee.",
+      "en": "I don't want coffee, but tea."
+    },
+    "options": ["sino", "pero", "sino que"],
+    "answer": "sino",
+    "explain": {
+      "de": "Nach einer Verneinung ('no quiero café') korrigiert 'sino' mit einem Substantiv (sondern). 'pero' fügt nur hinzu und kein konjugiertes Verb folgt, also kein 'sino que'.",
+      "en": "After a negation ('no quiero café'), 'sino' corrects with a noun (but rather). 'pero' merely adds, and no conjugated verb follows, so not 'sino que'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El piso es pequeño, ___ muy luminoso.",
+    "promptGloss": {
+      "de": "Die Wohnung ist klein, aber sehr hell.",
+      "en": "The flat is small, but very bright."
+    },
+    "options": ["pero", "sino", "sino que"],
+    "answer": "pero",
+    "explain": {
+      "de": "Hier wird ohne Verneinung eine Einschränkung hinzugefügt, also 'pero'. 'sino' setzt eine vorangehende Verneinung voraus, die hier fehlt.",
+      "en": "Here a contrast is added without any negation, so 'pero'. 'sino' requires a preceding negation, which is missing here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No llamó por teléfono, ___ vino en persona.",
+    "promptGloss": {
+      "de": "Er rief nicht an, sondern kam persönlich vorbei.",
+      "en": "He didn't phone, but rather came in person."
+    },
+    "answer": "sino que",
+    "explain": {
+      "de": "Nach der Verneinung folgt mit 'vino' ein konjugiertes Verb, daher 'sino que' statt bloßem 'sino'. 'pero' wäre keine Korrektur, sondern nur eine Hinzufügung.",
+      "en": "After the negation comes a conjugated verb ('vino'), so 'sino que' rather than plain 'sino'. 'pero' would add information, not correct it."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No estudia medicina, ___ derecho.",
+    "promptGloss": {
+      "de": "Er studiert nicht Medizin, sondern Jura.",
+      "en": "He doesn't study medicine, but law."
+    },
+    "options": ["sino", "sino que", "pero"],
+    "answer": "sino",
+    "explain": {
+      "de": "Es folgt kein konjugiertes Verb, sondern nur das Substantiv 'derecho', daher 'sino' (nicht 'sino que'). Die Verneinung schließt 'pero' aus.",
+      "en": "No conjugated verb follows, just the noun 'derecho', so 'sino' (not 'sino que'). The negation rules out 'pero'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿___ no me dijiste la verdad?",
+    "promptGloss": {
+      "de": "Warum hast du mir nicht die Wahrheit gesagt?",
+      "en": "Why didn't you tell me the truth?"
+    },
+    "options": ["Por qué", "Porque", "Porqué", "Por que"],
+    "answer": "Por qué",
+    "explain": {
+      "de": "In einer direkten Frage steht 'por qué' (zwei Wörter, mit Akzent) = warum. 'porque' bedeutet 'weil' und leitet keine Frage ein.",
+      "en": "In a direct question, use 'por qué' (two words, accented) = why. 'porque' means 'because' and does not introduce a question."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Estoy aquí ___ quiero ayudarte.",
+    "promptGloss": {
+      "de": "Ich bin hier, weil ich dir helfen will.",
+      "en": "I'm here because I want to help you."
+    },
+    "answer": "porque",
+    "explain": {
+      "de": "Als kausale Konjunktion 'weil' steht 'porque' (ein Wort, ohne Akzent). 'por qué' wäre die Frage 'warum'.",
+      "en": "As the causal conjunction 'because', use 'porque' (one word, no accent). 'por qué' would be the question 'why'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Todavía no entiendo el ___ de su decisión.",
+    "promptGloss": {
+      "de": "Ich verstehe immer noch nicht den Grund seiner Entscheidung.",
+      "en": "I still don't understand the reason for his decision."
+    },
+    "options": ["porqué", "porque", "por qué"],
+    "answer": "porqué",
+    "explain": {
+      "de": "Nach dem Artikel 'el' steht das Substantiv 'porqué' (ein Wort, mit Akzent) = der Grund. 'porque' (weil) und 'por qué' (warum) sind keine Substantive.",
+      "en": "After the article 'el' comes the noun 'porqué' (one word, accented) = the reason. 'porque' (because) and 'por qué' (why) are not nouns."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Me pregunto ___ no ha llegado todavía.",
+    "promptGloss": {
+      "de": "Ich frage mich, warum er noch nicht angekommen ist.",
+      "en": "I wonder why he hasn't arrived yet."
+    },
+    "options": ["por qué", "porque", "porqué"],
+    "answer": "por qué",
+    "explain": {
+      "de": "Auch in der indirekten Frage ('me pregunto por qué...') steht 'por qué' = warum, getrennt und mit Akzent. 'porque' hieße 'weil'.",
+      "en": "Even in an indirect question ('me pregunto por qué...') it is 'por qué' = why, written separately and accented. 'porque' would mean 'because'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Aunque ___ frío, siempre salgo a correr por las mañanas.",
+    "promptGloss": {
+      "de": "Obwohl es kalt ist, gehe ich morgens immer joggen.",
+      "en": "Although it's cold, I always go out running in the mornings."
+    },
+    "options": ["hace", "haga"],
+    "answer": "hace",
+    "explain": {
+      "de": "'aunque' + Indikativ ('hace') drückt eine reale Tatsache aus = obwohl. Der Subjuntivo 'haga' würde eine bloße Annahme markieren.",
+      "en": "'aunque' + indicative ('hace') states a real fact = although. The subjunctive 'haga' would mark a mere hypothesis."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Aunque mañana ___ mal tiempo, iremos a la playa de todos modos.",
+    "promptGloss": {
+      "de": "Auch wenn morgen schlechtes Wetter sein sollte, fahren wir trotzdem zum Strand.",
+      "en": "Even if the weather is bad tomorrow, we'll go to the beach anyway."
+    },
+    "options": ["haga", "hace"],
+    "answer": "haga",
+    "explain": {
+      "de": "Hier geht es um eine zukünftige, nicht gesicherte Annahme = auch wenn, daher 'aunque' + Subjuntivo ('haga'). Der Indikativ 'hace' würde eine feststehende Tatsache behaupten.",
+      "en": "Here it is a future, uncertain hypothesis = even if, so 'aunque' + subjunctive ('haga'). The indicative 'hace' would assert a settled fact."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Aunque no me ___ (gustar) la verdura, la como porque es sana.",
+    "promptGloss": {
+      "de": "Obwohl ich Gemüse nicht mag, esse ich es, weil es gesund ist.",
+      "en": "Although I don't like vegetables, I eat them because they're healthy."
+    },
+    "answer": "gusta",
+    "explain": {
+      "de": "Der Sprecher gibt eine reale Tatsache zu (er mag es wirklich nicht), also 'aunque' + Indikativ: 'gusta'. Der Subjuntivo 'guste' würde es zur bloßen Annahme machen.",
+      "en": "The speaker concedes a real fact (they genuinely dislike it), so 'aunque' + indicative: 'gusta'. The subjunctive 'guste' would turn it into a mere hypothesis."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Estoy seguro de ___ vas a aprobar el examen.",
+    "promptGloss": {
+      "de": "Ich bin sicher, dass du die Prüfung bestehen wirst.",
+      "en": "I'm sure that you're going to pass the exam."
+    },
+    "options": ["que", "porque", "aunque"],
+    "answer": "que",
+    "explain": {
+      "de": "Die unterordnende Konjunktion 'que' = dass leitet den abhängigen Nebensatz ein. 'porque' (weil) und 'aunque' (obwohl) hätten eine andere Bedeutung.",
+      "en": "The subordinating conjunction 'que' = that introduces the dependent clause. 'porque' (because) and 'aunque' (although) would change the meaning."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Compramos las entradas ___ fuimos directamente al cine.",
+    "promptGloss": {
+      "de": "Wir kauften die Tickets und gingen direkt ins Kino.",
+      "en": "We bought the tickets and went straight to the cinema."
+    },
+    "options": ["y", "que", "porque"],
+    "answer": "y",
+    "explain": {
+      "de": "Hier werden zwei gleichwertige Hauptsätze verbunden, also die beiordnende Konjunktion 'y'. 'que'/'porque' würden einen untergeordneten Nebensatz einleiten.",
+      "en": "Two equal main clauses are linked here, so the coordinating conjunction 'y'. 'que'/'porque' would introduce a subordinate clause."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No fue por dinero, ___ porque creía en el proyecto.",
+    "promptGloss": {
+      "de": "Es war nicht wegen des Geldes, sondern weil er an das Projekt glaubte.",
+      "en": "It wasn't for money, but because he believed in the project."
+    },
+    "options": ["sino", "pero", "sino que"],
+    "answer": "sino",
+    "explain": {
+      "de": "Nach der Verneinung korrigiert 'sino' direkt mit dem Nebensatz 'porque...'; da hier kein eigenes konjugiertes Verb direkt nach 'sino' steht, sondern die Konjunktion 'porque', verwendet man 'sino', nicht 'sino que'. 'pero' wäre keine Korrektur.",
+      "en": "After the negation, 'sino' corrects directly with the 'porque...' clause; since 'porque' (not a bare conjugated verb) follows, use 'sino', not 'sino que'. 'pero' would not express a correction."
+    }
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Marta vive con ___ padres en Sevilla.",
+    "promptGloss": {
+      "de": "Marta wohnt mit ihren Eltern in Sevilla.",
+      "en": "Marta lives with her parents in Seville."
+    },
+    "options": ["su", "sus", "suyos"],
+    "answer": "sus",
+    "explain": {
+      "de": "Der Begleiter richtet sich nach dem Nomen, nicht nach dem Besitzer: 'padres' ist Plural, also 'sus'. 'Su' wäre Singular; 'suyos' ist die betonte Form und steht nicht vor dem Nomen.",
+      "en": "The possessive agrees with the noun, not the owner: 'padres' is plural, so 'sus'. 'Su' is singular; 'suyos' is the stressed form and does not go before the noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esta es la casa de Pablo. Es ___ casa.",
+    "promptGloss": {
+      "de": "Das ist Pablos Haus. Es ist sein Haus.",
+      "en": "This is Pablo's house. It is his house."
+    },
+    "options": ["su", "sus", "suya"],
+    "answer": "su",
+    "explain": {
+      "de": "'Su' bedeutet sein/ihr/Ihr und gleicht sich nur im Numerus an: 'casa' ist Singular, also 'su'. Es bleibt unverändert, egal ob der Besitzer männlich ist.",
+      "en": "'Su' means his/her/your and only agrees in number: 'casa' is singular, so 'su'. It stays the same regardless of the owner's gender."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Tengo dos gatos. ___ gatos duermen todo el día. (Numerus angleichen)",
+    "promptGloss": {
+      "de": "Ich habe zwei Katzen. Meine Katzen schlafen den ganzen Tag.",
+      "en": "I have two cats. My cats sleep all day."
+    },
+    "answer": "Mis",
+    "explain": {
+      "de": "Der Plural des Begleiters hängt einfach ein -s an: mi/mis. Da 'gatos' Plural ist, heißt es 'mis gatos'.",
+      "en": "The plural of the possessive simply adds -s: mi/mis. Since 'gatos' is plural, it is 'mis gatos'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Dónde está ___ coche? No lo encuentro en el aparcamiento.",
+    "promptGloss": {
+      "de": "Wo ist dein Auto? Ich finde es auf dem Parkplatz nicht.",
+      "en": "Where is your car? I can't find it in the parking lot."
+    },
+    "options": ["tu", "tú", "tuyo"],
+    "answer": "tu",
+    "explain": {
+      "de": "Der Begleiter 'tu' (dein) steht ohne Akzent vor dem Nomen. 'Tú' mit Akzent ist das Personalpronomen (du); 'tuyo' ist die betonte Form.",
+      "en": "The possessive 'tu' (your) has no accent and stands before the noun. 'Tú' with an accent is the subject pronoun (you); 'tuyo' is the stressed form."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Vivimos en una ciudad pequeña. ___ ciudad es muy tranquila. (nuestro/-a, Genus + Numerus)",
+    "promptGloss": {
+      "de": "Wir wohnen in einer kleinen Stadt. Unsere Stadt ist sehr ruhig.",
+      "en": "We live in a small town. Our town is very quiet."
+    },
+    "answer": "Nuestra",
+    "explain": {
+      "de": "'Nuestro' verändert sich nach Genus UND Numerus. 'Ciudad' ist feminin Singular, daher 'nuestra' (nicht 'nuestro').",
+      "en": "'Nuestro' changes for gender AND number. 'Ciudad' is feminine singular, so 'nuestra' (not 'nuestro')."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Os presento a ___ hijas, Ana y Lucía.",
+    "promptGloss": {
+      "de": "Ich stelle euch unsere Töchter vor, Ana und Lucía.",
+      "en": "Let me introduce our daughters, Ana and Lucía."
+    },
+    "options": ["nuestras", "nuestros", "nuestra"],
+    "answer": "nuestras",
+    "explain": {
+      "de": "'Hijas' ist feminin Plural, also passt sich 'nuestro' in Genus und Numerus an: 'nuestras'. 'Nuestros' wäre maskulin, 'nuestra' Singular.",
+      "en": "'Hijas' is feminine plural, so 'nuestro' agrees in gender and number: 'nuestras'. 'Nuestros' would be masculine, 'nuestra' singular."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Carlos es ___, lo conozco desde la infancia.",
+    "promptGloss": {
+      "de": "Carlos ist ein Freund von mir, ich kenne ihn von Kindheit an.",
+      "en": "Carlos is a friend of mine, I've known him since childhood."
+    },
+    "options": ["un amigo mío", "mi amigo", "un mi amigo"],
+    "answer": "un amigo mío",
+    "explain": {
+      "de": "Nach dem Nomen steht die betonte Form: 'un amigo mío' (ein Freund von mir). 'Un mi amigo' ist falsch, weil unbetontes 'mi' nie nach einem Artikel steht.",
+      "en": "After the noun the stressed form is used: 'un amigo mío' (a friend of mine). 'Un mi amigo' is wrong because unstressed 'mi' never follows an article."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "—¿De quién es este paraguas? —Es ___. (betonte Form nach 'ser', männlicher Besitz: yo)",
+    "promptGloss": {
+      "de": "—Wem gehört dieser Regenschirm? —Es ist meiner.",
+      "en": "—Whose umbrella is this? —It's mine."
+    },
+    "answer": "mío",
+    "explain": {
+      "de": "Nach 'ser' steht die betonte Form ohne Artikel und gleicht sich an: 'paraguas' ist maskulin Singular, also 'mío'. 'Mi' (unbetont) kann nicht allein nach 'ser' stehen.",
+      "en": "After 'ser' the stressed form is used without an article and agrees: 'paraguas' is masculine singular, so 'mío'. Unstressed 'mi' cannot stand alone after 'ser'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Tu habitación está limpia, pero ___ está hecha un desastre.",
+    "promptGloss": {
+      "de": "Dein Zimmer ist sauber, aber meins ist ein totales Chaos.",
+      "en": "Your room is clean, but mine is a total mess."
+    },
+    "options": ["la mía", "el mío", "mía"],
+    "answer": "la mía",
+    "explain": {
+      "de": "Ersetzt das Pronomen das Nomen, steht Artikel + betonte Form, beide angeglichen: 'habitación' ist feminin Singular, also 'la mía'. 'El mío' wäre maskulin.",
+      "en": "When the pronoun replaces the noun, use article + stressed form, both agreeing: 'habitación' is feminine singular, so 'la mía'. 'El mío' would be masculine."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mis llaves están aquí. ¿Dónde están ___? (Pronomen für 'deine Schlüssel': Artikel + betonte Form)",
+    "promptGloss": {
+      "de": "Meine Schlüssel sind hier. Wo sind deine?",
+      "en": "My keys are here. Where are yours?"
+    },
+    "answer": "las tuyas",
+    "explain": {
+      "de": "Das Pronomen ersetzt 'llaves' (feminin Plural), daher Artikel + betonte Form in Genus und Numerus: 'las tuyas'. 'Los tuyos' wäre maskulin.",
+      "en": "The pronoun replaces 'llaves' (feminine plural), so article + stressed form agreeing in gender and number: 'las tuyas'. 'Los tuyos' would be masculine."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Antes de salir, María se puso ___ abrigo porque hacía frío.",
+    "promptGloss": {
+      "de": "Bevor sie ging, zog María ihren Mantel an, weil es kalt war.",
+      "en": "Before leaving, María put on her coat because it was cold."
+    },
+    "options": ["su", "suyo", "la su"],
+    "answer": "su",
+    "explain": {
+      "de": "Vor dem Nomen steht der unbetonte Begleiter 'su' (ihr). 'Suyo' ist die betonte Form (nach dem Nomen/Pronomen); 'la su' gibt es im modernen Spanisch nicht.",
+      "en": "Before the noun the unstressed possessive 'su' (her) is used. 'Suyo' is the stressed form (after the noun/as pronoun); 'la su' does not exist in modern Spanish."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esta no es mi mochila, la ___ es azul y esta es negra.",
+    "promptGloss": {
+      "de": "Das ist nicht mein Rucksack, meiner ist blau und dieser ist schwarz.",
+      "en": "This isn't my backpack, mine is blue and this one is black."
+    },
+    "options": ["mía", "mío", "mi"],
+    "answer": "mía",
+    "explain": {
+      "de": "Nach dem Artikel 'la' steht die betonte Form, die sich nach 'mochila' (feminin) richtet: 'la mía'. 'Mío' wäre maskulin, 'mi' ist unbetont und nie nach Artikel.",
+      "en": "After the article 'la' the stressed form agrees with 'mochila' (feminine): 'la mía'. 'Mío' would be masculine, and unstressed 'mi' never follows an article."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Pedro y Luis comparten piso; ___ apartamento está en el centro. (Besitzer: ellos)",
+    "promptGloss": {
+      "de": "Pedro und Luis teilen sich eine Wohnung; ihr Apartment liegt im Zentrum.",
+      "en": "Pedro and Luis share a flat; their apartment is in the center."
+    },
+    "answer": "su",
+    "explain": {
+      "de": "Auch bei mehreren Besitzern (ellos) richtet sich der Begleiter nach dem Nomen, nicht nach dem Besitzer: 'apartamento' ist Singular, also 'su' (nicht 'sus').",
+      "en": "Even with several owners (ellos), the possessive agrees with the noun, not the owner: 'apartamento' is singular, so 'su' (not 'sus')."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Me encanta ___ jardín; las rosas que plantamos huelen de maravilla.",
+    "promptGloss": {
+      "de": "Ich liebe unseren Garten; die Rosen, die wir gepflanzt haben, duften herrlich.",
+      "en": "I love our garden; the roses we planted smell wonderful."
+    },
+    "options": ["nuestro", "nuestra", "nuestros"],
+    "answer": "nuestro",
+    "explain": {
+      "de": "'Jardín' ist maskulin Singular, daher 'nuestro'. Anders als 'mi/tu/su' verändert sich 'nuestro' auch nach Genus, deshalb wäre 'nuestra' hier falsch.",
+      "en": "'Jardín' is masculine singular, so 'nuestro'. Unlike 'mi/tu/su', 'nuestro' also changes for gender, so 'nuestra' would be wrong here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Aquí tienes los libros: estos son los tuyos y aquellos son ___.",
+    "promptGloss": {
+      "de": "Hier sind die Bücher: diese sind deine und jene sind seine/ihre.",
+      "en": "Here are the books: these are yours and those are his/hers."
+    },
+    "options": ["los suyos", "los suyo", "suyos"],
+    "answer": "los suyos",
+    "explain": {
+      "de": "Das Pronomen ersetzt 'libros' (maskulin Plural): Artikel + betonte Form, beide angeglichen, also 'los suyos'. Ohne Artikel ('suyos') wäre es kein vollständiges Pronomen hier.",
+      "en": "The pronoun replaces 'libros' (masculine plural): article + stressed form, both agreeing, so 'los suyos'. Without the article ('suyos') it would not be a full pronoun here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "—Tus padres son muy amables. —Sí, y ___ también lo son. (Pronomen für 'meine [Eltern]')",
+    "promptGloss": {
+      "de": "—Deine Eltern sind sehr nett. —Ja, und meine auch.",
+      "en": "—Your parents are very kind. —Yes, and mine are too."
+    },
+    "answer": "los míos",
+    "explain": {
+      "de": "Das Pronomen ersetzt 'padres' (maskulin Plural), daher Artikel + betonte Form: 'los míos'. 'Mis' allein steht nur als Begleiter vor einem Nomen.",
+      "en": "The pronoun replaces 'padres' (masculine plural), so article + stressed form: 'los míos'. 'Mis' alone only works as a possessive before a noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Antes de la reunión, los empleados recogieron ___ documentos de la mesa.",
+    "promptGloss": {
+      "de": "Vor der Besprechung sammelten die Angestellten ihre Dokumente vom Tisch ein.",
+      "en": "Before the meeting, the employees collected their documents from the table."
+    },
+    "options": ["sus", "su", "suyos"],
+    "answer": "sus",
+    "explain": {
+      "de": "Der Begleiter richtet sich nach dem Nomen: 'documentos' ist Plural, also 'sus' (ihre). 'Su' wäre Singular; 'suyos' ist die betonte Form und steht nicht direkt vor dem Nomen.",
+      "en": "The possessive agrees with the noun: 'documentos' is plural, so 'sus' (their). 'Su' is singular; 'suyos' is the stressed form and does not go directly before the noun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Este móvil no funciona, pero el ___ va perfectamente. (Pronomen: 'unseres', Besitzer nosotros)",
+    "promptGloss": {
+      "de": "Dieses Handy funktioniert nicht, aber unseres läuft einwandfrei.",
+      "en": "This phone doesn't work, but ours works perfectly."
+    },
+    "answer": "nuestro",
+    "explain": {
+      "de": "Auch als Pronomen mit Artikel gleicht sich 'nuestro' in Genus und Numerus an 'móvil' (maskulin Singular) an: 'el nuestro'. Die betonte Form ist hier identisch mit dem Begleiter, anders als bei mío/tuyo/suyo.",
+      "en": "As a pronoun with an article, 'nuestro' agrees in gender and number with 'móvil' (masculine singular): 'el nuestro'. Its stressed form is identical to the unstressed one, unlike mío/tuyo/suyo."
+    }
+  }
+]

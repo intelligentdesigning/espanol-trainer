@@ -1,0 +1,219 @@
+[
+  {
+    "kind": "fill",
+    "prompt": "El verbo \"hablar\" en gerundio es ___.",
+    "promptGloss": {
+      "de": "Das Verb \"hablar\" im Gerundio lautet ___.",
+      "en": "The verb \"hablar\" in the gerund is ___."
+    },
+    "answer": "hablando",
+    "explain": {
+      "de": "Verben auf -ar bilden das Gerundio mit der Endung -ando: habl- + -ando = hablando.",
+      "en": "-ar verbs form the gerund with -ando: habl- + -ando = hablando."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El verbo \"comer\" en gerundio es ___.",
+    "promptGloss": {
+      "de": "Das Verb \"comer\" im Gerundio lautet ___.",
+      "en": "The verb \"comer\" in the gerund is ___."
+    },
+    "answer": "comiendo",
+    "explain": {
+      "de": "Verben auf -er bilden das Gerundio mit -iendo: com- + -iendo = comiendo. Es heißt nicht \"comando\".",
+      "en": "-er verbs form the gerund with -iendo: com- + -iendo = comiendo. It is not \"comando\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El gerundio de \"vivir\" es ___.",
+    "promptGloss": {
+      "de": "Das Gerundio von \"vivir\" ist ___.",
+      "en": "The gerund of \"vivir\" is ___."
+    },
+    "options": ["viviendo", "vivando", "viviente"],
+    "answer": "viviendo",
+    "explain": {
+      "de": "-er und -ir nehmen beide -iendo, also viviendo. \"vivando\" wäre die -ar-Endung (falsch) und \"viviente\" ist ein Adjektiv/Partizip, kein Gerundio.",
+      "en": "Both -er and -ir take -iendo, so viviendo. \"vivando\" uses the -ar ending (wrong) and \"viviente\" is an adjective, not the gerund."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ahora mismo (yo) ___ comiendo, no puedo hablar.",
+    "promptGloss": {
+      "de": "Genau jetzt esse ich gerade, ich kann nicht reden.",
+      "en": "Right now I'm eating, I can't talk."
+    },
+    "options": ["estoy", "soy", "tengo"],
+    "answer": "estoy",
+    "explain": {
+      "de": "Die Verlaufsform bildet man mit \"estar\" + Gerundio (estoy comiendo). \"ser\" (soy) ist hier falsch, das Hilfsverb der Verlaufsform ist immer estar.",
+      "en": "The progressive uses \"estar\" + gerund (estoy comiendo). \"ser\" (soy) is wrong; the progressive auxiliary is always estar."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Los niños están ___ (dormir) en su habitación.",
+    "promptGloss": {
+      "de": "Die Kinder schlafen gerade in ihrem Zimmer.",
+      "en": "The children are sleeping in their room."
+    },
+    "answer": "durmiendo",
+    "explain": {
+      "de": "\"dormir\" ist unregelmäßig: im Gerundio wird das o zu u, also durmiendo (nicht \"dormiendo\").",
+      "en": "\"dormir\" is irregular: the o becomes u in the gerund, giving durmiendo (not \"dormiendo\")."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mi abuelo está ___ la verdad sobre lo que pasó.",
+    "promptGloss": {
+      "de": "Mein Großvater sagt gerade die Wahrheit über das, was passiert ist.",
+      "en": "My grandfather is telling the truth about what happened."
+    },
+    "options": ["diciendo", "deciendo", "dijiendo"],
+    "answer": "diciendo",
+    "explain": {
+      "de": "\"decir\" hat den Stammwechsel e→i im Gerundio: diciendo. \"deciendo\" (ohne Wechsel) und \"dijiendo\" sind beide falsch.",
+      "en": "\"decir\" has the stem change e→i in the gerund: diciendo. \"deciendo\" (no change) and \"dijiendo\" are both wrong."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Voy ___ (ir) poco a poco, ya casi llego.",
+    "promptGloss": {
+      "de": "Ich komme nach und nach voran, ich bin fast da.",
+      "en": "I'm getting there bit by bit, I'm almost there."
+    },
+    "answer": "yendo",
+    "explain": {
+      "de": "Das Gerundio von \"ir\" ist unregelmäßig: yendo (mit y-, weil sonst nur \"iendo\" stünde).",
+      "en": "The gerund of \"ir\" is irregular: yendo (with y-, since plain \"iendo\" would be impossible)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Aprendo español ___ películas con subtítulos.",
+    "promptGloss": {
+      "de": "Ich lerne Spanisch, indem ich Filme mit Untertiteln schaue.",
+      "en": "I learn Spanish by watching films with subtitles."
+    },
+    "options": ["viendo", "para ver", "ver"],
+    "answer": "viendo",
+    "explain": {
+      "de": "Allein stehend drückt das Gerundio die Art und Weise aus: \"wie/wodurch?\" → viendo (indem ich schaue). \"para ver\" wäre der Zweck und der bloße Infinitiv passt hier nicht.",
+      "en": "On its own the gerund expresses manner: \"how/by what means?\" → viendo (by watching). \"para ver\" would express purpose and the bare infinitive doesn't fit here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El gerundio de \"vivir\" cuando decimos \"nosotros\" es ___.",
+    "promptGloss": {
+      "de": "Das Gerundio von \"vivir\", wenn wir \"wir\" sagen, ist ___.",
+      "en": "The gerund of \"vivir\" when we say \"we\" is ___."
+    },
+    "options": ["viviendo", "viviendos", "viviemos"],
+    "answer": "viviendo",
+    "explain": {
+      "de": "Das Gerundio hat nur EINE Form für alle Personen; es ändert sich nie. Die Person trägt das Hilfsverb (estamos viviendo), nicht das Gerundio selbst.",
+      "en": "The gerund has only ONE form for all persons; it never changes. The person is carried by the helper verb (estamos viviendo), not the gerund itself."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿Qué ___ (estar, vosotros) haciendo en la cocina?",
+    "promptGloss": {
+      "de": "Was macht ihr gerade in der Küche?",
+      "en": "What are you (all) doing in the kitchen?"
+    },
+    "answer": "estáis",
+    "explain": {
+      "de": "Die Person der Verlaufsform steckt im konjugierten \"estar\": vosotros → estáis. Das Gerundio \"haciendo\" bleibt dabei unverändert.",
+      "en": "The person of the progressive sits in conjugated \"estar\": vosotros → estáis. The gerund \"haciendo\" stays unchanged."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Normalmente ___ a las ocho, pero hoy no tengo hambre todavía.",
+    "promptGloss": {
+      "de": "Normalerweise esse ich um acht, aber heute habe ich noch keinen Hunger.",
+      "en": "I normally eat at eight, but today I'm not hungry yet."
+    },
+    "options": ["como", "estoy comiendo", "estaré comiendo"],
+    "answer": "como",
+    "explain": {
+      "de": "\"Normalmente\" signalisiert eine Gewohnheit, dafür nimmt man das einfache Präsens (como). Die Verlaufsform estar+Gerundio steht nur für eine genau jetzt laufende Handlung.",
+      "en": "\"Normalmente\" signals a habit, which takes the simple present (como). The progressive estar+gerund is only for an action happening right now."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hoy llueve, así que los turistas no ___ por la playa en este momento.",
+    "promptGloss": {
+      "de": "Heute regnet es, deshalb spazieren die Touristen gerade nicht am Strand.",
+      "en": "It's raining today, so the tourists aren't walking along the beach right now."
+    },
+    "options": ["están paseando", "son paseando", "están paseado"],
+    "answer": "están paseando",
+    "explain": {
+      "de": "\"en este momento\" verlangt die Verlaufsform estar + Gerundio: están paseando. \"son\" ist das falsche Hilfsverb und \"paseado\" ist das Partizip, nicht das Gerundio.",
+      "en": "\"en este momento\" calls for the progressive estar + gerund: están paseando. \"son\" is the wrong auxiliary and \"paseado\" is the past participle, not the gerund."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Estás ___ (ser) muy amable conmigo hoy, gracias.",
+    "promptGloss": {
+      "de": "Du bist heute sehr nett zu mir, danke.",
+      "en": "You're being very kind to me today, thanks."
+    },
+    "answer": "siendo",
+    "explain": {
+      "de": "Auch \"ser\" hat ein Gerundio: siendo. Mit estar + siendo betont man ein gerade aktuelles, vorübergehendes Verhalten.",
+      "en": "Even \"ser\" has a gerund: siendo. With estar + siendo you stress a temporary behaviour happening right now."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mañana a esta hora ya ___ a Madrid; sale el tren a las seis.",
+    "promptGloss": {
+      "de": "Morgen um diese Zeit fahre ich schon nach Madrid; der Zug fährt um sechs ab.",
+      "en": "Tomorrow at this time I'll already be travelling to Madrid; the train leaves at six."
+    },
+    "options": ["viajo", "estoy viajando", "viajando"],
+    "answer": "viajo",
+    "explain": {
+      "de": "Für eine geplante Zukunft genügt das Präsens mit Zeitangabe (mañana ... viajo). \"estoy viajando\" beschreibt etwas, das gerade JETZT abläuft, was hier nicht gemeint ist, und \"viajando\" allein kann ohne Hilfsverb nicht Satzprädikat sein.",
+      "en": "For a planned future, the present with a time marker suffices (mañana ... viajo). \"estoy viajando\" describes something happening right NOW, which isn't meant here, and \"viajando\" alone can't be the main predicate without an auxiliary."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El niño entró en casa ___ porque tenía mucha prisa.",
+    "promptGloss": {
+      "de": "Das Kind kam angerannt ins Haus, weil es sehr in Eile war.",
+      "en": "The child came into the house running because he was in a great hurry."
+    },
+    "options": ["corriendo", "corrido", "corriente"],
+    "answer": "corriendo",
+    "explain": {
+      "de": "Hier beschreibt das Gerundio die Art und Weise des Eintretens (wie? rennend) → corriendo. \"corrido\" ist das Partizip und \"corriente\" ein Adjektiv/Substantiv.",
+      "en": "Here the gerund describes the manner of entering (how? running) → corriendo. \"corrido\" is the participle and \"corriente\" an adjective/noun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El gerundio de \"leer\" se escribe con \"y\": ___.",
+    "promptGloss": {
+      "de": "Das Gerundio von \"leer\" schreibt man mit \"y\": ___.",
+      "en": "The gerund of \"leer\" is written with a \"y\": ___."
+    },
+    "answer": "leyendo",
+    "explain": {
+      "de": "Wenn der Stamm auf einen Vokal endet (le-), wird das i des -iendo zu y: leyendo (nicht \"leiendo\"). Dasselbe gilt z. B. für oír → oyendo.",
+      "en": "When the stem ends in a vowel (le-), the i of -iendo turns into y: leyendo (not \"leiendo\"). The same applies to e.g. oír → oyendo."
+    }
+  }
+]

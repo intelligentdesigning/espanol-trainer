@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
-import { getStats, getRecentSessions, resetAll, type Stats } from "@/lib/storage/db";
+import { getStats, getRecentSessions, resetAll, getDailyStats, getDailyHistory, type Stats, type DailyStats } from "@/lib/storage/db";
 import { loadMastery, type MasterySnapshot, type CatId } from "@/lib/progress";
 import { ScoreRing } from "@/components/ScoreRing";
 import type { SessionRecord } from "@/lib/types";
@@ -14,11 +14,15 @@ export default function StatsPage() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [sessions, setSessions] = useState<SessionRecord[]>([]);
   const [snap, setSnap] = useState<MasterySnapshot | null>(null);
+  const [today, setToday] = useState<DailyStats | null>(null);
+  const [history, setHistory] = useState<{ date: string; total: number; correct: number }[]>([]);
 
   const refresh = () => {
     getStats().then(setStats);
     getRecentSessions(100).then(setSessions);
     loadMastery().then(setSnap);
+    getDailyStats().then(setToday);
+    getDailyHistory(30).then(setHistory);
   };
   useEffect(refresh, []);
 
@@ -26,6 +30,17 @@ export default function StatsPage() {
   const bestRound = sessions.length
     ? Math.round(Math.max(...sessions.map((s) => (s.total ? s.correct / s.total : 0))) * 100)
     : 0;
+  // today's practice minutes (from session durations) + day-streak
+  const sameDay = (ts: number) => new Date(ts).toDateString() === new Date().toDateString();
+  const minutesToday = Math.round(sessions.filter((s) => sameDay(s.endedAt)).reduce((a, s) => a + (s.endedAt - s.startedAt), 0) / 60000);
+  let streak = 0;
+  for (let i = history.length - 1; i >= 0; i--) { if (history[i].total > 0) streak++; else break; }
+  const last7 = history.slice(-7);
+  const maxDay = Math.max(1, ...last7.map((d) => d.total));
+  const weekday = (date: string) => {
+    const [y, m, d] = date.split("-").map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString(locale === "de" ? "de-DE" : "en-US", { weekday: "short" });
+  };
   const catLabel: Record<CatId, string> = {
     common: t("vocab.cat.common"), verbs: t("vocab.cat.verbs"), nouns: t("vocab.cat.nouns"), adj: t("vocab.cat.adj"),
   };
@@ -38,6 +53,52 @@ export default function StatsPage() {
         <p className="text-muted">{t("stats.none")}</p>
       ) : (
         <>
+          {/* today — how much practiced today (right/wrong/total, right wins on retry) */}
+          {today && (
+            <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <div className="flex items-center justify-between">
+                <h2 className="font-semibold">{t("stats.today")}</h2>
+                <span className="text-xs text-muted">
+                  {streak > 0 && <>{streak} {t("stats.streak")}</>}
+                  {streak > 0 && minutesToday > 0 && " · "}
+                  {minutesToday > 0 && <>{minutesToday} {t("stats.minutes")}</>}
+                </span>
+              </div>
+              <div className="mt-3 grid grid-cols-3 gap-3 text-center">
+                <div>
+                  <div className="text-3xl font-bold text-green-600 dark:text-green-400">{today.correct}</div>
+                  <div className="text-xs text-muted">{t("stats.todayCorrect")}</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-red-600 dark:text-red-400">{today.wrong}</div>
+                  <div className="text-xs text-muted">{t("stats.todayWrong")}</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold">{today.total}</div>
+                  <div className="text-xs text-muted">{t("stats.todayTotal")}</div>
+                </div>
+              </div>
+              {/* 7-day mini chart */}
+              <div className="mt-4">
+                <div className="mb-1.5 text-xs text-muted">{t("stats.last7")}</div>
+                <div className="flex h-16 items-end gap-1.5">
+                  {last7.map((d) => (
+                    <div key={d.date} className="flex flex-1 flex-col items-center gap-1">
+                      <div className="flex w-full flex-1 items-end">
+                        <div
+                          className="w-full rounded-t bg-vocab/70 transition-all"
+                          style={{ height: `${d.total ? Math.max(8, Math.round((d.total / maxDay) * 100)) : 3}%`, opacity: d.total ? 1 : 0.4 }}
+                          title={`${d.correct}/${d.total}`}
+                        />
+                      </div>
+                      <span className="text-[10px] text-muted">{weekday(d.date)}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* mastery headline — the "high score" */}
           {snap && (
             <div className="flex flex-col items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm sm:flex-row sm:gap-6">

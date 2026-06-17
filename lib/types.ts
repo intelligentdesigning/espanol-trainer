@@ -124,6 +124,7 @@ export interface TenseTopic {
   endings?: { label: LocalizedText; ar: string[]; er: string[]; ir: string[] };
   examples: GrammarExample[];
   practiceTenseKey?: string; // links to the conjugation trainer
+  practice?: PracticeItem[]; // scored rules/usage test for this tense
   available: boolean;        // false => listed but "coming soon"
 }
 

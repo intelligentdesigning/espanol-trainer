@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "fill",
+    "prompt": "Vivimos en una ___ muy mona cerca de la playa. (casa)",
+    "promptGloss": {
+      "de": "Wir wohnen in einem sehr niedlichen kleinen Haus in Strandnähe.",
+      "en": "We live in a very cute little house near the beach."
+    },
+    "answer": "casita",
+    "explain": {
+      "de": "Bei Wörtern auf -o/-a wird der Endvokal durch -ito/-ita ersetzt: casa → casita. 'casaita' wäre falsch, da das -a wegfällt.",
+      "en": "Words ending in -o/-a replace the final vowel with -ito/-ita: casa → casita. 'casaita' is wrong because the -a is dropped."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¡Mira qué ___ tan bonito tiene la vecina!",
+    "promptGloss": {
+      "de": "Schau, was für einen süßen kleinen Hund die Nachbarin hat!",
+      "en": "Look what a cute little dog the neighbor has!"
+    },
+    "options": ["perrito", "perroito", "perrcito", "perrillo"],
+    "answer": "perrito",
+    "explain": {
+      "de": "perro endet auf -o, also fällt das -o weg und es kommt -ito: perro → perrito. 'perroito' behält fälschlich das -o, und -illo passt hier nicht (liebevoll, nicht abwertend).",
+      "en": "perro ends in -o, so the -o drops and -ito is added: perro → perrito. 'perroito' wrongly keeps the -o, and -illo doesn't fit here (affectionate, not dismissive)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Te apetece un ___ antes de salir?",
+    "promptGloss": {
+      "de": "Hast du Lust auf einen kleinen Kaffee, bevor wir losgehen?",
+      "en": "Do you fancy a little coffee before we head out?"
+    },
+    "options": ["cafecito", "cafeito", "cafito", "cafezito"],
+    "answer": "cafecito",
+    "explain": {
+      "de": "Wörter auf -e nehmen meist -cito statt -ito: café → cafecito. 'cafeito' ignoriert die -cito-Regel für Endung -e.",
+      "en": "Words ending in -e usually take -cito instead of -ito: café → cafecito. 'cafeito' ignores the -cito rule for words ending in -e."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Espérame un ___, ya casi termino. (rato)",
+    "promptGloss": {
+      "de": "Warte einen Moment auf mich, ich bin gleich fertig.",
+      "en": "Wait a little moment for me, I'm almost done."
+    },
+    "answer": "ratito",
+    "explain": {
+      "de": "Obwohl die -cito-Regel auf -e/-n/-r abzielt, ist rato → ratito eine bekannte Ausnahme: es endet auf -o und nimmt regulär -ito. 'ratico' ist regional, aber Standard ist ratito.",
+      "en": "Although the -cito rule targets -e/-n/-r, rato → ratito is a known exception: it ends in -o and takes regular -ito. 'ratico' is regional, but the standard form is ratito."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Le pusieron un ___ de música tranquila al bebé. (canción)",
+    "promptGloss": {
+      "de": "Sie spielten dem Baby ein kleines Lied mit ruhiger Musik vor.",
+      "en": "They played the baby a little song with calm music."
+    },
+    "options": ["cancioncita", "cancionita", "canciocita", "cancioncilla"],
+    "answer": "cancioncita",
+    "explain": {
+      "de": "Wörter auf -n nehmen -cito/-cita: canción → cancioncita. 'cancionita' ignoriert die -cita-Regel für Endung -n.",
+      "en": "Words ending in -n take -cito/-cita: canción → cancioncita. 'cancionita' ignores the -cita rule for words ending in -n."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El ___ juega solo en el jardín. (chico)",
+    "promptGloss": {
+      "de": "Der kleine Junge spielt allein im Garten.",
+      "en": "The little boy plays alone in the garden."
+    },
+    "answer": "chiquito",
+    "explain": {
+      "de": "Um den harten k-Klang zu erhalten, wird c vor -ito zu qu: chico → chiquito. 'chicito' würde mit weichem 'ci'-Klang gesprochen und ist falsch.",
+      "en": "To keep the hard k-sound, c becomes qu before -ito: chico → chiquito. 'chicito' would be pronounced with a soft 'ci' sound and is wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Solo comí un ___ de pan antes de irme.",
+    "promptGloss": {
+      "de": "Ich aß nur ein kleines Stück Brot, bevor ich ging.",
+      "en": "I only ate a little piece of bread before leaving."
+    },
+    "options": ["pedacito", "pedazito", "pedacillo", "pedazcito"],
+    "answer": "pedacito",
+    "explain": {
+      "de": "Das z vor dem hellen Vokal von -ito wird zu c: pedazo → pedacito. 'pedazito' verletzt die Rechtschreibregel z→c.",
+      "en": "The z before the front vowel of -ito becomes c: pedazo → pedacito. 'pedazito' violates the z→c spelling rule."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Detrás de la casa hay un ___ con peces de colores. (lago)",
+    "promptGloss": {
+      "de": "Hinter dem Haus gibt es einen kleinen See mit bunten Fischen.",
+      "en": "Behind the house there is a little lake with colorful fish."
+    },
+    "answer": "laguito",
+    "explain": {
+      "de": "Um den harten g-Klang zu bewahren, wird g vor -ito zu gu: lago → laguito. 'lagito' würde wie 'lachito' klingen und ist falsch.",
+      "en": "To preserve the hard g-sound, g becomes gu before -ito: lago → laguito. 'lagito' would sound like 'lahito' and is wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No te preocupes, es solo un ___ sin importancia.",
+    "promptGloss": {
+      "de": "Mach dir keine Sorgen, es ist nur ein kleines, unbedeutendes Problem.",
+      "en": "Don't worry, it's just a minor, unimportant problem."
+    },
+    "options": ["problemilla", "problemita", "problemón", "problemazo"],
+    "answer": "problemilla",
+    "explain": {
+      "de": "-illo/-illa verkleinert oft mit leicht abwertendem Ton ('nur eine Kleinigkeit'): problema → problemilla. -ón und -azo wären Augmentative und drehen die Bedeutung ins Gegenteil.",
+      "en": "-illo/-illa diminishes with a slightly dismissive tone ('just a trifle'): problema → problemilla. -ón and -azo are augmentatives and would reverse the meaning."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Para el almuerzo me preparé un ___ de jamón.",
+    "promptGloss": {
+      "de": "Zum Mittagessen machte ich mir ein Schinkenbrötchen.",
+      "en": "For lunch I made myself a ham sandwich."
+    },
+    "options": ["bocadillo", "bocadito", "bocacito", "bocadón"],
+    "answer": "bocadillo",
+    "explain": {
+      "de": "bocadillo ist ein festes Wort (belegtes Brötchen), nicht 'kleiner Bissen' — die -illo-Endung bildet hier ein eigenständiges Wort. 'bocadito' (kleiner Happen) hätte eine andere Bedeutung.",
+      "en": "bocadillo is a fixed word (a filled roll), not 'small bite' — the -illo ending forms an independent word here. 'bocadito' (little morsel) would mean something else."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mi hermano vive en un ___ enorme con jardín y piscina. (casa, aumentativo -ón)",
+    "promptGloss": {
+      "de": "Mein Bruder wohnt in einem riesigen Haus mit Garten und Pool.",
+      "en": "My brother lives in a huge house with a garden and pool."
+    },
+    "answer": "casón",
+    "explain": {
+      "de": "Das Augmentativ -ón vergrößert und ändert hier das Geschlecht: la casa → el casón (maskulin). Deshalb steht auch 'un' und 'enorme'. 'casona' (f.) existiert, aber das Modell hier ist der maskuline casón.",
+      "en": "The augmentative -ón enlarges and here changes gender: la casa → el casón (masculine). That's why 'un' and 'enorme' agree. 'casona' (f.) exists too, but the model here is the masculine casón."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¡Qué ___ eres! Nunca cambias de opinión.",
+    "promptGloss": {
+      "de": "Was für ein Dickschädel du bist! Du änderst nie deine Meinung.",
+      "en": "What a stubborn head you are! You never change your mind."
+    },
+    "options": ["cabezón", "cabecita", "cabezazo", "cabezilla"],
+    "answer": "cabezón",
+    "explain": {
+      "de": "-ón verstärkt und beschreibt hier eine Eigenschaft (sturer Dickkopf): cabeza → cabezón. 'cabezazo' wäre ein Kopfstoß, 'cabecita' ein kleiner Kopf — beides passt nicht zur Bedeutung.",
+      "en": "-ón intensifies and here describes a trait (a stubborn person): cabeza → cabezón. 'cabezazo' would be a headbutt and 'cabecita' a little head — neither fits the meaning."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "En la pelea le dio un fuerte ___ en la cara. (golpe, aumentativo de impacto -azo)",
+    "promptGloss": {
+      "de": "Im Kampf versetzte er ihm einen heftigen Schlag ins Gesicht.",
+      "en": "In the fight he gave him a hard blow to the face."
+    },
+    "answer": "golpazo",
+    "explain": {
+      "de": "-azo bezeichnet einen heftigen Schlag: golpe → golpazo (das -e fällt weg). 'golpecito' (-cito) wäre ein leichtes Klopfen und damit das Gegenteil.",
+      "en": "-azo denotes a forceful blow: golpe → golpazo (the -e drops). 'golpecito' (-cito) would be a light tap, the opposite meaning."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Recibió un ___ en las costillas durante el partido de baloncesto.",
+    "promptGloss": {
+      "de": "Er bekam während des Basketballspiels einen Ellbogenstoß in die Rippen.",
+      "en": "He got an elbow jab in the ribs during the basketball match."
+    },
+    "options": ["codazo", "codito", "codón", "codillo"],
+    "answer": "codazo",
+    "explain": {
+      "de": "-azo drückt einen Schlag mit dem genannten Körperteil aus: codo → codazo (Ellbogenstoß). 'codito' wäre ein kleiner Ellbogen und ergibt im Kontext keinen Sinn.",
+      "en": "-azo expresses a blow given with the named body part: codo → codazo (elbow jab). 'codito' would be a little elbow and makes no sense in context."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Dame solo una ___ de azúcar para el postre. (cuchara)",
+    "promptGloss": {
+      "de": "Gib mir nur einen kleinen Löffel Zucker für den Nachtisch.",
+      "en": "Give me just a little spoon of sugar for the dessert."
+    },
+    "options": ["cucharita", "cucharcita", "cucharaita", "cucharilla"],
+    "answer": "cucharita",
+    "explain": {
+      "de": "cuchara endet auf -a (nicht auf -r), also gilt die Standardregel: -a weg, -ita dran → cucharita. Die -cita-Regel greift nur bei Wörtern, die selbst auf -r enden, nicht auf -ra.",
+      "en": "cuchara ends in -a (not in -r), so the standard rule applies: drop -a, add -ita → cucharita. The -cita rule only applies to words actually ending in -r, not -ra."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El barco lleva un ___ que apenas se oye. (motor)",
+    "promptGloss": {
+      "de": "Das Boot hat einen kleinen Motor, den man kaum hört.",
+      "en": "The boat has a little motor you can barely hear."
+    },
+    "answer": "motorcito",
+    "explain": {
+      "de": "Wörter auf -r nehmen -cito: motor → motorcito. 'motorito' wäre falsch, weil die -cito-Regel bei Endung -r gilt.",
+      "en": "Words ending in -r take -cito: motor → motorcito. 'motorito' is wrong because the -cito rule applies to words ending in -r."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "La abuela es una ___ encantadora y muy cariñosa. (mujer)",
+    "promptGloss": {
+      "de": "Die Oma ist eine reizende, sehr liebevolle kleine Frau.",
+      "en": "Grandma is a charming and very affectionate little woman."
+    },
+    "options": ["mujercita", "mujerita", "mujerona", "mujercilla"],
+    "answer": "mujercita",
+    "explain": {
+      "de": "mujer endet auf -r, also -cita: mujer → mujercita (liebevoll/klein). 'mujerita' verletzt die -cita-Regel; 'mujerona' (-ona) wäre ein Augmentativ und keine Verkleinerung.",
+      "en": "mujer ends in -r, so -cita: mujer → mujercita (small/affectionate). 'mujerita' breaks the -cita rule; 'mujerona' (-ona) is an augmentative, not a diminutive."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El portero paró el ___ con una sola mano. (un disparo muy fuerte)",
+    "promptGloss": {
+      "de": "Der Torwart hielt den wuchtigen Schuss mit nur einer Hand.",
+      "en": "The goalkeeper stopped the powerful shot with one hand."
+    },
+    "options": ["pelotazo", "pelotita", "pelotón", "pelotilla"],
+    "answer": "pelotazo",
+    "explain": {
+      "de": "-azo bezeichnet einen heftigen Schlag/Treffer mit dem Gegenstand: pelota → pelotazo (wuchtiger Ballschuss). 'pelotita' (kleiner Ball) und 'pelotón' (große Gruppe) passen nicht zur Bedeutung 'wuchtiger Schuss'.",
+      "en": "-azo denotes a forceful hit with the object: pelota → pelotazo (a powerful ball strike). 'pelotita' (little ball) and 'pelotón' (a large group/squad) don't match the 'powerful shot' meaning."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Quiero un ___ de chocolate caliente antes de dormir. (poco)",
+    "promptGloss": {
+      "de": "Ich möchte ein kleines bisschen heiße Schokolade vor dem Schlafen.",
+      "en": "I want a little bit of hot chocolate before sleeping."
+    },
+    "answer": "poquito",
+    "explain": {
+      "de": "poco endet auf -o, das -o fällt weg, und c wird zu qu, um den harten Klang zu halten: poco → poquito. 'pocito' wäre mit weichem 'ci' falsch.",
+      "en": "poco ends in -o, the -o drops, and c becomes qu to keep the hard sound: poco → poquito. 'pocito' with a soft 'ci' would be wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Tras el divorcio se compró un coche deportivo: un verdadero ___.",
+    "promptGloss": {
+      "de": "Nach der Scheidung kaufte er sich einen Sportwagen: ein echtes Riesen-/Prachtauto. Wähle das Augmentativ von 'coche'.",
+      "en": "After the divorce he bought a sports car: a real big/flashy car. Pick the augmentative of 'coche'."
+    },
+    "options": ["cochazo", "cochecito", "cochecillo", "cochito"],
+    "answer": "cochazo",
+    "explain": {
+      "de": "-azo kann neben 'Schlag' auch ein beeindruckend großes/tolles Exemplar bezeichnen: coche → cochazo (ein dickes, tolles Auto). 'cochecito' (-cito, weil -e) wäre dagegen ein kleines Auto/Kinderwagen — das Gegenteil.",
+      "en": "Besides 'blow', -azo can mark an impressively big/great example: coche → cochazo (a great big car). 'cochecito' (-cito, because of -e) would instead be a little car/pram — the opposite."
+    }
+  }
+]

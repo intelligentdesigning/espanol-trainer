@@ -1,0 +1,265 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "El libro ___ estoy leyendo es muy interesante.",
+    "promptGloss": {
+      "de": "Das Buch, das ich gerade lese, ist sehr interessant.",
+      "en": "The book (that) I'm reading is very interesting."
+    },
+    "options": ["que", "quien", "el cual"],
+    "answer": "que",
+    "explain": {
+      "de": "'que' ist das unveränderliche Universal-Relativpronomen für Sachen ohne Präposition. 'quien' steht nur für Personen, 'el cual' wäre hier zu förmlich und unnötig.",
+      "en": "'que' is the invariable all-purpose relative pronoun for things with no preposition. 'quien' is only for people, and 'el cual' would be needlessly formal here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "La mujer ___ vive al lado es médica.",
+    "promptGloss": {
+      "de": "Die Frau, die nebenan wohnt, ist Ärztin.",
+      "en": "The woman who lives next door is a doctor."
+    },
+    "options": ["que", "quien", "cuya"],
+    "answer": "que",
+    "explain": {
+      "de": "Als Subjekt eines bestimmenden Relativsatzes ohne Präposition gilt auch für Personen 'que'. 'quien' braucht man hier nicht; 'cuya' drückt Besitz aus.",
+      "en": "As the subject of a restrictive clause with no preposition, people also take 'que'. 'quien' isn't needed here; 'cuya' expresses possession."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "La chica con ___ hablo todos los días se llama Marta.",
+    "promptGloss": {
+      "de": "Das Mädchen, mit dem ich jeden Tag rede, heißt Marta.",
+      "en": "The girl with whom I talk every day is named Marta."
+    },
+    "options": ["que", "quien", "quienes"],
+    "answer": "quien",
+    "explain": {
+      "de": "Nach einer Präposition steht für eine einzelne Person 'quien'. Reines 'que' ohne Artikel ist nach Präposition mit Personen nicht üblich; 'quienes' wäre Plural.",
+      "en": "After a preposition, a single person takes 'quien'. Bare 'que' after a preposition with people is not standard, and 'quienes' would be plural."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Los amigos a ___ invité a la fiesta ya han llegado.",
+    "promptGloss": {
+      "de": "Die Freunde, die ich zur Party eingeladen habe, sind schon angekommen.",
+      "en": "The friends whom I invited to the party have already arrived."
+    },
+    "options": ["quien", "quienes", "que"],
+    "answer": "quienes",
+    "explain": {
+      "de": "'amigos' ist Plural, also nach der Präposition 'a' das Pluralrelativ 'quienes'. 'quien' wäre Singular und stimmt nicht überein.",
+      "en": "'amigos' is plural, so after the preposition 'a' you need the plural 'quienes'. 'quien' would be singular and wouldn't agree."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El hombre ___ perro ladra toda la noche vive enfrente.",
+    "promptGloss": {
+      "de": "Der Mann, dessen Hund die ganze Nacht bellt, wohnt gegenüber.",
+      "en": "The man whose dog barks all night lives across the street."
+    },
+    "options": ["que", "cuyo", "cuya"],
+    "answer": "cuyo",
+    "explain": {
+      "de": "'cuyo' drückt Besitz aus und richtet sich nach dem besessenen Substantiv 'perro' (mask. Sing.). 'que' kann keinen Besitz anzeigen; 'cuya' passt nur zu femininen Substantiven.",
+      "en": "'cuyo' expresses possession and agrees with the possessed noun 'perro' (masc. sing.). 'que' cannot show possession, and 'cuya' would only fit a feminine noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Es una casa antigua ___ ventanas son enormes.",
+    "promptGloss": {
+      "de": "Es ist ein altes Haus, dessen Fenster riesig sind.",
+      "en": "It's an old house whose windows are huge."
+    },
+    "options": ["cuyo", "cuyas", "cuyos"],
+    "answer": "cuyas",
+    "explain": {
+      "de": "'cuyo' richtet sich nach dem Besessenen, nicht nach dem Besitzer: 'ventanas' ist fem. Plural, also 'cuyas'. Das Haus ist zwar feminin Sing., aber das ist irrelevant.",
+      "en": "'cuyo' agrees with the thing possessed, not the owner: 'ventanas' is feminine plural, so 'cuyas'. The house being feminine singular is irrelevant."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esta es la ciudad ___ nací y crecí.",
+    "promptGloss": {
+      "de": "Das ist die Stadt, in der ich geboren und aufgewachsen bin.",
+      "en": "This is the city where I was born and grew up."
+    },
+    "options": ["que", "donde", "quien"],
+    "answer": "donde",
+    "explain": {
+      "de": "Für Orte verwendet man das Relativ 'donde', das 'en la que' ersetzt. Reines 'que' wäre hier ohne 'en' ungrammatisch; 'quien' steht nur für Personen.",
+      "en": "For places use the relative 'donde', which replaces 'en la que'. Bare 'que' without 'en' would be ungrammatical here, and 'quien' is only for people."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No entiendo ___ quieres decir con eso.",
+    "promptGloss": {
+      "de": "Ich verstehe nicht, was du damit sagen willst.",
+      "en": "I don't understand what you mean by that."
+    },
+    "options": ["que", "lo que", "el que"],
+    "answer": "lo que",
+    "explain": {
+      "de": "Ohne vorangehendes Substantiv, mit Bezug auf eine unbestimmte Idee ('das, was'), braucht man 'lo que'. Bloßes 'que' hat hier kein Bezugswort; 'el que' setzt ein maskulines Substantiv voraus.",
+      "en": "With no preceding noun and referring to an unspecified idea ('that which'), you need 'lo que'. Bare 'que' has no antecedent here, and 'el que' implies a masculine noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ más me molesta es la falta de respeto.",
+    "promptGloss": {
+      "de": "Was mich am meisten stört, ist die Respektlosigkeit.",
+      "en": "What bothers me most is the lack of respect."
+    },
+    "options": ["Lo que", "El que", "Que"],
+    "answer": "Lo que",
+    "explain": {
+      "de": "Am Satzanfang ohne Bezugssubstantiv, für eine abstrakte Gesamtidee, steht 'Lo que' ('das, was'). 'El que' verlangt ein maskulines Substantiv, 'Que' allein kann keinen Satz so einleiten.",
+      "en": "At the start, with no antecedent noun and pointing to a whole abstract idea, use 'Lo que' ('what'). 'El que' needs a masculine noun, and 'Que' alone cannot open the clause this way."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "La razón por ___ no vine es muy personal.",
+    "promptGloss": {
+      "de": "Der Grund, aus dem ich nicht kam, ist sehr persönlich.",
+      "en": "The reason for which I didn't come is very personal."
+    },
+    "options": ["la que", "que", "lo que"],
+    "answer": "la que",
+    "explain": {
+      "de": "Nach der Präposition 'por' mit dem femininen Bezugswort 'razón' richtet sich 'el que/el cual' in Genus und Numerus: 'la que'. 'lo que' hätte kein bestimmtes Bezugswort.",
+      "en": "After the preposition 'por' with the feminine antecedent 'razón', 'el que/el cual' agrees in gender and number: 'la que'. 'lo que' would have no specific antecedent."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El puente debajo ___ pasamos en barco es del siglo XV.",
+    "promptGloss": {
+      "de": "Die Brücke, unter der wir mit dem Boot hindurchfuhren, stammt aus dem 15. Jahrhundert.",
+      "en": "The bridge under which we passed by boat is from the 15th century."
+    },
+    "options": ["del cual", "de que", "de quien"],
+    "answer": "del cual",
+    "explain": {
+      "de": "Nach zusammengesetzten Präpositionen wie 'debajo de' nimmt man 'el cual', das sich nach 'puente' (mask. Sing.) richtet: 'del cual'. 'de quien' steht nur für Personen, 'de que' ist hier nicht üblich.",
+      "en": "After compound prepositions like 'debajo de' you use 'el cual', agreeing with 'puente' (masc. sing.): 'del cual'. 'de quien' is only for people, and 'de que' isn't idiomatic here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mi hermano, ___ vive en Madrid, viene a vernos mañana.",
+    "promptGloss": {
+      "de": "Mein Bruder, der in Madrid wohnt, kommt uns morgen besuchen.",
+      "en": "My brother, who lives in Madrid, is coming to see us tomorrow."
+    },
+    "options": ["que", "el que", "quien"],
+    "answer": "que",
+    "explain": {
+      "de": "Auch im nicht-bestimmenden (eingeschobenen) Relativsatz mit Komma ist 'que' als Subjekt korrekt und am häufigsten. 'quien' ist hier zwar möglich, 'el que' aber unüblich; gefragt ist die Standardwahl 'que'.",
+      "en": "Even in a non-restrictive (comma) clause, 'que' as the subject is correct and the most common choice. 'quien' is possible but 'el que' is unusual; the standard answer is 'que'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Llegó tarde, ___ molestó mucho al profesor.",
+    "promptGloss": {
+      "de": "Er kam zu spät, was den Lehrer sehr verärgerte.",
+      "en": "He arrived late, which annoyed the teacher a lot."
+    },
+    "options": ["lo que", "que", "el cual"],
+    "answer": "lo que",
+    "explain": {
+      "de": "Bezieht sich das Relativ auf den ganzen vorigen Satz (nicht auf ein Substantiv), steht 'lo que' ('was'). 'que' bräuchte ein konkretes Bezugswort; 'el cual' verlangt ein maskulines Substantiv.",
+      "en": "When the relative refers to the whole preceding clause (not a noun), use 'lo que' ('which'). 'que' would need a concrete antecedent, and 'el cual' requires a masculine noun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El profesor ___ explica la gramática es muy paciente.",
+    "promptGloss": {
+      "de": "Der Lehrer, der die Grammatik erklärt, ist sehr geduldig.",
+      "en": "The teacher who explains the grammar is very patient."
+    },
+    "answer": "que",
+    "explain": {
+      "de": "Als Subjekt eines bestimmenden Relativsatzes ohne Präposition steht 'que' – auch bei Personen. 'quien' wäre hier untypisch und nicht nötig.",
+      "en": "As the subject of a restrictive clause with no preposition, use 'que' – even for people. 'quien' would be atypical and unnecessary here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Las personas para ___ trabajo son muy exigentes. (Personen, Plural, nach Präposition)",
+    "promptGloss": {
+      "de": "Die Leute, für die ich arbeite, sind sehr anspruchsvoll.",
+      "en": "The people for whom I work are very demanding."
+    },
+    "answer": "quienes",
+    "altAnswers": ["las que", "las cuales"],
+    "explain": {
+      "de": "Für Personen im Plural nach der Präposition 'para' steht 'quienes'; auch 'las que / las cuales' wären korrekt. 'quien' (Singular) passt nicht zu 'personas'.",
+      "en": "For plural people after the preposition 'para', use 'quienes'; 'las que / las cuales' are also valid. Singular 'quien' wouldn't agree with 'personas'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Visitamos el pueblo ___ se filmó la película. (Ort, ersetzt 'en el que')",
+    "promptGloss": {
+      "de": "Wir besuchten das Dorf, in dem der Film gedreht wurde.",
+      "en": "We visited the village where the movie was filmed."
+    },
+    "answer": "donde",
+    "altAnswers": ["en el que", "en el cual"],
+    "explain": {
+      "de": "Für einen Ort steht 'donde', das 'en el que / en el cual' ersetzt. Bloßes 'que' ohne 'en' wäre hier ungrammatisch.",
+      "en": "For a place use 'donde', which replaces 'en el que / en el cual'. Bare 'que' without 'en' would be ungrammatical here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Una científica ___ investigaciones cambiaron la medicina recibió el premio. (Besitz: investigaciones = fem. Pl.)",
+    "promptGloss": {
+      "de": "Eine Wissenschaftlerin, deren Forschungen die Medizin veränderten, erhielt den Preis.",
+      "en": "A scientist whose research changed medicine received the prize."
+    },
+    "answer": "cuyas",
+    "explain": {
+      "de": "'cuyo' richtet sich nach dem Besessenen 'investigaciones' (fem. Pl.), also 'cuyas' – nicht nach 'científica'. Der Besitzer (fem. Sing.) ist für die Form irrelevant.",
+      "en": "'cuyo' agrees with the possessed noun 'investigaciones' (fem. pl.), so 'cuyas' – not with 'científica'. The owner's gender/number doesn't affect the form."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Eso es exactamente ___ necesitábamos para terminar el proyecto. (unbestimmte Idee, 'das, was')",
+    "promptGloss": {
+      "de": "Das ist genau das, was wir brauchten, um das Projekt zu beenden.",
+      "en": "That's exactly what we needed to finish the project."
+    },
+    "answer": "lo que",
+    "explain": {
+      "de": "Ohne konkretes Bezugssubstantiv und mit Bezug auf eine unbestimmte Sache steht 'lo que' ('das, was'). Bloßes 'que' hätte hier kein Bezugswort.",
+      "en": "With no concrete antecedent noun and referring to an unspecified thing, use 'lo que' ('that which'). Bare 'que' would lack an antecedent here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "La empresa para la ___ trabajaba mi padre cerró el año pasado. (fem. Sing., nach 'para la')",
+    "promptGloss": {
+      "de": "Die Firma, für die mein Vater arbeitete, schloss letztes Jahr.",
+      "en": "The company for which my father worked closed last year."
+    },
+    "answer": "que",
+    "altAnswers": ["cual"],
+    "explain": {
+      "de": "Nach 'para la' steht das mit dem Artikel kongruente Relativ: 'para la que' (oder 'para la cual'), abgestimmt auf 'empresa' (fem. Sing.). Reines 'quien' geht nicht, weil es um eine Sache geht.",
+      "en": "After 'para la' you use the article-agreeing relative: 'para la que' (or 'para la cual'), matching 'empresa' (fem. sing.). 'quien' is impossible because it's a thing, not a person."
+    }
+  }
+]

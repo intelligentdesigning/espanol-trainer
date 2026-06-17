@@ -1,0 +1,276 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "___ mesa de la cocina es muy grande.",
+    "promptGloss": {
+      "de": "Der Tisch in der Küche ist sehr groß.",
+      "en": "The kitchen table is very big."
+    },
+    "options": ["El", "La", "Lo", "Las"],
+    "answer": "La",
+    "explain": {
+      "de": "'Mesa' ist feminin Singular, also 'la mesa'. 'El' wäre maskulin, und 'lo' steht nie vor einem Substantiv.",
+      "en": "'Mesa' is feminine singular, so 'la mesa'. 'El' is masculine and 'lo' never precedes a noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Compré ___ libros para la biblioteca.",
+    "promptGloss": {
+      "de": "Ich habe die Bücher für die Bibliothek gekauft.",
+      "en": "I bought the books for the library."
+    },
+    "options": ["los", "las", "el", "la"],
+    "answer": "los",
+    "explain": {
+      "de": "'Libros' ist maskulin Plural, daher 'los libros'. 'Las' wäre feminin, 'el/la' nur Singular.",
+      "en": "'Libros' is masculine plural, so 'los libros'. 'Las' is feminine and 'el/la' are singular only."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "En el jardín hay ___ flores rojas.",
+    "promptGloss": {
+      "de": "Im Garten gibt es ein paar rote Blumen.",
+      "en": "In the garden there are some red flowers."
+    },
+    "answer": "unas",
+    "explain": {
+      "de": "'Flores' ist feminin Plural; der unbestimmte Plural 'unas' bedeutet 'einige/ein paar'. 'Las' wäre bestimmt ('die').",
+      "en": "'Flores' is feminine plural; the indefinite plural 'unas' means 'some/a few'. 'Las' would be definite ('the')."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Necesito ___ coche para el viaje.",
+    "promptGloss": {
+      "de": "Ich brauche ein Auto für die Reise.",
+      "en": "I need a car for the trip."
+    },
+    "options": ["un", "una", "unos", "el"],
+    "answer": "un",
+    "explain": {
+      "de": "'Coche' ist maskulin Singular, also 'un coche' (ein Auto). 'Una' ist feminin und 'unos' Plural.",
+      "en": "'Coche' is masculine singular, so 'un coche' (a car). 'Una' is feminine and 'unos' is plural."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Conocí a ___ amigos tuyos en la fiesta.",
+    "promptGloss": {
+      "de": "Ich habe einige deiner Freunde auf der Party kennengelernt.",
+      "en": "I met some of your friends at the party."
+    },
+    "answer": "unos",
+    "explain": {
+      "de": "Maskulin Plural 'amigos' mit der Bedeutung 'einige' verlangt 'unos'. 'Los' wäre 'die' (bestimmt).",
+      "en": "Masculine plural 'amigos' meaning 'some' needs 'unos'. 'Los' would be definite ('the')."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ importante es no rendirse nunca.",
+    "promptGloss": {
+      "de": "Das Wichtige ist, niemals aufzugeben.",
+      "en": "The important thing is to never give up."
+    },
+    "options": ["Lo", "El", "La", "Los"],
+    "answer": "Lo",
+    "explain": {
+      "de": "Vor einem Adjektiv ohne Substantiv bildet das neutrale 'lo' einen abstrakten Begriff ('das Wichtige'). 'El/la' verlangen ein Substantiv.",
+      "en": "Before an adjective with no noun, neuter 'lo' forms an abstract concept ('the important thing'). 'El/la' require a noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ mejor del concierto fue el final.",
+    "promptGloss": {
+      "de": "Das Beste am Konzert war das Ende.",
+      "en": "The best part of the concert was the ending."
+    },
+    "options": ["Lo", "El", "La", "Las"],
+    "answer": "Lo",
+    "explain": {
+      "de": "'Lo mejor' = 'das Beste' ist ein abstrakter Ausdruck mit neutralem 'lo'. 'El mejor' würde sich auf eine konkrete maskuline Person/Sache beziehen.",
+      "en": "'Lo mejor' = 'the best part' is an abstract expression with neuter 'lo'. 'El mejor' would refer to a concrete masculine person/thing."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esta tarde voy ___ médico.",
+    "promptGloss": {
+      "de": "Heute Nachmittag gehe ich zum Arzt.",
+      "en": "This afternoon I am going to the doctor."
+    },
+    "options": ["al", "a el", "a la", "del"],
+    "answer": "al",
+    "explain": {
+      "de": "'a + el' verschmilzt zwingend zu 'al'; 'a el' ist immer falsch. 'Del' wäre 'de + el'.",
+      "en": "'a + el' must contract to 'al'; 'a el' is always wrong. 'Del' would be 'de + el'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Las llaves están encima ___ armario. (de + el)",
+    "promptGloss": {
+      "de": "Die Schlüssel liegen oben auf dem Schrank.",
+      "en": "The keys are on top of the wardrobe."
+    },
+    "answer": "del",
+    "explain": {
+      "de": "'de + el' verschmilzt zwingend zu 'del'. Die getrennte Form 'de el' ist nicht korrekt.",
+      "en": "'de + el' must contract to 'del'. The separated form 'de el' is incorrect."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Cada mañana vamos ___ playa con los niños.",
+    "promptGloss": {
+      "de": "Jeden Morgen gehen wir mit den Kindern an den Strand.",
+      "en": "Every morning we go to the beach with the kids."
+    },
+    "options": ["a la", "al", "a las", "a el"],
+    "answer": "a la",
+    "explain": {
+      "de": "'Playa' ist feminin, und nur 'a + el' verschmilzt; 'a la' bleibt getrennt. 'Al' wäre maskulin.",
+      "en": "'Playa' is feminine, and only 'a + el' contracts; 'a la' stays separate. 'Al' would be masculine."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hablé ___ profesora después de la clase.",
+    "promptGloss": {
+      "de": "Ich habe nach dem Unterricht mit der Lehrerin gesprochen.",
+      "en": "I spoke with the teacher after class."
+    },
+    "options": ["con la", "con el", "del", "al"],
+    "answer": "con la",
+    "explain": {
+      "de": "'Profesora' ist feminin Singular: 'con la profesora'. Nur 'a' und 'de' verschmelzen mit 'el', 'con' nie.",
+      "en": "'Profesora' is feminine singular: 'con la profesora'. Only 'a' and 'de' contract with 'el', never 'con'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mi hermana es ___ (profesión: Ärztin) en un hospital grande.",
+    "promptGloss": {
+      "de": "Meine Schwester ist Ärztin in einem großen Krankenhaus.",
+      "en": "My sister is a doctor in a big hospital."
+    },
+    "answer": "médica",
+    "explain": {
+      "de": "Nach 'ser' steht vor unmodifizierten Berufen kein Artikel: 'es médica', nicht 'es una médica'. Im Deutschen/Englischen steht zwar 'eine/a', im Spanischen nicht.",
+      "en": "After 'ser', unmodified professions take no article: 'es médica', not 'es una médica'. German/English use 'eine/a', but Spanish does not."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mi vecino es ___ ingeniero muy conocido en la ciudad.",
+    "promptGloss": {
+      "de": "Mein Nachbar ist ein sehr bekannter Ingenieur in der Stadt.",
+      "en": "My neighbor is a very well-known engineer in the city."
+    },
+    "options": ["un", "—", "el", "uno"],
+    "answer": "un",
+    "explain": {
+      "de": "Wird der Beruf durch ein Adjektiv näher bestimmt ('muy conocido'), kehrt der Artikel zurück: 'es un ingeniero conocido'. Ohne Zusatz ('es ingeniero') fiele er weg.",
+      "en": "When the profession is qualified by an adjective ('muy conocido'), the article returns: 'es un ingeniero conocido'. Unqualified ('es ingeniero') it would be dropped."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Marta es ___; nació en Italia.",
+    "promptGloss": {
+      "de": "Marta ist Italienerin; sie ist in Italien geboren.",
+      "en": "Marta is Italian; she was born in Italy."
+    },
+    "options": ["italiana", "una italiana", "la italiana", "un italiana"],
+    "answer": "italiana",
+    "explain": {
+      "de": "Nationalitäten nach 'ser' stehen ohne Artikel: 'es italiana'. 'Una italiana' ist hier überflüssig und unspanisch.",
+      "en": "Nationalities after 'ser' take no article: 'es italiana'. 'Una italiana' is redundant and un-Spanish here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Por favor, no bebas ___ agua del grifo; no es potable.",
+    "promptGloss": {
+      "de": "Bitte trink nicht das Leitungswasser; es ist nicht trinkbar.",
+      "en": "Please don't drink the tap water; it's not drinkable."
+    },
+    "answer": "el",
+    "explain": {
+      "de": "'Agua' ist feminin, beginnt aber mit betontem 'a-', daher im Singular 'el agua'. Das Wort bleibt feminin (vgl. 'agua fría').",
+      "en": "'Agua' is feminine but starts with stressed 'a-', so the singular takes 'el agua'. The word stays feminine (cf. 'agua fría')."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El agua del lago está muy ___.",
+    "promptGloss": {
+      "de": "Das Wasser des Sees ist sehr kalt.",
+      "en": "The water of the lake is very cold."
+    },
+    "options": ["fría", "frío", "frías", "fríos"],
+    "answer": "fría",
+    "explain": {
+      "de": "Trotz des Artikels 'el' bleibt 'agua' feminin, daher das Adjektiv 'fría'. 'Frío' (m) ist der typische Fehler.",
+      "en": "Despite the article 'el', 'agua' stays feminine, so the adjective is 'fría'. 'Frío' (m) is the typical mistake."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En la región hay muchas ___ contaminadas.",
+    "promptGloss": {
+      "de": "In der Region gibt es viele verschmutzte Gewässer.",
+      "en": "In the region there are many polluted waters."
+    },
+    "options": ["aguas", "agua", "el agua", "las agua"],
+    "answer": "aguas",
+    "explain": {
+      "de": "Im Plural verschwindet die 'el'-Ausnahme: es heißt 'las aguas'. Hier folgt 'aguas' auf 'muchas', also normaler femininer Plural.",
+      "en": "In the plural the 'el' exception disappears: it is 'las aguas'. Here 'aguas' follows 'muchas', a normal feminine plural."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Tengo ___ hambre tremenda después de entrenar.",
+    "promptGloss": {
+      "de": "Ich habe einen riesigen Hunger nach dem Training.",
+      "en": "I'm tremendously hungry after training."
+    },
+    "options": ["una", "un", "el", "la"],
+    "answer": "una",
+    "explain": {
+      "de": "Die 'el/un'-Ausnahme gilt nur direkt vor dem Wort. Steht ein Adjektiv dazwischen ('una hambre tremenda'), kommt die feminine Form 'una' zurück; vergleiche 'un hambre' ohne Einschub.",
+      "en": "The 'el/un' exception only applies right before the word. With an adjective in between ('una hambre tremenda'), the feminine 'una' returns; compare 'un hambre' with nothing in between."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Visitamos al director ___ escuela esta mañana. (de + la)",
+    "promptGloss": {
+      "de": "Wir haben den Direktor der Schule heute Morgen besucht.",
+      "en": "We visited the principal of the school this morning."
+    },
+    "answer": "de la",
+    "explain": {
+      "de": "'Escuela' ist feminin, also 'de la escuela' ohne Verschmelzung. Nur 'de + el' wird zu 'del'.",
+      "en": "'Escuela' is feminine, so 'de la escuela' with no contraction. Only 'de + el' becomes 'del'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ problema más difícil ya está resuelto.",
+    "promptGloss": {
+      "de": "Das schwierigste Problem ist schon gelöst.",
+      "en": "The most difficult problem is already solved."
+    },
+    "options": ["El", "La", "Lo", "Las"],
+    "answer": "El",
+    "explain": {
+      "de": "'Problema' endet auf '-a', ist aber maskulin (griechischer Ursprung): 'el problema'. 'La' ist die klassische Falle.",
+      "en": "'Problema' ends in '-a' but is masculine (Greek origin): 'el problema'. 'La' is the classic trap."
+    }
+  }
+]

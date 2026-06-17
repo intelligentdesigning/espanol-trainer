@@ -3,8 +3,15 @@
 import type { ItemKind, ProgressRecord, SessionRecord } from "@/lib/types";
 
 const DB_NAME = "espanol-trainer";
-const DB_VERSION = 2;
+const DB_VERSION = 3;
 const LEITNER_DAYS = [0, 1, 2, 4, 8, 16];
+
+/** Local YYYY-MM-DD for "today" bucketing (local time, not UTC). */
+function dayKey(ts = Date.now()): string {
+  const d = new Date(ts);
+  const p = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
 
 let dbPromise: Promise<IDBDatabase> | null = null;
 
@@ -28,6 +35,10 @@ function openDB(): Promise<IDBDatabase> {
       }
       if (!db.objectStoreNames.contains("notebook")) {
         db.createObjectStore("notebook", { keyPath: "id" });
+      }
+      if (!db.objectStoreNames.contains("daily")) {
+        const s = db.createObjectStore("daily", { keyPath: "key" });
+        s.createIndex("date", "date");
       }
     };
     req.onsuccess = () => resolve(req.result);
@@ -91,6 +102,72 @@ export async function recordResult(itemKey: string, kind: ItemKind, correct: boo
     t.oncomplete = () => resolve();
     t.onerror = () => reject(t.error);
   });
+  await bumpDaily(db, itemKey, kind, correct, now);
+}
+
+interface DailyRecord {
+  key: string;        // `${date}:${itemKey}`
+  date: string;       // YYYY-MM-DD (local)
+  itemKey: string;
+  kind: ItemKind;
+  result: "right" | "wrong";
+  updatedAt: number;
+}
+
+/**
+ * One row per (day, item). "right" wins: if a word was wrong then right on the
+ * same day, it counts once as right — never double-counted as both.
+ */
+async function bumpDaily(db: IDBDatabase, itemKey: string, kind: ItemKind, correct: boolean, now: number): Promise<void> {
+  const date = dayKey(now);
+  const key = `${date}:${itemKey}`;
+  await new Promise<void>((resolve) => {
+    const t = db.transaction("daily", "readwrite");
+    const store = t.objectStore("daily");
+    const getReq = store.get(key);
+    getReq.onsuccess = () => {
+      const prev = getReq.result as DailyRecord | undefined;
+      const result: "right" | "wrong" = prev?.result === "right" || correct ? "right" : "wrong";
+      store.put({ key, date, itemKey, kind, result, updatedAt: now });
+    };
+    t.oncomplete = () => resolve();
+    t.onerror = () => resolve();
+  });
+}
+
+export interface DailyStats {
+  date: string;
+  total: number;
+  correct: number;
+  wrong: number;
+}
+
+/** Today's practice: unique items answered, split by best result (right wins). */
+export async function getDailyStats(date = dayKey()): Promise<DailyStats> {
+  const all = await getAll<DailyRecord>("daily");
+  const day = all.filter((r) => r.date === date);
+  const correct = day.filter((r) => r.result === "right").length;
+  return { date, total: day.length, correct, wrong: day.length - correct };
+}
+
+/** Last `days` days (oldest→newest), each with totals — for the mini chart + streak. */
+export async function getDailyHistory(days = 7): Promise<{ date: string; total: number; correct: number }[]> {
+  const all = await getAll<DailyRecord>("daily");
+  const byDate = new Map<string, { total: number; correct: number }>();
+  for (const r of all) {
+    const e = byDate.get(r.date) ?? { total: 0, correct: 0 };
+    e.total += 1;
+    if (r.result === "right") e.correct += 1;
+    byDate.set(r.date, e);
+  }
+  const out: { date: string; total: number; correct: number }[] = [];
+  const now = Date.now();
+  for (let i = days - 1; i >= 0; i--) {
+    const k = dayKey(now - i * 86400000);
+    const e = byDate.get(k);
+    out.push({ date: k, total: e?.total ?? 0, correct: e?.correct ?? 0 });
+  }
+  return out;
 }
 
 export async function addSession(rec: SessionRecord): Promise<void> {
@@ -145,6 +222,7 @@ export async function resetAll(): Promise<void> {
   try {
     await tx("progress", "readwrite", (s) => s.clear());
     await tx("sessions", "readwrite", (s) => s.clear());
+    await tx("daily", "readwrite", (s) => s.clear());
   } catch {}
 }
 

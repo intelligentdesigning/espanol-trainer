@@ -1,0 +1,277 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Yo soy de Berlín y ___ es de Sevilla.",
+    "promptGloss": {
+      "de": "Ich bin aus Berlin und sie ist aus Sevilla.",
+      "en": "I am from Berlin and she is from Seville."
+    },
+    "options": ["ella", "la", "le", "su"],
+    "answer": "ella",
+    "explain": {
+      "de": "Als Subjekt zu \"es\" (sie ist) steht das Subjektpronomen \"ella\". \"la\" und \"le\" sind Objektpronomen und \"su\" ein Possessivbegleiter, keine Subjekte.",
+      "en": "The subject of \"es\" (she is) is the subject pronoun \"ella\". \"la\" and \"le\" are object pronouns and \"su\" is a possessive, none of which can be a subject."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ trabajamos en la oficina y ellos descansan en casa.",
+    "promptGloss": {
+      "de": "Wir arbeiten im Büro und sie ruhen sich zu Hause aus.",
+      "en": "We work in the office and they rest at home."
+    },
+    "options": ["Nosotros", "Vosotros", "Ustedes", "Ellos"],
+    "answer": "Nosotros",
+    "explain": {
+      "de": "Die Verbform \"trabajamos\" gehört zur 1. Person Plural, also \"nosotros\". \"vosotros\" verlangt \"trabajáis\", \"ustedes/ellos\" verlangen \"trabajan\".",
+      "en": "The verb form \"trabajamos\" is first person plural, so \"nosotros\". \"vosotros\" needs \"trabajáis\", and \"ustedes/ellos\" need \"trabajan\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "—¿Dónde vives? —___ en Madrid, en el centro.",
+    "promptGloss": {
+      "de": "Wo wohnst du? Ich wohne in Madrid, im Zentrum.",
+      "en": "Where do you live? I live in Madrid, in the centre."
+    },
+    "options": ["Vivo", "Yo vivo yo", "Me vivo", "Vivir"],
+    "answer": "Vivo",
+    "explain": {
+      "de": "Die Endung \"-o\" zeigt schon die 1. Person Singular, daher braucht man kein \"yo\" und sagt einfach \"Vivo\". Ein doppeltes \"yo\" oder ein \"me\" ist falsch.",
+      "en": "The ending \"-o\" already marks the first person singular, so no \"yo\" is needed: just \"Vivo\". A doubled \"yo\" or a \"me\" is wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No hace falta decir \"yo\": \"___ español\" ya significa \"ich spreche Spanisch\".",
+    "promptGloss": {
+      "de": "Man muss kein \"yo\" sagen: \"Hablo español\" heißt schon \"ich spreche Spanisch\".",
+      "en": "You don't need to say \"yo\": \"Hablo español\" already means \"I speak Spanish\"."
+    },
+    "options": ["Hablo", "Habla", "Hablas", "Hablamos"],
+    "answer": "Hablo",
+    "explain": {
+      "de": "Die 1. Person Singular von hablar ist \"hablo\"; die Endung allein trägt die Bedeutung \"ich\". \"habla\" wäre er/sie/usted, \"hablas\" du, \"hablamos\" wir.",
+      "en": "The first person singular of hablar is \"hablo\"; the ending alone carries the meaning \"I\". \"habla\" is he/she/usted, \"hablas\" is you, \"hablamos\" is we."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ pago la cuenta, tú esperas fuera, ¿de acuerdo?",
+    "promptGloss": {
+      "de": "Ich zahle die Rechnung, du wartest draußen, einverstanden?",
+      "en": "I pay the bill, you wait outside, all right?"
+    },
+    "options": ["Yo", "Mí", "Me", "Tú"],
+    "answer": "Yo",
+    "explain": {
+      "de": "Zur Betonung und im Kontrast zu \"tú\" setzt man hier das Subjektpronomen \"yo\". \"mí\" und \"me\" sind keine Subjektformen, und \"tú\" passt nicht zu \"pago\".",
+      "en": "For emphasis and in contrast with \"tú\", you add the subject pronoun \"yo\". \"mí\" and \"me\" are not subject forms, and \"tú\" doesn't match \"pago\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Señor Gómez, ¿cómo ___ usted hoy?",
+    "promptGloss": {
+      "de": "Herr Gómez, wie geht es Ihnen heute?",
+      "en": "Mr Gómez, how are you today?"
+    },
+    "options": ["está", "estás", "estoy", "estáis"],
+    "answer": "está",
+    "explain": {
+      "de": "\"usted\" ist höflich und verlangt die él/ella-Form: \"está\". \"estás\" gehört zum informellen \"tú\" und passt nicht zu \"usted\".",
+      "en": "\"usted\" is polite and takes the él/ella form: \"está\". \"estás\" belongs to informal \"tú\" and does not go with \"usted\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hablas muy bien español; tú ___ una persona muy trabajadora.",
+    "promptGloss": {
+      "de": "Du sprichst sehr gut Spanisch; du bist ein sehr fleißiger Mensch.",
+      "en": "You speak Spanish very well; you are a very hard-working person."
+    },
+    "options": ["eres", "es", "estás", "sois"],
+    "answer": "eres",
+    "explain": {
+      "de": "\"tú\" verlangt die 2. Person Singular \"eres\". \"es\" gehört zu él/ella/usted, und mit \"tú\" wäre es ein Anrede-Fehler; \"sois\" ist Plural.",
+      "en": "\"tú\" requires the second person singular \"eres\". \"es\" belongs to él/ella/usted, so it would mismatch \"tú\"; \"sois\" is plural."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Marta y Lucía son hermanas: ___ son muy simpáticas.",
+    "promptGloss": {
+      "de": "Marta und Lucía sind Schwestern: Sie sind sehr nett.",
+      "en": "Marta and Lucía are sisters: they are very nice."
+    },
+    "options": ["ellas", "ellos", "vosotras", "nosotras"],
+    "answer": "ellas",
+    "explain": {
+      "de": "Eine reine Frauengruppe (Marta und Lucía) ist \"ellas\". \"ellos\" wäre die maskuline/gemischte Form, \"vosotras\" hieße \"ihr\" und \"nosotras\" \"wir\".",
+      "en": "An all-female group (Marta and Lucía) is \"ellas\". \"ellos\" is the masculine/mixed form, \"vosotras\" means \"you (pl.)\" and \"nosotras\" means \"we\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Pedro, Ana y yo somos colegas; ___ comemos juntos cada día.",
+    "promptGloss": {
+      "de": "Pedro, Ana und ich sind Kollegen; wir essen jeden Tag zusammen.",
+      "en": "Pedro, Ana and I are colleagues; we eat together every day."
+    },
+    "options": ["nosotros", "nosotras", "ellos", "vosotros"],
+    "answer": "nosotros",
+    "explain": {
+      "de": "Bei einer gemischten Gruppe (Pedro ist dabei) steht die maskuline Form \"nosotros\", obwohl auch Ana dazugehört. \"nosotras\" gälte nur bei reinen Frauengruppen.",
+      "en": "For a mixed group (Pedro is included) you use the masculine \"nosotros\", even though Ana is part of it. \"nosotras\" would apply only to all-female groups."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En España, para hablar con dos amigos se usa \"___ habláis\"; en América se dice \"ustedes hablan\".",
+    "promptGloss": {
+      "de": "In Spanien sagt man zu zwei Freunden \"ihr sprecht (vosotros habláis)\"; in Amerika sagt man \"ustedes hablan\".",
+      "en": "In Spain, to two friends you say \"vosotros habláis\"; in America you say \"ustedes hablan\"."
+    },
+    "options": ["vosotros", "nosotros", "ustedes", "ellos"],
+    "answer": "vosotros",
+    "explain": {
+      "de": "Zur Verbform \"habláis\" gehört der informelle Plural \"vosotros\", der in Spanien üblich ist. In Lateinamerika ersetzt \"ustedes\" (mit \"hablan\") diese Form.",
+      "en": "The verb form \"habláis\" goes with the informal plural \"vosotros\", common in Spain. In Latin America \"ustedes\" (with \"hablan\") replaces it."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "—¿Y ___? ¿Qué quieres tomar tú?",
+    "promptGloss": {
+      "de": "Und du? Was möchtest du trinken?",
+      "en": "And you? What do you want to drink?"
+    },
+    "options": ["tú", "te", "ti", "tu"],
+    "answer": "tú",
+    "explain": {
+      "de": "Nach \"¿Y ...?\" steht zur Betonung der Person das Subjektpronomen \"tú\" (mit Akzent). \"te\"/\"ti\" sind Objektformen und \"tu\" (ohne Akzent) ist der Possessivbegleiter \"dein\".",
+      "en": "After \"¿Y ...?\" the emphatic subject pronoun \"tú\" (with accent) is used. \"te\"/\"ti\" are object forms and \"tu\" (no accent) is the possessive \"your\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En Argentina mucha gente no dice \"tú tienes\", sino \"___ tenés\".",
+    "promptGloss": {
+      "de": "In Argentinien sagen viele nicht \"tú tienes\", sondern \"vos tenés\".",
+      "en": "In Argentina many people don't say \"tú tienes\" but \"vos tenés\"."
+    },
+    "options": ["vos", "usted", "vosotros", "tú"],
+    "answer": "vos",
+    "explain": {
+      "de": "Die Form \"tenés\" gehört zum \"voseo\": vielerorts in Lateinamerika ersetzt \"vos\" das \"tú\". \"usted\" verlangt \"tiene\", \"vosotros\" \"tenéis\".",
+      "en": "The form \"tenés\" belongs to \"voseo\": in many parts of Latin America \"vos\" replaces \"tú\". \"usted\" needs \"tiene\", \"vosotros\" needs \"tenéis\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Disculpe, señora, ¿___ quiere algo más de beber?",
+    "promptGloss": {
+      "de": "Entschuldigung, gnädige Frau, möchten Sie noch etwas zu trinken?",
+      "en": "Excuse me, madam, would you like anything else to drink?"
+    },
+    "options": ["usted", "tú", "vos", "ella"],
+    "answer": "usted",
+    "explain": {
+      "de": "Im höflichen Kontext (\"Disculpe, señora\") und zur Verbform \"quiere\" passt \"usted\". \"tú\"/\"vos\" wären informell, und \"ella\" hieße \"sie\", nicht die Angesprochene.",
+      "en": "In a polite context (\"Disculpe, señora\") and with the verb \"quiere\", \"usted\" fits. \"tú\"/\"vos\" would be informal, and \"ella\" means \"she\", not the person addressed."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Tú estudias por la mañana, pero ___ prefiero estudiar por la noche.",
+    "promptGloss": {
+      "de": "Du lernst morgens, aber ich lerne lieber abends.",
+      "en": "You study in the morning, but I prefer to study at night."
+    },
+    "options": ["yo", "él", "tú", "nosotros"],
+    "answer": "yo",
+    "explain": {
+      "de": "Der Kontrast zu \"tú\" und die Verbform \"prefiero\" (1. Person Singular) verlangen das betonte \"yo\". \"él\" und \"nosotros\" passen weder zum Sinn noch zur Endung.",
+      "en": "The contrast with \"tú\" and the verb \"prefiero\" (first person singular) require the emphatic \"yo\". \"él\" and \"nosotros\" fit neither the meaning nor the ending."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Niños, ___ tenéis que recoger vuestros juguetes ahora mismo.",
+    "promptGloss": {
+      "de": "Kinder, ihr müsst sofort eure Spielsachen aufräumen.",
+      "en": "Children, you have to pick up your toys right now."
+    },
+    "options": ["vosotros", "ustedes", "nosotros", "ellos"],
+    "answer": "vosotros",
+    "explain": {
+      "de": "Die Verbform \"tenéis\" (und \"vuestros\") gehört zum spanischen Plural \"vosotros\". \"ustedes\" würde \"tienen\" und \"sus\" verlangen.",
+      "en": "The verb form \"tenéis\" (and \"vuestros\") belongs to the Spain plural \"vosotros\". \"ustedes\" would require \"tienen\" and \"sus\"."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mi hermano vive en Roma; ___ es arquitecto y le encanta su trabajo.",
+    "promptGloss": {
+      "de": "Mein Bruder lebt in Rom; er ist Architekt und liebt seine Arbeit.",
+      "en": "My brother lives in Rome; he is an architect and loves his job."
+    },
+    "answer": "él",
+    "explain": {
+      "de": "Für ein männliches Subjekt (mi hermano) steht das Subjektpronomen \"él\" mit Akzent. Ohne Akzent wäre \"el\" der Artikel \"der\", kein Pronomen.",
+      "en": "For a masculine subject (mi hermano) the subject pronoun is \"él\" with an accent. Without the accent, \"el\" is the article \"the\", not a pronoun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Carmen y Sofía son médicas; ___ trabajan en el mismo hospital.",
+    "promptGloss": {
+      "de": "Carmen und Sofía sind Ärztinnen; sie arbeiten im selben Krankenhaus.",
+      "en": "Carmen and Sofía are doctors; they work in the same hospital."
+    },
+    "answer": "ellas",
+    "explain": {
+      "de": "Eine reine Frauengruppe nimmt \"ellas\". \"ellos\" wäre nur bei männlichen oder gemischten Gruppen richtig.",
+      "en": "An all-female group takes \"ellas\". \"ellos\" would be correct only for male or mixed groups."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Las chicas y yo (todas mujeres) vamos al cine; ___ compramos las entradas en línea.",
+    "promptGloss": {
+      "de": "Die Mädchen und ich (alle weiblich) gehen ins Kino; wir kaufen die Karten online.",
+      "en": "The girls and I (all female) are going to the cinema; we buy the tickets online."
+    },
+    "answer": "nosotras",
+    "explain": {
+      "de": "Da die Gruppe ausschließlich aus Frauen besteht, steht die feminine Form \"nosotras\". Nur wenn ein Mann dabei wäre, würde \"nosotros\" gelten.",
+      "en": "Since the group is entirely female, the feminine form \"nosotras\" is used. Only if a man were present would \"nosotros\" apply."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Quiero hablar con el director: ¿está ___ en su despacho ahora? (höfliche Anrede, Sie)",
+    "promptGloss": {
+      "de": "Ich möchte mit dem Direktor sprechen: Sind Sie jetzt in Ihrem Büro?",
+      "en": "I want to speak with the director: are you in your office now? (polite \"you\")"
+    },
+    "answer": "usted",
+    "explain": {
+      "de": "Die höfliche Anrede \"Sie\" ist \"usted\" und steht mit der él/ella-Form \"está\". Ein \"tú\" würde \"estás\" verlangen und wäre hier zu informell.",
+      "en": "The polite \"you\" is \"usted\" and takes the él/ella form \"está\". A \"tú\" would require \"estás\" and be too informal here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "En Buenos Aires no se dice \"tú sabés\", se dice \"___ sabés\" (regionale Du-Form).",
+    "promptGloss": {
+      "de": "In Buenos Aires sagt man nicht \"tú sabes\", sondern \"vos sabés\" (regionale Du-Form).",
+      "en": "In Buenos Aires you don't say \"tú sabes\", you say \"vos sabés\" (regional \"you\")."
+    },
+    "answer": "vos",
+    "explain": {
+      "de": "Die Endung \"-és\" in \"sabés\" ist typisch für den \"voseo\", bei dem \"vos\" das \"tú\" ersetzt (v. a. Argentinien). \"usted\" verlangte \"sabe\", \"vosotros\" \"sabéis\".",
+      "en": "The ending \"-és\" in \"sabés\" is typical of \"voseo\", where \"vos\" replaces \"tú\" (esp. Argentina). \"usted\" would need \"sabe\", \"vosotros\" \"sabéis\"."
+    }
+  }
+]

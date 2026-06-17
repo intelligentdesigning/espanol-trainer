@@ -1,0 +1,219 @@
+[
+  {
+    "kind": "fill",
+    "prompt": "Espero que ___ comido algo antes de salir. (tú, haber)",
+    "promptGloss": {
+      "de": "Ich hoffe, du hast etwas gegessen, bevor du losgegangen bist.",
+      "en": "I hope you have eaten something before leaving."
+    },
+    "answer": "hayas",
+    "explain": {
+      "de": "Der Subjuntivo perfecto bildet sich aus dem Subjunktiv-Präsens von haber + Partizip; die 2. Person Singular ist hayas.",
+      "en": "The present perfect subjunctive uses the present subjunctive of haber + participle; the second person singular is hayas."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Me alegro de que nosotros ___ podido vernos hoy. (haber)",
+    "promptGloss": {
+      "de": "Ich freue mich, dass wir uns heute sehen konnten.",
+      "en": "I'm glad that we have been able to see each other today."
+    },
+    "answer": "hayamos",
+    "explain": {
+      "de": "Für nosotros lautet haber im Subjunktiv-Präsens hayamos; nur haber ändert sich nach Person, das Partizip podido bleibt gleich.",
+      "en": "For nosotros, haber in the present subjunctive is hayamos; only haber changes with the person, the participle podido stays the same."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Dudo que ellos ___ llegado ya.",
+    "promptGloss": {
+      "de": "Ich bezweifle, dass sie schon angekommen sind.",
+      "en": "I doubt that they have already arrived."
+    },
+    "options": ["hayan", "haya", "hayamos", "han"],
+    "answer": "hayan",
+    "explain": {
+      "de": "Das Subjekt ellos verlangt die 3. Person Plural hayan; haya wäre Singular und han ist Indikativ, der nach dudo que (Zweifel) nicht stehen darf.",
+      "en": "The subject ellos requires the third person plural hayan; haya would be singular and han is indicative, which cannot follow dudo que (doubt)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Es raro que no ___ dicho nada todavía.",
+    "promptGloss": {
+      "de": "Es ist seltsam, dass sie noch nichts gesagt haben.",
+      "en": "It's odd that they haven't said anything yet."
+    },
+    "options": ["hayan", "han", "habrán", "hubieran"],
+    "answer": "hayan",
+    "explain": {
+      "de": "Es raro que (Gefühl/Wertung) löst den Subjunktiv aus, also hayan; han ist Indikativ, habrán Futur und hubieran der Subjuntivo pluscuamperfecto, der hier nicht zum Gegenwartsbezug passt.",
+      "en": "Es raro que (emotion/judgement) triggers the subjunctive, so hayan; han is indicative, habrán is future and hubieran is the past perfect subjunctive, which doesn't fit the present reference here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No creo que él ___ eso.",
+    "promptGloss": {
+      "de": "Ich glaube nicht, dass er das gesagt hat.",
+      "en": "I don't think he has said that."
+    },
+    "options": ["haya dicho", "haya decido", "ha dicho", "haya diciendo"],
+    "answer": "haya dicho",
+    "explain": {
+      "de": "decir hat das unregelmäßige Partizip dicho (nicht decido); No creo que verlangt den Subjunktiv haya, nicht den Indikativ ha. diciendo ist das Gerundium.",
+      "en": "decir has the irregular participle dicho (not decido); No creo que requires the subjunctive haya, not the indicative ha. diciendo is the gerund."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No me parece que tú ___ hecho bien los deberes. (haber + hacer)",
+    "promptGloss": {
+      "de": "Mir scheint nicht, dass du die Hausaufgaben gut gemacht hast.",
+      "en": "It doesn't seem to me that you have done the homework well."
+    },
+    "answer": "hayas hecho",
+    "explain": {
+      "de": "haber in der 2. Person Singular ist hayas, und hacer hat das unregelmäßige Partizip hecho (nicht hacido).",
+      "en": "haber in the second person singular is hayas, and hacer has the irregular participle hecho (not hacido)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Sé que ya ___ terminado el proyecto.",
+    "promptGloss": {
+      "de": "Ich weiß, dass sie das Projekt schon beendet haben.",
+      "en": "I know that they have already finished the project."
+    },
+    "options": ["han", "hayan", "haya", "hayamos"],
+    "answer": "han",
+    "explain": {
+      "de": "Sé que (Wissen, Gewissheit) löst keinen Subjunktiv aus, sondern verlangt den Indikativ han; haya/hayan wären falsch, weil keine Wertung, kein Zweifel und kein Wunsch vorliegt.",
+      "en": "Sé que (knowledge, certainty) does not trigger the subjunctive but requires the indicative han; haya/hayan would be wrong because there is no judgement, doubt or wish."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ojalá ___ dormido bien esta noche. (tú, haber)",
+    "promptGloss": {
+      "de": "Hoffentlich hast du heute Nacht gut geschlafen.",
+      "en": "I hope you have slept well tonight."
+    },
+    "answer": "hayas",
+    "explain": {
+      "de": "Ojalá ist ein Wunsch-Auslöser und steht mit dem Subjunktiv; für tú lautet haber hayas und drückt eine bereits abgeschlossene Handlung mit Gegenwartsbezug aus.",
+      "en": "Ojalá is a wish trigger and takes the subjunctive; for tú haber is hayas, expressing an already completed action linked to the present."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Es posible que ___ un error.",
+    "promptGloss": {
+      "de": "Es ist möglich, dass es ein Fehler war.",
+      "en": "It's possible that it has been a mistake."
+    },
+    "options": ["haya sido", "ha sido", "haya estado", "sea"],
+    "answer": "haya sido",
+    "explain": {
+      "de": "Es posible que (Zweifel/Möglichkeit) verlangt den Subjunktiv haya, und das Partizip von ser ist sido; ha sido ist Indikativ und sea wäre Präsens ohne den nötigen Vergangenheitsbezug.",
+      "en": "Es posible que (doubt/possibility) requires the subjunctive haya, and the participle of ser is sido; ha sido is indicative and sea would be a simple present lacking the needed past reference."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Me sorprende que vosotros ___ podido venir tan pronto. (haber)",
+    "promptGloss": {
+      "de": "Es überrascht mich, dass ihr so schnell kommen konntet.",
+      "en": "I'm surprised that you have been able to come so soon."
+    },
+    "answer": "hayáis",
+    "explain": {
+      "de": "Für vosotros lautet haber im Subjunktiv-Präsens hayáis (mit Akzent auf dem á); das Partizip podido bleibt unverändert.",
+      "en": "For vosotros, haber in the present subjunctive is hayáis (accent on the á); the participle podido stays unchanged."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Cuando ___ visto la película, hablamos de ella.",
+    "promptGloss": {
+      "de": "Wenn du den Film gesehen hast, sprechen wir über ihn.",
+      "en": "Once you have seen the film, we'll talk about it."
+    },
+    "options": ["hayas", "has", "habrás", "hubieras"],
+    "answer": "hayas",
+    "explain": {
+      "de": "Nach cuando mit Zukunftsbezug steht der Subjunktiv für eine vor dem Bezugspunkt abgeschlossene Handlung: hayas visto; has ist Indikativ, habrás Futur und hubieras der Subjuntivo pluscuamperfecto.",
+      "en": "After cuando referring to the future, the subjunctive marks an action completed before the reference point: hayas visto; has is indicative, habrás future, and hubieras the past perfect subjunctive."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No creo que María ___ escrito la carta todavía. (haber + escribir)",
+    "promptGloss": {
+      "de": "Ich glaube nicht, dass María den Brief schon geschrieben hat.",
+      "en": "I don't think María has written the letter yet."
+    },
+    "answer": "haya escrito",
+    "explain": {
+      "de": "No creo que verlangt den Subjunktiv haya, und escribir hat das unregelmäßige Partizip escrito (nicht escribido).",
+      "en": "No creo que requires the subjunctive haya, and escribir has the irregular participle escrito (not escribido)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Temo que se ___ roto algo durante el viaje.",
+    "promptGloss": {
+      "de": "Ich fürchte, dass während der Reise etwas kaputtgegangen ist.",
+      "en": "I'm afraid that something has broken during the trip."
+    },
+    "options": ["haya roto", "haya rompido", "ha roto", "rompa"],
+    "answer": "haya roto",
+    "explain": {
+      "de": "Temo que (Gefühl/Furcht) löst den Subjunktiv aus, und romper hat das unregelmäßige Partizip roto (nicht rompido); ha roto ist Indikativ.",
+      "en": "Temo que (emotion/fear) triggers the subjunctive, and romper has the irregular participle roto (not rompido); ha roto is indicative."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Es una pena que no ___ aquí antes; ahora se han ido.",
+    "promptGloss": {
+      "de": "Es ist schade, dass sie nicht früher hier gewesen sind; jetzt sind sie weg.",
+      "en": "It's a pity that they haven't been here earlier; now they have left."
+    },
+    "options": ["hayan estado", "hayan sido", "han estado", "estuvieran"],
+    "answer": "hayan estado",
+    "explain": {
+      "de": "Es una pena que (Wertung) verlangt den Subjunktiv; für einen Ort/Aufenthalt nimmt man estar, also hayan estado, nicht ser (sido). han estado ist Indikativ.",
+      "en": "Es una pena que (judgement) requires the subjunctive; for location/presence you use estar, so hayan estado, not ser (sido). han estado is indicative."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Es bueno que los niños ya ___ vuelto a casa. (haber + volver)",
+    "promptGloss": {
+      "de": "Es ist gut, dass die Kinder schon nach Hause zurückgekehrt sind.",
+      "en": "It's good that the children have already returned home."
+    },
+    "answer": "hayan vuelto",
+    "explain": {
+      "de": "Es bueno que verlangt den Subjunktiv; das Subjekt los niños (ellos) gibt hayan, und volver hat das unregelmäßige Partizip vuelto (nicht volvido).",
+      "en": "Es bueno que requires the subjunctive; the subject los niños (ellos) gives hayan, and volver has the irregular participle vuelto (not volvido)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Quería que tú ___ terminado para hoy, pero no fue posible.",
+    "promptGloss": {
+      "de": "Ich wollte, dass du es bis heute beendet hättest, aber es war nicht möglich.",
+      "en": "I wanted you to have finished by today, but it wasn't possible."
+    },
+    "options": ["hubieras", "hayas", "habías", "has"],
+    "answer": "hubieras",
+    "explain": {
+      "de": "Der Hauptsatz steht in der Vergangenheit (quería), daher gilt die Zeitenfolge: statt des Subjuntivo perfecto (hayas) wird der Subjuntivo pluscuamperfecto hubieras gebraucht; habías/has sind Indikativ.",
+      "en": "The main clause is in the past (quería), so sequence of tenses applies: instead of the present perfect subjunctive (hayas) you need the past perfect subjunctive hubieras; habías/has are indicative."
+    }
+  }
+]

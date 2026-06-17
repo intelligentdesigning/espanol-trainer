@@ -277,7 +277,277 @@
     "-en"
    ]
   },
-  "practiceTenseKey": "presente"
+  "practiceTenseKey": "presente",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "Nosotros ___ pizza los viernes. (comer)",
+    "answer": "comemos",
+    "explain": {
+     "de": "Bei -er-Verben lautet die nosotros-Endung -emos (com- + -emos). Verwechsle es nicht mit -imos, das nur zu -ir-Verben gehört.",
+     "en": "For -er verbs the nosotros ending is -emos (com- + -emos). Don't confuse it with -imos, which belongs only to -ir verbs."
+    },
+    "promptGloss": {
+     "de": "Wir essen freitags Pizza.",
+     "en": "We eat pizza on Fridays."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿Dónde ___ tú? (vivir)",
+    "answer": "vives",
+    "explain": {
+     "de": "-ir-Verben haben in der tú-Form die Endung -es (viv- + -es), genau wie -er-Verben. Die Endung -as gehört dagegen nur zu -ar-Verben.",
+     "en": "-ir verbs take -es in the tú form (viv- + -es), just like -er verbs. The ending -as belongs only to -ar verbs."
+    },
+    "promptGloss": {
+     "de": "Wo wohnst du?",
+     "en": "Where do you live?"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Yo ___ español todos los días.",
+    "answer": "hablo",
+    "explain": {
+     "de": "Die yo-Form aller regelmäßigen Verben endet auf -o (habl- + -o). 'hablas' wäre tú und 'habla' wäre él/ella.",
+     "en": "The yo form of all regular verbs ends in -o (habl- + -o). 'hablas' is tú and 'habla' is él/ella."
+    },
+    "promptGloss": {
+     "de": "Ich spreche jeden Tag Spanisch.",
+     "en": "I speak Spanish every day."
+    },
+    "options": [
+     "hablo",
+     "hablas",
+     "habla",
+     "hablamos"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Vosotros ___ a las dos de la tarde.",
+    "answer": "coméis",
+    "explain": {
+     "de": "Die vosotros-Endung bei -er-Verben ist -éis mit Akzent auf dem e (com- + -éis). 'comen' ist die ellos-Form und ohne Akzent ist die Schreibung falsch.",
+     "en": "The vosotros ending for -er verbs is -éis with an accent on the e (com- + -éis). 'comen' is the ellos form and without the accent the spelling is wrong."
+    },
+    "promptGloss": {
+     "de": "Ihr esst um zwei Uhr nachmittags.",
+     "en": "You (pl.) eat at two in the afternoon."
+    },
+    "options": [
+     "coméis",
+     "comáis",
+     "comeis",
+     "comen"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Yo ___ un café, pero nosotros ___ agua.",
+    "answer": "quiero / queremos",
+    "explain": {
+     "de": "querer hat den Stammwechsel e>ie (quiero), aber bei nosotros bleibt der Stamm unverändert (queremos). 'quieremos' ist falsch, weil nosotros nie den Wechsel macht.",
+     "en": "querer has the stem change e>ie (quiero), but in nosotros the stem stays unchanged (queremos). 'quieremos' is wrong because nosotros never takes the change."
+    },
+    "promptGloss": {
+     "de": "Ich will einen Kaffee, aber wir wollen Wasser.",
+     "en": "I want a coffee, but we want water."
+    },
+    "options": [
+     "quiero / queremos",
+     "quero / queremos",
+     "quiero / quieremos",
+     "quiero / quieren"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No ___ dormir bien por la noche. (poder, yo)",
+    "answer": "puedo",
+    "explain": {
+     "de": "poder hat den Stammwechsel o>ue, der in der yo-Form auftritt: pod- wird zu pued- + -o = puedo. Ein bloßes 'podo' ohne Wechsel wäre falsch.",
+     "en": "poder has the stem change o>ue, which appears in the yo form: pod- becomes pued- + -o = puedo. A plain 'podo' without the change would be wrong."
+    },
+    "promptGloss": {
+     "de": "Ich kann nachts nicht gut schlafen.",
+     "en": "I can't sleep well at night."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Él siempre ___ la verdad.",
+    "answer": "dice",
+    "explain": {
+     "de": "decir hat den Stammwechsel e>i: dec- wird zu dic- + -e = dice. 'dije' ist die Vergangenheit (Indefinido), nicht das Präsens.",
+     "en": "decir has the stem change e>i: dec- becomes dic- + -e = dice. 'dije' is the past tense (preterite), not the present."
+    },
+    "promptGloss": {
+     "de": "Er sagt immer die Wahrheit.",
+     "en": "He always tells the truth."
+    },
+    "options": [
+     "dice",
+     "dece",
+     "die",
+     "dije"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Yo ___ dos hermanos y una hermana. (tener)",
+    "answer": "tengo",
+    "explain": {
+     "de": "tener gehört zu den Verben mit unregelmäßiger yo-Form auf -go (teng- + -o = tengo). Zusätzlich macht der Rest den Stammwechsel e>ie (tienes, tiene).",
+     "en": "tener belongs to the verbs with an irregular yo form in -go (teng- + -o = tengo). The other persons additionally take the stem change e>ie (tienes, tiene)."
+    },
+    "promptGloss": {
+     "de": "Ich habe zwei Brüder und eine Schwester.",
+     "en": "I have two brothers and a sister."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Hoy yo ___ la cena para toda la familia.",
+    "answer": "hago",
+    "explain": {
+     "de": "hacer hat eine unregelmäßige yo-Form auf -go: hag- + -o = hago. Die anderen Formen (haces, hace) sind dagegen regelmäßig.",
+     "en": "hacer has an irregular yo form in -go: hag- + -o = hago. The other forms (haces, hace) are regular."
+    },
+    "promptGloss": {
+     "de": "Heute mache ich das Abendessen für die ganze Familie.",
+     "en": "Today I'm making dinner for the whole family."
+    },
+    "options": [
+     "hago",
+     "haco",
+     "hazo",
+     "haço"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "(Yo) ___ de Alemania, pero ahora ___ en Madrid.",
+    "answer": "soy / estoy",
+    "explain": {
+     "de": "Herkunft drückt man mit ser aus (soy de Alemania), den momentanen Ort dagegen mit estar (estoy en Madrid). ser und estar sind beide völlig unregelmäßig.",
+     "en": "Origin is expressed with ser (soy de Alemania), while a current location uses estar (estoy en Madrid). Both ser and estar are fully irregular."
+    },
+    "promptGloss": {
+     "de": "Ich bin aus Deutschland, aber jetzt bin ich in Madrid.",
+     "en": "I'm from Germany, but right now I'm in Madrid."
+    },
+    "options": [
+     "soy / estoy",
+     "estoy / soy",
+     "soy / soy",
+     "estoy / estoy"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Esta noche (nosotros) ___ al cine con unos amigos. (ir)",
+    "answer": "vamos",
+    "explain": {
+     "de": "ir ist völlig unregelmäßig; die nosotros-Form lautet vamos und hat nichts mit dem Infinitivstamm zu tun. Man muss sie auswendig lernen.",
+     "en": "ir is fully irregular; the nosotros form is vamos and has nothing to do with the infinitive stem. It must be memorized."
+    },
+    "promptGloss": {
+     "de": "Heute Abend gehen wir mit ein paar Freunden ins Kino.",
+     "en": "Tonight we are going to the cinema with some friends."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Mañana (yo) ___ a la playa con mi familia.",
+    "answer": "voy",
+    "explain": {
+     "de": "Das Präsens drückt auch eine geplante nahe Zukunft aus, deshalb steht hier voy trotz 'mañana'. 'iré' ist das Futur und hier nicht nötig.",
+     "en": "The present also expresses a planned near future, so voy is used here despite 'mañana'. 'iré' is the future tense and not needed here."
+    },
+    "promptGloss": {
+     "de": "Morgen gehe ich mit meiner Familie an den Strand.",
+     "en": "Tomorrow I'm going to the beach with my family."
+    },
+    "options": [
+     "voy",
+     "iré",
+     "vaya",
+     "voyé"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "El sol ___ por el este cada mañana.",
+    "answer": "sale",
+    "explain": {
+     "de": "Für allgemeine Wahrheiten und immer Gültiges verwendet man das einfache Präsens (sale). Die Verlaufsform 'está saliendo' würde nur einen gerade ablaufenden Vorgang bezeichnen.",
+     "en": "General truths and always-valid facts use the simple present (sale). The progressive 'está saliendo' would describe only an action happening right now."
+    },
+    "promptGloss": {
+     "de": "Die Sonne geht jeden Morgen im Osten auf.",
+     "en": "The sun rises in the east every morning."
+    },
+    "options": [
+     "sale",
+     "está saliendo",
+     "salió",
+     "saldrá"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Los niños ___ ocho horas cada noche.",
+    "answer": "duermen",
+    "explain": {
+     "de": "dormir hat den Stammwechsel o>ue, der auch in der ellos-Form steht: duerm- + -en = duermen. 'dormen' ohne Wechsel und 'duermes' (tú) passen nicht zum Subjekt 'los niños'.",
+     "en": "dormir takes the stem change o>ue, which also appears in the ellos form: duerm- + -en = duermen. 'dormen' without the change and 'duermes' (tú) don't match the subject 'los niños'."
+    },
+    "promptGloss": {
+     "de": "Die Kinder schlafen jede Nacht acht Stunden.",
+     "en": "The children sleep eight hours every night."
+    },
+    "options": [
+     "duermen",
+     "dormen",
+     "duermes",
+     "duermo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ahora mismo (nosotros) ___ muy cansados. (estar)",
+    "answer": "estamos",
+    "explain": {
+     "de": "Ein vorübergehender Zustand wie Müdigkeit verlangt estar, nicht ser; die nosotros-Form lautet estamos. Mit ser ('somos cansados') wäre die Bedeutung falsch.",
+     "en": "A temporary state like tiredness requires estar, not ser; the nosotros form is estamos. With ser ('somos cansados') the meaning would be wrong."
+    },
+    "promptGloss": {
+     "de": "Gerade jetzt sind wir sehr müde.",
+     "en": "Right now we are very tired."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Qué ___ (tú) los fines de semana?",
+    "answer": "haces",
+    "explain": {
+     "de": "Die unregelmäßige -go-Form von hacer betrifft nur yo (hago); die tú-Form ist regelmäßig: hac- + -es = haces. 'hagas' ist Subjuntiv und 'haz' ist der Imperativ.",
+     "en": "hacer's irregular -go form affects only yo (hago); the tú form is regular: hac- + -es = haces. 'hagas' is subjunctive and 'haz' is the imperative."
+    },
+    "promptGloss": {
+     "de": "Was machst du am Wochenende?",
+     "en": "What do you do on weekends?"
+    },
+    "options": [
+     "haces",
+     "hagas",
+     "hago",
+     "haz"
+    ]
+   }
+  ]
  },
  {
   "id": "preterito-imperfecto",
@@ -523,7 +793,257 @@
     "-ían"
    ]
   },
-  "practiceTenseKey": "preterito-imperfecto"
+  "practiceTenseKey": "preterito-imperfecto",
+  "practice": [
+   {
+    "kind": "choice",
+    "prompt": "De niño, ___ todos los veranos a casa de mis abuelos.",
+    "answer": "iba",
+    "explain": {
+     "de": "\"De niño\" und \"todos los veranos\" markieren eine wiederholte Gewohnheit in der Vergangenheit, also Imperfekt: iba (ir → unregelmäßig). \"Fui\" (Indefinido) bezeichnet ein einmaliges abgeschlossenes Ereignis, nicht eine Gewohnheit.",
+     "en": "\"De niño\" and \"todos los veranos\" mark a repeated past habit, so the imperfect: iba (ir is irregular). \"Fui\" (preterite) marks one finished event, not a habit."
+    },
+    "promptGloss": {
+     "de": "Als Kind fuhr ich jeden Sommer zum Haus meiner Großeltern.",
+     "en": "As a child, I used to go to my grandparents' house every summer."
+    },
+    "options": [
+     "iba",
+     "fui",
+     "voy"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Cuando vivíamos en el pueblo, mi padre ___ (trabajar) en el campo.",
+    "answer": "trabajaba",
+    "explain": {
+     "de": "-ar-Verb, 3. Person Singular: Stamm trabaj- plus Endung -aba = trabajaba. Es beschreibt eine andauernde Hintergrundsituation in der Vergangenheit.",
+     "en": "An -ar verb, 3rd person singular: stem trabaj- plus -aba = trabajaba. It describes an ongoing background situation in the past."
+    },
+    "promptGloss": {
+     "de": "Als wir im Dorf wohnten, arbeitete mein Vater auf dem Feld.",
+     "en": "When we lived in the village, my father worked in the fields."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Antes nosotros ___ (comer) juntos cada domingo.",
+    "answer": "comíamos",
+    "explain": {
+     "de": "-er-Verb in der 1. Person Plural: Stamm com- plus Endung -íamos = comíamos. \"Antes\" und \"cada domingo\" signalisieren eine wiederholte Handlung.",
+     "en": "An -er verb in the nosotros form: stem com- plus -íamos = comíamos. \"Antes\" and \"cada domingo\" signal a repeated action."
+    },
+    "promptGloss": {
+     "de": "Früher aßen wir jeden Sonntag zusammen.",
+     "en": "We used to eat together every Sunday."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Mi hermana ___ muy alta y siempre llevaba el pelo largo.",
+    "answer": "era",
+    "explain": {
+     "de": "Eine dauerhafte Eigenschaft/Beschreibung in der Vergangenheit verlangt ser im Imperfekt: era (ser → unregelmäßig). \"Estaba\" (estar) passt nicht für eine inhärente Eigenschaft wie Größe, und \"fue\" (Indefinido) drückt keine Beschreibung aus.",
+     "en": "A lasting trait/description in the past needs ser in the imperfect: era (ser is irregular). \"Estaba\" (estar) doesn't fit an inherent quality like height, and \"fue\" (preterite) doesn't express description."
+    },
+    "promptGloss": {
+     "de": "Meine Schwester war sehr groß und trug immer langes Haar.",
+     "en": "My sister was very tall and always wore her hair long."
+    },
+    "options": [
+     "era",
+     "fue",
+     "estaba"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Cuando era pequeña, yo ___ (vivir) cerca de la playa.",
+    "answer": "vivía",
+    "explain": {
+     "de": "-ir-Verb in der 1. Person Singular: Stamm viv- plus Endung -ía = vivía. -er- und -ir-Verben teilen sich im Imperfekt dieselben Endungen.",
+     "en": "An -ir verb in the yo form: stem viv- plus -ía = vivía. -er and -ir verbs share the same imperfect endings."
+    },
+    "promptGloss": {
+     "de": "Als ich klein war, wohnte ich in der Nähe des Strandes.",
+     "en": "When I was little, I lived near the beach."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Mi abuelo ___ (ver) la televisión todas las noches después de cenar.",
+    "answer": "veía",
+    "explain": {
+     "de": "Ver ist eines der nur drei unregelmäßigen Verben: ver → veía. Es behält das -e- des Stamms (ve-), daher veía und nicht \"vía\".",
+     "en": "Ver is one of only three irregular verbs: ver → veía. It keeps the stem's -e- (ve-), hence veía, not \"vía\"."
+    },
+    "promptGloss": {
+     "de": "Mein Großvater sah jeden Abend nach dem Essen fern.",
+     "en": "My grandfather used to watch television every night after dinner."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Yo ___ doce años cuando empecé a tocar la guitarra.",
+    "answer": "tenía",
+    "explain": {
+     "de": "Für Altersangaben in der Vergangenheit benutzt man immer das Imperfekt: tenía. Tener hat im Imperfekt keine Stammänderung, also ten- plus -ía = tenía (nicht \"tuve\", das Indefinido).",
+     "en": "Age in the past always uses the imperfect: tenía. Tener has no stem change in the imperfect, so ten- plus -ía = tenía (not \"tuve\", the preterite)."
+    },
+    "promptGloss": {
+     "de": "Ich war zwölf Jahre alt, als ich anfing, Gitarre zu spielen.",
+     "en": "I was twelve years old when I started playing the guitar."
+    },
+    "options": [
+     "tenía",
+     "tuve",
+     "tengo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "De pequeños, mis hermanos y yo ___ (querer) ser astronautas.",
+    "answer": "queríamos",
+    "explain": {
+     "de": "Querer hat im Präsens eine Stammänderung (quiero), aber im Imperfekt gibt es keine Stammänderungen: quer- plus -íamos = queríamos.",
+     "en": "Querer has a stem change in the present (quiero), but the imperfect has no stem changes: quer- plus -íamos = queríamos."
+    },
+    "promptGloss": {
+     "de": "Als wir klein waren, wollten meine Geschwister und ich Astronauten werden.",
+     "en": "When we were little, my siblings and I wanted to be astronauts."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "___ las ocho de la mañana cuando sonó el teléfono.",
+    "answer": "Eran",
+    "explain": {
+     "de": "Uhrzeit in der Vergangenheit steht im Imperfekt von ser: Eran. Da \"las ocho\" Plural ist, braucht man die 3. Person Plural \"eran\", nicht das Singular \"era\". \"Fueron\" (Indefinido) wird für Uhrzeit nicht verwendet.",
+     "en": "Telling time in the past uses ser in the imperfect: Eran. Since \"las ocho\" is plural, you need the plural \"eran\", not the singular \"era\". \"Fueron\" (preterite) is not used for time."
+    },
+    "promptGloss": {
+     "de": "Es war acht Uhr morgens, als das Telefon klingelte.",
+     "en": "It was eight in the morning when the phone rang."
+    },
+    "options": [
+     "Eran",
+     "Fueron",
+     "Era"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ayer ___ y por eso no salimos a pasear.",
+    "answer": "llovía",
+    "explain": {
+     "de": "Wetter als Hintergrund/Beschreibung steht im Imperfekt: llovía. Obwohl \"ayer\" oft das Indefinido begleitet, beschreibt hier das Wetter die Umstände, nicht ein abgeschlossenes Ereignis.",
+     "en": "Weather as background/description goes in the imperfect: llovía. Although \"ayer\" often goes with the preterite, here the weather describes the circumstances, not a completed event."
+    },
+    "promptGloss": {
+     "de": "Gestern regnete es, und deshalb gingen wir nicht spazieren.",
+     "en": "Yesterday it was raining, and that's why we didn't go for a walk."
+    },
+    "options": [
+     "llovía",
+     "llovió",
+     "llueve"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Todos los días, ella se ___ (levantar) a las seis de la mañana.",
+    "answer": "levantaba",
+    "explain": {
+     "de": "\"Todos los días\" ist ein typischer Auslöser für das Imperfekt (Gewohnheit): -ar-Verb, 3. Person, levant- plus -aba = levantaba. Das reflexive \"se\" steht davor.",
+     "en": "\"Todos los días\" is a classic imperfect trigger (habit): an -ar verb, 3rd person, levant- plus -aba = levantaba. The reflexive \"se\" goes before it."
+    },
+    "promptGloss": {
+     "de": "Jeden Tag stand sie um sechs Uhr morgens auf.",
+     "en": "Every day, she used to get up at six in the morning."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Mientras yo ___, mi hermano preparaba la cena.",
+    "answer": "estudiaba",
+    "explain": {
+     "de": "Zwei gleichzeitige, andauernde Handlungen in der Vergangenheit, oft mit \"mientras\", stehen beide im Imperfekt: estudiaba. \"Estudié\" (Indefinido) würde eine abgeschlossene Einzelhandlung markieren.",
+     "en": "Two simultaneous, ongoing past actions, often with \"mientras\", both take the imperfect: estudiaba. \"Estudié\" (preterite) would mark a single completed action."
+    },
+    "promptGloss": {
+     "de": "Während ich lernte, bereitete mein Bruder das Abendessen zu.",
+     "en": "While I was studying, my brother was preparing dinner."
+    },
+    "options": [
+     "estudiaba",
+     "estudié",
+     "estudiaría"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Yo leía tranquilamente cuando de repente ___ un ruido en la cocina.",
+    "answer": "se oyó",
+    "explain": {
+     "de": "Das Imperfekt (leía) liefert den Hintergrund, aber die plötzliche, unterbrechende Handlung mit \"de repente\" verlangt das Indefinido: se oyó. Das Imperfekt \"se oía\" würde ein andauerndes, nicht ein plötzliches Geräusch bedeuten.",
+     "en": "The imperfect (leía) sets the background, but the sudden interrupting action with \"de repente\" needs the preterite: se oyó. The imperfect \"se oía\" would imply an ongoing, not a sudden, noise."
+    },
+    "promptGloss": {
+     "de": "Ich las ruhig, als plötzlich ein Geräusch in der Küche ertönte.",
+     "en": "I was reading quietly when suddenly there was a noise in the kitchen."
+    },
+    "options": [
+     "se oyó",
+     "se oía",
+     "se oye"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Cuando éramos jóvenes, vosotros ___ (ir) mucho al cine.",
+    "answer": "ibais",
+    "explain": {
+     "de": "Ir ist unregelmäßig im Imperfekt (Stamm ib-): 2. Person Plural = ibais. \"Mucho\" signalisiert eine wiederholte Gewohnheit, daher das Imperfekt.",
+     "en": "Ir is irregular in the imperfect (stem ib-): the vosotros form is ibais. \"Mucho\" signals a repeated habit, hence the imperfect."
+    },
+    "promptGloss": {
+     "de": "Als wir jung waren, gingt ihr oft ins Kino.",
+     "en": "When we were young, you all used to go to the cinema a lot."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "El año pasado por fin ___ a Sevilla; me encantó la ciudad.",
+    "answer": "viajé",
+    "explain": {
+     "de": "Eine einmalige, abgeschlossene Handlung mit \"el año pasado\" und \"por fin\" verlangt das Indefinido: viajé, nicht das Imperfekt \"viajaba\". Das Imperfekt würde eine wiederholte Gewohnheit ausdrücken.",
+     "en": "A single completed action with \"el año pasado\" and \"por fin\" needs the preterite: viajé, not the imperfect \"viajaba\". The imperfect would express a repeated habit."
+    },
+    "promptGloss": {
+     "de": "Letztes Jahr reiste ich endlich nach Sevilla; die Stadt hat mir sehr gefallen.",
+     "en": "Last year I finally traveled to Seville; I loved the city."
+    },
+    "options": [
+     "viajé",
+     "viajaba",
+     "viajo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Los sábados mi madre ___ (hacer) un pastel y toda la familia lo comía.",
+    "answer": "hacía",
+    "explain": {
+     "de": "Hacer ist regelmäßig im Imperfekt: hac- plus -ía = hacía. \"Los sábados\" markiert eine wiederholte Gewohnheit, daher das Imperfekt.",
+     "en": "Hacer is regular in the imperfect: hac- plus -ía = hacía. \"Los sábados\" marks a repeated habit, hence the imperfect."
+    },
+    "promptGloss": {
+     "de": "Samstags machte meine Mutter einen Kuchen, und die ganze Familie aß ihn.",
+     "en": "On Saturdays my mother used to make a cake and the whole family would eat it."
+    }
+   }
+  ]
  },
  {
   "id": "preterito-indefinido",
@@ -859,7 +1379,260 @@
     "-ieron"
    ]
   },
-  "practiceTenseKey": "preterito-indefinido"
+  "practiceTenseKey": "preterito-indefinido",
+  "practice": [
+   {
+    "kind": "choice",
+    "prompt": "Ayer ___ con mi madre por teléfono durante una hora.",
+    "answer": "hablé",
+    "explain": {
+     "de": "\"Ayer\" und eine konkrete, abgeschlossene Handlung verlangen das Indefinido: hablé. \"Hablaba\" (Imperfekt) beschreibt Gewohnheiten/Hintergrund, nicht ein einmaliges abgeschlossenes Ereignis.",
+     "en": "\"Ayer\" plus a single completed action triggers the indefinido: hablé. \"Hablaba\" (imperfect) describes habits/background, not one finished event."
+    },
+    "promptGloss": {
+     "de": "Gestern sprach ich eine Stunde lang mit meiner Mutter am Telefon.",
+     "en": "Yesterday I spoke with my mother on the phone for an hour."
+    },
+    "options": [
+     "hablé",
+     "hablaba",
+     "hablo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "El año pasado nosotros ___ (comer) en ese restaurante muchas veces.",
+    "answer": "comimos",
+    "explain": {
+     "de": "-er-Verb in der 1. Person Plural: Stamm com- plus Endung -imos = comimos. Achtung: Diese Form ist identisch mit dem Präsens, aber \"el año pasado\" markiert die Vergangenheit.",
+     "en": "An -er verb in the nosotros form: stem com- plus -imos = comimos. Note it looks identical to the present, but \"el año pasado\" signals the past."
+    },
+    "promptGloss": {
+     "de": "Letztes Jahr aßen wir viele Male in diesem Restaurant.",
+     "en": "Last year we ate at that restaurant many times."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ella ___ diez años en Madrid antes de mudarse.",
+    "answer": "vivió",
+    "explain": {
+     "de": "Ein abgeschlossener, zeitlich begrenzter Zeitraum (\"diez años\") nimmt das Indefinido: vivió (-ir-Verb, 3. Person, Endung -ió). \"Vivé\" existiert nicht; -er/-ir bilden die 1. Person auf -í (viví).",
+     "en": "A completed, bounded span (\"diez años\") takes the indefinido: vivió (-ir verb, 3rd person, ending -ió). \"Vivé\" does not exist; -er/-ir form the yo-form with -í (viví)."
+    },
+    "promptGloss": {
+     "de": "Sie lebte zehn Jahre in Madrid, bevor sie umzog.",
+     "en": "She lived ten years in Madrid before moving."
+    },
+    "options": [
+     "vivió",
+     "vivía",
+     "vivé"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿Tú ___ (hablar) con el director esta mañana?",
+    "answer": "hablaste",
+    "explain": {
+     "de": "-ar-Verb, 2. Person Singular: Stamm habl- plus Endung -aste = hablaste. Es gibt hier kein -s am Ende wie im Präsens (hablas).",
+     "en": "An -ar verb, tú form: stem habl- plus -aste = hablaste. Unlike the present (hablas), the indefinido tú form has no final -s."
+    },
+    "promptGloss": {
+     "de": "Hast du heute Morgen mit dem Direktor gesprochen?",
+     "en": "Did you talk to the director this morning?"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Cuando era niño, mi abuela siempre me ___ cuentos antes de dormir.",
+    "answer": "contaba",
+    "explain": {
+     "de": "\"Cuando era niño\" und \"siempre\" markieren eine wiederholte Gewohnheit in der Vergangenheit, also Imperfekt (contaba), NICHT Indefinido. Das Indefinido (contó) würde eine einzelne abgeschlossene Handlung bezeichnen.",
+     "en": "\"Cuando era niño\" and \"siempre\" mark a repeated past habit, so the imperfect (contaba), NOT the indefinido. The indefinido (contó) would mark one single finished action."
+    },
+    "promptGloss": {
+     "de": "Als ich ein Kind war, erzählte mir meine Großmutter immer Geschichten vor dem Schlafen.",
+     "en": "When I was a child, my grandmother always used to tell me stories before sleeping."
+    },
+    "options": [
+     "contaba",
+     "contó",
+     "contaste"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "El verano pasado yo ___ (tener) que trabajar todos los fines de semana.",
+    "answer": "tuve",
+    "explain": {
+     "de": "tener hat einen starken unregelmäßigen Stamm tuv- mit betonungslosen Endungen ohne Akzent: tuv- + e = tuve (nicht \"tení\" oder \"tuvé\").",
+     "en": "tener has the strong irregular stem tuv- with unstressed, accent-free endings: tuv- + e = tuve (not \"tení\" or \"tuvé\")."
+    },
+    "promptGloss": {
+     "de": "Letzten Sommer musste ich jedes Wochenende arbeiten.",
+     "en": "Last summer I had to work every weekend."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Anoche no ___ dormir porque había mucho ruido en la calle.",
+    "answer": "pude",
+    "explain": {
+     "de": "poder hat den starken Stamm pud- mit betonungsloser Endung -e (ohne Akzent): pude. \"Podí\" wäre die regelmäßige Form, die hier falsch ist; \"puede\" ist Präsens.",
+     "en": "poder has the strong stem pud- with the unstressed, accent-free ending -e: pude. \"Podí\" would be the regular form (wrong here); \"puede\" is the present."
+    },
+    "promptGloss": {
+     "de": "Letzte Nacht konnte ich nicht schlafen, weil viel Lärm auf der Straße war.",
+     "en": "Last night I couldn't sleep because there was a lot of noise in the street."
+    },
+    "options": [
+     "pude",
+     "podí",
+     "puede"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ellos ___ (decir) que no vendrían a la fiesta.",
+    "answer": "dijeron",
+    "explain": {
+     "de": "decir hat den Stamm dij-. In der 3. Person Plural fällt das i der Endung weg: dij- + -eron (nicht -ieron) = dijeron.",
+     "en": "decir has the stem dij-. In the 3rd person plural the i of the ending drops: dij- + -eron (not -ieron) = dijeron."
+    },
+    "promptGloss": {
+     "de": "Sie sagten, dass sie nicht zur Party kommen würden.",
+     "en": "They said they wouldn't come to the party."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Mi hermana ___ una tarta deliciosa para el cumpleaños.",
+    "answer": "hizo",
+    "explain": {
+     "de": "hacer ist unregelmäßig: in der 3. Person Singular wird c zu z und die Endung ist -o ohne Akzent: hizo. \"Hació\" und \"hizó\" sind beide falsch.",
+     "en": "hacer is irregular: in the 3rd person singular c becomes z and the ending is -o with no accent: hizo. \"Hació\" and \"hizó\" are both wrong."
+    },
+    "promptGloss": {
+     "de": "Meine Schwester machte einen leckeren Kuchen zum Geburtstag.",
+     "en": "My sister made a delicious cake for the birthday."
+    },
+    "options": [
+     "hizo",
+     "hació",
+     "hizó"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "El sábado ___ al cine y luego cenamos con unos amigos.",
+    "answer": "fui",
+    "explain": {
+     "de": "ir hat im Indefinido die Form fui für \"yo\" (ser und ir teilen fui, fue). Es ist eine einzelne abgeschlossene Handlung, daher nicht Imperfekt \"iba\"; \"fue\" wäre 3. Person.",
+     "en": "ir in the indefinido is fui for \"yo\" (ser and ir share fui, fue). It's a single completed action, so not the imperfect \"iba\"; \"fue\" would be 3rd person."
+    },
+    "promptGloss": {
+     "de": "Am Samstag ging ich ins Kino und danach aßen wir mit Freunden zu Abend.",
+     "en": "On Saturday I went to the cinema and then we had dinner with some friends."
+    },
+    "options": [
+     "fui",
+     "iba",
+     "fue"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Anoche el bebé ___ (dormir) muy bien toda la noche.",
+    "answer": "durmió",
+    "explain": {
+     "de": "Bei -ir-Verben mit o im Stamm wird in der 3. Person das o zu u: dorm- > durm- + -ió = durmió. Die 1. Person bleibt regelmäßig (dormí).",
+     "en": "In -ir verbs with stem o, the 3rd person changes o to u: dorm- > durm- + -ió = durmió. The yo-form stays regular (dormí)."
+    },
+    "promptGloss": {
+     "de": "Letzte Nacht schlief das Baby die ganze Nacht sehr gut.",
+     "en": "Last night the baby slept very well all night."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Esta mañana yo ___ (buscar) las llaves por toda la casa.",
+    "answer": "busqué",
+    "explain": {
+     "de": "Vor der Endung -é wird c zu qu, damit der harte k-Laut erhalten bleibt: busc- > busqué. \"Buscé\" würde wie \"busse\" klingen und ist falsch geschrieben.",
+     "en": "Before the ending -é, c becomes qu to keep the hard k-sound: busc- > busqué. \"Buscé\" would sound wrong and is misspelled."
+    },
+    "promptGloss": {
+     "de": "Heute Morgen suchte ich im ganzen Haus nach den Schlüsseln.",
+     "en": "This morning I looked for the keys all over the house."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ayer ___ tarde a la reunión porque perdí el autobús.",
+    "answer": "llegué",
+    "explain": {
+     "de": "Bei -gar-Verben wird vor -é g zu gu, um den harten g-Laut zu bewahren: lleg- > llegué. \"Llegé\" ist orthografisch falsch; \"llegaba\" wäre Imperfekt.",
+     "en": "In -gar verbs, before -é g becomes gu to keep the hard g-sound: lleg- > llegué. \"Llegé\" is misspelled; \"llegaba\" would be the imperfect."
+    },
+    "promptGloss": {
+     "de": "Gestern kam ich zu spät zur Besprechung, weil ich den Bus verpasste.",
+     "en": "Yesterday I arrived late to the meeting because I missed the bus."
+    },
+    "options": [
+     "llegué",
+     "llegé",
+     "llegaba"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "El lunes pasado yo ___ (empezar) un curso de italiano.",
+    "answer": "empecé",
+    "explain": {
+     "de": "Bei -zar-Verben wird vor -é z zu c: empez- > empecé. Im Spanischen steht vor e/i fast nie ein z, daher die Schreibänderung.",
+     "en": "In -zar verbs, before -é z becomes c: empez- > empecé. Spanish almost never writes z before e/i, hence the spelling change."
+    },
+    "promptGloss": {
+     "de": "Letzten Montag fing ich einen Italienischkurs an.",
+     "en": "Last Monday I started an Italian course."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "El concierto ___ increíble; todos ___ encantados al salir.",
+    "answer": "fue / quedaron",
+    "explain": {
+     "de": "\"El concierto\" ist 3. Person Singular: ser > fue. \"Todos\" ist 3. Person Plural: qued- + -aron = quedaron. \"Fui\" wäre 1. Person, \"quedamos\" wäre wir.",
+     "en": "\"El concierto\" is 3rd person singular: ser > fue. \"Todos\" is 3rd person plural: qued- + -aron = quedaron. \"Fui\" would be 1st person, \"quedamos\" would be we."
+    },
+    "promptGloss": {
+     "de": "Das Konzert war unglaublich; alle waren begeistert beim Hinausgehen.",
+     "en": "The concert was incredible; everyone was delighted on the way out."
+    },
+    "options": [
+     "fue / quedaron",
+     "fui / quedaron",
+     "fue / quedamos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Primero ___ (nosotros, comer), luego ___ (nosotros, ver) una película y al final ___ (nosotros, dormir).",
+    "answer": "comimos, vimos, dormimos",
+    "explain": {
+     "de": "Eine Kette aufeinanderfolgender abgeschlossener Ereignisse steht im Indefinido: comimos (-er), vimos (ver, kurz und unregelmäßig ohne Akzent), dormimos (-ir, in der 1. Person Plural ohne o>u-Wechsel).",
+     "en": "A chain of successive completed events uses the indefinido: comimos (-er), vimos (ver, short irregular, no accent), dormimos (-ir; the nosotros form has no o>u change)."
+    },
+    "promptGloss": {
+     "de": "Zuerst aßen wir, dann sahen wir einen Film und am Ende schliefen wir.",
+     "en": "First we ate, then we watched a film and finally we slept."
+    },
+    "altAnswers": [
+     "comimos vimos dormimos"
+    ]
+   }
+  ]
  },
  {
   "id": "preterito-perfecto",
@@ -1079,7 +1852,263 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "preterito-perfecto"
+  "practiceTenseKey": "preterito-perfecto",
+  "practice": [
+   {
+    "kind": "choice",
+    "prompt": "Esta semana ___ trabajado mucho.",
+    "answer": "he",
+    "explain": {
+     "de": "Das Hilfsverb haber wird im Präsens konjugiert; für yo lautet die Form 'he'. 'ha' wäre 3. Person Singular (él/ella), passt also nicht zum Subjekt 'ich'.",
+     "en": "The auxiliary haber is conjugated in the present; the yo form is 'he'. 'ha' is third person singular (él/ella) and does not match the subject 'I'."
+    },
+    "promptGloss": {
+     "de": "Diese Woche habe ich viel gearbeitet.",
+     "en": "This week I have worked a lot."
+    },
+    "options": [
+     "he",
+     "ha",
+     "has",
+     "han"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Nosotros ___ comido en casa hoy.",
+    "answer": "hemos",
+    "explain": {
+     "de": "haber in der 1. Person Plural ist 'hemos' (he, has, ha, hemos, habéis, han). Nur haber wird konjugiert, das Partizip 'comido' bleibt unverändert.",
+     "en": "haber in the first person plural is 'hemos' (he, has, ha, hemos, habéis, han). Only haber is conjugated; the participle 'comido' stays the same."
+    },
+    "promptGloss": {
+     "de": "Wir haben heute zu Hause gegessen.",
+     "en": "We have eaten at home today."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿Vosotros habéis ___ aquí mucho tiempo? (vivir)",
+    "answer": "vivido",
+    "explain": {
+     "de": "Regelmäßiges -ir-Verb: Stamm 'viv-' + Endung '-ido' = 'vivido'. Das Partizip ist eine feste Form und ändert sich nicht nach Person oder Zahl.",
+     "en": "Regular -ir verb: stem 'viv-' + ending '-ido' = 'vivido'. The participle is a fixed form and does not change for person or number."
+    },
+    "promptGloss": {
+     "de": "Habt ihr lange hier gewohnt?",
+     "en": "Have you (pl.) lived here for a long time?"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ellos han ___ aquí toda su vida.",
+    "answer": "vivido",
+    "explain": {
+     "de": "Das Partizip nach haber bleibt immer in der Grundform 'vivido' – es kongruiert NICHT in Geschlecht/Zahl, daher kein 'vividos'. 'viviendo' wäre das Gerundium, nicht das Partizip.",
+     "en": "The participle after haber always stays as 'vivido' – it does NOT agree in gender/number, so 'vividos' is wrong. 'viviendo' is the gerund, not the participle."
+    },
+    "promptGloss": {
+     "de": "Sie haben ihr ganzes Leben lang hier gewohnt.",
+     "en": "They have lived here all their lives."
+    },
+    "options": [
+     "vivido",
+     "vividos",
+     "vividas",
+     "viviendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ya ___ hecho la tarea, por eso puedo descansar. (yo)",
+    "answer": "he",
+    "explain": {
+     "de": "'ya' (= schon) signalisiert jüngste Vergangenheit mit Bezug zum Jetzt – typisch fürs pretérito perfecto. Subjekt ist 'yo', also haber = 'he'.",
+     "en": "'ya' (= already) signals a recent past with present relevance – typical for the pretérito perfecto. The subject is 'yo', so haber = 'he'."
+    },
+    "promptGloss": {
+     "de": "Ich habe die Aufgabe schon gemacht, deshalb kann ich mich ausruhen.",
+     "en": "I have already done the homework, that's why I can rest."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Alguna vez ___ estado en España?",
+    "answer": "has",
+    "explain": {
+     "de": "'alguna vez' (= je) leitet eine Frage nach Lebenserfahrung ein, hier an 'tú' gerichtet: haber = 'has'. 'habéis' wäre für 'vosotros', passt nicht zur Du-Frage.",
+     "en": "'alguna vez' (= ever) introduces a question about life experience, here addressed to 'tú': haber = 'has'. 'habéis' would be for 'vosotros' and does not fit a 'you (sg.)' question."
+    },
+    "promptGloss": {
+     "de": "Warst du schon mal in Spanien?",
+     "en": "Have you ever been to Spain?"
+    },
+    "options": [
+     "has",
+     "he",
+     "habéis",
+     "han"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Todavía no ___ visto la película; ¿me la recomiendas? (yo)",
+    "answer": "he",
+    "explain": {
+     "de": "'todavía no' (= noch nicht) ist ein typischer Auslöser fürs pretérito perfecto bei Erfahrungen bis jetzt. Für 'yo' ist haber = 'he'.",
+     "en": "'todavía no' (= not yet) is a typical trigger for the pretérito perfecto with experiences up to now. For 'yo', haber = 'he'."
+    },
+    "promptGloss": {
+     "de": "Ich habe den Film noch nicht gesehen; empfiehlst du ihn mir?",
+     "en": "I haven't seen the film yet; do you recommend it to me?"
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Mi hermano ha ___ un pastel para la fiesta. (hacer)",
+    "answer": "hecho",
+    "explain": {
+     "de": "'hacer' hat ein unregelmäßiges Partizip: 'hecho' (nicht 'hacido'). Es gehört zu den festen Ausnahmen wie dicho, visto, escrito.",
+     "en": "'hacer' has an irregular participle: 'hecho' (not 'hacido'). It is one of the fixed exceptions like dicho, visto, escrito."
+    },
+    "promptGloss": {
+     "de": "Mein Bruder hat einen Kuchen für die Party gemacht.",
+     "en": "My brother has made a cake for the party."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "El profesor ha ___ que el examen es mañana.",
+    "answer": "dicho",
+    "explain": {
+     "de": "'decir' bildet ein unregelmäßiges Partizip: 'dicho'. Die regelmäßig wirkenden Formen 'decido'/'dicido' existieren nicht; 'diciendo' ist das Gerundium.",
+     "en": "'decir' has an irregular participle: 'dicho'. The regular-looking forms 'decido'/'dicido' do not exist; 'diciendo' is the gerund."
+    },
+    "promptGloss": {
+     "de": "Der Lehrer hat gesagt, dass die Prüfung morgen ist.",
+     "en": "The teacher has said that the exam is tomorrow."
+    },
+    "options": [
+     "dicho",
+     "decido",
+     "dicido",
+     "diciendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿Quién ha ___ la ventana? Hace mucho frío. (abrir)",
+    "answer": "abierto",
+    "explain": {
+     "de": "'abrir' hat das unregelmäßige Partizip 'abierto' (nicht 'abrido'). Es zählt zur Liste hecho, dicho, visto, escrito, vuelto, puesto, roto, abierto.",
+     "en": "'abrir' has the irregular participle 'abierto' (not 'abrido'). It belongs to the list hecho, dicho, visto, escrito, vuelto, puesto, roto, abierto."
+    },
+    "promptGloss": {
+     "de": "Wer hat das Fenster geöffnet? Es ist sehr kalt.",
+     "en": "Who has opened the window? It's very cold."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Esta mañana (yo) ___ al médico porque me dolía la cabeza.",
+    "answer": "he ido",
+    "explain": {
+     "de": "Das Perfekt wird IMMER mit haber gebildet – nie mit 'ser'/'estar' (daher kein 'soy ido', anders als im Deutschen 'ich bin gegangen'). 'ir' hat das regelmäßige Partizip 'ido'.",
+     "en": "The present perfect is ALWAYS formed with haber – never with 'ser'/'estar' (so 'soy ido' is wrong, unlike German/some languages). 'ir' has the regular participle 'ido'."
+    },
+    "promptGloss": {
+     "de": "Heute Morgen bin ich zum Arzt gegangen, weil ich Kopfschmerzen hatte.",
+     "en": "This morning I have gone to the doctor because I had a headache."
+    },
+    "options": [
+     "he ido",
+     "he idó",
+     "soy ido",
+     "he iendo"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ayer ___ al cine con mis amigos y volvimos tarde.",
+    "answer": "fui",
+    "explain": {
+     "de": "'ayer' (= gestern) ist eine abgeschlossene Zeitangabe ohne Gegenwartsbezug und verlangt das indefinido 'fui', nicht das perfecto. Das perfecto braucht Marker wie hoy, esta semana, ya.",
+     "en": "'ayer' (= yesterday) is a closed time frame with no present relevance and requires the preterite 'fui', not the perfect. The perfect needs markers like hoy, esta semana, ya."
+    },
+    "promptGloss": {
+     "de": "Gestern ging ich mit meinen Freunden ins Kino und wir kamen spät zurück.",
+     "en": "Yesterday I went to the cinema with my friends and we came back late."
+    },
+    "options": [
+     "fui",
+     "he ido"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Hoy ___ un día estupendo: todo ha salido bien.",
+    "answer": "ha sido",
+    "explain": {
+     "de": "'hoy' bezieht sich auf den noch andauernden Zeitraum 'heute', daher pretérito perfecto 'ha sido'. 'fue' (indefinido) würde 'hoy' als abgeschlossen markieren – passt hier nicht.",
+     "en": "'hoy' refers to the still-ongoing period 'today', so pretérito perfecto 'ha sido'. 'fue' (preterite) would treat 'today' as closed – which doesn't fit."
+    },
+    "promptGloss": {
+     "de": "Heute war ein toller Tag: alles ist gut gelaufen.",
+     "en": "Today has been a great day: everything has gone well."
+    },
+    "options": [
+     "ha sido",
+     "fue",
+     "era",
+     "es"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No ___ podido dormir esta noche por el ruido. (nosotros)",
+    "answer": "hemos",
+    "explain": {
+     "de": "Die Verneinung 'no' steht vor dem konjugierten haber, das hier 'hemos' (nosotros) lautet; haber und Partizip 'podido' dürfen nicht getrennt werden.",
+     "en": "The negation 'no' comes before the conjugated haber, here 'hemos' (nosotros); haber and the participle 'podido' must not be separated."
+    },
+    "promptGloss": {
+     "de": "Wir haben diese Nacht wegen des Lärms nicht schlafen können.",
+     "en": "We have not been able to sleep tonight because of the noise."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ana se ___ levantado muy temprano esta mañana.",
+    "answer": "ha",
+    "explain": {
+     "de": "Bei reflexiven Verben steht das Pronomen 'se' VOR dem konjugierten haber ('se ha levantado'), nie dazwischen ('ha se'). Das Perfekt nutzt haber, nicht 'estar' oder 'ser'.",
+     "en": "With reflexive verbs the pronoun 'se' goes BEFORE the conjugated haber ('se ha levantado'), never between them ('ha se'). The perfect uses haber, not 'estar' or 'ser'."
+    },
+    "promptGloss": {
+     "de": "Ana ist heute Morgen sehr früh aufgestanden.",
+     "en": "Ana has gotten up very early this morning."
+    },
+    "options": [
+     "ha",
+     "ha se",
+     "está",
+     "es"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Vosotros ___ sido muy amables conmigo hoy. (haber)",
+    "answer": "habéis",
+    "explain": {
+     "de": "Die 2. Person Plural von haber ist 'habéis' (mit Akzent). Das Partizip von 'ser' ist regelmäßig 'sido' und bleibt unverändert.",
+     "en": "The second person plural of haber is 'habéis' (with accent). The participle of 'ser' is the regular 'sido' and stays unchanged."
+    },
+    "promptGloss": {
+     "de": "Ihr seid heute sehr nett zu mir gewesen.",
+     "en": "You (pl.) have been very kind to me today."
+    }
+   }
+  ]
  },
  {
   "id": "pluscuamperfecto",
@@ -1275,7 +2304,277 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "pluscuamperfecto"
+  "practiceTenseKey": "pluscuamperfecto",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "Cuando tú llamaste, yo ya ___ salido de casa. (yo, haber)",
+    "answer": "había",
+    "explain": {
+     "de": "Das Plusquamperfekt bildet man mit haber im Imperfekt + Partizip; für yo lautet haber im Imperfekt había.",
+     "en": "The pluscuamperfecto uses haber in the imperfect + participle; for yo, haber in the imperfect is había."
+    },
+    "promptGloss": {
+     "de": "Als du anriefst, war ich schon aus dem Haus gegangen.",
+     "en": "When you called, I had already left the house."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ya ___ comido cuando llegó nuestro amigo.",
+    "answer": "habíamos",
+    "explain": {
+     "de": "Das Subjekt nosotros verlangt die 1. Person Plural von haber im Imperfekt: habíamos. habían wäre ellos, habíais vosotros, había Singular.",
+     "en": "The subject nosotros requires the first person plural of haber in the imperfect: habíamos. habían is ellos, habíais vosotros, había singular."
+    },
+    "promptGloss": {
+     "de": "Wir hatten schon gegessen, als unser Freund ankam.",
+     "en": "We had already eaten when our friend arrived."
+    },
+    "options": [
+     "habíamos",
+     "habían",
+     "habíais",
+     "había"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ellos nunca ___ estado en Madrid antes de aquel viaje.",
+    "answer": "habían",
+    "explain": {
+     "de": "ellos verlangt habían (3. Person Plural von haber im Imperfekt). había wäre Singular, habíamos nosotros; habéis ist Präsens und gehört zum pretérito perfecto, nicht hierher.",
+     "en": "ellos requires habían (third person plural of haber in the imperfect). había is singular, habíamos nosotros; habéis is present tense and belongs to the present perfect, not here."
+    },
+    "promptGloss": {
+     "de": "Sie waren vor jener Reise noch nie in Madrid gewesen.",
+     "en": "They had never been in Madrid before that trip."
+    },
+    "options": [
+     "habían",
+     "habíamos",
+     "había",
+     "habéis"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Antes de la clase, ellos ya ___ hecho los deberes. (haber + hacer)",
+    "answer": "habían hecho",
+    "explain": {
+     "de": "haber im Imperfekt für ellos ist habían; hacer hat das unregelmäßige Partizip hecho (nicht hacido).",
+     "en": "haber in the imperfect for ellos is habían; hacer has the irregular participle hecho (not hacido)."
+    },
+    "promptGloss": {
+     "de": "Vor dem Unterricht hatten sie die Hausaufgaben schon gemacht.",
+     "en": "Before class they had already done the homework."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Tú me ___ dicho la verdad, por eso confié en ti.",
+    "answer": "habías dicho",
+    "explain": {
+     "de": "decir bildet das unregelmäßige Partizip dicho (nicht decido), und das Partizip endet immer auf -o, nie dicha. has dicho wäre pretérito perfecto (Gegenwartsbezug).",
+     "en": "decir forms the irregular participle dicho (not decido), and the participle always ends in -o, never dicha. has dicho would be the present perfect (linked to now)."
+    },
+    "promptGloss": {
+     "de": "Du hattest mir die Wahrheit gesagt, deshalb vertraute ich dir.",
+     "en": "You had told me the truth, that's why I trusted you."
+    },
+    "options": [
+     "habías dicho",
+     "habías decido",
+     "habías dicha",
+     "has dicho"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ella había ___ allí muchos años antes de mudarse a Roma.",
+    "answer": "vivido",
+    "explain": {
+     "de": "Das Partizip ist unveränderlich und endet auf -o: vivido. vivida/vividos passen das Partizip falsch an Genus/Numerus an; viviendo ist das Gerundium.",
+     "en": "The participle is invariable and ends in -o: vivido. vivida/vividos wrongly agree the participle for gender/number; viviendo is the gerund."
+    },
+    "promptGloss": {
+     "de": "Sie hatte dort viele Jahre gelebt, bevor sie nach Rom zog.",
+     "en": "She had lived there for many years before moving to Rome."
+    },
+    "options": [
+     "vivido",
+     "vivida",
+     "vividos",
+     "viviendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Nosotros ___ vivido en tres países antes de los treinta años. (haber + vivir)",
+    "answer": "habíamos vivido",
+    "explain": {
+     "de": "haber im Imperfekt für nosotros ist habíamos; das regelmäßige -ir-Partizip von vivir ist vivido und bleibt fest.",
+     "en": "haber in the imperfect for nosotros is habíamos; the regular -ir participle of vivir is vivido and stays fixed."
+    },
+    "promptGloss": {
+     "de": "Wir hatten vor dem dreißigsten Lebensjahr in drei Ländern gelebt.",
+     "en": "We had lived in three countries before the age of thirty."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Todavía no ___ dormido cuando sonó la alarma.",
+    "answer": "habían",
+    "explain": {
+     "de": "Zwischen haber und Partizip darf nur no stehen; hier steht no schon vor todavía/dem Verb, also folgt direkt habían dormido. habían no und se habían (mit überflüssigem se) sind falsch.",
+     "en": "Only no may stand between haber and the participle; here no already precedes the verb, so habían dormido follows directly. habían no and se habían (with a needless se) are wrong."
+    },
+    "promptGloss": {
+     "de": "Sie hatten noch nicht geschlafen, als der Alarm losging.",
+     "en": "They had not yet slept when the alarm went off."
+    },
+    "options": [
+     "habían",
+     "se habían",
+     "habían no",
+     "no habían"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No ___ tenido tiempo de avisarte, lo siento. (tú, haber)",
+    "answer": "habías",
+    "explain": {
+     "de": "haber im Imperfekt für tú ist habías; das verneinende no steht vor habías, niemals zwischen habías und dem Partizip tenido.",
+     "en": "haber in the imperfect for tú is habías; the negating no goes before habías, never between habías and the participle tenido."
+    },
+    "promptGloss": {
+     "de": "Du hattest keine Zeit gehabt, mir Bescheid zu geben, tut mir leid.",
+     "en": "You had not had time to let me know, I'm sorry."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Cuando llegamos al cine, la película ya ___.",
+    "answer": "había empezado",
+    "explain": {
+     "de": "Die Handlung war vor dem anderen Vergangenheitsereignis (llegamos) schon abgeschlossen → Plusquamperfekt había empezado. empezó/empezaba stellen sie als gleichzeitig oder nachher dar; ha empezado hätte Gegenwartsbezug.",
+     "en": "The action was already over before the other past event (llegamos) → pluscuamperfecto había empezado. empezó/empezaba present it as simultaneous or later; ha empezado would link to the present."
+    },
+    "promptGloss": {
+     "de": "Als wir im Kino ankamen, hatte der Film schon begonnen.",
+     "en": "When we got to the cinema, the film had already started."
+    },
+    "options": [
+     "había empezado",
+     "empezó",
+     "empezaba",
+     "ha empezado"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Esta mañana ___ mi café antes de salir; ahora ya estoy en la oficina.",
+    "answer": "me he tomado",
+    "explain": {
+     "de": "esta mañana gehört zu einem noch andauernden Zeitraum mit Gegenwartsbezug → pretérito perfecto (he tomado), nicht Plusquamperfekt. había tomado bräuchte ein zweites, späteres Vergangenheitsereignis als Bezugspunkt.",
+     "en": "esta mañana belongs to an ongoing period linked to now → present perfect (he tomado), not the pluscuamperfecto. había tomado would need a second, later past event as its reference point."
+    },
+    "promptGloss": {
+     "de": "Heute Morgen habe ich vor dem Gehen meinen Kaffee getrunken; jetzt bin ich schon im Büro.",
+     "en": "This morning I had my coffee before leaving; now I'm already at the office."
+    },
+    "options": [
+     "me he tomado",
+     "me había tomado",
+     "me tomaba",
+     "me habría tomado"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Cuando volví a casa, alguien ya ___ abierto todas las ventanas. (haber + abrir)",
+    "answer": "había abierto",
+    "explain": {
+     "de": "haber im Imperfekt für alguien (3. Sg.) ist había; abrir hat das unregelmäßige Partizip abierto (nicht abrido).",
+     "en": "haber in the imperfect for alguien (3rd sg.) is había; abrir has the irregular participle abierto (not abrido)."
+    },
+    "promptGloss": {
+     "de": "Als ich nach Hause zurückkam, hatte jemand schon alle Fenster geöffnet.",
+     "en": "When I came back home, someone had already opened all the windows."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Vosotros nunca ___ visto el mar hasta aquel verano.",
+    "answer": "habíais visto",
+    "explain": {
+     "de": "haber im Imperfekt für vosotros ist habíais (mit Akzent); ver hat das unregelmäßige Partizip visto, das unveränderlich bleibt (nie vistos). habéis visto wäre pretérito perfecto.",
+     "en": "haber in the imperfect for vosotros is habíais (with an accent); ver has the irregular participle visto, which stays invariable (never vistos). habéis visto would be the present perfect."
+    },
+    "promptGloss": {
+     "de": "Ihr hattet das Meer bis zu jenem Sommer noch nie gesehen.",
+     "en": "You had never seen the sea until that summer."
+    },
+    "options": [
+     "habíais visto",
+     "habíais visado",
+     "habíais vistos",
+     "habéis visto"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ayer no comí nada en todo el día porque ___ mucho la noche anterior.",
+    "answer": "había cenado",
+    "explain": {
+     "de": "la noche anterior liegt vor dem Bezugspunkt ayer → Vorvergangenheit, also Plusquamperfekt había cenado. cené/cenaba ordnen die Handlung nicht als davor abgeschlossen ein; he cenado hätte Gegenwartsbezug.",
+     "en": "la noche anterior is before the reference point ayer → past-before-past, so pluscuamperfecto había cenado. cené/cenaba don't mark it as completed beforehand; he cenado would link to the present."
+    },
+    "promptGloss": {
+     "de": "Gestern habe ich den ganzen Tag nichts gegessen, weil ich am Abend zuvor viel gegessen hatte.",
+     "en": "Yesterday I ate nothing all day because I had eaten a lot the night before."
+    },
+    "options": [
+     "había cenado",
+     "cené",
+     "cenaba",
+     "he cenado"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "El tren ya ___ cuando llegamos a la estación, así que perdimos la conexión. (haber + irse)",
+    "answer": "se había ido",
+    "explain": {
+     "de": "Vor dem zweiten Vergangenheitsereignis (llegamos) abgeschlossen → Plusquamperfekt; bei reflexivem irse steht das Pronomen vor haber: se había ido (Partizip ido).",
+     "en": "Completed before the second past event (llegamos) → pluscuamperfecto; with reflexive irse the pronoun goes before haber: se había ido (participle ido)."
+    },
+    "promptGloss": {
+     "de": "Der Zug war schon weg, als wir am Bahnhof ankamen, also verpassten wir den Anschluss.",
+     "en": "The train had already left when we got to the station, so we missed the connection."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "No reconocí la ciudad: en diez años la ___ por completo.",
+    "answer": "habían cambiado",
+    "explain": {
+     "de": "Die Veränderung war vor dem Bezugspunkt (no reconocí) bereits abgeschlossen → Plusquamperfekt habían cambiado. cambiaron lässt das 'davor schon' weg, han cambiado hat Gegenwartsbezug, habrían cambiado ist Konditional.",
+     "en": "The change was already complete before the reference point (no reconocí) → pluscuamperfecto habían cambiado. cambiaron drops the 'already before', han cambiado links to the present, and habrían cambiado is conditional."
+    },
+    "promptGloss": {
+     "de": "Ich erkannte die Stadt nicht wieder: in zehn Jahren hatten sie sie völlig verändert.",
+     "en": "I didn't recognize the city: in ten years they had changed it completely."
+    },
+    "options": [
+     "habían cambiado",
+     "cambiaron",
+     "han cambiado",
+     "habrían cambiado"
+    ]
+   }
+  ]
  },
  {
   "id": "futuro",
@@ -1520,7 +2819,274 @@
     "-án"
    ]
   },
-  "practiceTenseKey": "futuro"
+  "practiceTenseKey": "futuro",
+  "practice": [
+   {
+    "kind": "choice",
+    "prompt": "Mañana ___ con mi jefe sobre el proyecto.",
+    "answer": "hablaré",
+    "explain": {
+     "de": "Die yo-Endung im Futuro ist -é, angehängt an den vollen Infinitiv: hablar + é. 'hablará' ist die él/ella-Form, die anderen Formen existieren nicht.",
+     "en": "The yo ending in the futuro is -é, added to the full infinitive: hablar + é. 'hablará' is the él/ella form; the other forms do not exist."
+    },
+    "promptGloss": {
+     "de": "Morgen werde ich mit meinem Chef über das Projekt sprechen.",
+     "en": "Tomorrow I will talk with my boss about the project."
+    },
+    "options": [
+     "hablaré",
+     "hablará",
+     "hablaríe",
+     "hablareé"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Nosotros ___ a las dos en el restaurante. (comer)",
+    "answer": "comeremos",
+    "explain": {
+     "de": "Die nosotros-Endung -emos wird an den ganzen Infinitiv comer gehängt: comer + emos. Der Infinitiv bleibt vollständig erhalten.",
+     "en": "The nosotros ending -emos attaches to the full infinitive comer: comer + emos. The infinitive stays intact."
+    },
+    "promptGloss": {
+     "de": "Wir werden um zwei im Restaurant essen.",
+     "en": "We will eat at two at the restaurant."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "El año que viene tú ___ en Madrid.",
+    "answer": "vivirás",
+    "explain": {
+     "de": "-ir-Verben bekommen dieselben Endungen wie -ar/-er; die tú-Form ist vivir + ás = vivirás (mit Akzent auf á). 'vivirías' wäre Konditional, 'vivras' lässt das i des Infinitivs weg.",
+     "en": "-ir verbs take the same endings as -ar/-er; the tú form is vivir + ás = vivirás (accent on á). 'vivirías' is conditional, and 'vivras' drops the i of the infinitive."
+    },
+    "promptGloss": {
+     "de": "Nächstes Jahr wirst du in Madrid wohnen.",
+     "en": "Next year you will live in Madrid."
+    },
+    "options": [
+     "vivirás",
+     "viviras",
+     "vivrás",
+     "vivirías"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Yo ___ tiempo para ayudarte el lunes. (tener)",
+    "answer": "tendré",
+    "explain": {
+     "de": "tener hat den unregelmäßigen Stamm tendr-; daran kommt die normale yo-Endung -é: tendré. Die Endungen bleiben also regelmäßig, nur der Stamm ändert sich.",
+     "en": "tener uses the irregular stem tendr-, to which the regular yo ending -é attaches: tendré. Only the stem changes; the endings stay regular."
+    },
+    "promptGloss": {
+     "de": "Ich werde am Montag Zeit haben, dir zu helfen.",
+     "en": "I will have time to help you on Monday."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Lo siento, no ___ venir a la reunión esta tarde.",
+    "answer": "podremos",
+    "explain": {
+     "de": "poder nutzt den Sonderstamm podr-; nosotros = podr + emos = podremos. 'poderemos' baut fälschlich auf dem vollen Infinitiv auf, 'podriamos' ist Konditional.",
+     "en": "poder uses the special stem podr-; nosotros = podr + emos = podremos. 'poderemos' wrongly uses the full infinitive, and 'podriamos' is conditional."
+    },
+    "promptGloss": {
+     "de": "Tut mir leid, wir werden heute Nachmittag nicht zur Sitzung kommen können.",
+     "en": "Sorry, we won't be able to come to the meeting this afternoon."
+    },
+    "options": [
+     "podremos",
+     "poderemos",
+     "podriamos",
+     "pudremos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿Qué ___ tú después de las clases? (hacer)",
+    "answer": "harás",
+    "explain": {
+     "de": "hacer hat den unregelmäßigen Stamm har-; tú = har + ás = harás. Eine regelmäßige Bildung 'hacerás' wäre falsch.",
+     "en": "hacer has the irregular stem har-; tú = har + ás = harás. A regular form 'hacerás' would be wrong."
+    },
+    "promptGloss": {
+     "de": "Was wirst du nach dem Unterricht machen?",
+     "en": "What will you do after class?"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Según el pronóstico, ___ un buen día para la excursión.",
+    "answer": "será",
+    "explain": {
+     "de": "Das Futuro drückt hier eine Vorhersage aus: ser + á = será. 'sería' ist Konditional, 'es' ist Präsens, und für 'ein guter Tag sein' braucht man ser, nicht estar.",
+     "en": "The futuro expresses a prediction here: ser + á = será. 'sería' is conditional, 'es' is present, and 'to be a good day' needs ser, not estar."
+    },
+    "promptGloss": {
+     "de": "Laut Vorhersage wird es ein guter Tag für den Ausflug sein.",
+     "en": "According to the forecast, it will be a good day for the trip."
+    },
+    "options": [
+     "será",
+     "sería",
+     "es",
+     "estará"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Estoy seguro de que ellos ___ que sí. (decir)",
+    "answer": "dirán",
+    "explain": {
+     "de": "decir hat den unregelmäßigen Stamm dir-; ellos = dir + án = dirán. Die Vorhersage wird mit dem Futuro ausgedrückt, eine Form 'decirán' wäre falsch.",
+     "en": "decir has the irregular stem dir-; ellos = dir + án = dirán. The prediction uses the futuro, and a form 'decirán' would be wrong."
+    },
+    "promptGloss": {
+     "de": "Ich bin sicher, dass sie Ja sagen werden.",
+     "en": "I'm sure they will say yes."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "No contesta el teléfono; ___ en el cine ahora mismo.",
+    "answer": "estará",
+    "explain": {
+     "de": "Hier drückt das Futuro eine Vermutung über die Gegenwart aus (er ist wohl...): estar + á = estará. 'está' wäre eine sichere Aussage, nicht die geforderte Vermutung.",
+     "en": "Here the futuro expresses conjecture about the present (he must be...): estar + á = estará. 'está' would be a certain statement, not the required guess."
+    },
+    "promptGloss": {
+     "de": "Er geht nicht ans Telefon; er ist wohl gerade jetzt im Kino.",
+     "en": "He's not answering the phone; he must be at the cinema right now."
+    },
+    "options": [
+     "estará",
+     "está",
+     "estaría",
+     "estuvo"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Están muy callados; ___ descansar después del viaje.",
+    "answer": "querrán",
+    "explain": {
+     "de": "querer hat den Sonderstamm querr- (mit Doppel-r); ellos = querr + án = querrán, hier als Vermutung. 'quererán' baut falsch auf dem vollen Infinitiv auf.",
+     "en": "querer uses the special stem querr- (double r); ellos = querr + án = querrán, here as conjecture. 'quererán' wrongly builds on the full infinitive."
+    },
+    "promptGloss": {
+     "de": "Sie sind sehr still; sie wollen wohl nach der Reise ausruhen.",
+     "en": "They are very quiet; they probably want to rest after the trip."
+    },
+    "options": [
+     "querrán",
+     "quererán",
+     "quieren",
+     "querían"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Nosotros ___ la mesa más tarde, cuando lleguen los invitados. (poner)",
+    "answer": "pondremos",
+    "explain": {
+     "de": "poner gehört zu den Verben mit eingeschobenem d: Stamm pondr-; nosotros = pondr + emos = pondremos. Eine Form 'poneremos' wäre falsch.",
+     "en": "poner belongs to the verbs with an inserted d: stem pondr-; nosotros = pondr + emos = pondremos. A form 'poneremos' would be wrong."
+    },
+    "promptGloss": {
+     "de": "Wir werden später den Tisch decken, wenn die Gäste ankommen.",
+     "en": "We will set the table later, when the guests arrive."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿___ (tú) a la fiesta del sábado? (venir)",
+    "answer": "Vendrás",
+    "explain": {
+     "de": "venir hat den unregelmäßigen Stamm vendr-; tú = vendr + ás = vendrás. Der Stamm bekommt ein eingeschobenes d, die Endung bleibt regelmäßig.",
+     "en": "venir has the irregular stem vendr-; tú = vendr + ás = vendrás. The stem gains an inserted d, while the ending stays regular."
+    },
+    "promptGloss": {
+     "de": "Wirst du zur Party am Samstag kommen?",
+     "en": "Will you come to Saturday's party?"
+    },
+    "altAnswers": [
+     "vendrás"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Vosotros ___ la verdad muy pronto.",
+    "answer": "sabréis",
+    "explain": {
+     "de": "saber hat den Sonderstamm sabr-; die vosotros-Endung ist -éis: sabr + éis = sabréis. 'saberéis' nutzt fälschlich den vollen Infinitiv, 'sabrás' ist die tú-Form.",
+     "en": "saber uses the special stem sabr-; the vosotros ending is -éis: sabr + éis = sabréis. 'saberéis' wrongly uses the full infinitive, and 'sabrás' is the tú form."
+    },
+    "promptGloss": {
+     "de": "Ihr werdet die Wahrheit sehr bald erfahren.",
+     "en": "You (pl.) will know the truth very soon."
+    },
+    "options": [
+     "sabréis",
+     "saberéis",
+     "sabráis",
+     "sabrás"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "El próximo verano mis padres ___ a Italia de vacaciones.",
+    "answer": "viajarán",
+    "explain": {
+     "de": "Der Zeitmarker 'el próximo verano' verlangt das Futuro: viajar + án = viajarán (mit Akzent auf á). 'viajaran' (ohne Akzent) ist Subjuntivo, 'viajarían' Konditional.",
+     "en": "The time marker 'el próximo verano' calls for the futuro: viajar + án = viajarán (accent on á). 'viajaran' (no accent) is subjunctive, and 'viajarían' is conditional."
+    },
+    "promptGloss": {
+     "de": "Nächsten Sommer werden meine Eltern in den Urlaub nach Italien reisen.",
+     "en": "Next summer my parents will travel to Italy on vacation."
+    },
+    "options": [
+     "viajarán",
+     "viajaran",
+     "viajarían",
+     "viajan"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "No sé dónde está Ana, pero a esta hora ___ trabajando en la oficina.",
+    "answer": "estará",
+    "explain": {
+     "de": "Vermutung über die Gegenwart: estar + á = estará drückt 'sie ist wohl/wahrscheinlich' aus. 'está' wäre eine sichere Aussage, 'estaría' Konditional und 'estuvo' Vergangenheit.",
+     "en": "Conjecture about the present: estar + á = estará expresses 'she's probably'. 'está' would be a certain statement, 'estaría' is conditional, and 'estuvo' is past."
+    },
+    "promptGloss": {
+     "de": "Ich weiß nicht, wo Ana ist, aber um diese Uhrzeit arbeitet sie wohl im Büro.",
+     "en": "I don't know where Ana is, but at this hour she's probably working at the office."
+    },
+    "options": [
+     "estará",
+     "está",
+     "estaría",
+     "estuvo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Te lo prometo: lo ___ (tú) muy pronto y todo tendrá sentido. (saber)",
+    "answer": "sabrás",
+    "explain": {
+     "de": "saber hat den unregelmäßigen Stamm sabr-; tú = sabr + ás = sabrás. Die Endung -ás ist dieselbe wie bei regelmäßigen Verben, nur der Stamm ist verkürzt.",
+     "en": "saber has the irregular stem sabr-; tú = sabr + ás = sabrás. The ending -ás is the same as for regular verbs; only the stem is shortened."
+    },
+    "promptGloss": {
+     "de": "Ich verspreche es dir: Du wirst es sehr bald wissen, und alles wird Sinn ergeben.",
+     "en": "I promise you: you will know it very soon, and everything will make sense."
+    }
+   }
+  ]
  },
  {
   "id": "futuro-perfecto",
@@ -1721,7 +3287,271 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "futuro-perfecto"
+  "practiceTenseKey": "futuro-perfecto",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "Para el viernes ___ terminado el trabajo. (yo, haber)",
+    "answer": "habré",
+    "explain": {
+     "de": "Das Futuro perfecto bildet man mit haber im Futur + Partizip; die 1. Person Singular von haber ist habré.",
+     "en": "The futuro perfecto uses haber in the future + participle; the first person singular of haber is habré."
+    },
+    "promptGloss": {
+     "de": "Bis Freitag werde ich die Arbeit beendet haben.",
+     "en": "By Friday I will have finished the work."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "A las ocho ya ___ comido todos.",
+    "answer": "habrán",
+    "explain": {
+     "de": "Das Subjekt todos (ellos) verlangt die 3. Person Plural von haber: habrán. habrá wäre Singular, habremos/habréis falsche Personen.",
+     "en": "The subject todos (ellos) requires the third person plural of haber: habrán. habrá is singular, habremos/habréis are the wrong persons."
+    },
+    "promptGloss": {
+     "de": "Um acht werden alle schon gegessen haben.",
+     "en": "By eight everyone will already have eaten."
+    },
+    "options": [
+     "habrán",
+     "habrá",
+     "habremos",
+     "habréis"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Cuando llegues, nosotros ya ___ comido. (haber)",
+    "answer": "habremos",
+    "explain": {
+     "de": "Für nosotros lautet haber im Futur habremos; das Partizip comido bleibt unverändert.",
+     "en": "For nosotros, haber in the future is habremos; the participle comido stays unchanged."
+    },
+    "promptGloss": {
+     "de": "Wenn du ankommst, werden wir schon gegessen haben.",
+     "en": "When you arrive, we will already have eaten."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Lo habré ___ para el lunes.",
+    "answer": "hecho",
+    "explain": {
+     "de": "hacer hat das unregelmäßige Partizip hecho. hacido existiert nicht, hechos wäre falsch (das Partizip ist im zusammengesetzten Tempus unveränderlich), haciendo ist das Gerundium.",
+     "en": "hacer has the irregular participle hecho. hacido does not exist, hechos is wrong (the participle is invariable in a compound tense), and haciendo is the gerund."
+    },
+    "promptGloss": {
+     "de": "Bis Montag werde ich es gemacht haben.",
+     "en": "I will have done it by Monday."
+    },
+    "options": [
+     "hecho",
+     "hacido",
+     "hechos",
+     "haciendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Habrán ___ la verdad. (decir)",
+    "answer": "dicho",
+    "explain": {
+     "de": "decir bildet das unregelmäßige Partizip dicho (nicht decido). Das Partizip ändert sich nicht nach Person oder Zahl.",
+     "en": "decir forms the irregular participle dicho (not decido). The participle does not change with person or number."
+    },
+    "promptGloss": {
+     "de": "Sie werden wohl die Wahrheit gesagt haben.",
+     "en": "They have probably told the truth."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Qué ___ dicho Ana? No contesta al teléfono.",
+    "answer": "habrá",
+    "explain": {
+     "de": "Das Futuro perfecto (habrá dicho) drückt hier eine Vermutung über die jüngste Vergangenheit aus. ha dicho wäre eine reine Feststellung, habría/había gehören zu anderen Zeiten.",
+     "en": "The futuro perfecto (habrá dicho) here expresses a guess about the recent past. ha dicho would be a plain statement, while habría/había belong to other tenses."
+    },
+    "promptGloss": {
+     "de": "Was Ana wohl gesagt hat? Sie geht nicht ans Telefon.",
+     "en": "I wonder what Ana has said? She isn't answering the phone."
+    },
+    "options": [
+     "habrá",
+     "ha",
+     "habría",
+     "había"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "No está aquí; ___ a casa, ya es muy tarde.",
+    "answer": "se habrá ido",
+    "explain": {
+     "de": "Für eine Vermutung über eine bereits abgeschlossene Handlung verwendet man das Futuro perfecto: se habrá ido. se ha ido stellt es als Tatsache dar, se irá ist eine Vermutung über die Gegenwart/Zukunft, nicht über Vergangenes.",
+     "en": "For a guess about an already completed action you use the futuro perfecto: se habrá ido. se ha ido states it as fact, and se irá guesses about the present/future, not the past."
+    },
+    "promptGloss": {
+     "de": "Er ist nicht hier; er wird wohl schon nach Hause gegangen sein, es ist schon sehr spät.",
+     "en": "He isn't here; he has probably already gone home, it's very late."
+    },
+    "options": [
+     "se habrá ido",
+     "se ha ido",
+     "se irá",
+     "se habría ido"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Para entonces ___ mucho, ya verás.",
+    "answer": "habrás aprendido",
+    "explain": {
+     "de": "Der Zeitausdruck para entonces markiert einen Endpunkt in der Zukunft, vor dem die Handlung abgeschlossen ist: Futuro perfecto. aprenderás (einfaches Futur) sagt nur, dass es passiert, nicht dass es bis dahin abgeschlossen ist.",
+     "en": "The time phrase para entonces marks a future endpoint by which the action is completed: futuro perfecto. aprenderás (simple future) only says it happens, not that it is finished by then."
+    },
+    "promptGloss": {
+     "de": "Bis dahin wirst du viel gelernt haben, du wirst schon sehen.",
+     "en": "By then you will have learned a lot, you'll see."
+    },
+    "options": [
+     "habrás aprendido",
+     "aprenderás",
+     "has aprendido",
+     "habrías aprendido"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Para mañana ya ___ resuelto el problema. (yo, haber)",
+    "answer": "habré",
+    "explain": {
+     "de": "para mañana nennt den zukünftigen Zeitpunkt; mit haber im Futur (habré) + Partizip drückt man die bis dahin abgeschlossene Handlung aus.",
+     "en": "para mañana names the future point; haber in the future (habré) + participle expresses the action completed by then."
+    },
+    "promptGloss": {
+     "de": "Bis morgen werde ich das Problem schon gelöst haben.",
+     "en": "By tomorrow I will already have solved the problem."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Tú ___ visto esa película; siempre ves las novedades.",
+    "answer": "habrás",
+    "explain": {
+     "de": "tú verlangt die 2. Person Singular von haber: habrás. habrá ist 3. Person Singular, habréis 2. Person Plural, habremos 1. Person Plural.",
+     "en": "tú requires the second person singular of haber: habrás. habrá is third singular, habréis second plural, habremos first plural."
+    },
+    "promptGloss": {
+     "de": "Du wirst diesen Film wohl gesehen haben; du siehst dir immer die Neuheiten an.",
+     "en": "You have probably seen that film; you always watch the new releases."
+    },
+    "options": [
+     "habrás",
+     "habrá",
+     "habréis",
+     "habremos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "A las once vosotros ya ___ llegado al hotel. (haber)",
+    "answer": "habréis",
+    "explain": {
+     "de": "Für vosotros lautet haber im Futur habréis (mit Akzent auf dem é). Das Partizip llegado bleibt fest.",
+     "en": "For vosotros, haber in the future is habréis (accent on the é). The participle llegado stays fixed."
+    },
+    "promptGloss": {
+     "de": "Um elf werdet ihr schon im Hotel angekommen sein.",
+     "en": "By eleven you will already have arrived at the hotel."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Marta no ha venido a clase; ___ enferma.",
+    "answer": "se habrá puesto",
+    "explain": {
+     "de": "Vermutung über die jüngste Vergangenheit → Futuro perfecto mit dem unregelmäßigen Partizip puesto (poner). se ha puesto wäre Tatsache, se pondrá Zukunft, und se habrá ponido ist falsch gebildet.",
+     "en": "A guess about the recent past → futuro perfecto with the irregular participle puesto (poner). se ha puesto would be fact, se pondrá future, and se habrá ponido is malformed."
+    },
+    "promptGloss": {
+     "de": "Marta ist nicht zum Unterricht gekommen; sie wird wohl krank geworden sein.",
+     "en": "Marta hasn't come to class; she has probably fallen ill."
+    },
+    "options": [
+     "se habrá puesto",
+     "se ha puesto",
+     "se pondrá",
+     "se habrá ponido"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Cuando vuelvas, nosotras ___ la casa entera.",
+    "answer": "habremos limpiado",
+    "explain": {
+     "de": "Die Handlung ist vor dem Zeitpunkt (cuando vuelvas) abgeschlossen → habremos limpiado. Das Partizip ist unveränderlich, also nie limpiadas; limpiaremos ist einfaches Futur, hemos limpiado Perfekt der Vergangenheit.",
+     "en": "The action is completed before the point (cuando vuelvas) → habremos limpiado. The participle is invariable, never limpiadas; limpiaremos is simple future, hemos limpiado is the present perfect."
+    },
+    "promptGloss": {
+     "de": "Wenn du zurückkommst, werden wir das ganze Haus geputzt haben.",
+     "en": "When you come back, we will have cleaned the whole house."
+    },
+    "options": [
+     "habremos limpiado",
+     "limpiaremos",
+     "habremos limpiadas",
+     "hemos limpiado"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Tardan mucho... ¿___ tenido un problema en el camino? (ellos, haber)",
+    "answer": "habrán",
+    "explain": {
+     "de": "Vermutung über die jüngste Vergangenheit in der 3. Person Plural: habrán tenido. Das Futuro perfecto ersetzt hier eine Wendung wie 'wahrscheinlich haben sie...'.",
+     "en": "A guess about the recent past in the third person plural: habrán tenido. The futuro perfecto here replaces a phrase like 'they have probably...'."
+    },
+    "promptGloss": {
+     "de": "Sie brauchen lange... werden sie wohl unterwegs ein Problem gehabt haben?",
+     "en": "They're taking long... could they have had a problem on the way?"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Para cuando te jubiles, la empresa ya ___ a otro país.",
+    "answer": "se habrá mudado",
+    "explain": {
+     "de": "para cuando + Subjunktiv markiert einen zukünftigen Endpunkt; davor abgeschlossen → Futuro perfecto (se habrá mudado). se mudará lässt das 'davor schon' weg; se había/habría mudado sind Vergangenheits- bzw. Konditionalformen.",
+     "en": "para cuando + subjunctive marks a future endpoint; completed before it → futuro perfecto (se habrá mudado). se mudará drops the 'already by then'; se había/habría mudado are past/conditional forms."
+    },
+    "promptGloss": {
+     "de": "Bis du in Rente gehst, wird die Firma schon in ein anderes Land umgezogen sein.",
+     "en": "By the time you retire, the company will already have moved to another country."
+    },
+    "options": [
+     "se habrá mudado",
+     "se mudará",
+     "se había mudado",
+     "se habría mudado"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No me lo han devuelto; lo ___ roto, seguro. (ellos, haber + romper)",
+    "answer": "habrán roto",
+    "explain": {
+     "de": "Vermutung über die Vergangenheit (3. Pl.) mit dem unregelmäßigen Partizip roto (romper), nicht rompido: habrán roto.",
+     "en": "A guess about the past (3rd pl.) with the irregular participle roto (romper), not rompido: habrán roto."
+    },
+    "promptGloss": {
+     "de": "Sie haben es mir nicht zurückgegeben; sie werden es wohl kaputt gemacht haben, bestimmt.",
+     "en": "They haven't given it back to me; they have surely broken it."
+    }
+   }
+  ]
  },
  {
   "id": "condicional",
@@ -2007,7 +3837,271 @@
     "-ían"
    ]
   },
-  "practiceTenseKey": "condicional"
+  "practiceTenseKey": "condicional",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "Yo ___ con ella mañana, pero hoy no tengo tiempo. (hablar)",
+    "answer": "hablaría",
+    "explain": {
+     "de": "Das condicional bildet man aus dem ganzen Infinitiv (hablar) plus -ía: hablar + ía = hablaría. Der Infinitiv bleibt vollständig erhalten, anders als im Präsens.",
+     "en": "The conditional is the full infinitive (hablar) plus -ía: hablar + ía = hablaría. The whole infinitive stays, unlike in the present tense."
+    },
+    "promptGloss": {
+     "de": "Ich würde morgen mit ihr sprechen, aber heute habe ich keine Zeit.",
+     "en": "I would talk to her tomorrow, but today I have no time."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Nosotros ___ más tarde, no tenemos prisa.",
+    "answer": "comeríamos",
+    "explain": {
+     "de": "An den Infinitiv comer kommt die nosotros-Endung -íamos: comer + íamos = comeríamos. 'comeremos' ist Futur, 'comíamos' ist Imperfekt, 'comaríamos' existiert nicht.",
+     "en": "The infinitive comer takes the nosotros ending -íamos: comer + íamos = comeríamos. 'comeremos' is future, 'comíamos' is imperfect, 'comaríamos' is not a word."
+    },
+    "promptGloss": {
+     "de": "Wir würden später essen, wir haben es nicht eilig.",
+     "en": "We would eat later, we are not in a hurry."
+    },
+    "options": [
+     "comeríamos",
+     "comaríamos",
+     "comeremos",
+     "comíamos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ellos ___ en el campo si pudieran. (vivir)",
+    "answer": "vivirían",
+    "explain": {
+     "de": "Auch -ir-Verben nehmen dieselben Endungen am vollen Infinitiv: vivir + ían = vivirían. -ar-, -er- und -ir-Verben haben im condicional identische Endungen.",
+     "en": "Also -ir verbs take the same endings on the full infinitive: vivir + ían = vivirían. -ar, -er and -ir verbs share identical conditional endings."
+    },
+    "promptGloss": {
+     "de": "Sie würden auf dem Land leben, wenn sie könnten.",
+     "en": "They would live in the countryside if they could."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿___ usted ayudarme con las maletas, por favor?",
+    "answer": "Podría",
+    "explain": {
+     "de": "Das condicional 'podría' macht die Bitte höflich und weich. 'Puede' (Präsens) wäre direkter; 'Podrá' ist Futur; 'Podía' (Imperfekt) drückt keine Höflichkeit aus.",
+     "en": "The conditional 'podría' makes the request polite and soft. 'Puede' (present) is more direct; 'Podrá' is future; 'Podía' (imperfect) does not convey politeness."
+    },
+    "promptGloss": {
+     "de": "Könnten Sie mir bitte mit dem Gepäck helfen?",
+     "en": "Could you help me with the luggage, please?"
+    },
+    "options": [
+     "Podría",
+     "Puede",
+     "Podrá",
+     "Podía"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "En el restaurante: «___ un café con leche, por favor.»",
+    "answer": "Querría",
+    "explain": {
+     "de": "'Querría' (condicional von querer, unregelmäßiger Stamm querr-) klingt höflich: 'ich hätte gern'. 'Quiero' wäre die direkte Bestellung, 'Querré' ist Futur.",
+     "en": "'Querría' (conditional of querer, irregular stem querr-) sounds polite: 'I would like'. 'Quiero' is the blunt order, 'Querré' is future."
+    },
+    "promptGloss": {
+     "de": "Im Restaurant: «Ich hätte gern einen Milchkaffee, bitte.»",
+     "en": "At the restaurant: \"I would like a coffee with milk, please.\""
+    },
+    "options": [
+     "Querría",
+     "Quiero",
+     "Querré",
+     "Quería"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Si viviéramos en el centro, ___ más tiempo cada día. (tener)",
+    "answer": "tendríamos",
+    "explain": {
+     "de": "Hypothese im Hauptsatz: was unter einer Bedingung passieren würde. Tener hat den unregelmäßigen Stamm tendr-: tendr + íamos = tendríamos.",
+     "en": "Hypothesis in the main clause: what would happen under a condition. Tener has the irregular stem tendr-: tendr + íamos = tendríamos."
+    },
+    "promptGloss": {
+     "de": "Wenn wir im Zentrum wohnten, hätten wir jeden Tag mehr Zeit.",
+     "en": "If we lived downtown, we would have more time every day."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Estás muy cansado; ___ descansar más este fin de semana.",
+    "answer": "deberías",
+    "explain": {
+     "de": "Für einen freundlichen Ratschlag nutzt man deber im condicional: deber + ías = deberías ('du solltest'). 'Debes' (Präsens) klingt wie eine Pflicht/Befehl, nicht wie ein Tipp.",
+     "en": "For friendly advice you use deber in the conditional: deber + ías = deberías ('you should'). 'Debes' (present) sounds like an obligation/order, not a tip."
+    },
+    "promptGloss": {
+     "de": "Du bist sehr müde; du solltest dieses Wochenende mehr ausruhen.",
+     "en": "You are very tired; you should rest more this weekend."
+    },
+    "options": [
+     "deberías",
+     "debes",
+     "deberás",
+     "debías"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "El problema es serio; ___ hablar con tu jefe sobre esto. (tú, poder)",
+    "answer": "podrías",
+    "explain": {
+     "de": "Ratschlag mit poder im condicional: poder hat den unregelmäßigen Stamm podr-, also podr + ías = podrías ('du könntest'). Nicht 'poderías'.",
+     "en": "Advice with poder in the conditional: poder has the irregular stem podr-, so podr + ías = podrías ('you could'). Not 'poderías'."
+    },
+    "promptGloss": {
+     "de": "Das Problem ist ernst; du könntest mit deinem Chef darüber reden.",
+     "en": "The problem is serious; you could talk to your boss about this."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ayer Marta dijo que ___ a la fiesta esta noche.",
+    "answer": "vendría",
+    "explain": {
+     "de": "Zukunft aus der Vergangenheit: aus dem Vergangenheitspunkt 'dijo' heraus stand das Kommen noch bevor → condicional. Venir hat den Stamm vendr-: vendr + ía = vendría. 'Vendrá' (Futur) passt nicht nach 'dijo'.",
+     "en": "Future-in-the-past: from the past point 'dijo', the coming was still ahead → conditional. Venir has the stem vendr-: vendr + ía = vendría. 'Vendrá' (future) does not fit after 'dijo'."
+    },
+    "promptGloss": {
+     "de": "Gestern sagte Marta, dass sie heute Abend zur Party kommen würde.",
+     "en": "Yesterday Marta said she would come to the party tonight."
+    },
+    "options": [
+     "vendría",
+     "vendrá",
+     "viene",
+     "venía"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Yo pensé que tú lo ___ sin problemas, pero fue difícil. (hacer)",
+    "answer": "harías",
+    "explain": {
+     "de": "Zukunft aus der Vergangenheit nach 'pensé'. Hacer hat den unregelmäßigen Stamm har- (wie im Futur): har + ías = harías. Nicht 'haserías' oder 'harías'.",
+     "en": "Future-in-the-past after 'pensé'. Hacer has the irregular stem har- (as in the future): har + ías = harías. Not 'haserías' or 'harías'."
+    },
+    "promptGloss": {
+     "de": "Ich dachte, du würdest es problemlos schaffen, aber es war schwierig.",
+     "en": "I thought you would do it without problems, but it was hard."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Qué ___ tú en mi lugar? Yo no sé qué decidir.",
+    "answer": "dirías",
+    "explain": {
+     "de": "Decir hat den unregelmäßigen Stamm dir-: dir + ías = dirías. 'Decirías' (mit vollem Infinitiv) ist falsch, weil decir zu den Verben mit irregulärem Stamm gehört. 'Dirás' ist Futur.",
+     "en": "Decir has the irregular stem dir-: dir + ías = dirías. 'Decirías' (full infinitive) is wrong because decir has an irregular stem. 'Dirás' is future."
+    },
+    "promptGloss": {
+     "de": "Was würdest du an meiner Stelle sagen? Ich weiß nicht, was ich entscheiden soll.",
+     "en": "What would you say in my place? I don't know what to decide."
+    },
+    "options": [
+     "dirías",
+     "decirías",
+     "dirás",
+     "decías"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Lo siento, pero ahora mismo ___ que irme; tengo una cita. (yo, tener)",
+    "answer": "tendría",
+    "explain": {
+     "de": "Höfliche Abschwächung mit 'tener que' im condicional. Stamm tendr- plus yo-Endung -ía: tendr + ía = tendría. Achtung: yo und él/ella teilen sich die Endung -ía.",
+     "en": "Polite softening with 'tener que' in the conditional. Stem tendr- plus the yo ending -ía: tendr + ía = tendría. Note: yo and él/ella share the ending -ía."
+    },
+    "promptGloss": {
+     "de": "Es tut mir leid, aber ich müsste jetzt gehen; ich habe einen Termin.",
+     "en": "I'm sorry, but right now I would have to leave; I have an appointment."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Te lo prometo: el lunes que viene ___ todo el dinero. Es un hecho.",
+    "answer": "devolveré",
+    "explain": {
+     "de": "Hier ist eine sichere, reale Zukunftsaussage ('es ist sicher') gemeint → Futur 'devolveré', nicht das hypothetische condicional 'devolvería'. Das condicional würde Unsicherheit/Hypothese signalisieren.",
+     "en": "This is a certain, real future statement ('it's a fact') → future 'devolveré', not the hypothetical conditional 'devolvería'. The conditional would signal uncertainty/hypothesis."
+    },
+    "promptGloss": {
+     "de": "Ich verspreche es dir: nächsten Montag werde ich das ganze Geld zurückgeben. Das ist sicher.",
+     "en": "I promise you: next Monday I will return all the money. It's a fact."
+    },
+    "options": [
+     "devolveré",
+     "devolvería",
+     "devolvía",
+     "devuelvo"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Cuando éramos niños, los domingos ___ en el parque durante horas.",
+    "answer": "jugábamos",
+    "explain": {
+     "de": "Eine wiederholte Gewohnheit in der Vergangenheit verlangt das Imperfekt 'jugábamos', nicht das condicional 'jugaríamos'. Vorsicht: die nosotros-Endungen klingen ähnlich (-ábamos vs. -aríamos), bedeuten aber Verschiedenes.",
+     "en": "A repeated past habit needs the imperfect 'jugábamos', not the conditional 'jugaríamos'. Careful: the nosotros endings sound similar (-ábamos vs. -aríamos) but mean different things."
+    },
+    "promptGloss": {
+     "de": "Als wir Kinder waren, spielten wir sonntags stundenlang im Park.",
+     "en": "When we were children, on Sundays we used to play in the park for hours."
+    },
+    "options": [
+     "jugábamos",
+     "jugaríamos",
+     "jugaremos",
+     "jugamos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ellos ___ muy contentos con la noticia, seguro. (estar)",
+    "answer": "estarían",
+    "explain": {
+     "de": "Estar ist im condicional regelmäßig: voller Infinitiv estar + ellos-Endung -ían = estarían. Der Akzent steht immer auf dem í der Endung.",
+     "en": "Estar is regular in the conditional: full infinitive estar + the ellos ending -ían = estarían. The accent always falls on the í of the ending."
+    },
+    "promptGloss": {
+     "de": "Sie wären sicher sehr zufrieden mit der Nachricht.",
+     "en": "They would surely be very happy with the news."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Te ___ venir con nosotros de viaje este verano?",
+    "answer": "gustaría",
+    "explain": {
+     "de": "Bei gustar richtet sich die Endung nach dem Subjekt 'venir' (Infinitiv = 3. Person Singular), nicht nach 'te': also gustaría, nicht 'gustarías'. Das condicional macht die Einladung höflich.",
+     "en": "With gustar the ending agrees with the subject 'venir' (an infinitive = 3rd person singular), not with 'te': hence gustaría, not 'gustarías'. The conditional makes the invitation polite."
+    },
+    "promptGloss": {
+     "de": "Würdest du gern mit uns diesen Sommer verreisen?",
+     "en": "Would you like to come on a trip with us this summer?"
+    },
+    "options": [
+     "gustaría",
+     "gustarías",
+     "gustará",
+     "gustaba"
+    ]
+   }
+  ]
  },
  {
   "id": "condicional-perfecto",
@@ -2200,7 +4294,271 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "condicional-perfecto"
+  "practiceTenseKey": "condicional-perfecto",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "Yo ___ comido más, pero ya estaba lleno. (yo, haber)",
+    "answer": "habría",
+    "explain": {
+     "de": "Das Condicional perfecto bildet man mit haber im Konditional + Partizip; die 1. Person Singular von haber lautet habría.",
+     "en": "The condicional perfecto uses haber in the conditional + participle; the first person singular of haber is habría."
+    },
+    "promptGloss": {
+     "de": "Ich hätte mehr gegessen, aber ich war schon satt.",
+     "en": "I would have eaten more, but I was already full."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ellos ___ venido, pero perdieron el tren.",
+    "answer": "habrían",
+    "explain": {
+     "de": "Das Subjekt ellos verlangt die 3. Person Plural von haber: habrían. habría wäre Singular, habríamos/habríais falsche Personen.",
+     "en": "The subject ellos requires the third person plural of haber: habrían. habría is singular, habríamos/habríais are the wrong persons."
+    },
+    "promptGloss": {
+     "de": "Sie wären gekommen, aber sie verpassten den Zug.",
+     "en": "They would have come, but they missed the train."
+    },
+    "options": [
+     "habrían",
+     "habría",
+     "habríamos",
+     "habríais"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Con tu ayuda, nosotros ___ terminado antes. (haber)",
+    "answer": "habríamos",
+    "explain": {
+     "de": "Für nosotros lautet haber im Konditional habríamos; das Partizip terminado bleibt unverändert.",
+     "en": "For nosotros, haber in the conditional is habríamos; the participle terminado stays unchanged."
+    },
+    "promptGloss": {
+     "de": "Mit deiner Hilfe hätten wir früher fertig gewesen.",
+     "en": "With your help, we would have finished earlier."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Yo habría ___ la verdad en tu lugar.",
+    "answer": "dicho",
+    "explain": {
+     "de": "decir hat das unregelmäßige Partizip dicho. decido existiert nicht, dichos wäre falsch (das Partizip ist im zusammengesetzten Tempus unveränderlich), diciendo ist das Gerundium.",
+     "en": "decir has the irregular participle dicho. decido does not exist, dichos is wrong (the participle is invariable in a compound tense), and diciendo is the gerund."
+    },
+    "promptGloss": {
+     "de": "Ich hätte an deiner Stelle die Wahrheit gesagt.",
+     "en": "I would have told the truth in your place."
+    },
+    "options": [
+     "dicho",
+     "decido",
+     "dichos",
+     "diciendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ella ___ hecho lo mismo que tú. (haber)",
+    "answer": "habría",
+    "explain": {
+     "de": "ella verlangt die 3. Person Singular von haber (habría); das unregelmäßige Partizip von hacer ist hecho und ändert sich nie.",
+     "en": "ella requires the third person singular of haber (habría); the irregular participle of hacer is hecho and never changes."
+    },
+    "promptGloss": {
+     "de": "Sie hätte dasselbe gemacht wie du.",
+     "en": "She would have done the same as you."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Vosotros ___ podido ayudar, pero no quisisteis.",
+    "answer": "habríais",
+    "explain": {
+     "de": "vosotros verlangt die 2. Person Plural von haber: habríais (mit Akzent auf dem í). habrían ist 3. Plural, habríamos 1. Plural, habrías 2. Singular.",
+     "en": "vosotros requires the second person plural of haber: habríais (accent on the í). habrían is third plural, habríamos first plural, habrías second singular."
+    },
+    "promptGloss": {
+     "de": "Ihr hättet helfen können, aber ihr wolltet nicht.",
+     "en": "You all could have helped, but you didn't want to."
+    },
+    "options": [
+     "habríais",
+     "habrían",
+     "habríamos",
+     "habrías"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Si hubiera estudiado, ___ el examen.",
+    "answer": "habría aprobado",
+    "explain": {
+     "de": "Nach si + Plusquamperfekt Subjunktiv (hubiera estudiado) steht im Hauptsatz das Condicional perfecto: habría aprobado. habré aprobado ist Futur, aprobaría einfaches Konditional (kein abgeschlossenes Ergebnis).",
+     "en": "After si + pluperfect subjunctive (hubiera estudiado), the main clause takes the condicional perfecto: habría aprobado. habré aprobado is future, aprobaría is the simple conditional (no completed result)."
+    },
+    "promptGloss": {
+     "de": "Wenn ich gelernt hätte, hätte ich die Prüfung bestanden.",
+     "en": "If I had studied, I would have passed the exam."
+    },
+    "options": [
+     "habría aprobado",
+     "habré aprobado",
+     "aprobaría",
+     "hubiera aprobado"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Nosotros ___ ido si hubiera sido posible. (haber + ir)",
+    "answer": "habríamos ido",
+    "explain": {
+     "de": "Im Hauptsatz eines irrealen Bedingungssatzes der Vergangenheit steht das Condicional perfecto: habríamos ido. Das Partizip ido (ir) bleibt unverändert.",
+     "en": "The main clause of an unreal past conditional takes the condicional perfecto: habríamos ido. The participle ido (ir) stays unchanged."
+    },
+    "promptGloss": {
+     "de": "Wir wären gegangen, wenn es möglich gewesen wäre.",
+     "en": "We would have gone if it had been possible."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ya ___ comido cuando llegué; los platos estaban vacíos.",
+    "answer": "habrían",
+    "explain": {
+     "de": "Das Condicional perfecto (habrían comido) drückt hier eine Vermutung über die Vergangenheit aus ('sie hatten wohl schon...'). habían comido wäre eine sichere Feststellung (Plusquamperfekt), habrán ein Futur.",
+     "en": "The condicional perfecto (habrían comido) here expresses a guess about the past ('they had probably...'). habían comido would be a certain statement (pluperfect), and habrán is a future."
+    },
+    "promptGloss": {
+     "de": "Sie hatten wohl schon gegessen, als ich ankam; die Teller waren leer.",
+     "en": "They had probably already eaten when I arrived; the plates were empty."
+    },
+    "options": [
+     "habrían",
+     "habían",
+     "habrán",
+     "habrías"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿Tú qué ___ en mi situación?",
+    "answer": "habrías hecho",
+    "explain": {
+     "de": "Es geht um eine abgeschlossene, hypothetische Vergangenheitshandlung → Condicional perfecto: habrías hecho. harías (einfaches Konditional) bezöge sich auf Gegenwart/Zukunft, hiciste ist reale Vergangenheit, habrás hecho ist Futur.",
+     "en": "It refers to a completed, hypothetical past action → condicional perfecto: habrías hecho. harías (simple conditional) would point to present/future, hiciste is real past, and habrás hecho is future."
+    },
+    "promptGloss": {
+     "de": "Was hättest du in meiner Situation gemacht?",
+     "en": "What would you have done in my situation?"
+    },
+    "options": [
+     "habrías hecho",
+     "habrás hecho",
+     "harías",
+     "hiciste"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Yo no ___ querido ir a esa fiesta. (yo, haber)",
+    "answer": "habría",
+    "explain": {
+     "de": "Auch in der Verneinung steht haber im Konditional (habría) + Partizip; no steht vor habría. Das Partizip querido bleibt fest.",
+     "en": "Even in the negative, haber stays in the conditional (habría) + participle; no comes before habría. The participle querido stays fixed."
+    },
+    "promptGloss": {
+     "de": "Ich hätte nicht zu dieser Party gehen wollen.",
+     "en": "I would not have wanted to go to that party."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Tú ___ tenido suerte si hubieras jugado.",
+    "answer": "habrías",
+    "explain": {
+     "de": "Der irreale si-Satz (si hubieras jugado) verlangt im Hauptsatz das Condicional perfecto: habrías tenido. habrás ist Futur, tendrías einfaches Konditional, hubieras gehört in den Nebensatz.",
+     "en": "The unreal si-clause (si hubieras jugado) requires the condicional perfecto in the main clause: habrías tenido. habrás is future, tendrías simple conditional, hubieras belongs in the subordinate clause."
+    },
+    "promptGloss": {
+     "de": "Du hättest Glück gehabt, wenn du gespielt hättest.",
+     "en": "You would have been lucky if you had played."
+    },
+    "options": [
+     "habrías",
+     "habrás",
+     "tendrías",
+     "hubieras"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "En tu lugar, yo ___ las maletas la noche anterior.",
+    "answer": "habría hecho",
+    "explain": {
+     "de": "Was man anders getan hätte → Condicional perfecto: habría hecho (hacer las maletas). Das Partizip ist unveränderlich, also nie hechas; haría wäre einfaches Konditional, hacía Imperfekt.",
+     "en": "What one would have done differently → condicional perfecto: habría hecho. The participle is invariable, never hechas; haría would be simple conditional, hacía the imperfect."
+    },
+    "promptGloss": {
+     "de": "An deiner Stelle hätte ich die Koffer am Vorabend gepackt.",
+     "en": "In your place, I would have packed the suitcases the night before."
+    },
+    "options": [
+     "habría hecho",
+     "haría",
+     "habría hechas",
+     "hacía"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No contestó; ___ roto el teléfono, supongo. (ella, haber + romper)",
+    "answer": "habría roto",
+    "explain": {
+     "de": "Vermutung über die Vergangenheit (3. Sg.) mit dem unregelmäßigen Partizip roto (romper), nicht rompido: habría roto.",
+     "en": "A guess about the past (3rd sg.) with the irregular participle roto (romper), not rompido: habría roto."
+    },
+    "promptGloss": {
+     "de": "Sie antwortete nicht; sie wird wohl das Telefon kaputt gemacht haben, vermute ich.",
+     "en": "She didn't answer; she had probably broken the phone, I suppose."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Habría ___ más fácil con un buen mapa.",
+    "answer": "sido",
+    "explain": {
+     "de": "Hier beschreibt 'es wäre einfach gewesen' eine Eigenschaft/Bewertung → ser, Partizip sido. estado (estar) passte nicht zu fácil als Wesensmerkmal; siendo ist Gerundium, sidos existiert nicht.",
+     "en": "Here 'it would have been easy' describes a quality/judgement → ser, participle sido. estado (estar) does not fit fácil as an inherent trait; siendo is the gerund, and sidos does not exist."
+    },
+    "promptGloss": {
+     "de": "Es wäre mit einer guten Karte einfacher gewesen.",
+     "en": "It would have been easier with a good map."
+    },
+    "options": [
+     "sido",
+     "estado",
+     "siendo",
+     "sidos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Si me lo hubieras pedido, te ___ ayudado encantado. (yo, haber)",
+    "answer": "habría",
+    "explain": {
+     "de": "Nach si + Plusquamperfekt Subjunktiv (hubieras pedido) folgt im Hauptsatz das Condicional perfecto: te habría ayudado. Das Objektpronomen te steht vor der konjugierten Form habría.",
+     "en": "After si + pluperfect subjunctive (hubieras pedido), the main clause takes the condicional perfecto: te habría ayudado. The object pronoun te comes before the conjugated form habría."
+    },
+    "promptGloss": {
+     "de": "Wenn du mich darum gebeten hättest, hätte ich dir gern geholfen.",
+     "en": "If you had asked me, I would have helped you gladly."
+    }
+   }
+  ]
  },
  {
   "id": "subjuntivo-presente",
@@ -2494,7 +4852,265 @@
     "-an"
    ]
   },
-  "practiceTenseKey": "subjuntivo-presente"
+  "practiceTenseKey": "subjuntivo-presente",
+  "practice": [
+   {
+    "kind": "choice",
+    "prompt": "Quiero que ___ conmigo esta tarde.",
+    "answer": "hables",
+    "explain": {
+     "de": "Querer que (Wunsch) löst im que-Nebensatz den Subjuntivo aus, daher 'hables'. 'hablas' ist Indikativ und 'hablar' wäre nur ohne Subjektwechsel (quiero hablar) möglich.",
+     "en": "Querer que (a wish) triggers the subjunctive in the que-clause, hence 'hables'. 'hablas' is indicative, and 'hablar' would only fit without a change of subject (quiero hablar)."
+    },
+    "promptGloss": {
+     "de": "Ich will, dass du heute Nachmittag mit mir sprichst.",
+     "en": "I want you to talk to me this afternoon."
+    },
+    "options": [
+     "hablas",
+     "hables",
+     "hablar"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Me alegro de que ___ más sano últimamente.",
+    "answer": "comas",
+    "explain": {
+     "de": "Gefühlsausdrücke wie 'me alegro de que' verlangen den Subjuntivo: -er-Verb, also comer zu 'comas'. 'comes' ist Indikativ; das Gefühl bezieht sich auf eine reale Tatsache, trotzdem steht hier der Subjuntivo.",
+     "en": "Emotion phrases like 'me alegro de que' require the subjunctive: -er verb, so comer becomes 'comas'. 'comes' is indicative; even though the fact is real, emotion still triggers the subjunctive."
+    },
+    "promptGloss": {
+     "de": "Ich freue mich, dass du dich in letzter Zeit gesünder ernährst.",
+     "en": "I'm glad you eat more healthily lately."
+    },
+    "options": [
+     "comes",
+     "comas",
+     "comerás"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Dudo que ellos ___ (poder) venir a la fiesta.",
+    "answer": "puedan",
+    "explain": {
+     "de": "Zweifel ('dudo que') löst den Subjuntivo aus, und der Stammwechsel o zu ue bleibt erhalten: poder zu 'puedan'. Ohne Stammwechsel ('podan') wäre es falsch.",
+     "en": "Doubt ('dudo que') triggers the subjunctive, and the o-to-ue stem change carries over: poder becomes 'puedan'. Without the stem change ('podan') it would be wrong."
+    },
+    "promptGloss": {
+     "de": "Ich bezweifle, dass sie zur Party kommen können.",
+     "en": "I doubt they can come to the party."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Es necesario que ___ paciencia con los niños.",
+    "answer": "tengas",
+    "explain": {
+     "de": "Unpersönliche Wertungen wie 'es necesario que' verlangen den Subjuntivo. tener hat den yo-Stamm 'teng-', also 'tengas'. 'tienes' ist Indikativ und ignoriert den unregelmäßigen yo-Stamm.",
+     "en": "Impersonal opinions like 'es necesario que' require the subjunctive. tener has the yo-stem 'teng-', so 'tengas'. 'tienes' is indicative and ignores the irregular yo-stem."
+    },
+    "promptGloss": {
+     "de": "Es ist nötig, dass du Geduld mit den Kindern hast.",
+     "en": "It's necessary that you have patience with the children."
+    },
+    "options": [
+     "tienes",
+     "tengas",
+     "tendrás"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Es bueno que tú ___ (dormir) ocho horas cada noche.",
+    "answer": "duermas",
+    "explain": {
+     "de": "'Es bueno que' ist eine unpersönliche Wertung und erfordert den Subjuntivo; der Stammwechsel o zu ue bleibt erhalten: dormir zu 'duermas'. 'dormas' ohne Diphthong wäre falsch.",
+     "en": "'Es bueno que' is an impersonal opinion requiring the subjunctive; the o-to-ue stem change stays: dormir becomes 'duermas'. 'dormas' without the diphthong would be wrong."
+    },
+    "promptGloss": {
+     "de": "Es ist gut, dass du jede Nacht acht Stunden schläfst.",
+     "en": "It's good that you sleep eight hours every night."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ojalá ___ buen tiempo el día de la boda.",
+    "answer": "haga",
+    "explain": {
+     "de": "'ojalá' (hoffentlich) löst immer den Subjuntivo aus; hacer hat den yo-Stamm 'hag-', also 'haga'. 'hace' ist Indikativ und 'hará' ist Futur, beide passen nach ojalá nicht.",
+     "en": "'ojalá' (hopefully) always triggers the subjunctive; hacer has the yo-stem 'hag-', so 'haga'. 'hace' is indicative and 'hará' is future, neither of which fits after ojalá."
+    },
+    "promptGloss": {
+     "de": "Hoffentlich ist am Hochzeitstag schönes Wetter.",
+     "en": "Hopefully the weather is nice on the wedding day."
+    },
+    "options": [
+     "hace",
+     "haga",
+     "hará"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Te lo explico todo para que ___ (saber) la verdad.",
+    "answer": "sepas",
+    "explain": {
+     "de": "'para que' (Absicht) löst den Subjuntivo aus; saber hat die unregelmäßige Form 'sep-', also 'sepas'. Die reguläre Bildung aus dem yo-Stamm (sé) würde hier nicht funktionieren.",
+     "en": "'para que' (purpose) triggers the subjunctive; saber has the irregular form 'sep-', so 'sepas'. Building it from the regular yo-stem (sé) would not work here."
+    },
+    "promptGloss": {
+     "de": "Ich erkläre dir alles, damit du die Wahrheit weißt.",
+     "en": "I'm explaining everything to you so that you know the truth."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Cuando ___ a Madrid, llámame por teléfono.",
+    "answer": "vayas",
+    "explain": {
+     "de": "'cuando' mit Zukunftsbezug verlangt den Subjuntivo; ir hat die eigene Form 'vay-', also 'vayas'. 'vas' (Indikativ) wäre nur bei Gewohnheit/Gegenwart richtig, nicht bei einer noch nicht eingetretenen Zukunft.",
+     "en": "'cuando' referring to the future requires the subjunctive; ir has the special form 'vay-', so 'vayas'. 'vas' (indicative) would only be right for habits/present, not for an unrealized future."
+    },
+    "promptGloss": {
+     "de": "Wenn du nach Madrid kommst, ruf mich an.",
+     "en": "When you go to Madrid, call me."
+    },
+    "options": [
+     "vas",
+     "vayas",
+     "irás"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Cuando ___ tiempo libre, siempre leo una novela.",
+    "answer": "tengo",
+    "explain": {
+     "de": "Hier beschreibt 'cuando' eine Gewohnheit/wiederholte Gegenwart, keinen Zukunftsbezug, daher der Indikativ 'tengo'. Der Subjuntivo 'tenga' stünde nur bei einem konkreten Zukunftsereignis.",
+     "en": "Here 'cuando' describes a habit/repeated present, not a future reference, so the indicative 'tengo'. The subjunctive 'tenga' would appear only with a specific future event."
+    },
+    "promptGloss": {
+     "de": "Wenn ich Freizeit habe, lese ich immer einen Roman.",
+     "en": "When I have free time, I always read a novel."
+    },
+    "options": [
+     "tengo",
+     "tenga"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Espero que ellos ___ claro en la reunión de mañana.",
+    "answer": "hablen",
+    "explain": {
+     "de": "'esperar que' ist ein Wunsch und verlangt den Subjuntivo; ein -ar-Verb bekommt in der 3. Person Plural die Endung -en, also 'hablen'. 'hablan' ist Indikativ (-an gehört zu -er/-ir).",
+     "en": "'esperar que' is a wish and requires the subjunctive; an -ar verb takes -en in the third person plural, so 'hablen'. 'hablan' is indicative (-an belongs to -er/-ir)."
+    },
+    "promptGloss": {
+     "de": "Ich hoffe, dass sie morgen in der Sitzung deutlich sprechen.",
+     "en": "I hope they speak clearly in tomorrow's meeting."
+    },
+    "options": [
+     "hablan",
+     "hablen",
+     "hablarán"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Es importante que nosotros ___ (vivir) en paz.",
+    "answer": "vivamos",
+    "explain": {
+     "de": "'es importante que' verlangt den Subjuntivo; bei -ir-Verben endet die nosotros-Form auf -amos, also vivir zu 'vivamos'. Die Indikativ-Endung -imos (vivimos) wäre hier falsch.",
+     "en": "'es importante que' requires the subjunctive; for -ir verbs the nosotros form ends in -amos, so vivir becomes 'vivamos'. The indicative ending -imos (vivimos) would be wrong here."
+    },
+    "promptGloss": {
+     "de": "Es ist wichtig, dass wir in Frieden leben.",
+     "en": "It's important that we live in peace."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "No creo que tú ___ la verdad sobre lo que pasó.",
+    "answer": "digas",
+    "explain": {
+     "de": "'no creer que' drückt Zweifel/Verneinung aus und verlangt den Subjuntivo; decir hat den yo-Stamm 'dig-', also 'digas'. Im bejahten 'creo que' stünde dagegen der Indikativ 'dices'.",
+     "en": "'no creer que' expresses doubt/negation and requires the subjunctive; decir has the yo-stem 'dig-', so 'digas'. In the affirmative 'creo que' you would instead use the indicative 'dices'."
+    },
+    "promptGloss": {
+     "de": "Ich glaube nicht, dass du die Wahrheit über das Geschehene sagst.",
+     "en": "I don't think you're telling the truth about what happened."
+    },
+    "options": [
+     "dices",
+     "digas",
+     "dirás"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Creo que Ana ___ razón en este asunto.",
+    "answer": "tiene",
+    "explain": {
+     "de": "Bejahtes 'creer que' drückt eine Überzeugung aus und steht im Indikativ, daher 'tiene'. Der Subjuntivo 'tenga' käme nur in der verneinten Form ('no creo que tenga') vor.",
+     "en": "Affirmative 'creer que' expresses a conviction and takes the indicative, hence 'tiene'. The subjunctive 'tenga' would appear only in the negated form ('no creo que tenga')."
+    },
+    "promptGloss": {
+     "de": "Ich glaube, dass Ana in dieser Sache recht hat.",
+     "en": "I think Ana is right about this matter."
+    },
+    "options": [
+     "tiene",
+     "tenga"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ojalá ___ (haber) suficiente comida para todos los invitados.",
+    "answer": "haya",
+    "explain": {
+     "de": "'ojalá' löst den Subjuntivo aus; das unpersönliche 'hay' (von haber) lautet im Subjuntivo 'haya'. Eine regelmäßige Form wie 'habe' existiert hier nicht.",
+     "en": "'ojalá' triggers the subjunctive; the impersonal 'hay' (from haber) becomes 'haya' in the subjunctive. A regular form like 'habe' does not exist here."
+    },
+    "promptGloss": {
+     "de": "Hoffentlich gibt es genug Essen für alle Gäste.",
+     "en": "Hopefully there's enough food for all the guests."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Quiero que vosotros ___ (estar) en casa cuando yo llegue.",
+    "answer": "estéis",
+    "explain": {
+     "de": "'querer que' verlangt den Subjuntivo; estar hat unregelmäßige Betonung mit Akzent: die vosotros-Form ist 'estéis'. Ohne Akzent ('esteis') wäre die Schreibung falsch.",
+     "en": "'querer que' requires the subjunctive; estar has irregular stress with an accent: the vosotros form is 'estéis'. Without the accent ('esteis') the spelling would be wrong."
+    },
+    "promptGloss": {
+     "de": "Ich will, dass ihr zu Hause seid, wenn ich ankomme.",
+     "en": "I want you (pl.) to be at home when I arrive."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "No creo que esto ___ verdad; suena demasiado raro.",
+    "answer": "sea",
+    "explain": {
+     "de": "'no creer que' (Zweifel) verlangt den Subjuntivo; ser hat die eigene Form 'sea'. 'es' ist Indikativ, und 'está' (von estar) passt semantisch nicht, weil hier eine Eigenschaft/Identität mit ser gemeint ist.",
+     "en": "'no creer que' (doubt) requires the subjunctive; ser has the special form 'sea'. 'es' is indicative, and 'está' (from estar) doesn't fit semantically, since this is an inherent quality expressed with ser."
+    },
+    "promptGloss": {
+     "de": "Ich glaube nicht, dass das wahr ist; es klingt zu seltsam.",
+     "en": "I don't think this is true; it sounds too strange."
+    },
+    "options": [
+     "es",
+     "sea",
+     "está"
+    ]
+   }
+  ]
  },
  {
   "id": "subjuntivo-imperfecto",
@@ -2733,7 +5349,286 @@
     "-ieran"
    ]
   },
-  "practiceTenseKey": "subjuntivo-imperfecto"
+  "practiceTenseKey": "subjuntivo-imperfecto",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "Si yo ___ (hablar) español, viviría en Madrid.",
+    "answer": "hablara",
+    "explain": {
+     "de": "-ar-Verben bilden den Imperfekt-Konjunktiv aus dem ellos-Stamm des Indefinido (hablaron) plus -ara: hablara. Die -se-Form (hablase) ist ebenfalls korrekt, aber -ra ist Standard.",
+     "en": "-ar verbs form the imperfect subjunctive from the ellos preterite stem (hablaron) plus -ara: hablara. The -se form (hablase) is also valid, but -ra is standard."
+    },
+    "promptGloss": {
+     "de": "Wenn ich Spanisch spräche, würde ich in Madrid leben.",
+     "en": "If I spoke Spanish, I would live in Madrid."
+    },
+    "altAnswers": [
+     "hablase"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Esperaba que tú ___ (comer) algo antes de salir.",
+    "answer": "comieras",
+    "explain": {
+     "de": "-er-Verben hängen -ieras an: vom Stamm comie- (aus comieron) wird comieras. Da der Hauptsatz in der Vergangenheit steht (esperaba), muss der Nebensatz im Imperfekt-Konjunktiv stehen.",
+     "en": "-er verbs add -ieras: from the stem comie- (from comieron) you get comieras. Because the main clause is past (esperaba), the subordinate clause needs the imperfect subjunctive."
+    },
+    "promptGloss": {
+     "de": "Ich hoffte, dass du etwas isst, bevor du gehst.",
+     "en": "I hoped you would eat something before leaving."
+    },
+    "altAnswers": [
+     "comieses"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Si ___ rico, no trabajaría más.",
+    "answer": "fuera",
+    "explain": {
+     "de": "Nach si steht bei einer irrealen Gegenwartsbedingung der Imperfekt-Konjunktiv (fuera von ser). Der Konditional sería gehört in den Hauptsatz, nicht in den si-Satz; soy (Präsens) und era (Imperfekt Indikativ) drücken keine irreale Bedingung aus.",
+     "en": "After si, an unreal present condition takes the imperfect subjunctive (fuera from ser). The conditional sería belongs in the main clause, not the si-clause; soy (present) and era (imperfect indicative) don't express an unreal condition."
+    },
+    "promptGloss": {
+     "de": "Wenn ich reich wäre, würde ich nicht mehr arbeiten.",
+     "en": "If I were rich, I wouldn't work anymore."
+    },
+    "options": [
+     "fuera",
+     "sería",
+     "soy",
+     "era"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "___ un café con leche, por favor.",
+    "answer": "Quisiera",
+    "explain": {
+     "de": "Quisiera (Imperfekt-Konjunktiv von querer) macht die Bitte besonders höflich und sanft. Quiero (Präsens) klingt direkter, und Quería bzw. Querría sind hier nicht die feststehende Höflichkeitsform für eine Bestellung.",
+     "en": "Quisiera (imperfect subjunctive of querer) makes the request especially polite and soft. Quiero (present) sounds more direct, and Quería / Querría are not the set polite form for ordering here."
+    },
+    "promptGloss": {
+     "de": "Ich hätte gern einen Milchkaffee, bitte.",
+     "en": "I'd like a coffee with milk, please."
+    },
+    "options": [
+     "Quisiera",
+     "Quiero",
+     "Querría",
+     "Quería"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Si ___ (tener) más tiempo, viajaría por todo el mundo.",
+    "answer": "tuviera",
+    "explain": {
+     "de": "Tener ist unregelmäßig: Der Stamm tuv- kommt aus dem Indefinido tuvieron, dazu -iera: tuviera. Man darf nicht den Infinitivstamm (tenie-) verwenden.",
+     "en": "Tener is irregular: the stem tuv- comes from the preterite tuvieron, plus -iera: tuviera. You must not use the infinitive stem (tenie-)."
+    },
+    "promptGloss": {
+     "de": "Wenn ich mehr Zeit hätte, würde ich um die ganze Welt reisen.",
+     "en": "If I had more time, I would travel all over the world."
+    },
+    "altAnswers": [
+     "tuviese"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Mi madre quería que nosotros ___ a casa antes de medianoche.",
+    "answer": "volviéramos",
+    "explain": {
+     "de": "Der Vergangenheits-Auslöser quería verlangt im Nebensatz den Imperfekt-Konjunktiv; die nosotros-Form trägt einen Akzent: volviéramos. Volvamos ist Präsens-Konjunktiv (passt zu einem Gegenwarts-Hauptsatz), die anderen sind Indikativ/Konditional.",
+     "en": "The past trigger quería requires the imperfect subjunctive in the subordinate clause; the nosotros form is accented: volviéramos. Volvamos is present subjunctive (for a present main clause), the others are indicative/conditional."
+    },
+    "promptGloss": {
+     "de": "Meine Mutter wollte, dass wir vor Mitternacht nach Hause kommen.",
+     "en": "My mother wanted us to come home before midnight."
+    },
+    "options": [
+     "volviéramos",
+     "volvamos",
+     "volveríamos",
+     "volvíamos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Me pidió que ___ (hablar) más despacio porque no me entendía.",
+    "answer": "hablara",
+    "explain": {
+     "de": "Pidió steht in der Vergangenheit, also folgt im que-Satz der Imperfekt-Konjunktiv hablara. Ein Infinitiv (hablar) ist nach pedir que mit Subjektwechsel nicht möglich.",
+     "en": "Pidió is in the past, so the que-clause takes the imperfect subjunctive hablara. An infinitive (hablar) is not possible after pedir que with a change of subject."
+    },
+    "promptGloss": {
+     "de": "Er bat mich, langsamer zu sprechen, weil er mich nicht verstand.",
+     "en": "He asked me to speak more slowly because he didn't understand me."
+    },
+    "altAnswers": [
+     "hablase"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "No había nadie que ___ el trabajo a tiempo.",
+    "answer": "hiciera",
+    "explain": {
+     "de": "Der negierte, unbestimmte Bezug (no había nadie que...) in einem Vergangenheitskontext löst den Imperfekt-Konjunktiv aus; hacer ist unregelmäßig: Stamm hic- aus hicieron, also hiciera. Die Indikativformen hacía/hizo und der Konditional haría passen nicht zum verneinten Antezedens.",
+     "en": "The negated, indefinite antecedent (no había nadie que...) in a past context triggers the imperfect subjunctive; hacer is irregular: stem hic- from hicieron, so hiciera. The indicative forms hacía/hizo and the conditional haría don't fit the negated antecedent."
+    },
+    "promptGloss": {
+     "de": "Es gab niemanden, der die Arbeit rechtzeitig machte.",
+     "en": "There was nobody who did the work on time."
+    },
+    "options": [
+     "hiciera",
+     "hacía",
+     "haría",
+     "hizo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ojalá ___ (poder) ayudarte, pero no me queda tiempo.",
+    "answer": "pudiera",
+    "explain": {
+     "de": "Ojalá + Imperfekt-Konjunktiv drückt einen Wunsch aus, der als unwahrscheinlich gilt; poder ist unregelmäßig: Stamm pud- aus pudieron, also pudiera (-ra-Form, ganz normal).",
+     "en": "Ojalá + imperfect subjunctive expresses a wish seen as unlikely; poder is irregular: stem pud- from pudieron, so pudiera (the fully normal -ra form)."
+    },
+    "promptGloss": {
+     "de": "Hoffentlich könnte ich dir helfen, aber mir bleibt keine Zeit.",
+     "en": "I wish I could help you, but I have no time left."
+    },
+    "altAnswers": [
+     "pudiese"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Si ___ menos, dormirías mucho mejor.",
+    "answer": "comieras",
+    "explain": {
+     "de": "Im irrealen si-Satz steht der Imperfekt-Konjunktiv (comieras), während der Konditional comerías in den Hauptsatz gehört (dormirías). Comías ist Imperfekt Indikativ und comas Präsens-Konjunktiv.",
+     "en": "In the unreal si-clause you use the imperfect subjunctive (comieras), while the conditional comerías belongs in the main clause (dormirías). Comías is imperfect indicative and comas is present subjunctive."
+    },
+    "promptGloss": {
+     "de": "Wenn du weniger äßest, würdest du viel besser schlafen.",
+     "en": "If you ate less, you would sleep much better."
+    },
+    "options": [
+     "comieras",
+     "comerías",
+     "comías",
+     "comas"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Si él ___ (estar) aquí ahora, te lo diría todo.",
+    "answer": "estuviera",
+    "explain": {
+     "de": "Estar ist unregelmäßig: Stamm estuv- aus estuvieron, dazu -iera ergibt estuviera. Die irreale Gegenwartsbedingung nach si verlangt den Imperfekt-Konjunktiv, nicht den Indikativ está.",
+     "en": "Estar is irregular: stem estuv- from estuvieron, plus -iera gives estuviera. The unreal present condition after si requires the imperfect subjunctive, not the indicative está."
+    },
+    "promptGloss": {
+     "de": "Wenn er jetzt hier wäre, würde er dir alles sagen.",
+     "en": "If he were here now, he would tell you everything."
+    },
+    "altAnswers": [
+     "estuviese"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Buscábamos un guía que ___ inglés, pero no encontramos a nadie.",
+    "answer": "hablara",
+    "explain": {
+     "de": "Ein gesuchter, nicht existierender (unbestimmter) Bezug nach einem Vergangenheits-Hauptsatz (buscábamos) verlangt den Imperfekt-Konjunktiv hablara. Der Indikativ hablaba würde einen konkreten, bekannten Führer bezeichnen; hablase wäre korrekt, ist aber als Variante nicht die erwartete Standardform hier.",
+     "en": "A sought-after, non-existent (indefinite) antecedent after a past main clause (buscábamos) requires the imperfect subjunctive hablara. The indicative hablaba would refer to a specific, known guide; hablase would be correct but is the less standard variant here."
+    },
+    "promptGloss": {
+     "de": "Wir suchten einen Führer, der Englisch sprach, aber wir fanden niemanden.",
+     "en": "We were looking for a guide who spoke English, but we found no one."
+    },
+    "options": [
+     "hablara",
+     "hablaba",
+     "habla",
+     "hablase"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Quería que vosotros ___ (venir) a la fiesta conmigo.",
+    "answer": "vinierais",
+    "explain": {
+     "de": "Venir ist unregelmäßig: Stamm vin- aus vinieron; die vosotros-Endung ist -ierais, also vinierais. Der Vergangenheits-Auslöser quería erzwingt den Imperfekt-Konjunktiv.",
+     "en": "Venir is irregular: stem vin- from vinieron; the vosotros ending is -ierais, giving vinierais. The past trigger quería forces the imperfect subjunctive."
+    },
+    "promptGloss": {
+     "de": "Ich wollte, dass ihr mit mir zur Party kommt.",
+     "en": "I wanted you (plural) to come to the party with me."
+    },
+    "altAnswers": [
+     "vinieseis"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Si tú ___ la verdad, te enfadarías mucho.",
+    "answer": "supieras",
+    "explain": {
+     "de": "Saber ist unregelmäßig: Stamm sup- aus supieron, also supieras im irrealen si-Satz. Der Konditional sabrías gehört in den Hauptsatz (te enfadarías), nicht hinter si.",
+     "en": "Saber is irregular: stem sup- from supieron, giving supieras in the unreal si-clause. The conditional sabrías belongs in the main clause (te enfadarías), not after si."
+    },
+    "promptGloss": {
+     "de": "Wenn du die Wahrheit wüsstest, würdest du dich sehr ärgern.",
+     "en": "If you knew the truth, you would get very angry."
+    },
+    "options": [
+     "supieras",
+     "sabrías",
+     "sabías",
+     "sabes"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Nos sorprendió que el examen ___ (ser) tan difícil.",
+    "answer": "fuera",
+    "explain": {
+     "de": "Das Gefühlsverb im Vergangenheitskontext (nos sorprendió) verlangt im que-Satz den Imperfekt-Konjunktiv; ser/ir teilen die Form fuera (Stamm aus fueron). Der Indikativ era wäre hier nach einem Auslöser des Gefühls falsch.",
+     "en": "The emotion verb in a past context (nos sorprendió) requires the imperfect subjunctive in the que-clause; ser/ir share the form fuera (stem from fueron). The indicative era would be wrong here after a trigger of emotion."
+    },
+    "promptGloss": {
+     "de": "Es überraschte uns, dass die Prüfung so schwer war.",
+     "en": "It surprised us that the exam was so difficult."
+    },
+    "altAnswers": [
+     "fuese"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Si nosotros ___ (dormir) más, estaríamos de mejor humor.",
+    "answer": "durmiéramos",
+    "explain": {
+     "de": "Dormir hat im Indefinido die Vokalveränderung o>u (durmieron); daraus wird der Imperfekt-Konjunktiv durmiéramos, mit Akzent in der nosotros-Form. Die Form ohne Vokalwechsel (dormiéramos) wäre falsch.",
+     "en": "Dormir has the o>u vowel change in the preterite (durmieron); from that you build the imperfect subjunctive durmiéramos, with an accent in the nosotros form. The form without the vowel change (dormiéramos) would be wrong."
+    },
+    "promptGloss": {
+     "de": "Wenn wir mehr schliefen, wären wir besser gelaunt.",
+     "en": "If we slept more, we would be in a better mood."
+    },
+    "altAnswers": [
+     "durmiésemos"
+    ]
+   }
+  ]
  },
  {
   "id": "subjuntivo-perfecto",
@@ -2930,7 +5825,271 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "subjuntivo-perfecto"
+  "practiceTenseKey": "subjuntivo-perfecto",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "Espero que ___ comido algo antes de salir. (tú, haber)",
+    "answer": "hayas",
+    "explain": {
+     "de": "Der Subjuntivo perfecto bildet sich aus dem Subjunktiv-Präsens von haber + Partizip; die 2. Person Singular ist hayas.",
+     "en": "The present perfect subjunctive uses the present subjunctive of haber + participle; the second person singular is hayas."
+    },
+    "promptGloss": {
+     "de": "Ich hoffe, du hast etwas gegessen, bevor du losgegangen bist.",
+     "en": "I hope you have eaten something before leaving."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Me alegro de que nosotros ___ podido vernos hoy. (haber)",
+    "answer": "hayamos",
+    "explain": {
+     "de": "Für nosotros lautet haber im Subjunktiv-Präsens hayamos; nur haber ändert sich nach Person, das Partizip podido bleibt gleich.",
+     "en": "For nosotros, haber in the present subjunctive is hayamos; only haber changes with the person, the participle podido stays the same."
+    },
+    "promptGloss": {
+     "de": "Ich freue mich, dass wir uns heute sehen konnten.",
+     "en": "I'm glad that we have been able to see each other today."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Dudo que ellos ___ llegado ya.",
+    "answer": "hayan",
+    "explain": {
+     "de": "Das Subjekt ellos verlangt die 3. Person Plural hayan; haya wäre Singular und han ist Indikativ, der nach dudo que (Zweifel) nicht stehen darf.",
+     "en": "The subject ellos requires the third person plural hayan; haya would be singular and han is indicative, which cannot follow dudo que (doubt)."
+    },
+    "promptGloss": {
+     "de": "Ich bezweifle, dass sie schon angekommen sind.",
+     "en": "I doubt that they have already arrived."
+    },
+    "options": [
+     "hayan",
+     "haya",
+     "hayamos",
+     "han"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Es raro que no ___ dicho nada todavía.",
+    "answer": "hayan",
+    "explain": {
+     "de": "Es raro que (Gefühl/Wertung) löst den Subjunktiv aus, also hayan; han ist Indikativ, habrán Futur und hubieran der Subjuntivo pluscuamperfecto, der hier nicht zum Gegenwartsbezug passt.",
+     "en": "Es raro que (emotion/judgement) triggers the subjunctive, so hayan; han is indicative, habrán is future and hubieran is the past perfect subjunctive, which doesn't fit the present reference here."
+    },
+    "promptGloss": {
+     "de": "Es ist seltsam, dass sie noch nichts gesagt haben.",
+     "en": "It's odd that they haven't said anything yet."
+    },
+    "options": [
+     "hayan",
+     "han",
+     "habrán",
+     "hubieran"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "No creo que él ___ eso.",
+    "answer": "haya dicho",
+    "explain": {
+     "de": "decir hat das unregelmäßige Partizip dicho (nicht decido); No creo que verlangt den Subjunktiv haya, nicht den Indikativ ha. diciendo ist das Gerundium.",
+     "en": "decir has the irregular participle dicho (not decido); No creo que requires the subjunctive haya, not the indicative ha. diciendo is the gerund."
+    },
+    "promptGloss": {
+     "de": "Ich glaube nicht, dass er das gesagt hat.",
+     "en": "I don't think he has said that."
+    },
+    "options": [
+     "haya dicho",
+     "haya decido",
+     "ha dicho",
+     "haya diciendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No me parece que tú ___ hecho bien los deberes. (haber + hacer)",
+    "answer": "hayas hecho",
+    "explain": {
+     "de": "haber in der 2. Person Singular ist hayas, und hacer hat das unregelmäßige Partizip hecho (nicht hacido).",
+     "en": "haber in the second person singular is hayas, and hacer has the irregular participle hecho (not hacido)."
+    },
+    "promptGloss": {
+     "de": "Mir scheint nicht, dass du die Hausaufgaben gut gemacht hast.",
+     "en": "It doesn't seem to me that you have done the homework well."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Sé que ya ___ terminado el proyecto.",
+    "answer": "han",
+    "explain": {
+     "de": "Sé que (Wissen, Gewissheit) löst keinen Subjunktiv aus, sondern verlangt den Indikativ han; haya/hayan wären falsch, weil keine Wertung, kein Zweifel und kein Wunsch vorliegt.",
+     "en": "Sé que (knowledge, certainty) does not trigger the subjunctive but requires the indicative han; haya/hayan would be wrong because there is no judgement, doubt or wish."
+    },
+    "promptGloss": {
+     "de": "Ich weiß, dass sie das Projekt schon beendet haben.",
+     "en": "I know that they have already finished the project."
+    },
+    "options": [
+     "han",
+     "hayan",
+     "haya",
+     "hayamos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ojalá ___ dormido bien esta noche. (tú, haber)",
+    "answer": "hayas",
+    "explain": {
+     "de": "Ojalá ist ein Wunsch-Auslöser und steht mit dem Subjunktiv; für tú lautet haber hayas und drückt eine bereits abgeschlossene Handlung mit Gegenwartsbezug aus.",
+     "en": "Ojalá is a wish trigger and takes the subjunctive; for tú haber is hayas, expressing an already completed action linked to the present."
+    },
+    "promptGloss": {
+     "de": "Hoffentlich hast du heute Nacht gut geschlafen.",
+     "en": "I hope you have slept well tonight."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Es posible que ___ un error.",
+    "answer": "haya sido",
+    "explain": {
+     "de": "Es posible que (Zweifel/Möglichkeit) verlangt den Subjunktiv haya, und das Partizip von ser ist sido; ha sido ist Indikativ und sea wäre Präsens ohne den nötigen Vergangenheitsbezug.",
+     "en": "Es posible que (doubt/possibility) requires the subjunctive haya, and the participle of ser is sido; ha sido is indicative and sea would be a simple present lacking the needed past reference."
+    },
+    "promptGloss": {
+     "de": "Es ist möglich, dass es ein Fehler war.",
+     "en": "It's possible that it has been a mistake."
+    },
+    "options": [
+     "haya sido",
+     "ha sido",
+     "haya estado",
+     "sea"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Me sorprende que vosotros ___ podido venir tan pronto. (haber)",
+    "answer": "hayáis",
+    "explain": {
+     "de": "Für vosotros lautet haber im Subjunktiv-Präsens hayáis (mit Akzent auf dem á); das Partizip podido bleibt unverändert.",
+     "en": "For vosotros, haber in the present subjunctive is hayáis (accent on the á); the participle podido stays unchanged."
+    },
+    "promptGloss": {
+     "de": "Es überrascht mich, dass ihr so schnell kommen konntet.",
+     "en": "I'm surprised that you have been able to come so soon."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Cuando ___ visto la película, hablamos de ella.",
+    "answer": "hayas",
+    "explain": {
+     "de": "Nach cuando mit Zukunftsbezug steht der Subjunktiv für eine vor dem Bezugspunkt abgeschlossene Handlung: hayas visto; has ist Indikativ, habrás Futur und hubieras der Subjuntivo pluscuamperfecto.",
+     "en": "After cuando referring to the future, the subjunctive marks an action completed before the reference point: hayas visto; has is indicative, habrás future, and hubieras the past perfect subjunctive."
+    },
+    "promptGloss": {
+     "de": "Wenn du den Film gesehen hast, sprechen wir über ihn.",
+     "en": "Once you have seen the film, we'll talk about it."
+    },
+    "options": [
+     "hayas",
+     "has",
+     "habrás",
+     "hubieras"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No creo que María ___ escrito la carta todavía. (haber + escribir)",
+    "answer": "haya escrito",
+    "explain": {
+     "de": "No creo que verlangt den Subjunktiv haya, und escribir hat das unregelmäßige Partizip escrito (nicht escribido).",
+     "en": "No creo que requires the subjunctive haya, and escribir has the irregular participle escrito (not escribido)."
+    },
+    "promptGloss": {
+     "de": "Ich glaube nicht, dass María den Brief schon geschrieben hat.",
+     "en": "I don't think María has written the letter yet."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Temo que se ___ roto algo durante el viaje.",
+    "answer": "haya roto",
+    "explain": {
+     "de": "Temo que (Gefühl/Furcht) löst den Subjunktiv aus, und romper hat das unregelmäßige Partizip roto (nicht rompido); ha roto ist Indikativ.",
+     "en": "Temo que (emotion/fear) triggers the subjunctive, and romper has the irregular participle roto (not rompido); ha roto is indicative."
+    },
+    "promptGloss": {
+     "de": "Ich fürchte, dass während der Reise etwas kaputtgegangen ist.",
+     "en": "I'm afraid that something has broken during the trip."
+    },
+    "options": [
+     "haya roto",
+     "haya rompido",
+     "ha roto",
+     "rompa"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Es una pena que no ___ aquí antes; ahora se han ido.",
+    "answer": "hayan estado",
+    "explain": {
+     "de": "Es una pena que (Wertung) verlangt den Subjunktiv; für einen Ort/Aufenthalt nimmt man estar, also hayan estado, nicht ser (sido). han estado ist Indikativ.",
+     "en": "Es una pena que (judgement) requires the subjunctive; for location/presence you use estar, so hayan estado, not ser (sido). han estado is indicative."
+    },
+    "promptGloss": {
+     "de": "Es ist schade, dass sie nicht früher hier gewesen sind; jetzt sind sie weg.",
+     "en": "It's a pity that they haven't been here earlier; now they have left."
+    },
+    "options": [
+     "hayan estado",
+     "hayan sido",
+     "han estado",
+     "estuvieran"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Es bueno que los niños ya ___ vuelto a casa. (haber + volver)",
+    "answer": "hayan vuelto",
+    "explain": {
+     "de": "Es bueno que verlangt den Subjunktiv; das Subjekt los niños (ellos) gibt hayan, und volver hat das unregelmäßige Partizip vuelto (nicht volvido).",
+     "en": "Es bueno que requires the subjunctive; the subject los niños (ellos) gives hayan, and volver has the irregular participle vuelto (not volvido)."
+    },
+    "promptGloss": {
+     "de": "Es ist gut, dass die Kinder schon nach Hause zurückgekehrt sind.",
+     "en": "It's good that the children have already returned home."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Quería que tú ___ terminado para hoy, pero no fue posible.",
+    "answer": "hubieras",
+    "explain": {
+     "de": "Der Hauptsatz steht in der Vergangenheit (quería), daher gilt die Zeitenfolge: statt des Subjuntivo perfecto (hayas) wird der Subjuntivo pluscuamperfecto hubieras gebraucht; habías/has sind Indikativ.",
+     "en": "The main clause is in the past (quería), so sequence of tenses applies: instead of the present perfect subjunctive (hayas) you need the past perfect subjunctive hubieras; habías/has are indicative."
+    },
+    "promptGloss": {
+     "de": "Ich wollte, dass du es bis heute beendet hättest, aber es war nicht möglich.",
+     "en": "I wanted you to have finished by today, but it wasn't possible."
+    },
+    "options": [
+     "hubieras",
+     "hayas",
+     "habías",
+     "has"
+    ]
+   }
+  ]
  },
  {
   "id": "subjuntivo-pluscuamperfecto",
@@ -3103,7 +6262,273 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "subjuntivo-pluscuamperfecto"
+  "practiceTenseKey": "subjuntivo-pluscuamperfecto",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "Si yo lo ___ sabido, te habría avisado. (haber)",
+    "answer": "hubiera",
+    "explain": {
+     "de": "Der Subjuntivo Plusquamperfekt wird aus dem Imperfekt-Subjuntivo von 'haber' plus Partizip gebildet: hubiera (oder hubiese) + sabido. Die Form 'había' wäre Indikativ und nach irrealem 'si' falsch.",
+     "en": "The pluperfect subjunctive is the imperfect subjunctive of 'haber' plus a participle: hubiera (or hubiese) + sabido. The form 'había' would be indicative and is wrong after unreal 'si'."
+    },
+    "promptGloss": {
+     "de": "Wenn ich es gewusst hätte, hätte ich dich gewarnt.",
+     "en": "If I had known it, I would have warned you."
+    },
+    "altAnswers": [
+     "hubiese"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ojalá tú ___ dicho la verdad antes. (haber)",
+    "answer": "hubieras",
+    "explain": {
+     "de": "Für 'tú' lautet das Hilfsverb 'hubieras' (oder 'hubieses'): hubieras + dicho. 'Ojalá' mit Subjuntivo Plusquamperfekt drückt einen unerfüllten Wunsch über die Vergangenheit aus.",
+     "en": "For 'tú' the auxiliary is 'hubieras' (or 'hubieses'): hubieras + dicho. 'Ojalá' with the pluperfect subjunctive expresses an unfulfilled wish about the past."
+    },
+    "promptGloss": {
+     "de": "Hättest du doch vorher die Wahrheit gesagt.",
+     "en": "I wish you had told the truth earlier."
+    },
+    "altAnswers": [
+     "hubieses"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Si ella ___ tenido tiempo, nos habría llamado.",
+    "answer": "hubiera",
+    "explain": {
+     "de": "Nach 'si' für eine nicht eingetretene Bedingung in der Vergangenheit steht der Subjuntivo Plusquamperfekt: hubiera tenido. 'Habría' gehört in den Hauptsatz (Konditional Perfekt), 'había' wäre Indikativ.",
+     "en": "After 'si' for an unfulfilled past condition you use the pluperfect subjunctive: hubiera tenido. 'Habría' belongs in the main clause (conditional perfect), 'había' would be indicative."
+    },
+    "promptGloss": {
+     "de": "Wenn sie Zeit gehabt hätte, hätte sie uns angerufen.",
+     "en": "If she had had time, she would have called us."
+    },
+    "options": [
+     "hubiera",
+     "había",
+     "habría",
+     "tuviera"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Si hubiéramos vivido allí, lo ___ ahora.",
+    "answer": "sabríamos",
+    "explain": {
+     "de": "Der si-Satz steht im Subjuntivo Plusquamperfekt, doch die Folge bezieht sich auf das Jetzt ('ahora') und steht deshalb im einfachen Konditional: sabríamos. Ein zweites 'hubiéramos sabido' würde eine reine Vergangenheitsfolge ausdrücken.",
+     "en": "The si-clause is pluperfect subjunctive, but the result refers to now ('ahora'), so it takes the simple conditional: sabríamos. A second 'hubiéramos sabido' would express a purely past result."
+    },
+    "promptGloss": {
+     "de": "Wenn wir dort gelebt hätten, wüssten wir es jetzt.",
+     "en": "If we had lived there, we would know it now."
+    },
+    "options": [
+     "sabríamos",
+     "hubiéramos sabido",
+     "supiéramos",
+     "sabremos"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Habla como si ___ estado en la guerra, pero nunca salió de su pueblo.",
+    "answer": "hubiera",
+    "explain": {
+     "de": "'Como si' für einen irrealen Vergleich mit der Vergangenheit verlangt den Subjuntivo Plusquamperfekt: como si hubiera estado. 'Ha' (Indikativ Perfekt) und 'había' (Indikativ Plusquamperfekt) sind nach 'como si' nie möglich.",
+     "en": "'Como si' for an unreal comparison with the past requires the pluperfect subjunctive: como si hubiera estado. 'Ha' (present perfect) and 'había' (pluperfect indicative) are never possible after 'como si'."
+    },
+    "promptGloss": {
+     "de": "Er redet, als wäre er im Krieg gewesen, aber er hat sein Dorf nie verlassen.",
+     "en": "He talks as if he had been in the war, but he never left his village."
+    },
+    "options": [
+     "hubiera",
+     "ha",
+     "había",
+     "hubiere"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Actuó como si no ___ dormido nada en toda la noche. (haber)",
+    "answer": "hubiera",
+    "explain": {
+     "de": "Nach 'como si' steht der Subjuntivo Plusquamperfekt für ein irreales, früheres Geschehen: hubiera (hubiese) dormido. Das 'no' steht vor dem Hilfsverb, der Aufbau haber + Partizip bleibt unverändert.",
+     "en": "After 'como si' the pluperfect subjunctive marks an unreal earlier event: hubiera (hubiese) dormido. The 'no' goes before the auxiliary; the haber + participle structure stays intact."
+    },
+    "promptGloss": {
+     "de": "Er tat, als hätte er die ganze Nacht gar nicht geschlafen.",
+     "en": "He acted as if he hadn't slept at all all night."
+    },
+    "altAnswers": [
+     "hubiese"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "No creía que ___ sido tan difícil aprobar ese examen.",
+    "answer": "hubiera",
+    "explain": {
+     "de": "Ein verneinter Meinungsausdruck in der Vergangenheit ('No creía') löst den Subjuntivo aus; für ein früheres Geschehen ist es der Plusquamperfekt: hubiera sido. 'Haya sido' (Perfekt-Subjuntivo) passt nicht zum vergangenen Hauptverb.",
+     "en": "A negated opinion verb in the past ('No creía') triggers the subjunctive; for an earlier event it is the pluperfect: hubiera sido. 'Haya sido' (present perfect subjunctive) does not match the past main verb."
+    },
+    "promptGloss": {
+     "de": "Ich glaubte nicht, dass es so schwer gewesen wäre, diese Prüfung zu bestehen.",
+     "en": "I didn't think it had been so hard to pass that exam."
+    },
+    "options": [
+     "hubiera",
+     "había",
+     "haya",
+     "habría"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Me alegró mucho que vosotros ___ venido a la fiesta. (haber)",
+    "answer": "hubierais",
+    "explain": {
+     "de": "Der Auslöser 'Me alegró que' (Gefühlsverb in der Vergangenheit) verlangt den Subjuntivo; für 'vosotros' ist die Form 'hubierais' (oder 'hubieseis') + venido. Die Endung -ais markiert die 2. Person Plural.",
+     "en": "The trigger 'Me alegró que' (emotion verb in the past) requires the subjunctive; for 'vosotros' the form is 'hubierais' (or 'hubieseis') + venido. The ending -ais marks the 2nd person plural."
+    },
+    "promptGloss": {
+     "de": "Es freute mich sehr, dass ihr zum Fest gekommen wart.",
+     "en": "I was very glad that you had come to the party."
+    },
+    "altAnswers": [
+     "hubieseis"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Si ellos ___ podido, habrían venido a verte. (haber)",
+    "answer": "hubieran",
+    "explain": {
+     "de": "Für 'ellos' lautet das Hilfsverb 'hubieran' (oder 'hubiesen') + podido. Der si-Satz mit irrealer Vergangenheit steht im Subjuntivo Plusquamperfekt, der Hauptsatz im Konditional Perfekt (habrían venido).",
+     "en": "For 'ellos' the auxiliary is 'hubieran' (or 'hubiesen') + podido. The si-clause for an unreal past is pluperfect subjunctive, the main clause is conditional perfect (habrían venido)."
+    },
+    "promptGloss": {
+     "de": "Wenn sie gekonnt hätten, wären sie gekommen, um dich zu sehen.",
+     "en": "If they had been able, they would have come to see you."
+    },
+    "altAnswers": [
+     "hubiesen"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Si hubiera tenido tiempo, te ___ con la mudanza.",
+    "answer": "habría ayudado",
+    "explain": {
+     "de": "Im typischen Muster der irrealen Vergangenheit steht der si-Satz im Subjuntivo Plusquamperfekt und der Hauptsatz im Konditional Perfekt: te habría ayudado. 'Ayudaría' (einfaches Konditional) bezöge sich auf Gegenwart/Zukunft.",
+     "en": "In the typical unreal-past pattern the si-clause is pluperfect subjunctive and the main clause is conditional perfect: te habría ayudado. 'Ayudaría' (simple conditional) would refer to present/future."
+    },
+    "promptGloss": {
+     "de": "Wenn ich Zeit gehabt hätte, hätte ich dir beim Umzug geholfen.",
+     "en": "If I had had time, I would have helped you with the move."
+    },
+    "options": [
+     "habría ayudado",
+     "hubiera ayudado",
+     "ayudaría",
+     "ayudaba"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Nadie pensó que tú ___ querido marcharte tan pronto.",
+    "answer": "hubieras",
+    "explain": {
+     "de": "Das Subjekt des Nebensatzes ist 'tú', also 'hubieras querido'. 'Hubiera' wäre yo/él/ella, 'hubieran' wäre ellos. 'Habías' (Indikativ) passt nicht nach dem subjuntivo-auslösenden 'No pensó que'.",
+     "en": "The subject of the clause is 'tú', so 'hubieras querido'. 'Hubiera' would be yo/él/ella, 'hubieran' would be ellos. 'Habías' (indicative) does not fit after the subjunctive-triggering 'No pensó que'."
+    },
+    "promptGloss": {
+     "de": "Niemand dachte, dass du so früh hättest gehen wollen.",
+     "en": "Nobody thought you had wanted to leave so soon."
+    },
+    "options": [
+     "hubieras",
+     "hubieran",
+     "habías",
+     "hubiera"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Si hubiéramos salido antes, ahora ya ___ en la playa.",
+    "answer": "estaríamos",
+    "explain": {
+     "de": "Die irreale Bedingung liegt in der Vergangenheit (hubiéramos salido), aber das Ergebnis betrifft das Jetzt ('ahora ya'), daher einfaches Konditional: estaríamos. 'Habríamos estado' würde eine abgeschlossene Vergangenheitsfolge bezeichnen.",
+     "en": "The unreal condition is in the past (hubiéramos salido), but the result concerns now ('ahora ya'), so the simple conditional: estaríamos. 'Habríamos estado' would mark a completed past result."
+    },
+    "promptGloss": {
+     "de": "Wenn wir früher losgefahren wären, wären wir jetzt schon am Strand.",
+     "en": "If we had left earlier, we would already be at the beach now."
+    },
+    "options": [
+     "estaríamos",
+     "habríamos estado",
+     "hubiéramos estado",
+     "estuviéramos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Ojalá nosotros ___ hecho los deberes ayer. (haber)",
+    "answer": "hubiéramos",
+    "explain": {
+     "de": "Für 'nosotros' trägt die Form den Akzent: 'hubiéramos' (oder 'hubiésemos') + hecho. 'Hacer' hat das unregelmäßige Partizip 'hecho', nicht 'hacido'.",
+     "en": "For 'nosotros' the form carries the accent: 'hubiéramos' (or 'hubiésemos') + hecho. 'Hacer' has the irregular participle 'hecho', not 'hacido'."
+    },
+    "promptGloss": {
+     "de": "Hätten wir doch gestern die Hausaufgaben gemacht.",
+     "en": "I wish we had done the homework yesterday."
+    },
+    "altAnswers": [
+     "hubiésemos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Habría sido mejor que tú no ___ visto esa película tan tarde. (haber)",
+    "answer": "hubieras",
+    "explain": {
+     "de": "Der wertende Auslöser in der Vergangenheit ('Habría sido mejor que') verlangt den Subjuntivo; für 'tú' und ein früheres Geschehen ist es 'hubieras visto'. 'Ver' hat das unregelmäßige Partizip 'visto', nicht 'veído'.",
+     "en": "The past evaluative trigger ('Habría sido mejor que') requires the subjunctive; for 'tú' and an earlier event it is 'hubieras visto'. 'Ver' has the irregular participle 'visto', not 'veído'."
+    },
+    "promptGloss": {
+     "de": "Es wäre besser gewesen, wenn du diesen Film nicht so spät angeschaut hättest.",
+     "en": "It would have been better if you hadn't watched that film so late."
+    },
+    "altAnswers": [
+     "hubieses"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "El año pasado, si ___ ahorrado más, habríamos comprado la casa.",
+    "answer": "hubiéramos",
+    "explain": {
+     "de": "Für eine nicht eingetretene Bedingung in der Vergangenheit ('el año pasado') steht der Subjuntivo Plusquamperfekt: hubiéramos ahorrado. Der einfache Imperfekt-Subjuntivo 'ahorráramos' würde Gegenwart/Zukunft meinen, 'habíamos' wäre Indikativ.",
+     "en": "For an unfulfilled past condition ('last year') you use the pluperfect subjunctive: hubiéramos ahorrado. The simple imperfect subjunctive 'ahorráramos' would mean present/future, 'habíamos' would be indicative."
+    },
+    "promptGloss": {
+     "de": "Letztes Jahr, wenn wir mehr gespart hätten, hätten wir das Haus gekauft.",
+     "en": "Last year, if we had saved more, we would have bought the house."
+    },
+    "options": [
+     "hubiéramos",
+     "ahorráramos",
+     "habíamos",
+     "hubiéremos"
+    ]
+   }
+  ]
  },
  {
   "id": "imperativo",
@@ -3351,7 +6776,283 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "imperativo-af"
+  "practiceTenseKey": "imperativo-af",
+  "practice": [
+   {
+    "kind": "choice",
+    "prompt": "___ más despacio, por favor. (hablar, tú)",
+    "answer": "Habla",
+    "explain": {
+     "de": "Der bejahte tú-Befehl ist gleich der er/ella-Form des Präsens: 'habla'. 'Hablas' ist die normale tú-Form des Präsens und 'hable' wäre der usted-Befehl.",
+     "en": "The affirmative tú command equals the he/she present form: 'habla'. 'Hablas' is the ordinary tú present and 'hable' would be the usted command."
+    },
+    "promptGloss": {
+     "de": "Sprich bitte langsamer.",
+     "en": "Speak more slowly, please."
+    },
+    "options": [
+     "Habla",
+     "Hablas",
+     "Hable",
+     "Hablo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "___ la fruta, está muy rica. (comer, tú)",
+    "answer": "Come",
+    "explain": {
+     "de": "Der bejahte tú-Befehl von 'comer' ist die er/ella-Präsensform 'come'. Eine eigene Imperativ-Endung mit -e gibt es bei -er-Verben im tú nicht.",
+     "en": "The affirmative tú command of 'comer' is the he/she present form 'come'. There is no separate -e ending for -er verbs in the tú command."
+    },
+    "promptGloss": {
+     "de": "Iss das Obst, es ist sehr lecker.",
+     "en": "Eat the fruit, it's very tasty."
+    },
+    "altAnswers": [
+     "come"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "___ la tarea antes de jugar. (hacer, tú)",
+    "answer": "Haz",
+    "explain": {
+     "de": "'hacer' hat einen unregelmäßigen bejahten tú-Befehl: 'haz'. Die regelmäßig gebildete Form 'hace' ist hier falsch.",
+     "en": "'hacer' has an irregular affirmative tú command: 'haz'. The regularly formed 'hace' is wrong here."
+    },
+    "promptGloss": {
+     "de": "Mach die Aufgabe, bevor du spielst.",
+     "en": "Do the homework before playing."
+    },
+    "altAnswers": [
+     "haz"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "___ la verdad, no quiero mentiras. (decir, tú)",
+    "answer": "Di",
+    "explain": {
+     "de": "Der bejahte tú-Befehl von 'decir' ist unregelmäßig und einsilbig: 'di'. 'Dice' wäre die regelmäßige Präsensform, die hier aber nicht als Befehl dient.",
+     "en": "The affirmative tú command of 'decir' is irregular and one syllable: 'di'. 'Dice' is the regular present form, which does not serve as the command here."
+    },
+    "promptGloss": {
+     "de": "Sag die Wahrheit, ich will keine Lügen.",
+     "en": "Tell the truth, I don't want lies."
+    },
+    "options": [
+     "Di",
+     "Dice",
+     "Dices",
+     "Diga"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "___ a casa, ya es tarde. (ir, tú)",
+    "answer": "Ve",
+    "explain": {
+     "de": "Der bejahte tú-Befehl von 'ir' ist unregelmäßig: 've'. 'Vaya' ist der usted-Befehl und 'va' die normale Präsensform.",
+     "en": "The affirmative tú command of 'ir' is irregular: 've'. 'Vaya' is the usted command and 'va' is the ordinary present form."
+    },
+    "promptGloss": {
+     "de": "Geh nach Hause, es ist schon spät.",
+     "en": "Go home, it's already late."
+    },
+    "options": [
+     "Ve",
+     "Va",
+     "Ves",
+     "Vaya"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "___ paciencia, todo va a salir bien. (tener, tú)",
+    "answer": "Ten",
+    "explain": {
+     "de": "'tener' bildet den bejahten tú-Befehl unregelmäßig als 'ten'. Die regelmäßige Präsensform 'tiene' funktioniert hier nicht als Befehl.",
+     "en": "'tener' forms the affirmative tú command irregularly as 'ten'. The regular present form 'tiene' does not work as the command here."
+    },
+    "promptGloss": {
+     "de": "Hab Geduld, alles wird gut.",
+     "en": "Be patient, everything will be fine."
+    },
+    "altAnswers": [
+     "ten"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "No ___ tan rápido, no te entiendo. (hablar, tú)",
+    "answer": "hables",
+    "explain": {
+     "de": "Verneinte Befehle nehmen die Subjuntivo-Form: 'no hables'. Man darf nicht einfach 'no' vor den bejahten Befehl 'habla' setzen.",
+     "en": "Negative commands take the subjunctive form: 'no hables'. You cannot simply put 'no' before the affirmative command 'habla'."
+    },
+    "promptGloss": {
+     "de": "Sprich nicht so schnell, ich verstehe dich nicht.",
+     "en": "Don't speak so fast, I don't understand you."
+    },
+    "options": [
+     "hables",
+     "hablas",
+     "habla",
+     "hablés"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No ___ eso, que está caducado. (comer, tú)",
+    "answer": "comas",
+    "explain": {
+     "de": "Im verneinten tú-Befehl steht der Subjuntivo: 'no comas'. Beachte den Vokalwechsel zu -as bei diesem -er-Verb gegenüber dem bejahten 'come'.",
+     "en": "The negative tú command uses the subjunctive: 'no comas'. Note the vowel switch to -as for this -er verb, unlike the affirmative 'come'."
+    },
+    "promptGloss": {
+     "de": "Iss das nicht, es ist abgelaufen.",
+     "en": "Don't eat that, it's expired."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "No ___ así con tu hermano. (ser, tú)",
+    "answer": "seas",
+    "explain": {
+     "de": "Der verneinte tú-Befehl von 'ser' ist die Subjuntivo-Form 'no seas'. 'Sé' ist nur der bejahte Befehl und 'estés' gehört zu 'estar'.",
+     "en": "The negative tú command of 'ser' is the subjunctive 'no seas'. 'Sé' is only the affirmative command, and 'estés' belongs to 'estar'."
+    },
+    "promptGloss": {
+     "de": "Sei nicht so zu deinem Bruder.",
+     "en": "Don't be like that with your brother."
+    },
+    "options": [
+     "seas",
+     "sé",
+     "eres",
+     "estés"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No ___ triste, mañana nos vemos. (estar, tú)",
+    "answer": "estés",
+    "explain": {
+     "de": "Der verneinte Befehl von 'estar' ist die Subjuntivo-Form 'no estés' (mit Akzent). 'No estás' wäre die normale Präsens-Aussage, kein Befehl.",
+     "en": "The negative command of 'estar' is the subjunctive 'no estés' (with an accent). 'No estás' would be an ordinary present statement, not a command."
+    },
+    "promptGloss": {
+     "de": "Sei nicht traurig, morgen sehen wir uns.",
+     "en": "Don't be sad, we'll see each other tomorrow."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "___ más alto, por favor, no le oigo bien. (hablar, usted)",
+    "answer": "Hable",
+    "explain": {
+     "de": "Der höfliche usted-Befehl nimmt immer die Subjuntivo-Form, auch bejaht: 'hable'. 'Habla' wäre der vertraute tú-Befehl.",
+     "en": "The polite usted command always uses the subjunctive form, even affirmative: 'hable'. 'Habla' would be the familiar tú command."
+    },
+    "promptGloss": {
+     "de": "Sprechen Sie lauter, bitte, ich höre Sie nicht gut.",
+     "en": "Speak louder, please, I can't hear you well."
+    },
+    "options": [
+     "Hable",
+     "Habla",
+     "Hables",
+     "Hable usted no"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "___ de eso ahora mismo, tenemos tiempo. (hablar, nosotros)",
+    "answer": "Hablemos",
+    "explain": {
+     "de": "Der nosotros-Befehl ('lass uns ...') nimmt die Subjuntivo-Form: 'hablemos'. Die Indikativform 'hablamos' bedeutet dagegen 'wir reden / wir haben geredet'.",
+     "en": "The nosotros command ('let's ...') uses the subjunctive form: 'hablemos'. The indicative 'hablamos' instead means 'we talk / we talked'."
+    },
+    "promptGloss": {
+     "de": "Reden wir gleich darüber, wir haben Zeit.",
+     "en": "Let's talk about that right now, we have time."
+    },
+    "altAnswers": [
+     "hablemos"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Niños, no ___ ruido, el bebé está durmiendo. (hacer, ustedes)",
+    "answer": "hagan",
+    "explain": {
+     "de": "Der ustedes-Befehl (auch verneint) ist die Subjuntivo-Form 'hagan'. 'Hacen' ist Indikativ und 'hagáis' wäre die vosotros-Form.",
+     "en": "The ustedes command (also negative) is the subjunctive form 'hagan'. 'Hacen' is indicative and 'hagáis' would be the vosotros form."
+    },
+    "promptGloss": {
+     "de": "Kinder, macht keinen Lärm, das Baby schläft.",
+     "en": "Children, don't make noise, the baby is sleeping."
+    },
+    "options": [
+     "hagan",
+     "hacen",
+     "hacéis",
+     "hagáis"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "¿La verdad? ___, te lo pido. (decírmelo: di + me + lo)",
+    "answer": "Dímelo",
+    "explain": {
+     "de": "Beim bejahten Befehl werden die Pronomen angehängt und zusammengeschrieben: di + me + lo = 'dímelo' (mit Akzent). Vorangestellte Pronomen sind nur beim verneinten Befehl korrekt.",
+     "en": "In the affirmative command the pronouns are attached and written as one word: di + me + lo = 'dímelo' (with an accent). Pronouns placed before are correct only in the negative command."
+    },
+    "promptGloss": {
+     "de": "Die Wahrheit? Sag sie mir, ich bitte dich.",
+     "en": "The truth? Tell it to me, I'm asking you."
+    },
+    "options": [
+     "Dímelo",
+     "Me lo di",
+     "Dime lo",
+     "Te lo digo"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Es un secreto. No ___ digas a nadie. (no + me + lo + decir)",
+    "answer": "me lo",
+    "explain": {
+     "de": "Beim verneinten Befehl stehen die Pronomen getrennt VOR dem Verb: 'no me lo digas'. Anhängen (wie 'no digásmelo') ist hier falsch.",
+     "en": "In the negative command the pronouns go separately BEFORE the verb: 'no me lo digas'. Attaching them (as in 'no digásmelo') is wrong here."
+    },
+    "promptGloss": {
+     "de": "Es ist ein Geheimnis. Sag es mir nicht … nein, verrate es niemandem.",
+     "en": "It's a secret. Don't tell it to anyone."
+    },
+    "options": [
+     "me lo",
+     "melo",
+     "telo",
+     "lo me"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Es peligroso de noche; no ___ sola, por favor. (ir, tú)",
+    "answer": "vayas",
+    "explain": {
+     "de": "Der verneinte tú-Befehl von 'ir' ist die Subjuntivo-Form 'no vayas'. Der unregelmäßige bejahte Befehl 've' darf hier nicht stehen ('no ve' ist falsch).",
+     "en": "The negative tú command of 'ir' is the subjunctive 'no vayas'. The irregular affirmative 've' cannot be used here ('no ve' is wrong)."
+    },
+    "promptGloss": {
+     "de": "Nachts ist es gefährlich; geh bitte nicht allein.",
+     "en": "It's dangerous at night; don't go alone, please."
+    }
+   }
+  ]
  },
  {
   "id": "gerundio",
@@ -3555,7 +7256,262 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "gerundio"
+  "practiceTenseKey": "gerundio",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "El verbo \"hablar\" en gerundio es ___.",
+    "answer": "hablando",
+    "explain": {
+     "de": "Verben auf -ar bilden das Gerundio mit der Endung -ando: habl- + -ando = hablando.",
+     "en": "-ar verbs form the gerund with -ando: habl- + -ando = hablando."
+    },
+    "promptGloss": {
+     "de": "Das Verb \"hablar\" im Gerundio lautet ___.",
+     "en": "The verb \"hablar\" in the gerund is ___."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "El verbo \"comer\" en gerundio es ___.",
+    "answer": "comiendo",
+    "explain": {
+     "de": "Verben auf -er bilden das Gerundio mit -iendo: com- + -iendo = comiendo. Es heißt nicht \"comando\".",
+     "en": "-er verbs form the gerund with -iendo: com- + -iendo = comiendo. It is not \"comando\"."
+    },
+    "promptGloss": {
+     "de": "Das Verb \"comer\" im Gerundio lautet ___.",
+     "en": "The verb \"comer\" in the gerund is ___."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "El gerundio de \"vivir\" es ___.",
+    "answer": "viviendo",
+    "explain": {
+     "de": "-er und -ir nehmen beide -iendo, also viviendo. \"vivando\" wäre die -ar-Endung (falsch) und \"viviente\" ist ein Adjektiv/Partizip, kein Gerundio.",
+     "en": "Both -er and -ir take -iendo, so viviendo. \"vivando\" uses the -ar ending (wrong) and \"viviente\" is an adjective, not the gerund."
+    },
+    "promptGloss": {
+     "de": "Das Gerundio von \"vivir\" ist ___.",
+     "en": "The gerund of \"vivir\" is ___."
+    },
+    "options": [
+     "viviendo",
+     "vivando",
+     "viviente"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ahora mismo (yo) ___ comiendo, no puedo hablar.",
+    "answer": "estoy",
+    "explain": {
+     "de": "Die Verlaufsform bildet man mit \"estar\" + Gerundio (estoy comiendo). \"ser\" (soy) ist hier falsch, das Hilfsverb der Verlaufsform ist immer estar.",
+     "en": "The progressive uses \"estar\" + gerund (estoy comiendo). \"ser\" (soy) is wrong; the progressive auxiliary is always estar."
+    },
+    "promptGloss": {
+     "de": "Genau jetzt esse ich gerade, ich kann nicht reden.",
+     "en": "Right now I'm eating, I can't talk."
+    },
+    "options": [
+     "estoy",
+     "soy",
+     "tengo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Los niños están ___ (dormir) en su habitación.",
+    "answer": "durmiendo",
+    "explain": {
+     "de": "\"dormir\" ist unregelmäßig: im Gerundio wird das o zu u, also durmiendo (nicht \"dormiendo\").",
+     "en": "\"dormir\" is irregular: the o becomes u in the gerund, giving durmiendo (not \"dormiendo\")."
+    },
+    "promptGloss": {
+     "de": "Die Kinder schlafen gerade in ihrem Zimmer.",
+     "en": "The children are sleeping in their room."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Mi abuelo está ___ la verdad sobre lo que pasó.",
+    "answer": "diciendo",
+    "explain": {
+     "de": "\"decir\" hat den Stammwechsel e→i im Gerundio: diciendo. \"deciendo\" (ohne Wechsel) und \"dijiendo\" sind beide falsch.",
+     "en": "\"decir\" has the stem change e→i in the gerund: diciendo. \"deciendo\" (no change) and \"dijiendo\" are both wrong."
+    },
+    "promptGloss": {
+     "de": "Mein Großvater sagt gerade die Wahrheit über das, was passiert ist.",
+     "en": "My grandfather is telling the truth about what happened."
+    },
+    "options": [
+     "diciendo",
+     "deciendo",
+     "dijiendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Voy ___ (ir) poco a poco, ya casi llego.",
+    "answer": "yendo",
+    "explain": {
+     "de": "Das Gerundio von \"ir\" ist unregelmäßig: yendo (mit y-, weil sonst nur \"iendo\" stünde).",
+     "en": "The gerund of \"ir\" is irregular: yendo (with y-, since plain \"iendo\" would be impossible)."
+    },
+    "promptGloss": {
+     "de": "Ich komme nach und nach voran, ich bin fast da.",
+     "en": "I'm getting there bit by bit, I'm almost there."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Aprendo español ___ películas con subtítulos.",
+    "answer": "viendo",
+    "explain": {
+     "de": "Allein stehend drückt das Gerundio die Art und Weise aus: \"wie/wodurch?\" → viendo (indem ich schaue). \"para ver\" wäre der Zweck und der bloße Infinitiv passt hier nicht.",
+     "en": "On its own the gerund expresses manner: \"how/by what means?\" → viendo (by watching). \"para ver\" would express purpose and the bare infinitive doesn't fit here."
+    },
+    "promptGloss": {
+     "de": "Ich lerne Spanisch, indem ich Filme mit Untertiteln schaue.",
+     "en": "I learn Spanish by watching films with subtitles."
+    },
+    "options": [
+     "viendo",
+     "para ver",
+     "ver"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "El gerundio de \"vivir\" cuando decimos \"nosotros\" es ___.",
+    "answer": "viviendo",
+    "explain": {
+     "de": "Das Gerundio hat nur EINE Form für alle Personen; es ändert sich nie. Die Person trägt das Hilfsverb (estamos viviendo), nicht das Gerundio selbst.",
+     "en": "The gerund has only ONE form for all persons; it never changes. The person is carried by the helper verb (estamos viviendo), not the gerund itself."
+    },
+    "promptGloss": {
+     "de": "Das Gerundio von \"vivir\", wenn wir \"wir\" sagen, ist ___.",
+     "en": "The gerund of \"vivir\" when we say \"we\" is ___."
+    },
+    "options": [
+     "viviendo",
+     "viviendos",
+     "viviemos"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿Qué ___ (estar, vosotros) haciendo en la cocina?",
+    "answer": "estáis",
+    "explain": {
+     "de": "Die Person der Verlaufsform steckt im konjugierten \"estar\": vosotros → estáis. Das Gerundio \"haciendo\" bleibt dabei unverändert.",
+     "en": "The person of the progressive sits in conjugated \"estar\": vosotros → estáis. The gerund \"haciendo\" stays unchanged."
+    },
+    "promptGloss": {
+     "de": "Was macht ihr gerade in der Küche?",
+     "en": "What are you (all) doing in the kitchen?"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Normalmente ___ a las ocho, pero hoy no tengo hambre todavía.",
+    "answer": "como",
+    "explain": {
+     "de": "\"Normalmente\" signalisiert eine Gewohnheit, dafür nimmt man das einfache Präsens (como). Die Verlaufsform estar+Gerundio steht nur für eine genau jetzt laufende Handlung.",
+     "en": "\"Normalmente\" signals a habit, which takes the simple present (como). The progressive estar+gerund is only for an action happening right now."
+    },
+    "promptGloss": {
+     "de": "Normalerweise esse ich um acht, aber heute habe ich noch keinen Hunger.",
+     "en": "I normally eat at eight, but today I'm not hungry yet."
+    },
+    "options": [
+     "como",
+     "estoy comiendo",
+     "estaré comiendo"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Hoy llueve, así que los turistas no ___ por la playa en este momento.",
+    "answer": "están paseando",
+    "explain": {
+     "de": "\"en este momento\" verlangt die Verlaufsform estar + Gerundio: están paseando. \"son\" ist das falsche Hilfsverb und \"paseado\" ist das Partizip, nicht das Gerundio.",
+     "en": "\"en este momento\" calls for the progressive estar + gerund: están paseando. \"son\" is the wrong auxiliary and \"paseado\" is the past participle, not the gerund."
+    },
+    "promptGloss": {
+     "de": "Heute regnet es, deshalb spazieren die Touristen gerade nicht am Strand.",
+     "en": "It's raining today, so the tourists aren't walking along the beach right now."
+    },
+    "options": [
+     "están paseando",
+     "son paseando",
+     "están paseado"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Estás ___ (ser) muy amable conmigo hoy, gracias.",
+    "answer": "siendo",
+    "explain": {
+     "de": "Auch \"ser\" hat ein Gerundio: siendo. Mit estar + siendo betont man ein gerade aktuelles, vorübergehendes Verhalten.",
+     "en": "Even \"ser\" has a gerund: siendo. With estar + siendo you stress a temporary behaviour happening right now."
+    },
+    "promptGloss": {
+     "de": "Du bist heute sehr nett zu mir, danke.",
+     "en": "You're being very kind to me today, thanks."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Mañana a esta hora ya ___ a Madrid; sale el tren a las seis.",
+    "answer": "viajo",
+    "explain": {
+     "de": "Für eine geplante Zukunft genügt das Präsens mit Zeitangabe (mañana ... viajo). \"estoy viajando\" beschreibt etwas, das gerade JETZT abläuft, was hier nicht gemeint ist, und \"viajando\" allein kann ohne Hilfsverb nicht Satzprädikat sein.",
+     "en": "For a planned future, the present with a time marker suffices (mañana ... viajo). \"estoy viajando\" describes something happening right NOW, which isn't meant here, and \"viajando\" alone can't be the main predicate without an auxiliary."
+    },
+    "promptGloss": {
+     "de": "Morgen um diese Zeit fahre ich schon nach Madrid; der Zug fährt um sechs ab.",
+     "en": "Tomorrow at this time I'll already be travelling to Madrid; the train leaves at six."
+    },
+    "options": [
+     "viajo",
+     "estoy viajando",
+     "viajando"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "El niño entró en casa ___ porque tenía mucha prisa.",
+    "answer": "corriendo",
+    "explain": {
+     "de": "Hier beschreibt das Gerundio die Art und Weise des Eintretens (wie? rennend) → corriendo. \"corrido\" ist das Partizip und \"corriente\" ein Adjektiv/Substantiv.",
+     "en": "Here the gerund describes the manner of entering (how? running) → corriendo. \"corrido\" is the participle and \"corriente\" an adjective/noun."
+    },
+    "promptGloss": {
+     "de": "Das Kind kam angerannt ins Haus, weil es sehr in Eile war.",
+     "en": "The child came into the house running because he was in a great hurry."
+    },
+    "options": [
+     "corriendo",
+     "corrido",
+     "corriente"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "El gerundio de \"leer\" se escribe con \"y\": ___.",
+    "answer": "leyendo",
+    "explain": {
+     "de": "Wenn der Stamm auf einen Vokal endet (le-), wird das i des -iendo zu y: leyendo (nicht \"leiendo\"). Dasselbe gilt z. B. für oír → oyendo.",
+     "en": "When the stem ends in a vowel (le-), the i of -iendo turns into y: leyendo (not \"leiendo\"). The same applies to e.g. oír → oyendo."
+    },
+    "promptGloss": {
+     "de": "Das Gerundio von \"leer\" schreibt man mit \"y\": ___.",
+     "en": "The gerund of \"leer\" is written with a \"y\": ___."
+    }
+   }
+  ]
  },
  {
   "id": "participio",
@@ -3782,6 +7738,264 @@
    }
   ],
   "available": true,
-  "practiceTenseKey": "participio"
+  "practiceTenseKey": "participio",
+  "practice": [
+   {
+    "kind": "fill",
+    "prompt": "El participio de \"hablar\" es ___.",
+    "answer": "hablado",
+    "explain": {
+     "de": "Verben auf -ar bilden das Partizip mit -ado: habl- + -ado. Falsch wäre \"hablido\", denn -ido gehört zu -er/-ir-Verben.",
+     "en": "-ar verbs form the participle with -ado: habl- + -ado. \"hablido\" would be wrong, since -ido belongs to -er/-ir verbs."
+    },
+    "promptGloss": {
+     "de": "Das Partizip von \"hablar\" ist ___.",
+     "en": "The past participle of \"hablar\" is ___."
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "El participio de \"vivir\" es ___.",
+    "answer": "vivido",
+    "explain": {
+     "de": "Verben auf -ir nehmen die Endung -ido: viv- + -ido. Nur -ar-Verben enden auf -ado.",
+     "en": "-ir verbs take the ending -ido: viv- + -ido. Only -ar verbs end in -ado."
+    },
+    "promptGloss": {
+     "de": "Das Partizip von \"vivir\" ist ___.",
+     "en": "The past participle of \"vivir\" is ___."
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Nunca había ___ tanto en mi vida.",
+    "answer": "comido",
+    "explain": {
+     "de": "\"comer\" ist ein -er-Verb, also com- + -ido = comido. \"comado\" verwechselt die Endung mit -ar, und \"comiendo\" ist das Gerundium, nicht das Partizip.",
+     "en": "\"comer\" is an -er verb, so com- + -ido = comido. \"comado\" mixes up the -ar ending, and \"comiendo\" is the gerund, not the participle."
+    },
+    "promptGloss": {
+     "de": "Ich hatte noch nie so viel gegessen in meinem Leben.",
+     "en": "I had never eaten so much in my life."
+    },
+    "options": [
+     "comido",
+     "comado",
+     "comiendo",
+     "comer"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "¿Has ___ tú la tarea? (hacer)",
+    "answer": "hecho",
+    "explain": {
+     "de": "\"hacer\" hat ein unregelmäßiges Partizip: hecho (nicht \"hacido\"). Solche Formen muss man auswendig lernen.",
+     "en": "\"hacer\" has an irregular participle: hecho (not \"hacido\"). Such forms must be memorized."
+    },
+    "promptGloss": {
+     "de": "Hast du die Hausaufgabe gemacht? (hacer)",
+     "en": "Have you done the homework? (hacer)"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Mi abuela me ha ___ que vendrá mañana.",
+    "answer": "dicho",
+    "explain": {
+     "de": "Das Partizip von \"decir\" ist unregelmäßig: dicho. \"decido\"/\"dicido\" wären regelmäßige Bildungen, die hier nicht gelten.",
+     "en": "The participle of \"decir\" is irregular: dicho. \"decido\"/\"dicido\" would be regular formations that don't apply here."
+    },
+    "promptGloss": {
+     "de": "Meine Großmutter hat mir gesagt, dass sie morgen kommt.",
+     "en": "My grandmother has told me that she will come tomorrow."
+    },
+    "options": [
+     "dicho",
+     "decido",
+     "dicido",
+     "diciendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "No he ___ esa película todavía. (ver)",
+    "answer": "visto",
+    "explain": {
+     "de": "\"ver\" bildet das unregelmäßige Partizip visto, nicht \"veído\". Es gehört zu den auswendig zu lernenden Formen.",
+     "en": "\"ver\" forms the irregular participle visto, not \"veído\". It is one of the forms to memorize."
+    },
+    "promptGloss": {
+     "de": "Ich habe diesen Film noch nicht gesehen. (ver)",
+     "en": "I haven't seen that film yet. (ver)"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ana ha ___ una carta a su madre esta mañana.",
+    "answer": "escrito",
+    "explain": {
+     "de": "\"escribir\" hat das unregelmäßige Partizip escrito. \"escribido\" wendet fälschlich die Regel an, \"escribiendo\" ist das Gerundium.",
+     "en": "\"escribir\" has the irregular participle escrito. \"escribido\" wrongly applies the rule, and \"escribiendo\" is the gerund."
+    },
+    "promptGloss": {
+     "de": "Ana hat ihrer Mutter heute Morgen einen Brief geschrieben.",
+     "en": "Ana has written a letter to her mother this morning."
+    },
+    "options": [
+     "escrito",
+     "escribido",
+     "escribto",
+     "escribiendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Después del accidente, el espejo quedó ___. (romper)",
+    "answer": "roto",
+    "explain": {
+     "de": "\"romper\" hat das unregelmäßige Partizip roto. Hier steht es als Adjektiv nach \"quedar\" und passt sich an: maskulin Singular = roto.",
+     "en": "\"romper\" has the irregular participle roto. Here it works as an adjective after \"quedar\" and agrees: masculine singular = roto."
+    },
+    "promptGloss": {
+     "de": "Nach dem Unfall war der Spiegel kaputt. (romper)",
+     "en": "After the accident, the mirror was broken. (romper)"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Ellos han ___ a casa muy tarde.",
+    "answer": "vuelto",
+    "explain": {
+     "de": "\"volver\" hat das unregelmäßige Partizip vuelto. Nach haber bleibt es unverändert auf -o, also nicht \"vueltos\", obwohl das Subjekt Plural ist.",
+     "en": "\"volver\" has the irregular participle vuelto. After haber it stays unchanged ending in -o, so not \"vueltos\", even though the subject is plural."
+    },
+    "promptGloss": {
+     "de": "Sie sind sehr spät nach Hause zurückgekehrt.",
+     "en": "They have returned home very late."
+    },
+    "options": [
+     "vuelto",
+     "vueltos",
+     "volvido",
+     "volviendo"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Las chicas han ___ muy contentas a la fiesta.",
+    "answer": "llegado",
+    "explain": {
+     "de": "Nach haber bleibt das Partizip immer auf -o, egal welches Subjekt: llegado. \"llegadas\" wäre nur als Adjektiv richtig, nicht in der zusammengesetzten Zeit.",
+     "en": "After haber the participle always stays in -o regardless of subject: llegado. \"llegadas\" would only be right as an adjective, not in the compound tense."
+    },
+    "promptGloss": {
+     "de": "Die Mädchen sind sehr fröhlich zur Party gekommen.",
+     "en": "The girls have arrived very happily at the party."
+    },
+    "options": [
+     "llegado",
+     "llegadas",
+     "llegados",
+     "llegando"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "La tienda está ___ los domingos por la tarde.",
+    "answer": "cerrada",
+    "explain": {
+     "de": "Hier ist das Partizip ein Adjektiv nach \"estar\" und passt sich an \"la tienda\" an: weiblich Singular = cerrada. Nach haber wäre es dagegen unveränderlich (cerrado).",
+     "en": "Here the participle is an adjective after \"estar\" and agrees with \"la tienda\": feminine singular = cerrada. After haber, by contrast, it would be invariable (cerrado)."
+    },
+    "promptGloss": {
+     "de": "Der Laden ist sonntags nachmittags geschlossen.",
+     "en": "The shop is closed on Sunday afternoons."
+    },
+    "options": [
+     "cerrada",
+     "cerrado",
+     "cerradas",
+     "cerrar"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Recogió todos los platos ___ del suelo. (romper)",
+    "answer": "rotos",
+    "explain": {
+     "de": "Als Adjektiv passt sich das Partizip in Geschlecht und Zahl an \"los platos\" an: maskulin Plural = rotos. Grundform roto wird hier zu rotos.",
+     "en": "As an adjective the participle agrees in gender and number with \"los platos\": masculine plural = rotos. The base form roto becomes rotos here."
+    },
+    "promptGloss": {
+     "de": "Er/Sie sammelte alle kaputten Teller vom Boden auf. (romper)",
+     "en": "He/She picked up all the broken plates from the floor. (romper)"
+    }
+   },
+   {
+    "kind": "fill",
+    "prompt": "Me encantan las puertas ___ de par en par en verano. (abrir)",
+    "answer": "abiertas",
+    "explain": {
+     "de": "\"abrir\" hat das unregelmäßige Partizip abierto; als Adjektiv zu \"las puertas\" wird es weiblich Plural: abiertas. Zwei Regeln greifen zugleich: unregelmäßig + Anpassung.",
+     "en": "\"abrir\" has the irregular participle abierto; as an adjective for \"las puertas\" it becomes feminine plural: abiertas. Two rules apply at once: irregular plus agreement."
+    },
+    "promptGloss": {
+     "de": "Ich liebe die weit geöffneten Türen im Sommer. (abrir)",
+     "en": "I love the wide-open doors in summer. (abrir)"
+    }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Nosotros hemos ___ aquí muchos años antes de mudarnos.",
+    "answer": "vivido",
+    "explain": {
+     "de": "Nach haber bleibt das Partizip unverändert auf -o: vivido. \"vividos\" wäre falsch, weil das Partizip sich in zusammengesetzten Zeiten nie an das Subjekt anpasst.",
+     "en": "After haber the participle stays unchanged in -o: vivido. \"vividos\" would be wrong, because the participle never agrees with the subject in compound tenses."
+    },
+    "promptGloss": {
+     "de": "Wir haben viele Jahre hier gelebt, bevor wir umgezogen sind.",
+     "en": "We have lived here for many years before moving."
+    },
+    "options": [
+     "vivido",
+     "vividos",
+     "vivado",
+     "viviendo"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "He ___ los libros en la mesa de la cocina.",
+    "answer": "puesto",
+    "explain": {
+     "de": "\"poner\" hat das unregelmäßige Partizip puesto, und nach haber bleibt es auf -o, trotz \"los libros\". \"puestos\" wäre nur als Adjektiv möglich.",
+     "en": "\"poner\" has the irregular participle puesto, and after haber it stays in -o, despite \"los libros\". \"puestos\" would only be possible as an adjective."
+    },
+    "promptGloss": {
+     "de": "Ich habe die Bücher auf den Küchentisch gestellt/gelegt.",
+     "en": "I have put the books on the kitchen table."
+    },
+    "options": [
+     "puesto",
+     "puestos",
+     "ponido",
+     "poniendo"
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "El participio no se conjuga en seis personas; \"hacer\" tiene una sola forma base: ___.",
+    "answer": "hecho",
+    "explain": {
+     "de": "Das Partizip hat keine Personalformen wie ein konjugiertes Verb; es gibt nur die Grundform hecho. Anpassungen (hecha, hechos) sind nur die Adjektiv-Endungen, keine Personen.",
+     "en": "The participle has no personal forms like a conjugated verb; there is only the base form hecho. Variations (hecha, hechos) are just adjective endings, not persons."
+    },
+    "promptGloss": {
+     "de": "Das Partizip wird nicht in sechs Personen konjugiert; \"hacer\" hat nur eine Grundform: ___.",
+     "en": "The participle is not conjugated in six persons; \"hacer\" has a single base form: ___."
+    }
+   }
+  ]
  }
 ]

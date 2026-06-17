@@ -1,0 +1,212 @@
+[
+  {
+    "kind": "fill",
+    "prompt": "Si yo lo ___ sabido, te habría avisado. (haber)",
+    "promptGloss": {
+      "de": "Wenn ich es gewusst hätte, hätte ich dich gewarnt.",
+      "en": "If I had known it, I would have warned you."
+    },
+    "answer": "hubiera",
+    "altAnswers": ["hubiese"],
+    "explain": {
+      "de": "Der Subjuntivo Plusquamperfekt wird aus dem Imperfekt-Subjuntivo von 'haber' plus Partizip gebildet: hubiera (oder hubiese) + sabido. Die Form 'había' wäre Indikativ und nach irrealem 'si' falsch.",
+      "en": "The pluperfect subjunctive is the imperfect subjunctive of 'haber' plus a participle: hubiera (or hubiese) + sabido. The form 'había' would be indicative and is wrong after unreal 'si'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ojalá tú ___ dicho la verdad antes. (haber)",
+    "promptGloss": {
+      "de": "Hättest du doch vorher die Wahrheit gesagt.",
+      "en": "I wish you had told the truth earlier."
+    },
+    "answer": "hubieras",
+    "altAnswers": ["hubieses"],
+    "explain": {
+      "de": "Für 'tú' lautet das Hilfsverb 'hubieras' (oder 'hubieses'): hubieras + dicho. 'Ojalá' mit Subjuntivo Plusquamperfekt drückt einen unerfüllten Wunsch über die Vergangenheit aus.",
+      "en": "For 'tú' the auxiliary is 'hubieras' (or 'hubieses'): hubieras + dicho. 'Ojalá' with the pluperfect subjunctive expresses an unfulfilled wish about the past."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Si ella ___ tenido tiempo, nos habría llamado.",
+    "promptGloss": {
+      "de": "Wenn sie Zeit gehabt hätte, hätte sie uns angerufen.",
+      "en": "If she had had time, she would have called us."
+    },
+    "options": ["hubiera", "había", "habría", "tuviera"],
+    "answer": "hubiera",
+    "explain": {
+      "de": "Nach 'si' für eine nicht eingetretene Bedingung in der Vergangenheit steht der Subjuntivo Plusquamperfekt: hubiera tenido. 'Habría' gehört in den Hauptsatz (Konditional Perfekt), 'había' wäre Indikativ.",
+      "en": "After 'si' for an unfulfilled past condition you use the pluperfect subjunctive: hubiera tenido. 'Habría' belongs in the main clause (conditional perfect), 'había' would be indicative."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Si hubiéramos vivido allí, lo ___ ahora.",
+    "promptGloss": {
+      "de": "Wenn wir dort gelebt hätten, wüssten wir es jetzt.",
+      "en": "If we had lived there, we would know it now."
+    },
+    "options": ["sabríamos", "hubiéramos sabido", "supiéramos", "sabremos"],
+    "answer": "sabríamos",
+    "explain": {
+      "de": "Der si-Satz steht im Subjuntivo Plusquamperfekt, doch die Folge bezieht sich auf das Jetzt ('ahora') und steht deshalb im einfachen Konditional: sabríamos. Ein zweites 'hubiéramos sabido' würde eine reine Vergangenheitsfolge ausdrücken.",
+      "en": "The si-clause is pluperfect subjunctive, but the result refers to now ('ahora'), so it takes the simple conditional: sabríamos. A second 'hubiéramos sabido' would express a purely past result."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Habla como si ___ estado en la guerra, pero nunca salió de su pueblo.",
+    "promptGloss": {
+      "de": "Er redet, als wäre er im Krieg gewesen, aber er hat sein Dorf nie verlassen.",
+      "en": "He talks as if he had been in the war, but he never left his village."
+    },
+    "options": ["hubiera", "ha", "había", "hubiere"],
+    "answer": "hubiera",
+    "explain": {
+      "de": "'Como si' für einen irrealen Vergleich mit der Vergangenheit verlangt den Subjuntivo Plusquamperfekt: como si hubiera estado. 'Ha' (Indikativ Perfekt) und 'había' (Indikativ Plusquamperfekt) sind nach 'como si' nie möglich.",
+      "en": "'Como si' for an unreal comparison with the past requires the pluperfect subjunctive: como si hubiera estado. 'Ha' (present perfect) and 'había' (pluperfect indicative) are never possible after 'como si'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Actuó como si no ___ dormido nada en toda la noche. (haber)",
+    "promptGloss": {
+      "de": "Er tat, als hätte er die ganze Nacht gar nicht geschlafen.",
+      "en": "He acted as if he hadn't slept at all all night."
+    },
+    "answer": "hubiera",
+    "altAnswers": ["hubiese"],
+    "explain": {
+      "de": "Nach 'como si' steht der Subjuntivo Plusquamperfekt für ein irreales, früheres Geschehen: hubiera (hubiese) dormido. Das 'no' steht vor dem Hilfsverb, der Aufbau haber + Partizip bleibt unverändert.",
+      "en": "After 'como si' the pluperfect subjunctive marks an unreal earlier event: hubiera (hubiese) dormido. The 'no' goes before the auxiliary; the haber + participle structure stays intact."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No creía que ___ sido tan difícil aprobar ese examen.",
+    "promptGloss": {
+      "de": "Ich glaubte nicht, dass es so schwer gewesen wäre, diese Prüfung zu bestehen.",
+      "en": "I didn't think it had been so hard to pass that exam."
+    },
+    "options": ["hubiera", "había", "haya", "habría"],
+    "answer": "hubiera",
+    "explain": {
+      "de": "Ein verneinter Meinungsausdruck in der Vergangenheit ('No creía') löst den Subjuntivo aus; für ein früheres Geschehen ist es der Plusquamperfekt: hubiera sido. 'Haya sido' (Perfekt-Subjuntivo) passt nicht zum vergangenen Hauptverb.",
+      "en": "A negated opinion verb in the past ('No creía') triggers the subjunctive; for an earlier event it is the pluperfect: hubiera sido. 'Haya sido' (present perfect subjunctive) does not match the past main verb."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Me alegró mucho que vosotros ___ venido a la fiesta. (haber)",
+    "promptGloss": {
+      "de": "Es freute mich sehr, dass ihr zum Fest gekommen wart.",
+      "en": "I was very glad that you had come to the party."
+    },
+    "answer": "hubierais",
+    "altAnswers": ["hubieseis"],
+    "explain": {
+      "de": "Der Auslöser 'Me alegró que' (Gefühlsverb in der Vergangenheit) verlangt den Subjuntivo; für 'vosotros' ist die Form 'hubierais' (oder 'hubieseis') + venido. Die Endung -ais markiert die 2. Person Plural.",
+      "en": "The trigger 'Me alegró que' (emotion verb in the past) requires the subjunctive; for 'vosotros' the form is 'hubierais' (or 'hubieseis') + venido. The ending -ais marks the 2nd person plural."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Si ellos ___ podido, habrían venido a verte. (haber)",
+    "promptGloss": {
+      "de": "Wenn sie gekonnt hätten, wären sie gekommen, um dich zu sehen.",
+      "en": "If they had been able, they would have come to see you."
+    },
+    "answer": "hubieran",
+    "altAnswers": ["hubiesen"],
+    "explain": {
+      "de": "Für 'ellos' lautet das Hilfsverb 'hubieran' (oder 'hubiesen') + podido. Der si-Satz mit irrealer Vergangenheit steht im Subjuntivo Plusquamperfekt, der Hauptsatz im Konditional Perfekt (habrían venido).",
+      "en": "For 'ellos' the auxiliary is 'hubieran' (or 'hubiesen') + podido. The si-clause for an unreal past is pluperfect subjunctive, the main clause is conditional perfect (habrían venido)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Si hubiera tenido tiempo, te ___ con la mudanza.",
+    "promptGloss": {
+      "de": "Wenn ich Zeit gehabt hätte, hätte ich dir beim Umzug geholfen.",
+      "en": "If I had had time, I would have helped you with the move."
+    },
+    "options": ["habría ayudado", "hubiera ayudado", "ayudaría", "ayudaba"],
+    "answer": "habría ayudado",
+    "explain": {
+      "de": "Im typischen Muster der irrealen Vergangenheit steht der si-Satz im Subjuntivo Plusquamperfekt und der Hauptsatz im Konditional Perfekt: te habría ayudado. 'Ayudaría' (einfaches Konditional) bezöge sich auf Gegenwart/Zukunft.",
+      "en": "In the typical unreal-past pattern the si-clause is pluperfect subjunctive and the main clause is conditional perfect: te habría ayudado. 'Ayudaría' (simple conditional) would refer to present/future."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Nadie pensó que tú ___ querido marcharte tan pronto.",
+    "promptGloss": {
+      "de": "Niemand dachte, dass du so früh hättest gehen wollen.",
+      "en": "Nobody thought you had wanted to leave so soon."
+    },
+    "options": ["hubieras", "hubieran", "habías", "hubiera"],
+    "answer": "hubieras",
+    "explain": {
+      "de": "Das Subjekt des Nebensatzes ist 'tú', also 'hubieras querido'. 'Hubiera' wäre yo/él/ella, 'hubieran' wäre ellos. 'Habías' (Indikativ) passt nicht nach dem subjuntivo-auslösenden 'No pensó que'.",
+      "en": "The subject of the clause is 'tú', so 'hubieras querido'. 'Hubiera' would be yo/él/ella, 'hubieran' would be ellos. 'Habías' (indicative) does not fit after the subjunctive-triggering 'No pensó que'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Si hubiéramos salido antes, ahora ya ___ en la playa.",
+    "promptGloss": {
+      "de": "Wenn wir früher losgefahren wären, wären wir jetzt schon am Strand.",
+      "en": "If we had left earlier, we would already be at the beach now."
+    },
+    "options": ["estaríamos", "habríamos estado", "hubiéramos estado", "estuviéramos"],
+    "answer": "estaríamos",
+    "explain": {
+      "de": "Die irreale Bedingung liegt in der Vergangenheit (hubiéramos salido), aber das Ergebnis betrifft das Jetzt ('ahora ya'), daher einfaches Konditional: estaríamos. 'Habríamos estado' würde eine abgeschlossene Vergangenheitsfolge bezeichnen.",
+      "en": "The unreal condition is in the past (hubiéramos salido), but the result concerns now ('ahora ya'), so the simple conditional: estaríamos. 'Habríamos estado' would mark a completed past result."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ojalá nosotros ___ hecho los deberes ayer. (haber)",
+    "promptGloss": {
+      "de": "Hätten wir doch gestern die Hausaufgaben gemacht.",
+      "en": "I wish we had done the homework yesterday."
+    },
+    "answer": "hubiéramos",
+    "altAnswers": ["hubiésemos"],
+    "explain": {
+      "de": "Für 'nosotros' trägt die Form den Akzent: 'hubiéramos' (oder 'hubiésemos') + hecho. 'Hacer' hat das unregelmäßige Partizip 'hecho', nicht 'hacido'.",
+      "en": "For 'nosotros' the form carries the accent: 'hubiéramos' (or 'hubiésemos') + hecho. 'Hacer' has the irregular participle 'hecho', not 'hacido'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Habría sido mejor que tú no ___ visto esa película tan tarde. (haber)",
+    "promptGloss": {
+      "de": "Es wäre besser gewesen, wenn du diesen Film nicht so spät angeschaut hättest.",
+      "en": "It would have been better if you hadn't watched that film so late."
+    },
+    "answer": "hubieras",
+    "altAnswers": ["hubieses"],
+    "explain": {
+      "de": "Der wertende Auslöser in der Vergangenheit ('Habría sido mejor que') verlangt den Subjuntivo; für 'tú' und ein früheres Geschehen ist es 'hubieras visto'. 'Ver' hat das unregelmäßige Partizip 'visto', nicht 'veído'.",
+      "en": "The past evaluative trigger ('Habría sido mejor que') requires the subjunctive; for 'tú' and an earlier event it is 'hubieras visto'. 'Ver' has the irregular participle 'visto', not 'veído'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El año pasado, si ___ ahorrado más, habríamos comprado la casa.",
+    "promptGloss": {
+      "de": "Letztes Jahr, wenn wir mehr gespart hätten, hätten wir das Haus gekauft.",
+      "en": "Last year, if we had saved more, we would have bought the house."
+    },
+    "options": ["hubiéramos", "ahorráramos", "habíamos", "hubiéremos"],
+    "answer": "hubiéramos",
+    "explain": {
+      "de": "Für eine nicht eingetretene Bedingung in der Vergangenheit ('el año pasado') steht der Subjuntivo Plusquamperfekt: hubiéramos ahorrado. Der einfache Imperfekt-Subjuntivo 'ahorráramos' würde Gegenwart/Zukunft meinen, 'habíamos' wäre Indikativ.",
+      "en": "For an unfulfilled past condition ('last year') you use the pluperfect subjunctive: hubiéramos ahorrado. The simple imperfect subjunctive 'ahorráramos' would mean present/future, 'habíamos' would be indicative."
+    }
+  }
+]

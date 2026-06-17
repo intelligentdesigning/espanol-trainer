@@ -1,0 +1,220 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Quiero que ___ conmigo esta tarde.",
+    "promptGloss": {
+      "de": "Ich will, dass du heute Nachmittag mit mir sprichst.",
+      "en": "I want you to talk to me this afternoon."
+    },
+    "options": ["hablas", "hables", "hablar"],
+    "answer": "hables",
+    "explain": {
+      "de": "Querer que (Wunsch) löst im que-Nebensatz den Subjuntivo aus, daher 'hables'. 'hablas' ist Indikativ und 'hablar' wäre nur ohne Subjektwechsel (quiero hablar) möglich.",
+      "en": "Querer que (a wish) triggers the subjunctive in the que-clause, hence 'hables'. 'hablas' is indicative, and 'hablar' would only fit without a change of subject (quiero hablar)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Me alegro de que ___ más sano últimamente.",
+    "promptGloss": {
+      "de": "Ich freue mich, dass du dich in letzter Zeit gesünder ernährst.",
+      "en": "I'm glad you eat more healthily lately."
+    },
+    "options": ["comes", "comas", "comerás"],
+    "answer": "comas",
+    "explain": {
+      "de": "Gefühlsausdrücke wie 'me alegro de que' verlangen den Subjuntivo: -er-Verb, also comer zu 'comas'. 'comes' ist Indikativ; das Gefühl bezieht sich auf eine reale Tatsache, trotzdem steht hier der Subjuntivo.",
+      "en": "Emotion phrases like 'me alegro de que' require the subjunctive: -er verb, so comer becomes 'comas'. 'comes' is indicative; even though the fact is real, emotion still triggers the subjunctive."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Dudo que ellos ___ (poder) venir a la fiesta.",
+    "promptGloss": {
+      "de": "Ich bezweifle, dass sie zur Party kommen können.",
+      "en": "I doubt they can come to the party."
+    },
+    "answer": "puedan",
+    "explain": {
+      "de": "Zweifel ('dudo que') löst den Subjuntivo aus, und der Stammwechsel o zu ue bleibt erhalten: poder zu 'puedan'. Ohne Stammwechsel ('podan') wäre es falsch.",
+      "en": "Doubt ('dudo que') triggers the subjunctive, and the o-to-ue stem change carries over: poder becomes 'puedan'. Without the stem change ('podan') it would be wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Es necesario que ___ paciencia con los niños.",
+    "promptGloss": {
+      "de": "Es ist nötig, dass du Geduld mit den Kindern hast.",
+      "en": "It's necessary that you have patience with the children."
+    },
+    "options": ["tienes", "tengas", "tendrás"],
+    "answer": "tengas",
+    "explain": {
+      "de": "Unpersönliche Wertungen wie 'es necesario que' verlangen den Subjuntivo. tener hat den yo-Stamm 'teng-', also 'tengas'. 'tienes' ist Indikativ und ignoriert den unregelmäßigen yo-Stamm.",
+      "en": "Impersonal opinions like 'es necesario que' require the subjunctive. tener has the yo-stem 'teng-', so 'tengas'. 'tienes' is indicative and ignores the irregular yo-stem."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Es bueno que tú ___ (dormir) ocho horas cada noche.",
+    "promptGloss": {
+      "de": "Es ist gut, dass du jede Nacht acht Stunden schläfst.",
+      "en": "It's good that you sleep eight hours every night."
+    },
+    "answer": "duermas",
+    "explain": {
+      "de": "'Es bueno que' ist eine unpersönliche Wertung und erfordert den Subjuntivo; der Stammwechsel o zu ue bleibt erhalten: dormir zu 'duermas'. 'dormas' ohne Diphthong wäre falsch.",
+      "en": "'Es bueno que' is an impersonal opinion requiring the subjunctive; the o-to-ue stem change stays: dormir becomes 'duermas'. 'dormas' without the diphthong would be wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ojalá ___ buen tiempo el día de la boda.",
+    "promptGloss": {
+      "de": "Hoffentlich ist am Hochzeitstag schönes Wetter.",
+      "en": "Hopefully the weather is nice on the wedding day."
+    },
+    "options": ["hace", "haga", "hará"],
+    "answer": "haga",
+    "explain": {
+      "de": "'ojalá' (hoffentlich) löst immer den Subjuntivo aus; hacer hat den yo-Stamm 'hag-', also 'haga'. 'hace' ist Indikativ und 'hará' ist Futur, beide passen nach ojalá nicht.",
+      "en": "'ojalá' (hopefully) always triggers the subjunctive; hacer has the yo-stem 'hag-', so 'haga'. 'hace' is indicative and 'hará' is future, neither of which fits after ojalá."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Te lo explico todo para que ___ (saber) la verdad.",
+    "promptGloss": {
+      "de": "Ich erkläre dir alles, damit du die Wahrheit weißt.",
+      "en": "I'm explaining everything to you so that you know the truth."
+    },
+    "answer": "sepas",
+    "explain": {
+      "de": "'para que' (Absicht) löst den Subjuntivo aus; saber hat die unregelmäßige Form 'sep-', also 'sepas'. Die reguläre Bildung aus dem yo-Stamm (sé) würde hier nicht funktionieren.",
+      "en": "'para que' (purpose) triggers the subjunctive; saber has the irregular form 'sep-', so 'sepas'. Building it from the regular yo-stem (sé) would not work here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Cuando ___ a Madrid, llámame por teléfono.",
+    "promptGloss": {
+      "de": "Wenn du nach Madrid kommst, ruf mich an.",
+      "en": "When you go to Madrid, call me."
+    },
+    "options": ["vas", "vayas", "irás"],
+    "answer": "vayas",
+    "explain": {
+      "de": "'cuando' mit Zukunftsbezug verlangt den Subjuntivo; ir hat die eigene Form 'vay-', also 'vayas'. 'vas' (Indikativ) wäre nur bei Gewohnheit/Gegenwart richtig, nicht bei einer noch nicht eingetretenen Zukunft.",
+      "en": "'cuando' referring to the future requires the subjunctive; ir has the special form 'vay-', so 'vayas'. 'vas' (indicative) would only be right for habits/present, not for an unrealized future."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Cuando ___ tiempo libre, siempre leo una novela.",
+    "promptGloss": {
+      "de": "Wenn ich Freizeit habe, lese ich immer einen Roman.",
+      "en": "When I have free time, I always read a novel."
+    },
+    "options": ["tengo", "tenga"],
+    "answer": "tengo",
+    "explain": {
+      "de": "Hier beschreibt 'cuando' eine Gewohnheit/wiederholte Gegenwart, keinen Zukunftsbezug, daher der Indikativ 'tengo'. Der Subjuntivo 'tenga' stünde nur bei einem konkreten Zukunftsereignis.",
+      "en": "Here 'cuando' describes a habit/repeated present, not a future reference, so the indicative 'tengo'. The subjunctive 'tenga' would appear only with a specific future event."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Espero que ellos ___ claro en la reunión de mañana.",
+    "promptGloss": {
+      "de": "Ich hoffe, dass sie morgen in der Sitzung deutlich sprechen.",
+      "en": "I hope they speak clearly in tomorrow's meeting."
+    },
+    "options": ["hablan", "hablen", "hablarán"],
+    "answer": "hablen",
+    "explain": {
+      "de": "'esperar que' ist ein Wunsch und verlangt den Subjuntivo; ein -ar-Verb bekommt in der 3. Person Plural die Endung -en, also 'hablen'. 'hablan' ist Indikativ (-an gehört zu -er/-ir).",
+      "en": "'esperar que' is a wish and requires the subjunctive; an -ar verb takes -en in the third person plural, so 'hablen'. 'hablan' is indicative (-an belongs to -er/-ir)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Es importante que nosotros ___ (vivir) en paz.",
+    "promptGloss": {
+      "de": "Es ist wichtig, dass wir in Frieden leben.",
+      "en": "It's important that we live in peace."
+    },
+    "answer": "vivamos",
+    "explain": {
+      "de": "'es importante que' verlangt den Subjuntivo; bei -ir-Verben endet die nosotros-Form auf -amos, also vivir zu 'vivamos'. Die Indikativ-Endung -imos (vivimos) wäre hier falsch.",
+      "en": "'es importante que' requires the subjunctive; for -ir verbs the nosotros form ends in -amos, so vivir becomes 'vivamos'. The indicative ending -imos (vivimos) would be wrong here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No creo que tú ___ la verdad sobre lo que pasó.",
+    "promptGloss": {
+      "de": "Ich glaube nicht, dass du die Wahrheit über das Geschehene sagst.",
+      "en": "I don't think you're telling the truth about what happened."
+    },
+    "options": ["dices", "digas", "dirás"],
+    "answer": "digas",
+    "explain": {
+      "de": "'no creer que' drückt Zweifel/Verneinung aus und verlangt den Subjuntivo; decir hat den yo-Stamm 'dig-', also 'digas'. Im bejahten 'creo que' stünde dagegen der Indikativ 'dices'.",
+      "en": "'no creer que' expresses doubt/negation and requires the subjunctive; decir has the yo-stem 'dig-', so 'digas'. In the affirmative 'creo que' you would instead use the indicative 'dices'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Creo que Ana ___ razón en este asunto.",
+    "promptGloss": {
+      "de": "Ich glaube, dass Ana in dieser Sache recht hat.",
+      "en": "I think Ana is right about this matter."
+    },
+    "options": ["tiene", "tenga"],
+    "answer": "tiene",
+    "explain": {
+      "de": "Bejahtes 'creer que' drückt eine Überzeugung aus und steht im Indikativ, daher 'tiene'. Der Subjuntivo 'tenga' käme nur in der verneinten Form ('no creo que tenga') vor.",
+      "en": "Affirmative 'creer que' expresses a conviction and takes the indicative, hence 'tiene'. The subjunctive 'tenga' would appear only in the negated form ('no creo que tenga')."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ojalá ___ (haber) suficiente comida para todos los invitados.",
+    "promptGloss": {
+      "de": "Hoffentlich gibt es genug Essen für alle Gäste.",
+      "en": "Hopefully there's enough food for all the guests."
+    },
+    "answer": "haya",
+    "explain": {
+      "de": "'ojalá' löst den Subjuntivo aus; das unpersönliche 'hay' (von haber) lautet im Subjuntivo 'haya'. Eine regelmäßige Form wie 'habe' existiert hier nicht.",
+      "en": "'ojalá' triggers the subjunctive; the impersonal 'hay' (from haber) becomes 'haya' in the subjunctive. A regular form like 'habe' does not exist here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Quiero que vosotros ___ (estar) en casa cuando yo llegue.",
+    "promptGloss": {
+      "de": "Ich will, dass ihr zu Hause seid, wenn ich ankomme.",
+      "en": "I want you (pl.) to be at home when I arrive."
+    },
+    "answer": "estéis",
+    "explain": {
+      "de": "'querer que' verlangt den Subjuntivo; estar hat unregelmäßige Betonung mit Akzent: die vosotros-Form ist 'estéis'. Ohne Akzent ('esteis') wäre die Schreibung falsch.",
+      "en": "'querer que' requires the subjunctive; estar has irregular stress with an accent: the vosotros form is 'estéis'. Without the accent ('esteis') the spelling would be wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No creo que esto ___ verdad; suena demasiado raro.",
+    "promptGloss": {
+      "de": "Ich glaube nicht, dass das wahr ist; es klingt zu seltsam.",
+      "en": "I don't think this is true; it sounds too strange."
+    },
+    "options": ["es", "sea", "está"],
+    "answer": "sea",
+    "explain": {
+      "de": "'no creer que' (Zweifel) verlangt den Subjuntivo; ser hat die eigene Form 'sea'. 'es' ist Indikativ, und 'está' (von estar) passt semantisch nicht, weil hier eine Eigenschaft/Identität mit ser gemeint ist.",
+      "en": "'no creer que' (doubt) requires the subjunctive; ser has the special form 'sea'. 'es' is indicative, and 'está' (from estar) doesn't fit semantically, since this is an inherent quality expressed with ser."
+    }
+  }
+]

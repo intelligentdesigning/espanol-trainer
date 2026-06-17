@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Esta tarde ___ a estudiar para el examen de español.",
+    "promptGloss": {
+      "de": "Heute Nachmittag werde ich für die Spanischprüfung lernen.",
+      "en": "This afternoon I'm going to study for the Spanish exam."
+    },
+    "options": ["voy", "voy a", "iré", "vaya"],
+    "answer": "voy",
+    "explain": {
+      "de": "Die Periphrase „ir a + Infinitiv“ braucht das konjugierte „ir“ (voy); das „a“ steht schon im Satz. „voy a“ wäre ein doppeltes „a“, „iré“ und „vaya“ sind keine Periphrase mit Infinitiv.",
+      "en": "The periphrasis 'ir a + infinitive' needs the conjugated 'ir' (voy); the 'a' is already in the sentence. 'voy a' would double the 'a', while 'iré' and 'vaya' are not this infinitive periphrasis."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mañana nosotros ___ a visitar a los abuelos. (ir)",
+    "promptGloss": {
+      "de": "Morgen werden wir die Großeltern besuchen.",
+      "en": "Tomorrow we are going to visit the grandparents."
+    },
+    "answer": "vamos",
+    "explain": {
+      "de": "„ir a + Infinitiv“ drückt die nahe Zukunft aus; in der 1. Person Plural lautet „ir“ → „vamos“. Das „a“ ist obligatorisch und steht bereits da.",
+      "en": "'ir a + infinitive' expresses the near future; in the 1st person plural 'ir' becomes 'vamos'. The 'a' is obligatory and already present."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "(Yo) ___ que trabajar el sábado, no puedo ir a tu fiesta.",
+    "promptGloss": {
+      "de": "Ich muss am Samstag arbeiten, ich kann nicht zu deiner Party kommen.",
+      "en": "I have to work on Saturday, I can't come to your party."
+    },
+    "options": ["tengo", "hay", "debo", "tiene"],
+    "answer": "tengo",
+    "explain": {
+      "de": "„tener que + Infinitiv“ drückt persönliche Pflicht aus und wird ans Subjekt (yo) angepasst: „tengo que“. „hay que“ ist unpersönlich (ohne Subjekt) und „debo“ verlangt kein „que“.",
+      "en": "'tener que + infinitive' expresses personal obligation and agrees with the subject (yo): 'tengo que'. 'hay que' is impersonal (no subject) and 'debo' takes no 'que'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En este hospital ___ que guardar silencio en todo momento.",
+    "promptGloss": {
+      "de": "In diesem Krankenhaus muss man jederzeit Ruhe bewahren.",
+      "en": "In this hospital one must keep silent at all times."
+    },
+    "options": ["hay", "tiene", "tienen", "tenemos"],
+    "answer": "hay",
+    "explain": {
+      "de": "Es gibt kein bestimmtes Subjekt — die Pflicht gilt allgemein für alle, deshalb das unpersönliche „hay que“. Die Formen von „tener que“ würden ein konkretes Subjekt verlangen.",
+      "en": "There is no specific subject — the obligation is general, so impersonal 'hay que' is used. Forms of 'tener que' would require a concrete subject."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Estás muy cansado; ___ descansar más y dormir ocho horas.",
+    "promptGloss": {
+      "de": "Du bist sehr müde; du solltest dich mehr ausruhen und acht Stunden schlafen.",
+      "en": "You are very tired; you should rest more and sleep eight hours."
+    },
+    "options": ["debes", "debes de", "hay que", "tienes"],
+    "answer": "debes",
+    "explain": {
+      "de": "„deber + Infinitiv“ (ohne „que“, ohne „de“) drückt einen Rat / eine moralische Pflicht aus: „debes descansar“. „debes de“ würde Vermutung bedeuten und „tienes“ bräuchte „que“.",
+      "en": "'deber + infinitive' (no 'que', no 'de') expresses advice / moral obligation: 'debes descansar'. 'debes de' would mean probability, and 'tienes' would need 'que'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No tengo dinero: ___ que ahorrar más este mes. (tener)",
+    "promptGloss": {
+      "de": "Ich habe kein Geld: Ich muss diesen Monat mehr sparen.",
+      "en": "I have no money: I have to save more this month."
+    },
+    "answer": "tengo",
+    "explain": {
+      "de": "Persönliche Pflicht mit Subjekt „yo“ → „tener que“ konjugiert als „tengo que“. „Hay que“ wäre hier falsch, weil es sich um eine konkrete Person handelt.",
+      "en": "Personal obligation with subject 'yo' → 'tener que' conjugated as 'tengo que'. 'Hay que' would be wrong here because a specific person is meant."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "—¿Quieres comer algo? —No, gracias, ___ de comer hace cinco minutos.",
+    "promptGloss": {
+      "de": "—Willst du etwas essen? —Nein danke, ich habe gerade vor fünf Minuten gegessen.",
+      "en": "—Do you want to eat something? —No thanks, I've just eaten five minutes ago."
+    },
+    "options": ["acabo", "acabé", "acabo a", "voy"],
+    "answer": "acabo",
+    "explain": {
+      "de": "„acabar de + Infinitiv“ beschreibt eine soeben abgeschlossene Handlung: „acabo de comer“. Die Präposition ist „de“ (nicht „a“), und „acabé“ wäre nur das einfache Indefinido „ich beendete“.",
+      "en": "'acabar de + infinitive' describes an action just completed: 'acabo de comer'. The preposition is 'de' (not 'a'), and 'acabé' would just be the simple preterite 'I finished'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El avión ___ de aterrizar; los pasajeros todavía no han salido. (acabar)",
+    "promptGloss": {
+      "de": "Das Flugzeug ist gerade gelandet; die Passagiere sind noch nicht ausgestiegen.",
+      "en": "The plane has just landed; the passengers haven't got off yet."
+    },
+    "answer": "acaba",
+    "explain": {
+      "de": "„acabar de + Infinitiv“ in der 3. Person Singular → „acaba de aterrizar“ für eine eben geschehene Handlung. Die feste Präposition ist „de“.",
+      "en": "'acabar de + infinitive' in the 3rd person singular → 'acaba de aterrizar' for a just-completed action. The fixed preposition is 'de'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Después de dos años sin fumar, Pedro ___ a fumar otra vez.",
+    "promptGloss": {
+      "de": "Nach zwei Jahren ohne Rauchen fing Pedro wieder an zu rauchen.",
+      "en": "After two years without smoking, Pedro started smoking again."
+    },
+    "options": ["volvió", "volvió a", "acabó", "suele"],
+    "answer": "volvió",
+    "explain": {
+      "de": "„volver a + Infinitiv“ bedeutet „etwas erneut tun“; das „a“ steht schon im Satz, also nur „volvió“. „volvió a“ wäre ein doppeltes „a“, „acabó“ und „suele“ ergeben hier keinen Sinn.",
+      "en": "'volver a + infinitive' means 'to do something again'; the 'a' is already in the sentence, so just 'volvió'. 'volvió a' would double the 'a', and 'acabó'/'suele' don't fit."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Por favor, no ___ a llegar tarde a clase. (volver, tú, imperativo negativo)",
+    "promptGloss": {
+      "de": "Bitte komm nicht wieder zu spät zum Unterricht.",
+      "en": "Please don't be late to class again."
+    },
+    "answer": "vuelvas",
+    "explain": {
+      "de": "Verneinter Imperativ von „volver“ (tú) ist „no vuelvas“, mit Stammwechsel o→ue. „volver a + Infinitiv“ trägt hier die Bedeutung „nicht wieder / noch einmal“.",
+      "en": "The negative imperative of 'volver' (tú) is 'no vuelvas', with the stem change o→ue. 'volver a + infinitive' here carries the meaning 'not again'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¡Date prisa! El tren está ___ punto de salir.",
+    "promptGloss": {
+      "de": "Beeil dich! Der Zug ist kurz davor abzufahren.",
+      "en": "Hurry up! The train is about to leave."
+    },
+    "options": ["a", "de", "en", "por"],
+    "answer": "a",
+    "explain": {
+      "de": "Die Periphrase lautet fest „estar a punto de + Infinitiv“ (kurz davor sein). Nach „punto“ folgt „de“, aber davor steht zwingend „a“ — „de/en/por punto“ existieren hier nicht.",
+      "en": "The fixed periphrasis is 'estar a punto de + infinitive' (to be about to). After 'punto' comes 'de', but before it 'a' is obligatory — 'de/en/por punto' don't exist here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No puedo hablar ahora, ___ a punto de entrar en una reunión. (estar, yo)",
+    "promptGloss": {
+      "de": "Ich kann jetzt nicht sprechen, ich bin kurz davor, in ein Meeting zu gehen.",
+      "en": "I can't talk now, I'm about to go into a meeting."
+    },
+    "answer": "estoy",
+    "explain": {
+      "de": "„estar a punto de + Infinitiv“ nutzt zwingend „estar“ (nicht „ser“): 1. Person → „estoy a punto de“. Es bezeichnet eine unmittelbar bevorstehende Handlung.",
+      "en": "'estar a punto de + infinitive' obligatorily uses 'estar' (not 'ser'): 1st person → 'estoy a punto de'. It marks an imminent action."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Entre semana (yo) ___ desayunar a las ocho, pero los domingos me levanto tarde.",
+    "promptGloss": {
+      "de": "Unter der Woche frühstücke ich gewöhnlich um acht, aber sonntags stehe ich spät auf.",
+      "en": "On weekdays I usually have breakfast at eight, but on Sundays I get up late."
+    },
+    "options": ["suelo", "solo", "sólo", "suelen"],
+    "answer": "suelo",
+    "explain": {
+      "de": "„soler + Infinitiv“ drückt Gewohnheit aus; 1. Person Singular mit Stammwechsel o→ue → „suelo“. „solo/sólo“ ist das Wort „nur/allein“, kein Verb, und „suelen“ ist 3. Person Plural.",
+      "en": "'soler + infinitive' expresses habit; 1st person singular with stem change o→ue → 'suelo'. 'solo/sólo' means 'only/alone', not a verb, and 'suelen' is 3rd person plural."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Cuando éramos niños, (nosotros) ___ jugar en la calle toda la tarde. (soler, imperfecto)",
+    "promptGloss": {
+      "de": "Als wir Kinder waren, spielten wir gewöhnlich den ganzen Nachmittag auf der Straße.",
+      "en": "When we were children, we used to play in the street all afternoon."
+    },
+    "answer": "solíamos",
+    "explain": {
+      "de": "„soler“ existiert nur im Präsens und Imperfekt; für vergangene Gewohnheiten nimmt man das Imperfekt → „solíamos jugar“. Ein Indefinido von „soler“ gibt es nicht.",
+      "en": "'soler' exists only in the present and imperfect; for past habits use the imperfect → 'solíamos jugar'. There is no preterite of 'soler'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Llevo media hora esperando: el autobús ___ de pasar y no me ha visto.",
+    "promptGloss": {
+      "de": "Ich warte seit einer halben Stunde: Der Bus ist gerade vorbeigefahren und hat mich nicht gesehen.",
+      "en": "I've been waiting half an hour: the bus has just gone by and didn't see me."
+    },
+    "options": ["acaba", "está a punto", "vuelve", "va"],
+    "answer": "acaba",
+    "explain": {
+      "de": "„acaba de pasar“ = gerade eben vorbeigefahren (abgeschlossen). „está a punto de“ hieße „kurz davor“ (noch nicht passiert), passt also nicht zu „und hat mich nicht gesehen“.",
+      "en": "'acaba de pasar' = has just gone by (completed). 'está a punto de' would mean 'about to' (not yet happened), which clashes with 'and didn't see me'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "He suspendido el examen, así que ___ que estudiarlo todo otra vez.",
+    "promptGloss": {
+      "de": "Ich bin durch die Prüfung gefallen, also muss ich alles noch einmal lernen.",
+      "en": "I failed the exam, so I have to study it all again."
+    },
+    "options": ["tengo", "acabo", "suelo", "voy"],
+    "answer": "tengo",
+    "explain": {
+      "de": "Nur „tener“ verbindet sich mit „que“ + Infinitiv für Pflicht: „tengo que estudiar“. „acabo/suelo/voy“ verlangen entweder „de“, „a“ oder gar keine Präposition und ergeben mit „que“ keinen Sinn.",
+      "en": "Only 'tener' combines with 'que' + infinitive for obligation: 'tengo que estudiar'. 'acabo/suelo/voy' take 'de', 'a' or no preposition and make no sense with 'que'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Estoy nerviosa porque ___ a punto de empezar mi primera entrevista de trabajo.",
+    "promptGloss": {
+      "de": "Ich bin nervös, weil ich kurz davor bin, mein erstes Vorstellungsgespräch zu beginnen.",
+      "en": "I'm nervous because I'm about to start my first job interview."
+    },
+    "options": ["estoy", "soy", "voy", "tengo"],
+    "answer": "estoy",
+    "explain": {
+      "de": "Die feste Periphrase ist „estar a punto de“ — nur mit „estar“. „ser“ (soy) ist hier falsch, und „voy/tengo“ würden die Konstruktion „a punto de“ zerstören.",
+      "en": "The fixed periphrasis is 'estar a punto de' — only with 'estar'. 'ser' (soy) is wrong here, and 'voy/tengo' would break the 'a punto de' construction."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Tras el corte, la luz ___ a encenderse después de unos segundos. (volver, presente)",
+    "promptGloss": {
+      "de": "Nach dem Ausfall ging das Licht nach ein paar Sekunden wieder an.",
+      "en": "After the outage, the light came back on after a few seconds."
+    },
+    "answer": "vuelve",
+    "explain": {
+      "de": "„volver a + Infinitiv“ heißt „wieder/erneut tun“; 3. Person Singular Präsens mit Stammwechsel o→ue → „vuelve a encenderse“.",
+      "en": "'volver a + infinitive' means 'to do again'; 3rd person singular present with stem change o→ue → 'vuelve a encenderse'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Para aprobar el curso ___ que entregar todos los trabajos a tiempo, sin excepción.",
+    "promptGloss": {
+      "de": "Um den Kurs zu bestehen, muss man alle Arbeiten pünktlich abgeben, ohne Ausnahme.",
+      "en": "To pass the course one must hand in all the assignments on time, without exception."
+    },
+    "options": ["hay", "tienes", "debes", "vas"],
+    "answer": "hay",
+    "explain": {
+      "de": "Die Regel gilt allgemein und ohne genanntes Subjekt → unpersönliches „hay que entregar“. „tienes/debes“ würden ein bestimmtes „du“ ansprechen, was der allgemeinen Kursregel widerspricht.",
+      "en": "The rule is general with no stated subject → impersonal 'hay que entregar'. 'tienes/debes' would address a specific 'you', clashing with the general course rule."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Es tarde y los niños están agotados; (ellos) ___ a acostarse pronto. (ir)",
+    "promptGloss": {
+      "de": "Es ist spät und die Kinder sind erschöpft; sie werden bald ins Bett gehen.",
+      "en": "It's late and the children are exhausted; they're going to go to bed soon."
+    },
+    "answer": "van",
+    "explain": {
+      "de": "„ir a + Infinitiv“ für die nahe Zukunft; 3. Person Plural von „ir“ → „van a acostarse“. Das „a“ gehört fest dazu und steht schon im Satz.",
+      "en": "'ir a + infinitive' for the near future; 3rd person plural of 'ir' → 'van a acostarse'. The 'a' is fixed and already in the sentence."
+    }
+  }
+]

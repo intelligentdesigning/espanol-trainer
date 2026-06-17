@@ -1,0 +1,275 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "___ café que tengo en la mano está muy caliente.",
+    "promptGloss": {
+      "de": "Dieser Kaffee, den ich in der Hand halte, ist sehr heiß.",
+      "en": "This coffee I have in my hand is very hot."
+    },
+    "options": ["Este", "Ese", "Aquel"],
+    "answer": "Este",
+    "explain": {
+      "de": "Etwas in der eigenen Hand ist nah beim Sprecher (aquí), also 'este'. 'Ese' wäre beim Hörer, 'aquel' weit weg.",
+      "en": "Something in your own hand is near the speaker (aquí), so 'este'. 'Ese' would be by the listener, 'aquel' far away."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ libro que tienes tú es mío, devuélvemelo.",
+    "promptGloss": {
+      "de": "Das Buch, das du hast, gehört mir, gib es mir zurück.",
+      "en": "That book you have is mine, give it back to me."
+    },
+    "options": ["Este", "Ese", "Aquel"],
+    "answer": "Ese",
+    "explain": {
+      "de": "Das Buch ist beim Hörer ('que tienes tú', ahí), also 'ese'. 'Este' wäre beim Sprecher, 'aquel' in der Ferne.",
+      "en": "The book is by the listener ('que tienes tú', ahí), so 'ese'. 'Este' would be by the speaker, 'aquel' in the distance."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Ves ___ montañas que se distinguen apenas en el horizonte?",
+    "promptGloss": {
+      "de": "Siehst du jene Berge, die man kaum am Horizont erkennt?",
+      "en": "Do you see those mountains barely visible on the horizon?"
+    },
+    "options": ["estas", "esas", "aquellas"],
+    "answer": "aquellas",
+    "explain": {
+      "de": "Etwas weit von Sprecher und Hörer (en el horizonte, allí) verlangt 'aquellas'. 'Estas/esas' bezeichnen Nähe.",
+      "en": "Something far from both speaker and listener (on the horizon, allí) takes 'aquellas'. 'Estas/esas' mark closeness."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Dame ___ llaves que están ahí, a tu lado, por favor. (cerca del oyente)",
+    "promptGloss": {
+      "de": "Gib mir bitte die Schlüssel da neben dir. (nah beim Hörer)",
+      "en": "Give me those keys there next to you, please. (near the listener)"
+    },
+    "answer": "esas",
+    "explain": {
+      "de": "'Llaves' ist feminin Plural und liegt beim Hörer ('a tu lado', ahí), also 'esas'. 'Estas' wäre beim Sprecher.",
+      "en": "'Llaves' is feminine plural and is by the listener ('a tu lado', ahí), so 'esas'. 'Estas' would be by the speaker."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Por favor, firma ___ documentos antes de salir de mi despacho.",
+    "promptGloss": {
+      "de": "Bitte unterschreib diese Dokumente, bevor du mein Büro verlässt.",
+      "en": "Please sign these documents before leaving my office."
+    },
+    "options": ["estos", "estas", "estes", "este"],
+    "answer": "estos",
+    "explain": {
+      "de": "'Documentos' ist maskulin Plural, daher 'estos'. Die Form 'estes' existiert nicht, 'estas' ist feminin und 'este' Singular.",
+      "en": "'Documentos' is masculine plural, so 'estos'. The form 'estes' does not exist, 'estas' is feminine and 'este' is singular."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "___ noche no pude dormir nada por el ruido. (cerca en el tiempo)",
+    "promptGloss": {
+      "de": "Diese Nacht konnte ich wegen des Lärms gar nicht schlafen. (zeitlich nah)",
+      "en": "This night I couldn't sleep at all because of the noise. (close in time)"
+    },
+    "answer": "Esta",
+    "explain": {
+      "de": "'Noche' ist feminin Singular, also 'esta noche'. Die Endung richtet sich nach dem Substantiv, nicht nach dem Klang von '-e'.",
+      "en": "'Noche' is feminine singular, so 'esta noche'. The ending agrees with the noun, not with the '-e' sound."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ día llegaste tarde y nos hiciste perder el tren.",
+    "promptGloss": {
+      "de": "An jenem Tag kamst du zu spät und ließest uns den Zug verpassen.",
+      "en": "That day you arrived late and made us miss the train."
+    },
+    "options": ["Ese", "Esa", "Eso"],
+    "answer": "Ese",
+    "explain": {
+      "de": "'Día' endet auf '-a', ist aber maskulin, daher 'ese día'. 'Esa' wäre feminin, 'eso' ist das Neutrum ohne Substantiv.",
+      "en": "'Día' ends in '-a' but is masculine, so 'ese día'. 'Esa' would be feminine, 'eso' is the neuter used without a noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El problema del agua y la falta de trabajo: ___ me preocupa de verdad.",
+    "promptGloss": {
+      "de": "Das Wasserproblem und die Arbeitslosigkeit: Das beunruhigt mich wirklich.",
+      "en": "The water problem and the lack of work: that really worries me."
+    },
+    "options": ["esos", "eso", "ese", "esa"],
+    "answer": "eso",
+    "explain": {
+      "de": "Hier wird eine ganze Idee/Aussage aufgegriffen, kein konkretes Substantiv, also das Neutrum 'eso'. 'Ese/esa/esos' bräuchten ein Bezugswort.",
+      "en": "Here a whole idea/statement is referred to, not a specific noun, so the neuter 'eso'. 'Ese/esa/esos' would need a noun to agree with."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "—Mira lo que encontré en el cajón. —¿Qué es ___? No lo reconozco. (cosa desconocida)",
+    "promptGloss": {
+      "de": "—Schau, was ich in der Schublade gefunden habe. —Was ist das? Ich erkenne es nicht. (unbekannte Sache)",
+      "en": "—Look what I found in the drawer. —What is this? I don't recognize it. (unknown thing)"
+    },
+    "answer": "esto",
+    "explain": {
+      "de": "Für ein unbekanntes, nicht benennbares Ding nah beim Sprecher steht das Neutrum 'esto'. 'Este' bräuchte ein maskulines Substantiv.",
+      "en": "For an unknown, unnamed thing near the speaker, the neuter 'esto' is used. 'Este' would require a masculine noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Me gustan los dos cuadros, pero prefiero ___, no el otro.",
+    "promptGloss": {
+      "de": "Mir gefallen beide Bilder, aber ich bevorzuge dieses, nicht das andere.",
+      "en": "I like both paintings, but I prefer this one, not the other."
+    },
+    "options": ["este", "esté", "ésto", "esto"],
+    "answer": "este",
+    "explain": {
+      "de": "Auch ohne folgendes Substantiv schreibt man nach RAE 'este' ohne Akzent; es vertritt 'cuadro' (mask.). 'Esto' wäre Neutrum, 'esté' ist ein Verb.",
+      "en": "Even without a following noun, RAE writes 'este' with no accent; it stands for 'cuadro' (masc.). 'Esto' is neuter, 'esté' is a verb."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En ___ tiempos no había internet y nos escribíamos cartas.",
+    "promptGloss": {
+      "de": "In jenen Zeiten gab es kein Internet und wir schrieben uns Briefe.",
+      "en": "In those days there was no internet and we wrote each other letters."
+    },
+    "options": ["estos", "esos", "aquellos"],
+    "answer": "aquellos",
+    "explain": {
+      "de": "Eine ferne, längst vergangene Zeit wird mit 'aquellos tiempos' ausgedrückt (zeitliche Distanz = allí). 'Estos' wäre 'jetzt'.",
+      "en": "A remote, long-past time is expressed with 'aquellos tiempos' (temporal distance = allí). 'Estos' would mean 'now'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Aquella casa del fondo es preciosa, pero ___ de aquí, a mi lado, me gusta más.",
+    "promptGloss": {
+      "de": "Jenes Haus dort hinten ist wunderschön, aber dieses hier neben mir gefällt mir besser.",
+      "en": "That house in the back is lovely, but this one here next to me I like more."
+    },
+    "answer": "esta",
+    "explain": {
+      "de": "'Casa' ist feminin und das zweite Haus ist nah beim Sprecher ('de aquí'), also 'esta' im Kontrast zu 'aquella' (fern).",
+      "en": "'Casa' is feminine and the second house is near the speaker ('de aquí'), so 'esta' contrasting with 'aquella' (far)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No me hables más de ___; ya te dije que el tema está cerrado.",
+    "promptGloss": {
+      "de": "Sprich nicht mehr davon mit mir; ich sagte dir schon, das Thema ist erledigt.",
+      "en": "Don't talk to me about that anymore; I already told you the matter is closed."
+    },
+    "options": ["ese", "eso", "esos"],
+    "answer": "eso",
+    "explain": {
+      "de": "'Eso' verweist auf eine zuvor genannte Angelegenheit als ganze Idee, ohne Substantiv. 'Ese/esos' verlangen ein konkretes Bezugswort.",
+      "en": "'Eso' points back to a previously mentioned matter as a whole idea, with no noun. 'Ese/esos' need a specific noun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿De quién son ___ gafas que llevas puestas? (cerca del oyente)",
+    "promptGloss": {
+      "de": "Wem gehört die Brille, die du da trägst? (nah beim Hörer)",
+      "en": "Whose are those glasses you're wearing? (near the listener)"
+    },
+    "answer": "esas",
+    "explain": {
+      "de": "'Gafas' ist feminin Plural und befindet sich beim Hörer ('que llevas puestas'), also 'esas'. 'Estas' wäre beim Sprecher.",
+      "en": "'Gafas' is feminine plural and is on the listener ('que llevas puestas'), so 'esas'. 'Estas' would be by the speaker."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Toma, ___ flores son para ti; las corté esta mañana de mi jardín.",
+    "promptGloss": {
+      "de": "Hier, diese Blumen sind für dich; ich habe sie heute Morgen in meinem Garten geschnitten.",
+      "en": "Here, these flowers are for you; I cut them this morning from my garden."
+    },
+    "options": ["estas", "esas", "estos", "aquellas"],
+    "answer": "estas",
+    "explain": {
+      "de": "Die Blumen hält der Sprecher gerade hin ('toma'), also nah = 'estas'; 'flores' ist feminin Plural. 'Estos' wäre maskulin, 'esas/aquellas' bezeichnen Distanz.",
+      "en": "The speaker is handing the flowers over ('toma'), so near = 'estas'; 'flores' is feminine plural. 'Estos' is masculine, 'esas/aquellas' mark distance."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ problema que mencionas no tiene solución fácil.",
+    "promptGloss": {
+      "de": "Dieses Problem, das du erwähnst, hat keine leichte Lösung.",
+      "en": "This problem you mention has no easy solution."
+    },
+    "options": ["Esta", "Este", "Esto"],
+    "answer": "Este",
+    "explain": {
+      "de": "'Problema' endet auf '-a', ist aber maskulin (griechischer Ursprung), daher 'este problema'. 'Esta' wäre feminin, 'esto' Neutrum ohne Substantiv.",
+      "en": "'Problema' ends in '-a' but is masculine (Greek origin), so 'este problema'. 'Esta' would be feminine, 'esto' is the neuter used without a noun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Aquel verano fue inolvidable, pero ___ que estamos viviendo ahora es aún mejor. (cerca en el tiempo)",
+    "promptGloss": {
+      "de": "Jener Sommer war unvergesslich, aber dieser, den wir gerade erleben, ist noch besser. (zeitlich nah)",
+      "en": "That summer was unforgettable, but this one we're living now is even better. (close in time)"
+    },
+    "answer": "este",
+    "explain": {
+      "de": "'Verano' ist maskulin und der zweite Sommer ist der jetzige ('ahora'), also 'este' im Kontrast zu 'aquel' (fern). Kein Akzent nötig.",
+      "en": "'Verano' is masculine and the second summer is the present one ('ahora'), so 'este' contrasting with 'aquel' (far). No accent needed."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¡___ es justo lo que necesitábamos! Por fin una buena idea.",
+    "promptGloss": {
+      "de": "Das ist genau das, was wir brauchten! Endlich eine gute Idee.",
+      "en": "That is exactly what we needed! Finally a good idea."
+    },
+    "options": ["Esa", "Eso", "Ese"],
+    "answer": "Eso",
+    "explain": {
+      "de": "Es wird auf eine ganze Idee/Aussage Bezug genommen, kein Substantiv, daher das Neutrum 'eso'. 'Esa/ese' bräuchten ein Bezugswort.",
+      "en": "Reference is to a whole idea/statement, not a noun, so the neuter 'eso'. 'Esa/ese' would need a noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "De todos los anillos del escaparate, me quedo con ___, el del fondo a la izquierda.",
+    "promptGloss": {
+      "de": "Von allen Ringen im Schaufenster nehme ich jenen, den hinten links.",
+      "en": "Of all the rings in the window, I'll take that one, the one in the back on the left."
+    },
+    "options": ["este", "ese", "aquel", "aquello"],
+    "answer": "aquel",
+    "explain": {
+      "de": "Der Ring ist weit entfernt hinter dem Glas ('del fondo', allí), also 'aquel'; er vertritt 'anillo' (mask. Singular). 'Aquello' wäre das Neutrum ohne Substantiv.",
+      "en": "The ring is far away behind the glass ('del fondo', allí), so 'aquel'; it stands for 'anillo' (masc. singular). 'Aquello' would be the neuter without a noun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Recuerdo ___ mano que me ayudó cuando era niño, allá en mi pueblo. (lejos en tiempo y espacio)",
+    "promptGloss": {
+      "de": "Ich erinnere mich an jene Hand, die mir half, als ich Kind war, dort in meinem Dorf. (fern in Zeit und Raum)",
+      "en": "I remember that hand that helped me when I was a child, back in my village. (far in time and space)"
+    },
+    "answer": "aquella",
+    "explain": {
+      "de": "'Mano' ist feminin (trotz '-o'), und der Bezug liegt fern in Zeit und Raum ('allá', Kindheit), also 'aquella'. 'Esa' wäre nähere Distanz.",
+      "en": "'Mano' is feminine (despite '-o'), and the reference is far in time and space ('allá', childhood), so 'aquella'. 'Esa' would mark nearer distance."
+    }
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Veo ___ María en el parque todos los días.",
+    "promptGloss": {
+      "de": "Ich sehe María jeden Tag im Park.",
+      "en": "I see María in the park every day."
+    },
+    "options": ["a", "—"],
+    "answer": "a",
+    "explain": {
+      "de": "María ist eine bestimmte Person als direktes Objekt, deshalb steht das persönliche „a“. Ohne „a“ wäre es falsch, weil es sich nicht um eine Sache handelt.",
+      "en": "María is a specific person as direct object, so the personal \"a\" is required. Leaving it out is wrong because she is not a thing."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esta tarde esperamos ___ el autobús en la esquina.",
+    "promptGloss": {
+      "de": "Heute Nachmittag warten wir an der Ecke auf den Bus.",
+      "en": "This afternoon we are waiting for the bus on the corner."
+    },
+    "options": ["a", "—"],
+    "answer": "—",
+    "explain": {
+      "de": "„el autobús“ ist eine Sache, kein Mensch, also kein persönliches „a“. Das „a“ würde es fälschlich wie eine Person behandeln.",
+      "en": "\"el autobús\" is a thing, not a person, so no personal \"a\". Adding \"a\" would wrongly treat it like a person."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Conozco ___ tu hermano desde hace muchos años.",
+    "promptGloss": {
+      "de": "Ich kenne deinen Bruder seit vielen Jahren.",
+      "en": "I have known your brother for many years."
+    },
+    "options": ["a", "de", "—"],
+    "answer": "a",
+    "explain": {
+      "de": "„tu hermano“ ist eine konkrete Person als direktes Objekt, daher persönliches „a“. „de“ wäre falsch, weil „conocer“ hier das direkte Objekt ohne Präposition regiert.",
+      "en": "\"tu hermano\" is a specific person as direct object, so the personal \"a\". \"de\" is wrong because \"conocer\" takes a direct object here, not a prepositional one."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Necesito ___ médico, no me importa cuál.",
+    "promptGloss": {
+      "de": "Ich brauche einen Arzt, egal welchen.",
+      "en": "I need a doctor, I don't care which one."
+    },
+    "options": ["a un", "un"],
+    "answer": "un",
+    "explain": {
+      "de": "Hier ist „un médico“ eine beliebige, unbestimmte Person („egal welchen“), deshalb kein persönliches „a“. „a un médico“ würde einen ganz bestimmten Arzt bezeichnen.",
+      "en": "Here \"un médico\" is any non-specific person (\"I don't care which\"), so no personal \"a\". \"a un médico\" would point to one particular doctor."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Tengo ___ dos hermanos y una hermana.",
+    "promptGloss": {
+      "de": "Ich habe zwei Brüder und eine Schwester.",
+      "en": "I have two brothers and one sister."
+    },
+    "options": ["a", "—"],
+    "answer": "—",
+    "explain": {
+      "de": "Nach „tener“ entfällt das persönliche „a“ in der Regel, auch bei Personen. „Tengo a dos hermanos“ klingt falsch, weil „tener“ hier reinen Besitz/Zahl ausdrückt.",
+      "en": "After \"tener\" the personal \"a\" is normally dropped, even with people. \"Tengo a dos hermanos\" sounds wrong because \"tener\" here just states having/number."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Cada mañana busco ___ mi perro por el jardín.",
+    "promptGloss": {
+      "de": "Jeden Morgen suche ich meinen Hund im Garten.",
+      "en": "Every morning I look for my dog in the garden."
+    },
+    "options": ["a", "—"],
+    "answer": "a",
+    "explain": {
+      "de": "Ein bestimmtes, geliebtes Haustier („mi perro“) bekommt das persönliche „a“ wie eine Person. Ohne „a“ würde der Hund wie eine bloße Sache behandelt.",
+      "en": "A specific, beloved pet (\"mi perro\") takes the personal \"a\" like a person. Without \"a\" the dog would be treated as a mere object."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ayer llamé ___ profesor para pedirle ayuda.",
+    "promptGloss": {
+      "de": "Gestern rief ich den Lehrer an, um ihn um Hilfe zu bitten.",
+      "en": "Yesterday I called the teacher to ask him for help."
+    },
+    "options": ["a el", "al", "el"],
+    "answer": "al",
+    "explain": {
+      "de": "„a“ + „el“ verschmilzt immer zu „al“: persönliches „a“ vor der bestimmten Person „el profesor“. „a el“ wird im Spanischen nie getrennt geschrieben.",
+      "en": "\"a\" + \"el\" always contracts to \"al\": personal \"a\" before the specific person \"el profesor\". Spanish never writes \"a el\" separately."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Desde la ventana veo ___ las montañas y el mar.",
+    "promptGloss": {
+      "de": "Vom Fenster aus sehe ich die Berge und das Meer.",
+      "en": "From the window I see the mountains and the sea."
+    },
+    "options": ["a", "—"],
+    "answer": "—",
+    "explain": {
+      "de": "Berge und Meer sind Orte/Sachen, kein bestimmter Mensch, also kein persönliches „a“. Das „a“ ist nur für Personen oder geliebte Tiere reserviert.",
+      "en": "Mountains and sea are places/things, not a specific person, so no personal \"a\". The \"a\" is reserved for people or beloved animals."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿___ quién esperas delante del cine?",
+    "promptGloss": {
+      "de": "Auf wen wartest du vor dem Kino?",
+      "en": "Who are you waiting for in front of the cinema?"
+    },
+    "options": ["A", "—"],
+    "answer": "A",
+    "explain": {
+      "de": "„quién“ fragt nach einer Person als direktem Objekt, daher steht das persönliche „a“ am Satzanfang: „¿A quién…?“. Ohne „a“ würde man nach dem Subjekt fragen („¿Quién espera?“).",
+      "en": "\"quién\" asks for a person as direct object, so the personal \"a\" opens the question: \"¿A quién…?\". Without \"a\" you would be asking for the subject (\"¿Quién espera?\")."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No conozco ___ nadie en esta ciudad todavía.",
+    "promptGloss": {
+      "de": "Ich kenne hier in dieser Stadt noch niemanden.",
+      "en": "I don't know anyone in this city yet."
+    },
+    "options": ["a", "—"],
+    "answer": "a",
+    "explain": {
+      "de": "„nadie“ bezeichnet (verneinte) Personen und verlangt das persönliche „a“: „No conozco a nadie“. Auch „alguien“ würde das „a“ bekommen, obwohl es unbestimmt wirkt.",
+      "en": "\"nadie\" refers to (negated) people and requires the personal \"a\": \"No conozco a nadie\". \"alguien\" would take the \"a\" too, even though it feels indefinite."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Buscamos ___ profesor de español que tenga experiencia.",
+    "promptGloss": {
+      "de": "Wir suchen einen Spanischlehrer, der Erfahrung hat.",
+      "en": "We are looking for a Spanish teacher who has experience."
+    },
+    "options": ["a un", "un"],
+    "answer": "un",
+    "explain": {
+      "de": "Es handelt sich um irgendeinen, noch nicht bestimmten Lehrer (Subjuntivo „tenga“ unterstreicht das), daher kein persönliches „a“. „a un profesor“ würde eine konkrete, schon bekannte Person meinen.",
+      "en": "This is any not-yet-identified teacher (the subjunctive \"tenga\" signals it), so no personal \"a\". \"a un profesor\" would mean one specific, already-known person."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Quiero mucho ___ mi gato; es parte de la familia.",
+    "promptGloss": {
+      "de": "Ich liebe meine Katze sehr; sie gehört zur Familie.",
+      "en": "I love my cat a lot; it's part of the family."
+    },
+    "options": ["a", "—"],
+    "answer": "a",
+    "explain": {
+      "de": "Ein vertrautes, geliebtes Haustier wird wie eine Person behandelt und bekommt das persönliche „a“. Ohne „a“ würde die emotionale Bindung sprachlich verloren gehen.",
+      "en": "A cherished, familiar pet is treated like a person and takes the personal \"a\". Omitting it would lose the emotional bond the construction marks."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Tenemos ___ muchos amigos en Madrid.",
+    "promptGloss": {
+      "de": "Wir haben viele Freunde in Madrid.",
+      "en": "We have many friends in Madrid."
+    },
+    "options": ["a", "—"],
+    "answer": "—",
+    "explain": {
+      "de": "Nach „tener“ entfällt das persönliche „a“, auch wenn es um Personen geht („muchos amigos“). „Tenemos a muchos amigos“ wäre hier unidiomatisch.",
+      "en": "After \"tener\" the personal \"a\" drops out, even with people (\"muchos amigos\"). \"Tenemos a muchos amigos\" would be unidiomatic here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En la calle vi ___ la profesora que me enseñó el año pasado.",
+    "promptGloss": {
+      "de": "Auf der Straße sah ich die Lehrerin, die mich letztes Jahr unterrichtet hat.",
+      "en": "On the street I saw the teacher who taught me last year."
+    },
+    "options": ["a", "—"],
+    "answer": "a",
+    "explain": {
+      "de": "„la profesora“ ist eine ganz bestimmte, identifizierbare Person als direktes Objekt, also persönliches „a“. Das „a“ entfällt nur bei unbestimmten Personen, nicht hier.",
+      "en": "\"la profesora\" is a clearly identified person as direct object, so the personal \"a\". The \"a\" is dropped only for indefinite people, not here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Voy a presentarte ___ mi novia este fin de semana.",
+    "promptGloss": {
+      "de": "Ich werde dir am Wochenende meine Freundin vorstellen.",
+      "en": "I'm going to introduce my girlfriend to you this weekend."
+    },
+    "answer": "a",
+    "explain": {
+      "de": "„mi novia“ ist eine bestimmte Person als direktes Objekt, daher das persönliche „a“. Es ist eine konkrete Person, kein unbestimmtes Objekt, deshalb darf das „a“ nicht fehlen.",
+      "en": "\"mi novia\" is a specific person as direct object, so the personal \"a\". She is a concrete person, not an indefinite object, so the \"a\" cannot be omitted."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Llamé ___ médico que me recomendaste; ya tengo cita. (a + el)",
+    "promptGloss": {
+      "de": "Ich rief den Arzt an, den du mir empfohlen hast; ich habe schon einen Termin. (a + el)",
+      "en": "I called the doctor you recommended to me; I already have an appointment. (a + el)"
+    },
+    "answer": "al",
+    "explain": {
+      "de": "Ein bestimmter, empfohlener Arzt als direktes Objekt verlangt das persönliche „a“, und „a + el“ wird zu „al“ zusammengezogen. Trotz „médico“ ist er hier konkret bestimmt.",
+      "en": "A specific, recommended doctor as direct object requires the personal \"a\", and \"a + el\" contracts to \"al\". Despite \"médico\", he is specific here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿___ cuántos estudiantes invitaste a la fiesta?",
+    "promptGloss": {
+      "de": "Wie viele Studenten hast du zur Party eingeladen?",
+      "en": "How many students did you invite to the party?"
+    },
+    "answer": "A",
+    "explain": {
+      "de": "„cuántos estudiantes“ sind Personen als direktes Objekt, deshalb steht das persönliche „a“ vorne: „¿A cuántos…?“. Auch bei einer Menge bestimmter Personen bleibt das „a“ erhalten.",
+      "en": "\"cuántos estudiantes\" are people as direct object, so the personal \"a\" opens the question: \"¿A cuántos…?\". Even with a quantity of specific people the \"a\" stays."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Esta noche tengo ___ tres invitados en casa, así que cocinaré mucho.",
+    "promptGloss": {
+      "de": "Heute Abend habe ich drei Gäste zu Hause, also werde ich viel kochen.",
+      "en": "Tonight I have three guests at home, so I'll cook a lot."
+    },
+    "answer": "—",
+    "altAnswers": ["", "-"],
+    "explain": {
+      "de": "Nach „tener“ steht kein persönliches „a“, auch nicht vor Personen wie „tres invitados“. Hier drückt „tener“ bloßes Haben aus, deshalb bleibt das „a“ weg.",
+      "en": "After \"tener\" there is no personal \"a\", not even before people like \"tres invitados\". Here \"tener\" expresses plain having, so the \"a\" stays out."
+    }
+  }
+]

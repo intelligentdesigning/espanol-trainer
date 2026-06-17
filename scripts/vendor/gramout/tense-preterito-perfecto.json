@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Esta semana ___ trabajado mucho.",
+    "promptGloss": {
+      "de": "Diese Woche habe ich viel gearbeitet.",
+      "en": "This week I have worked a lot."
+    },
+    "options": ["he", "ha", "has", "han"],
+    "answer": "he",
+    "explain": {
+      "de": "Das Hilfsverb haber wird im Präsens konjugiert; für yo lautet die Form 'he'. 'ha' wäre 3. Person Singular (él/ella), passt also nicht zum Subjekt 'ich'.",
+      "en": "The auxiliary haber is conjugated in the present; the yo form is 'he'. 'ha' is third person singular (él/ella) and does not match the subject 'I'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Nosotros ___ comido en casa hoy.",
+    "promptGloss": {
+      "de": "Wir haben heute zu Hause gegessen.",
+      "en": "We have eaten at home today."
+    },
+    "answer": "hemos",
+    "explain": {
+      "de": "haber in der 1. Person Plural ist 'hemos' (he, has, ha, hemos, habéis, han). Nur haber wird konjugiert, das Partizip 'comido' bleibt unverändert.",
+      "en": "haber in the first person plural is 'hemos' (he, has, ha, hemos, habéis, han). Only haber is conjugated; the participle 'comido' stays the same."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿Vosotros habéis ___ aquí mucho tiempo? (vivir)",
+    "promptGloss": {
+      "de": "Habt ihr lange hier gewohnt?",
+      "en": "Have you (pl.) lived here for a long time?"
+    },
+    "answer": "vivido",
+    "explain": {
+      "de": "Regelmäßiges -ir-Verb: Stamm 'viv-' + Endung '-ido' = 'vivido'. Das Partizip ist eine feste Form und ändert sich nicht nach Person oder Zahl.",
+      "en": "Regular -ir verb: stem 'viv-' + ending '-ido' = 'vivido'. The participle is a fixed form and does not change for person or number."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ellos han ___ aquí toda su vida.",
+    "promptGloss": {
+      "de": "Sie haben ihr ganzes Leben lang hier gewohnt.",
+      "en": "They have lived here all their lives."
+    },
+    "options": ["vivido", "vividos", "vividas", "viviendo"],
+    "answer": "vivido",
+    "explain": {
+      "de": "Das Partizip nach haber bleibt immer in der Grundform 'vivido' – es kongruiert NICHT in Geschlecht/Zahl, daher kein 'vividos'. 'viviendo' wäre das Gerundium, nicht das Partizip.",
+      "en": "The participle after haber always stays as 'vivido' – it does NOT agree in gender/number, so 'vividos' is wrong. 'viviendo' is the gerund, not the participle."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ya ___ hecho la tarea, por eso puedo descansar. (yo)",
+    "promptGloss": {
+      "de": "Ich habe die Aufgabe schon gemacht, deshalb kann ich mich ausruhen.",
+      "en": "I have already done the homework, that's why I can rest."
+    },
+    "answer": "he",
+    "explain": {
+      "de": "'ya' (= schon) signalisiert jüngste Vergangenheit mit Bezug zum Jetzt – typisch fürs pretérito perfecto. Subjekt ist 'yo', also haber = 'he'.",
+      "en": "'ya' (= already) signals a recent past with present relevance – typical for the pretérito perfecto. The subject is 'yo', so haber = 'he'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Alguna vez ___ estado en España?",
+    "promptGloss": {
+      "de": "Warst du schon mal in Spanien?",
+      "en": "Have you ever been to Spain?"
+    },
+    "options": ["has", "he", "habéis", "han"],
+    "answer": "has",
+    "explain": {
+      "de": "'alguna vez' (= je) leitet eine Frage nach Lebenserfahrung ein, hier an 'tú' gerichtet: haber = 'has'. 'habéis' wäre für 'vosotros', passt nicht zur Du-Frage.",
+      "en": "'alguna vez' (= ever) introduces a question about life experience, here addressed to 'tú': haber = 'has'. 'habéis' would be for 'vosotros' and does not fit a 'you (sg.)' question."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Todavía no ___ visto la película; ¿me la recomiendas? (yo)",
+    "promptGloss": {
+      "de": "Ich habe den Film noch nicht gesehen; empfiehlst du ihn mir?",
+      "en": "I haven't seen the film yet; do you recommend it to me?"
+    },
+    "answer": "he",
+    "explain": {
+      "de": "'todavía no' (= noch nicht) ist ein typischer Auslöser fürs pretérito perfecto bei Erfahrungen bis jetzt. Für 'yo' ist haber = 'he'.",
+      "en": "'todavía no' (= not yet) is a typical trigger for the pretérito perfecto with experiences up to now. For 'yo', haber = 'he'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mi hermano ha ___ un pastel para la fiesta. (hacer)",
+    "promptGloss": {
+      "de": "Mein Bruder hat einen Kuchen für die Party gemacht.",
+      "en": "My brother has made a cake for the party."
+    },
+    "answer": "hecho",
+    "explain": {
+      "de": "'hacer' hat ein unregelmäßiges Partizip: 'hecho' (nicht 'hacido'). Es gehört zu den festen Ausnahmen wie dicho, visto, escrito.",
+      "en": "'hacer' has an irregular participle: 'hecho' (not 'hacido'). It is one of the fixed exceptions like dicho, visto, escrito."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El profesor ha ___ que el examen es mañana.",
+    "promptGloss": {
+      "de": "Der Lehrer hat gesagt, dass die Prüfung morgen ist.",
+      "en": "The teacher has said that the exam is tomorrow."
+    },
+    "options": ["dicho", "decido", "dicido", "diciendo"],
+    "answer": "dicho",
+    "explain": {
+      "de": "'decir' bildet ein unregelmäßiges Partizip: 'dicho'. Die regelmäßig wirkenden Formen 'decido'/'dicido' existieren nicht; 'diciendo' ist das Gerundium.",
+      "en": "'decir' has an irregular participle: 'dicho'. The regular-looking forms 'decido'/'dicido' do not exist; 'diciendo' is the gerund."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿Quién ha ___ la ventana? Hace mucho frío. (abrir)",
+    "promptGloss": {
+      "de": "Wer hat das Fenster geöffnet? Es ist sehr kalt.",
+      "en": "Who has opened the window? It's very cold."
+    },
+    "answer": "abierto",
+    "explain": {
+      "de": "'abrir' hat das unregelmäßige Partizip 'abierto' (nicht 'abrido'). Es zählt zur Liste hecho, dicho, visto, escrito, vuelto, puesto, roto, abierto.",
+      "en": "'abrir' has the irregular participle 'abierto' (not 'abrido'). It belongs to the list hecho, dicho, visto, escrito, vuelto, puesto, roto, abierto."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esta mañana (yo) ___ al médico porque me dolía la cabeza.",
+    "promptGloss": {
+      "de": "Heute Morgen bin ich zum Arzt gegangen, weil ich Kopfschmerzen hatte.",
+      "en": "This morning I have gone to the doctor because I had a headache."
+    },
+    "options": ["he ido", "he idó", "soy ido", "he iendo"],
+    "answer": "he ido",
+    "explain": {
+      "de": "Das Perfekt wird IMMER mit haber gebildet – nie mit 'ser'/'estar' (daher kein 'soy ido', anders als im Deutschen 'ich bin gegangen'). 'ir' hat das regelmäßige Partizip 'ido'.",
+      "en": "The present perfect is ALWAYS formed with haber – never with 'ser'/'estar' (so 'soy ido' is wrong, unlike German/some languages). 'ir' has the regular participle 'ido'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ayer ___ al cine con mis amigos y volvimos tarde.",
+    "promptGloss": {
+      "de": "Gestern ging ich mit meinen Freunden ins Kino und wir kamen spät zurück.",
+      "en": "Yesterday I went to the cinema with my friends and we came back late."
+    },
+    "options": ["fui", "he ido"],
+    "answer": "fui",
+    "explain": {
+      "de": "'ayer' (= gestern) ist eine abgeschlossene Zeitangabe ohne Gegenwartsbezug und verlangt das indefinido 'fui', nicht das perfecto. Das perfecto braucht Marker wie hoy, esta semana, ya.",
+      "en": "'ayer' (= yesterday) is a closed time frame with no present relevance and requires the preterite 'fui', not the perfect. The perfect needs markers like hoy, esta semana, ya."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hoy ___ un día estupendo: todo ha salido bien.",
+    "promptGloss": {
+      "de": "Heute war ein toller Tag: alles ist gut gelaufen.",
+      "en": "Today has been a great day: everything has gone well."
+    },
+    "options": ["ha sido", "fue", "era", "es"],
+    "answer": "ha sido",
+    "explain": {
+      "de": "'hoy' bezieht sich auf den noch andauernden Zeitraum 'heute', daher pretérito perfecto 'ha sido'. 'fue' (indefinido) würde 'hoy' als abgeschlossen markieren – passt hier nicht.",
+      "en": "'hoy' refers to the still-ongoing period 'today', so pretérito perfecto 'ha sido'. 'fue' (preterite) would treat 'today' as closed – which doesn't fit."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No ___ podido dormir esta noche por el ruido. (nosotros)",
+    "promptGloss": {
+      "de": "Wir haben diese Nacht wegen des Lärms nicht schlafen können.",
+      "en": "We have not been able to sleep tonight because of the noise."
+    },
+    "answer": "hemos",
+    "explain": {
+      "de": "Die Verneinung 'no' steht vor dem konjugierten haber, das hier 'hemos' (nosotros) lautet; haber und Partizip 'podido' dürfen nicht getrennt werden.",
+      "en": "The negation 'no' comes before the conjugated haber, here 'hemos' (nosotros); haber and the participle 'podido' must not be separated."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ana se ___ levantado muy temprano esta mañana.",
+    "promptGloss": {
+      "de": "Ana ist heute Morgen sehr früh aufgestanden.",
+      "en": "Ana has gotten up very early this morning."
+    },
+    "options": ["ha", "ha se", "está", "es"],
+    "answer": "ha",
+    "explain": {
+      "de": "Bei reflexiven Verben steht das Pronomen 'se' VOR dem konjugierten haber ('se ha levantado'), nie dazwischen ('ha se'). Das Perfekt nutzt haber, nicht 'estar' oder 'ser'.",
+      "en": "With reflexive verbs the pronoun 'se' goes BEFORE the conjugated haber ('se ha levantado'), never between them ('ha se'). The perfect uses haber, not 'estar' or 'ser'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Vosotros ___ sido muy amables conmigo hoy. (haber)",
+    "promptGloss": {
+      "de": "Ihr seid heute sehr nett zu mir gewesen.",
+      "en": "You (pl.) have been very kind to me today."
+    },
+    "answer": "habéis",
+    "explain": {
+      "de": "Die 2. Person Plural von haber ist 'habéis' (mit Akzent). Das Partizip von 'ser' ist regelmäßig 'sido' und bleibt unverändert.",
+      "en": "The second person plural of haber is 'habéis' (with accent). The participle of 'ser' is the regular 'sido' and stays unchanged."
+    }
+  }
+]

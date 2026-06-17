@@ -1,0 +1,275 @@
+[
+ {
+  "kind": "choice",
+  "prompt": "María es más alta ___ Juan.",
+  "promptGloss": {
+   "de": "María ist größer als Juan.",
+   "en": "María is taller than Juan."
+  },
+  "options": ["que", "como", "de", "a"],
+  "answer": "que",
+  "explain": {
+   "de": "Im ungleichen Vergleich heißt 'als' immer 'que': más + Adjektiv + que. 'como' gehört zum Gleichheitsvergleich (tan ... como), 'de' nur vor Zahlen.",
+   "en": "In an unequal comparison 'than' is always 'que': más + adjective + que. 'como' belongs to the equality comparison (tan ... como), and 'de' is only used before numbers."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Este libro es ___ interesante que el otro.",
+  "promptGloss": {
+   "de": "Dieses Buch ist weniger interessant als das andere.",
+   "en": "This book is less interesting than the other."
+  },
+  "options": ["menos", "menor", "poco", "tan"],
+  "answer": "menos",
+  "explain": {
+   "de": "Für 'weniger ... als' braucht man 'menos + Adjektiv + que'. 'menor' ist der unregelmäßige Komparativ von 'pequeño' (kleiner/jünger), nicht 'weniger'.",
+   "en": "For 'less ... than' you need 'menos + adjective + que'. 'menor' is the irregular comparative of 'pequeño' (smaller/younger), not 'less'."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "En la fiesta había más ___ cincuenta personas.",
+  "promptGloss": {
+   "de": "Auf der Party waren mehr als fünfzig Personen.",
+   "en": "At the party there were more than fifty people."
+  },
+  "options": ["de", "que", "como", "a"],
+  "answer": "de",
+  "explain": {
+   "de": "Vor einer konkreten Zahl wird 'als' zu 'de': más de cincuenta. Mit 'que' (más que cincuenta) wäre es falsch, weil hier keine zwei Dinge verglichen werden, sondern eine Menge angegeben wird.",
+   "en": "Before a specific number 'than' becomes 'de': más de cincuenta. Using 'que' (más que cincuenta) is wrong here because you are not comparing two things but stating a quantity."
+  }
+ },
+ {
+  "kind": "fill",
+  "prompt": "No tengo mucho dinero: tengo menos ___ diez euros.",
+  "promptGloss": {
+   "de": "Ich habe nicht viel Geld: Ich habe weniger als zehn Euro.",
+   "en": "I don't have much money: I have less than ten euros."
+  },
+  "answer": "de",
+  "explain": {
+   "de": "Auch bei 'weniger als' steht vor einer Zahl 'de', nicht 'que': menos de diez euros. Die Regel 'de vor Zahl' gilt für más und menos gleichermaßen.",
+   "en": "With 'less than' before a number you also use 'de', not 'que': menos de diez euros. The 'de before a number' rule applies to both más and menos."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Pedro es ___ rápido como su hermano.",
+  "promptGloss": {
+   "de": "Pedro ist genauso schnell wie sein Bruder.",
+   "en": "Pedro is as fast as his brother."
+  },
+  "options": ["tan", "tanto", "más", "tana"],
+  "answer": "tan",
+  "explain": {
+   "de": "Vor einem Adjektiv steht im Gleichheitsvergleich die unveränderliche Form 'tan ... como'. 'tanto' wird nur vor Nomen benutzt (tanto dinero, tantos amigos).",
+   "en": "Before an adjective the equality comparison uses the invariable form 'tan ... como'. 'tanto' is only used before nouns (tanto dinero, tantos amigos)."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Tengo ___ amigos como tú.",
+  "promptGloss": {
+   "de": "Ich habe genauso viele Freunde wie du.",
+   "en": "I have as many friends as you."
+  },
+  "options": ["tantos", "tan", "tantas", "tanto"],
+  "answer": "tantos",
+  "explain": {
+   "de": "Vor einem Nomen muss sich 'tanto' in Genus und Numerus anpassen: 'amigos' ist maskulin Plural, also 'tantos amigos como'. 'tan' steht nur vor Adjektiven.",
+   "en": "Before a noun 'tanto' must agree in gender and number: 'amigos' is masculine plural, so 'tantos amigos como'. 'tan' is only used before adjectives."
+  }
+ },
+ {
+  "kind": "fill",
+  "prompt": "Ella bebe ___ agua como yo. (tanto)",
+  "promptGloss": {
+   "de": "Sie trinkt genauso viel Wasser wie ich.",
+   "en": "She drinks as much water as I do."
+  },
+  "answer": "tanta",
+  "explain": {
+   "de": "'agua' ist feminin Singular (la agua → grammatisch feminin), daher 'tanta agua como'. Das anlautende betonte a- ändert nur den Artikel zu 'el', nicht das Genus.",
+   "en": "'agua' is feminine singular, so 'tanta agua como'. The stressed initial a- only changes the article to 'el', not the grammatical gender."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Es la chica ___ inteligente de la clase.",
+  "promptGloss": {
+   "de": "Sie ist das klügste Mädchen der Klasse.",
+   "en": "She is the smartest girl in the class."
+  },
+  "options": ["más", "tan", "muy", "mucho"],
+  "answer": "más",
+  "explain": {
+   "de": "Der relative Superlativ ist 'Artikel + más/menos + Adjektiv': la chica más inteligente. 'muy' bildet keinen Superlativ, sondern nur eine Verstärkung ('sehr').",
+   "en": "The relative superlative is 'article + más/menos + adjective': la chica más inteligente. 'muy' does not form a superlative, it only intensifies ('very')."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Son los días más largos ___ año.",
+  "promptGloss": {
+   "de": "Es sind die längsten Tage des Jahres.",
+   "en": "They are the longest days of the year."
+  },
+  "options": ["del", "en el", "que el", "de el"],
+  "answer": "del",
+  "explain": {
+   "de": "Nach dem Superlativ wird 'von/in' zu 'de': de + el = del año. Im Deutschen steht 'in', im Spanischen aber niemals 'en' nach dem Superlativ.",
+   "en": "After a superlative 'of/in' becomes 'de': de + el = del año. German uses 'in', but Spanish never uses 'en' after the superlative."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Este restaurante es ___ que aquel.",
+  "promptGloss": {
+   "de": "Dieses Restaurant ist besser als jenes.",
+   "en": "This restaurant is better than that one."
+  },
+  "options": ["mejor", "más bueno", "más mejor", "bueno"],
+  "answer": "mejor",
+  "explain": {
+   "de": "'bueno' hat den unregelmäßigen Komparativ 'mejor', der 'más' bereits enthält. Deshalb sind 'más bueno' und 'más mejor' falsch.",
+   "en": "'bueno' has the irregular comparative 'mejor', which already contains 'más'. That is why 'más bueno' and 'más mejor' are wrong."
+  }
+ },
+ {
+  "kind": "fill",
+  "prompt": "La comida de hoy está ___ que la de ayer; ¡qué asco! (malo → schlechter)",
+  "promptGloss": {
+   "de": "Das Essen von heute ist schlechter als das von gestern; wie eklig!",
+   "en": "Today's food is worse than yesterday's; how disgusting!"
+  },
+  "answer": "peor",
+  "explain": {
+   "de": "Der unregelmäßige Komparativ von 'malo' ist 'peor' und ersetzt 'más malo'. 'peor' ist unveränderlich im Genus, nur der Plural lautet 'peores'.",
+   "en": "The irregular comparative of 'malo' is 'peor', replacing 'más malo'. 'peor' is invariable in gender; only the plural is 'peores'."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Mi hermano ___ tiene treinta años; yo solo tengo veinte.",
+  "promptGloss": {
+   "de": "Mein älterer Bruder ist dreißig; ich bin erst zwanzig.",
+   "en": "My older brother is thirty; I'm only twenty."
+  },
+  "options": ["mayor", "más viejo", "más grande", "menor"],
+  "answer": "mayor",
+  "explain": {
+   "de": "Bei Personenalter heißt 'älter' 'mayor' (unregelmäßiger Komparativ von 'grande'). 'más viejo' beschreibt eher Verschleiß, und 'menor' wäre 'jünger'.",
+   "en": "For a person's age, 'older' is 'mayor' (irregular comparative of 'grande'). 'más viejo' implies being worn/aged, and 'menor' would mean 'younger'."
+  }
+ },
+ {
+  "kind": "fill",
+  "prompt": "Lucía es la ___ de las tres hermanas: solo tiene seis años. (pequeño → die Jüngste)",
+  "promptGloss": {
+   "de": "Lucía ist die Jüngste der drei Schwestern: Sie ist erst sechs.",
+   "en": "Lucía is the youngest of the three sisters: she is only six."
+  },
+  "answer": "menor",
+  "explain": {
+   "de": "Im Superlativ wird der unregelmäßige Komparativ 'menor' mit Artikel verwendet: la menor = die Jüngste. 'la más pequeña' wäre eher körperlich 'die Kleinste'.",
+   "en": "In the superlative the irregular comparative 'menor' takes the article: la menor = the youngest. 'la más pequeña' would rather mean physically 'the smallest'."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Estos zapatos son ___ que los míos: pagaste el doble.",
+  "promptGloss": {
+   "de": "Diese Schuhe sind teurer als meine: Du hast das Doppelte bezahlt.",
+   "en": "These shoes are more expensive than mine: you paid double."
+  },
+  "options": ["más caros", "carísimos", "mejores", "tan caros"],
+  "answer": "más caros",
+  "explain": {
+   "de": "'caro' ist regelmäßig und bildet den Komparativ mit 'más caros que'. 'carísimos' wäre der absolute Superlativ ('sehr teuer') ohne Vergleich und passt nicht zu 'que'.",
+   "en": "'caro' is regular and forms its comparative with 'más caros que'. 'carísimos' is the absolute superlative ('very expensive') without comparison and cannot combine with 'que'."
+  }
+ },
+ {
+  "kind": "fill",
+  "prompt": "¡Qué rica! La paella está ___. (bueno → äußerst lecker, absoluter Superlativ)",
+  "promptGloss": {
+   "de": "Wie köstlich! Die Paella ist superlecker.",
+   "en": "How delicious! The paella is extremely tasty."
+  },
+  "answer": "buenísima",
+  "explain": {
+   "de": "Der absolute Superlativ von 'bueno' lautet 'buenísimo/-a' und passt sich an 'paella' (feminin) an: buenísima. Endvokal '-o' entfällt vor '-ísimo'.",
+   "en": "The absolute superlative of 'bueno' is 'buenísimo/-a' and agrees with 'paella' (feminine): buenísima. The final '-o' is dropped before '-ísimo'."
+  }
+ },
+ {
+  "kind": "fill",
+  "prompt": "En esta zona las casas son ___: nadie normal puede comprarlas. (caro → extrem teuer, Plural feminin)",
+  "promptGloss": {
+   "de": "In dieser Gegend sind die Häuser sündhaft teuer: Niemand Normales kann sie kaufen.",
+   "en": "In this area the houses are extremely expensive: no ordinary person can buy them."
+  },
+  "answer": "carísimas",
+  "explain": {
+   "de": "Der absolute Superlativ '-ísimo' passt sich in Genus und Numerus an: casas (feminin Plural) → carísimas. Der Endvokal von 'caro' entfällt vor der Endung.",
+   "en": "The absolute superlative '-ísimo' agrees in gender and number: casas (feminine plural) → carísimas. The final vowel of 'caro' is dropped before the ending."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Hoy hace ___ calor que ayer; no se puede ni respirar.",
+  "promptGloss": {
+   "de": "Heute ist es heißer als gestern; man kann kaum atmen.",
+   "en": "Today it's hotter than yesterday; you can barely breathe."
+  },
+  "options": ["más", "tan", "tanto", "muy"],
+  "answer": "más",
+  "explain": {
+   "de": "'calor' ist hier ein Nomen, und der ungleiche Vergleich mit Nomen lautet 'más calor que'. 'tanto' bräuchte 'como' (tanto calor como), und 'muy' kann nicht mit 'que' kombiniert werden.",
+   "en": "'calor' is a noun here, and the unequal comparison with a noun is 'más calor que'. 'tanto' would require 'como' (tanto calor como), and 'muy' cannot combine with 'que'."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Este examen no fue ___ difícil como esperábamos.",
+  "promptGloss": {
+   "de": "Diese Prüfung war nicht so schwer wie erwartet.",
+   "en": "This exam wasn't as hard as we expected."
+  },
+  "options": ["tan", "tanto", "más", "como"],
+  "answer": "tan",
+  "explain": {
+   "de": "Auch im verneinten Gleichheitsvergleich gilt vor einem Adjektiv 'tan ... como': no tan difícil como. 'tanto' wäre nur vor einem Nomen korrekt.",
+   "en": "Even in a negated equality comparison, before an adjective you use 'tan ... como': no tan difícil como. 'tanto' would only be correct before a noun."
+  }
+ },
+ {
+  "kind": "choice",
+  "prompt": "Madrid es una de las ciudades ___ grandes de España.",
+  "promptGloss": {
+   "de": "Madrid ist eine der größten Städte Spaniens.",
+   "en": "Madrid is one of the biggest cities in Spain."
+  },
+  "options": ["más", "mayores", "tan", "muy"],
+  "answer": "más",
+  "explain": {
+   "de": "Bei Flächen/Städten meint 'größer' physische Größe, also der regelmäßige Superlativ 'las ciudades más grandes'. 'mayores' bezieht sich auf Alter/Wichtigkeit oder Personen, nicht auf die physische Stadtgröße.",
+   "en": "For cities, 'biggest' refers to physical size, so the regular superlative 'las ciudades más grandes'. 'mayores' refers to age/importance or people, not the physical size of a city."
+  }
+ },
+ {
+  "kind": "fill",
+  "prompt": "Luis estudia mucho, pero Ana estudia ___ como él. (genauso viel — vor Verb)",
+  "promptGloss": {
+   "de": "Luis lernt viel, aber Ana lernt genauso viel wie er.",
+   "en": "Luis studies a lot, but Ana studies as much as he does."
+  },
+  "answer": "tanto",
+  "explain": {
+   "de": "Wenn sich 'genauso viel' auf ein Verb bezieht (lernen), steht das unveränderliche 'tanto como': estudia tanto como él. Hier wird 'tanto' nicht angepasst, weil kein Nomen folgt.",
+   "en": "When 'as much' refers to a verb (to study), use the invariable 'tanto como': estudia tanto como él. Here 'tanto' does not agree because no noun follows."
+  }
+ }
+]

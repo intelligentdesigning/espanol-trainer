@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "fill",
+    "prompt": "El participio de \"hablar\" es ___.",
+    "promptGloss": {
+      "de": "Das Partizip von \"hablar\" ist ___.",
+      "en": "The past participle of \"hablar\" is ___."
+    },
+    "answer": "hablado",
+    "explain": {
+      "de": "Verben auf -ar bilden das Partizip mit -ado: habl- + -ado. Falsch wäre \"hablido\", denn -ido gehört zu -er/-ir-Verben.",
+      "en": "-ar verbs form the participle with -ado: habl- + -ado. \"hablido\" would be wrong, since -ido belongs to -er/-ir verbs."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El participio de \"vivir\" es ___.",
+    "promptGloss": {
+      "de": "Das Partizip von \"vivir\" ist ___.",
+      "en": "The past participle of \"vivir\" is ___."
+    },
+    "answer": "vivido",
+    "explain": {
+      "de": "Verben auf -ir nehmen die Endung -ido: viv- + -ido. Nur -ar-Verben enden auf -ado.",
+      "en": "-ir verbs take the ending -ido: viv- + -ido. Only -ar verbs end in -ado."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Nunca había ___ tanto en mi vida.",
+    "promptGloss": {
+      "de": "Ich hatte noch nie so viel gegessen in meinem Leben.",
+      "en": "I had never eaten so much in my life."
+    },
+    "options": ["comido", "comado", "comiendo", "comer"],
+    "answer": "comido",
+    "explain": {
+      "de": "\"comer\" ist ein -er-Verb, also com- + -ido = comido. \"comado\" verwechselt die Endung mit -ar, und \"comiendo\" ist das Gerundium, nicht das Partizip.",
+      "en": "\"comer\" is an -er verb, so com- + -ido = comido. \"comado\" mixes up the -ar ending, and \"comiendo\" is the gerund, not the participle."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿Has ___ tú la tarea? (hacer)",
+    "promptGloss": {
+      "de": "Hast du die Hausaufgabe gemacht? (hacer)",
+      "en": "Have you done the homework? (hacer)"
+    },
+    "answer": "hecho",
+    "explain": {
+      "de": "\"hacer\" hat ein unregelmäßiges Partizip: hecho (nicht \"hacido\"). Solche Formen muss man auswendig lernen.",
+      "en": "\"hacer\" has an irregular participle: hecho (not \"hacido\"). Such forms must be memorized."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mi abuela me ha ___ que vendrá mañana.",
+    "promptGloss": {
+      "de": "Meine Großmutter hat mir gesagt, dass sie morgen kommt.",
+      "en": "My grandmother has told me that she will come tomorrow."
+    },
+    "options": ["dicho", "decido", "dicido", "diciendo"],
+    "answer": "dicho",
+    "explain": {
+      "de": "Das Partizip von \"decir\" ist unregelmäßig: dicho. \"decido\"/\"dicido\" wären regelmäßige Bildungen, die hier nicht gelten.",
+      "en": "The participle of \"decir\" is irregular: dicho. \"decido\"/\"dicido\" would be regular formations that don't apply here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No he ___ esa película todavía. (ver)",
+    "promptGloss": {
+      "de": "Ich habe diesen Film noch nicht gesehen. (ver)",
+      "en": "I haven't seen that film yet. (ver)"
+    },
+    "answer": "visto",
+    "explain": {
+      "de": "\"ver\" bildet das unregelmäßige Partizip visto, nicht \"veído\". Es gehört zu den auswendig zu lernenden Formen.",
+      "en": "\"ver\" forms the irregular participle visto, not \"veído\". It is one of the forms to memorize."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ana ha ___ una carta a su madre esta mañana.",
+    "promptGloss": {
+      "de": "Ana hat ihrer Mutter heute Morgen einen Brief geschrieben.",
+      "en": "Ana has written a letter to her mother this morning."
+    },
+    "options": ["escrito", "escribido", "escribto", "escribiendo"],
+    "answer": "escrito",
+    "explain": {
+      "de": "\"escribir\" hat das unregelmäßige Partizip escrito. \"escribido\" wendet fälschlich die Regel an, \"escribiendo\" ist das Gerundium.",
+      "en": "\"escribir\" has the irregular participle escrito. \"escribido\" wrongly applies the rule, and \"escribiendo\" is the gerund."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Después del accidente, el espejo quedó ___. (romper)",
+    "promptGloss": {
+      "de": "Nach dem Unfall war der Spiegel kaputt. (romper)",
+      "en": "After the accident, the mirror was broken. (romper)"
+    },
+    "answer": "roto",
+    "explain": {
+      "de": "\"romper\" hat das unregelmäßige Partizip roto. Hier steht es als Adjektiv nach \"quedar\" und passt sich an: maskulin Singular = roto.",
+      "en": "\"romper\" has the irregular participle roto. Here it works as an adjective after \"quedar\" and agrees: masculine singular = roto."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ellos han ___ a casa muy tarde.",
+    "promptGloss": {
+      "de": "Sie sind sehr spät nach Hause zurückgekehrt.",
+      "en": "They have returned home very late."
+    },
+    "options": ["vuelto", "vueltos", "volvido", "volviendo"],
+    "answer": "vuelto",
+    "explain": {
+      "de": "\"volver\" hat das unregelmäßige Partizip vuelto. Nach haber bleibt es unverändert auf -o, also nicht \"vueltos\", obwohl das Subjekt Plural ist.",
+      "en": "\"volver\" has the irregular participle vuelto. After haber it stays unchanged ending in -o, so not \"vueltos\", even though the subject is plural."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Las chicas han ___ muy contentas a la fiesta.",
+    "promptGloss": {
+      "de": "Die Mädchen sind sehr fröhlich zur Party gekommen.",
+      "en": "The girls have arrived very happily at the party."
+    },
+    "options": ["llegado", "llegadas", "llegados", "llegando"],
+    "answer": "llegado",
+    "explain": {
+      "de": "Nach haber bleibt das Partizip immer auf -o, egal welches Subjekt: llegado. \"llegadas\" wäre nur als Adjektiv richtig, nicht in der zusammengesetzten Zeit.",
+      "en": "After haber the participle always stays in -o regardless of subject: llegado. \"llegadas\" would only be right as an adjective, not in the compound tense."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "La tienda está ___ los domingos por la tarde.",
+    "promptGloss": {
+      "de": "Der Laden ist sonntags nachmittags geschlossen.",
+      "en": "The shop is closed on Sunday afternoons."
+    },
+    "options": ["cerrada", "cerrado", "cerradas", "cerrar"],
+    "answer": "cerrada",
+    "explain": {
+      "de": "Hier ist das Partizip ein Adjektiv nach \"estar\" und passt sich an \"la tienda\" an: weiblich Singular = cerrada. Nach haber wäre es dagegen unveränderlich (cerrado).",
+      "en": "Here the participle is an adjective after \"estar\" and agrees with \"la tienda\": feminine singular = cerrada. After haber, by contrast, it would be invariable (cerrado)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Recogió todos los platos ___ del suelo. (romper)",
+    "promptGloss": {
+      "de": "Er/Sie sammelte alle kaputten Teller vom Boden auf. (romper)",
+      "en": "He/She picked up all the broken plates from the floor. (romper)"
+    },
+    "answer": "rotos",
+    "explain": {
+      "de": "Als Adjektiv passt sich das Partizip in Geschlecht und Zahl an \"los platos\" an: maskulin Plural = rotos. Grundform roto wird hier zu rotos.",
+      "en": "As an adjective the participle agrees in gender and number with \"los platos\": masculine plural = rotos. The base form roto becomes rotos here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Me encantan las puertas ___ de par en par en verano. (abrir)",
+    "promptGloss": {
+      "de": "Ich liebe die weit geöffneten Türen im Sommer. (abrir)",
+      "en": "I love the wide-open doors in summer. (abrir)"
+    },
+    "answer": "abiertas",
+    "explain": {
+      "de": "\"abrir\" hat das unregelmäßige Partizip abierto; als Adjektiv zu \"las puertas\" wird es weiblich Plural: abiertas. Zwei Regeln greifen zugleich: unregelmäßig + Anpassung.",
+      "en": "\"abrir\" has the irregular participle abierto; as an adjective for \"las puertas\" it becomes feminine plural: abiertas. Two rules apply at once: irregular plus agreement."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Nosotros hemos ___ aquí muchos años antes de mudarnos.",
+    "promptGloss": {
+      "de": "Wir haben viele Jahre hier gelebt, bevor wir umgezogen sind.",
+      "en": "We have lived here for many years before moving."
+    },
+    "options": ["vivido", "vividos", "vivado", "viviendo"],
+    "answer": "vivido",
+    "explain": {
+      "de": "Nach haber bleibt das Partizip unverändert auf -o: vivido. \"vividos\" wäre falsch, weil das Partizip sich in zusammengesetzten Zeiten nie an das Subjekt anpasst.",
+      "en": "After haber the participle stays unchanged in -o: vivido. \"vividos\" would be wrong, because the participle never agrees with the subject in compound tenses."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "He ___ los libros en la mesa de la cocina.",
+    "promptGloss": {
+      "de": "Ich habe die Bücher auf den Küchentisch gestellt/gelegt.",
+      "en": "I have put the books on the kitchen table."
+    },
+    "options": ["puesto", "puestos", "ponido", "poniendo"],
+    "answer": "puesto",
+    "explain": {
+      "de": "\"poner\" hat das unregelmäßige Partizip puesto, und nach haber bleibt es auf -o, trotz \"los libros\". \"puestos\" wäre nur als Adjektiv möglich.",
+      "en": "\"poner\" has the irregular participle puesto, and after haber it stays in -o, despite \"los libros\". \"puestos\" would only be possible as an adjective."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El participio no se conjuga en seis personas; \"hacer\" tiene una sola forma base: ___.",
+    "promptGloss": {
+      "de": "Das Partizip wird nicht in sechs Personen konjugiert; \"hacer\" hat nur eine Grundform: ___.",
+      "en": "The participle is not conjugated in six persons; \"hacer\" has a single base form: ___."
+    },
+    "answer": "hecho",
+    "explain": {
+      "de": "Das Partizip hat keine Personalformen wie ein konjugiertes Verb; es gibt nur die Grundform hecho. Anpassungen (hecha, hechos) sind nur die Adjektiv-Endungen, keine Personen.",
+      "en": "The participle has no personal forms like a conjugated verb; there is only the base form hecho. Variations (hecha, hechos) are just adjective endings, not persons."
+    }
+  }
+]

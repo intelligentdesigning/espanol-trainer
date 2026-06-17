@@ -1,0 +1,274 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "___ libro está en la mesa.",
+    "promptGloss": {
+      "de": "Das Buch liegt auf dem Tisch.",
+      "en": "The book is on the table."
+    },
+    "options": ["El", "La"],
+    "answer": "El",
+    "explain": {
+      "de": "Nomen auf -o sind in der Regel maskulin, daher 'el libro'. 'La' wäre nur bei einem femininen Nomen richtig.",
+      "en": "Nouns ending in -o are usually masculine, so 'el libro'. 'La' would only fit a feminine noun."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ casa de mis abuelos es muy antigua.",
+    "promptGloss": {
+      "de": "Das Haus meiner Großeltern ist sehr alt.",
+      "en": "My grandparents' house is very old."
+    },
+    "options": ["La", "El"],
+    "answer": "La",
+    "explain": {
+      "de": "Nomen auf -a sind meist feminin, daher 'la casa'. 'El' passt nur zu maskulinen Nomen.",
+      "en": "Nouns ending in -a are usually feminine, so 'la casa'. 'El' only fits masculine nouns."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Necesito ___ bolígrafo nuevo para escribir.",
+    "promptGloss": {
+      "de": "Ich brauche einen neuen Kugelschreiber zum Schreiben.",
+      "en": "I need a new pen to write."
+    },
+    "answer": "un",
+    "explain": {
+      "de": "'bolígrafo' endet auf -o und ist maskulin, daher der unbestimmte Artikel 'un', nicht 'una'.",
+      "en": "'bolígrafo' ends in -o and is masculine, so the indefinite article is 'un', not 'una'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ día está muy soleado hoy.",
+    "promptGloss": {
+      "de": "Der Tag ist heute sehr sonnig.",
+      "en": "The day is very sunny today."
+    },
+    "options": ["El", "La"],
+    "answer": "El",
+    "explain": {
+      "de": "'día' endet zwar auf -a, ist aber eine Ausnahme und maskulin: 'el día'. 'La' wäre nach der Grundregel verlockend, aber falsch.",
+      "en": "'día' ends in -a but is an exception and masculine: 'el día'. 'La' is tempting by the basic rule but wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Lávate ___ mano antes de comer.",
+    "promptGloss": {
+      "de": "Wasch dir die Hand vor dem Essen.",
+      "en": "Wash your hand before eating."
+    },
+    "options": ["la", "el"],
+    "answer": "la",
+    "explain": {
+      "de": "'mano' endet auf -o, ist aber eine Ausnahme und feminin: 'la mano'. 'El' lockt wegen der -o-Endung, ist hier aber falsch.",
+      "en": "'mano' ends in -o but is an exception and feminine: 'la mano'. 'El' is tempting due to -o but wrong here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Tengo que resolver ___ problema rápido.",
+    "promptGloss": {
+      "de": "Ich muss das Problem schnell lösen.",
+      "en": "I have to solve the problem quickly."
+    },
+    "options": ["el", "la"],
+    "answer": "el",
+    "explain": {
+      "de": "Nomen auf -ma griechischen Ursprungs wie 'problema' sind maskulin: 'el problema'. Die -a-Endung verleitet zu 'la', ist aber falsch.",
+      "en": "Nouns ending in -ma of Greek origin like 'problema' are masculine: 'el problema'. The -a ending tempts 'la' but is wrong."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Saqué una ___ muy bonita de la playa. (foto)",
+    "promptGloss": {
+      "de": "Ich habe ein sehr schönes Foto vom Strand gemacht.",
+      "en": "I took a very nice photo of the beach."
+    },
+    "answer": "foto",
+    "explain": {
+      "de": "'foto' (Kurzform von 'fotografía') ist eine -o-Ausnahme und feminin, daher 'una foto'. Trotz -o wäre 'un foto' falsch.",
+      "en": "'foto' (short for 'fotografía') is an -o exception and feminine, so 'una foto'. Despite -o, 'un foto' is wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En el parque hay muchos ___.",
+    "promptGloss": {
+      "de": "Im Park gibt es viele Katzen.",
+      "en": "In the park there are many cats."
+    },
+    "options": ["gatos", "gatoes", "gates"],
+    "answer": "gatos",
+    "explain": {
+      "de": "'gato' endet auf unbetontem Vokal, daher Plural nur mit -s: 'gatos'. '-es' kommt nur nach Konsonant, deshalb ist 'gatoes' falsch.",
+      "en": "'gato' ends in an unstressed vowel, so the plural adds only -s: 'gatos'. '-es' is for consonant endings, so 'gatoes' is wrong."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "En el armario tengo cinco ___. (camisa)",
+    "promptGloss": {
+      "de": "Im Schrank habe ich fünf Hemden.",
+      "en": "In the wardrobe I have five shirts."
+    },
+    "answer": "camisas",
+    "explain": {
+      "de": "'camisa' endet auf unbetontem Vokal, daher Plural mit -s: 'camisas'.",
+      "en": "'camisa' ends in an unstressed vowel, so the plural takes -s: 'camisas'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Detrás de la casa hay tres ___.",
+    "promptGloss": {
+      "de": "Hinter dem Haus stehen drei Bäume.",
+      "en": "Behind the house there are three trees."
+    },
+    "options": ["árboles", "árbols", "árbolas"],
+    "answer": "árboles",
+    "explain": {
+      "de": "'árbol' endet auf Konsonant, daher Plural mit -es: 'árboles'. Nur -s ('árbols') ist nach Konsonant falsch.",
+      "en": "'árbol' ends in a consonant, so the plural adds -es: 'árboles'. Adding just -s ('árbols') is wrong after a consonant."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Compré tres ___ rojas para el jarrón. (flor)",
+    "promptGloss": {
+      "de": "Ich habe drei rote Blumen für die Vase gekauft.",
+      "en": "I bought three red flowers for the vase."
+    },
+    "answer": "flores",
+    "explain": {
+      "de": "'flor' endet auf Konsonant -r, daher Plural mit -es: 'flores'. 'flors' wäre falsch.",
+      "en": "'flor' ends in the consonant -r, so the plural is -es: 'flores'. 'flors' would be wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Me lavo los dientes dos ___ al día.",
+    "promptGloss": {
+      "de": "Ich putze mir zweimal am Tag die Zähne.",
+      "en": "I brush my teeth twice a day."
+    },
+    "options": ["veces", "vezes", "veza"],
+    "answer": "veces",
+    "explain": {
+      "de": "Bei -z wird das z im Plural zu c und man hängt -es an: 'vez → veces'. 'vezes' behält fälschlich das z.",
+      "en": "With -z the z becomes c in the plural and you add -es: 'vez → veces'. 'vezes' wrongly keeps the z."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "En mi estuche hay muchos ___. (lápiz)",
+    "promptGloss": {
+      "de": "In meiner Federmappe sind viele Bleistifte.",
+      "en": "In my pencil case there are many pencils."
+    },
+    "answer": "lápices",
+    "explain": {
+      "de": "'lápiz' endet auf -z: das z wird zu c und -es wird angehängt: 'lápices'. Der Akzent bleibt auf der ersten Silbe.",
+      "en": "'lápiz' ends in -z: the z turns to c and -es is added: 'lápices'. The accent stays on the first syllable."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esta semana hay dos ___ en el calendario.",
+    "promptGloss": {
+      "de": "Diese Woche stehen zwei Feiertage im Kalender.",
+      "en": "This week there are two holidays in the calendar."
+    },
+    "options": ["días", "díes", "díaes"],
+    "answer": "días",
+    "explain": {
+      "de": "'día' ist trotz maskulinem Genus ein normales Nomen auf Vokal, daher Plural mit -s: 'días'. Die Genus-Ausnahme ändert die Pluralregel nicht.",
+      "en": "Although 'día' is masculine, it is a normal vowel-ending noun, so the plural is -s: 'días'. The gender exception does not change the plural rule."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El cirujano tiene las dos ___ muy firmes. (mano)",
+    "promptGloss": {
+      "de": "Der Chirurg hat beide Hände sehr ruhig.",
+      "en": "The surgeon has both hands very steady."
+    },
+    "answer": "manos",
+    "explain": {
+      "de": "'mano' endet auf Vokal, daher Plural mit -s: 'manos'. Das feminine Genus ('las manos') ändert die Pluralbildung nicht.",
+      "en": "'mano' ends in a vowel, so the plural is -s: 'manos'. Its feminine gender ('las manos') doesn't change the plural form."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Los estudiantes tienen que estudiar dos ___ esta semana.",
+    "promptGloss": {
+      "de": "Die Studenten müssen diese Woche zwei Themen lernen.",
+      "en": "The students have to study two topics this week."
+    },
+    "options": ["temas", "temaes", "temes"],
+    "answer": "temas",
+    "explain": {
+      "de": "'tema' ist ein -ma-Wort (maskulin: 'el tema'), endet aber auf Vokal, daher Plural mit -s: 'temas'.",
+      "en": "'tema' is a -ma word (masculine: 'el tema') but ends in a vowel, so the plural is -s: 'temas'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Hay varias ___ azules en el cielo. (luz)",
+    "promptGloss": {
+      "de": "Es sind mehrere blaue Lichter am Himmel.",
+      "en": "There are several blue lights in the sky."
+    },
+    "answer": "luces",
+    "explain": {
+      "de": "'luz' endet auf -z: z wird zu c und -es wird angehängt: 'luces'. 'luzes' wäre falsch.",
+      "en": "'luz' ends in -z: z becomes c and -es is added: 'luces'. 'luzes' would be wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El profesor explicó ___ problemas más difíciles del examen.",
+    "promptGloss": {
+      "de": "Der Lehrer erklärte die schwierigsten Probleme der Prüfung.",
+      "en": "The teacher explained the most difficult problems of the exam."
+    },
+    "options": ["los", "las"],
+    "answer": "los",
+    "explain": {
+      "de": "'problema' ist maskulin (-ma-Wort), also auch im Plural maskuliner Artikel: 'los problemas'. 'las' verleitet wegen der -a-Endung, ist aber falsch.",
+      "en": "'problema' is masculine (a -ma word), so the plural article is masculine too: 'los problemas'. 'las' is tempting due to -a but wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Guardo todas ___ fotos del viaje en el móvil.",
+    "promptGloss": {
+      "de": "Ich speichere alle Fotos der Reise auf dem Handy.",
+      "en": "I keep all the photos of the trip on my phone."
+    },
+    "options": ["las", "los"],
+    "answer": "las",
+    "explain": {
+      "de": "'foto' ist trotz -o feminin, also auch im Plural feminin: 'las fotos'. 'los' lockt wegen der -o-Endung, ist aber falsch.",
+      "en": "'foto' is feminine despite ending in -o, so the plural is feminine: 'las fotos'. 'los' is tempting due to -o but wrong."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Cerca del lago crecen muchos ___. (árbol)",
+    "promptGloss": {
+      "de": "In der Nähe des Sees wachsen viele Bäume.",
+      "en": "Near the lake many trees grow."
+    },
+    "answer": "árboles",
+    "explain": {
+      "de": "'árbol' endet auf Konsonant -l, daher Plural mit -es: 'árboles'. Der Akzent bleibt erhalten.",
+      "en": "'árbol' ends in the consonant -l, so the plural is -es: 'árboles'. The accent is kept."
+    }
+  }
+]

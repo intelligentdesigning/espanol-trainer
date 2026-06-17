@@ -1,0 +1,223 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "___ más despacio, por favor. (hablar, tú)",
+    "promptGloss": {
+      "de": "Sprich bitte langsamer.",
+      "en": "Speak more slowly, please."
+    },
+    "options": ["Habla", "Hablas", "Hable", "Hablo"],
+    "answer": "Habla",
+    "explain": {
+      "de": "Der bejahte tú-Befehl ist gleich der er/ella-Form des Präsens: 'habla'. 'Hablas' ist die normale tú-Form des Präsens und 'hable' wäre der usted-Befehl.",
+      "en": "The affirmative tú command equals the he/she present form: 'habla'. 'Hablas' is the ordinary tú present and 'hable' would be the usted command."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "___ la fruta, está muy rica. (comer, tú)",
+    "promptGloss": {
+      "de": "Iss das Obst, es ist sehr lecker.",
+      "en": "Eat the fruit, it's very tasty."
+    },
+    "answer": "Come",
+    "altAnswers": ["come"],
+    "explain": {
+      "de": "Der bejahte tú-Befehl von 'comer' ist die er/ella-Präsensform 'come'. Eine eigene Imperativ-Endung mit -e gibt es bei -er-Verben im tú nicht.",
+      "en": "The affirmative tú command of 'comer' is the he/she present form 'come'. There is no separate -e ending for -er verbs in the tú command."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "___ la tarea antes de jugar. (hacer, tú)",
+    "promptGloss": {
+      "de": "Mach die Aufgabe, bevor du spielst.",
+      "en": "Do the homework before playing."
+    },
+    "answer": "Haz",
+    "altAnswers": ["haz"],
+    "explain": {
+      "de": "'hacer' hat einen unregelmäßigen bejahten tú-Befehl: 'haz'. Die regelmäßig gebildete Form 'hace' ist hier falsch.",
+      "en": "'hacer' has an irregular affirmative tú command: 'haz'. The regularly formed 'hace' is wrong here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ la verdad, no quiero mentiras. (decir, tú)",
+    "promptGloss": {
+      "de": "Sag die Wahrheit, ich will keine Lügen.",
+      "en": "Tell the truth, I don't want lies."
+    },
+    "options": ["Di", "Dice", "Dices", "Diga"],
+    "answer": "Di",
+    "explain": {
+      "de": "Der bejahte tú-Befehl von 'decir' ist unregelmäßig und einsilbig: 'di'. 'Dice' wäre die regelmäßige Präsensform, die hier aber nicht als Befehl dient.",
+      "en": "The affirmative tú command of 'decir' is irregular and one syllable: 'di'. 'Dice' is the regular present form, which does not serve as the command here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ a casa, ya es tarde. (ir, tú)",
+    "promptGloss": {
+      "de": "Geh nach Hause, es ist schon spät.",
+      "en": "Go home, it's already late."
+    },
+    "options": ["Ve", "Va", "Ves", "Vaya"],
+    "answer": "Ve",
+    "explain": {
+      "de": "Der bejahte tú-Befehl von 'ir' ist unregelmäßig: 've'. 'Vaya' ist der usted-Befehl und 'va' die normale Präsensform.",
+      "en": "The affirmative tú command of 'ir' is irregular: 've'. 'Vaya' is the usted command and 'va' is the ordinary present form."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "___ paciencia, todo va a salir bien. (tener, tú)",
+    "promptGloss": {
+      "de": "Hab Geduld, alles wird gut.",
+      "en": "Be patient, everything will be fine."
+    },
+    "answer": "Ten",
+    "altAnswers": ["ten"],
+    "explain": {
+      "de": "'tener' bildet den bejahten tú-Befehl unregelmäßig als 'ten'. Die regelmäßige Präsensform 'tiene' funktioniert hier nicht als Befehl.",
+      "en": "'tener' forms the affirmative tú command irregularly as 'ten'. The regular present form 'tiene' does not work as the command here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No ___ tan rápido, no te entiendo. (hablar, tú)",
+    "promptGloss": {
+      "de": "Sprich nicht so schnell, ich verstehe dich nicht.",
+      "en": "Don't speak so fast, I don't understand you."
+    },
+    "options": ["hables", "hablas", "habla", "hablés"],
+    "answer": "hables",
+    "explain": {
+      "de": "Verneinte Befehle nehmen die Subjuntivo-Form: 'no hables'. Man darf nicht einfach 'no' vor den bejahten Befehl 'habla' setzen.",
+      "en": "Negative commands take the subjunctive form: 'no hables'. You cannot simply put 'no' before the affirmative command 'habla'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No ___ eso, que está caducado. (comer, tú)",
+    "promptGloss": {
+      "de": "Iss das nicht, es ist abgelaufen.",
+      "en": "Don't eat that, it's expired."
+    },
+    "answer": "comas",
+    "explain": {
+      "de": "Im verneinten tú-Befehl steht der Subjuntivo: 'no comas'. Beachte den Vokalwechsel zu -as bei diesem -er-Verb gegenüber dem bejahten 'come'.",
+      "en": "The negative tú command uses the subjunctive: 'no comas'. Note the vowel switch to -as for this -er verb, unlike the affirmative 'come'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No ___ así con tu hermano. (ser, tú)",
+    "promptGloss": {
+      "de": "Sei nicht so zu deinem Bruder.",
+      "en": "Don't be like that with your brother."
+    },
+    "options": ["seas", "sé", "eres", "estés"],
+    "answer": "seas",
+    "explain": {
+      "de": "Der verneinte tú-Befehl von 'ser' ist die Subjuntivo-Form 'no seas'. 'Sé' ist nur der bejahte Befehl und 'estés' gehört zu 'estar'.",
+      "en": "The negative tú command of 'ser' is the subjunctive 'no seas'. 'Sé' is only the affirmative command, and 'estés' belongs to 'estar'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No ___ triste, mañana nos vemos. (estar, tú)",
+    "promptGloss": {
+      "de": "Sei nicht traurig, morgen sehen wir uns.",
+      "en": "Don't be sad, we'll see each other tomorrow."
+    },
+    "answer": "estés",
+    "explain": {
+      "de": "Der verneinte Befehl von 'estar' ist die Subjuntivo-Form 'no estés' (mit Akzent). 'No estás' wäre die normale Präsens-Aussage, kein Befehl.",
+      "en": "The negative command of 'estar' is the subjunctive 'no estés' (with an accent). 'No estás' would be an ordinary present statement, not a command."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ más alto, por favor, no le oigo bien. (hablar, usted)",
+    "promptGloss": {
+      "de": "Sprechen Sie lauter, bitte, ich höre Sie nicht gut.",
+      "en": "Speak louder, please, I can't hear you well."
+    },
+    "options": ["Hable", "Habla", "Hables", "Hable usted no"],
+    "answer": "Hable",
+    "explain": {
+      "de": "Der höfliche usted-Befehl nimmt immer die Subjuntivo-Form, auch bejaht: 'hable'. 'Habla' wäre der vertraute tú-Befehl.",
+      "en": "The polite usted command always uses the subjunctive form, even affirmative: 'hable'. 'Habla' would be the familiar tú command."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "___ de eso ahora mismo, tenemos tiempo. (hablar, nosotros)",
+    "promptGloss": {
+      "de": "Reden wir gleich darüber, wir haben Zeit.",
+      "en": "Let's talk about that right now, we have time."
+    },
+    "answer": "Hablemos",
+    "altAnswers": ["hablemos"],
+    "explain": {
+      "de": "Der nosotros-Befehl ('lass uns ...') nimmt die Subjuntivo-Form: 'hablemos'. Die Indikativform 'hablamos' bedeutet dagegen 'wir reden / wir haben geredet'.",
+      "en": "The nosotros command ('let's ...') uses the subjunctive form: 'hablemos'. The indicative 'hablamos' instead means 'we talk / we talked'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Niños, no ___ ruido, el bebé está durmiendo. (hacer, ustedes)",
+    "promptGloss": {
+      "de": "Kinder, macht keinen Lärm, das Baby schläft.",
+      "en": "Children, don't make noise, the baby is sleeping."
+    },
+    "options": ["hagan", "hacen", "hacéis", "hagáis"],
+    "answer": "hagan",
+    "explain": {
+      "de": "Der ustedes-Befehl (auch verneint) ist die Subjuntivo-Form 'hagan'. 'Hacen' ist Indikativ und 'hagáis' wäre die vosotros-Form.",
+      "en": "The ustedes command (also negative) is the subjunctive form 'hagan'. 'Hacen' is indicative and 'hagáis' would be the vosotros form."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿La verdad? ___, te lo pido. (decírmelo: di + me + lo)",
+    "promptGloss": {
+      "de": "Die Wahrheit? Sag sie mir, ich bitte dich.",
+      "en": "The truth? Tell it to me, I'm asking you."
+    },
+    "options": ["Dímelo", "Me lo di", "Dime lo", "Te lo digo"],
+    "answer": "Dímelo",
+    "explain": {
+      "de": "Beim bejahten Befehl werden die Pronomen angehängt und zusammengeschrieben: di + me + lo = 'dímelo' (mit Akzent). Vorangestellte Pronomen sind nur beim verneinten Befehl korrekt.",
+      "en": "In the affirmative command the pronouns are attached and written as one word: di + me + lo = 'dímelo' (with an accent). Pronouns placed before are correct only in the negative command."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Es un secreto. No ___ digas a nadie. (no + me + lo + decir)",
+    "promptGloss": {
+      "de": "Es ist ein Geheimnis. Sag es mir nicht … nein, verrate es niemandem.",
+      "en": "It's a secret. Don't tell it to anyone."
+    },
+    "options": ["me lo", "melo", "telo", "lo me"],
+    "answer": "me lo",
+    "explain": {
+      "de": "Beim verneinten Befehl stehen die Pronomen getrennt VOR dem Verb: 'no me lo digas'. Anhängen (wie 'no digásmelo') ist hier falsch.",
+      "en": "In the negative command the pronouns go separately BEFORE the verb: 'no me lo digas'. Attaching them (as in 'no digásmelo') is wrong here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Es peligroso de noche; no ___ sola, por favor. (ir, tú)",
+    "promptGloss": {
+      "de": "Nachts ist es gefährlich; geh bitte nicht allein.",
+      "en": "It's dangerous at night; don't go alone, please."
+    },
+    "answer": "vayas",
+    "explain": {
+      "de": "Der verneinte tú-Befehl von 'ir' ist die Subjuntivo-Form 'no vayas'. Der unregelmäßige bejahte Befehl 've' darf hier nicht stehen ('no ve' ist falsch).",
+      "en": "The negative tú command of 'ir' is the subjunctive 'no vayas'. The irregular affirmative 've' cannot be used here ('no ve' is wrong)."
+    }
+  }
+]

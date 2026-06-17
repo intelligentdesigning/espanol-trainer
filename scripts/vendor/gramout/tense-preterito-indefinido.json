@@ -1,0 +1,219 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Ayer ___ con mi madre por teléfono durante una hora.",
+    "promptGloss": {
+      "de": "Gestern sprach ich eine Stunde lang mit meiner Mutter am Telefon.",
+      "en": "Yesterday I spoke with my mother on the phone for an hour."
+    },
+    "options": ["hablé", "hablaba", "hablo"],
+    "answer": "hablé",
+    "explain": {
+      "de": "\"Ayer\" und eine konkrete, abgeschlossene Handlung verlangen das Indefinido: hablé. \"Hablaba\" (Imperfekt) beschreibt Gewohnheiten/Hintergrund, nicht ein einmaliges abgeschlossenes Ereignis.",
+      "en": "\"Ayer\" plus a single completed action triggers the indefinido: hablé. \"Hablaba\" (imperfect) describes habits/background, not one finished event."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El año pasado nosotros ___ (comer) en ese restaurante muchas veces.",
+    "promptGloss": {
+      "de": "Letztes Jahr aßen wir viele Male in diesem Restaurant.",
+      "en": "Last year we ate at that restaurant many times."
+    },
+    "answer": "comimos",
+    "explain": {
+      "de": "-er-Verb in der 1. Person Plural: Stamm com- plus Endung -imos = comimos. Achtung: Diese Form ist identisch mit dem Präsens, aber \"el año pasado\" markiert die Vergangenheit.",
+      "en": "An -er verb in the nosotros form: stem com- plus -imos = comimos. Note it looks identical to the present, but \"el año pasado\" signals the past."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ella ___ diez años en Madrid antes de mudarse.",
+    "promptGloss": {
+      "de": "Sie lebte zehn Jahre in Madrid, bevor sie umzog.",
+      "en": "She lived ten years in Madrid before moving."
+    },
+    "options": ["vivió", "vivía", "vivé"],
+    "answer": "vivió",
+    "explain": {
+      "de": "Ein abgeschlossener, zeitlich begrenzter Zeitraum (\"diez años\") nimmt das Indefinido: vivió (-ir-Verb, 3. Person, Endung -ió). \"Vivé\" existiert nicht; -er/-ir bilden die 1. Person auf -í (viví).",
+      "en": "A completed, bounded span (\"diez años\") takes the indefinido: vivió (-ir verb, 3rd person, ending -ió). \"Vivé\" does not exist; -er/-ir form the yo-form with -í (viví)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿Tú ___ (hablar) con el director esta mañana?",
+    "promptGloss": {
+      "de": "Hast du heute Morgen mit dem Direktor gesprochen?",
+      "en": "Did you talk to the director this morning?"
+    },
+    "answer": "hablaste",
+    "explain": {
+      "de": "-ar-Verb, 2. Person Singular: Stamm habl- plus Endung -aste = hablaste. Es gibt hier kein -s am Ende wie im Präsens (hablas).",
+      "en": "An -ar verb, tú form: stem habl- plus -aste = hablaste. Unlike the present (hablas), the indefinido tú form has no final -s."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Cuando era niño, mi abuela siempre me ___ cuentos antes de dormir.",
+    "promptGloss": {
+      "de": "Als ich ein Kind war, erzählte mir meine Großmutter immer Geschichten vor dem Schlafen.",
+      "en": "When I was a child, my grandmother always used to tell me stories before sleeping."
+    },
+    "options": ["contaba", "contó", "contaste"],
+    "answer": "contaba",
+    "explain": {
+      "de": "\"Cuando era niño\" und \"siempre\" markieren eine wiederholte Gewohnheit in der Vergangenheit, also Imperfekt (contaba), NICHT Indefinido. Das Indefinido (contó) würde eine einzelne abgeschlossene Handlung bezeichnen.",
+      "en": "\"Cuando era niño\" and \"siempre\" mark a repeated past habit, so the imperfect (contaba), NOT the indefinido. The indefinido (contó) would mark one single finished action."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El verano pasado yo ___ (tener) que trabajar todos los fines de semana.",
+    "promptGloss": {
+      "de": "Letzten Sommer musste ich jedes Wochenende arbeiten.",
+      "en": "Last summer I had to work every weekend."
+    },
+    "answer": "tuve",
+    "explain": {
+      "de": "tener hat einen starken unregelmäßigen Stamm tuv- mit betonungslosen Endungen ohne Akzent: tuv- + e = tuve (nicht \"tení\" oder \"tuvé\").",
+      "en": "tener has the strong irregular stem tuv- with unstressed, accent-free endings: tuv- + e = tuve (not \"tení\" or \"tuvé\")."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Anoche no ___ dormir porque había mucho ruido en la calle.",
+    "promptGloss": {
+      "de": "Letzte Nacht konnte ich nicht schlafen, weil viel Lärm auf der Straße war.",
+      "en": "Last night I couldn't sleep because there was a lot of noise in the street."
+    },
+    "options": ["pude", "podí", "puede"],
+    "answer": "pude",
+    "explain": {
+      "de": "poder hat den starken Stamm pud- mit betonungsloser Endung -e (ohne Akzent): pude. \"Podí\" wäre die regelmäßige Form, die hier falsch ist; \"puede\" ist Präsens.",
+      "en": "poder has the strong stem pud- with the unstressed, accent-free ending -e: pude. \"Podí\" would be the regular form (wrong here); \"puede\" is the present."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ellos ___ (decir) que no vendrían a la fiesta.",
+    "promptGloss": {
+      "de": "Sie sagten, dass sie nicht zur Party kommen würden.",
+      "en": "They said they wouldn't come to the party."
+    },
+    "answer": "dijeron",
+    "explain": {
+      "de": "decir hat den Stamm dij-. In der 3. Person Plural fällt das i der Endung weg: dij- + -eron (nicht -ieron) = dijeron.",
+      "en": "decir has the stem dij-. In the 3rd person plural the i of the ending drops: dij- + -eron (not -ieron) = dijeron."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mi hermana ___ una tarta deliciosa para el cumpleaños.",
+    "promptGloss": {
+      "de": "Meine Schwester machte einen leckeren Kuchen zum Geburtstag.",
+      "en": "My sister made a delicious cake for the birthday."
+    },
+    "options": ["hizo", "hació", "hizó"],
+    "answer": "hizo",
+    "explain": {
+      "de": "hacer ist unregelmäßig: in der 3. Person Singular wird c zu z und die Endung ist -o ohne Akzent: hizo. \"Hació\" und \"hizó\" sind beide falsch.",
+      "en": "hacer is irregular: in the 3rd person singular c becomes z and the ending is -o with no accent: hizo. \"Hació\" and \"hizó\" are both wrong."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El sábado ___ al cine y luego cenamos con unos amigos.",
+    "promptGloss": {
+      "de": "Am Samstag ging ich ins Kino und danach aßen wir mit Freunden zu Abend.",
+      "en": "On Saturday I went to the cinema and then we had dinner with some friends."
+    },
+    "options": ["fui", "iba", "fue"],
+    "answer": "fui",
+    "explain": {
+      "de": "ir hat im Indefinido die Form fui für \"yo\" (ser und ir teilen fui, fue). Es ist eine einzelne abgeschlossene Handlung, daher nicht Imperfekt \"iba\"; \"fue\" wäre 3. Person.",
+      "en": "ir in the indefinido is fui for \"yo\" (ser and ir share fui, fue). It's a single completed action, so not the imperfect \"iba\"; \"fue\" would be 3rd person."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Anoche el bebé ___ (dormir) muy bien toda la noche.",
+    "promptGloss": {
+      "de": "Letzte Nacht schlief das Baby die ganze Nacht sehr gut.",
+      "en": "Last night the baby slept very well all night."
+    },
+    "answer": "durmió",
+    "explain": {
+      "de": "Bei -ir-Verben mit o im Stamm wird in der 3. Person das o zu u: dorm- > durm- + -ió = durmió. Die 1. Person bleibt regelmäßig (dormí).",
+      "en": "In -ir verbs with stem o, the 3rd person changes o to u: dorm- > durm- + -ió = durmió. The yo-form stays regular (dormí)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Esta mañana yo ___ (buscar) las llaves por toda la casa.",
+    "promptGloss": {
+      "de": "Heute Morgen suchte ich im ganzen Haus nach den Schlüsseln.",
+      "en": "This morning I looked for the keys all over the house."
+    },
+    "answer": "busqué",
+    "explain": {
+      "de": "Vor der Endung -é wird c zu qu, damit der harte k-Laut erhalten bleibt: busc- > busqué. \"Buscé\" würde wie \"busse\" klingen und ist falsch geschrieben.",
+      "en": "Before the ending -é, c becomes qu to keep the hard k-sound: busc- > busqué. \"Buscé\" would sound wrong and is misspelled."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ayer ___ tarde a la reunión porque perdí el autobús.",
+    "promptGloss": {
+      "de": "Gestern kam ich zu spät zur Besprechung, weil ich den Bus verpasste.",
+      "en": "Yesterday I arrived late to the meeting because I missed the bus."
+    },
+    "options": ["llegué", "llegé", "llegaba"],
+    "answer": "llegué",
+    "explain": {
+      "de": "Bei -gar-Verben wird vor -é g zu gu, um den harten g-Laut zu bewahren: lleg- > llegué. \"Llegé\" ist orthografisch falsch; \"llegaba\" wäre Imperfekt.",
+      "en": "In -gar verbs, before -é g becomes gu to keep the hard g-sound: lleg- > llegué. \"Llegé\" is misspelled; \"llegaba\" would be the imperfect."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El lunes pasado yo ___ (empezar) un curso de italiano.",
+    "promptGloss": {
+      "de": "Letzten Montag fing ich einen Italienischkurs an.",
+      "en": "Last Monday I started an Italian course."
+    },
+    "answer": "empecé",
+    "explain": {
+      "de": "Bei -zar-Verben wird vor -é z zu c: empez- > empecé. Im Spanischen steht vor e/i fast nie ein z, daher die Schreibänderung.",
+      "en": "In -zar verbs, before -é z becomes c: empez- > empecé. Spanish almost never writes z before e/i, hence the spelling change."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El concierto ___ increíble; todos ___ encantados al salir.",
+    "promptGloss": {
+      "de": "Das Konzert war unglaublich; alle waren begeistert beim Hinausgehen.",
+      "en": "The concert was incredible; everyone was delighted on the way out."
+    },
+    "options": ["fue / quedaron", "fui / quedaron", "fue / quedamos"],
+    "answer": "fue / quedaron",
+    "explain": {
+      "de": "\"El concierto\" ist 3. Person Singular: ser > fue. \"Todos\" ist 3. Person Plural: qued- + -aron = quedaron. \"Fui\" wäre 1. Person, \"quedamos\" wäre wir.",
+      "en": "\"El concierto\" is 3rd person singular: ser > fue. \"Todos\" is 3rd person plural: qued- + -aron = quedaron. \"Fui\" would be 1st person, \"quedamos\" would be we."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Primero ___ (nosotros, comer), luego ___ (nosotros, ver) una película y al final ___ (nosotros, dormir).",
+    "promptGloss": {
+      "de": "Zuerst aßen wir, dann sahen wir einen Film und am Ende schliefen wir.",
+      "en": "First we ate, then we watched a film and finally we slept."
+    },
+    "answer": "comimos, vimos, dormimos",
+    "altAnswers": ["comimos vimos dormimos"],
+    "explain": {
+      "de": "Eine Kette aufeinanderfolgender abgeschlossener Ereignisse steht im Indefinido: comimos (-er), vimos (ver, kurz und unregelmäßig ohne Akzent), dormimos (-ir, in der 1. Person Plural ohne o>u-Wechsel).",
+      "en": "A chain of successive completed events uses the indefinido: comimos (-er), vimos (ver, short irregular, no accent), dormimos (-ir; the nosotros form has no o>u change)."
+    }
+  }
+]

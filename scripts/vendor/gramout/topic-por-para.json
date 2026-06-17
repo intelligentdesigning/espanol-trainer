@@ -1,0 +1,292 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "Estudio español ___ viajar por Latinoamérica.",
+    "promptGloss": {
+      "de": "Ich lerne Spanisch, um durch Lateinamerika zu reisen.",
+      "en": "I study Spanish to travel through Latin America."
+    },
+    "options": ["para", "por"],
+    "answer": "para",
+    "explain": {
+      "de": "Mit Infinitiv im Sinne von \"um zu\" steht der Zweck/das Ziel: para viajar. Por würde hier den Grund meinen, was nicht gemeint ist.",
+      "en": "With an infinitive meaning \"in order to\", purpose/goal takes para: para viajar. Por would mark a cause, which is not intended here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Llegamos tarde ___ el tráfico.",
+    "promptGloss": {
+      "de": "Wir kamen wegen des Verkehrs zu spät.",
+      "en": "We arrived late because of the traffic."
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Der Grund \"wegen\" wird mit por ausgedrückt: por el tráfico. Para nennt nie die Ursache, sondern den Zweck.",
+      "en": "The cause \"because of\" is expressed with por: por el tráfico. Para never marks the cause, only the purpose."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esta caja es ___ los libros.",
+    "promptGloss": {
+      "de": "Diese Kiste ist für die Bücher.",
+      "en": "This box is for the books."
+    },
+    "options": ["para", "por"],
+    "answer": "para",
+    "explain": {
+      "de": "Der Verwendungszweck eines Gegenstands (wofür er bestimmt ist) steht mit para. Por hieße hier \"im Tausch gegen die Bücher\", was nicht gemeint ist.",
+      "en": "The intended use of an object (what it is meant for) takes para. Por would mean \"in exchange for the books\", which is not intended."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Compré el coche ___ diez mil euros.",
+    "promptGloss": {
+      "de": "Ich kaufte das Auto für zehntausend Euro.",
+      "en": "I bought the car for ten thousand euros."
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Preis und Tausch \"im Austausch gegen\" werden mit por ausgedrückt: por diez mil euros. Para wäre hier falsch, da kein Zweck, sondern ein Gegenwert gemeint ist.",
+      "en": "Price and exchange \"in return for\" use por: por diez mil euros. Para would be wrong, since it is a counter-value, not a purpose."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Salimos ___ Madrid mañana por la mañana.",
+    "promptGloss": {
+      "de": "Wir fahren morgen früh nach Madrid ab.",
+      "en": "We leave for Madrid tomorrow morning."
+    },
+    "options": ["para", "por"],
+    "answer": "para",
+    "explain": {
+      "de": "Die Richtung/das Reiseziel (wohin man aufbricht) steht mit para: salir para Madrid. Por Madrid würde \"durch Madrid hindurch\" bedeuten, also Bewegung im Ort statt Ziel.",
+      "en": "The destination (where one heads to) takes para: salir para Madrid. Por Madrid would mean \"through Madrid\", i.e. movement within the place, not a goal."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Paseamos tranquilamente ___ el parque.",
+    "promptGloss": {
+      "de": "Wir spazierten gemütlich durch den Park.",
+      "en": "We strolled calmly through the park."
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Bewegung durch einen Ort hindurch wird mit por ausgedrückt: por el parque. Para el parque würde \"in Richtung Park\" als Ziel bedeuten.",
+      "en": "Movement through a place uses por: por el parque. Para el parque would mean \"towards the park\" as a destination."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El informe tiene que estar listo ___ el lunes.",
+    "promptGloss": {
+      "de": "Der Bericht muss bis Montag fertig sein.",
+      "en": "The report has to be ready by Monday."
+    },
+    "options": ["para", "por"],
+    "answer": "para",
+    "explain": {
+      "de": "Eine Frist/ein Termin, bis zu dem etwas fertig sein muss, steht mit para: para el lunes. Por el lunes würde eher \"irgendwann am Montag\" als ungefähren Zeitpunkt meinen, nicht die Deadline.",
+      "en": "A deadline by which something must be done takes para: para el lunes. Por el lunes would suggest \"around Monday\" as an approximate time, not the deadline."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Estuvimos esperando en la cola ___ dos horas.",
+    "promptGloss": {
+      "de": "Wir warteten zwei Stunden lang in der Schlange.",
+      "en": "We waited in line for two hours."
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Eine Zeitdauer (\"wie lange\") wird mit por ausgedrückt: por dos horas. Para dos horas würde eine Frist meinen, nicht die Dauer des Wartens.",
+      "en": "A span of time (\"how long\") uses por: por dos horas. Para dos horas would mark a deadline, not the duration of waiting."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Te mando los documentos ___ correo electrónico.",
+    "promptGloss": {
+      "de": "Ich schicke dir die Dokumente per E-Mail.",
+      "en": "I'll send you the documents by email."
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Das benutzte Mittel/Medium (\"per, mittels\") steht mit por: por correo electrónico. Para würde hier den Empfänger oder Zweck markieren, nicht das Mittel.",
+      "en": "The means/medium used (\"by, via\") takes por: por correo electrónico. Para would mark the recipient or purpose, not the means."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "La novela fue escrita ___ una autora mexicana muy joven.",
+    "promptGloss": {
+      "de": "Der Roman wurde von einer sehr jungen mexikanischen Autorin geschrieben.",
+      "en": "The novel was written by a very young Mexican author."
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Im Passiv steht der Urheber der Handlung mit por (deutsch \"von\"): escrita por una autora. Para würde hier fälschlich den Empfänger andeuten.",
+      "en": "In the passive, the agent of the action takes por (English \"by\"): escrita por una autora. Para would wrongly imply the recipient."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "He comprado estas flores ___ ti, espero que te gusten.",
+    "promptGloss": {
+      "de": "Ich habe diese Blumen für dich gekauft, ich hoffe, sie gefallen dir.",
+      "en": "I bought these flowers for you, I hope you like them."
+    },
+    "options": ["para", "por"],
+    "answer": "para",
+    "explain": {
+      "de": "Der Empfänger, für den etwas bestimmt ist, steht mit para: para ti. Por ti würde \"deinetwegen / an deiner Stelle\" bedeuten, also Grund oder Ersatz, nicht den Beschenkten.",
+      "en": "The recipient something is intended for takes para: para ti. Por ti would mean \"for your sake / on your behalf\", i.e. cause or substitution, not the addressee."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ mí, esta es claramente la mejor opción de todas.",
+    "promptGloss": {
+      "de": "Für mich ist das eindeutig die beste Option von allen.",
+      "en": "For me, this is clearly the best option of all."
+    },
+    "options": ["Para", "Por"],
+    "answer": "Para",
+    "explain": {
+      "de": "Eine persönliche Meinung (\"meiner Ansicht nach\") wird mit para mí eingeleitet. Por mí würde \"meinetwegen\" bedeuten, also Grund oder Gleichgültigkeit, nicht die Meinung.",
+      "en": "A personal opinion (\"in my view\") is introduced with para mí. Por mí would mean \"for my sake / as far as I'm concerned\", a cause, not the opinion."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hazlo tú; yo no puedo ir, así que ve ___ mí a la reunión.",
+    "promptGloss": {
+      "de": "Mach du es; ich kann nicht, also geh an meiner Stelle zur Sitzung.",
+      "en": "You do it; I can't go, so go to the meeting in my place."
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Hier geht es um Ersatz/Stellvertretung (\"an meiner Stelle, für mich\"), und das steht mit por: ir por mí. Para mí würde \"als Geschenk an mich / meiner Meinung nach\" bedeuten.",
+      "en": "This is substitution (\"in my place, on my behalf\"), which takes por: ir por mí. Para mí would mean \"as a gift to me / in my opinion\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Muchas gracias ___ tu ayuda con la mudanza.",
+    "promptGloss": {
+      "de": "Vielen Dank für deine Hilfe beim Umzug.",
+      "en": "Thank you very much for your help with the move."
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Nach gracias steht der Grund des Dankes mit por: gracias por tu ayuda. Para wäre hier falsch, da kein Zweck, sondern die Veranlassung des Dankes gemeint ist.",
+      "en": "After gracias the reason for thanks takes por: gracias por tu ayuda. Para would be wrong, since it is the cause of the thanks, not a purpose."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Te cambio mi bocadillo ___ tu manzana, ¿vale?",
+    "promptGloss": {
+      "de": "Ich tausche mein Brötchen gegen deinen Apfel, okay?",
+      "en": "I'll swap my sandwich for your apple, okay?"
+    },
+    "options": ["por", "para"],
+    "answer": "por",
+    "explain": {
+      "de": "Ein direkter Tausch (\"gegen\") wird mit por ausgedrückt: cambiar X por Y. Para würde hier den Empfänger meinen, nicht das Tauschobjekt.",
+      "en": "A direct exchange (\"for/against\") uses por: cambiar X por Y. Para would mark a recipient, not the thing exchanged."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Trabajo mucho ___ ahorrar dinero y ___ mi familia.",
+    "promptGloss": {
+      "de": "Ich arbeite viel, um Geld zu sparen, und für meine Familie.",
+      "en": "I work a lot in order to save money and for my family."
+    },
+    "options": ["para … para", "por … por", "para … por", "por … para"],
+    "answer": "para … para",
+    "explain": {
+      "de": "Beides sind para: erst Zweck mit Infinitiv (para ahorrar = um zu sparen), dann der Nutznießer (para mi familia = zugunsten der Familie). Por würde Grund oder Ersatz andeuten.",
+      "en": "Both are para: first purpose with infinitive (para ahorrar = in order to save), then the beneficiary (para mi familia = for my family). Por would imply cause or substitution."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El tren pasa ___ Valencia, pero su destino final es Alicante; sale ___ allí a las ocho.",
+    "promptGloss": {
+      "de": "Der Zug fährt durch Valencia, aber sein Endziel ist Alicante; er fährt um acht dorthin ab.",
+      "en": "The train passes through Valencia, but its final destination is Alicante; it departs for there at eight."
+    },
+    "options": ["por … para", "para … por", "por … por", "para … para"],
+    "answer": "por … para",
+    "explain": {
+      "de": "Pasar por Valencia ist die Bewegung durch einen Ort (por), salir para allí ist das Reiseziel (para). Genau dieser Kontrast Weg/Ziel ist die klassische Falle.",
+      "en": "Pasar por Valencia is movement through a place (por), salir para allí is the destination (para). This path-vs-goal contrast is the classic trap."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Lo hice ___ ti porque sé que tú no tenías tiempo.",
+    "promptGloss": {
+      "de": "Ich habe es deinetwegen / für dich getan, weil ich weiß, dass du keine Zeit hattest.",
+      "en": "I did it for you / on your behalf because I know you had no time."
+    },
+    "answer": "por",
+    "explain": {
+      "de": "\"An deiner Stelle / dir zuliebe\" (Grund und Stellvertretung) steht mit por: hacerlo por ti. Para ti würde nur \"als Geschenk an dich\" bedeuten, was der Begründung porque no tenías tiempo widerspricht.",
+      "en": "\"On your behalf / for your sake\" (cause and substitution) takes por: hacerlo por ti. Para ti would only mean \"as a gift to you\", clashing with the reason porque no tenías tiempo."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "América fue descubierta ___ varios pueblos mucho antes de 1492.",
+    "promptGloss": {
+      "de": "Amerika wurde lange vor 1492 von verschiedenen Völkern entdeckt.",
+      "en": "America was discovered by various peoples long before 1492."
+    },
+    "answer": "por",
+    "explain": {
+      "de": "Im Passiv (fue descubierta) wird der Urheber mit por angeschlossen: descubierta por varios pueblos. Para wäre hier grammatisch falsch.",
+      "en": "In the passive (fue descubierta) the agent is introduced with por: descubierta por varios pueblos. Para would be grammatically wrong here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Necesito el coche solo ___ una hora; te lo devuelvo enseguida.",
+    "promptGloss": {
+      "de": "Ich brauche das Auto nur für eine Stunde; ich gebe es dir gleich zurück.",
+      "en": "I need the car for just one hour; I'll give it back right away."
+    },
+    "answer": "por",
+    "explain": {
+      "de": "Hier geht es um die Dauer der Nutzung (\"eine Stunde lang\"), daher por una hora. Para una hora würde eine Frist nennen, nicht die Zeitspanne der Benutzung.",
+      "en": "This is the duration of use (\"for one hour\"), so por una hora. Para una hora would state a deadline, not the span of usage."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Este regalo es ___ mi abuela, que cumple noventa años.",
+    "promptGloss": {
+      "de": "Dieses Geschenk ist für meine Großmutter, die neunzig Jahre alt wird.",
+      "en": "This gift is for my grandmother, who is turning ninety."
+    },
+    "answer": "para",
+    "explain": {
+      "de": "Der Empfänger eines Geschenks steht mit para: para mi abuela. Por mi abuela hieße \"meiner Großmutter zuliebe / wegen ihr\", also Grund statt Beschenkte.",
+      "en": "The recipient of a gift takes para: para mi abuela. Por mi abuela would mean \"for my grandmother's sake\", a cause rather than the addressee."
+    }
+  }
+]

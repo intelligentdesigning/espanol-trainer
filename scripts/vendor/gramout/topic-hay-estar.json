@@ -1,0 +1,251 @@
+[
+  {
+    "kind": "choice",
+    "prompt": "___ un supermercado al final de la calle.",
+    "promptGloss": {
+      "de": "Es gibt einen Supermarkt am Ende der Straße.",
+      "en": "There is a supermarket at the end of the street."
+    },
+    "options": ["Hay", "Está", "Es"],
+    "answer": "Hay",
+    "explain": {
+      "de": "\"un supermercado\" ist unbestimmt und wird nur als existierend eingeführt, daher hay (Existenz). Está wäre falsch, weil estar nur den Ort einer schon bekannten Sache angibt.",
+      "en": "\"un supermercado\" is indefinite and merely introduced as existing, so hay (existence). Está would be wrong, since estar only locates an already-known thing."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El supermercado ___ al final de la calle.",
+    "promptGloss": {
+      "de": "Der Supermarkt ist am Ende der Straße.",
+      "en": "The supermarket is at the end of the street."
+    },
+    "options": ["hay", "está", "es"],
+    "answer": "está",
+    "explain": {
+      "de": "Der bestimmte Artikel \"el\" macht den Supermarkt zu einer bekannten Sache, deren Ort genannt wird → está. Hay ist hier unmöglich, weil hay nie mit bestimmtem Artikel steht.",
+      "en": "The definite article \"el\" makes the supermarket a known thing whose location is given → está. Hay is impossible here, because hay never goes with a definite article."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En la nevera ___ mucha comida para la fiesta.",
+    "promptGloss": {
+      "de": "Im Kühlschrank ist viel Essen für die Party.",
+      "en": "There is a lot of food in the fridge for the party."
+    },
+    "options": ["hay", "está", "están"],
+    "answer": "hay",
+    "explain": {
+      "de": "\"mucha comida\" ist eine unbestimmte Menge, daher hay. Está/están wären falsch, weil keine bestimmte, bekannte Sache lokalisiert wird.",
+      "en": "\"mucha comida\" is an indefinite quantity, hence hay. Está/están would be wrong because no specific, known thing is being located."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mi teléfono ___ encima de la cama.",
+    "promptGloss": {
+      "de": "Mein Handy ist auf dem Bett.",
+      "en": "My phone is on the bed."
+    },
+    "options": ["hay", "está", "es"],
+    "answer": "está",
+    "explain": {
+      "de": "Das Possessiv \"mi\" macht das Handy bestimmt und bekannt; sein Ort wird genannt → está. Hay verlangt einen unbestimmten Ausdruck und ist hier ausgeschlossen.",
+      "en": "The possessive \"mi\" makes the phone definite and known; its location is given → está. Hay requires an indefinite expression and is excluded here."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Cuántas habitaciones ___ en este piso?",
+    "promptGloss": {
+      "de": "Wie viele Zimmer gibt es in dieser Wohnung?",
+      "en": "How many rooms are there in this flat?"
+    },
+    "options": ["hay", "están", "son"],
+    "answer": "hay",
+    "explain": {
+      "de": "Bei Mengenfragen mit \"cuántas\" geht es um die Existenz/Anzahl, daher hay. Están wäre falsch, weil keine bestimmten, schon bekannten Zimmer lokalisiert werden.",
+      "en": "Quantity questions with \"cuántas\" ask about existence/number, so hay. Están would be wrong, since no specific, already-known rooms are being located."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hay dos gatos en el jardín y los gatos ___ debajo del árbol.",
+    "promptGloss": {
+      "de": "Es gibt zwei Katzen im Garten, und die Katzen sind unter dem Baum.",
+      "en": "There are two cats in the garden, and the cats are under the tree."
+    },
+    "options": ["hay", "está", "están"],
+    "answer": "están",
+    "explain": {
+      "de": "Im ersten Satz werden die Katzen mit hay eingeführt; im zweiten sind sie durch \"los\" bekannt und im Plural → están (estar passt sich der Zahl an). Hay bliebe unveränderlich und passt nicht zu \"los gatos\".",
+      "en": "The first clause introduces the cats with hay; in the second they are known via \"los\" and plural → están (estar agrees in number). Hay would stay invariable and does not fit \"los gatos\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "—¿Dónde ___ los niños? —Están en el parque.",
+    "promptGloss": {
+      "de": "— Wo sind die Kinder? — Sie sind im Park.",
+      "en": "— Where are the children? — They are in the park."
+    },
+    "options": ["hay", "está", "están"],
+    "answer": "están",
+    "explain": {
+      "de": "\"los niños\" sind bestimmt und bekannt, und die Frage zielt auf den Ort → están (Plural). Hay ist unmöglich, da es nie mit bestimmtem Artikel und nie in einer reinen Ortsfrage nach Bekanntem steht.",
+      "en": "\"los niños\" are definite and known, and the question targets location → están (plural). Hay is impossible, as it never takes a definite article nor a pure where-question about a known thing."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No ___ ningún problema con tu reserva, señor.",
+    "promptGloss": {
+      "de": "Es gibt kein Problem mit Ihrer Reservierung, mein Herr.",
+      "en": "There is no problem with your reservation, sir."
+    },
+    "options": ["hay", "está", "es"],
+    "answer": "hay",
+    "explain": {
+      "de": "\"ningún problema\" ist unbestimmt; verneinte Existenz drückt man mit no hay aus. Está wäre falsch, weil kein bekanntes Objekt lokalisiert wird.",
+      "en": "\"ningún problema\" is indefinite; negated existence is expressed with no hay. Está would be wrong, since no known object is being located."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "La parada de autobús ___ delante de la farmacia.",
+    "promptGloss": {
+      "de": "Die Bushaltestelle ist vor der Apotheke.",
+      "en": "The bus stop is in front of the pharmacy."
+    },
+    "options": ["hay", "está", "es"],
+    "answer": "está",
+    "explain": {
+      "de": "\"la parada\" ist mit bestimmtem Artikel eine bekannte Sache, deren Lage angegeben wird → está. Hay würde einen unbestimmten Ausdruck wie \"una parada\" verlangen.",
+      "en": "\"la parada\" with a definite article is a known thing whose position is given → está. Hay would require an indefinite expression such as \"una parada\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En esta ciudad ___ muchos museos interesantes.",
+    "promptGloss": {
+      "de": "In dieser Stadt gibt es viele interessante Museen.",
+      "en": "In this city there are many interesting museums."
+    },
+    "options": ["hay", "están", "son"],
+    "answer": "hay",
+    "explain": {
+      "de": "\"muchos museos\" ist eine unbestimmte Menge im Plural; hay bleibt trotzdem unverändert (nie \"hayn\"). Están wäre falsch, weil nichts Bekanntes lokalisiert wird.",
+      "en": "\"muchos museos\" is an indefinite plural quantity; hay still stays unchanged (never a plural form). Están would be wrong, since nothing known is being located."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Perdone, ¿___ un baño en este restaurante?",
+    "promptGloss": {
+      "de": "Entschuldigung, gibt es eine Toilette in diesem Restaurant?",
+      "en": "Excuse me, is there a toilet in this restaurant?"
+    },
+    "answer": "hay",
+    "altAnswers": ["Hay"],
+    "explain": {
+      "de": "\"un baño\" ist unbestimmt, und gefragt wird, ob es überhaupt existiert → hay. Estar käme nur in Frage, wenn nach dem Ort eines bekannten Bades (el baño) gefragt würde.",
+      "en": "\"un baño\" is indefinite, and the question is whether it exists at all → hay. Estar would only fit if asking for the location of a known bathroom (el baño)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El restaurante que buscas ___ justo enfrente del cine.",
+    "promptGloss": {
+      "de": "Das Restaurant, das du suchst, ist genau gegenüber dem Kino.",
+      "en": "The restaurant you are looking for is right across from the cinema."
+    },
+    "answer": "está",
+    "explain": {
+      "de": "\"El restaurante\" ist bestimmt und durch den Relativsatz eindeutig bekannt; sein Ort wird genannt → está. Hay ist hier ausgeschlossen, da es nie mit bestimmtem Artikel steht.",
+      "en": "\"El restaurante\" is definite and clearly known through the relative clause; its location is given → está. Hay is excluded here, as it never goes with a definite article."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Sobre la mesa ___ tres libros y un cuaderno.",
+    "promptGloss": {
+      "de": "Auf dem Tisch sind drei Bücher und ein Heft.",
+      "en": "On the table there are three books and a notebook."
+    },
+    "answer": "hay",
+    "altAnswers": ["Hay"],
+    "explain": {
+      "de": "\"tres libros\" und \"un cuaderno\" sind unbestimmte Mengen/Zahlen; hay bleibt auch vor mehreren Dingen unverändert im Singular. Están wäre falsch, weil nichts Bekanntes lokalisiert wird.",
+      "en": "\"tres libros\" and \"un cuaderno\" are indefinite quantities/numbers; hay stays in its single invariable form even before several items. Están would be wrong, since nothing known is being located."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Tus llaves ___ en el bolsillo de tu abrigo, las acabo de ver.",
+    "promptGloss": {
+      "de": "Deine Schlüssel sind in der Tasche deines Mantels, ich habe sie gerade gesehen.",
+      "en": "Your keys are in your coat pocket, I just saw them."
+    },
+    "answer": "están",
+    "explain": {
+      "de": "\"Tus llaves\" ist durch das Possessiv bestimmt und bekannt und steht im Plural → están (estar passt sich an die Zahl an). Hay bliebe unveränderlich und passt nicht zu einem bestimmten Plural.",
+      "en": "\"Tus llaves\" is definite and known through the possessive and is plural → están (estar agrees in number). Hay would stay invariable and does not fit a definite plural."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "—¿___ alguien en la sala de espera? —No, no hay nadie.",
+    "promptGloss": {
+      "de": "— Ist jemand im Wartezimmer? — Nein, es ist niemand da.",
+      "en": "— Is there anyone in the waiting room? — No, there is no one."
+    },
+    "answer": "Hay",
+    "altAnswers": ["hay"],
+    "explain": {
+      "de": "\"alguien\" ist unbestimmt; ob jemand vorhanden ist, fragt man mit hay, und die Antwort \"no hay nadie\" bestätigt das Muster. Está/están wären falsch, weil keine bestimmte Person lokalisiert wird.",
+      "en": "\"alguien\" is indefinite; whether someone is present is asked with hay, and the reply \"no hay nadie\" confirms the pattern. Está/están would be wrong, since no specific person is being located."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Hay una catedral preciosa en el centro; ___ al lado del ayuntamiento.",
+    "promptGloss": {
+      "de": "Es gibt eine wunderschöne Kathedrale im Zentrum; sie ist neben dem Rathaus.",
+      "en": "There is a beautiful cathedral in the centre; it is next to the town hall."
+    },
+    "options": ["hay", "está", "es"],
+    "answer": "está",
+    "explain": {
+      "de": "Die Kathedrale wird zuerst mit hay als unbestimmt eingeführt; sobald sie bekannt ist, wird ihr Ort mit está angegeben. Erneutes hay wäre falsch, weil das Objekt jetzt bestimmt ist.",
+      "en": "The cathedral is first introduced with hay as indefinite; once it is known, its location is given with está. Repeating hay would be wrong, since the object is now definite."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "En el aparcamiento ___ varios coches, pero el coche de Ana ___ en la planta dos.",
+    "promptGloss": {
+      "de": "Im Parkhaus stehen mehrere Autos, aber Anas Auto ist auf der zweiten Etage.",
+      "en": "In the car park there are several cars, but Ana's car is on the second floor."
+    },
+    "options": ["hay / está", "está / hay", "hay / hay", "están / está"],
+    "answer": "hay / está",
+    "explain": {
+      "de": "\"varios coches\" ist unbestimmt → hay; \"el coche de Ana\" ist durch Artikel und Besitzangabe bestimmt und bekannt → está. Die anderen Kombinationen verwechseln Existenz und Ort.",
+      "en": "\"varios coches\" is indefinite → hay; \"el coche de Ana\" is definite and known through article and possessor → está. The other combinations confuse existence and location."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Las oficinas de la empresa ___ en el tercer piso del edificio.",
+    "promptGloss": {
+      "de": "Die Büros der Firma sind im dritten Stock des Gebäudes.",
+      "en": "The company's offices are on the third floor of the building."
+    },
+    "answer": "están",
+    "explain": {
+      "de": "\"Las oficinas\" ist bestimmt und bekannt und steht im Plural, daher das angepasste están. Hay ist unmöglich, weil es weder mit bestimmtem Artikel noch im Plural verändert auftritt.",
+      "en": "\"Las oficinas\" is definite and known and is plural, hence the agreeing form están. Hay is impossible, as it neither takes a definite article nor changes for the plural."
+    }
+  }
+]
