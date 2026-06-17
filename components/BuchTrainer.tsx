@@ -25,6 +25,12 @@ const splitMeanings = (s: string) =>
 // Stable, accent-stripped key per word → mastery accumulates across rounds.
 const keyOf = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
 
+function shuffle<T>(a: T[]): T[] {
+  const r = a.slice();
+  for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; }
+  return r;
+}
+
 interface Q { id: string; es: string; prompt: string; accepted: string[]; canonical: string; }
 
 export function BuchTrainer() {
@@ -40,10 +46,12 @@ export function BuchTrainer() {
   const [phase, setPhase] = useState<Phase>("setup");
 
   const [questions, setQuestions] = useState<Q[]>([]);
+  const [wrongQs, setWrongQs] = useState<Q[]>([]);
   const [idx, setIdx] = useState(0);
   const [input, setInput] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   const [correct, setCorrect] = useState(0);
+  const [roundMs, setRoundMs] = useState(0);
   const startedAt = useRef(Date.now());
   const inputRef = useRef<SpanishInputHandle>(null);
 
@@ -51,24 +59,32 @@ export function BuchTrainer() {
   useEffect(() => { loadBuch().then(setData); loadBuchDetails().then(setDetails); refreshMastery(); }, []);
   useEffect(() => { if (phase === "run" && status === "idle") inputRef.current?.focus(); }, [phase, status, idx]);
 
-  const start = async () => {
+  const beginRound = (qs: Q[], lek: string) => {
+    setLektion(lek);
+    setQuestions(qs); setWrongQs([]); setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
+    startedAt.current = Date.now();
+    setPhase("run");
+  };
+
+  // Build a fresh round for a Lektion (default: current), honouring scope + count.
+  const start = async (lek: string = lektion) => {
     if (!data) return;
     const prog = await getAllProgress();
     const recs = new Map<string, ProgressRecord>();
     for (const r of prog) if (r.kind === "vocab" && r.itemKey.startsWith("buch:")) recs.set(r.itemKey.slice(5), r);
-    const pool = lektion === "__all__" ? data.entries : data.entries.filter((e) => e.lektion === lektion);
+    const pool = lek === "__all__" ? data.entries : data.entries.filter((e) => e.lektion === lek);
     const picked = orderByScope(pool, (e) => recs.get(keyOf(e.es)), scope, count);
-    if (picked.length === 0) { setNote(scope === "weak" ? t("vocab.empty.mastered") : t("quiz.empty")); return; }
+    if (picked.length === 0) { setLektion(lek); setNote(scope === "weak" ? t("vocab.empty.mastered") : t("quiz.empty")); setPhase("setup"); return; }
     setNote("");
     const qs: Q[] = picked.map((e) => {
       const prompt = dir === "es-de" ? e.es : e.de;
       const ans = dir === "es-de" ? e.de : e.es;
       return { id: keyOf(e.es), es: e.es, prompt, accepted: splitMeanings(ans), canonical: ans };
     });
-    setQuestions(qs); setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
-    startedAt.current = Date.now();
-    setPhase("run");
+    beginRound(qs, lek);
   };
+
+  const retryWrong = () => { if (wrongQs.length) beginRound(shuffle(wrongQs), lektion); };
 
   if (!data) return <p className="text-muted">{t("common.loading")}</p>;
 
@@ -130,7 +146,7 @@ export function BuchTrainer() {
 
         {note && <p className="rounded-xl border border-dashed border-border p-4 text-sm text-muted">{note}</p>}
 
-        <button onClick={start} className="w-full rounded-xl bg-vocab px-5 py-4 font-semibold text-white hover:opacity-90">
+        <button onClick={() => start()} className="w-full rounded-xl bg-vocab px-5 py-4 font-semibold text-white hover:opacity-90">
           {t("common.start")}
         </button>
       </div>
@@ -138,12 +154,67 @@ export function BuchTrainer() {
   }
 
   if (phase === "done") {
+    const totalDone = questions.length;
+    const wrong = totalDone - correct;
+    const secs = Math.round(roundMs / 1000);
+    const timeStr = secs < 60 ? `${secs}s` : `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}`;
+    const lekStat = lektion === "__all__" ? mastery?.overall : mastery?.byLektion.get(lektion);
+    const lekLabel = lektion === "__all__" ? t("buch.all") : lektion;
+    const lekIdx = data.lektionen.findIndex((l) => l.name === lektion);
+    const nextLek = lekIdx >= 0 ? data.lektionen[lekIdx + 1]?.name : undefined;
+
     return (
-      <div className="mx-auto max-w-md space-y-6 text-center">
-        <ScoreRing correct={correct} total={questions.length} />
-        <div className="flex justify-center gap-3">
-          <button onClick={start} className="rounded-lg bg-vocab px-4 py-2 font-medium text-white hover:opacity-90">{t("quiz.result.again")}</button>
-          <button onClick={() => { setPhase("setup"); refreshMastery(); }} className="rounded-lg border border-border px-4 py-2 font-medium hover:bg-foreground/5">{t("buch.title")}</button>
+      <div className="mx-auto max-w-md space-y-6">
+        <div className="flex justify-center pt-2"><ScoreRing correct={correct} total={totalDone} /></div>
+
+        {/* richtig / falsch / Zeit */}
+        <div className="grid grid-cols-3 gap-3 text-center">
+          <div className="rounded-xl border border-border bg-card py-3">
+            <div className="text-2xl font-bold text-green-600 dark:text-green-400">{correct}</div>
+            <div className="text-xs text-muted">{t("stats.todayCorrect")}</div>
+          </div>
+          <div className="rounded-xl border border-border bg-card py-3">
+            <div className="text-2xl font-bold text-red-600 dark:text-red-400">{wrong}</div>
+            <div className="text-xs text-muted">{t("stats.todayWrong")}</div>
+          </div>
+          <div className="rounded-xl border border-border bg-card py-3">
+            <div className="text-2xl font-bold">{timeStr}</div>
+            <div className="text-xs text-muted">{t("buch.time")}</div>
+          </div>
+        </div>
+
+        {/* overall Lektion progress */}
+        {lekStat && (
+          <div className="rounded-xl border border-border bg-card p-4">
+            <div className="mb-1.5 flex items-center justify-between text-sm">
+              <span className="font-semibold">{lekLabel}</span>
+              <span className="text-muted">{lekStat.masteredPct}% {t("vocab.cat.mastered")}</span>
+            </div>
+            <div className="h-2 w-full overflow-hidden rounded-full bg-foreground/10">
+              <div className="h-full bg-vocab transition-all" style={{ width: `${lekStat.masteredPct}%` }} />
+            </div>
+            <ProgressCounts right={lekStat.right} wrong={lekStat.wrong} neu={lekStat.new} />
+          </div>
+        )}
+
+        {/* actions */}
+        <div className="space-y-2">
+          {wrongQs.length > 0 && (
+            <button onClick={retryWrong} className="w-full rounded-xl border-2 border-red-500/40 px-5 py-3 font-semibold text-red-600 transition-colors hover:bg-red-500/10 dark:text-red-400">
+              {t("buch.retryWrong")} ({wrongQs.length})
+            </button>
+          )}
+          <button onClick={() => start()} className="w-full rounded-xl bg-vocab px-5 py-3 font-semibold text-white hover:opacity-90">
+            {t("buch.more")} ({count})
+          </button>
+          {nextLek && (
+            <button onClick={() => start(nextLek)} className="flex w-full items-center justify-center gap-1.5 rounded-xl border border-border px-5 py-3 font-medium hover:bg-foreground/5">
+              {t("buch.next").replace("{l}", nextLek)} →
+            </button>
+          )}
+          <button onClick={() => { setPhase("setup"); refreshMastery(); }} className="w-full px-5 py-2 text-sm font-medium text-muted hover:text-foreground">
+            {t("buch.overview")}
+          </button>
         </div>
       </div>
     );
@@ -157,10 +228,12 @@ export function BuchTrainer() {
     const ok = checkAnswer(input, q.accepted);
     setStatus(ok ? "right" : "wrong");
     setCorrect((c) => c + (ok ? 1 : 0));
+    if (!ok) setWrongQs((w) => [...w, q]);
     recordResult(`buch:${q.id}`, "vocab", ok);
   };
   const next = () => {
     if (idx + 1 >= total) {
+      setRoundMs(Date.now() - startedAt.current);
       addSession({ id: `${startedAt.current}-buch`, mode: `buch:${lektion}:${dir}`, startedAt: startedAt.current, endedAt: Date.now(), total, correct });
       refreshMastery();
       setPhase("done");
