@@ -116,6 +116,7 @@ export const ui = {
     "vocab.focus.new": "Neu",
     "vocab.setup.round": "Runde",
     "vocab.cat.mastered": "gemeistert",
+    "vocab.learned": "gelernt",
     "vocab.empty.mastered": "Alles gemeistert – stark! Wähle einen anderen Fokus.",
 
     "quiz.round": "Frage",
@@ -331,6 +332,7 @@ export const ui = {
     "vocab.focus.new": "New",
     "vocab.setup.round": "Round",
     "vocab.cat.mastered": "mastered",
+    "vocab.learned": "learned",
     "vocab.empty.mastered": "All mastered – nice! Pick a different focus.",
 
     "quiz.round": "Question",

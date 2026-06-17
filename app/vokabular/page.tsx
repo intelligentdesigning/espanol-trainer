@@ -14,7 +14,7 @@ import {
   IconLetters,
   IconArrowRight,
 } from "@/components/icons";
-import { ProgressCounts } from "@/components/ProgressCounts";
+import { MasteryBar } from "@/components/MasteryBar";
 
 type CatId = "common" | "verbs" | "nouns" | "adj";
 type BandId = "easy" | "medium" | "hard" | "all";
@@ -113,16 +113,11 @@ export default function VokabularPage() {
                     <span className={`h-1.5 w-1.5 rounded-full ${c.dot}`} />
                     {vocab ? `${catCounts[c.id]} ${t("vocab.cat.words")}` : "…"}
                   </div>
-                  {/* mastery progress (high-score at a glance) */}
-                  <div className="mt-3">
-                    <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
-                      <div className={`h-full ${c.dot} transition-all`} style={{ width: `${snap ? snap.byCat[c.id].masteredPct : 0}%` }} />
-                    </div>
-                    {snap && <ProgressCounts right={snap.byCat[c.id].right} wrong={snap.byCat[c.id].wrong} neu={snap.byCat[c.id].new} />}
-                    <div className="mt-1 text-[11px] text-muted">
-                      {snap ? `${snap.byCat[c.id].masteredPct}% ${t("vocab.cat.mastered")}` : " "}
-                    </div>
-                  </div>
+                  {snap ? (
+                    <MasteryBar right={snap.byCat[c.id].right} wrong={snap.byCat[c.id].wrong} neu={snap.byCat[c.id].new} />
+                  ) : (
+                    <div className="mt-2.5 h-2 w-full rounded-full bg-foreground/10" />
+                  )}
                 </div>
                 <IconArrowRight className={`ml-auto h-5 w-5 shrink-0 text-muted transition-transform group-hover:translate-x-1 ${c.hoverText}`} />
               </div>

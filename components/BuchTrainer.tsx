@@ -9,7 +9,7 @@ import { loadBuchMastery, type BuchMastery } from "@/lib/buch-progress";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
 import { QuizWithPanels } from "@/components/QuizPanels";
-import { ProgressCounts } from "@/components/ProgressCounts";
+import { MasteryBar } from "@/components/MasteryBar";
 import type { BuchData, BuchDetails, ProgressRecord } from "@/lib/types";
 
 type Dir = "es-de" | "de-es";
@@ -93,7 +93,6 @@ export function BuchTrainer() {
       `rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
         selected ? "border-transparent bg-vocab/10 text-vocab" : "border-border text-muted hover:bg-foreground/5 hover:text-foreground"
       }`;
-    const pct = (name: string) => (name === "__all__" ? mastery?.overall.masteredPct : mastery?.byLektion.get(name)?.masteredPct) ?? 0;
     const stat = (name: string) => (name === "__all__" ? mastery?.overall : mastery?.byLektion.get(name));
 
     return (
@@ -127,21 +126,21 @@ export function BuchTrainer() {
           </div>
         </div>
 
-        <div className="grid gap-2 sm:grid-cols-2">
-          {[{ name: "__all__", label: t("buch.all"), n: data.entries.length }, ...data.lektionen.map((l) => ({ name: l.name, label: l.name, n: l.count }))].map((l) => (
-            <button key={l.name} onClick={() => setLektion(l.name)}
-              className={`rounded-xl border p-4 text-left transition-colors ${lektion === l.name ? "border-vocab bg-vocab/10" : "border-border hover:bg-foreground/5"}`}>
-              <div className="flex items-center justify-between">
-                <span className="font-semibold">{l.label}</span>
-                <span className="text-sm text-muted">{l.n}</span>
-              </div>
-              <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
-                <div className="h-full bg-vocab transition-all" style={{ width: `${pct(l.name)}%` }} />
-              </div>
-              <div className="mt-1 text-[11px] text-muted">{mastery ? `${pct(l.name)}% ${t("vocab.cat.mastered")}` : " "}</div>
-              {(() => { const st = stat(l.name); return st ? <ProgressCounts right={st.right} wrong={st.wrong} neu={st.new} /> : null; })()}
-            </button>
-          ))}
+        <div className="grid gap-2.5">
+          {[{ name: "__all__", label: t("buch.all"), n: data.entries.length }, ...data.lektionen.map((l) => ({ name: l.name, label: l.name, n: l.count }))].map((l) => {
+            const st = stat(l.name);
+            const active = lektion === l.name;
+            return (
+              <button key={l.name} onClick={() => setLektion(l.name)}
+                className={`rounded-xl border p-4 text-left transition-all ${active ? "border-vocab bg-vocab/10" : "border-border hover:-translate-y-0.5 hover:bg-foreground/5 hover:shadow-sm"}`}>
+                <div className="flex items-baseline justify-between">
+                  <span className="text-base font-semibold">{l.label}</span>
+                  <span className="text-sm text-muted">{l.n} {t("vocab.cat.words")}</span>
+                </div>
+                {st ? <MasteryBar right={st.right} wrong={st.wrong} neu={st.new} /> : <div className="mt-2.5 h-2 w-full rounded-full bg-foreground/10" />}
+              </button>
+            );
+          })}
         </div>
 
         {note && <p className="rounded-xl border border-dashed border-border p-4 text-sm text-muted">{note}</p>}
@@ -186,14 +185,8 @@ export function BuchTrainer() {
         {/* overall Lektion progress */}
         {lekStat && (
           <div className="rounded-xl border border-border bg-card p-4">
-            <div className="mb-1.5 flex items-center justify-between text-sm">
-              <span className="font-semibold">{lekLabel}</span>
-              <span className="text-muted">{lekStat.masteredPct}% {t("vocab.cat.mastered")}</span>
-            </div>
-            <div className="h-2 w-full overflow-hidden rounded-full bg-foreground/10">
-              <div className="h-full bg-vocab transition-all" style={{ width: `${lekStat.masteredPct}%` }} />
-            </div>
-            <ProgressCounts right={lekStat.right} wrong={lekStat.wrong} neu={lekStat.new} />
+            <div className="text-sm font-semibold">{lekLabel}</div>
+            <MasteryBar right={lekStat.right} wrong={lekStat.wrong} neu={lekStat.new} />
           </div>
         )}
 
