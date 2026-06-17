@@ -45,3 +45,27 @@ export const IconConjugate = ({ className }: P) => (
 export const IconTrophy = ({ className }: P) => (
   <svg {...base(className)}><path d="M7 4h10v4a5 5 0 0 1-10 0z" /><path d="M7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3" /><path d="M10 14h4M9 20h6M12 14v6" /></svg>
 );
+export const IconUser = ({ className }: P) => (
+  <svg {...base(className)}><circle cx="12" cy="8" r="4" /><path d="M4 21a8 8 0 0 1 16 0" /></svg>
+);
+export const IconChevronDown = ({ className }: P) => (
+  <svg {...base(className)}><path d="m6 9 6 6 6-6" /></svg>
+);
+export const IconPlus = ({ className }: P) => (
+  <svg {...base(className)}><path d="M12 5v14M5 12h14" /></svg>
+);
+export const IconPencil = ({ className }: P) => (
+  <svg {...base(className)}><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg>
+);
+export const IconTrash = ({ className }: P) => (
+  <svg {...base(className)}><path d="M4 7h16M10 11v6M14 11v6M5 7l1 13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l1-13M9 7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" /></svg>
+);
+export const IconDownload = ({ className }: P) => (
+  <svg {...base(className)}><path d="M12 3v12M8 11l4 4 4-4" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" /></svg>
+);
+export const IconUpload = ({ className }: P) => (
+  <svg {...base(className)}><path d="M12 15V3M8 7l4-4 4 4" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" /></svg>
+);
+export const IconShield = ({ className }: P) => (
+  <svg {...base(className)}><path d="M12 3 5 6v6c0 4 3 7 7 9 4-2 7-5 7-9V6z" /><path d="m9 12 2 2 4-4" /></svg>
+);

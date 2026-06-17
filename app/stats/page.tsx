@@ -1,15 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
-import { getStats, getRecentSessions, resetAll, getDailyStats, getDailyHistory, type Stats, type DailyStats } from "@/lib/storage/db";
+import { getStats, getRecentSessions, resetAll, getDailyStats, getDailyHistory, exportData, importData, isPersisted, type Stats, type DailyStats } from "@/lib/storage/db";
+import { getActiveProfile } from "@/lib/storage/profile";
 import { loadMastery, type MasterySnapshot, type CatId } from "@/lib/progress";
 import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progress";
 import { loadBuchMastery, type BuchMastery } from "@/lib/buch-progress";
 import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progress";
 import { ScoreRing } from "@/components/ScoreRing";
-import { IconArrowRight } from "@/components/icons";
+import { IconArrowRight, IconDownload, IconUpload, IconShield } from "@/components/icons";
 import type { SessionRecord } from "@/lib/types";
 
 const CATS: CatId[] = ["common", "verbs", "nouns", "adj"];
@@ -236,7 +237,76 @@ export default function StatsPage() {
           </button>
         </>
       )}
+
+      <BackupCard />
     </div>
+  );
+}
+
+function BackupCard() {
+  const { t } = useI18n();
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [persisted, setPersisted] = useState<boolean | null>(null);
+  const [msg, setMsg] = useState<{ kind: "ok" | "err"; text: string } | null>(null);
+
+  useEffect(() => {
+    isPersisted().then(setPersisted);
+  }, []);
+
+  const doExport = async () => {
+    const data = await exportData();
+    const profile = getActiveProfile();
+    const safe = profile.name.replace(/[^a-z0-9]+/gi, "-").toLowerCase() || "profil";
+    const date = new Date().toISOString().slice(0, 10);
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `espanol-trainer-${safe}-${date}.json`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  };
+
+  const onFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // allow re-importing the same file
+    if (!file) return;
+    if (!window.confirm(t("backup.importConfirm"))) return;
+    try {
+      const data = JSON.parse(await file.text());
+      await importData(data);
+      setMsg({ kind: "ok", text: t("backup.imported") });
+      setTimeout(() => window.location.reload(), 600);
+    } catch {
+      setMsg({ kind: "err", text: t("backup.importError") });
+    }
+  };
+
+  return (
+    <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+      <h2 className="font-semibold">{t("backup.title")}</h2>
+      <p className="mt-1 text-sm text-muted">{t("backup.desc")}</p>
+      <div className="mt-3 flex flex-wrap gap-2">
+        <button onClick={doExport} className="inline-flex items-center gap-2 rounded-lg bg-brand px-4 py-2 text-sm font-semibold text-white hover:opacity-90">
+          <IconDownload className="h-4 w-4" /> {t("backup.export")}
+        </button>
+        <button onClick={() => fileRef.current?.click()} className="inline-flex items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm font-semibold text-foreground hover:bg-foreground/5">
+          <IconUpload className="h-4 w-4" /> {t("backup.import")}
+        </button>
+        <input ref={fileRef} type="file" accept="application/json,.json" onChange={onFile} className="hidden" />
+      </div>
+      {msg && (
+        <p className={`mt-2 text-sm ${msg.kind === "ok" ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"}`}>{msg.text}</p>
+      )}
+      {persisted !== null && (
+        <div className={`mt-3 flex items-start gap-2 text-xs ${persisted ? "text-muted" : "text-amber-600 dark:text-amber-400"}`}>
+          <IconShield className="mt-px h-4 w-4 shrink-0" />
+          <span>{persisted ? t("backup.persisted") : t("backup.notPersisted")}</span>
+        </div>
+      )}
+    </section>
   );
 }
 

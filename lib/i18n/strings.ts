@@ -217,6 +217,22 @@ export const ui = {
     "stats.minutes": "Min",
     "stats.streak": "Tage-Serie",
     "stats.last7": "Letzte 7 Tage",
+
+    "profile.label": "Profil",
+    "profile.new": "Neues Profil",
+    "profile.rename": "Umbenennen",
+    "profile.delete": "Profil löschen",
+    "profile.deleteConfirm": "Dieses Profil samt seinem Fortschritt wirklich löschen?",
+
+    "backup.title": "Daten & Backup",
+    "backup.desc": "Dein Fortschritt liegt lokal in diesem Browser. Exportiere ihn als Datei, um ihn zu sichern oder auf einen anderen Rechner zu übertragen.",
+    "backup.export": "Exportieren",
+    "backup.import": "Importieren",
+    "backup.importConfirm": "Backup in das aktuelle Profil laden? Der bisherige Fortschritt dieses Profils wird ersetzt.",
+    "backup.imported": "Backup geladen.",
+    "backup.importError": "Datei konnte nicht gelesen werden – ist es ein Español-Trainer-Backup?",
+    "backup.persisted": "Dauerhaft gespeichert – dein Fortschritt wird nicht automatisch gelöscht.",
+    "backup.notPersisted": "Noch nicht dauerhaft gesichert. Tipp: Seite zu Lesezeichen/Home-Bildschirm hinzufügen, dann sichert der Browser dauerhaft.",
   },
   en: {
     "app.title": "Español Trainer",
@@ -433,6 +449,22 @@ export const ui = {
     "stats.minutes": "min",
     "stats.streak": "day streak",
     "stats.last7": "Last 7 days",
+
+    "profile.label": "Profile",
+    "profile.new": "New profile",
+    "profile.rename": "Rename",
+    "profile.delete": "Delete profile",
+    "profile.deleteConfirm": "Really delete this profile and all its progress?",
+
+    "backup.title": "Data & backup",
+    "backup.desc": "Your progress is stored locally in this browser. Export it as a file to back it up or move it to another computer.",
+    "backup.export": "Export",
+    "backup.import": "Import",
+    "backup.importConfirm": "Load this backup into the current profile? This profile's existing progress will be replaced.",
+    "backup.imported": "Backup loaded.",
+    "backup.importError": "Could not read the file – is it an Español Trainer backup?",
+    "backup.persisted": "Stored permanently – your progress won't be deleted automatically.",
+    "backup.notPersisted": "Not stored permanently yet. Tip: add the site to bookmarks/home screen so the browser keeps it for good.",
   },
 } satisfies Record<Locale, Record<string, string>>;
 

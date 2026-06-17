@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useI18n } from "@/lib/i18n/locale";
+import { ProfileSwitcher } from "@/components/ProfileSwitcher";
 
 export function Nav() {
   const { t, locale, toggle } = useI18n();
@@ -50,6 +51,7 @@ export function Nav() {
         >
           {locale === "de" ? "EN" : "DE"}
         </button>
+        <ProfileSwitcher />
       </div>
     </header>
   );

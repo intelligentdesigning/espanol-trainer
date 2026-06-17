@@ -1,8 +1,8 @@
 "use client";
 
 import type { ItemKind, ProgressRecord, SessionRecord } from "@/lib/types";
+import { activeDbName } from "./profile";
 
-const DB_NAME = "espanol-trainer";
 const DB_VERSION = 3;
 const LEITNER_DAYS = [0, 1, 2, 4, 8, 16];
 
@@ -19,7 +19,7 @@ function openDB(): Promise<IDBDatabase> {
   if (typeof indexedDB === "undefined") return Promise.reject(new Error("no-idb"));
   if (dbPromise) return dbPromise;
   dbPromise = new Promise((resolve, reject) => {
-    const req = indexedDB.open(DB_NAME, DB_VERSION);
+    const req = indexedDB.open(activeDbName(), DB_VERSION);
     req.onupgradeneeded = () => {
       const db = req.result;
       if (!db.objectStoreNames.contains("progress")) {
@@ -61,6 +61,64 @@ function tx<T>(store: string, mode: IDBTransactionMode, fn: (s: IDBObjectStore) 
 
 function getAll<T>(store: string): Promise<T[]> {
   return tx<T[]>(store, "readonly", (s) => s.getAll() as IDBRequest<T[]>).catch(() => []);
+}
+
+/** Every store that holds user data — used for backup export/import. */
+const DATA_STORES = ["progress", "sessions", "daily", "notebook", "meta"] as const;
+
+/**
+ * Ask the browser to keep our storage permanently. Without this, Safari (ITP)
+ * evicts IndexedDB after ~7 days of no visits — the cause of "my progress
+ * vanished". Safe to call repeatedly; returns whether storage is persistent.
+ */
+export async function requestPersist(): Promise<boolean> {
+  try {
+    if (typeof navigator === "undefined" || !navigator.storage) return false;
+    if (navigator.storage.persisted && (await navigator.storage.persisted())) return true;
+    if (navigator.storage.persist) return await navigator.storage.persist();
+  } catch {}
+  return false;
+}
+
+export async function isPersisted(): Promise<boolean> {
+  try {
+    return (await navigator.storage?.persisted?.()) ?? false;
+  } catch {
+    return false;
+  }
+}
+
+export interface BackupData {
+  app: "espanol-trainer";
+  version: number;
+  exportedAt: number;
+  stores: Record<string, unknown[]>;
+}
+
+/** Snapshot the active profile's data as a portable object (→ JSON download). */
+export async function exportData(): Promise<BackupData> {
+  const stores: Record<string, unknown[]> = {};
+  for (const s of DATA_STORES) stores[s] = await getAll(s);
+  return { app: "espanol-trainer", version: DB_VERSION, exportedAt: Date.now(), stores };
+}
+
+/** Replace the active profile's data with a backup. Unknown stores are ignored. */
+export async function importData(data: BackupData): Promise<void> {
+  if (!data || data.app !== "espanol-trainer" || !data.stores) throw new Error("bad-backup");
+  const db = await openDB();
+  const names = new Set(Array.from(db.objectStoreNames));
+  for (const s of DATA_STORES) {
+    if (!names.has(s)) continue;
+    const rows = Array.isArray(data.stores[s]) ? data.stores[s] : [];
+    await new Promise<void>((resolve, reject) => {
+      const t = db.transaction(s, "readwrite");
+      const store = t.objectStore(s);
+      store.clear();
+      for (const r of rows) store.put(r);
+      t.oncomplete = () => resolve();
+      t.onerror = () => reject(t.error);
+    });
+  }
 }
 
 /** Record one answer; updates stats + a simple Leitner schedule. */
