@@ -14,6 +14,7 @@
   --cat-noun: #2563eb;    /* blue   – Nomen */
   --cat-adj: #ca8a04;     /* gold   – Adjektive */
   --cat-common: #0e7490;  /* teal   – häufigste Wörter */
+  --cat-article: #7c3aed; /* violet – Artikel-Trainer */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,6 +31,7 @@
     --cat-noun: #60a5fa;    /* blue-400 */
     --cat-adj: #fbbf24;     /* amber-400 (gelb) */
     --cat-common: #38bdf8;  /* sky-400  */
+    --cat-article: #a78bfa; /* violet-400 */
   }
 }
 
@@ -46,6 +48,7 @@
   --color-noun: var(--cat-noun);
   --color-adj: var(--cat-adj);
   --color-common: var(--cat-common);
+  --color-article: var(--cat-article);
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }
 

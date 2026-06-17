@@ -129,6 +129,24 @@ export default function VokabularPage() {
             </button>
           ))}
         </div>
+
+        {/* special exercise: gender / article trainer */}
+        <Link
+          href="/vokabular/artikel"
+          className="group relative block overflow-hidden rounded-2xl border border-article/30 bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-article/60 hover:shadow-lg"
+        >
+          <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-article/10 blur-2xl" />
+          <div className="relative flex items-start gap-4">
+            <div className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-article/10 text-article">
+              <IconLetters className="h-6 w-6" />
+            </div>
+            <div className="min-w-0">
+              <div className="text-lg font-semibold transition-colors group-hover:text-article">{t("vocab.cat.article")}</div>
+              <p className="mt-0.5 text-sm leading-snug text-muted">{t("vocab.cat.article.desc")}</p>
+            </div>
+            <IconArrowRight className="ml-auto h-5 w-5 shrink-0 text-muted transition-transform group-hover:translate-x-1 group-hover:text-article" />
+          </div>
+        </Link>
       </div>
     );
   }

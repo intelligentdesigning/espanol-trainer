@@ -1,4 +1,4 @@
-import type { VocabItem, VerbItem, VocabIndex, BuchData, VocabDetails, BuchDetails } from "@/lib/types";
+import type { VocabItem, VerbItem, VocabIndex, BuchData, VocabDetails, BuchDetails, NounArticle } from "@/lib/types";
 
 // Client-side loaders for the committed data files (in public/data, fetched lazily).
 let vocabPromise: Promise<VocabItem[]> | null = null;
@@ -7,6 +7,7 @@ let indexPromise: Promise<VocabIndex> | null = null;
 let buchPromise: Promise<BuchData> | null = null;
 let detailsPromise: Promise<VocabDetails> | null = null;
 let buchDetailsPromise: Promise<BuchDetails> | null = null;
+let articlesPromise: Promise<NounArticle[]> | null = null;
 
 function load<T>(file: string): Promise<T> {
   return fetch(`/data/${file}`).then((r) => {
@@ -34,6 +35,10 @@ export function loadDetails(): Promise<VocabDetails> {
 /** Coursebook definitions + examples (keyed by accent-stripped es). Tolerates a missing file. */
 export function loadBuchDetails(): Promise<BuchDetails> {
   return (buchDetailsPromise ??= load<BuchDetails>("buch-details.json").catch(() => ({} as BuchDetails)));
+}
+/** Noun gender database for the article trainer. Tolerates a missing file. */
+export function loadArticles(): Promise<NounArticle[]> {
+  return (articlesPromise ??= load<NounArticle[]>("articles.json").catch(() => [] as NounArticle[]));
 }
 
 const strip = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();

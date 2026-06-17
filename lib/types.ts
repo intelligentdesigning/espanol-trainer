@@ -69,6 +69,14 @@ export interface VocabDetail {
 export type VocabDetails = Record<string, VocabDetail>; // keyed by vocab id
 export type BuchDetails = Record<string, VocabDetail>;  // keyed by accent-stripped es
 
+/** public/data/articles.json — gender training: noun → definite article. */
+export interface NounArticle {
+  es: string;
+  article: "el" | "la";
+  irregular: boolean;      // gender not predictable from the word's form
+  note?: LocalizedText;    // hint shown for irregulars
+}
+
 export interface VocabIndex {
   total: number;
   counts: Partial<Record<Pos, number>>;

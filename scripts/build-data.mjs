@@ -346,3 +346,20 @@ try {
 } catch (e) {
   console.log("buch-details.json skipped:", e.message);
 }
+
+// --- 10. Noun gender database (noun-genders workflow) -> articles.json ---------
+try {
+  const arts = readJson(join(__dirname, "vendor", "articles.json"));
+  const present = new Set(vocab.map((v) => v.es));
+  const out = [];
+  for (const a of Array.isArray(arts) ? arts : []) {
+    if (!present.has(a.es) || (a.article !== "el" && a.article !== "la")) continue;
+    const rec = { es: a.es, article: a.article, irregular: !!a.irregular };
+    if (a.irregular && a.note) rec.note = a.note;
+    out.push(rec);
+  }
+  writeFileSync(join(OUT, "articles.json"), JSON.stringify(out));
+  console.log(`articles.json: ${out.length} nouns, ${out.filter((a) => a.irregular).length} irregular`);
+} catch (e) {
+  console.log("articles.json skipped:", e.message);
+}
