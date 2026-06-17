@@ -15,6 +15,7 @@ import { EMPTY, mergeBundle, mergeProfiles, visible } from "./_merge.mjs";
 
 const STORE = "espanol-sync";
 const PROFILES_KEY = "profiles";
+const SYNC_VERSION = 2; // bump to detect which deploy is live
 const dataKey = (id) => `data:${id}`;
 
 const json = (body, status = 200) =>
@@ -38,7 +39,7 @@ export default async (req) => {
       const url = new URL(req.url);
       const profile = url.searchParams.get("profile");
       const profiles = (await store.get(PROFILES_KEY, { type: "json" })) || [];
-      const out = { profiles: visible(profiles) };
+      const out = { v: SYNC_VERSION, profiles: visible(profiles) };
       if (profile) out.bundle = (await store.get(dataKey(profile), { type: "json" })) || EMPTY;
       return json(out);
     }
