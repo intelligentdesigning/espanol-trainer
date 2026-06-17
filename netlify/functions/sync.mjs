@@ -26,7 +26,9 @@ const json = (body, status = 200) =>
 export default async (req) => {
   let store;
   try {
-    store = getStore(STORE);
+    // strong consistency: a device must read the newest data right after another
+    // device pushed, otherwise sync could serve a stale (empty) bundle.
+    store = getStore({ name: STORE, consistency: "strong" });
   } catch {
     return json({ error: "blobs-unavailable" }, 503);
   }
