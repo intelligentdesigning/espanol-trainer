@@ -1,0 +1,6 @@
+{
+ "tú": { "defEs": "Pronombre personal de segunda persona (sujeto), informal.", "defDe": "Personalpronomen 2. Person als Subjekt, informell (du).", "defEn": "Informal second-person subject pronoun (you).", "exEs": "¿Tú hablas español?", "exDe": "Sprichst du Spanisch?", "exEn": "Do you speak Spanish?" },
+ "tu": { "defEs": "Adjetivo posesivo de segunda persona; indica que algo te pertenece.", "defDe": "Possessivbegleiter 2. Person (dein/e).", "defEn": "Second-person possessive adjective (your).", "exEs": "¿Cómo se llama tu hermano?", "exDe": "Wie heißt dein Bruder?", "exEn": "What is your brother's name?" },
+ "sí": { "defEs": "Se usa para afirmar o responder de forma positiva.", "defDe": "Wird verwendet, um zu bejahen oder positiv zu antworten (ja).", "defEn": "Used to affirm or answer positively (yes).", "exEs": "—¿Estudias español? —Sí.", "exDe": "— Lernst du Spanisch? — Ja.", "exEn": "— Do you study Spanish? — Yes." },
+ "si": { "defEs": "Conjunción que introduce una condición o una duda.", "defDe": "Konjunktion für eine Bedingung (wenn/falls) oder indirekte Frage (ob).", "defEn": "Conjunction introducing a condition (if) or an indirect question (whether).", "exEs": "No sé si viene hoy.", "exDe": "Ich weiß nicht, ob er heute kommt.", "exEn": "I don't know if he's coming today." }
+}

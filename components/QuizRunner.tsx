@@ -56,7 +56,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
 
   const total = questions.length;
   const q = questions[idx];
-  const d = details[q.id];
+  const d = details[q.es]; // details are keyed by exact (accented) es, not the slug id
   const promptLabel = config.direction === "es-en" ? t("quiz.translateToEn") : t("quiz.translateToEs");
   const answered = status !== "idle";
 

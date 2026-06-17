@@ -301,39 +301,48 @@ try {
   console.log("buch.json skipped:", e.message);
 }
 
-// --- 8. Definitions + example sentences (vocab-enrich workflow) -> details.json
+// --- 8. Definitions + example sentences -> details.json (KEYED BY EXACT es) -----
+// Generated source is id-keyed (accent-stripped slug), which COLLIDES diacritic
+// homographs (si/sí, el/él, …). We re-key by the exact accented es so each word
+// gets its own entry; `details-fixes.json` (es-keyed) overrides per-sense fixes.
+const readJson = (p) => { try { return JSON.parse(readFileSync(p, "utf8")); } catch { return {}; } };
 try {
-  const details = JSON.parse(readFileSync(join(__dirname, "vendor", "details.json"), "utf8"));
-  // keep only ids that exist in the current vocab, drop empty entries
-  const ids = new Set(vocab.map((v) => v.id));
+  const details = readJson(join(__dirname, "vendor", "details.json"));     // id-keyed
+  const fixes = readJson(join(__dirname, "vendor", "details-fixes.json")); // es-keyed overrides
+  const pick = (d) => ({ defEs: d.defEs, defDe: d.defDe, defEn: d.defEn, exEs: d.exEs, exDe: d.exDe, exEn: d.exEn });
   const out = {};
-  let kept = 0;
-  for (const [id, d] of Object.entries(details)) {
-    if (!ids.has(id) || !d || !d.defEs || !d.exEs) continue;
-    out[id] = { defEs: d.defEs, defDe: d.defDe, defEn: d.defEn, exEs: d.exEs, exDe: d.exDe, exEn: d.exEn };
-    kept++;
+  let kept = 0, fixed = 0;
+  for (const v of vocab) {
+    const fix = fixes[v.es];
+    const d = fix ?? details[v.id];
+    if (!d || !d.defEs || !d.exEs) continue;
+    out[v.es] = pick(d);
+    kept++; if (fix) fixed++;
   }
   writeFileSync(join(OUT, "details.json"), JSON.stringify(out));
-  const coverage = ((kept / vocab.length) * 100).toFixed(1);
-  console.log(`details.json: ${kept}/${vocab.length} words (${coverage}% coverage)`);
+  console.log(`details.json: ${kept}/${vocab.length} words by es (${((kept / vocab.length) * 100).toFixed(1)}%), ${fixed} sense-fixes applied`);
 } catch (e) {
   console.log("details.json skipped:", e.message);
 }
 
-// --- 9. Coursebook definitions + examples (buch-enrich workflow) -> buch-details.json
+// --- 9. Coursebook definitions + examples -> buch-details.json (KEYED BY EXACT es)
 try {
-  const bdetails = JSON.parse(readFileSync(join(__dirname, "vendor", "buch-details.json"), "utf8"));
+  const bdetails = readJson(join(__dirname, "vendor", "buch-details.json"));         // accent-stripped-keyed
+  const bfixes = readJson(join(__dirname, "vendor", "buch-details-fixes.json"));     // es-keyed overrides
   const buch = JSON.parse(readFileSync(join(OUT, "buch.json"), "utf8"));
-  const keys = new Set(buch.entries.map((e) => stripAccents(e.es).toLowerCase().trim()));
+  const pick = (d) => ({ defEs: d.defEs, defDe: d.defDe, defEn: d.defEn, exEs: d.exEs, exDe: d.exDe, exEn: d.exEn });
   const out = {};
-  let kept = 0;
-  for (const [k, d] of Object.entries(bdetails)) {
-    if (!keys.has(k) || !d || !d.defEs || !d.exEs) continue;
-    out[k] = { defEs: d.defEs, defDe: d.defDe, defEn: d.defEn, exEs: d.exEs, exDe: d.exDe, exEn: d.exEn };
-    kept++;
+  let kept = 0, fixed = 0;
+  for (const e of buch.entries) {
+    if (out[e.es]) continue; // same es repeated across lektionen
+    const fix = bfixes[e.es];
+    const d = fix ?? bdetails[stripAccents(e.es).toLowerCase().trim()];
+    if (!d || !d.defEs || !d.exEs) continue;
+    out[e.es] = pick(d);
+    kept++; if (fix) fixed++;
   }
   writeFileSync(join(OUT, "buch-details.json"), JSON.stringify(out));
-  console.log(`buch-details.json: ${kept}/${keys.size} unique words (${((kept / keys.size) * 100).toFixed(1)}% coverage)`);
+  console.log(`buch-details.json: ${kept} words by es, ${fixed} sense-fixes applied`);
 } catch (e) {
   console.log("buch-details.json skipped:", e.message);
 }

@@ -205,7 +205,7 @@ export function BuchTrainer() {
   );
 
   return (
-    <QuizWithPanels detail={details[keyOf(q.es)]} answered={status !== "idle"} enabled={Object.keys(details).length > 0}>
+    <QuizWithPanels detail={details[q.es]} answered={status !== "idle"} enabled={Object.keys(details).length > 0}>
       {center}
     </QuizWithPanels>
   );
