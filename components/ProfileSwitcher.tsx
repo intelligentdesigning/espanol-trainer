@@ -12,6 +12,7 @@ import {
   type Profile,
 } from "@/lib/storage/profile";
 import { requestPersist } from "@/lib/storage/db";
+import { initSync } from "@/lib/storage/sync";
 import { IconUser, IconChevronDown, IconPlus, IconPencil, IconTrash, IconCheck } from "@/components/icons";
 
 export function ProfileSwitcher() {
@@ -31,6 +32,11 @@ export function ProfileSwitcher() {
     setMounted(true);
     // Ask the browser to keep our data permanently (stops Safari's 7-day wipe).
     requestPersist();
+    // Start automatic cloud sync; refresh the list when other devices sync in.
+    initSync();
+    const onSynced = () => { setProfiles(getProfiles()); setActive(getActiveId()); };
+    window.addEventListener("espanol-synced", onSynced);
+    return () => window.removeEventListener("espanol-synced", onSynced);
   }, []);
 
   useEffect(() => {

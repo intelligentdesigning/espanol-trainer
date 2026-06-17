@@ -233,6 +233,17 @@ export const ui = {
     "backup.importError": "Datei konnte nicht gelesen werden – ist es ein Español-Trainer-Backup?",
     "backup.persisted": "Dauerhaft gespeichert – dein Fortschritt wird nicht automatisch gelöscht.",
     "backup.notPersisted": "Noch nicht dauerhaft gesichert. Tipp: Seite zu Lesezeichen/Home-Bildschirm hinzufügen, dann sichert der Browser dauerhaft.",
+
+    "sync.title": "Automatischer Sync",
+    "sync.desc": "Dein Fortschritt wird automatisch in der Cloud gespeichert und auf all deinen Geräten aktuell gehalten – ohne manuelles Speichern.",
+    "sync.synced": "Synchronisiert",
+    "sync.syncing": "Synchronisiere…",
+    "sync.offline": "Offline – wird nachgeholt, sobald du wieder online bist.",
+    "sync.error": "Sync-Problem – wird automatisch erneut versucht.",
+    "sync.idle": "Bereit – Sync startet beim ersten Üben.",
+    "sync.justNow": "gerade eben",
+    "sync.now": "Jetzt syncen",
+    "sync.download": "Zusätzliche Sicherung als Datei (optional)",
   },
   en: {
     "app.title": "Español Trainer",
@@ -465,6 +476,17 @@ export const ui = {
     "backup.importError": "Could not read the file – is it an Español Trainer backup?",
     "backup.persisted": "Stored permanently – your progress won't be deleted automatically.",
     "backup.notPersisted": "Not stored permanently yet. Tip: add the site to bookmarks/home screen so the browser keeps it for good.",
+
+    "sync.title": "Automatic sync",
+    "sync.desc": "Your progress is saved to the cloud automatically and kept up to date on all your devices – no manual saving.",
+    "sync.synced": "Synced",
+    "sync.syncing": "Syncing…",
+    "sync.offline": "Offline – will catch up once you're back online.",
+    "sync.error": "Sync issue – will retry automatically.",
+    "sync.idle": "Ready – sync starts on your first practice.",
+    "sync.justNow": "just now",
+    "sync.now": "Sync now",
+    "sync.download": "Extra backup as a file (optional)",
   },
 } satisfies Record<Locale, Record<string, string>>;
 

@@ -5,3 +5,10 @@
 
 [build.environment]
   NODE_VERSION = "20"
+
+# Serverless functions for automatic cloud sync (Netlify Blobs storage).
+# The static site (out/) + this function deploy together; sync.mjs routes
+# itself to /api/sync via its own `config.path`.
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

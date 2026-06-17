@@ -119,6 +119,62 @@ export async function importData(data: BackupData): Promise<void> {
       t.onerror = () => reject(t.error);
     });
   }
+  emitChange();
+}
+
+// --- change notifications (drives automatic cloud sync) -------------------
+let changeListeners: Array<() => void> = [];
+/** Subscribe to local data changes (used by sync.ts). Returns an unsubscribe. */
+export function onDbChange(cb: () => void): () => void {
+  changeListeners.push(cb);
+  return () => { changeListeners = changeListeners.filter((c) => c !== cb); };
+}
+function emitChange(): void {
+  for (const c of changeListeners) {
+    try { c(); } catch {}
+  }
+}
+
+// --- sync bundle (the syncable subset, per active profile) -----------------
+const SYNC_STORES = ["progress", "sessions", "daily", "notebook"] as const;
+export interface SyncBundle {
+  progress: ProgressRecord[];
+  sessions: SessionRecord[];
+  daily: DailyRecord[];
+  notebook: NotebookEntry[];
+}
+
+/** Read the active profile's full syncable data. */
+export async function getBundle(): Promise<SyncBundle> {
+  const [progress, sessions, daily, notebook] = await Promise.all([
+    getAll<ProgressRecord>("progress"),
+    getAll<SessionRecord>("sessions"),
+    getAll<DailyRecord>("daily"),
+    getAll<NotebookEntry>("notebook"),
+  ]);
+  return { progress, sessions, daily, notebook };
+}
+
+/** Upsert a (server-merged) bundle into the active DB. Does not emit a change. */
+export async function putBundle(bundle: Partial<SyncBundle>): Promise<void> {
+  let db: IDBDatabase;
+  try {
+    db = await openDB();
+  } catch {
+    return;
+  }
+  const names = new Set(Array.from(db.objectStoreNames));
+  for (const s of SYNC_STORES) {
+    const rows = (bundle as Record<string, unknown[]>)[s];
+    if (!names.has(s) || !Array.isArray(rows) || rows.length === 0) continue;
+    await new Promise<void>((resolve) => {
+      const t = db.transaction(s, "readwrite");
+      const store = t.objectStore(s);
+      for (const r of rows) store.put(r);
+      t.oncomplete = () => resolve();
+      t.onerror = () => resolve();
+    });
+  }
 }
 
 /** Record one answer; updates stats + a simple Leitner schedule. */
@@ -161,6 +217,7 @@ export async function recordResult(itemKey: string, kind: ItemKind, correct: boo
     t.onerror = () => reject(t.error);
   });
   await bumpDaily(db, itemKey, kind, correct, now);
+  emitChange();
 }
 
 interface DailyRecord {
@@ -232,6 +289,7 @@ export async function addSession(rec: SessionRecord): Promise<void> {
   try {
     await tx("sessions", "readwrite", (s) => s.put(rec));
   } catch {}
+  emitChange();
 }
 
 export function getAllProgress(): Promise<ProgressRecord[]> {
@@ -315,10 +373,12 @@ export async function saveNote(entry: NotebookEntry): Promise<void> {
   try {
     await tx("notebook", "readwrite", (s) => s.put(entry));
   } catch {}
+  emitChange();
 }
 
 export async function deleteNote(id: string): Promise<void> {
   try {
     await tx("notebook", "readwrite", (s) => s.delete(id));
   } catch {}
+  emitChange();
 }
