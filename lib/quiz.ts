@@ -64,12 +64,83 @@ function squash(s: string): string {
   return normalize(s).replace(/[\s-]+/g, "");
 }
 
+const ARTICLE_WORDS = new Set([
+  "el", "la", "los", "las", "un", "una", "unos", "unas",
+  "der", "die", "das", "den", "dem", "des", "ein", "eine", "einen", "einem", "einer", "eines",
+]);
+const VOWEL_END = /[aeiouáéíóúü]$/i;
+
+/**
+ * Expand the gender/alternative slash notation used in the glossary into every
+ * acceptable surface form, e.g.
+ *   "Kellner/in"     → Kellner, Kellnerin
+ *   "camarero/-a"    → camarero, camarera
+ *   "Herr/Frau"      → Herr, Frau
+ *   "dein/e"         → dein, deine
+ * Over-generation is fine — extra junk forms never match a real typed word; we
+ * only need every legitimate form to be present.
+ */
+function slashTokenForms(tok: string): string[] {
+  if (!tok.includes("/")) return [tok];
+  const parts = tok.split("/").map((p) => p.trim()).filter(Boolean);
+  if (!parts.length) return [tok];
+  const base = parts[0];
+  const out = new Set<string>([base]);
+  for (const p of parts.slice(1)) {
+    if (p.startsWith("-")) {
+      const suf = p.slice(1);
+      if (!suf) continue;
+      out.add(base + suf); // append
+      for (let k = 1; k <= Math.min(6, base.length - 1); k++) out.add(base.slice(0, -k) + suf); // replace tail
+    } else {
+      out.add(base + p); // suffix: Kellner+in, dein+e, profesor+a
+      if (VOWEL_END.test(base)) out.add(base.slice(0, -1) + p); // este→est+a
+      // full word / article alternative: Herr/Frau, Arzt/Ärztin, nosotros/nosotras
+      if (p.length >= 4 || /^[A-ZÀ-Þ]/.test(p) || ARTICLE_WORDS.has(p.toLowerCase())) out.add(p);
+    }
+  }
+  return [...out];
+}
+
+const isArticleGroup = (tok: string) => {
+  const parts = tok.toLowerCase().split("/").filter(Boolean);
+  return parts.length > 0 && parts.every((p) => ARTICLE_WORDS.has(p));
+};
+
+/** All surface forms of one phrase (cartesian over its slash tokens). */
+function phraseForms(phrase: string): string[] {
+  let tokens = phrase.split(/\s+/).filter(Boolean);
+  if (tokens.length > 1 && isArticleGroup(tokens[0])) tokens = tokens.slice(1); // drop leading "el/la"
+  let combos: string[] = [""];
+  for (const tok of tokens) {
+    const opts = slashTokenForms(tok);
+    const next: string[] = [];
+    for (const c of combos) for (const o of opts) next.push(c ? `${c} ${o}` : o);
+    combos = next.slice(0, 240); // bound the explosion
+  }
+  return combos;
+}
+
+/** Every accepted surface form of a raw glossary answer (synonyms + slash + parens). */
+function expandForms(raw: string): string[] {
+  const out = new Set<string>();
+  for (const altRaw of raw.split(/\s*[,;]\s*|\s+oder\s+/i)) {
+    const alt = altRaw.trim();
+    if (!alt) continue;
+    for (const v of optionalVariants(alt)) {
+      const clean = v.replace(/[?¿!¡…]+$/g, "").trim();
+      for (const f of phraseForms(clean)) if (f) out.add(f);
+    }
+  }
+  return out.size ? [...out] : [raw];
+}
+
 export function checkAnswer(input: string, accepted: string[]): boolean {
   const n = normalize(input);
   if (!n) return false;
   const nSquash = squash(input);
   for (const a of accepted) {
-    for (const variant of optionalVariants(a)) {
+    for (const variant of expandForms(a)) {
       const na = normalize(variant);
       if (!na) continue;
       if (na === n) return true;

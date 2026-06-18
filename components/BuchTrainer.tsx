@@ -19,8 +19,10 @@ type Status = "idle" | "right" | "wrong";
 const FOCI: QuizScope[] = ["smart", "weak", "new"];
 const COUNTS = [10, 20, 30, 50];
 
+// Keep slash notation intact (checkAnswer/expandForms expands "Kellner/in" etc.);
+// only split true synonym separators.
 const splitMeanings = (s: string) =>
-  [s.trim(), ...s.split(/[,/;]|\boder\b/).map((x) => x.trim())].filter(Boolean);
+  [s.trim(), ...s.split(/[,;]|\boder\b/).map((x) => x.trim())].filter(Boolean);
 
 // Stable, accent-stripped key per word → mastery accumulates across rounds.
 const keyOf = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
