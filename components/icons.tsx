@@ -72,3 +72,6 @@ export const IconShield = ({ className }: P) => (
 export const IconVolume = ({ className }: P) => (
   <svg {...base(className)}><path d="M11 5 6 9H3v6h3l5 4z" /><path d="M15.5 8.5a5 5 0 0 1 0 7" /><path d="M18.5 5.5a9 9 0 0 1 0 13" /></svg>
 );
+export const IconHash = ({ className }: P) => (
+  <svg {...base(className)}><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18" /></svg>
+);

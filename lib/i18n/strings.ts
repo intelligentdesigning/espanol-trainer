@@ -254,6 +254,18 @@ export const ui = {
     "sync.download": "Zusätzliche Sicherung als Datei (optional)",
 
     "tts.play": "Aussprechen",
+
+    "nav.numbers": "Zahlen",
+    "numbers.title": "Zahlen-Trainer",
+    "numbers.subtitle": "Spanische Zahlen lesen & schreiben – mit einstellbarem Bereich.",
+    "numbers.modeD2w": "Zahl → Wort",
+    "numbers.modeW2d": "Wort → Zahl",
+    "numbers.range": "Zahlenbereich",
+    "numbers.promptD2w": "Schreibe die Zahl auf Spanisch aus",
+    "numbers.promptW2d": "Schreibe die Zahl als Ziffern",
+    "numbers.placeholderWords": "z. B. mil doscientos …",
+    "numbers.placeholderDigits": "z. B. 1234",
+    "numbers.cardDesc": "Zahlen auf Spanisch üben – Ziffern ⇄ Wörter, Bereich wählbar.",
   },
   en: {
     "app.title": "Español Trainer",
@@ -507,6 +519,18 @@ export const ui = {
     "sync.download": "Extra backup as a file (optional)",
 
     "tts.play": "Pronounce",
+
+    "nav.numbers": "Numbers",
+    "numbers.title": "Numbers trainer",
+    "numbers.subtitle": "Read & write Spanish numbers – with an adjustable range.",
+    "numbers.modeD2w": "Number → words",
+    "numbers.modeW2d": "Words → number",
+    "numbers.range": "Number range",
+    "numbers.promptD2w": "Write the number in Spanish words",
+    "numbers.promptW2d": "Write the number in digits",
+    "numbers.placeholderWords": "e.g. mil doscientos …",
+    "numbers.placeholderDigits": "e.g. 1234",
+    "numbers.cardDesc": "Practice Spanish numbers – digits ⇄ words, pick a range.",
   },
 } satisfies Record<Locale, Record<string, string>>;
 

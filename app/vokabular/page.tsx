@@ -14,6 +14,7 @@ import {
   IconShapes,
   IconLetters,
   IconArrowRight,
+  IconHash,
 } from "@/components/icons";
 import { MasteryBar } from "@/components/MasteryBar";
 
@@ -144,6 +145,24 @@ export default function VokabularPage() {
               {artProg && <MasteryBar right={artProg.right} wrong={artProg.wrong} neu={artProg.new} />}
             </div>
             <IconArrowRight className="ml-auto h-5 w-5 shrink-0 text-muted transition-transform group-hover:translate-x-1 group-hover:text-article" />
+          </div>
+        </Link>
+
+        {/* special exercise: numbers trainer */}
+        <Link
+          href="/zahlen"
+          className="group relative block overflow-hidden rounded-2xl border border-noun/30 bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-noun/60 hover:shadow-lg"
+        >
+          <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-noun/10 blur-2xl" />
+          <div className="relative flex items-start gap-4">
+            <div className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-noun/10 text-noun">
+              <IconHash className="h-6 w-6" />
+            </div>
+            <div className="min-w-0 flex-1">
+              <div className="text-lg font-semibold transition-colors group-hover:text-noun">{t("numbers.title")}</div>
+              <p className="mt-0.5 text-sm leading-snug text-muted">{t("numbers.cardDesc")}</p>
+            </div>
+            <IconArrowRight className="ml-auto h-5 w-5 shrink-0 text-muted transition-transform group-hover:translate-x-1 group-hover:text-noun" />
           </div>
         </Link>
       </div>

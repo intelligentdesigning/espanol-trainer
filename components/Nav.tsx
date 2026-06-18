@@ -99,6 +99,7 @@ export function Nav() {
   const vocab: NavItem[] = [
     { href: "/vokabular", key: "nav.vocabTrainer" },
     { href: "/buch", key: "nav.buch" },
+    { href: "/zahlen", key: "nav.numbers" },
     { href: "/vokabelheft", key: "nav.notebook" },
   ];
   const grammar: NavItem[] = [
