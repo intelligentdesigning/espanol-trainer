@@ -135,6 +135,17 @@ function expandForms(raw: string): string[] {
   return out.size ? [...out] : [raw];
 }
 
+const NEGATIONS = new Set([
+  "kein", "keine", "keinen", "keiner", "keinem", "keines", "nicht", "nie", "niemals",
+  "no", "not", "never", "nunca", "sin", "jamas",
+]);
+
+/** True if the user's answer adds a negation word the correct answer lacks. */
+function addsNegation(user: string, correct: string): boolean {
+  const cor = new Set(correct.split(" "));
+  return user.split(" ").some((t) => NEGATIONS.has(t) && !cor.has(t));
+}
+
 export function checkAnswer(input: string, accepted: string[]): boolean {
   const n = normalize(input);
   if (!n) return false;
@@ -144,9 +155,13 @@ export function checkAnswer(input: string, accepted: string[]): boolean {
       const na = normalize(variant);
       if (!na) continue;
       if (na === n) return true;
-      // Lenient match: the correct answer is contained whole-word in the user's
-      // answer (e.g. "das Kaffee" ⊇ "Kaffee"), or vice-versa.
-      if (containsAllTokens(n, na) || containsAllTokens(na, n)) return true;
+      // Partial answer: user typed a subset of the correct answer ("Lust" for
+      // "Lust haben"). Accept.
+      if (containsAllTokens(na, n)) return true;
+      // User typed extra words around the answer ("nach Hause gehen" ⊇ "nach
+      // Hause") — accept, UNLESS the extra is a negation that flips the meaning
+      // ("keine Lust haben" must NOT count for "Lust haben").
+      if (containsAllTokens(n, na) && !addsNegation(n, na)) return true;
       // Spelling leniency: same word, just different spacing/hyphens.
       if (nSquash && nSquash === squash(variant)) return true;
     }
