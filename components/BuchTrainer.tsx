@@ -59,6 +59,21 @@ export function BuchTrainer() {
   useEffect(() => { loadBuch().then(setData); loadBuchDetails().then(setDetails); refreshMastery(); }, []);
   useEffect(() => { if (phase === "run" && status === "idle") inputRef.current?.focus(); }, [phase, status, idx]);
 
+  // On the setup screen, Enter starts the selected Unidad (ignore typing in inputs).
+  useEffect(() => {
+    if (phase !== "setup") return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Enter" || e.repeat) return;
+      const el = e.target as HTMLElement | null;
+      if (el && (el.tagName === "INPUT" || el.tagName === "TEXTAREA" || el.isContentEditable)) return;
+      e.preventDefault();
+      void start();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, lektion, scope, count, dir, data]);
+
   const beginRound = (qs: Q[], lek: string) => {
     setLektion(lek);
     setQuestions(qs); setWrongQs([]); setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
