@@ -50,16 +50,35 @@ function containsAllTokens(hay: string, needle: string): boolean {
   return needleTokens.every((t) => hayTokens.has(t));
 }
 
+/**
+ * A parenthetical is an *optional* clarifier, so "E-Mail(-Adresse)" should also
+ * accept "E-Mail". Returns the original plus the version with "(...)" removed.
+ */
+function optionalVariants(answer: string): string[] {
+  const stripped = answer.replace(/\s*\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
+  return stripped && stripped !== answer ? [answer, stripped] : [answer];
+}
+
+/** Ignore spacing & hyphenation entirely: "E-Mail" = "Email" = "e mail". */
+function squash(s: string): string {
+  return normalize(s).replace(/[\s-]+/g, "");
+}
+
 export function checkAnswer(input: string, accepted: string[]): boolean {
   const n = normalize(input);
   if (!n) return false;
+  const nSquash = squash(input);
   for (const a of accepted) {
-    const na = normalize(a);
-    if (!na) continue;
-    if (na === n) return true;
-    // Lenient match: the correct answer is contained whole-word in the user's
-    // answer (e.g. "das Kaffee" ⊇ "Kaffee"), or vice-versa.
-    if (containsAllTokens(n, na) || containsAllTokens(na, n)) return true;
+    for (const variant of optionalVariants(a)) {
+      const na = normalize(variant);
+      if (!na) continue;
+      if (na === n) return true;
+      // Lenient match: the correct answer is contained whole-word in the user's
+      // answer (e.g. "das Kaffee" ⊇ "Kaffee"), or vice-versa.
+      if (containsAllTokens(n, na) || containsAllTokens(na, n)) return true;
+      // Spelling leniency: same word, just different spacing/hyphens.
+      if (nSquash && nSquash === squash(variant)) return true;
+    }
   }
   return false;
 }
