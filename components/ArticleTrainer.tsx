@@ -8,6 +8,7 @@ import { recordResult, addSession } from "@/lib/storage/db";
 import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progress";
 import { ScoreRing } from "@/components/ScoreRing";
 import { MasteryBar } from "@/components/MasteryBar";
+import { SpeakButton } from "@/components/SpeakButton";
 import type { NounArticle } from "@/lib/types";
 
 type Mode = "mixed" | "hard";
@@ -192,8 +193,9 @@ export function ArticleTrainer() {
 
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("artikel.q")}</div>
-        <div className="mt-3 text-3xl font-bold" lang="es">
-          <span className="text-muted">___</span> {q.es}
+        <div className="mt-3 flex items-center justify-center gap-2 text-3xl font-bold">
+          <span lang="es"><span className="text-muted">___</span> {q.es}</span>
+          <SpeakButton text={q.es} />
         </div>
       </div>
 

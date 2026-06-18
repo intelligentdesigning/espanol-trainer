@@ -9,6 +9,7 @@ import { recordResult, addSession, getAllProgress } from "@/lib/storage/db";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
 import { QuizWithPanels } from "@/components/QuizPanels";
+import { SpeakButton } from "@/components/SpeakButton";
 import type { ProgressRecord, VocabDetails } from "@/lib/types";
 
 type Status = "idle" | "right" | "wrong";
@@ -132,7 +133,10 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
       {/* card */}
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         <div className="text-xs font-semibold uppercase tracking-wide text-muted">{promptLabel}</div>
-        <div className="mt-3 text-3xl font-bold" lang={config.direction === "es-en" ? "es" : "en"}>{q.prompt}</div>
+        <div className="mt-3 flex items-center justify-center gap-2">
+          <span className="text-3xl font-bold" lang={config.direction === "es-en" ? "es" : "en"}>{q.prompt}</span>
+          {config.direction === "es-en" && <SpeakButton text={q.es} />}
+        </div>
       </div>
 
       <div className="space-y-3">
@@ -152,12 +156,15 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
         {answered && (
           <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
-            <div className="mt-1 text-foreground">
-              {status === "wrong"
-                ? <>{t("quiz.answerWas")} <b>{q.canonical}</b></>
-                : config.direction === "es-en"
-                  ? <>{t("quiz.meaning")}: <b>{q.canonical}</b></>
-                  : <>{t("quiz.answerWas")} <b>{q.canonical}</b></>}
+            <div className="mt-1 flex items-center gap-1.5 text-foreground">
+              <span>
+                {status === "wrong"
+                  ? <>{t("quiz.answerWas")} <b>{q.canonical}</b></>
+                  : config.direction === "es-en"
+                    ? <>{t("quiz.meaning")}: <b>{q.canonical}</b></>
+                    : <>{t("quiz.answerWas")} <b>{q.canonical}</b></>}
+              </span>
+              {config.direction === "en-es" && <SpeakButton text={q.es} />}
             </div>
           </div>
         )}

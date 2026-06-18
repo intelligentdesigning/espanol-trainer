@@ -2,6 +2,7 @@
 
 import { useI18n } from "@/lib/i18n/locale";
 import { IconBook, IconBookOpen } from "@/components/icons";
+import { SpeakButton } from "@/components/SpeakButton";
 import type { VocabDetail } from "@/lib/types";
 
 // One context panel (Definition / Beispiel): Spanish on top, then BOTH the
@@ -21,7 +22,10 @@ function ContextPanel({
       </div>
       {revealed && es ? (
         <div className="mt-2.5 animate-[fadeIn_.25s_ease]">
-          <p className="text-[15px] font-medium leading-snug text-foreground" lang="es">{es}</p>
+          <div className="flex items-start gap-1.5">
+            <p className="flex-1 text-[15px] font-medium leading-snug text-foreground" lang="es">{es}</p>
+            <SpeakButton text={es} className="-mt-0.5" />
+          </div>
           {lines.map((l, i) => (
             <p key={i} className="mt-1 text-sm leading-snug text-muted">{l}</p>
           ))}

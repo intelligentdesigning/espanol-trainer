@@ -6,6 +6,7 @@ import { checkAnswer } from "@/lib/quiz";
 import { recordResult, addSession, type NotebookEntry } from "@/lib/storage/db";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
+import { SpeakButton } from "@/components/SpeakButton";
 
 type Status = "idle" | "right" | "wrong";
 
@@ -98,7 +99,10 @@ export function NotebookQuiz({ entries, onExit }: { entries: NotebookEntry[]; on
 
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("quiz.meaning")}</div>
-        <div className="mt-3 text-3xl font-bold" lang="es">{q.prompt}</div>
+        <div className="mt-3 flex items-center justify-center gap-2">
+          <span className="text-3xl font-bold" lang="es">{q.prompt}</span>
+          <SpeakButton text={q.prompt} />
+        </div>
       </div>
 
       <div className="space-y-3">

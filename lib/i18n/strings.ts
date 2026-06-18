@@ -244,6 +244,8 @@ export const ui = {
     "sync.justNow": "gerade eben",
     "sync.now": "Jetzt syncen",
     "sync.download": "Zusätzliche Sicherung als Datei (optional)",
+
+    "tts.play": "Aussprechen",
   },
   en: {
     "app.title": "Español Trainer",
@@ -487,6 +489,8 @@ export const ui = {
     "sync.justNow": "just now",
     "sync.now": "Sync now",
     "sync.download": "Extra backup as a file (optional)",
+
+    "tts.play": "Pronounce",
   },
 } satisfies Record<Locale, Record<string, string>>;
 

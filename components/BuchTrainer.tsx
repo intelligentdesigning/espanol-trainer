@@ -10,6 +10,7 @@ import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput
 import { ScoreRing } from "@/components/ScoreRing";
 import { QuizWithPanels } from "@/components/QuizPanels";
 import { MasteryBar } from "@/components/MasteryBar";
+import { SpeakButton } from "@/components/SpeakButton";
 import type { BuchData, BuchDetails, ProgressRecord } from "@/lib/types";
 
 type Dir = "es-de" | "de-es";
@@ -276,7 +277,10 @@ export function BuchTrainer() {
 
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         <div className="text-xs font-semibold uppercase tracking-wide text-muted">{dir === "es-de" ? t("buch.dirEsDe") : t("buch.dirDeEs")}</div>
-        <div className="mt-3 text-3xl font-bold" lang={dir === "es-de" ? "es" : "de"}>{q.prompt}</div>
+        <div className="mt-3 flex items-center justify-center gap-2">
+          <span className="text-3xl font-bold" lang={dir === "es-de" ? "es" : "de"}>{q.prompt}</span>
+          {dir === "es-de" && <SpeakButton text={q.es} />}
+        </div>
       </div>
 
       <div className="space-y-3">
@@ -286,7 +290,10 @@ export function BuchTrainer() {
         {status !== "idle" && (
           <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
-            <div className="mt-1 text-foreground">{status === "wrong" ? t("quiz.answerWas") : `${t("quiz.meaning")}:`} <b>{q.canonical}</b></div>
+            <div className="mt-1 flex items-center gap-1.5 text-foreground">
+              <span>{status === "wrong" ? t("quiz.answerWas") : `${t("quiz.meaning")}:`} <b>{q.canonical}</b></span>
+              {dir === "de-es" && <SpeakButton text={q.es} />}
+            </div>
           </div>
         )}
         <button type="button" onClick={submit} className="w-full rounded-xl bg-vocab px-4 py-3 font-semibold text-white hover:opacity-90">

@@ -69,3 +69,6 @@ export const IconUpload = ({ className }: P) => (
 export const IconShield = ({ className }: P) => (
   <svg {...base(className)}><path d="M12 3 5 6v6c0 4 3 7 7 9 4-2 7-5 7-9V6z" /><path d="m9 12 2 2 4-4" /></svg>
 );
+export const IconVolume = ({ className }: P) => (
+  <svg {...base(className)}><path d="M11 5 6 9H3v6h3l5 4z" /><path d="M15.5 8.5a5 5 0 0 1 0 7" /><path d="M18.5 5.5a9 9 0 0 1 0 13" /></svg>
+);
