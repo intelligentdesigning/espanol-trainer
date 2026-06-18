@@ -64,6 +64,21 @@ export default function StatsPage() {
     common: t("vocab.cat.common"), verbs: t("vocab.cat.verbs"), nouns: t("vocab.cat.nouns"), adj: t("vocab.cat.adj"),
   };
 
+  // --- per-day history ("a day is a session") + averages -------------------
+  const dk = (ts: number) => { const d = new Date(ts); const p = (n: number) => String(n).padStart(2, "0"); return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`; };
+  const minutesByDay = new Map<string, number>();
+  for (const s of sessions) minutesByDay.set(dk(s.endedAt), (minutesByDay.get(dk(s.endedAt)) || 0) + (s.endedAt - s.startedAt));
+  const activeDays = history.filter((d) => d.total > 0);
+  const sumWords = activeDays.reduce((a, d) => a + d.total, 0);
+  const firstActiveIdx = history.findIndex((d) => d.total > 0);
+  const windowDays = firstActiveIdx >= 0 ? history.length - firstActiveIdx : 0; // first activity → today
+  const dailyAvg = windowDays ? Math.round(sumWords / windowDays) : 0;
+  const weeklyAvg = windowDays ? Math.round((sumWords / windowDays) * 7) : 0;
+  const dateLabel = (date: string) => {
+    const [y, m, d] = date.split("-").map(Number);
+    return new Date(y, m - 1, d).toLocaleDateString(locale === "de" ? "de-DE" : "en-US", { weekday: "short", day: "2-digit", month: "2-digit" });
+  };
+
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-bold tracking-tight">{t("stats.title")}</h1>
@@ -114,6 +129,33 @@ export default function StatsPage() {
                     </div>
                   ))}
                 </div>
+              </div>
+            </div>
+          )}
+
+          {/* history — past days (a day = a session) + averages */}
+          {activeDays.length > 0 && (
+            <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+              <h2 className="font-semibold">{t("stats.history")}</h2>
+              <div className="mt-3 grid grid-cols-3 gap-3 text-center">
+                <div><div className="text-2xl font-bold text-vocab">{dailyAvg}</div><div className="text-xs text-muted">{t("stats.dailyAvg")}</div></div>
+                <div><div className="text-2xl font-bold text-vocab">{weeklyAvg}</div><div className="text-xs text-muted">{t("stats.weeklyAvg")}</div></div>
+                <div><div className="text-2xl font-bold">{activeDays.length}</div><div className="text-xs text-muted">{t("stats.daysLearned")}</div></div>
+              </div>
+              <div className="mt-4 divide-y divide-border">
+                {[...activeDays].reverse().slice(0, 14).map((d) => {
+                  const acc = d.total ? Math.round((d.correct / d.total) * 100) : 0;
+                  const mins = Math.round((minutesByDay.get(d.date) || 0) / 60000);
+                  return (
+                    <div key={d.date} className="flex items-center justify-between py-2 text-sm">
+                      <span className="font-medium">{dateLabel(d.date)}</span>
+                      <span className="text-muted">
+                        {d.total} {t("vocab.cat.words")} · <b className="text-foreground">{acc}%</b>
+                        {mins > 0 ? ` · ${mins} ${t("stats.minutes")}` : ""}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}

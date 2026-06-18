@@ -225,6 +225,10 @@ export const ui = {
     "stats.minutes": "Min",
     "stats.streak": "Tage-Serie",
     "stats.last7": "Letzte 7 Tage",
+    "stats.history": "Verlauf",
+    "stats.dailyAvg": "Ø pro Tag",
+    "stats.weeklyAvg": "Ø pro Woche",
+    "stats.daysLearned": "Tage gelernt",
 
     "profile.label": "Profil",
     "profile.new": "Neues Profil",
@@ -490,6 +494,10 @@ export const ui = {
     "stats.minutes": "min",
     "stats.streak": "day streak",
     "stats.last7": "Last 7 days",
+    "stats.history": "History",
+    "stats.dailyAvg": "Avg / day",
+    "stats.weeklyAvg": "Avg / week",
+    "stats.daysLearned": "days studied",
 
     "profile.label": "Profile",
     "profile.new": "New profile",
