@@ -55,6 +55,8 @@ export interface BuchEntry {
   es: string;
   de: string;
   lektion: string;
+  en?: string;     // English translation (accepted on input + shown alongside DE)
+  deAlt?: string;  // close German synonyms also accepted (comma-separated)
 }
 export interface BuchData {
   lektionen: { name: string; count: number }[];

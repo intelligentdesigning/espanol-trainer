@@ -283,11 +283,22 @@ console.log("top 15 by frequency:", vocab.slice(0, 15).map((v) => v.es).join(", 
 // --- 7. Buch-Vokabeln (allango Estudiantes.ELE A1) -> buch.json -------------
 try {
   const btsv = readFileSync(join(ROOT, "data", "buch-vokabeln.tsv"), "utf8");
+  // English translations + close German synonyms (es -> {en, deAlt}); accepted
+  // on input and shown in the reveal, so answers work in DE *and* EN.
+  // (inline read — the shared `readJson` helper is declared later in the file)
+  let ben = {};
+  try { ben = JSON.parse(readFileSync(join(__dirname, "vendor", "buch-en.json"), "utf8")); } catch {}
   const bentries = [];
+  let enHits = 0;
   for (const line of btsv.split("\n").slice(1)) {
     if (!line.trim()) continue;
     const [es, de, lektion] = line.split("\t").map((s) => (s || "").trim());
-    if (es && de && lektion) bentries.push({ es, de, lektion });
+    if (!(es && de && lektion)) continue;
+    const extra = ben[es];
+    const entry = { es, de, lektion };
+    if (extra?.en) { entry.en = extra.en; enHits++; }
+    if (extra?.deAlt) entry.deAlt = extra.deAlt;
+    bentries.push(entry);
   }
   const ORDER = ["Para empezar", "Unidad 1", "Unidad 2", "Unidad 3", "Unidad 4", "Unidad 5", "Unidad 6"];
   const present2 = new Set(bentries.map((e) => e.lektion));
@@ -296,7 +307,7 @@ try {
     count: bentries.filter((e) => e.lektion === name).length,
   }));
   writeFileSync(join(OUT, "buch.json"), JSON.stringify({ lektionen, entries: bentries }));
-  console.log("buch.json:", bentries.length, "entries,", lektionen.length, "lektionen");
+  console.log("buch.json:", bentries.length, "entries,", lektionen.length, "lektionen,", enHits, "with EN");
 } catch (e) {
   console.log("buch.json skipped:", e.message);
 }

@@ -4,13 +4,16 @@ import { useI18n } from "@/lib/i18n/locale";
 import { IconBook, IconBookOpen } from "@/components/icons";
 import type { VocabDetail } from "@/lib/types";
 
-// One context panel (Definition / Beispiel): Spanish on top, translation below.
+// One context panel (Definition / Beispiel): Spanish on top, then BOTH the
+// German and English translation below (input is valid in either language).
 function ContextPanel({
-  label, accent, es, tr, revealed, hint, Icon,
+  label, accent, es, de, en, primary, revealed, hint, Icon,
 }: {
-  label: string; accent: string; es?: string; tr?: string;
+  label: string; accent: string; es?: string; de?: string; en?: string; primary: "de" | "en";
   revealed: boolean; hint: string; Icon: (p: { className?: string }) => React.ReactElement;
 }) {
+  // Show the UI language first, then the other — both always visible.
+  const lines = (primary === "de" ? [de, en] : [en, de]).filter(Boolean) as string[];
   return (
     <aside className={`rounded-2xl border border-border bg-card p-4 shadow-sm ${revealed ? "block" : "hidden xl:block"}`}>
       <div className={`flex items-center gap-2 text-xs font-semibold uppercase tracking-wide ${accent}`}>
@@ -19,7 +22,9 @@ function ContextPanel({
       {revealed && es ? (
         <div className="mt-2.5 animate-[fadeIn_.25s_ease]">
           <p className="text-[15px] font-medium leading-snug text-foreground" lang="es">{es}</p>
-          {tr && <p className="mt-1 text-sm leading-snug text-muted">{tr}</p>}
+          {lines.map((l, i) => (
+            <p key={i} className="mt-1 text-sm leading-snug text-muted">{l}</p>
+          ))}
         </div>
       ) : (
         <p className="mt-2.5 text-sm leading-snug text-muted/70">{hint}</p>
@@ -43,22 +48,22 @@ export function QuizWithPanels({
   children: React.ReactNode;
 }) {
   const { t, locale } = useI18n();
-  const tr = (de: string, en: string) => (locale === "de" ? de : en);
+  const primary = locale === "de" ? "de" : "en";
 
   if (!enabled) return <div className="mx-auto max-w-md">{children}</div>;
 
   const definition = (
     <ContextPanel
       label={t("quiz.definition")} accent="text-vocab" Icon={IconBook}
-      revealed={answered} hint={t("quiz.revealHint")}
-      es={detail?.defEs} tr={detail ? tr(detail.defDe, detail.defEn) : undefined}
+      revealed={answered} hint={t("quiz.revealHint")} primary={primary}
+      es={detail?.defEs} de={detail?.defDe} en={detail?.defEn}
     />
   );
   const example = (
     <ContextPanel
       label={t("quiz.example")} accent="text-brand-2" Icon={IconBookOpen}
-      revealed={answered} hint={t("quiz.revealHint")}
-      es={detail?.exEs} tr={detail ? tr(detail.exDe, detail.exEn) : undefined}
+      revealed={answered} hint={t("quiz.revealHint")} primary={primary}
+      es={detail?.exEs} de={detail?.exDe} en={detail?.exEn}
     />
   );
 

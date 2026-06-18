@@ -94,9 +94,18 @@ export function BuchTrainer() {
     if (picked.length === 0) { setLektion(lek); setNote(scope === "weak" ? t("vocab.empty.mastered") : t("quiz.empty")); setPhase("setup"); return; }
     setNote("");
     const qs: Q[] = picked.map((e) => {
-      const prompt = dir === "es-de" ? e.es : e.de;
-      const ans = dir === "es-de" ? e.de : e.es;
-      return { id: keyOf(e.es), es: e.es, prompt, accepted: splitMeanings(ans), canonical: ans };
+      if (dir === "es-de") {
+        // Answer = the meaning: accept German, close German synonyms AND English.
+        const accepted = [
+          ...splitMeanings(e.de),
+          ...(e.deAlt ? splitMeanings(e.deAlt) : []),
+          ...(e.en ? splitMeanings(e.en) : []),
+        ];
+        const canonical = e.en ? `${e.de}  ·  ${e.en}` : e.de;
+        return { id: keyOf(e.es), es: e.es, prompt: e.es, accepted, canonical };
+      }
+      // de -> es: answer is the Spanish word itself.
+      return { id: keyOf(e.es), es: e.es, prompt: e.de, accepted: splitMeanings(e.es), canonical: e.es };
     });
     beginRound(qs, lek);
   };
