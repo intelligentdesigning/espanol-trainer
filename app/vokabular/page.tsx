@@ -211,6 +211,7 @@ export default function VokabularPage() {
                 <button
                   key={s}
                   onClick={() => setScope(s)}
+                  title={t(`vocab.focusDesc.${s}` as never)}
                   className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
                     selected ? `${active.bg} ${active.text} border-transparent` : "border-border text-muted hover:text-foreground hover:bg-foreground/5"
                   }`}

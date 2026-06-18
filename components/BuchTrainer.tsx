@@ -5,7 +5,7 @@ import { useI18n } from "@/lib/i18n/locale";
 import { loadBuch, loadBuchDetails } from "@/lib/data";
 import { checkAnswer, orderByScope, formatNotation, type QuizScope } from "@/lib/quiz";
 import { recordResult, addSession, getAllProgress } from "@/lib/storage/db";
-import { loadBuchMastery, type BuchMastery } from "@/lib/buch-progress";
+import { loadBuchMastery, pickBuchRec, type BuchMastery } from "@/lib/buch-progress";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
 import { QuizWithPanels } from "@/components/QuizPanels";
@@ -55,11 +55,15 @@ export function BuchTrainer() {
   const [status, setStatus] = useState<Status>("idle");
   const [correct, setCorrect] = useState(0);
   const [roundMs, setRoundMs] = useState(0);
+  const [finishing, setFinishing] = useState(0); // >0 → showing the last N words of a unit
+  const [review, setReview] = useState(false);    // unit fully learned → refresh round
   const startedAt = useRef(Date.now());
   const inputRef = useRef<SpanishInputHandle>(null);
 
-  const refreshMastery = () => loadBuchMastery().then(setMastery);
-  useEffect(() => { loadBuch().then(setData); loadBuchDetails().then(setDetails); refreshMastery(); }, []);
+  const refreshMastery = () => loadBuchMastery(dir).then(setMastery);
+  useEffect(() => { loadBuch().then(setData); loadBuchDetails().then(setDetails); }, []);
+  // mastery bars reflect the selected direction (es-de and de-es are separate scores)
+  useEffect(() => { loadBuchMastery(dir).then(setMastery); }, [dir]);
   useEffect(() => { if (phase === "run" && status === "idle") inputRef.current?.focus(); }, [phase, status, idx]);
 
   // On the setup screen, Enter starts the selected Unidad (ignore typing in inputs).
@@ -90,10 +94,32 @@ export function BuchTrainer() {
     const prog = await getAllProgress();
     const recs = new Map<string, ProgressRecord>();
     for (const r of prog) if (r.kind === "vocab" && r.itemKey.startsWith("buch:")) recs.set(r.itemKey.slice(5), r);
+    const recOf = (e: BuchData["entries"][number]) => pickBuchRec(recs, keyOf(e.es), dir);
     const pool = lek === "__all__" ? data.entries : data.entries.filter((e) => e.lektion === lek);
-    const picked = orderByScope(pool, (e) => recs.get(keyOf(e.es)), scope, count);
+
+    // Words still to learn in THIS direction = never seen or last answered wrong.
+    const todo = pool.filter((e) => { const r = recOf(e); return !r || r.seen === 0 || r.lastResult === "wrong"; });
+    let picked: BuchData["entries"];
+    let isFinishing = 0;
+    let isReview = false;
+    if (scope === "all") {
+      picked = orderByScope(pool, recOf, "all", count);
+    } else if (scope === "smart" && todo.length === 0) {
+      // unit complete in this direction → light refresh of already-learned words
+      picked = orderByScope(pool, recOf, "smart", count);
+      isReview = true;
+    } else if (scope === "smart" && todo.length <= count) {
+      // only the last few left — practice exactly those, don't pad with knowns
+      picked = orderByScope(todo, recOf, "smart", todo.length);
+      isFinishing = picked.length;
+    } else {
+      picked = orderByScope(pool, recOf, scope, count);
+      if (scope !== "smart" && picked.length > 0 && picked.length < count) isFinishing = picked.length;
+    }
     if (picked.length === 0) { setLektion(lek); setNote(scope === "weak" ? t("vocab.empty.mastered") : t("quiz.empty")); setPhase("setup"); return; }
     setNote("");
+    setFinishing(isFinishing);
+    setReview(isReview);
     const qs: Q[] = picked.map((e) => {
       if (dir === "es-de") {
         // Answer = the meaning: accept German, close German synonyms AND English.
@@ -142,7 +168,7 @@ export function BuchTrainer() {
           <div>
             <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.focus")}</div>
             <div className="flex flex-wrap gap-2">
-              {FOCI.map((s) => <button key={s} onClick={() => setScope(s)} className={chip(scope === s)}>{t(`vocab.focus.${s}` as never)}</button>)}
+              {FOCI.map((s) => <button key={s} onClick={() => setScope(s)} title={t(`vocab.focusDesc.${s}` as never)} className={chip(scope === s)}>{t(`vocab.focus.${s}` as never)}</button>)}
             </div>
           </div>
           <div>
@@ -249,7 +275,7 @@ export function BuchTrainer() {
     setStatus(ok ? "right" : "wrong");
     setCorrect((c) => c + (ok ? 1 : 0));
     if (!ok) setWrongQs((w) => [...w, q]);
-    recordResult(`buch:${q.id}`, "vocab", ok);
+    recordResult(`buch:${dir}:${q.id}`, "vocab", ok);
   };
   const next = () => {
     if (idx + 1 >= total) {
@@ -267,7 +293,13 @@ export function BuchTrainer() {
       <div className="flex items-end justify-between">
         <div>
           <div className="text-sm font-medium text-foreground">{t("quiz.round")} {idx + 1} / {total}</div>
-          <div className="text-xs text-muted">{t("quiz.roundNote")}</div>
+          <div className={`text-xs ${finishing > 0 ? "font-medium text-vocab" : "text-muted"}`}>
+            {finishing > 0
+              ? t("buch.finishing").replace("{n}", String(total))
+              : review
+                ? t("buch.review")
+                : t("quiz.roundNote")}
+          </div>
         </div>
         <span className="text-sm text-muted">{t("quiz.score")}: <b className="text-foreground">{correct}</b></span>
       </div>
