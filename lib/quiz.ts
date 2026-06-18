@@ -169,6 +169,36 @@ export function checkAnswer(input: string, accepted: string[]): boolean {
   return false;
 }
 
+/**
+ * Make slash notation clearer for DISPLAY: a combination (word + ending) like
+ * "cuál/es" → "cuál(+es)", "welche/r/s" → "welche(+r/s)", "dein/e" → "dein(+e)",
+ * so it doesn't read like two interchangeable words. Genuine alternatives
+ * ("el/la", "Herr/Frau", "un/una") and gendered "-" endings ("camarero/-a")
+ * keep the slash — there it really means "either/or".
+ */
+export function formatNotation(text: string): string {
+  if (!text || !text.includes("/")) return text;
+  return text
+    .split(" ")
+    .map((raw) => {
+      const lead = raw.match(/^[^\p{L}/-]*/u)?.[0] ?? "";
+      const trail = raw.match(/[^\p{L}/-]*$/u)?.[0] ?? "";
+      const core = raw.slice(lead.length, raw.length - (trail.length || 0));
+      if (!core.includes("/")) return raw;
+      const parts = core.split("/");
+      const base = parts[0];
+      const rest = parts.slice(1).filter(Boolean);
+      if (!base || !rest.length) return raw;
+      // Only pure append-suffixes (short, lowercase, no dash, not an article)
+      // become "(+…)"; anything else stays as written.
+      const allSuffix = rest.every(
+        (p) => !p.startsWith("-") && p.length <= 3 && p === p.toLowerCase() && !ARTICLE_WORDS.has(p)
+      );
+      return allSuffix ? `${lead}${base}(+${rest.join("/")})${trail}` : raw;
+    })
+    .join(" ");
+}
+
 function shuffle<T>(arr: T[]): T[] {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {

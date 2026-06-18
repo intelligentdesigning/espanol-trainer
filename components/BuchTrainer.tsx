@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
 import { loadBuch, loadBuchDetails } from "@/lib/data";
-import { checkAnswer, orderByScope, type QuizScope } from "@/lib/quiz";
+import { checkAnswer, orderByScope, formatNotation, type QuizScope } from "@/lib/quiz";
 import { recordResult, addSession, getAllProgress } from "@/lib/storage/db";
 import { loadBuchMastery, type BuchMastery } from "@/lib/buch-progress";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
@@ -278,7 +278,7 @@ export function BuchTrainer() {
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         <div className="text-xs font-semibold uppercase tracking-wide text-muted">{dir === "es-de" ? t("buch.dirEsDe") : t("buch.dirDeEs")}</div>
         <div className="mt-3 flex items-center justify-center gap-2">
-          <span className="text-3xl font-bold" lang={dir === "es-de" ? "es" : "de"}>{q.prompt}</span>
+          <span className="text-3xl font-bold" lang={dir === "es-de" ? "es" : "de"}>{formatNotation(q.prompt)}</span>
           {dir === "es-de" && <SpeakButton text={q.es} />}
         </div>
       </div>
@@ -291,7 +291,7 @@ export function BuchTrainer() {
           <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
             <div className="mt-1 flex items-center gap-1.5 text-foreground">
-              <span>{status === "wrong" ? t("quiz.answerWas") : `${t("quiz.meaning")}:`} <b>{q.canonical}</b></span>
+              <span>{status === "wrong" ? t("quiz.answerWas") : `${t("quiz.meaning")}:`} <b>{formatNotation(q.canonical)}</b></span>
               {dir === "de-es" && <SpeakButton text={q.es} />}
             </div>
           </div>

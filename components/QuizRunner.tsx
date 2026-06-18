@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { loadVocab, loadDetails } from "@/lib/data";
-import { buildSession, checkAnswer, type QuizConfig, type QuizQuestion } from "@/lib/quiz";
+import { buildSession, checkAnswer, formatNotation, type QuizConfig, type QuizQuestion } from "@/lib/quiz";
 import { recordResult, addSession, getAllProgress } from "@/lib/storage/db";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
@@ -134,7 +134,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
       <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
         <div className="text-xs font-semibold uppercase tracking-wide text-muted">{promptLabel}</div>
         <div className="mt-3 flex items-center justify-center gap-2">
-          <span className="text-3xl font-bold" lang={config.direction === "es-en" ? "es" : "en"}>{q.prompt}</span>
+          <span className="text-3xl font-bold" lang={config.direction === "es-en" ? "es" : "en"}>{formatNotation(q.prompt)}</span>
           {config.direction === "es-en" && <SpeakButton text={q.es} />}
         </div>
       </div>
@@ -159,10 +159,10 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
             <div className="mt-1 flex items-center gap-1.5 text-foreground">
               <span>
                 {status === "wrong"
-                  ? <>{t("quiz.answerWas")} <b>{q.canonical}</b></>
+                  ? <>{t("quiz.answerWas")} <b>{formatNotation(q.canonical)}</b></>
                   : config.direction === "es-en"
-                    ? <>{t("quiz.meaning")}: <b>{q.canonical}</b></>
-                    : <>{t("quiz.answerWas")} <b>{q.canonical}</b></>}
+                    ? <>{t("quiz.meaning")}: <b>{formatNotation(q.canonical)}</b></>
+                    : <>{t("quiz.answerWas")} <b>{formatNotation(q.canonical)}</b></>}
               </span>
               {config.direction === "en-es" && <SpeakButton text={q.es} />}
             </div>
