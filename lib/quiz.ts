@@ -20,6 +20,7 @@ export interface QuizQuestion {
   prompt: string;       // what the learner sees
   accepted: string[];   // accepted answers (raw, accented)
   canonical: string;    // the "official" answer to display
+  pos?: Pos;            // part of speech (noun/verb/adj/…) for the Wortart label
 }
 
 // --- answer normalization (accent/case-insensitive, like the JetPunk rules) ---
@@ -231,6 +232,7 @@ export function buildSession(
         prompt: v.es,
         accepted: v.en,
         canonical: v.en.join(" / "),
+        pos: v.pos,
       }));
   } else {
     // EN -> ES: merge synonyms that share the same English clue.
@@ -250,6 +252,7 @@ export function buildSession(
         prompt: items[0].clue,
         accepted: items.map((i) => i.es),
         canonical: items.map((i) => i.es).join(" / "),
+        pos: items[0].pos,
       };
     });
   }

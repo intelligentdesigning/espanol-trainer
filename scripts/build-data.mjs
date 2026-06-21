@@ -288,8 +288,11 @@ try {
   // (inline read — the shared `readJson` helper is declared later in the file)
   let ben = {};
   try { ben = JSON.parse(readFileSync(join(__dirname, "vendor", "buch-en.json"), "utf8")); } catch {}
+  // Part of speech (es -> pos) for the Wortart label.
+  let bpos = {};
+  try { bpos = JSON.parse(readFileSync(join(__dirname, "vendor", "buch-pos.json"), "utf8")); } catch {}
   const bentries = [];
-  let enHits = 0;
+  let enHits = 0, posHits = 0;
   for (const line of btsv.split("\n").slice(1)) {
     if (!line.trim()) continue;
     const [es, de, lektion] = line.split("\t").map((s) => (s || "").trim());
@@ -298,6 +301,7 @@ try {
     const entry = { es, de, lektion };
     if (extra?.en) { entry.en = extra.en; enHits++; }
     if (extra?.deAlt) entry.deAlt = extra.deAlt;
+    if (bpos[es]) { entry.pos = bpos[es]; posHits++; }
     bentries.push(entry);
   }
   const ORDER = ["Para empezar", "Unidad 1", "Unidad 2", "Unidad 3", "Unidad 4", "Unidad 5", "Unidad 6"];
@@ -307,7 +311,7 @@ try {
     count: bentries.filter((e) => e.lektion === name).length,
   }));
   writeFileSync(join(OUT, "buch.json"), JSON.stringify({ lektionen, entries: bentries }));
-  console.log("buch.json:", bentries.length, "entries,", lektionen.length, "lektionen,", enHits, "with EN");
+  console.log("buch.json:", bentries.length, "entries,", lektionen.length, "lektionen,", enHits, "with EN,", posHits, "with POS");
 } catch (e) {
   console.log("buch.json skipped:", e.message);
 }

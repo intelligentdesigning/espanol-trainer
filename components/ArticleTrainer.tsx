@@ -9,6 +9,7 @@ import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progres
 import { ScoreRing } from "@/components/ScoreRing";
 import { MasteryBar } from "@/components/MasteryBar";
 import { SpeakButton } from "@/components/SpeakButton";
+import { PosTag } from "@/components/PosTag";
 import type { NounArticle } from "@/lib/types";
 
 type Mode = "mixed" | "hard";
@@ -197,6 +198,7 @@ export function ArticleTrainer() {
           <span lang="es"><span className="text-muted">___</span> {q.es}</span>
           <SpeakButton text={q.es} />
         </div>
+        <div className="mt-2.5 flex justify-center"><PosTag pos="noun" /></div>
       </div>
 
       <div className="grid grid-cols-2 gap-3">

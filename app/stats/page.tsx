@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
-import { getStats, getRecentSessions, resetAll, getDailyStats, getDailyHistory, exportData, isPersisted, type Stats, type DailyStats } from "@/lib/storage/db";
+import { getStats, getRecentSessions, resetAll, getDailyStats, getDailyHistory, exportData, importData, isPersisted, type Stats, type DailyStats } from "@/lib/storage/db";
 import { getActiveProfile } from "@/lib/storage/profile";
 import { onSyncStatus, syncNow, wipeRemote, type SyncState } from "@/lib/storage/sync";
 import { loadMastery, type MasterySnapshot, type CatId } from "@/lib/progress";
@@ -11,7 +11,7 @@ import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progres
 import { loadBuchMastery, type BuchMastery } from "@/lib/buch-progress";
 import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progress";
 import { ScoreRing } from "@/components/ScoreRing";
-import { IconArrowRight, IconDownload, IconShield, IconConjugate } from "@/components/icons";
+import { IconArrowRight, IconDownload, IconUpload, IconShield, IconConjugate } from "@/components/icons";
 import type { SessionRecord } from "@/lib/types";
 
 const CATS: CatId[] = ["common", "verbs", "nouns", "adj"];
@@ -299,12 +299,29 @@ function SyncCard() {
   const { t, locale } = useI18n();
   const [sync, setSync] = useState<{ state: SyncState; lastSyncAt: number }>({ state: "idle", lastSyncAt: 0 });
   const [persisted, setPersisted] = useState<boolean | null>(null);
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [msg, setMsg] = useState<{ kind: "ok" | "err"; text: string } | null>(null);
 
   useEffect(() => {
     const off = onSyncStatus(setSync);
     isPersisted().then(setPersisted);
     return off;
   }, []);
+
+  const onImport = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // allow re-importing the same file
+    if (!file) return;
+    if (!window.confirm(t("backup.importConfirm"))) return;
+    try {
+      const data = JSON.parse(await file.text());
+      await importData(data);
+      setMsg({ kind: "ok", text: t("backup.imported") });
+      setTimeout(() => window.location.reload(), 700);
+    } catch {
+      setMsg({ kind: "err", text: t("backup.importError") });
+    }
+  };
 
   const doExport = async () => {
     const data = await exportData();
@@ -348,10 +365,18 @@ function SyncCard() {
       </div>
       <p className="mt-2 text-sm text-muted">{t("sync.desc")}</p>
 
+      {msg && (
+        <p className={`mt-2 text-sm ${msg.kind === "ok" ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"}`}>{msg.text}</p>
+      )}
+
       <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-border pt-3 text-xs">
         <button onClick={doExport} className="inline-flex items-center gap-1.5 text-muted hover:text-foreground">
           <IconDownload className="h-3.5 w-3.5" /> {t("sync.download")}
         </button>
+        <button onClick={() => fileRef.current?.click()} className="inline-flex items-center gap-1.5 text-muted hover:text-foreground">
+          <IconUpload className="h-3.5 w-3.5" /> {t("backup.import")}
+        </button>
+        <input ref={fileRef} type="file" accept="application/json,.json" onChange={onImport} className="hidden" />
         {persisted !== null && (
           <span className={`inline-flex items-center gap-1.5 ${persisted ? "text-muted" : "text-amber-600 dark:text-amber-400"}`}>
             <IconShield className="h-3.5 w-3.5" />

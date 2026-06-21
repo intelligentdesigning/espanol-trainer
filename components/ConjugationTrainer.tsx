@@ -17,6 +17,7 @@ import {
 } from "@/lib/conjugation/trainer";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
+import { PosTag } from "@/components/PosTag";
 import type { Tier } from "@/lib/types";
 
 type Phase = "setup" | "run" | "done";
@@ -157,6 +158,7 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
           {t("conj.prompt")} · {FORM_LABELS[tense]}
         </div>
         <div className="mt-3 text-3xl font-bold text-brand" lang="es">{q.infinitive}</div>
+        <div className="mt-2.5 flex justify-center"><PosTag pos="verb" /></div>
         <div className="mt-1 text-sm text-muted">{q.meaning}</div>
         <div className="mt-4 inline-block rounded-lg bg-foreground/5 px-3 py-1.5 text-lg font-semibold" lang="es">
           {q.person >= 0 ? persons[q.person] : q.formLabel}

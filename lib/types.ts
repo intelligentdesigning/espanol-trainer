@@ -5,7 +5,8 @@ export type LocalizedText = { de: string; en: string };
 
 export type Pos =
   | "verb" | "noun" | "adj" | "adv" | "pron"
-  | "prep" | "conj" | "art" | "num" | "interj" | "other";
+  | "prep" | "conj" | "art" | "num" | "interj"
+  | "phrase" | "name" | "other";
 
 export type Gender = "m" | "f" | null;
 export type Tier = 1 | 2 | 3 | 4;
@@ -57,6 +58,7 @@ export interface BuchEntry {
   lektion: string;
   en?: string;     // English translation (accepted on input + shown alongside DE)
   deAlt?: string;  // close German synonyms also accepted (comma-separated)
+  pos?: Pos;       // part of speech (Wortart) for the label
 }
 export interface BuchData {
   lektionen: { name: string; count: number }[];

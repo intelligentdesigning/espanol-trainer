@@ -259,6 +259,19 @@ export const ui = {
 
     "tts.play": "Aussprechen",
 
+    "pos.noun": "Substantiv",
+    "pos.verb": "Verb",
+    "pos.adj": "Adjektiv",
+    "pos.adv": "Adverb",
+    "pos.pron": "Pronomen",
+    "pos.num": "Zahlwort",
+    "pos.prep": "Präposition",
+    "pos.conj": "Konjunktion",
+    "pos.art": "Artikel",
+    "pos.interj": "Ausruf",
+    "pos.phrase": "Ausdruck",
+    "pos.name": "Eigenname",
+
     "nav.numbers": "Zahlen",
     "numbers.title": "Zahlen-Trainer",
     "numbers.subtitle": "Spanische Zahlen lesen & schreiben – mit einstellbarem Bereich.",
@@ -527,6 +540,19 @@ export const ui = {
     "sync.download": "Extra backup as a file (optional)",
 
     "tts.play": "Pronounce",
+
+    "pos.noun": "Noun",
+    "pos.verb": "Verb",
+    "pos.adj": "Adjective",
+    "pos.adv": "Adverb",
+    "pos.pron": "Pronoun",
+    "pos.num": "Number",
+    "pos.prep": "Preposition",
+    "pos.conj": "Conjunction",
+    "pos.art": "Article",
+    "pos.interj": "Interjection",
+    "pos.phrase": "Phrase",
+    "pos.name": "Proper noun",
 
     "nav.numbers": "Numbers",
     "numbers.title": "Numbers trainer",
