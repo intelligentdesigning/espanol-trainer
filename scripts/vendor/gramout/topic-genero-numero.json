@@ -2,7 +2,10 @@
   {
     "kind": "fill",
     "prompt": "___ libro es nuevo.",
-    "promptGloss": { "de": "Das Buch ist neu.", "en": "The book is new." },
+    "promptGloss": {
+      "de": "Das Buch ist neu.",
+      "en": "The book is new."
+    },
     "answer": "El",
     "explain": {
       "de": "Nomen auf -o sind meist maskulin, also 'el libro'.",
@@ -12,7 +15,10 @@
   {
     "kind": "fill",
     "prompt": "___ casa es grande.",
-    "promptGloss": { "de": "Das Haus ist groß.", "en": "The house is big." },
+    "promptGloss": {
+      "de": "Das Haus ist groß.",
+      "en": "The house is big."
+    },
     "answer": "La",
     "explain": {
       "de": "Nomen auf -a sind meist feminin, also 'la casa'.",
@@ -22,9 +28,15 @@
   {
     "kind": "choice",
     "prompt": "Quiero ___ vaso de agua.",
-    "promptGloss": { "de": "Ich möchte das Glas Wasser.", "en": "I want the glass of water." },
+    "promptGloss": {
+      "de": "Ich möchte das Glas Wasser.",
+      "en": "I want the glass of water."
+    },
     "answer": "el",
-    "options": ["el", "la"],
+    "options": [
+      "el",
+      "la"
+    ],
     "explain": {
       "de": "'vaso' endet auf -o und ist maskulin, daher 'el'; 'la' ist falsch, weil das Wort nicht feminin ist.",
       "en": "'vaso' ends in -o and is masculine, so 'el'; 'la' is wrong because the word is not feminine."
@@ -33,9 +45,15 @@
   {
     "kind": "choice",
     "prompt": "___ mesa está limpia.",
-    "promptGloss": { "de": "Der Tisch ist sauber.", "en": "The table is clean." },
+    "promptGloss": {
+      "de": "Der Tisch ist sauber.",
+      "en": "The table is clean."
+    },
     "answer": "La",
-    "options": ["La", "El"],
+    "options": [
+      "La",
+      "El"
+    ],
     "explain": {
       "de": "'mesa' endet auf -a und ist feminin, daher 'la'; 'el' ist falsch, weil das Wort nicht maskulin ist.",
       "en": "'mesa' ends in -a and is feminine, so 'la'; 'el' is wrong because the word is not masculine."
@@ -44,9 +62,15 @@
   {
     "kind": "choice",
     "prompt": "___ día está soleado.",
-    "promptGloss": { "de": "Der Tag ist sonnig.", "en": "The day is sunny." },
+    "promptGloss": {
+      "de": "Der Tag ist sonnig.",
+      "en": "The day is sunny."
+    },
     "answer": "El",
-    "options": ["El", "La"],
+    "options": [
+      "El",
+      "La"
+    ],
     "explain": {
       "de": "'día' endet auf -a, ist aber eine Ausnahme und maskulin: 'el día'; 'la' ist falsch.",
       "en": "'día' ends in -a but is an exception and masculine: 'el día'; 'la' is wrong."
@@ -55,9 +79,15 @@
   {
     "kind": "choice",
     "prompt": "___ mano está fría.",
-    "promptGloss": { "de": "Die Hand ist kalt.", "en": "The hand is cold." },
+    "promptGloss": {
+      "de": "Die Hand ist kalt.",
+      "en": "The hand is cold."
+    },
     "answer": "La",
-    "options": ["La", "El"],
+    "options": [
+      "La",
+      "El"
+    ],
     "explain": {
       "de": "'mano' endet auf -o, ist aber eine Ausnahme und feminin: 'la mano'; 'el' ist falsch.",
       "en": "'mano' ends in -o but is an exception and feminine: 'la mano'; 'el' is wrong."
@@ -66,7 +96,10 @@
   {
     "kind": "fill",
     "prompt": "___ problema es difícil.",
-    "promptGloss": { "de": "Das Problem ist schwierig.", "en": "The problem is difficult." },
+    "promptGloss": {
+      "de": "Das Problem ist schwierig.",
+      "en": "The problem is difficult."
+    },
     "answer": "El",
     "explain": {
       "de": "Wörter auf -ma wie 'problema' sind maskulin, also 'el problema'.",
@@ -76,9 +109,15 @@
   {
     "kind": "choice",
     "prompt": "___ foto es muy bonita.",
-    "promptGloss": { "de": "Das Foto ist sehr schön.", "en": "The photo is very pretty." },
+    "promptGloss": {
+      "de": "Das Foto ist sehr schön.",
+      "en": "The photo is very pretty."
+    },
     "answer": "La",
-    "options": ["La", "El"],
+    "options": [
+      "La",
+      "El"
+    ],
     "explain": {
       "de": "'foto' endet auf -o, ist aber eine Ausnahme und feminin: 'la foto'; 'el' ist falsch.",
       "en": "'foto' ends in -o but is an exception and feminine: 'la foto'; 'el' is wrong."
@@ -87,7 +126,10 @@
   {
     "kind": "fill",
     "prompt": "Tengo dos ___ en casa.",
-    "promptGloss": { "de": "Ich habe zwei Katzen zu Hause.", "en": "I have two cats at home." },
+    "promptGloss": {
+      "de": "Ich habe zwei Katzen zu Hause.",
+      "en": "I have two cats at home."
+    },
     "answer": "gatos",
     "explain": {
       "de": "'gato' endet auf Vokal, der Plural bekommt nur -s: 'gatos'.",
@@ -97,7 +139,10 @@
   {
     "kind": "fill",
     "prompt": "Compro tres ___ nuevas.",
-    "promptGloss": { "de": "Ich kaufe drei neue Hemden.", "en": "I buy three new shirts." },
+    "promptGloss": {
+      "de": "Ich kaufe drei neue Hemden.",
+      "en": "I buy three new shirts."
+    },
     "answer": "camisas",
     "explain": {
       "de": "'camisa' endet auf Vokal, der Plural bekommt nur -s: 'camisas'.",
@@ -107,9 +152,15 @@
   {
     "kind": "choice",
     "prompt": "En la clase hay muchos ___.",
-    "promptGloss": { "de": "In der Klasse gibt es viele Schüler.", "en": "In the class there are many students." },
+    "promptGloss": {
+      "de": "In der Klasse gibt es viele Schüler.",
+      "en": "In the class there are many students."
+    },
     "answer": "estudiantes",
-    "options": ["estudiantes", "estudiantos"],
+    "options": [
+      "estudiantes",
+      "estudiantos"
+    ],
     "explain": {
       "de": "'estudiante' endet auf Vokal, daher nur -s: 'estudiantes'; 'estudiantos' ist erfunden.",
       "en": "'estudiante' ends in a vowel, so just -s: 'estudiantes'; 'estudiantos' is invented."
@@ -118,7 +169,10 @@
   {
     "kind": "fill",
     "prompt": "Hay muchos ___ en el parque.",
-    "promptGloss": { "de": "Es gibt viele Bäume im Park.", "en": "There are many trees in the park." },
+    "promptGloss": {
+      "de": "Es gibt viele Bäume im Park.",
+      "en": "There are many trees in the park."
+    },
     "answer": "árboles",
     "explain": {
       "de": "'árbol' endet auf Konsonant, der Plural bekommt -es: 'árboles'.",
@@ -128,7 +182,10 @@
   {
     "kind": "fill",
     "prompt": "Veo tres ___ en el jardín.",
-    "promptGloss": { "de": "Ich sehe drei Blumen im Garten.", "en": "I see three flowers in the garden." },
+    "promptGloss": {
+      "de": "Ich sehe drei Blumen im Garten.",
+      "en": "I see three flowers in the garden."
+    },
     "answer": "flores",
     "explain": {
       "de": "'flor' endet auf Konsonant, der Plural bekommt -es: 'flores'.",
@@ -138,9 +195,15 @@
   {
     "kind": "choice",
     "prompt": "Tengo dos ___ en la pared.",
-    "promptGloss": { "de": "Ich habe zwei Papiere an der Wand.", "en": "I have two papers on the wall." },
+    "promptGloss": {
+      "de": "Ich habe zwei Papiere an der Wand.",
+      "en": "I have two papers on the wall."
+    },
     "answer": "papeles",
-    "options": ["papeles", "papels"],
+    "options": [
+      "papeles",
+      "papels"
+    ],
     "explain": {
       "de": "'papel' endet auf Konsonant, daher -es: 'papeles'; 'papels' ist falsch.",
       "en": "'papel' ends in a consonant, so -es: 'papeles'; 'papels' is wrong."
@@ -149,9 +212,15 @@
   {
     "kind": "choice",
     "prompt": "El tren tiene seis ___.",
-    "promptGloss": { "de": "Der Zug hat sechs Waggons.", "en": "The train has six cars." },
+    "promptGloss": {
+      "de": "Der Zug hat sechs Waggons.",
+      "en": "The train has six cars."
+    },
     "answer": "vagones",
-    "options": ["vagones", "vagons"],
+    "options": [
+      "vagones",
+      "vagons"
+    ],
     "explain": {
       "de": "'vagón' endet auf Konsonant, daher -es: 'vagones'; 'vagons' ist falsch.",
       "en": "'vagón' ends in a consonant, so -es: 'vagones'; 'vagons' is wrong."
@@ -160,7 +229,10 @@
   {
     "kind": "fill",
     "prompt": "Como dos ___ al día.",
-    "promptGloss": { "de": "Ich esse zweimal am Tag.", "en": "I eat twice a day." },
+    "promptGloss": {
+      "de": "Ich esse zweimal am Tag.",
+      "en": "I eat twice a day."
+    },
     "answer": "veces",
     "explain": {
       "de": "'vez' endet auf -z, im Plural wird z zu c plus -es: 'veces'.",
@@ -170,7 +242,10 @@
   {
     "kind": "fill",
     "prompt": "Tengo muchos ___ de colores.",
-    "promptGloss": { "de": "Ich habe viele bunte Bleistifte.", "en": "I have many colored pencils." },
+    "promptGloss": {
+      "de": "Ich habe viele bunte Bleistifte.",
+      "en": "I have many colored pencils."
+    },
     "answer": "lápices",
     "explain": {
       "de": "'lápiz' endet auf -z, im Plural wird z zu c plus -es: 'lápices'.",
@@ -180,9 +255,15 @@
   {
     "kind": "choice",
     "prompt": "En el cielo veo muchas ___.",
-    "promptGloss": { "de": "Am Himmel sehe ich viele Lichter.", "en": "In the sky I see many lights." },
+    "promptGloss": {
+      "de": "Am Himmel sehe ich viele Lichter.",
+      "en": "In the sky I see many lights."
+    },
     "answer": "luces",
-    "options": ["luces", "luzes"],
+    "options": [
+      "luces",
+      "luzes"
+    ],
     "explain": {
       "de": "'luz' endet auf -z, im Plural wird z zu c plus -es: 'luces'; 'luzes' ist falsch.",
       "en": "'luz' ends in -z, in the plural z becomes c plus -es: 'luces'; 'luzes' is wrong."
@@ -191,9 +272,15 @@
   {
     "kind": "choice",
     "prompt": "Hay tres ___ en el río.",
-    "promptGloss": { "de": "Es gibt drei Fische im Fluss.", "en": "There are three fish in the river." },
+    "promptGloss": {
+      "de": "Es gibt drei Fische im Fluss.",
+      "en": "There are three fish in the river."
+    },
     "answer": "peces",
-    "options": ["peces", "pezes"],
+    "options": [
+      "peces",
+      "pezes"
+    ],
     "explain": {
       "de": "'pez' endet auf -z, im Plural wird z zu c plus -es: 'peces'; 'pezes' ist falsch.",
       "en": "'pez' ends in -z, in the plural z becomes c plus -es: 'peces'; 'pezes' is wrong."
@@ -202,7 +289,10 @@
   {
     "kind": "fill",
     "prompt": "Tengo cinco ___ rojas.",
-    "promptGloss": { "de": "Ich habe fünf rote Äpfel.", "en": "I have five red apples." },
+    "promptGloss": {
+      "de": "Ich habe fünf rote Äpfel.",
+      "en": "I have five red apples."
+    },
     "answer": "manzanas",
     "explain": {
       "de": "'manzana' endet auf Vokal, der Plural bekommt nur -s: 'manzanas'.",

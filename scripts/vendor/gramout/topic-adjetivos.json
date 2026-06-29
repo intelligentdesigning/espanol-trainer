@@ -177,9 +177,9 @@
   },
   {
     "kind": "fill",
-    "prompt": "Carlos es un viejo ___ al que conozco desde la infancia.",
+    "prompt": "Carlos es un ___ amigo al que conozco desde la infancia.",
     "promptGloss": { "de": "Carlos ist ein langjähriger Freund, den ich seit der Kindheit kenne.", "en": "Carlos is an old (longtime) friend whom I have known since childhood." },
-    "answer": "amigo",
+    "answer": "viejo",
     "altAnswers": [],
     "explain": {
       "de": "viejo vor dem Nomen heißt 'langjährig': un viejo amigo.",

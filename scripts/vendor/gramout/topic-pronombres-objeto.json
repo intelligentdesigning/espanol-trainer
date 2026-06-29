@@ -28,12 +28,12 @@
   },
   {
     "kind": "fill",
-    "prompt": "¿Tienes mi número? Sí, ___ llamo mañana.",
+    "prompt": "Adiós, María. ___ llamo mañana.",
     "promptGloss": {
-      "de": "Hast du meine Nummer? Ja, ich rufe dich morgen an.",
-      "en": "Do you have my number? Yes, I'll call you tomorrow."
+      "de": "Tschüss, María. Ich rufe dich morgen an.",
+      "en": "Bye, María. I'll call you tomorrow."
     },
-    "answer": "te",
+    "answer": "Te",
     "explain": {
       "de": "'te' ist das direkte Objektpronomen für 'dich'.",
       "en": "'te' is the direct object pronoun for 'you'."
@@ -149,29 +149,29 @@
   },
   {
     "kind": "choice",
-    "prompt": "Aquí tienes la carta: ¿___ lo dices a él?",
+    "prompt": "El secreto es para él. ¿___ lo dices a él?",
     "promptGloss": {
-      "de": "Hier hast du den Brief: Sagst du es ihm?",
-      "en": "Here's the letter: will you say it to him?"
+      "de": "Das Geheimnis ist für ihn. Sagst du es ihm?",
+      "en": "The secret is for him. Will you tell it to him?"
     },
     "answer": "se",
     "options": ["se", "le", "te"],
     "explain": {
-      "de": "Vor dem direkten 'lo' wird 'le' (a él) immer zu 'se'.",
-      "en": "Before the direct 'lo', 'le' (a él) always becomes 'se'."
+      "de": "Vor dem direkten 'lo' (= el secreto) wird 'le' (a él) immer zu 'se'.",
+      "en": "Before the direct 'lo' (= el secreto), 'le' (a él) always becomes 'se'."
     }
   },
   {
     "kind": "fill",
-    "prompt": "El regalo es para mi madre. ___ la regalo hoy.",
+    "prompt": "La flor es para mi madre. ___ la regalo hoy.",
     "promptGloss": {
-      "de": "Das Geschenk ist für meine Mutter. Ich schenke es ihr heute.",
-      "en": "The gift is for my mother. I give it to her today."
+      "de": "Die Blume ist für meine Mutter. Ich schenke sie ihr heute.",
+      "en": "The flower is for my mother. I give it to her today."
     },
     "answer": "Se",
     "explain": {
-      "de": "Vor dem direkten 'la' wird 'le' (a mi madre) zu 'se'.",
-      "en": "Before the direct 'la', 'le' (a mi madre) becomes 'se'."
+      "de": "Vor dem direkten 'la' (= la flor) wird 'le' (a mi madre) zu 'se'.",
+      "en": "Before the direct 'la' (= la flor), 'le' (a mi madre) becomes 'se'."
     }
   },
   {

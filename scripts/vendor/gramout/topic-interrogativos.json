@@ -239,7 +239,7 @@
     "kind": "fill",
     "prompt": "¡Qué día ___ largo! No paramos de trabajar.",
     "promptGloss": {
-      "de": "Was für ein langer Tag! Wir hörten nicht auf zu arbeiten.",
+      "de": "Was für ein langer Tag! Wir hören nicht auf zu arbeiten.",
       "en": "What a long day! We didn't stop working."
     },
     "answer": "tan",

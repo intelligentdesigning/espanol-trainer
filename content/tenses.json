@@ -1449,8 +1449,8 @@
     "prompt": "Ayer ___ con mi madre por teléfono durante una hora.",
     "answer": "hablé",
     "explain": {
-     "de": "\"Ayer\" und eine abgeschlossene Handlung verlangen das Indefinido: hablar > hablé. \"Hablaba\" (Imperfekt) gehört nicht in diese Lektion.",
-     "en": "\"Ayer\" plus a single completed action triggers the indefinido: hablar > hablé. \"Hablaba\" (imperfect) is not this lesson."
+     "de": "\"Ayer\" und eine abgeschlossene Handlung verlangen das Indefinido; yo-Form von hablar ist hablé (Endung -é).",
+     "en": "\"Ayer\" plus a single completed action triggers the indefinido; the yo form of hablar is hablé (ending -é)."
     },
     "promptGloss": {
      "de": "Gestern sprach ich eine Stunde lang mit meiner Mutter am Telefon.",
@@ -1458,8 +1458,8 @@
     },
     "options": [
      "hablé",
-     "hablaba",
-     "hablo"
+     "hablaste",
+     "hablaron"
     ]
    },
    {
@@ -1631,13 +1631,13 @@
      "en": "querer has the irregular stem quis-, yo form: quise; \"querí\" would be a wrong regular form."
     },
     "promptGloss": {
-     "de": "Ich wollte dieses Auto letztes Jahr kaufen, aber es war schon verkauft.",
+     "de": "Ich wollte dieses Auto letztes Jahr, aber es war schon verkauft.",
      "en": "I wanted that car last year, but it was already sold."
     },
     "options": [
      "quise",
      "querí",
-     "quise"
+     "quisé"
     ]
    },
    {
@@ -5782,7 +5782,7 @@
      "en": "After the past trigger 'esperaba que' the imperfect subjunctive 'durmieras' is used. 'duermes' is present indicative."
     },
     "promptGloss": {
-     "de": "Ich hoffte, dass du letzte Nacht gut schläfst.",
+     "de": "Ich hoffte, dass du letzte Nacht gut schliefst.",
      "en": "I hoped you'd sleep well last night."
     },
     "options": [
@@ -6604,16 +6604,19 @@
    },
    {
     "kind": "fill",
-    "prompt": "Si hubiera tenido tiempo, te ___ ayudado.",
-    "answer": "habría",
+    "prompt": "Si yo ___ tenido tiempo, te habría ayudado.",
+    "answer": "hubiera",
     "explain": {
-     "de": "Nach dem 'si'-Satz im Subjuntivo Plusquamperfekt steht der Hauptsatz im Konditional Perfekt: 'habría' plus Partizip.",
-     "en": "After the 'si' clause in the pluperfect subjunctive, the main clause takes the conditional perfect: 'habría' plus participle."
+     "de": "Nach 'si' für eine nicht eingetretene Bedingung in der Vergangenheit: 'hubiera tenido' (yo).",
+     "en": "After 'si' for a condition that didn't happen in the past: 'hubiera tenido' (yo)."
     },
     "promptGloss": {
      "de": "Wenn ich Zeit gehabt hätte, hätte ich dir geholfen.",
      "en": "If I had had time, I would have helped you."
-    }
+    },
+    "altAnswers": [
+     "hubiese"
+    ]
    },
    {
     "kind": "fill",
@@ -6783,20 +6786,20 @@
    },
    {
     "kind": "choice",
-    "prompt": "Si hubiéramos salido antes, ___ llegado a tiempo.",
-    "answer": "habríamos",
+    "prompt": "Si vosotros ___ salido antes, habríais llegado a tiempo.",
+    "answer": "hubierais",
     "explain": {
-     "de": "Der Hauptsatz nach dem irrealen 'si'-Satz steht im Konditional Perfekt: 'habríamos llegado'.",
-     "en": "The main clause after the unreal 'si' clause takes the conditional perfect: 'habríamos llegado'."
+     "de": "Für 'vosotros' nach 'si' lautet die Form 'hubierais' plus Partizip.",
+     "en": "For 'vosotros' after 'si' the form is 'hubierais' plus participle."
     },
     "promptGloss": {
-     "de": "Wenn wir früher losgegangen wären, wären wir rechtzeitig angekommen.",
-     "en": "If we had left earlier, we would have arrived on time."
+     "de": "Wenn ihr früher losgegangen wärt, wärt ihr rechtzeitig angekommen.",
+     "en": "If you had left earlier, you would have arrived on time."
     },
     "options": [
-     "habríamos",
-     "hubiéramos",
-     "habremos"
+     "hubierais",
+     "hubieran",
+     "hubiéramos"
     ]
    },
    {

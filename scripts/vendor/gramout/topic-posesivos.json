@@ -33,7 +33,11 @@
       "en": "Marta has a dog. Her dog is very big."
     },
     "answer": "Su",
-    "options": ["Su", "Mi", "Tu"],
+    "options": [
+      "Su",
+      "Mi",
+      "Tu"
+    ],
     "explain": {
       "de": "'su' bedeutet sein/ihr/Ihr; hier gehört der Hund Marta, also 'su'.",
       "en": "'su' means his/her/your; here the dog belongs to Marta, so 'su'."
@@ -73,7 +77,11 @@
       "en": "Carlos arrives with his friends at the party."
     },
     "answer": "sus",
-    "options": ["sus", "su", "mis"],
+    "options": [
+      "sus",
+      "su",
+      "mis"
+    ],
     "explain": {
       "de": "'amigos' ist Plural, daher 'sus'; 'su' wäre nur Singular.",
       "en": "'amigos' is plural, so 'sus'; 'su' would be singular only."
@@ -87,7 +95,11 @@
       "en": "Are these your keys? You left them here yesterday."
     },
     "answer": "tus",
-    "options": ["tus", "tu", "sus"],
+    "options": [
+      "tus",
+      "tu",
+      "sus"
+    ],
     "explain": {
       "de": "'llaves' ist Plural, daher der Plural 'tus'; 'tu' passt nur zum Singular.",
       "en": "'llaves' is plural, so the plural 'tus'; 'tu' only fits the singular."
@@ -127,7 +139,11 @@
       "en": "We love our daughters María and Lucía very much."
     },
     "answer": "nuestras",
-    "options": ["nuestras", "nuestros", "nuestra"],
+    "options": [
+      "nuestras",
+      "nuestros",
+      "nuestra"
+    ],
     "explain": {
       "de": "'hijas' ist feminin Plural, daher 'nuestras'; 'nuestros' wäre maskulin.",
       "en": "'hijas' is feminine plural, so 'nuestras'; 'nuestros' would be masculine."
@@ -141,7 +157,11 @@
       "en": "These are our sons; they play in the park."
     },
     "answer": "nuestros",
-    "options": ["nuestros", "nuestras", "nuestro"],
+    "options": [
+      "nuestros",
+      "nuestras",
+      "nuestro"
+    ],
     "explain": {
       "de": "'hijos' ist maskulin Plural, daher 'nuestros' mit -os.",
       "en": "'hijos' is masculine plural, so 'nuestros' with -os."
@@ -181,7 +201,11 @@
       "en": "This suitcase isn't Pedro's; it's mine, I brought it."
     },
     "answer": "mía",
-    "options": ["mía", "mío", "mi"],
+    "options": [
+      "mía",
+      "mío",
+      "mi"
+    ],
     "explain": {
       "de": "'maleta' ist feminin, daher die betonte Form 'mía' nach 'ser'; 'mi' steht nur vor dem Nomen.",
       "en": "'maleta' is feminine, so the stressed form 'mía' after 'ser'; 'mi' only goes before a noun."
@@ -221,7 +245,11 @@
       "en": "My house is big, but yours is prettier."
     },
     "answer": "tuya",
-    "options": ["tuya", "tuyo", "tuyas"],
+    "options": [
+      "tuya",
+      "tuyo",
+      "tuyas"
+    ],
     "explain": {
       "de": "'casa' ist feminin Singular, daher 'la tuya'; 'tuyo' wäre maskulin.",
       "en": "'casa' is feminine singular, so 'la tuya'; 'tuyo' would be masculine."
@@ -235,7 +263,11 @@
       "en": "Our seats are in front; yours are behind."
     },
     "answer": "vuestros",
-    "options": ["vuestros", "vuestra", "vuestro"],
+    "options": [
+      "vuestros",
+      "vuestra",
+      "vuestro"
+    ],
     "explain": {
       "de": "'asientos' ist maskulin Plural, daher 'los vuestros', angeglichen in Genus und Numerus.",
       "en": "'asientos' is masculine plural, so 'los vuestros', agreeing in gender and number."

@@ -21,16 +21,6 @@
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Compré un ___apato nuevo ayer.",
-    "promptGloss": { "de": "Ich kaufte gestern einen neuen Schuh.", "en": "I bought a new shoe yesterday." },
-    "answer": "z",
-    "explain": {
-      "de": "„zapato“ wird mit z geschrieben; vor a klingt z wie stimmloses „s/th“.",
-      "en": "„zapato“ is spelled with z; before a, z sounds like a soft „s/th“."
-    }
-  },
-  {
     "kind": "choice",
     "prompt": "Mi abuela vive en una ___ pequeña.",
     "promptGloss": { "de": "Meine Großmutter wohnt in einem kleinen Haus.", "en": "My grandmother lives in a small house." },
@@ -188,16 +178,6 @@
     "explain": {
       "de": "Das Personalpronomen „tú“ (du) trägt einen Akzent; „tu“ ohne Akzent heißt „dein“.",
       "en": "The pronoun „tú“ (you) takes an accent; „tu“ without accent means „your“."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Quiero un poco ___ de pan.",
-    "promptGloss": { "de": "Ich möchte ein bisschen mehr Brot.", "en": "I want a little more bread." },
-    "answer": "más",
-    "explain": {
-      "de": "„más“ (mehr) trägt einen diakritischen Akzent; „mas“ ohne Akzent heißt „aber“.",
-      "en": "„más“ (more) takes a diacritical accent; „mas“ without accent means „but“."
     }
   },
   {

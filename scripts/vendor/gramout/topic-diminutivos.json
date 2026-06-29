@@ -168,7 +168,7 @@
       "de": "Es ist nur ein kleines, unwichtiges Problem, mach dir keine Sorgen.",
       "en": "It's just a minor, unimportant problem, don't worry."
     },
-    "options": ["problemilla", "problemita", "problemón"],
+    "options": ["problemilla", "problemón", "problemazo"],
     "answer": "problemilla",
     "explain": {
       "de": "-illa/-illo wirkt oft abwertend oder verharmlosend: ein „unwichtiges Problem“ ist ein problemilla. problemón wäre dagegen ein großes Problem.",
@@ -190,16 +190,16 @@
   },
   {
     "kind": "choice",
-    "prompt": "Ese gato gris es un ___ flaco que caza de noche.",
+    "prompt": "Guardo las llaves en el ___ del pantalón.",
     "promptGloss": {
-      "de": "Diese graue Katze ist ein mageres kleines (geringschätzig genanntes) Tier, das nachts jagt.",
-      "en": "That gray cat is a skinny little (dismissively named) creature that hunts at night."
+      "de": "Ich bewahre die Schlüssel in der Hosentasche auf.",
+      "en": "I keep the keys in the pocket of my trousers."
     },
-    "options": ["gatillo", "gatito", "gatón"],
-    "answer": "gatillo",
+    "options": ["bolsillo", "bolsito", "bolsón"],
+    "answer": "bolsillo",
     "explain": {
-      "de": "-illo verkleinert mit oft abwertendem Ton: gatillo. gatito wäre das neutrale, liebevolle Diminutiv.",
-      "en": "-illo makes it smaller with an often dismissive tone: gatillo. gatito would be the neutral, affectionate diminutive."
+      "de": "bolsillo ist ein festes Wort mit -illo und bedeutet „Tasche“ (am Kleidungsstück), nicht einfach „kleine Tüte“.",
+      "en": "bolsillo is a fixed word with -illo meaning \"pocket\", not simply \"little bag\"."
     }
   },
   {

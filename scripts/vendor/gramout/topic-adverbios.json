@@ -71,7 +71,7 @@
     "kind": "fill",
     "prompt": "El abuelo apenas come, casi no se alimenta ___.",
     "promptGloss": {
-      "de": "Der Großvater isst kaum, er ernährt sich fast nicht praktisch / so gut wie nicht.",
+      "de": "Der Großvater isst kaum, er ernährt sich so gut wie nicht.",
       "en": "The grandfather barely eats, he practically doesn't feed himself."
     },
     "answer": "prácticamente",
@@ -163,7 +163,7 @@
   },
   {
     "kind": "choice",
-    "prompt": "El equipo ha jugado ___ esta temporada.",
+    "prompt": "El equipo ha ___ esta temporada.",
     "promptGloss": {
       "de": "Die Mannschaft hat diese Saison hervorragend gespielt.",
       "en": "The team has played excellently this season."

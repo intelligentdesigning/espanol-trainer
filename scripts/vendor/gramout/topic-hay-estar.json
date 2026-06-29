@@ -75,7 +75,7 @@
       "de": "Mein Handy ist auf dem Bett.",
       "en": "My phone is on the bed."
     },
-    "options": ["hay", "está", "es"],
+    "options": ["hay", "está", "están"],
     "answer": "está",
     "explain": {
       "de": "Das Possessiv \"mi\" macht das Handy bestimmt und bekannt; sein Ort wird genannt → está. Hay verlangt einen unbestimmten Ausdruck.",
@@ -102,7 +102,7 @@
       "de": "Es gibt eine Apotheke in der Nähe, und die Apotheke ist neben der Bank.",
       "en": "There is a pharmacy nearby, and the pharmacy is next to the bank."
     },
-    "options": ["hay", "está", "es"],
+    "options": ["hay", "está", "están"],
     "answer": "está",
     "explain": {
       "de": "Die Apotheke wird mit hay als unbestimmt eingeführt; sobald sie mit \"la\" bekannt ist, gibt está ihren Ort an.",
@@ -143,7 +143,7 @@
       "de": "Wie viele Zimmer gibt es in dieser Wohnung?",
       "en": "How many rooms are there in this flat?"
     },
-    "options": ["hay", "están", "son"],
+    "options": ["hay", "están", "está"],
     "answer": "hay",
     "explain": {
       "de": "Mengenfragen mit \"cuántas\" zielen auf die Anzahl, daher hay. Están bräuchte bestimmte, schon bekannte Zimmer.",
@@ -233,16 +233,16 @@
   },
   {
     "kind": "choice",
-    "prompt": "En el aparcamiento ___ varios coches, pero el coche de Ana ___ en la planta dos.",
+    "prompt": "El coche de Ana ___ en la planta dos del aparcamiento.",
     "promptGloss": {
-      "de": "Im Parkhaus stehen mehrere Autos, aber Anas Auto ist auf der zweiten Etage.",
-      "en": "In the car park there are several cars, but Ana's car is on the second floor."
+      "de": "Anas Auto ist auf der zweiten Etage des Parkhauses.",
+      "en": "Ana's car is on the second floor of the car park."
     },
-    "options": ["hay / está", "está / hay", "hay / hay", "están / está"],
-    "answer": "hay / está",
+    "options": ["hay", "está", "están"],
+    "answer": "está",
     "explain": {
-      "de": "\"varios coches\" ist unbestimmt → hay; \"el coche de Ana\" ist durch Artikel und Besitz bestimmt und bekannt → está.",
-      "en": "\"varios coches\" is indefinite → hay; \"el coche de Ana\" is definite and known through article and possessor → está."
+      "de": "\"El coche de Ana\" ist durch Artikel und Besitzer bestimmt und bekannt → está. Hay verlangt einen unbestimmten Ausdruck.",
+      "en": "\"El coche de Ana\" is definite and known through the article and possessor → está. Hay requires an indefinite expression."
     }
   }
 ]

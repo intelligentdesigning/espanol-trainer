@@ -82,16 +82,16 @@
   },
   {
     "kind": "choice",
-    "prompt": "¿Hay siete ___ ocho sillas en la cocina?",
+    "prompt": "En la sala había mujeres ___ hombres esperando.",
     "promptGloss": {
-      "de": "Gibt es sieben oder acht Stühle in der Küche?",
-      "en": "Are there seven or eight chairs in the kitchen?"
+      "de": "Im Saal warteten Frauen oder Männer.",
+      "en": "In the hall there were women or men waiting."
     },
     "options": ["u", "o"],
     "answer": "u",
     "explain": {
-      "de": "Vor 'ocho' (o-) wird 'o' zu 'u'. 'o ocho' wäre durch den doppelten o-Laut schwer verständlich.",
-      "en": "Before 'ocho' (o-), 'o' becomes 'u'. 'o ocho' would be hard to understand because of the doubled o- sound."
+      "de": "Vor 'hombres' (ho-) wird 'o' zu 'u'. Das stumme h zählt nicht, der o-Laut entscheidet.",
+      "en": "Before 'hombres' (ho-), 'o' becomes 'u'. The silent h doesn't count; the o- sound decides."
     }
   },
   {

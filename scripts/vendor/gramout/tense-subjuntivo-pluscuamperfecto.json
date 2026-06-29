@@ -29,15 +29,16 @@
   },
   {
     "kind": "fill",
-    "prompt": "Si hubiera tenido tiempo, te ___ ayudado.",
+    "prompt": "Si yo ___ tenido tiempo, te habría ayudado.",
     "promptGloss": {
       "de": "Wenn ich Zeit gehabt hätte, hätte ich dir geholfen.",
       "en": "If I had had time, I would have helped you."
     },
-    "answer": "habría",
+    "answer": "hubiera",
+    "altAnswers": ["hubiese"],
     "explain": {
-      "de": "Nach dem 'si'-Satz im Subjuntivo Plusquamperfekt steht der Hauptsatz im Konditional Perfekt: 'habría' plus Partizip.",
-      "en": "After the 'si' clause in the pluperfect subjunctive, the main clause takes the conditional perfect: 'habría' plus participle."
+      "de": "Nach 'si' für eine nicht eingetretene Bedingung in der Vergangenheit: 'hubiera tenido' (yo).",
+      "en": "After 'si' for a condition that didn't happen in the past: 'hubiera tenido' (yo)."
     }
   },
   {
@@ -182,16 +183,16 @@
   },
   {
     "kind": "choice",
-    "prompt": "Si hubiéramos salido antes, ___ llegado a tiempo.",
+    "prompt": "Si vosotros ___ salido antes, habríais llegado a tiempo.",
     "promptGloss": {
-      "de": "Wenn wir früher losgegangen wären, wären wir rechtzeitig angekommen.",
-      "en": "If we had left earlier, we would have arrived on time."
+      "de": "Wenn ihr früher losgegangen wärt, wärt ihr rechtzeitig angekommen.",
+      "en": "If you had left earlier, you would have arrived on time."
     },
-    "answer": "habríamos",
-    "options": ["habríamos", "hubiéramos", "habremos"],
+    "answer": "hubierais",
+    "options": ["hubierais", "hubieran", "hubiéramos"],
     "explain": {
-      "de": "Der Hauptsatz nach dem irrealen 'si'-Satz steht im Konditional Perfekt: 'habríamos llegado'.",
-      "en": "The main clause after the unreal 'si' clause takes the conditional perfect: 'habríamos llegado'."
+      "de": "Für 'vosotros' nach 'si' lautet die Form 'hubierais' plus Partizip.",
+      "en": "For 'vosotros' after 'si' the form is 'hubierais' plus participle."
     }
   },
   {

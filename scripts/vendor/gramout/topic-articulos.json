@@ -56,20 +56,6 @@
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Tengo ___ coche nuevo.",
-    "promptGloss": {
-      "de": "Ich habe ein neues Auto.",
-      "en": "I have a new car."
-    },
-    "answer": "un",
-    "altAnswers": [],
-    "explain": {
-      "de": "'coche' ist maskulin Singular, also der unbestimmte Artikel 'un'.",
-      "en": "'coche' is masculine singular, so the indefinite article is 'un'."
-    }
-  },
-  {
     "kind": "choice",
     "prompt": "Vivo en ___ casa grande.",
     "promptGloss": {
@@ -273,24 +259,24 @@
       "en": "I have an interesting book in my backpack."
     },
     "answer": "un",
-    "options": ["un", "una", "el"],
+    "options": ["un", "una", "unos"],
     "explain": {
-      "de": "'libro' ist maskulin Singular, der unbestimmte Artikel ist 'un'; 'el' wäre bestimmt.",
-      "en": "'libro' is masculine singular, the indefinite article is 'un'; 'el' would be definite."
+      "de": "'libro' ist maskulin Singular, also der unbestimmte Artikel 'un'; 'una' wäre feminin, 'unos' Plural.",
+      "en": "'libro' is masculine singular, so the indefinite article is 'un'; 'una' is feminine and 'unos' is plural."
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Hablé con ___ profesora después de la clase.",
+    "kind": "choice",
+    "prompt": "Voy ___ supermercado a comprar pan.",
     "promptGloss": {
-      "de": "Ich sprach nach dem Unterricht mit der Lehrerin.",
-      "en": "I talked to the teacher after class."
+      "de": "Ich gehe in den Supermarkt, um Brot zu kaufen.",
+      "en": "I'm going to the supermarket to buy bread."
     },
-    "answer": "la",
-    "altAnswers": [],
+    "answer": "al",
+    "options": ["al", "a el", "a la"],
     "explain": {
-      "de": "'profesora' ist feminin Singular: 'con la profesora'; nach 'con' verschmilzt nichts.",
-      "en": "'profesora' is feminine singular: 'con la profesora'; nothing contracts after 'con'."
+      "de": "a + el verschmelzen vor 'supermercado' (maskulin) zu 'al'; 'a el' schreibt man nie getrennt.",
+      "en": "a + el contract before 'supermercado' (masculine) into 'al'; 'a el' is never written separately."
     }
   }
 ]

@@ -42,11 +42,11 @@
     }
   },
   {
-    "kind": "fill",
-    "prompt": "___ hablo español.",
-    "promptGloss": { "de": "Ich spreche Spanisch.", "en": "I speak Spanish." },
+    "kind": "choice",
+    "prompt": "___ hablo español, no necesito decir el pronombre.",
+    "promptGloss": { "de": "Ich spreche Spanisch, ich muss das Pronomen nicht sagen.", "en": "I speak Spanish, I don't need to say the pronoun." },
     "answer": "",
-    "altAnswers": ["-", "—"],
+    "options": ["", "Yo", "Tú"],
     "explain": {
       "de": "Die Verbendung \"-o\" zeigt schon \"ich\", daher lässt man das Pronomen meist weg.",
       "en": "The verb ending \"-o\" already shows \"I\", so the pronoun is usually left out."
@@ -106,13 +106,14 @@
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Hola, María, ¿cómo estás ___?",
-    "promptGloss": { "de": "Hallo María, wie geht es dir?", "en": "Hi María, how are you?" },
-    "answer": "tú",
+    "kind": "choice",
+    "prompt": "Tú esperas fuera y ___ habla con el jefe.",
+    "promptGloss": { "de": "Du wartest draußen und Sie sprechen mit dem Chef.", "en": "You wait outside and you (formal) speak with the boss." },
+    "answer": "usted",
+    "options": ["usted", "tú", "yo"],
     "explain": {
-      "de": "\"tú\" ist die informelle Anrede und passt zur Verbform \"estás\".",
-      "en": "\"tú\" is the informal address and matches the verb form \"estás\"."
+      "de": "Die höfliche Form \"usted\" steht mit der él/ella-Form \"habla\". \"tú\" ist informell, \"yo\" passt nicht zur Endung.",
+      "en": "The polite form \"usted\" takes the él/ella form \"habla\". \"tú\" is informal, \"yo\" doesn't fit the ending."
     }
   },
   {
@@ -180,13 +181,14 @@
     }
   },
   {
-    "kind": "fill",
-    "prompt": "En Latinoamérica el plural es ___ hablan, no \"vosotros habláis\".",
-    "promptGloss": { "de": "In Lateinamerika ist der Plural \"ustedes hablan\", nicht \"vosotros habláis\".", "en": "In Latin America the plural is \"ustedes speak\", not \"vosotros speak\"." },
+    "kind": "choice",
+    "prompt": "En Latinoamérica, ___ hablan muy rápido.",
+    "promptGloss": { "de": "In Lateinamerika sprecht ihr sehr schnell.", "en": "In Latin America you (pl.) speak very fast." },
     "answer": "ustedes",
+    "options": ["ustedes", "vosotros", "nosotros"],
     "explain": {
-      "de": "In Lateinamerika ist \"ustedes\" der normale Plural für \"ihr\" statt \"vosotros\".",
-      "en": "In Latin America \"ustedes\" is the normal plural for \"you (pl.)\" instead of \"vosotros\"."
+      "de": "In Lateinamerika ist \"ustedes\" der normale Plural für \"ihr\" und steht mit \"hablan\". \"vosotros\" passt nicht zu \"hablan\".",
+      "en": "In Latin America \"ustedes\" is the normal plural for \"you (pl.)\" and goes with \"hablan\". \"vosotros\" doesn't fit \"hablan\"."
     }
   }
 ]

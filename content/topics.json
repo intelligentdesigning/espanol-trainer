@@ -459,19 +459,6 @@
     ]
    },
    {
-    "kind": "fill",
-    "prompt": "Compré un ___apato nuevo ayer.",
-    "answer": "z",
-    "explain": {
-     "de": "„zapato“ wird mit z geschrieben; vor a klingt z wie stimmloses „s/th“.",
-     "en": "„zapato“ is spelled with z; before a, z sounds like a soft „s/th“."
-    },
-    "promptGloss": {
-     "de": "Ich kaufte gestern einen neuen Schuh.",
-     "en": "I bought a new shoe yesterday."
-    }
-   },
-   {
     "kind": "choice",
     "prompt": "Mi abuela vive en una ___ pequeña.",
     "answer": "casa",
@@ -715,19 +702,6 @@
     ]
    },
    {
-    "kind": "fill",
-    "prompt": "Quiero un poco ___ de pan.",
-    "answer": "más",
-    "explain": {
-     "de": "„más“ (mehr) trägt einen diakritischen Akzent; „mas“ ohne Akzent heißt „aber“.",
-     "en": "„más“ (more) takes a diacritical accent; „mas“ without accent means „but“."
-    },
-    "promptGloss": {
-     "de": "Ich möchte ein bisschen mehr Brot.",
-     "en": "I want a little more bread."
-    }
-   },
-   {
     "kind": "choice",
     "prompt": "Todo está muy ___, gracias.",
     "answer": "bien",
@@ -816,8 +790,7 @@
     },
     "options": [
      "son",
-     "están",
-     "están en"
+     "están"
     ]
    },
    {
@@ -867,8 +840,7 @@
     },
     "options": [
      "son",
-     "están",
-     "tienen"
+     "están"
     ]
    },
    {
@@ -902,8 +874,7 @@
     },
     "options": [
      "está",
-     "es",
-     "hay"
+     "es"
     ]
    },
    {
@@ -993,8 +964,7 @@
     },
     "options": [
      "es",
-     "está",
-     "están"
+     "está"
     ]
    },
    {
@@ -1054,8 +1024,7 @@
     },
     "options": [
      "es",
-     "está",
-     "son"
+     "está"
     ]
    },
    {
@@ -1085,8 +1054,7 @@
     },
     "options": [
      "está",
-     "es",
-     "hay"
+     "es"
     ]
    },
    {
@@ -1576,7 +1544,7 @@
    },
    {
     "kind": "choice",
-    "prompt": "Salimos ___ Madrid mañana por la mañana.",
+    "prompt": "Salimos ___ Madrid mañana temprano.",
     "answer": "para",
     "explain": {
      "de": "Die Richtung, das Reiseziel (wohin man aufbricht), steht mit para: salir para Madrid. Por Madrid hieße \"durch Madrid hindurch\".",
@@ -1584,7 +1552,7 @@
     },
     "promptGloss": {
      "de": "Wir fahren morgen früh nach Madrid ab.",
-     "en": "We leave for Madrid tomorrow morning."
+     "en": "We leave for Madrid early tomorrow."
     },
     "options": [
      "para",
@@ -2614,19 +2582,6 @@
     ]
    },
    {
-    "kind": "fill",
-    "prompt": "Tengo ___ coche nuevo.",
-    "answer": "un",
-    "explain": {
-     "de": "'coche' ist maskulin Singular, also der unbestimmte Artikel 'un'.",
-     "en": "'coche' is masculine singular, so the indefinite article is 'un'."
-    },
-    "promptGloss": {
-     "de": "Ich habe ein neues Auto.",
-     "en": "I have a new car."
-    }
-   },
-   {
     "kind": "choice",
     "prompt": "Vivo en ___ casa grande.",
     "answer": "una",
@@ -2848,8 +2803,8 @@
     "prompt": "Tengo ___ libro interesante en la mochila.",
     "answer": "un",
     "explain": {
-     "de": "'libro' ist maskulin Singular, der unbestimmte Artikel ist 'un'; 'el' wäre bestimmt.",
-     "en": "'libro' is masculine singular, the indefinite article is 'un'; 'el' would be definite."
+     "de": "'libro' ist maskulin Singular, also der unbestimmte Artikel 'un'; 'una' wäre feminin, 'unos' Plural.",
+     "en": "'libro' is masculine singular, so the indefinite article is 'un'; 'una' is feminine and 'unos' is plural."
     },
     "promptGloss": {
      "de": "Ich habe ein interessantes Buch im Rucksack.",
@@ -2858,21 +2813,26 @@
     "options": [
      "un",
      "una",
-     "el"
+     "unos"
     ]
    },
    {
-    "kind": "fill",
-    "prompt": "Hablé con ___ profesora después de la clase.",
-    "answer": "la",
+    "kind": "choice",
+    "prompt": "Voy ___ supermercado a comprar pan.",
+    "answer": "al",
     "explain": {
-     "de": "'profesora' ist feminin Singular: 'con la profesora'; nach 'con' verschmilzt nichts.",
-     "en": "'profesora' is feminine singular: 'con la profesora'; nothing contracts after 'con'."
+     "de": "a + el verschmelzen vor 'supermercado' (maskulin) zu 'al'; 'a el' schreibt man nie getrennt.",
+     "en": "a + el contract before 'supermercado' (masculine) into 'al'; 'a el' is never written separately."
     },
     "promptGloss": {
-     "de": "Ich sprach nach dem Unterricht mit der Lehrerin.",
-     "en": "I talked to the teacher after class."
-    }
+     "de": "Ich gehe in den Supermarkt, um Brot zu kaufen.",
+     "en": "I'm going to the supermarket to buy bread."
+    },
+    "options": [
+     "al",
+     "a el",
+     "a la"
+    ]
    }
   ]
  },
@@ -3133,8 +3093,8 @@
    },
    {
     "kind": "fill",
-    "prompt": "Carlos es un viejo ___ al que conozco desde la infancia.",
-    "answer": "amigo",
+    "prompt": "Carlos es un ___ amigo al que conozco desde la infancia.",
+    "answer": "viejo",
     "explain": {
      "de": "viejo vor dem Nomen heißt 'langjährig': un viejo amigo.",
      "en": "viejo before the noun means 'longtime': un viejo amigo."
@@ -5119,17 +5079,22 @@
     ]
    },
    {
-    "kind": "fill",
-    "prompt": "Hola, María, ¿cómo estás ___?",
-    "answer": "tú",
+    "kind": "choice",
+    "prompt": "Tú esperas fuera y ___ habla con el jefe.",
+    "answer": "usted",
     "explain": {
-     "de": "\"tú\" ist die informelle Anrede und passt zur Verbform \"estás\".",
-     "en": "\"tú\" is the informal address and matches the verb form \"estás\"."
+     "de": "Die höfliche Form \"usted\" steht mit der él/ella-Form \"habla\". \"tú\" ist informell, \"yo\" passt nicht zur Endung.",
+     "en": "The polite form \"usted\" takes the él/ella form \"habla\". \"tú\" is informal, \"yo\" doesn't fit the ending."
     },
     "promptGloss": {
-     "de": "Hallo María, wie geht es dir?",
-     "en": "Hi María, how are you?"
-    }
+     "de": "Du wartest draußen und Sie sprechen mit dem Chef.",
+     "en": "You wait outside and you (formal) speak with the boss."
+    },
+    "options": [
+     "usted",
+     "tú",
+     "yo"
+    ]
    },
    {
     "kind": "choice",
@@ -5230,17 +5195,22 @@
     ]
    },
    {
-    "kind": "fill",
-    "prompt": "En Latinoamérica el plural es ___ hablan, no \"vosotros habláis\".",
+    "kind": "choice",
+    "prompt": "En Latinoamérica, ___ hablan muy rápido.",
     "answer": "ustedes",
     "explain": {
-     "de": "In Lateinamerika ist \"ustedes\" der normale Plural für \"ihr\" statt \"vosotros\".",
-     "en": "In Latin America \"ustedes\" is the normal plural for \"you (pl.)\" instead of \"vosotros\"."
+     "de": "In Lateinamerika ist \"ustedes\" der normale Plural für \"ihr\" und steht mit \"hablan\". \"vosotros\" passt nicht zu \"hablan\".",
+     "en": "In Latin America \"ustedes\" is the normal plural for \"you (pl.)\" and goes with \"hablan\". \"vosotros\" doesn't fit \"hablan\"."
     },
     "promptGloss": {
-     "de": "In Lateinamerika ist der Plural \"ustedes hablan\", nicht \"vosotros habláis\".",
-     "en": "In Latin America the plural is \"ustedes speak\", not \"vosotros speak\"."
-    }
+     "de": "In Lateinamerika sprecht ihr sehr schnell.",
+     "en": "In Latin America you (pl.) speak very fast."
+    },
+    "options": [
+     "ustedes",
+     "vosotros",
+     "nosotros"
+    ]
    }
   ]
  },
@@ -5504,15 +5474,15 @@
    },
    {
     "kind": "fill",
-    "prompt": "¿Tienes mi número? Sí, ___ llamo mañana.",
-    "answer": "te",
+    "prompt": "Adiós, María. ___ llamo mañana.",
+    "answer": "Te",
     "explain": {
      "de": "'te' ist das direkte Objektpronomen für 'dich'.",
      "en": "'te' is the direct object pronoun for 'you'."
     },
     "promptGloss": {
-     "de": "Hast du meine Nummer? Ja, ich rufe dich morgen an.",
-     "en": "Do you have my number? Yes, I'll call you tomorrow."
+     "de": "Tschüss, María. Ich rufe dich morgen an.",
+     "en": "Bye, María. I'll call you tomorrow."
     }
    },
    {
@@ -5641,15 +5611,15 @@
    },
    {
     "kind": "choice",
-    "prompt": "Aquí tienes la carta: ¿___ lo dices a él?",
+    "prompt": "El secreto es para él. ¿___ lo dices a él?",
     "answer": "se",
     "explain": {
-     "de": "Vor dem direkten 'lo' wird 'le' (a él) immer zu 'se'.",
-     "en": "Before the direct 'lo', 'le' (a él) always becomes 'se'."
+     "de": "Vor dem direkten 'lo' (= el secreto) wird 'le' (a él) immer zu 'se'.",
+     "en": "Before the direct 'lo' (= el secreto), 'le' (a él) always becomes 'se'."
     },
     "promptGloss": {
-     "de": "Hier hast du den Brief: Sagst du es ihm?",
-     "en": "Here's the letter: will you say it to him?"
+     "de": "Das Geheimnis ist für ihn. Sagst du es ihm?",
+     "en": "The secret is for him. Will you tell it to him?"
     },
     "options": [
      "se",
@@ -5659,15 +5629,15 @@
    },
    {
     "kind": "fill",
-    "prompt": "El regalo es para mi madre. ___ la regalo hoy.",
+    "prompt": "La flor es para mi madre. ___ la regalo hoy.",
     "answer": "Se",
     "explain": {
-     "de": "Vor dem direkten 'la' wird 'le' (a mi madre) zu 'se'.",
-     "en": "Before the direct 'la', 'le' (a mi madre) becomes 'se'."
+     "de": "Vor dem direkten 'la' (= la flor) wird 'le' (a mi madre) zu 'se'.",
+     "en": "Before the direct 'la' (= la flor), 'le' (a mi madre) becomes 'se'."
     },
     "promptGloss": {
-     "de": "Das Geschenk ist für meine Mutter. Ich schenke es ihr heute.",
-     "en": "The gift is for my mother. I give it to her today."
+     "de": "Die Blume ist für meine Mutter. Ich schenke sie ihr heute.",
+     "en": "The flower is for my mother. I give it to her today."
     }
    },
    {
@@ -6423,12 +6393,12 @@
     "prompt": "___ gusta la música a mis amigos y a mí.",
     "answer": "Nos",
     "explain": {
-     "de": "Für „wir“ steht das Pflicht-Pronomen nos vor dem Verb.",
-     "en": "For \"we\" the obligatory pronoun nos goes before the verb."
+     "de": "„a mis amigos y a mí“ entspricht „wir“, deshalb steht das Pflicht-Pronomen nos vor dem Verb.",
+     "en": "\"a mis amigos y a mí\" corresponds to \"we\", so the obligatory pronoun nos goes before the verb."
     },
     "promptGloss": {
-     "de": "Uns gefällt die Musik.",
-     "en": "We like the music."
+     "de": "Meinen Freunden und mir gefällt die Musik.",
+     "en": "My friends and I like the music."
     }
    },
    {
@@ -6747,8 +6717,8 @@
     "prompt": "Conozco ___ tu hermano desde hace años.",
     "answer": "a",
     "explain": {
-     "de": "„conocer“ + bestimmte Person verlangt das persönliche „a“.",
-     "en": "\"conocer\" + a specific person requires the personal \"a\"."
+     "de": "Vor einer bestimmten Person als direktem Objekt steht das persönliche „a“.",
+     "en": "Before a specific person as direct object you use the personal \"a\"."
     },
     "promptGloss": {
      "de": "Ich kenne deinen Bruder seit Jahren.",
@@ -6792,7 +6762,7 @@
     ]
    },
    {
-    "kind": "fill",
+    "kind": "choice",
     "prompt": "Veo ___ casa desde la ventana.",
     "answer": "la",
     "explain": {
@@ -6802,7 +6772,12 @@
     "promptGloss": {
      "de": "Ich sehe das Haus vom Fenster aus.",
      "en": "I see the house from the window."
-    }
+    },
+    "options": [
+     "la",
+     "a la",
+     "a"
+    ]
    },
    {
     "kind": "choice",
@@ -6820,6 +6795,24 @@
      "el",
      "al",
      "a el"
+    ]
+   },
+   {
+    "kind": "choice",
+    "prompt": "Esta mañana compro ___ pan en la panadería.",
+    "answer": "—",
+    "explain": {
+     "de": "„pan“ ist eine Sache, deshalb steht kein persönliches „a“.",
+     "en": "\"pan\" is a thing, so there is no personal \"a\"."
+    },
+    "promptGloss": {
+     "de": "Heute Morgen kaufe ich Brot in der Bäckerei.",
+     "en": "This morning I buy bread at the bakery."
+    },
+    "options": [
+     "—",
+     "a",
+     "al"
     ]
    },
    {
@@ -6883,6 +6876,24 @@
      "de": "Abends führe ich meinen Hund spazieren.",
      "en": "In the evenings I take my dog for a walk."
     }
+   },
+   {
+    "kind": "choice",
+    "prompt": "Tengo ___ dos hermanos mayores.",
+    "answer": "—",
+    "explain": {
+     "de": "Nach „tener“ entfällt das persönliche „a“, auch bei Personen.",
+     "en": "After \"tener\" the personal \"a\" is dropped, even with people."
+    },
+    "promptGloss": {
+     "de": "Ich habe zwei ältere Brüder.",
+     "en": "I have two older brothers."
+    },
+    "options": [
+     "—",
+     "a",
+     "a los"
+    ]
    },
    {
     "kind": "choice",
@@ -8611,7 +8622,7 @@
      "en": "With 'Qué + noun + adjective' you add 'tan' (or 'más') in between: 'qué día tan largo'. Without the intensifier the exclamation sounds incomplete."
     },
     "promptGloss": {
-     "de": "Was für ein langer Tag! Wir hörten nicht auf zu arbeiten.",
+     "de": "Was für ein langer Tag! Wir hören nicht auf zu arbeiten.",
      "en": "What a long day! We didn't stop working."
     },
     "altAnswers": [
@@ -9462,15 +9473,15 @@
    },
    {
     "kind": "choice",
-    "prompt": "¿Hay siete ___ ocho sillas en la cocina?",
+    "prompt": "En la sala había mujeres ___ hombres esperando.",
     "answer": "u",
     "explain": {
-     "de": "Vor 'ocho' (o-) wird 'o' zu 'u'. 'o ocho' wäre durch den doppelten o-Laut schwer verständlich.",
-     "en": "Before 'ocho' (o-), 'o' becomes 'u'. 'o ocho' would be hard to understand because of the doubled o- sound."
+     "de": "Vor 'hombres' (ho-) wird 'o' zu 'u'. Das stumme h zählt nicht, der o-Laut entscheidet.",
+     "en": "Before 'hombres' (ho-), 'o' becomes 'u'. The silent h doesn't count; the o- sound decides."
     },
     "promptGloss": {
-     "de": "Gibt es sieben oder acht Stühle in der Küche?",
-     "en": "Are there seven or eight chairs in the kitchen?"
+     "de": "Im Saal warteten Frauen oder Männer.",
+     "en": "In the hall there were women or men waiting."
     },
     "options": [
      "u",
@@ -10003,7 +10014,7 @@
      "en": "The adjective's written accent stays: 'práctica' → 'prácticamente'. A form without the accent would be wrong."
     },
     "promptGloss": {
-     "de": "Der Großvater isst kaum, er ernährt sich fast nicht praktisch / so gut wie nicht.",
+     "de": "Der Großvater isst kaum, er ernährt sich so gut wie nicht.",
      "en": "The grandfather barely eats, he practically doesn't feed himself."
     }
    },
@@ -10102,7 +10113,7 @@
    },
    {
     "kind": "choice",
-    "prompt": "El equipo ha jugado ___ esta temporada.",
+    "prompt": "El equipo ha ___ esta temporada.",
     "answer": "jugado excelentemente",
     "explain": {
      "de": "Das Adverb darf nie zwischen Hilfsverb und Partizip stehen: 'ha jugado excelentemente', nicht 'ha excelentemente jugado'.",
@@ -10636,8 +10647,8 @@
     },
     "options": [
      "problemilla",
-     "problemita",
-     "problemón"
+     "problemón",
+     "problemazo"
     ]
    },
    {
@@ -10655,20 +10666,20 @@
    },
    {
     "kind": "choice",
-    "prompt": "Ese gato gris es un ___ flaco que caza de noche.",
-    "answer": "gatillo",
+    "prompt": "Guardo las llaves en el ___ del pantalón.",
+    "answer": "bolsillo",
     "explain": {
-     "de": "-illo verkleinert mit oft abwertendem Ton: gatillo. gatito wäre das neutrale, liebevolle Diminutiv.",
-     "en": "-illo makes it smaller with an often dismissive tone: gatillo. gatito would be the neutral, affectionate diminutive."
+     "de": "bolsillo ist ein festes Wort mit -illo und bedeutet „Tasche“ (am Kleidungsstück), nicht einfach „kleine Tüte“.",
+     "en": "bolsillo is a fixed word with -illo meaning \"pocket\", not simply \"little bag\"."
     },
     "promptGloss": {
-     "de": "Diese graue Katze ist ein mageres kleines (geringschätzig genanntes) Tier, das nachts jagt.",
-     "en": "That gray cat is a skinny little (dismissively named) creature that hunts at night."
+     "de": "Ich bewahre die Schlüssel in der Hosentasche auf.",
+     "en": "I keep the keys in the pocket of my trousers."
     },
     "options": [
-     "gatillo",
-     "gatito",
-     "gatón"
+     "bolsillo",
+     "bolsito",
+     "bolsón"
     ]
    },
    {
@@ -12005,7 +12016,7 @@
     "options": [
      "hay",
      "está",
-     "es"
+     "están"
     ]
    },
    {
@@ -12036,7 +12047,7 @@
     "options": [
      "hay",
      "está",
-     "es"
+     "están"
     ]
    },
    {
@@ -12085,7 +12096,7 @@
     "options": [
      "hay",
      "están",
-     "son"
+     "está"
     ]
    },
    {
@@ -12181,21 +12192,20 @@
    },
    {
     "kind": "choice",
-    "prompt": "En el aparcamiento ___ varios coches, pero el coche de Ana ___ en la planta dos.",
-    "answer": "hay / está",
+    "prompt": "El coche de Ana ___ en la planta dos del aparcamiento.",
+    "answer": "está",
     "explain": {
-     "de": "\"varios coches\" ist unbestimmt → hay; \"el coche de Ana\" ist durch Artikel und Besitz bestimmt und bekannt → está.",
-     "en": "\"varios coches\" is indefinite → hay; \"el coche de Ana\" is definite and known through article and possessor → está."
+     "de": "\"El coche de Ana\" ist durch Artikel und Besitzer bestimmt und bekannt → está. Hay verlangt einen unbestimmten Ausdruck.",
+     "en": "\"El coche de Ana\" is definite and known through the article and possessor → está. Hay requires an indefinite expression."
     },
     "promptGloss": {
-     "de": "Im Parkhaus stehen mehrere Autos, aber Anas Auto ist auf der zweiten Etage.",
-     "en": "In the car park there are several cars, but Ana's car is on the second floor."
+     "de": "Anas Auto ist auf der zweiten Etage des Parkhauses.",
+     "en": "Ana's car is on the second floor of the car park."
     },
     "options": [
-     "hay / está",
-     "está / hay",
-     "hay / hay",
-     "están / está"
+     "hay",
+     "está",
+     "están"
     ]
    }
   ]

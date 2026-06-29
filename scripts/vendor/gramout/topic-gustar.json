@@ -17,13 +17,13 @@
     "kind": "fill",
     "prompt": "___ gusta la música a mis amigos y a mí.",
     "promptGloss": {
-      "de": "Uns gefällt die Musik.",
-      "en": "We like the music."
+      "de": "Meinen Freunden und mir gefällt die Musik.",
+      "en": "My friends and I like the music."
     },
     "answer": "Nos",
     "explain": {
-      "de": "Für „wir“ steht das Pflicht-Pronomen nos vor dem Verb.",
-      "en": "For \"we\" the obligatory pronoun nos goes before the verb."
+      "de": "„a mis amigos y a mí“ entspricht „wir“, deshalb steht das Pflicht-Pronomen nos vor dem Verb.",
+      "en": "\"a mis amigos y a mí\" corresponds to \"we\", so the obligatory pronoun nos goes before the verb."
     }
   },
   {

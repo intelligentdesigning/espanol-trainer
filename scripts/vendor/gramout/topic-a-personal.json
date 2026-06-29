@@ -21,8 +21,8 @@
     },
     "answer": "a",
     "explain": {
-      "de": "„conocer“ + bestimmte Person verlangt das persönliche „a“.",
-      "en": "\"conocer\" + a specific person requires the personal \"a\"."
+      "de": "Vor einer bestimmten Person als direktem Objekt steht das persönliche „a“.",
+      "en": "Before a specific person as direct object you use the personal \"a\"."
     }
   },
   {
@@ -54,13 +54,14 @@
     }
   },
   {
-    "kind": "fill",
+    "kind": "choice",
     "prompt": "Veo ___ casa desde la ventana.",
     "promptGloss": {
       "de": "Ich sehe das Haus vom Fenster aus.",
       "en": "I see the house from the window."
     },
     "answer": "la",
+    "options": ["la", "a la", "a"],
     "explain": {
       "de": "Vor einer Sache steht kein persönliches „a“, nur der Artikel „la“.",
       "en": "Before a thing there is no personal \"a\", just the article \"la\"."
@@ -81,14 +82,14 @@
     }
   },
   {
-    "kind": "fill",
+    "kind": "choice",
     "prompt": "Esta mañana compro ___ pan en la panadería.",
     "promptGloss": {
       "de": "Heute Morgen kaufe ich Brot in der Bäckerei.",
       "en": "This morning I buy bread at the bakery."
     },
-    "answer": "",
-    "altAnswers": ["—"],
+    "answer": "—",
+    "options": ["—", "a", "al"],
     "explain": {
       "de": "„pan“ ist eine Sache, deshalb steht kein persönliches „a“.",
       "en": "\"pan\" is a thing, so there is no personal \"a\"."
@@ -149,14 +150,14 @@
     }
   },
   {
-    "kind": "fill",
+    "kind": "choice",
     "prompt": "Tengo ___ dos hermanos mayores.",
     "promptGloss": {
       "de": "Ich habe zwei ältere Brüder.",
       "en": "I have two older brothers."
     },
-    "answer": "",
-    "altAnswers": ["—"],
+    "answer": "—",
+    "options": ["—", "a", "a los"],
     "explain": {
       "de": "Nach „tener“ entfällt das persönliche „a“, auch bei Personen.",
       "en": "After \"tener\" the personal \"a\" is dropped, even with people."

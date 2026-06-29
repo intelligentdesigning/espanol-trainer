@@ -33,7 +33,11 @@
       "en": "At the party there were more than fifty people."
     },
     "answer": "de",
-    "options": ["de", "que", "como"],
+    "options": [
+      "de",
+      "que",
+      "como"
+    ],
     "explain": {
       "de": "Vor einer Zahl steht de statt que.",
       "en": "Before a number you use de, not que."
@@ -47,7 +51,11 @@
       "en": "This car is less expensive than yours."
     },
     "answer": "menos",
-    "options": ["menos", "tan", "tanto"],
+    "options": [
+      "menos",
+      "tan",
+      "tanto"
+    ],
     "explain": {
       "de": "menos + Adjektiv + que drückt 'weniger ... als' aus; tan bräuchte como.",
       "en": "menos + adjective + que means 'less ... than'; tan would need como."
@@ -74,7 +82,11 @@
       "en": "Ana is as nice as her mother."
     },
     "answer": "tan",
-    "options": ["tan", "más", "tanta"],
+    "options": [
+      "tan",
+      "más",
+      "tanta"
+    ],
     "explain": {
       "de": "Vor einem Adjektiv steht tan ... como; tanta gilt nur vor Nomen.",
       "en": "Before an adjective use tan ... como; tanta is only used before nouns."
@@ -101,7 +113,11 @@
       "en": "She has as much patience as I do."
     },
     "answer": "tanta",
-    "options": ["tanta", "tan", "tantos"],
+    "options": [
+      "tanta",
+      "tan",
+      "tantos"
+    ],
     "explain": {
       "de": "Vor dem weiblichen Nomen paciencia steht tanta; tan gilt nur vor Adjektiven.",
       "en": "Before the feminine noun paciencia use tanta; tan is only for adjectives."
@@ -141,7 +157,11 @@
       "en": "Madrid is the biggest city in Spain."
     },
     "answer": "la",
-    "options": ["la", "el", "una"],
+    "options": [
+      "la",
+      "el",
+      "una"
+    ],
     "explain": {
       "de": "Der Superlativ braucht den bestimmten Artikel; ciudad ist weiblich, also la.",
       "en": "The superlative needs the definite article; ciudad is feminine, so la."
@@ -168,7 +188,11 @@
       "en": "The food is worse today than yesterday."
     },
     "answer": "peor",
-    "options": ["peor", "más malo", "malo"],
+    "options": [
+      "peor",
+      "más malo",
+      "malo"
+    ],
     "explain": {
       "de": "malo wird unregelmäßig zu peor; 'más malo' ist hier nicht korrekt.",
       "en": "malo becomes the irregular peor; 'más malo' is not correct here."
@@ -195,7 +219,11 @@
       "en": "My younger sister is only five years old."
     },
     "answer": "menor",
-    "options": ["menor", "más pequeña", "peor"],
+    "options": [
+      "menor",
+      "más pequeña",
+      "peor"
+    ],
     "explain": {
       "de": "pequeño wird beim Alter unregelmäßig zu menor (= jünger).",
       "en": "pequeño becomes the irregular menor (= younger) for age."
@@ -222,7 +250,11 @@
       "en": "The houses on this street are extremely expensive."
     },
     "answer": "carísimas",
-    "options": ["carísimas", "carísimos", "más caras"],
+    "options": [
+      "carísimas",
+      "carísimos",
+      "más caras"
+    ],
     "explain": {
       "de": "-ísimo bedeutet 'äußerst' und passt sich an: casas ist weiblich Plural, also carísimas.",
       "en": "-ísimo means 'extremely' and agrees: casas is feminine plural, so carísimas."

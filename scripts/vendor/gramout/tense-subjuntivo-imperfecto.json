@@ -124,7 +124,7 @@
     "kind": "choice",
     "prompt": "Esperaba que ___ bien anoche.",
     "promptGloss": {
-      "de": "Ich hoffte, dass du letzte Nacht gut schläfst.",
+      "de": "Ich hoffte, dass du letzte Nacht gut schliefst.",
       "en": "I hoped you'd sleep well last night."
     },
     "options": ["duermes", "durmieras", "dormirás"],

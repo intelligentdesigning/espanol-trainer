@@ -6,11 +6,11 @@
       "de": "Gestern sprach ich eine Stunde lang mit meiner Mutter am Telefon.",
       "en": "Yesterday I spoke with my mother on the phone for an hour."
     },
-    "options": ["hablé", "hablaba", "hablo"],
+    "options": ["hablé", "hablaste", "hablaron"],
     "answer": "hablé",
     "explain": {
-      "de": "\"Ayer\" und eine abgeschlossene Handlung verlangen das Indefinido: hablar > hablé. \"Hablaba\" (Imperfekt) gehört nicht in diese Lektion.",
-      "en": "\"Ayer\" plus a single completed action triggers the indefinido: hablar > hablé. \"Hablaba\" (imperfect) is not this lesson."
+      "de": "\"Ayer\" und eine abgeschlossene Handlung verlangen das Indefinido; yo-Form von hablar ist hablé (Endung -é).",
+      "en": "\"Ayer\" plus a single completed action triggers the indefinido; the yo form of hablar is hablé (ending -é)."
     }
   },
   {
@@ -153,10 +153,10 @@
     "kind": "choice",
     "prompt": "Yo ___ ese coche el año pasado, pero ya estaba vendido.",
     "promptGloss": {
-      "de": "Ich wollte dieses Auto letztes Jahr kaufen, aber es war schon verkauft.",
+      "de": "Ich wollte dieses Auto letztes Jahr, aber es war schon verkauft.",
       "en": "I wanted that car last year, but it was already sold."
     },
-    "options": ["quise", "querí", "quise"],
+    "options": ["quise", "querí", "quisé"],
     "answer": "quise",
     "explain": {
       "de": "querer hat den unregelmäßigen Stamm quis-, 1. Person Singular: quise; \"querí\" wäre eine falsche regelmäßige Form.",

@@ -28,10 +28,10 @@
   },
   {
     "kind": "choice",
-    "prompt": "Salimos ___ Madrid mañana por la mañana.",
+    "prompt": "Salimos ___ Madrid mañana temprano.",
     "promptGloss": {
       "de": "Wir fahren morgen früh nach Madrid ab.",
-      "en": "We leave for Madrid tomorrow morning."
+      "en": "We leave for Madrid early tomorrow."
     },
     "options": ["para", "por"],
     "answer": "para",

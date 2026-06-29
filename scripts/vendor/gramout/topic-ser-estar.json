@@ -20,7 +20,7 @@
       "de": "Meine Großeltern sind aus Argentinien, aber sie leben in Madrid.",
       "en": "My grandparents are from Argentina, but they live in Madrid."
     },
-    "options": ["son", "están", "están en"],
+    "options": ["son", "están"],
     "answer": "son",
     "explain": {
       "de": "Herkunft (de + Land) steht immer mit ser: son de Argentina. Estar bezeichnet nur, wo man sich befindet, nicht woher man kommt.",
@@ -62,7 +62,7 @@
       "de": "— Wem gehören diese Schlüssel? — Sie gehören meiner Nachbarin.",
       "en": "— Whose keys are these? — They are my neighbour's."
     },
-    "options": ["son", "están", "tienen"],
+    "options": ["son", "están"],
     "answer": "son",
     "explain": {
       "de": "Besitz (de + Person) steht mit ser: son de mi vecina. Estar bezeichnet niemals Besitz, sondern nur Ort oder Zustand.",
@@ -90,7 +90,7 @@
       "de": "— Wo ist bitte die Toilette? — Am Ende des Flurs.",
       "en": "— Where is the bathroom, please? — At the end of the hallway."
     },
-    "options": ["está", "es", "hay"],
+    "options": ["está", "es"],
     "answer": "está",
     "explain": {
       "de": "Der Ort eines Raums wird mit estar ausgedrückt: ¿dónde está? Ser nennt nie die Lage von Dingen.",
@@ -171,7 +171,7 @@
       "de": "Der Vortrag ist langweilig; deshalb sind alle eingeschlafen.",
       "en": "The lecture is boring; that's why everyone fell asleep."
     },
-    "options": ["es", "está", "están"],
+    "options": ["es", "está"],
     "answer": "es",
     "explain": {
       "de": "Als Eigenschaft der Sache bedeutet aburrido \"langweilig\" und steht mit ser: es aburrida. Mit estar hieße es \"gelangweilt\".",
@@ -225,7 +225,7 @@
       "de": "Der frisch gefallene Schnee ist weiß.",
       "en": "Freshly fallen snow is white."
     },
-    "options": ["es", "está", "son"],
+    "options": ["es", "está"],
     "answer": "es",
     "explain": {
       "de": "Die feste, natürliche Farbe steht mit ser: es blanca. Estar würde einen wechselnden Zustand bedeuten.",
@@ -252,7 +252,7 @@
       "de": "Madrid liegt im Zentrum des Landes, weit von der Küste.",
       "en": "Madrid is in the centre of the country, far from the coast."
     },
-    "options": ["está", "es", "hay"],
+    "options": ["está", "es"],
     "answer": "está",
     "explain": {
       "de": "Die geografische Lage steht mit estar: está en el centro. Auch wenn Orte unverrückbar sind, nimmt die Lage immer estar.",
