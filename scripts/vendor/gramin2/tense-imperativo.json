@@ -1,0 +1,238 @@
+{
+ "kind": "tense",
+ "id": "imperativo",
+ "name": {
+  "de": "Imperativ (imperativo)",
+  "en": "Imperative (imperativo)"
+ },
+ "mood": {
+  "de": "Imperativ",
+  "en": "Imperative"
+ },
+ "summary": {
+  "de": "Befehle, Bitten und Aufforderungen — jemandem direkt sagen, etwas zu tun oder zu lassen.",
+  "en": "Commands, requests, and instructions — telling someone directly to do or not do something."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bejahtes tú = 3. Person Präsens",
+    "en": "Affirmative tú = 3rd-person present"
+   },
+   "body": {
+    "de": "Für den bejahten tú-Befehl nimmst du die er/ella-Form des Präsens.",
+    "en": "For the affirmative tú command, use the present-tense he/she form."
+   },
+   "examples": [
+    {
+     "es": "Habla más despacio.",
+     "gloss": {
+      "de": "Sprich langsamer.",
+      "en": "Speak more slowly."
+     }
+    },
+    {
+     "es": "Come la fruta.",
+     "gloss": {
+      "de": "Iss das Obst.",
+      "en": "Eat the fruit."
+     }
+    },
+    {
+     "es": "Duerme un poco.",
+     "gloss": {
+      "de": "Schlaf ein bisschen.",
+      "en": "Sleep a little."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßige tú-Befehle",
+    "en": "Irregular tú commands"
+   },
+   "body": {
+    "de": "Einige tú-Befehle sind kurz und unregelmäßig: ten, ven, pon, sal, haz, di, sé, ve.",
+    "en": "A few tú commands are short and irregular: ten, ven, pon, sal, haz, di, sé, ve."
+   },
+   "examples": [
+    {
+     "es": "Haz la tarea.",
+     "gloss": {
+      "de": "Mach die Aufgabe.",
+      "en": "Do the homework."
+     },
+     "note": {
+      "de": "von hacer",
+      "en": "from hacer"
+     }
+    },
+    {
+     "es": "Di la verdad.",
+     "gloss": {
+      "de": "Sag die Wahrheit.",
+      "en": "Tell the truth."
+     },
+     "note": {
+      "de": "von decir",
+      "en": "from decir"
+     }
+    },
+    {
+     "es": "Ten paciencia.",
+     "gloss": {
+      "de": "Hab Geduld.",
+      "en": "Be patient."
+     },
+     "note": {
+      "de": "von tener",
+      "en": "from tener"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Verneinung mit Subjuntivo",
+    "en": "Negative uses subjunctive"
+   },
+   "body": {
+    "de": "Verneinte Befehle bildest du mit no plus der Subjuntivo-Form.",
+    "en": "Form negative commands with no plus the subjunctive form."
+   },
+   "examples": [
+    {
+     "es": "No hables tan rápido.",
+     "gloss": {
+      "de": "Sprich nicht so schnell.",
+      "en": "Don't speak so fast."
+     }
+    },
+    {
+     "es": "No comas eso.",
+     "gloss": {
+      "de": "Iss das nicht.",
+      "en": "Don't eat that."
+     }
+    },
+    {
+     "es": "No seas así.",
+     "gloss": {
+      "de": "Sei nicht so.",
+      "en": "Don't be like that."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "usted/ustedes und nosotros",
+    "en": "usted/ustedes and nosotros"
+   },
+   "body": {
+    "de": "Höfliche und Wir-Befehle nehmen immer die Subjuntivo-Form, auch bejaht.",
+    "en": "Polite and let's-commands always use the subjunctive form, even affirmative."
+   },
+   "examples": [
+    {
+     "es": "Hable más alto, por favor.",
+     "gloss": {
+      "de": "Sprechen Sie lauter, bitte.",
+      "en": "Speak louder, please."
+     },
+     "note": {
+      "de": "usted",
+      "en": "usted"
+     }
+    },
+    {
+     "es": "Hablemos de eso.",
+     "gloss": {
+      "de": "Reden wir darüber.",
+      "en": "Let's talk about that."
+     },
+     "note": {
+      "de": "nosotros",
+      "en": "nosotros"
+     }
+    },
+    {
+     "es": "No hagan ruido.",
+     "gloss": {
+      "de": "Macht keinen Lärm.",
+      "en": "Don't make noise."
+     },
+     "note": {
+      "de": "ustedes",
+      "en": "ustedes"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Pronomen: dran oder davor",
+    "en": "Pronouns: attached or before"
+   },
+   "body": {
+    "de": "Beim bejahten Befehl hängst du Pronomen an, beim verneinten stehen sie davor.",
+    "en": "Attach pronouns to affirmative commands; place them before negative ones."
+   },
+   "examples": [
+    {
+     "es": "Dímelo.",
+     "gloss": {
+      "de": "Sag es mir.",
+      "en": "Tell it to me."
+     },
+     "note": {
+      "de": "bejaht: angehängt",
+      "en": "affirmative: attached"
+     }
+    },
+    {
+     "es": "No me lo digas.",
+     "gloss": {
+      "de": "Sag es mir nicht.",
+      "en": "Don't tell it to me."
+     },
+     "note": {
+      "de": "verneint: davor",
+      "en": "negative: before"
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Ve a casa.",
+   "gloss": {
+    "de": "Geh nach Hause.",
+    "en": "Go home."
+   }
+  },
+  {
+   "es": "No vayas sola.",
+   "gloss": {
+    "de": "Geh nicht allein.",
+    "en": "Don't go alone."
+   }
+  },
+  {
+   "es": "Comamos juntos.",
+   "gloss": {
+    "de": "Lass uns zusammen essen.",
+    "en": "Let's eat together."
+   }
+  },
+  {
+   "es": "No estés triste.",
+   "gloss": {
+    "de": "Sei nicht traurig.",
+    "en": "Don't be sad."
+   }
+  }
+ ]
+}

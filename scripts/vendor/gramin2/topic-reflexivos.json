@@ -1,0 +1,197 @@
+{
+ "kind": "topic",
+ "id": "reflexivos",
+ "name": {
+  "de": "Reflexive & pronominale Verben (se)",
+  "en": "Reflexive & pronominal verbs"
+ },
+ "summary": {
+  "de": "Reflexive und pronominale Verben mit den Pronomen me/te/se/nos/os/se: die Handlung richtet sich auf das Subjekt selbst.",
+  "en": "Reflexive and pronominal verbs with me/te/se/nos/os/se: the action reflects back on the subject itself."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Reflexivpronomen me/te/se/nos/os/se",
+    "en": "Reflexive pronouns me/te/se/nos/os/se"
+   },
+   "body": {
+    "de": "Das Pronomen passt zur Person: me, te, se, nos, os, se.",
+    "en": "The pronoun matches the person: me, te, se, nos, os, se."
+   },
+   "examples": [
+    {
+     "es": "Me levanto a las siete.",
+     "gloss": {
+      "de": "Ich stehe um sieben auf.",
+      "en": "I get up at seven."
+     }
+    },
+    {
+     "es": "Nos lavamos las manos.",
+     "gloss": {
+      "de": "Wir waschen uns die Hände.",
+      "en": "We wash our hands."
+     },
+     "note": {
+      "de": "1. Person Plural",
+      "en": "1st person plural"
+     }
+    },
+    {
+     "es": "Pedro se ducha por la mañana.",
+     "gloss": {
+      "de": "Pedro duscht morgens.",
+      "en": "Pedro showers in the morning."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Verb endet auf -se im Infinitiv",
+    "en": "Verb ends in -se in the infinitive"
+   },
+   "body": {
+    "de": "Reflexive Verben tragen im Infinitiv das angehängte se: levantarse, lavarse.",
+    "en": "Reflexive verbs carry attached se in the infinitive: levantarse, lavarse."
+   },
+   "examples": [
+    {
+     "es": "Quiero levantarme temprano.",
+     "gloss": {
+      "de": "Ich will früh aufstehen.",
+      "en": "I want to get up early."
+     },
+     "note": {
+      "de": "me passt zu yo",
+      "en": "me matches yo"
+     }
+    },
+    {
+     "es": "Es importante lavarse las manos.",
+     "gloss": {
+      "de": "Es ist wichtig, sich die Hände zu waschen.",
+      "en": "It is important to wash one's hands."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Stellung des Pronomens",
+    "en": "Placement of the pronoun"
+   },
+   "body": {
+    "de": "Vor konjugiertem Verb; bei Infinitiv, Gerundium und Imperativ wird es angehängt.",
+    "en": "Before a conjugated verb; attached to infinitive, gerund and affirmative imperative."
+   },
+   "examples": [
+    {
+     "es": "Me voy a duchar. / Voy a ducharme.",
+     "gloss": {
+      "de": "Ich werde duschen.",
+      "en": "I'm going to shower."
+     },
+     "note": {
+      "de": "beide korrekt",
+      "en": "both correct"
+     }
+    },
+    {
+     "es": "¡Levántate ya!",
+     "gloss": {
+      "de": "Steh jetzt auf!",
+      "en": "Get up now!"
+     },
+     "note": {
+      "de": "Imperativ: angehängt",
+      "en": "imperative: attached"
+     }
+    },
+    {
+     "es": "Está peinándose.",
+     "gloss": {
+      "de": "Sie kämmt sich gerade.",
+      "en": "She is combing her hair."
+     },
+     "note": {
+      "de": "Gerundium",
+      "en": "gerund"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Reziproke Bedeutung (einander)",
+    "en": "Reciprocal meaning (each other)"
+   },
+   "body": {
+    "de": "Im Plural kann se/nos/os 'einander' heißen: Sie lieben sich gegenseitig.",
+    "en": "In the plural se/nos/os can mean 'each other': they love each other."
+   },
+   "examples": [
+    {
+     "es": "Ana y Luis se quieren mucho.",
+     "gloss": {
+      "de": "Ana und Luis lieben einander sehr.",
+      "en": "Ana and Luis love each other very much."
+     }
+    },
+    {
+     "es": "Nos escribimos cada semana.",
+     "gloss": {
+      "de": "Wir schreiben uns jede Woche.",
+      "en": "We write to each other every week."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "se ändert die Bedeutung",
+    "en": "se changes the meaning"
+   },
+   "body": {
+    "de": "Manche Verben ändern den Sinn mit se: ir vs. irse, dormir vs. dormirse.",
+    "en": "Some verbs change meaning with se: ir vs. irse, dormir vs. dormirse."
+   },
+   "examples": [
+    {
+     "es": "Me voy ahora.",
+     "gloss": {
+      "de": "Ich gehe jetzt weg.",
+      "en": "I'm leaving now."
+     },
+     "note": {
+      "de": "irse = weggehen",
+      "en": "irse = to leave"
+     }
+    },
+    {
+     "es": "Voy al cine.",
+     "gloss": {
+      "de": "Ich gehe ins Kino.",
+      "en": "I'm going to the cinema."
+     },
+     "note": {
+      "de": "ir = hingehen",
+      "en": "ir = to go"
+     }
+    },
+    {
+     "es": "Me dormí en el sofá.",
+     "gloss": {
+      "de": "Ich schlief auf dem Sofa ein.",
+      "en": "I fell asleep on the sofa."
+     },
+     "note": {
+      "de": "dormirse = einschlafen",
+      "en": "dormirse = fall asleep"
+     }
+    }
+   ]
+  }
+ ]
+}

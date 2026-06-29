@@ -1,0 +1,236 @@
+{
+ "kind": "tense",
+ "id": "preterito-imperfecto",
+ "name": {
+  "de": "Imperfekt (pretérito imperfecto)",
+  "en": "Imperfect (pretérito imperfecto)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Für gewohnheitsmäßige oder wiederholte Handlungen in der Vergangenheit sowie für Beschreibungen, Hintergrund, Alter, Uhrzeit und Wetter.",
+  "en": "For habitual or repeated past actions, plus descriptions, background, age, time and weather."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Wann man es benutzt",
+    "en": "When to use it"
+   },
+   "body": {
+    "de": "Für frühere Gewohnheiten, wiederholte Handlungen, Beschreibungen, Hintergrund sowie Alter, Uhrzeit und Wetter.",
+    "en": "For past habits, repeated actions, descriptions, background, and age, time and weather."
+   },
+   "examples": [
+    {
+     "es": "De niño, hablaba mucho.",
+     "gloss": {
+      "de": "Als Kind redete ich viel.",
+      "en": "As a child, I talked a lot."
+     },
+     "note": {
+      "de": "frühere Gewohnheit",
+      "en": "past habit"
+     }
+    },
+    {
+     "es": "Llovía y hacía frío.",
+     "gloss": {
+      "de": "Es regnete und es war kalt.",
+      "en": "It was raining and cold."
+     },
+     "note": {
+      "de": "Wetter",
+      "en": "weather"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "-ar-Verben: -aba",
+    "en": "-ar verbs: -aba"
+   },
+   "body": {
+    "de": "-ar-Verben bilden das Imperfekt mit -aba, -abas, -aba, -ábamos, -abais, -aban.",
+    "en": "-ar verbs take -aba, -abas, -aba, -ábamos, -abais, -aban."
+   },
+   "examples": [
+    {
+     "es": "Hablábamos español en casa.",
+     "gloss": {
+      "de": "Wir sprachen zu Hause Spanisch.",
+      "en": "We spoke Spanish at home."
+     }
+    },
+    {
+     "es": "Ella estaba cansada.",
+     "gloss": {
+      "de": "Sie war müde.",
+      "en": "She was tired."
+     },
+     "note": {
+      "de": "Beschreibung",
+      "en": "description"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "-er/-ir-Verben: -ía",
+    "en": "-er/-ir verbs: -ía"
+   },
+   "body": {
+    "de": "-er- und -ir-Verben teilen sich dieselben Endungen: -ía, -ías, -ía, -íamos, -íais, -ían.",
+    "en": "-er and -ir verbs share the same endings: -ía, -ías, -ía, -íamos, -íais, -ían."
+   },
+   "examples": [
+    {
+     "es": "Comíamos juntos cada día.",
+     "gloss": {
+      "de": "Wir aßen jeden Tag zusammen.",
+      "en": "We ate together every day."
+     },
+     "note": {
+      "de": "wiederholt",
+      "en": "repeated"
+     }
+    },
+    {
+     "es": "Vivía cerca del mar.",
+     "gloss": {
+      "de": "Ich wohnte in Meeresnähe.",
+      "en": "I lived near the sea."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Nur ser, ir, ver unregelmäßig",
+    "en": "Only ser, ir, ver irregular"
+   },
+   "body": {
+    "de": "Nur ser (era), ir (iba) und ver sind unregelmäßig; alle anderen Verben folgen der Regel.",
+    "en": "Only ser (era), ir (iba) and ver are irregular; every other verb is regular."
+   },
+   "examples": [
+    {
+     "es": "Era muy alto.",
+     "gloss": {
+      "de": "Er war sehr groß.",
+      "en": "He was very tall."
+     },
+     "note": {
+      "de": "ser → era",
+      "en": "ser → era"
+     }
+    },
+    {
+     "es": "Íbamos al parque.",
+     "gloss": {
+      "de": "Wir gingen in den Park.",
+      "en": "We used to go to the park."
+     },
+     "note": {
+      "de": "ir → iba",
+      "en": "ir → iba"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Keine Stammänderung",
+    "en": "No stem changes"
+   },
+   "body": {
+    "de": "Im Imperfekt gibt es keine Stammänderungen; auch Verben wie tener und querer bleiben regelmäßig.",
+    "en": "The imperfect has no stem changes; even verbs like tener and querer stay regular."
+   },
+   "examples": [
+    {
+     "es": "Yo tenía diez años.",
+     "gloss": {
+      "de": "Ich war zehn Jahre alt.",
+      "en": "I was ten years old."
+     },
+     "note": {
+      "de": "Alter",
+      "en": "age"
+     }
+    },
+    {
+     "es": "Quería ser médico.",
+     "gloss": {
+      "de": "Ich wollte Arzt werden.",
+      "en": "I wanted to be a doctor."
+     }
+    }
+   ]
+  }
+ ],
+ "endings": {
+  "label": {
+   "de": "Regelmäßige Endungen",
+   "en": "Regular endings"
+  },
+  "ar": [
+   "-aba",
+   "-abas",
+   "-aba",
+   "-ábamos",
+   "-abais",
+   "-aban"
+  ],
+  "er": [
+   "-ía",
+   "-ías",
+   "-ía",
+   "-íamos",
+   "-íais",
+   "-ían"
+  ],
+  "ir": [
+   "-ía",
+   "-ías",
+   "-ía",
+   "-íamos",
+   "-íais",
+   "-ían"
+  ]
+ },
+ "examples": [
+  {
+   "es": "Siempre hacía la tarea por la tarde.",
+   "gloss": {
+    "de": "Ich machte die Hausaufgaben immer nachmittags.",
+    "en": "I always did my homework in the afternoon."
+   }
+  },
+  {
+   "es": "Eran las tres de la tarde.",
+   "gloss": {
+    "de": "Es war drei Uhr nachmittags.",
+    "en": "It was three in the afternoon."
+   }
+  },
+  {
+   "es": "Mis abuelos tenían una casa grande.",
+   "gloss": {
+    "de": "Meine Großeltern hatten ein großes Haus.",
+    "en": "My grandparents had a big house."
+   }
+  },
+  {
+   "es": "De pequeños, íbamos a la playa.",
+   "gloss": {
+    "de": "Als wir klein waren, gingen wir zum Strand.",
+    "en": "When we were little, we used to go to the beach."
+   }
+  }
+ ]
+}

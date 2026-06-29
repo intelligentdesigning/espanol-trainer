@@ -1,56 +1,56 @@
 [
   {
     "kind": "choice",
-    "prompt": "El profesor habla muy ___.",
+    "prompt": "El profesor habla muy ___ y todos lo entienden.",
     "promptGloss": {
-      "de": "Der Lehrer spricht sehr langsam.",
-      "en": "The teacher speaks very slowly."
+      "de": "Der Lehrer spricht sehr langsam und alle verstehen ihn.",
+      "en": "The teacher speaks very slowly and everyone understands him."
     },
-    "options": ["lentamente", "lentemente", "lento mente", "lentamiente"],
+    "options": ["lentamente", "lentemente", "lentamiente"],
     "answer": "lentamente",
     "explain": {
-      "de": "Das Adverb bildet man aus der femininen Adjektivform 'lenta' + '-mente' = 'lentamente'. 'lentemente' ist falsch, weil man von 'lenta' (nicht 'lente') ausgeht; '-mente' wird zudem immer zusammengeschrieben.",
-      "en": "The adverb is formed from the feminine adjective 'lenta' + '-mente' = 'lentamente'. 'lentemente' is wrong because the base is 'lenta' (not 'lente'), and '-mente' is always written as one word."
+      "de": "Adverb = Femininform 'lenta' + '-mente' = 'lentamente'. 'lentemente' ist falsch, weil die Basis 'lenta' ist, nicht 'lente'.",
+      "en": "Adverb = feminine form 'lenta' + '-mente' = 'lentamente'. 'lentemente' is wrong because the base is 'lenta', not 'lente'."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Lo explica todo ___. (claro)",
+    "prompt": "Lo explica todo ___ en clase.",
     "promptGloss": {
-      "de": "Er/Sie erklärt alles klar.",
-      "en": "He/She explains everything clearly."
+      "de": "Er/Sie erklärt alles klar im Unterricht.",
+      "en": "He/She explains everything clearly in class."
     },
     "answer": "claramente",
     "explain": {
-      "de": "'claro' hat die Femininform 'clara', also Adverb = 'clara' + '-mente' = 'claramente'. Die maskuline Basis 'claro' wird beim '-mente'-Adverb nie verwendet.",
-      "en": "'claro' has the feminine form 'clara', so the adverb is 'clara' + '-mente' = 'claramente'. The masculine base 'claro' is never used for the '-mente' adverb."
+      "de": "'claro' hat die Femininform 'clara', also Adverb = 'clara' + '-mente' = 'claramente'.",
+      "en": "'claro' has the feminine form 'clara', so the adverb is 'clara' + '-mente' = 'claramente'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Resolvió el problema ___.",
+    "prompt": "Resolvió el problema ___, sin ninguna ayuda.",
     "promptGloss": {
-      "de": "Er/Sie löste das Problem mühelos.",
-      "en": "He/She solved the problem easily."
+      "de": "Er/Sie löste das Problem mühelos, ohne jede Hilfe.",
+      "en": "He/She solved the problem easily, without any help."
     },
-    "options": ["fácilmente", "fácilamente", "facilemente", "fácimente"],
+    "options": ["fácilmente", "fácilamente", "facilmente"],
     "answer": "fácilmente",
     "explain": {
-      "de": "'fácil' hat keine eigene Femininform, daher hängt man '-mente' direkt an: 'fácil' → 'fácilmente'. Man fügt kein '-a-' ein, deshalb ist 'fácilamente' falsch.",
-      "en": "'fácil' has no separate feminine form, so '-mente' attaches directly: 'fácil' → 'fácilmente'. No '-a-' is inserted, so 'fácilamente' is wrong."
+      "de": "'fácil' hat keine Femininform, also '-mente' direkt anhängen: 'fácilmente'. Es wird kein '-a-' eingefügt.",
+      "en": "'fácil' has no feminine form, so add '-mente' directly: 'fácilmente'. No '-a-' is inserted."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Aprueba el examen ___. (difícil)",
+    "prompt": "Con tanto ruido, ___ puedo concentrarme.",
     "promptGloss": {
-      "de": "Er/Sie besteht die Prüfung kaum / nur schwer.",
-      "en": "He/She barely passes the exam."
+      "de": "Bei so viel Lärm kann ich mich kaum konzentrieren.",
+      "en": "With so much noise I can hardly concentrate."
     },
     "answer": "difícilmente",
     "explain": {
-      "de": "'difícil' endet auf Konsonant und hat keine Femininform, also nur '-mente' anhängen: 'difícilmente'. Der Akzent von 'difícil' bleibt dabei erhalten.",
-      "en": "'difícil' ends in a consonant and has no feminine form, so just add '-mente': 'difícilmente'. The accent of 'difícil' is kept."
+      "de": "'difícil' endet auf Konsonant und hat keine Femininform, also nur '-mente' anhängen: 'difícilmente'.",
+      "en": "'difícil' ends in a consonant and has no feminine form, so just add '-mente': 'difícilmente'."
     }
   },
   {
@@ -60,51 +60,51 @@
       "de": "Der Zug kam schnell am Bahnhof an.",
       "en": "The train arrived quickly at the station."
     },
-    "options": ["rápidamente", "rapidamente", "rápidemente", "rápida mente"],
+    "options": ["rápidamente", "rapidamente", "rápidemente"],
     "answer": "rápidamente",
     "explain": {
-      "de": "Der Akzent des Adjektivs bleibt beim Adverb erhalten: 'rápida' → 'rápidamente'. 'rapidamente' ohne Tilde ist falsch, weil 'rápido' den Akzent auf dem 'á' trägt.",
-      "en": "The adjective's accent is kept in the adverb: 'rápida' → 'rápidamente'. 'rapidamente' without the accent is wrong, since 'rápido' carries the accent on the 'á'."
+      "de": "Der Akzent des Adjektivs bleibt im Adverb erhalten: 'rápida' → 'rápidamente'. 'rapidamente' ohne Tilde ist falsch.",
+      "en": "The adjective's accent is kept in the adverb: 'rápida' → 'rápidamente'. 'rapidamente' without the accent is wrong."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Es práctico, así que lo usamos ___. (práctico)",
+    "prompt": "El abuelo apenas come, casi no se alimenta ___.",
     "promptGloss": {
-      "de": "Es ist praktisch, also benutzen wir es auf praktische Weise.",
-      "en": "It's practical, so we use it practically."
+      "de": "Der Großvater isst kaum, er ernährt sich fast nicht praktisch / so gut wie nicht.",
+      "en": "The grandfather barely eats, he practically doesn't feed himself."
     },
     "answer": "prácticamente",
     "explain": {
-      "de": "Der geschriebene Akzent des Adjektivs wandert nicht und verschwindet nicht: 'práctica' → 'prácticamente'. Eine Form ohne Tilde ('practicamente') wäre falsch.",
-      "en": "The adjective's written accent does not move or disappear: 'práctica' → 'prácticamente'. A form without the accent ('practicamente') would be wrong."
+      "de": "Der geschriebene Akzent des Adjektivs bleibt: 'práctica' → 'prácticamente'. Eine Form ohne Tilde wäre falsch.",
+      "en": "The adjective's written accent stays: 'práctica' → 'prácticamente'. A form without the accent would be wrong."
     }
   },
   {
     "kind": "choice",
-    "prompt": "El médico nos atendió ___ y ___.",
+    "prompt": "El médico nos atendió ___ amablemente.",
     "promptGloss": {
       "de": "Der Arzt behandelte uns ruhig und freundlich.",
       "en": "The doctor attended to us calmly and kindly."
     },
-    "options": ["tranquila y amablemente", "tranquilamente y amablemente", "tranquilo y amablemente", "tranquilamente y amable"],
-    "answer": "tranquila y amablemente",
+    "options": ["tranquila y", "tranquilamente y", "tranquilo y"],
+    "answer": "tranquila y",
     "explain": {
-      "de": "Bei zwei verbundenen Adverbien trägt nur das letzte '-mente'; das erste bleibt in der Femininform: 'tranquila y amablemente'. 'tranquilamente y amablemente' wiederholt '-mente' überflüssig.",
-      "en": "With two joined adverbs only the last takes '-mente'; the first stays in the feminine form: 'tranquila y amablemente'. 'tranquilamente y amablemente' repeats '-mente' unnecessarily."
+      "de": "Bei zwei verbundenen Adverbien trägt nur das letzte '-mente'; das erste bleibt Femininform: 'tranquila y amablemente'.",
+      "en": "With two joined adverbs only the last takes '-mente'; the first stays the feminine form: 'tranquila y amablemente'."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Contestó ___ y educadamente. (rápido)",
+    "prompt": "Contestó ___ y educadamente a la pregunta.",
     "promptGloss": {
-      "de": "Er/Sie antwortete schnell und höflich.",
-      "en": "He/She answered quickly and politely."
+      "de": "Er/Sie antwortete schnell und höflich auf die Frage.",
+      "en": "He/She answered quickly and politely to the question."
     },
     "answer": "rápida",
     "explain": {
-      "de": "Stehen zwei '-mente'-Adverbien nebeneinander, verliert das erste sein '-mente' und bleibt die feminine Adjektivform: 'rápida y educadamente'. Der Akzent von 'rápida' bleibt trotzdem erhalten.",
-      "en": "When two '-mente' adverbs stand together, the first drops '-mente' and stays as the feminine adjective form: 'rápida y educadamente'. The accent on 'rápida' is still kept."
+      "de": "Beim ersten von zwei '-mente'-Adverbien fällt '-mente' weg, übrig bleibt die Femininform 'rápida'; der Akzent bleibt erhalten.",
+      "en": "On the first of two '-mente' adverbs, '-mente' is dropped, leaving the feminine form 'rápida'; the accent is kept."
     }
   },
   {
@@ -114,67 +114,51 @@
       "de": "Meine Großmutter kocht sehr gut.",
       "en": "My grandmother cooks very well."
     },
-    "options": ["bien", "buenamente", "buena", "bueno"],
+    "options": ["bien", "buenamente", "bueno"],
     "answer": "bien",
     "explain": {
-      "de": "Das Adverb zu 'gut' ist das feste, unregelmäßige 'bien' – nicht '*buenamente'. 'buena/bueno' sind Adjektive und beschreiben ein Nomen, nicht das Verb 'cocinar'.",
-      "en": "The adverb for 'well' is the fixed, irregular 'bien' – not '*buenamente'. 'buena/bueno' are adjectives describing a noun, not the verb 'cocinar'."
+      "de": "Das Adverb zu 'gut' ist das feste, unregelmäßige 'bien', nicht 'buenamente'. 'bueno' wäre ein Adjektiv.",
+      "en": "The adverb for 'well' is the fixed, irregular 'bien', not 'buenamente'. 'bueno' would be an adjective."
     }
   },
   {
-    "kind": "choice",
-    "prompt": "Hoy me siento ___ porque no he dormido nada.",
+    "kind": "fill",
+    "prompt": "Hoy estoy enfermo y por eso canto muy ___.",
     "promptGloss": {
-      "de": "Heute fühle ich mich schlecht, weil ich gar nicht geschlafen habe.",
-      "en": "Today I feel bad because I haven't slept at all."
+      "de": "Heute bin ich krank und singe deshalb sehr schlecht.",
+      "en": "Today I am sick and therefore sing very badly."
     },
-    "options": ["mal", "malamente", "malo", "mala"],
     "answer": "mal",
     "explain": {
-      "de": "Das Adverb zu 'schlecht' ist das feste 'mal'. Nach 'sentirse' beschreibt man das Befinden adverbial mit 'mal'; 'malo/mala' wären Adjektive und passen hier nicht.",
-      "en": "The adverb for 'badly' is the fixed 'mal'. After 'sentirse' the state is expressed adverbially with 'mal'; 'malo/mala' would be adjectives and don't fit here."
+      "de": "Das Adverb zu 'schlecht' ist das feste 'mal'; es beschreibt das Verb 'cantar'.",
+      "en": "The adverb for 'badly' is the fixed 'mal'; it describes the verb 'cantar'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Mi hermano estudia ___, por eso saca buenas notas.",
+    "prompt": "Mi hermano estudia ___ todos los días.",
     "promptGloss": {
-      "de": "Mein Bruder lernt viel, deshalb bekommt er gute Noten.",
-      "en": "My brother studies a lot, that's why he gets good grades."
+      "de": "Mein Bruder lernt jeden Tag viel.",
+      "en": "My brother studies a lot every day."
     },
-    "options": ["mucho", "muy", "muchamente", "mucha"],
+    "options": ["mucho", "muchamente", "mucha"],
     "answer": "mucho",
     "explain": {
-      "de": "Als Adverb nach einem Verb heißt 'viel' 'mucho' (z. B. 'estudia mucho'). 'muy' steht nur vor Adjektiven/Adverbien (muy bien), nie allein nach dem Verb.",
-      "en": "As an adverb after a verb, 'a lot' is 'mucho' (e.g. 'estudia mucho'). 'muy' only goes before adjectives/adverbs (muy bien), never alone after the verb."
+      "de": "Als Adverb nach einem Verb heißt 'viel' 'mucho': 'estudia mucho'. 'muchamente' gibt es nicht.",
+      "en": "As an adverb after a verb, 'a lot' is 'mucho': 'estudia mucho'. 'muchamente' does not exist."
     }
   },
   {
-    "kind": "choice",
-    "prompt": "Estoy ___ cansado para salir esta noche.",
+    "kind": "fill",
+    "prompt": "Últimamente duermo ___ y siempre estoy cansado.",
     "promptGloss": {
-      "de": "Ich bin zu müde, um heute Abend auszugehen.",
-      "en": "I'm too tired to go out tonight."
+      "de": "In letzter Zeit schlafe ich wenig und bin immer müde.",
+      "en": "Lately I sleep little and am always tired."
     },
-    "options": ["muy", "mucho", "bien", "poco"],
-    "answer": "muy",
-    "explain": {
-      "de": "Vor einem Adjektiv steht 'muy' ('muy cansado'). 'mucho' kann ein Adjektiv nicht steigern; '*mucho cansado' ist falsch – nur vor 'más/menos/mejor' o. Ä. nutzt man 'mucho'.",
-      "en": "Before an adjective you use 'muy' ('muy cansado'). 'mucho' cannot modify an adjective; '*mucho cansado' is wrong – 'mucho' is only used before 'más/menos/mejor' and the like."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Últimamente duermo ___; estoy siempre agotado.",
-    "promptGloss": {
-      "de": "In letzter Zeit schlafe ich wenig; ich bin immer erschöpft.",
-      "en": "Lately I sleep little; I'm always exhausted."
-    },
-    "options": ["poco", "pocamente", "poca", "pocos"],
     "answer": "poco",
     "explain": {
-      "de": "'wenig' als Adverb ist das feste, unveränderliche 'poco' ('duermo poco') – kein '*pocamente'. 'poca/pocos' wären angeglichene Adjektivformen und beschreiben ein Nomen.",
-      "en": "'little' as an adverb is the fixed, invariable 'poco' ('duermo poco') – not '*pocamente'. 'poca/pocos' would be agreeing adjective forms describing a noun."
+      "de": "'wenig' als Adverb ist das feste, unveränderliche 'poco': 'duermo poco', kein 'pocamente'.",
+      "en": "'little' as an adverb is the fixed, invariable 'poco': 'duermo poco', not 'pocamente'."
     }
   },
   {
@@ -184,79 +168,92 @@
       "de": "Die Mannschaft hat diese Saison hervorragend gespielt.",
       "en": "The team has played excellently this season."
     },
-    "options": ["ha jugado excelentemente", "ha excelentemente jugado", "excelentemente ha jugado", "ha excelente jugado"],
-    "answer": "ha jugado excelentemente",
+    "options": ["jugado excelentemente", "excelentemente jugado", "excelente jugado"],
+    "answer": "jugado excelentemente",
     "explain": {
-      "de": "Das Adverb darf nie zwischen Hilfsverb und Partizip stehen, also nicht '*ha excelentemente jugado'. Es folgt der gesamten Verbform: 'ha jugado excelentemente'.",
-      "en": "The adverb may never stand between the auxiliary and the participle, so not '*ha excelentemente jugado'. It follows the whole verb form: 'ha jugado excelentemente'."
+      "de": "Das Adverb darf nie zwischen Hilfsverb und Partizip stehen: 'ha jugado excelentemente', nicht 'ha excelentemente jugado'.",
+      "en": "The adverb may never stand between auxiliary and participle: 'ha jugado excelentemente', not 'ha excelentemente jugado'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El político ha explicado el plan ___.",
+    "promptGloss": {
+      "de": "Der Politiker hat den Plan klar erklärt.",
+      "en": "The politician has explained the plan clearly."
+    },
+    "options": ["claramente", "clara", "claro"],
+    "answer": "claramente",
+    "explain": {
+      "de": "Das Adverb 'claramente' steht nach dem Partizip 'explicado', nie zwischen Hilfsverb und Partizip.",
+      "en": "The adverb 'claramente' goes after the participle 'explicado', never between auxiliary and participle."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Cuando conduzco, escucho ___ música clásica. (frecuente)",
+    "prompt": "Cuando conduzco, escucho ___ música clásica.",
     "promptGloss": {
       "de": "Wenn ich fahre, höre ich häufig klassische Musik.",
       "en": "When I drive, I frequently listen to classical music."
     },
     "answer": "frecuentemente",
     "explain": {
-      "de": "Adverb = feminine Adjektivform + '-mente'; 'frecuente' endet auf '-e' und ändert sich nicht, also 'frecuente' + '-mente' = 'frecuentemente'. Das Adverb bleibt unveränderlich und gleicht sich nicht an 'música' an.",
-      "en": "Adverb = feminine adjective + '-mente'; 'frecuente' ends in '-e' and doesn't change, so 'frecuente' + '-mente' = 'frecuentemente'. The adverb is invariable and does not agree with 'música'."
+      "de": "'frecuente' endet auf '-e' und ändert sich nicht: 'frecuente' + '-mente' = 'frecuentemente'. Das Adverb bleibt unveränderlich.",
+      "en": "'frecuente' ends in '-e' and doesn't change: 'frecuente' + '-mente' = 'frecuentemente'. The adverb stays invariable."
     }
   },
   {
     "kind": "choice",
     "prompt": "Estas naranjas están muy ___.",
     "promptGloss": {
-      "de": "Diese Orangen sind sehr gut (schmecken sehr gut).",
+      "de": "Diese Orangen sind sehr gut.",
       "en": "These oranges are very good."
     },
-    "options": ["buenas", "bien", "buena", "buenamente"],
+    "options": ["buenas", "bien", "buenamente"],
     "answer": "buenas",
     "explain": {
-      "de": "Hier beschreibt das Wort das Nomen 'naranjas' nach 'estar', also braucht man das angeglichene Adjektiv 'buenas' (feminin Plural). 'bien' ist ein Adverb und würde das Verb beschreiben, nicht die Orangen.",
-      "en": "Here the word describes the noun 'naranjas' after 'estar', so the agreeing adjective 'buenas' (feminine plural) is needed. 'bien' is an adverb and would describe the verb, not the oranges."
+      "de": "Hier wird das Nomen 'naranjas' beschrieben, also das angeglichene Adjektiv 'buenas' (feminin Plural). 'bien' wäre ein Adverb und beschriebe das Verb.",
+      "en": "Here the noun 'naranjas' is described, so the agreeing adjective 'buenas' (feminine plural). 'bien' would be an adverb describing the verb."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Los niños corrieron ___ hacia la salida.",
+    "prompt": "El coche nuevo es muy ___.",
     "promptGloss": {
-      "de": "Die Kinder rannten schnell zum Ausgang.",
-      "en": "The children ran fast toward the exit."
+      "de": "Das neue Auto ist sehr schnell.",
+      "en": "The new car is very fast."
     },
-    "options": ["rápido", "rápidos", "rápida", "rápidas"],
+    "options": ["rápido", "rápidamente", "rápida"],
     "answer": "rápido",
     "explain": {
-      "de": "Als Adverb ist 'rápido' unveränderlich und gleicht sich nie an das Subjekt an, deshalb nicht '*rápidos'. Es beschreibt das Verb 'corrieron', nicht das Nomen 'niños'.",
-      "en": "As an adverb 'rápido' is invariable and never agrees with the subject, so not '*rápidos'. It describes the verb 'corrieron', not the noun 'niños'."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Ana y María llegaron ___ a la fiesta.",
-    "promptGloss": {
-      "de": "Ana und María kamen pünktlich zur Party.",
-      "en": "Ana and María arrived punctually at the party."
-    },
-    "options": ["puntualmente", "puntualamente", "puntalmente", "puntualesmente"],
-    "answer": "puntualmente",
-    "explain": {
-      "de": "'puntual' hat keine eigene Femininform und endet auf Konsonant, also direkt '-mente' anhängen: 'puntualmente'. Das Adverb ist unveränderlich; '*puntualesmente' (Plural) gibt es nicht.",
-      "en": "'puntual' has no separate feminine form and ends in a consonant, so add '-mente' directly: 'puntualmente'. The adverb is invariable; '*puntualesmente' (plural) does not exist."
+      "de": "Das Wort beschreibt das Nomen 'coche', also das Adjektiv 'rápido', nicht das Adverb 'rápidamente'.",
+      "en": "The word describes the noun 'coche', so the adjective 'rápido', not the adverb 'rápidamente'."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Habló ___ pero firmemente con su jefe. (suave)",
+    "prompt": "La niña corre ___ por el patio del colegio.",
     "promptGloss": {
-      "de": "Er/Sie sprach sanft, aber bestimmt mit seinem/ihrem Chef.",
+      "de": "Das Mädchen läuft schnell über den Schulhof.",
+      "en": "The girl runs quickly across the school yard."
+    },
+    "answer": "rápidamente",
+    "explain": {
+      "de": "Hier wird das Verb 'corre' beschrieben, also das unveränderliche Adverb 'rápidamente'.",
+      "en": "Here the verb 'corre' is described, so the invariable adverb 'rápidamente'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Habló ___ pero firmemente con su jefe.",
+    "promptGloss": {
+      "de": "Er/Sie sprach sanft, aber bestimmt mit dem Chef.",
       "en": "He/She spoke softly but firmly with the boss."
     },
     "answer": "suave",
     "explain": {
-      "de": "Beim ersten von zwei verbundenen '-mente'-Adverbien fällt '-mente' weg; übrig bleibt die feminine Adjektivform – bei '-e'-Adjektiven also 'suave' (= 'suave pero firmemente'). '*suavemente' wäre hier doppelt gemoppelt.",
-      "en": "On the first of two joined '-mente' adverbs, '-mente' is dropped, leaving the feminine adjective form – for '-e' adjectives that's 'suave' (= 'suave pero firmemente'). '*suavemente' here would be redundant."
+      "de": "Beim ersten von zwei verbundenen '-mente'-Adverbien fällt '-mente' weg; bei '-e'-Adjektiven bleibt 'suave': 'suave pero firmemente'.",
+      "en": "On the first of two joined '-mente' adverbs, '-mente' is dropped; for '-e' adjectives 'suave' stays: 'suave pero firmemente'."
     }
   }
 ]

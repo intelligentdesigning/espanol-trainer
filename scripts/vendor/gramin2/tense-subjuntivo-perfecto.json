@@ -1,0 +1,187 @@
+{
+ "kind": "tense",
+ "id": "subjuntivo-perfecto",
+ "name": {
+  "de": "Subjuntivo Perfekt",
+  "en": "Present perfect subjunctive"
+ },
+ "mood": {
+  "de": "Subjuntivo",
+  "en": "Subjunctive"
+ },
+ "summary": {
+  "de": "Für eine abgeschlossene Handlung in einem Satz, der den Subjunktiv verlangt (Wunsch, Zweifel, Gefühl).",
+  "en": "For a completed action inside a sentence that triggers the subjunctive (wish, doubt, emotion)."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung: haya + Partizip",
+    "en": "Formation: haya + participle"
+   },
+   "body": {
+    "de": "Subjunktiv-Präsens von haber (haya, hayas, haya, hayamos, hayáis, hayan) plus Partizip.",
+    "en": "Present subjunctive of haber (haya, hayas, haya, hayamos, hayáis, hayan) plus the participle."
+   },
+   "examples": [
+    {
+     "es": "que yo haya hablado",
+     "gloss": {
+      "de": "dass ich gesprochen habe",
+      "en": "that I have spoken"
+     },
+     "note": {
+      "de": "haya + Partizip",
+      "en": "haya + participle"
+     }
+    },
+    {
+     "es": "que nosotros hayamos comido",
+     "gloss": {
+      "de": "dass wir gegessen haben",
+      "en": "that we have eaten"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Auslöser im Hauptsatz",
+    "en": "Trigger in the main clause"
+   },
+   "body": {
+    "de": "Steht nach Ausdrücken von Wunsch, Zweifel oder Gefühl, meist mit que eingeleitet.",
+    "en": "Used after expressions of wish, doubt or emotion, usually introduced by que."
+   },
+   "examples": [
+    {
+     "es": "Espero que hayas comido.",
+     "gloss": {
+      "de": "Ich hoffe, du hast gegessen.",
+      "en": "I hope you have eaten."
+     },
+     "note": {
+      "de": "Wunsch löst Subjunktiv aus",
+      "en": "wish triggers subjunctive"
+     }
+    },
+    {
+     "es": "Dudo que haya venido.",
+     "gloss": {
+      "de": "Ich bezweifle, dass er gekommen ist.",
+      "en": "I doubt that he has come."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Abgeschlossene Handlung",
+    "en": "Completed action"
+   },
+   "body": {
+    "de": "Drückt eine vor dem Bezugspunkt schon beendete Handlung aus, oft mit Gegenwartsbezug.",
+    "en": "Expresses an action already finished before the reference point, often linked to the present."
+   },
+   "examples": [
+    {
+     "es": "Me alegro de que hayas venido.",
+     "gloss": {
+      "de": "Ich freue mich, dass du gekommen bist.",
+      "en": "I'm glad that you have come."
+     }
+    },
+    {
+     "es": "Es raro que no hayan dicho nada.",
+     "gloss": {
+      "de": "Es ist seltsam, dass sie nichts gesagt haben.",
+      "en": "It's odd that they haven't said anything."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Partizip bleibt gleich",
+    "en": "Participle stays fixed"
+   },
+   "body": {
+    "de": "Nur haber ändert sich nach Person; das Partizip bleibt unveränderlich.",
+    "en": "Only haber changes with the person; the participle never changes."
+   },
+   "examples": [
+    {
+     "es": "que tú hayas hecho",
+     "gloss": {
+      "de": "dass du gemacht hast",
+      "en": "that you have done"
+     },
+     "note": {
+      "de": "hecho unverändert",
+      "en": "hecho stays the same"
+     }
+    },
+    {
+     "es": "que ellos hayan hecho",
+     "gloss": {
+      "de": "dass sie gemacht haben",
+      "en": "that they have done"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßige Partizipien",
+    "en": "Irregular participles"
+   },
+   "body": {
+    "de": "Einige Verben haben ein unregelmäßiges Partizip, etwa decir → dicho, hacer → hecho.",
+    "en": "Some verbs have an irregular participle, e.g. decir → dicho, hacer → hecho."
+   },
+   "examples": [
+    {
+     "es": "No creo que haya dicho eso.",
+     "gloss": {
+      "de": "Ich glaube nicht, dass er das gesagt hat.",
+      "en": "I don't think he has said that."
+     },
+     "note": {
+      "de": "dicho statt decido",
+      "en": "dicho, not decido"
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Ojalá hayas dormido bien.",
+   "gloss": {
+    "de": "Hoffentlich hast du gut geschlafen.",
+    "en": "I hope you have slept well."
+   }
+  },
+  {
+   "es": "No creo que hayan estado aquí.",
+   "gloss": {
+    "de": "Ich glaube nicht, dass sie hier gewesen sind.",
+    "en": "I don't think they have been here."
+   }
+  },
+  {
+   "es": "Es posible que haya sido un error.",
+   "gloss": {
+    "de": "Es ist möglich, dass es ein Fehler war.",
+    "en": "It's possible that it has been a mistake."
+   }
+  },
+  {
+   "es": "Me sorprende que hayáis podido venir.",
+   "gloss": {
+    "de": "Es überrascht mich, dass ihr kommen konntet.",
+    "en": "I'm surprised that you have been able to come."
+   }
+  }
+ ]
+}

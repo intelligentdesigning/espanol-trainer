@@ -1,0 +1,240 @@
+{
+ "kind": "topic",
+ "id": "ser-estar",
+ "name": {
+  "de": "ser vs estar",
+  "en": "ser vs estar"
+ },
+ "summary": {
+  "de": "Ser beschreibt, was etwas dauerhaft ist (Identität, Herkunft, Eigenschaften); estar beschreibt Ort, vorübergehende Zustände und Verlauf.",
+  "en": "Ser describes what something essentially is (identity, origin, traits); estar describes location, temporary states and the progressive."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "SER: Identität, Herkunft, Beruf",
+    "en": "SER: identity, origin, profession"
+   },
+   "body": {
+    "de": "Ser nennt, wer/was jemand ist: Name, Herkunft, Nationalität und Beruf.",
+    "en": "Ser states who or what someone is: name, origin, nationality and profession."
+   },
+   "examples": [
+    {
+     "es": "Soy profesor.",
+     "gloss": {
+      "de": "Ich bin Lehrer.",
+      "en": "I am a teacher."
+     },
+     "note": {
+      "de": "Beruf → ser",
+      "en": "profession → ser"
+     }
+    },
+    {
+     "es": "Ella es de México.",
+     "gloss": {
+      "de": "Sie ist aus Mexiko.",
+      "en": "She is from Mexico."
+     },
+     "note": {
+      "de": "Herkunft → ser",
+      "en": "origin → ser"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "SER: Zeit, Material, Besitz",
+    "en": "SER: time, material, possession"
+   },
+   "body": {
+    "de": "Ser nennt Uhrzeit, Datum, Wochentag sowie Material und Besitzer.",
+    "en": "Ser states time, date and weekday, plus material and owner."
+   },
+   "examples": [
+    {
+     "es": "Son las tres.",
+     "gloss": {
+      "de": "Es ist drei Uhr.",
+      "en": "It is three o'clock."
+     },
+     "note": {
+      "de": "Uhrzeit → ser",
+      "en": "time → ser"
+     }
+    },
+    {
+     "es": "La silla es de madera.",
+     "gloss": {
+      "de": "Der Stuhl ist aus Holz.",
+      "en": "The chair is made of wood."
+     },
+     "note": {
+      "de": "Material → ser",
+      "en": "material → ser"
+     }
+    },
+    {
+     "es": "El móvil es de Ana.",
+     "gloss": {
+      "de": "Das Handy gehört Ana.",
+      "en": "The phone is Ana's."
+     },
+     "note": {
+      "de": "Besitz → ser",
+      "en": "possession → ser"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "SER: dauerhafte Eigenschaften",
+    "en": "SER: lasting characteristics"
+   },
+   "body": {
+    "de": "Ser beschreibt feste Merkmale: Charakter, Aussehen, Größe und Farbe.",
+    "en": "Ser describes inherent traits: character, looks, size and color."
+   },
+   "examples": [
+    {
+     "es": "Mi hermano es alto y simpático.",
+     "gloss": {
+      "de": "Mein Bruder ist groß und nett.",
+      "en": "My brother is tall and nice."
+     },
+     "note": {
+      "de": "Wesen → ser",
+      "en": "nature → ser"
+     }
+    },
+    {
+     "es": "La nieve es blanca.",
+     "gloss": {
+      "de": "Der Schnee ist weiß.",
+      "en": "Snow is white."
+     },
+     "note": {
+      "de": "feste Farbe → ser",
+      "en": "inherent color → ser"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "ESTAR: Ort und Position",
+    "en": "ESTAR: location and position"
+   },
+   "body": {
+    "de": "Estar nennt, wo sich jemand oder etwas befindet (Ausnahme: Veranstaltungen mit ser).",
+    "en": "Estar states where someone or something is located (exception: events use ser)."
+   },
+   "examples": [
+    {
+     "es": "Madrid está en España.",
+     "gloss": {
+      "de": "Madrid liegt in Spanien.",
+      "en": "Madrid is in Spain."
+     },
+     "note": {
+      "de": "Ort → estar",
+      "en": "location → estar"
+     }
+    },
+    {
+     "es": "¿Dónde estás?",
+     "gloss": {
+      "de": "Wo bist du?",
+      "en": "Where are you?"
+     },
+     "note": {
+      "de": "Position → estar",
+      "en": "position → estar"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "ESTAR: Zustände, Gefühle, Verlauf",
+    "en": "ESTAR: states, feelings, progressive"
+   },
+   "body": {
+    "de": "Estar nennt vorübergehende Zustände, Gefühle und die Verlaufsform (estar + Gerundium).",
+    "en": "Estar states temporary conditions, feelings and the progressive (estar + gerund)."
+   },
+   "examples": [
+    {
+     "es": "Estoy cansado.",
+     "gloss": {
+      "de": "Ich bin müde.",
+      "en": "I am tired."
+     },
+     "note": {
+      "de": "Zustand → estar",
+      "en": "state → estar"
+     }
+    },
+    {
+     "es": "Estamos comiendo.",
+     "gloss": {
+      "de": "Wir essen gerade.",
+      "en": "We are eating."
+     },
+     "note": {
+      "de": "Verlauf → estar",
+      "en": "progressive → estar"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Adjektive mit Bedeutungswechsel",
+    "en": "Adjectives that change meaning"
+   },
+   "body": {
+    "de": "Manche Adjektive ändern die Bedeutung: ser = Eigenschaft, estar = Zustand/Wirkung.",
+    "en": "Some adjectives change meaning: ser = trait, estar = state/result."
+   },
+   "examples": [
+    {
+     "es": "La clase es aburrida.",
+     "gloss": {
+      "de": "Der Unterricht ist langweilig.",
+      "en": "The class is boring."
+     },
+     "note": {
+      "de": "Eigenschaft → ser",
+      "en": "trait → ser"
+     }
+    },
+    {
+     "es": "Estoy aburrido.",
+     "gloss": {
+      "de": "Mir ist langweilig.",
+      "en": "I am bored."
+     },
+     "note": {
+      "de": "Gefühl → estar",
+      "en": "feeling → estar"
+     }
+    },
+    {
+     "es": "El plátano está verde.",
+     "gloss": {
+      "de": "Die Banane ist unreif.",
+      "en": "The banana is unripe."
+     },
+     "note": {
+      "de": "Zustand → estar",
+      "en": "state → estar"
+     }
+    }
+   ]
+  }
+ ]
+}

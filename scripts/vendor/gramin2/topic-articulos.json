@@ -1,0 +1,225 @@
+{
+ "kind": "topic",
+ "id": "articulos",
+ "name": {
+  "de": "Artikel",
+  "en": "Articles"
+ },
+ "summary": {
+  "de": "Spanische Artikel richten sich in Genus und Numerus nach dem Substantiv und verschmelzen in 'al' und 'del'.",
+  "en": "Spanish articles agree with the noun in gender and number and contract into 'al' and 'del'."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bestimmter Artikel: el/la/los/las",
+    "en": "Definite article: el/la/los/las"
+   },
+   "body": {
+    "de": "Der bestimmte Artikel passt sich an Genus und Numerus an: el/los (m), la/las (f).",
+    "en": "The definite article agrees in gender and number: el/los (m), la/las (f)."
+   },
+   "examples": [
+    {
+     "es": "el libro, la mesa",
+     "gloss": {
+      "de": "das Buch, der Tisch",
+      "en": "the book, the table"
+     },
+     "note": {
+      "de": "Singular m/f",
+      "en": "singular m/f"
+     }
+    },
+    {
+     "es": "los libros, las mesas",
+     "gloss": {
+      "de": "die Bücher, die Tische",
+      "en": "the books, the tables"
+     },
+     "note": {
+      "de": "Plural m/f",
+      "en": "plural m/f"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unbestimmter Artikel: un/una/unos/unas",
+    "en": "Indefinite article: un/una/unos/unas"
+   },
+   "body": {
+    "de": "Der unbestimmte Artikel ist un/una (ein), unos/unas heißt 'einige' oder 'ein paar'.",
+    "en": "The indefinite article is un/una (a), unos/unas means 'some' or 'a few'."
+   },
+   "examples": [
+    {
+     "es": "un coche, una casa",
+     "gloss": {
+      "de": "ein Auto, ein Haus",
+      "en": "a car, a house"
+     },
+     "note": {
+      "de": "Singular m/f",
+      "en": "singular m/f"
+     }
+    },
+    {
+     "es": "unos amigos, unas flores",
+     "gloss": {
+      "de": "einige Freunde, ein paar Blumen",
+      "en": "some friends, a few flowers"
+     },
+     "note": {
+      "de": "Plural = einige",
+      "en": "plural = some"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Neutrum 'lo' + Adjektiv",
+    "en": "Neuter 'lo' + adjective"
+   },
+   "body": {
+    "de": "'lo' vor einem Adjektiv bildet einen abstrakten Begriff: 'lo importante' = das Wichtige.",
+    "en": "'lo' before an adjective forms an abstract noun: 'lo importante' = the important thing."
+   },
+   "examples": [
+    {
+     "es": "Lo importante es escuchar.",
+     "gloss": {
+      "de": "Das Wichtige ist zuzuhören.",
+      "en": "The important thing is to listen."
+     },
+     "note": {
+      "de": "kein Substantiv",
+      "en": "no noun"
+     }
+    },
+    {
+     "es": "Lo mejor del día.",
+     "gloss": {
+      "de": "Das Beste des Tages.",
+      "en": "The best part of the day."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Verschmelzung: a+el=al, de+el=del",
+    "en": "Contraction: a+el=al, de+el=del"
+   },
+   "body": {
+    "de": "a und de verschmelzen mit el zu 'al' und 'del'; mit la/los/las passiert nichts.",
+    "en": "a and de contract with el into 'al' and 'del'; la/los/las do not contract."
+   },
+   "examples": [
+    {
+     "es": "Voy al cine.",
+     "gloss": {
+      "de": "Ich gehe ins Kino.",
+      "en": "I go to the cinema."
+     },
+     "note": {
+      "de": "a + el",
+      "en": "a + el"
+     }
+    },
+    {
+     "es": "la puerta del coche",
+     "gloss": {
+      "de": "die Autotür",
+      "en": "the car door"
+     },
+     "note": {
+      "de": "de + el",
+      "en": "de + el"
+     }
+    },
+    {
+     "es": "Voy a la playa.",
+     "gloss": {
+      "de": "Ich gehe an den Strand.",
+      "en": "I go to the beach."
+     },
+     "note": {
+      "de": "a la bleibt",
+      "en": "a la stays"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Wann der Artikel wegfällt",
+    "en": "When the article is omitted"
+   },
+   "body": {
+    "de": "Vor Berufen, Nationalitäten und nach 'ser' steht oft kein Artikel.",
+    "en": "Articles are often dropped before professions, nationalities, and after 'ser'."
+   },
+   "examples": [
+    {
+     "es": "Soy profesor.",
+     "gloss": {
+      "de": "Ich bin Lehrer.",
+      "en": "I am a teacher."
+     },
+     "note": {
+      "de": "Beruf ohne Artikel",
+      "en": "profession, no article"
+     }
+    },
+    {
+     "es": "Ella es española.",
+     "gloss": {
+      "de": "Sie ist Spanierin.",
+      "en": "She is Spanish."
+     },
+     "note": {
+      "de": "Nationalität",
+      "en": "nationality"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "'el' vor betontem a-/ha-",
+    "en": "'el' before stressed a-/ha-"
+   },
+   "body": {
+    "de": "Feminine Wörter mit betontem Anfangs-a/ha nehmen im Singular 'el', bleiben aber feminin.",
+    "en": "Feminine words starting with stressed a/ha take 'el' in singular but stay feminine."
+   },
+   "examples": [
+    {
+     "es": "el agua fría",
+     "gloss": {
+      "de": "das kalte Wasser",
+      "en": "the cold water"
+     },
+     "note": {
+      "de": "fem., aber el",
+      "en": "fem., but el"
+     }
+    },
+    {
+     "es": "las aguas",
+     "gloss": {
+      "de": "die Gewässer",
+      "en": "the waters"
+     },
+     "note": {
+      "de": "Plural: las",
+      "en": "plural: las"
+     }
+    }
+   ]
+  }
+ ]
+}

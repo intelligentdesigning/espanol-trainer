@@ -1,0 +1,191 @@
+{
+ "kind": "topic",
+ "id": "demostrativos",
+ "name": {
+  "de": "Demonstrativa (este/ese/aquel)",
+  "en": "Demonstratives"
+ },
+ "summary": {
+  "de": "Demonstrativa zeigen, wie nah ein Ding ist: este (hier), ese (bei dir), aquel (dort drüben).",
+  "en": "Demonstratives show how near a thing is: este (here), ese (by you), aquel (over there)."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "este: nah beim Sprecher",
+    "en": "este: near the speaker"
+   },
+   "body": {
+    "de": "\"Este/esta/estos/estas\" für Dinge nah beim Sprecher (hier/aquí).",
+    "en": "Use \"este/esta/estos/estas\" for things near the speaker (here/aquí)."
+   },
+   "examples": [
+    {
+     "es": "Este café está muy caliente.",
+     "gloss": {
+      "de": "Dieser Kaffee ist sehr heiß.",
+      "en": "This coffee is very hot."
+     },
+     "note": {
+      "de": "in meiner Hand",
+      "en": "in my hand"
+     }
+    },
+    {
+     "es": "Estas flores son para ti.",
+     "gloss": {
+      "de": "Diese Blumen sind für dich.",
+      "en": "These flowers are for you."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "ese: nah beim Hörer",
+    "en": "ese: near the listener"
+   },
+   "body": {
+    "de": "\"Ese/esa/esos/esas\" für Dinge nah beim Hörer (da/ahí).",
+    "en": "Use \"ese/esa/esos/esas\" for things near the listener (there/ahí)."
+   },
+   "examples": [
+    {
+     "es": "Ese libro que tienes es mío.",
+     "gloss": {
+      "de": "Das Buch, das du hast, ist meins.",
+      "en": "That book you have is mine."
+     },
+     "note": {
+      "de": "beim Hörer",
+      "en": "by the listener"
+     }
+    },
+    {
+     "es": "Dame esas llaves, por favor.",
+     "gloss": {
+      "de": "Gib mir die Schlüssel, bitte.",
+      "en": "Give me those keys, please."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "aquel: weit entfernt",
+    "en": "aquel: far away"
+   },
+   "body": {
+    "de": "\"Aquel/aquella/aquellos/aquellas\" für Dinge weit weg von beiden (dort/allí).",
+    "en": "Use \"aquel/aquella/aquellos/aquellas\" for things far from both (over there/allí)."
+   },
+   "examples": [
+    {
+     "es": "Aquella casa del fondo es muy vieja.",
+     "gloss": {
+      "de": "Jenes Haus hinten ist sehr alt.",
+      "en": "That house at the back is very old."
+     },
+     "note": {
+      "de": "in der Ferne",
+      "en": "in the distance"
+     }
+    },
+    {
+     "es": "En aquellos tiempos viajábamos en tren.",
+     "gloss": {
+      "de": "In jenen Zeiten reisten wir mit dem Zug.",
+      "en": "In those days we traveled by train."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Angleichung in Genus und Numerus",
+    "en": "Agreement in gender and number"
+   },
+   "body": {
+    "de": "Das Demonstrativ richtet sich nach Genus und Numerus des Substantivs.",
+    "en": "The demonstrative agrees with the noun's gender and number."
+   },
+   "examples": [
+    {
+     "es": "este niño / esta niña / estos niños / estas niñas",
+     "gloss": {
+      "de": "dieser Junge / dieses Mädchen / diese Jungen / diese Mädchen",
+      "en": "this boy / this girl / these boys / these girls"
+     }
+    },
+    {
+     "es": "ese día / esa noche",
+     "gloss": {
+      "de": "jener Tag / jene Nacht",
+      "en": "that day / that night"
+     },
+     "note": {
+      "de": "\"día\" ist maskulin",
+      "en": "\"día\" is masculine"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Neutrum: esto, eso, aquello",
+    "en": "Neuter: esto, eso, aquello"
+   },
+   "body": {
+    "de": "\"Esto/eso/aquello\" stehen ohne Substantiv für Unbekanntes oder ganze Ideen.",
+    "en": "\"Esto/eso/aquello\" stand alone for unknown things or whole ideas."
+   },
+   "examples": [
+    {
+     "es": "¿Qué es esto?",
+     "gloss": {
+      "de": "Was ist das?",
+      "en": "What is this?"
+     },
+     "note": {
+      "de": "Sache unbekannt",
+      "en": "unknown thing"
+     }
+    },
+    {
+     "es": "Eso no es verdad.",
+     "gloss": {
+      "de": "Das ist nicht wahr.",
+      "en": "That is not true."
+     },
+     "note": {
+      "de": "ganze Aussage",
+      "en": "whole statement"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Heute kein Akzent nötig",
+    "en": "No accent needed today"
+   },
+   "body": {
+    "de": "Modern schreibt man Demonstrativa ohne Akzent, auch ohne folgendes Substantiv.",
+    "en": "Modern usage writes demonstratives without an accent, even when standing alone."
+   },
+   "examples": [
+    {
+     "es": "Prefiero este, no ese.",
+     "gloss": {
+      "de": "Ich bevorzuge dieses, nicht jenes.",
+      "en": "I prefer this one, not that one."
+     },
+     "note": {
+      "de": "kein Akzent (RAE)",
+      "en": "no accent (RAE)"
+     }
+    }
+   ]
+  }
+ ]
+}

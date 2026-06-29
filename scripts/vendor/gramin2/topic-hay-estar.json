@@ -1,0 +1,157 @@
+{
+ "kind": "topic",
+ "id": "hay-estar",
+ "name": {
+  "de": "hay vs estar",
+  "en": "hay vs estar"
+ },
+ "summary": {
+  "de": "\"hay\" sagt, DASS etwas existiert; \"estar\" sagt, WO etwas Bekanntes ist.",
+  "en": "\"hay\" says THAT something exists; \"estar\" says WHERE a known thing is."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "hay = Existenz (es gibt)",
+    "en": "hay = existence (there is/are)"
+   },
+   "body": {
+    "de": "\"hay\" ist unveränderlich und drückt aus, dass etwas Unbestimmtes existiert oder vorhanden ist.",
+    "en": "\"hay\" is invariable and expresses that something indefinite exists or is present."
+   },
+   "examples": [
+    {
+     "es": "Hay un libro en la mesa.",
+     "gloss": {
+      "de": "Es gibt ein Buch auf dem Tisch.",
+      "en": "There is a book on the table."
+     },
+     "note": {
+      "de": "immer \"hay\", nie \"hayn\"",
+      "en": "always \"hay\", never plural"
+     }
+    },
+    {
+     "es": "Hay muchas personas aquí.",
+     "gloss": {
+      "de": "Es gibt viele Leute hier.",
+      "en": "There are many people here."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "estar = Ort von Bekanntem",
+    "en": "estar = location of a known thing"
+   },
+   "body": {
+    "de": "\"estar\" sagt, WO eine bestimmte, bereits bekannte Sache oder Person ist.",
+    "en": "\"estar\" tells WHERE a specific, already-known thing or person is."
+   },
+   "examples": [
+    {
+     "es": "El libro está en la mesa.",
+     "gloss": {
+      "de": "Das Buch ist auf dem Tisch.",
+      "en": "The book is on the table."
+     },
+     "note": {
+      "de": "bekanntes Buch → estar",
+      "en": "known book → estar"
+     }
+    },
+    {
+     "es": "María está en casa.",
+     "gloss": {
+      "de": "María ist zu Hause.",
+      "en": "María is at home."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Artikel-Test",
+    "en": "Article test"
+   },
+   "body": {
+    "de": "Unbestimmt (un, una, dos, mucho) → hay; bestimmt (el, la, mi, María) → estar.",
+    "en": "Indefinite (un, una, dos, mucho) → hay; definite (el, la, mi, María) → estar."
+   },
+   "examples": [
+    {
+     "es": "Hay una farmacia cerca.",
+     "gloss": {
+      "de": "Es gibt eine Apotheke in der Nähe.",
+      "en": "There is a pharmacy nearby."
+     },
+     "note": {
+      "de": "una → hay",
+      "en": "una → hay"
+     }
+    },
+    {
+     "es": "La farmacia está cerca.",
+     "gloss": {
+      "de": "Die Apotheke ist in der Nähe.",
+      "en": "The pharmacy is nearby."
+     },
+     "note": {
+      "de": "la → estar",
+      "en": "la → estar"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "hay bei Mengen/Zahlen",
+    "en": "hay with quantities/numbers"
+   },
+   "body": {
+    "de": "Bei Zahlen und Mengen ohne bestimmten Artikel steht immer \"hay\".",
+    "en": "With numbers and quantities lacking a definite article, always use \"hay\"."
+   },
+   "examples": [
+    {
+     "es": "Hay tres sillas en la cocina.",
+     "gloss": {
+      "de": "Es gibt drei Stühle in der Küche.",
+      "en": "There are three chairs in the kitchen."
+     }
+    },
+    {
+     "es": "¿Cuántos cuartos hay?",
+     "gloss": {
+      "de": "Wie viele Zimmer gibt es?",
+      "en": "How many rooms are there?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "estar passt sich an, hay nicht",
+    "en": "estar agrees, hay does not"
+   },
+   "body": {
+    "de": "\"hay\" bleibt im Singular und Plural gleich; \"estar\" wird an die Person/Zahl angepasst.",
+    "en": "\"hay\" stays the same in singular and plural; \"estar\" agrees with person/number."
+   },
+   "examples": [
+    {
+     "es": "Hay dos gatos. Los gatos están fuera.",
+     "gloss": {
+      "de": "Es gibt zwei Katzen. Die Katzen sind draußen.",
+      "en": "There are two cats. The cats are outside."
+     },
+     "note": {
+      "de": "hay vs. están",
+      "en": "hay vs. están"
+     }
+    }
+   ]
+  }
+ ]
+}

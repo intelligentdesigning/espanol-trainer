@@ -1,0 +1,190 @@
+{
+ "kind": "topic",
+ "id": "relativos",
+ "name": {
+  "de": "Relativpronomen",
+  "en": "Relative pronouns"
+ },
+ "summary": {
+  "de": "Relativpronomen verbinden zwei Sätze und beziehen sich auf eine vorher genannte Person oder Sache.",
+  "en": "Relative pronouns join two clauses and refer back to a previously mentioned person or thing."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "que – das Universal-Relativpronomen",
+    "en": "que – the all-purpose relative pronoun"
+   },
+   "body": {
+    "de": "\"que\" ersetzt Personen und Sachen, ist unveränderlich und das häufigste Relativpronomen.",
+    "en": "\"que\" stands for people and things, never changes, and is the most common relative pronoun."
+   },
+   "examples": [
+    {
+     "es": "El libro que leo es interesante.",
+     "gloss": {
+      "de": "Das Buch, das ich lese, ist interessant.",
+      "en": "The book that I'm reading is interesting."
+     }
+    },
+    {
+     "es": "La mujer que vive aquí es mi tía.",
+     "gloss": {
+      "de": "Die Frau, die hier wohnt, ist meine Tante.",
+      "en": "The woman who lives here is my aunt."
+     },
+     "note": {
+      "de": "auch für Personen",
+      "en": "also for people"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "quien/quienes – nur Personen, nach Präposition",
+    "en": "quien/quienes – people only, after prepositions"
+   },
+   "body": {
+    "de": "Nach einer Präposition steht für Personen \"quien\" (Singular) oder \"quienes\" (Plural).",
+    "en": "After a preposition, use \"quien\" (singular) or \"quienes\" (plural) for people."
+   },
+   "examples": [
+    {
+     "es": "La chica con quien hablo es española.",
+     "gloss": {
+      "de": "Das Mädchen, mit dem ich rede, ist Spanierin.",
+      "en": "The girl with whom I'm talking is Spanish."
+     }
+    },
+    {
+     "es": "Los amigos a quienes invité ya llegaron.",
+     "gloss": {
+      "de": "Die Freunde, die ich einlud, sind schon da.",
+      "en": "The friends whom I invited have already arrived."
+     },
+     "note": {
+      "de": "Plural: quienes",
+      "en": "plural: quienes"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "cuyo – \"dessen/deren\" (Besitz)",
+    "en": "cuyo – \"whose\" (possession)"
+   },
+   "body": {
+    "de": "\"cuyo\" zeigt Besitz und richtet sich nach dem besessenen Substantiv, nicht nach dem Besitzer.",
+    "en": "\"cuyo\" shows possession and agrees with the thing possessed, not the owner."
+   },
+   "examples": [
+    {
+     "es": "El hombre cuyo perro ladra vive al lado.",
+     "gloss": {
+      "de": "Der Mann, dessen Hund bellt, wohnt nebenan.",
+      "en": "The man whose dog barks lives next door."
+     },
+     "note": {
+      "de": "perro = masc. sing.",
+      "en": "perro = masc. sing."
+     }
+    },
+    {
+     "es": "Una casa cuyas ventanas son grandes.",
+     "gloss": {
+      "de": "Ein Haus, dessen Fenster groß sind.",
+      "en": "A house whose windows are big."
+     },
+     "note": {
+      "de": "ventanas = fem. pl.",
+      "en": "ventanas = fem. pl."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "donde – Relativpronomen für Orte",
+    "en": "donde – relative pronoun for places"
+   },
+   "body": {
+    "de": "\"donde\" verweist auf einen Ort und ersetzt \"en el que / en la que\".",
+    "en": "\"donde\" refers to a place and replaces \"en el que / en la que\"."
+   },
+   "examples": [
+    {
+     "es": "La ciudad donde nací es pequeña.",
+     "gloss": {
+      "de": "Die Stadt, in der ich geboren bin, ist klein.",
+      "en": "The city where I was born is small."
+     }
+    },
+    {
+     "es": "Este es el café donde nos conocimos.",
+     "gloss": {
+      "de": "Das ist das Café, in dem wir uns kennenlernten.",
+      "en": "This is the café where we met."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "lo que – \"das, was\" (Unbestimmtes)",
+    "en": "lo que – \"what / that which\" (abstract)"
+   },
+   "body": {
+    "de": "\"lo que\" bezieht sich auf eine ganze Idee oder etwas Unbestimmtes, nicht auf ein Substantiv.",
+    "en": "\"lo que\" refers to a whole idea or something unspecified, not a single noun."
+   },
+   "examples": [
+    {
+     "es": "No entiendo lo que dices.",
+     "gloss": {
+      "de": "Ich verstehe nicht, was du sagst.",
+      "en": "I don't understand what you're saying."
+     }
+    },
+    {
+     "es": "Lo que más me gusta es viajar.",
+     "gloss": {
+      "de": "Was mir am meisten gefällt, ist Reisen.",
+      "en": "What I like most is traveling."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "el que / el cual – formeller, mit Präposition",
+    "en": "el que / el cual – formal, after prepositions"
+   },
+   "body": {
+    "de": "\"el que/el cual\" steht oft nach längeren Präpositionen und richtet sich in Geschlecht und Zahl.",
+    "en": "\"el que/el cual\" follows longer prepositions and agrees in gender and number."
+   },
+   "examples": [
+    {
+     "es": "La razón por la que vine es clara.",
+     "gloss": {
+      "de": "Der Grund, aus dem ich kam, ist klar.",
+      "en": "The reason for which I came is clear."
+     }
+    },
+    {
+     "es": "El puente debajo del cual pasamos es viejo.",
+     "gloss": {
+      "de": "Die Brücke, unter der wir hindurchgingen, ist alt.",
+      "en": "The bridge under which we passed is old."
+     },
+     "note": {
+      "de": "richtet sich nach puente",
+      "en": "agrees with puente"
+     }
+    }
+   ]
+  }
+ ]
+}

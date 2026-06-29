@@ -1,0 +1,198 @@
+{
+ "kind": "topic",
+ "id": "por-para",
+ "name": {
+  "de": "por vs para",
+  "en": "por vs para"
+ },
+ "summary": {
+  "de": "Por nennt Grund, Tausch, Dauer und Weg; para nennt Ziel, Zweck, Frist und Empfänger.",
+  "en": "Por marks cause, exchange, duration and path; para marks goal, purpose, deadline and recipient."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "para = Zweck / Ziel",
+    "en": "para = purpose / goal"
+   },
+   "body": {
+    "de": "para drückt Absicht, Zweck oder Ziel aus, oft mit Infinitiv im Sinne von \"um zu\".",
+    "en": "para expresses intention, purpose or goal, often with an infinitive meaning \"in order to\"."
+   },
+   "examples": [
+    {
+     "es": "Estudio español para viajar por Latinoamérica.",
+     "gloss": {
+      "de": "Ich lerne Spanisch, um durch Lateinamerika zu reisen.",
+      "en": "I study Spanish to travel through Latin America."
+     },
+     "note": {
+      "de": "Zweck = para",
+      "en": "purpose = para"
+     }
+    },
+    {
+     "es": "Esta caja es para los libros.",
+     "gloss": {
+      "de": "Diese Kiste ist für die Bücher.",
+      "en": "This box is for the books."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "para = Ziel, Frist, Empfänger, Meinung",
+    "en": "para = destination, deadline, recipient, opinion"
+   },
+   "body": {
+    "de": "para nennt Richtung wohin, einen Termin, die Person für jemanden oder eine persönliche Meinung.",
+    "en": "para marks where to, a deadline, the person something is for, or a personal opinion."
+   },
+   "examples": [
+    {
+     "es": "Salimos para Madrid mañana.",
+     "gloss": {
+      "de": "Wir fahren morgen nach Madrid ab.",
+      "en": "We leave for Madrid tomorrow."
+     },
+     "note": {
+      "de": "Richtung wohin",
+      "en": "destination"
+     }
+    },
+    {
+     "es": "El trabajo es para el lunes.",
+     "gloss": {
+      "de": "Die Arbeit ist bis Montag fällig.",
+      "en": "The work is due Monday."
+     },
+     "note": {
+      "de": "Frist",
+      "en": "deadline"
+     }
+    },
+    {
+     "es": "Para mí, esta es la mejor opción.",
+     "gloss": {
+      "de": "Für mich ist das die beste Option.",
+      "en": "For me, this is the best option."
+     },
+     "note": {
+      "de": "Meinung",
+      "en": "opinion"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "por = Grund und Tausch",
+    "en": "por = cause and exchange"
+   },
+   "body": {
+    "de": "por nennt den Grund \"wegen\" sowie einen Tausch, Preis oder Ersatz \"gegen / für\".",
+    "en": "por marks the cause \"because of\" and an exchange, price or substitution \"in return for\"."
+   },
+   "examples": [
+    {
+     "es": "Llegamos tarde por el tráfico.",
+     "gloss": {
+      "de": "Wir kamen wegen des Verkehrs zu spät.",
+      "en": "We arrived late because of the traffic."
+     },
+     "note": {
+      "de": "Grund",
+      "en": "cause"
+     }
+    },
+    {
+     "es": "Compré el coche por diez mil euros.",
+     "gloss": {
+      "de": "Ich kaufte das Auto für zehntausend Euro.",
+      "en": "I bought the car for ten thousand euros."
+     },
+     "note": {
+      "de": "Tausch / Preis",
+      "en": "exchange / price"
+     }
+    },
+    {
+     "es": "Gracias por tu ayuda.",
+     "gloss": {
+      "de": "Danke für deine Hilfe.",
+      "en": "Thanks for your help."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "por = Dauer, Weg, Mittel",
+    "en": "por = duration, path, means"
+   },
+   "body": {
+    "de": "por nennt eine Zeitdauer, die Bewegung durch einen Ort und das benutzte Mittel.",
+    "en": "por marks a span of time, movement through a place, and the means used."
+   },
+   "examples": [
+    {
+     "es": "Estudié por dos horas.",
+     "gloss": {
+      "de": "Ich lernte zwei Stunden lang.",
+      "en": "I studied for two hours."
+     },
+     "note": {
+      "de": "Dauer",
+      "en": "duration"
+     }
+    },
+    {
+     "es": "Paseamos por el parque.",
+     "gloss": {
+      "de": "Wir spazierten durch den Park.",
+      "en": "We walked through the park."
+     },
+     "note": {
+      "de": "Weg durch",
+      "en": "movement through"
+     }
+    },
+    {
+     "es": "Te llamo por teléfono.",
+     "gloss": {
+      "de": "Ich rufe dich telefonisch an.",
+      "en": "I'll call you by phone."
+     },
+     "note": {
+      "de": "Mittel",
+      "en": "means"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "por = Urheber im Passiv \"von\"",
+    "en": "por = agent in passive \"by\""
+   },
+   "body": {
+    "de": "Im Passiv steht der Urheber der Handlung mit por, entspricht dem deutschen \"von\".",
+    "en": "In the passive, the doer of the action takes por, matching English \"by\"."
+   },
+   "examples": [
+    {
+     "es": "La novela fue escrita por una autora joven.",
+     "gloss": {
+      "de": "Der Roman wurde von einer jungen Autorin geschrieben.",
+      "en": "The novel was written by a young author."
+     },
+     "note": {
+      "de": "Urheber = por",
+      "en": "agent = por"
+     }
+    }
+   ]
+  }
+ ]
+}

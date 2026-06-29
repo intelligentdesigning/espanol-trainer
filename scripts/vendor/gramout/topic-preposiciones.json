@@ -1,274 +1,258 @@
 [
   {
-    "kind": "choice",
-    "prompt": "Esta noche me quedo ___ casa con mi familia.",
+    "kind": "fill",
+    "prompt": "Estoy ___ casa.",
     "promptGloss": {
-      "de": "Heute Abend bleibe ich mit meiner Familie zu Hause.",
-      "en": "Tonight I'm staying at home with my family."
+      "de": "Ich bin zu Hause.",
+      "en": "I am at home."
     },
-    "options": ["en", "a"],
     "answer": "en",
     "explain": {
-      "de": "'quedarse' beschreibt hier den Aufenthaltsort, wo man ist; dafür steht 'en'. 'a' wäre falsch, weil keine Bewegung zu einem Ziel ausgedrückt wird.",
-      "en": "Here 'quedarse' marks the place where one is; that takes 'en'. 'a' would be wrong because no movement toward a goal is expressed."
+      "de": "Der Ort, wo man ist, steht mit 'en'.",
+      "en": "The location where you are takes 'en'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Mañana viajamos ___ Sevilla en tren.",
+    "prompt": "Voy ___ Madrid este fin de semana.",
     "promptGloss": {
-      "de": "Morgen reisen wir mit dem Zug nach Sevilla.",
-      "en": "Tomorrow we travel to Seville by train."
+      "de": "Ich fahre dieses Wochenende nach Madrid.",
+      "en": "I'm going to Madrid this weekend."
     },
-    "options": ["a", "en"],
     "answer": "a",
+    "options": ["a", "en", "de"],
     "explain": {
-      "de": "'viajar' drückt hier eine Bewegung zu einem Ziel aus, daher 'a Sevilla'. 'en Sevilla' würde bedeuten, dort zu sein, nicht dorthin zu fahren.",
-      "en": "'viajar' here expresses movement toward a goal, so 'a Sevilla'. 'en Sevilla' would mean being there, not going there."
+      "de": "Das Ziel einer Bewegung steht mit 'a'; 'en' wäre nur der Ort, wo man ist.",
+      "en": "The goal of a movement takes 'a'; 'en' would only be the location where you are."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Mis abuelos viven ___ un pueblo muy pequeño del norte.",
+    "prompt": "Vivo ___ España desde hace tres años.",
     "promptGloss": {
-      "de": "Meine Großeltern wohnen in einem sehr kleinen Dorf im Norden.",
-      "en": "My grandparents live in a very small village in the north."
+      "de": "Ich wohne seit drei Jahren in Spanien.",
+      "en": "I have lived in Spain for three years."
     },
     "answer": "en",
     "explain": {
-      "de": "'vivir' bezeichnet den Wohnort, also den Ort, wo jemand ist: Ort = 'en'. Ein Richtungs-'a' wäre hier sinnlos, weil keine Bewegung vorliegt.",
-      "en": "'vivir' marks where someone resides, i.e. location: location = 'en'. A directional 'a' makes no sense here since there is no movement."
+      "de": "Der Wohnort steht mit 'en'.",
+      "en": "The place where you live takes 'en'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Este reloj antiguo es ___ mi bisabuela.",
+    "prompt": "Esta noche vamos ___ la fiesta de Ana.",
     "promptGloss": {
-      "de": "Diese alte Uhr gehört meiner Urgroßmutter / ist von meiner Urgroßmutter.",
-      "en": "This old watch belongs to my great-grandmother."
+      "de": "Heute Abend gehen wir zu Anas Party.",
+      "en": "Tonight we are going to Ana's party."
     },
-    "options": ["de", "a", "en"],
-    "answer": "de",
+    "answer": "a",
+    "options": ["a", "en"],
     "explain": {
-      "de": "Besitz/Zugehörigkeit wird mit 'de' ausgedrückt: 'es de mi bisabuela' = es gehört ihr. Anders als im Deutschen ('gehört … MEINER') steht hier kein 'a'.",
-      "en": "Possession/belonging uses 'de': 'es de mi bisabuela' = it belongs to her. Unlike English 'belongs TO', Spanish uses 'de', not 'a'."
+      "de": "'ir a' nennt das Ziel der Bewegung, deshalb 'a'.",
+      "en": "'ir a' marks the goal of the movement, so 'a'."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Compramos una mesa ___ madera para la cocina.",
+    "prompt": "Soy ___ Alemania.",
     "promptGloss": {
-      "de": "Wir haben einen Tisch aus Holz für die Küche gekauft.",
-      "en": "We bought a wooden table for the kitchen."
+      "de": "Ich komme aus Deutschland.",
+      "en": "I'm from Germany."
     },
     "answer": "de",
     "explain": {
-      "de": "Das Material eines Gegenstands wird mit 'de' angegeben: 'mesa de madera'. 'con madera' (mit Holz) wäre hier kein Materialausdruck.",
-      "en": "The material something is made of takes 'de': 'mesa de madera'. 'con madera' (with wood) would not express material here."
+      "de": "Herkunft wird mit 'de' ausgedrückt.",
+      "en": "Origin is expressed with 'de'."
     }
   },
   {
-    "kind": "choice",
-    "prompt": "¿___ dónde eres? — Soy de Colombia.",
+    "kind": "fill",
+    "prompt": "Este es el libro ___ María.",
     "promptGloss": {
-      "de": "Woher kommst du? – Ich komme aus Kolumbien.",
-      "en": "Where are you from? — I'm from Colombia."
+      "de": "Das ist Marías Buch.",
+      "en": "This is María's book."
     },
-    "options": ["De", "A", "En"],
-    "answer": "De",
+    "answer": "de",
     "explain": {
-      "de": "Herkunft wird mit 'de' ausgedrückt; die Frage nach der Herkunft lautet '¿De dónde…?'. '¿A dónde…?' fragt nach dem Ziel einer Bewegung, nicht nach dem Ursprung.",
-      "en": "Origin uses 'de'; the origin question is '¿De dónde…?'. '¿A dónde…?' asks for a movement's destination, not its source."
+      "de": "Besitz und Zugehörigkeit stehen mit 'de'.",
+      "en": "Possession and belonging take 'de'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Para el cumpleaños quiero un café ___ leche y mucha tarta.",
+    "prompt": "Compramos una mesa ___ madera.",
     "promptGloss": {
-      "de": "Zum Geburtstag möchte ich einen Milchkaffee und viel Kuchen.",
-      "en": "For my birthday I want a coffee with milk and lots of cake."
+      "de": "Wir kaufen einen Tisch aus Holz.",
+      "en": "We buy a table made of wood."
     },
-    "options": ["con", "sin", "de"],
+    "answer": "de",
+    "options": ["de", "con", "en"],
+    "explain": {
+      "de": "Das Material steht mit 'de'; 'con' (mit) und 'en' (Ort) passen hier nicht.",
+      "en": "Material takes 'de'; 'con' (with) and 'en' (location) don't fit here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Un café ___ leche, por favor.",
+    "promptGloss": {
+      "de": "Einen Kaffee mit Milch, bitte.",
+      "en": "A coffee with milk, please."
+    },
     "answer": "con",
     "explain": {
-      "de": "'con' bedeutet 'mit' und drückt die Begleitung/Zutat aus: 'café con leche'. 'sin' (ohne) wäre das Gegenteil, 'de' würde hier kein Begleitverhältnis ausdrücken.",
-      "en": "'con' means 'with' and expresses accompaniment/ingredient: 'café con leche'. 'sin' (without) is the opposite, and 'de' would not express accompaniment here."
+      "de": "'con' bedeutet 'mit'.",
+      "en": "'con' means 'with'."
     }
   },
   {
-    "kind": "fill",
-    "prompt": "No puedo ver bien; salí de casa ___ mis gafas.",
+    "kind": "choice",
+    "prompt": "Prefiero el té ___ azúcar porque no me gusta lo dulce.",
     "promptGloss": {
-      "de": "Ich kann nicht gut sehen; ich bin ohne meine Brille aus dem Haus gegangen.",
-      "en": "I can't see well; I left the house without my glasses."
+      "de": "Ich mag den Tee lieber ohne Zucker, weil ich Süßes nicht mag.",
+      "en": "I prefer tea without sugar because I don't like sweet things."
     },
     "answer": "sin",
+    "options": ["sin", "con", "sobre"],
     "explain": {
-      "de": "'sin' bedeutet 'ohne' und ist das Gegenteil von 'con'. Der Kontext ('No puedo ver bien') macht klar, dass die Brille fehlt.",
-      "en": "'sin' means 'without', the opposite of 'con'. The context ('No puedo ver bien') makes clear the glasses are missing."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "El restaurante está ___ el banco y la farmacia.",
-    "promptGloss": {
-      "de": "Das Restaurant liegt zwischen der Bank und der Apotheke.",
-      "en": "The restaurant is between the bank and the pharmacy."
-    },
-    "options": ["entre", "sobre", "contra"],
-    "answer": "entre",
-    "explain": {
-      "de": "'entre' bedeutet 'zwischen' und steht für eine Lage zwischen zwei Punkten. 'sobre' (auf/über) und 'contra' (gegen) passen räumlich nicht.",
-      "en": "'entre' means 'between', describing a position between two points. 'sobre' (on/about) and 'contra' (against) don't fit spatially."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "He dejado las llaves ___ la mesa de la entrada.",
-    "promptGloss": {
-      "de": "Ich habe die Schlüssel auf den Tisch im Eingang gelegt.",
-      "en": "I left the keys on the table in the entrance."
-    },
-    "options": ["sobre", "entre", "sin"],
-    "answer": "sobre",
-    "explain": {
-      "de": "'sobre' bedeutet 'auf' (eine Oberfläche) bzw. 'über': 'sobre la mesa'. 'entre' (zwischen) bräuchte zwei Bezugspunkte, die hier fehlen.",
-      "en": "'sobre' means 'on' (a surface) or 'about/over': 'sobre la mesa'. 'entre' (between) would need two reference points, which are missing here."
+      "de": "'sin' bedeutet 'ohne'; 'con' (mit) wäre das Gegenteil des Kontextes.",
+      "en": "'sin' means 'without'; 'con' (with) would contradict the context."
     }
   },
   {
     "kind": "fill",
-    "prompt": "El próximo domingo nuestro equipo juega ___ el líder de la liga.",
+    "prompt": "El gato está ___ las dos cajas.",
     "promptGloss": {
-      "de": "Nächsten Sonntag spielt unsere Mannschaft gegen den Tabellenführer.",
-      "en": "Next Sunday our team plays against the league leader."
+      "de": "Die Katze ist zwischen den beiden Kisten.",
+      "en": "The cat is between the two boxes."
+    },
+    "answer": "entre",
+    "explain": {
+      "de": "'entre' bedeutet 'zwischen'.",
+      "en": "'entre' means 'between'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "El libro está ___ la mesa.",
+    "promptGloss": {
+      "de": "Das Buch liegt auf dem Tisch.",
+      "en": "The book is on the table."
+    },
+    "answer": "sobre",
+    "options": ["sobre", "entre", "sin"],
+    "explain": {
+      "de": "'sobre' bedeutet 'auf/über'; 'entre' (zwischen) passt nicht für einen einzelnen Tisch.",
+      "en": "'sobre' means 'on/above'; 'entre' (between) doesn't fit a single table."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Esta tarde jugamos ___ ellos en el torneo.",
+    "promptGloss": {
+      "de": "Heute Nachmittag spielen wir im Turnier gegen sie.",
+      "en": "This afternoon we play against them in the tournament."
     },
     "answer": "contra",
     "explain": {
-      "de": "'contra' bedeutet 'gegen' und bezeichnet den Gegner: 'jugar contra'. 'con' (mit) würde fälschlich einen Mitspieler statt eines Gegners ausdrücken.",
-      "en": "'contra' means 'against' and marks the opponent: 'jugar contra'. 'con' (with) would wrongly imply a teammate rather than an opponent."
+      "de": "'contra' bedeutet 'gegen'.",
+      "en": "'contra' means 'against'."
     }
   },
   {
-    "kind": "choice",
-    "prompt": "Después de comer, caminamos despacio ___ la playa para ver el mar.",
+    "kind": "fill",
+    "prompt": "Camino ___ el parque para ver los árboles.",
     "promptGloss": {
-      "de": "Nach dem Essen gingen wir langsam in Richtung Strand, um das Meer zu sehen.",
-      "en": "After eating, we walked slowly towards the beach to see the sea."
+      "de": "Ich gehe in Richtung Park, um die Bäume zu sehen.",
+      "en": "I walk towards the park to see the trees."
     },
-    "options": ["hacia", "hasta", "desde"],
     "answer": "hacia",
     "explain": {
-      "de": "'hacia' bedeutet 'in Richtung' und betont die Bewegungsrichtung, ohne dass das Ziel erreicht sein muss. 'hasta' (bis) würde das Erreichen des Endpunkts betonen.",
-      "en": "'hacia' means 'towards', stressing direction without implying the goal is reached. 'hasta' (up to/until) would stress reaching the endpoint."
+      "de": "'hacia' bedeutet 'in Richtung'.",
+      "en": "'hacia' means 'towards'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "El autobús va ___ la última parada, al final del pueblo.",
+    "prompt": "El tren va ___ el norte del país.",
     "promptGloss": {
-      "de": "Der Bus fährt bis zur letzten Haltestelle, am Ende des Dorfes.",
-      "en": "The bus goes up to the last stop, at the end of the village."
+      "de": "Der Zug fährt in Richtung Norden des Landes.",
+      "en": "The train goes towards the north of the country."
     },
-    "options": ["hasta", "hacia", "desde"],
-    "answer": "hasta",
+    "answer": "hacia",
+    "options": ["hacia", "hasta", "desde"],
     "explain": {
-      "de": "'hasta' bedeutet 'bis (zu)' und markiert den Endpunkt einer Strecke: 'hasta la última parada'. 'hacia' (in Richtung) würde den Endpunkt offenlassen.",
-      "en": "'hasta' means 'up to/until' and marks the endpoint of a path: 'hasta la última parada'. 'hacia' (towards) would leave the endpoint open."
+      "de": "'hacia' nennt die Richtung; 'hasta' wäre 'bis (zu) einem Endpunkt', 'desde' der Ausgangspunkt.",
+      "en": "'hacia' marks the direction; 'hasta' would be 'up to an endpoint', 'desde' the starting point."
     }
   },
   {
-    "kind": "fill",
-    "prompt": "La tienda abre ___ las ocho de la mañana hasta las nueve de la noche.",
+    "kind": "choice",
+    "prompt": "La tienda está abierta ___ las nueve de la mañana.",
     "promptGloss": {
-      "de": "Der Laden ist von acht Uhr morgens bis neun Uhr abends geöffnet.",
-      "en": "The shop is open from eight in the morning until nine at night."
+      "de": "Der Laden ist ab neun Uhr morgens geöffnet.",
+      "en": "The shop is open from nine in the morning."
     },
     "answer": "desde",
+    "options": ["desde", "hasta", "hacia"],
     "explain": {
-      "de": "'desde' bezeichnet den zeitlichen Ausgangspunkt; zusammen mit dem folgenden 'hasta' bildet es das Paar 'desde … hasta' (von … bis). 'de' wäre hier unidiomatisch.",
-      "en": "'desde' marks the temporal starting point; with the following 'hasta' it forms the pair 'desde … hasta' (from … until). 'de' would be unidiomatic here."
+      "de": "'desde' nennt den Ausgangspunkt (seit/von ... an); 'hasta' wäre der Endpunkt.",
+      "en": "'desde' marks the starting point (from/since); 'hasta' would be the endpoint."
     }
   },
   {
-    "kind": "choice",
-    "prompt": "No te preocupes, todavía pienso mucho ___ ti.",
+    "kind": "fill",
+    "prompt": "Trabajo desde las nueve ___ las cinco.",
     "promptGloss": {
-      "de": "Mach dir keine Sorgen, ich denke immer noch viel an dich.",
-      "en": "Don't worry, I still think about you a lot."
+      "de": "Ich arbeite von neun bis fünf.",
+      "en": "I work from nine until five."
     },
-    "options": ["en", "de", "con"],
+    "answer": "hasta",
+    "explain": {
+      "de": "Mit 'desde' am Anfang folgt 'hasta' für den Endpunkt (bis).",
+      "en": "With 'desde' at the start, 'hasta' marks the endpoint (until)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Pienso ___ ti todos los días.",
+    "promptGloss": {
+      "de": "Ich denke jeden Tag an dich.",
+      "en": "I think of you every day."
+    },
     "answer": "en",
     "explain": {
-      "de": "Das Verb 'pensar' verlangt die feste Präposition 'en': 'pensar en algo/alguien'. Das deutsche 'an' verleitet zu Fehlern, aber 'a' ist hier falsch.",
-      "en": "The verb 'pensar' takes the fixed preposition 'en': 'pensar en algo/alguien'. English 'think of/about' may tempt other choices, but 'en' is required."
+      "de": "Das Verb 'pensar' verlangt die feste Präposition 'en'.",
+      "en": "The verb 'pensar' requires the fixed preposition 'en'."
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Desde niña, ella sueña ___ ser astronauta y viajar al espacio.",
+    "kind": "choice",
+    "prompt": "Sueño ___ viajar por todo el mundo.",
     "promptGloss": {
-      "de": "Schon als Kind träumt sie davon, Astronautin zu werden und ins All zu reisen.",
-      "en": "Since she was a girl, she has dreamed of becoming an astronaut and traveling to space."
+      "de": "Ich träume davon, um die ganze Welt zu reisen.",
+      "en": "I dream of traveling around the whole world."
     },
     "answer": "con",
+    "options": ["con", "en", "de"],
     "explain": {
-      "de": "Das Verb 'soñar' verlangt die feste Präposition 'con': 'soñar con (hacer) algo'. 'soñar de' oder 'soñar en' (im Standardspanischen) sind hier falsch.",
-      "en": "The verb 'soñar' requires the fixed preposition 'con': 'soñar con (doing) something'. 'soñar de' or 'soñar en' are incorrect in standard Spanish."
+      "de": "Das Verb 'soñar' verlangt 'con'; 'en' und 'de' sind hier falsch.",
+      "en": "The verb 'soñar' requires 'con'; 'en' and 'de' are wrong here."
     }
   },
   {
     "kind": "choice",
-    "prompt": "El éxito del proyecto depende ___ todo el equipo, no solo de ti.",
+    "prompt": "La decisión depende ___ ti.",
     "promptGloss": {
-      "de": "Der Erfolg des Projekts hängt vom ganzen Team ab, nicht nur von dir.",
-      "en": "The project's success depends on the whole team, not just on you."
+      "de": "Die Entscheidung hängt von dir ab.",
+      "en": "The decision depends on you."
     },
-    "options": ["de", "en", "con"],
     "answer": "de",
+    "options": ["de", "en", "con"],
     "explain": {
-      "de": "'depender' verlangt die feste Präposition 'de': 'depender de algo/alguien'. Das deutsche 'von … ab' bzw. englische 'on' darf nicht zu 'en' verleiten.",
-      "en": "'depender' requires the fixed preposition 'de': 'depender de something/someone'. English 'depend ON' must not lead to 'en'."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Cada tarde damos un paseo ___ parque que está cerca de casa.",
-    "promptGloss": {
-      "de": "Jeden Nachmittag machen wir einen Spaziergang in den Park, der nah am Haus liegt.",
-      "en": "Every afternoon we take a walk to the park near our house."
-    },
-    "answer": "al",
-    "explain": {
-      "de": "Die Präposition 'a' verschmilzt mit dem männlichen Artikel 'el' zur Pflichtform 'al': a + el = al. 'a el parque' ist immer falsch.",
-      "en": "The preposition 'a' contracts with the masculine article 'el' into the obligatory 'al': a + el = al. 'a el parque' is always wrong."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "La ventana ___ salón da a un jardín lleno de flores.",
-    "promptGloss": {
-      "de": "Das Fenster des Wohnzimmers geht auf einen Garten voller Blumen hinaus.",
-      "en": "The living room window looks out onto a garden full of flowers."
-    },
-    "answer": "del",
-    "explain": {
-      "de": "Die Präposition 'de' verschmilzt mit 'el' zur Pflichtform 'del': de + el = del. 'de el salón' ist nicht zulässig (anders als bei 'de él' mit Pronomen).",
-      "en": "The preposition 'de' contracts with 'el' into the obligatory 'del': de + el = del. 'de el salón' is not allowed (unlike 'de él' with the pronoun)."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Estoy muy cansada porque trabajé ___ la mañana ___ la noche sin descanso.",
-    "promptGloss": {
-      "de": "Ich bin sehr müde, weil ich ohne Pause von morgens bis abends gearbeitet habe.",
-      "en": "I'm very tired because I worked from morning until night without a break."
-    },
-    "options": ["desde … hasta", "de … a", "hacia … hasta"],
-    "answer": "desde … hasta",
-    "explain": {
-      "de": "Für eine zeitliche Spanne von einem Anfangs- bis zu einem Endpunkt ist das idiomatische Paar 'desde … hasta'. 'hacia' (in Richtung) hat keinen festen Endpunkt und passt nicht.",
-      "en": "For a time span from a start to an end point, the idiomatic pair is 'desde … hasta'. 'hacia' (towards) lacks a fixed endpoint and doesn't fit."
+      "de": "Das Verb 'depender' verlangt die feste Präposition 'de'.",
+      "en": "The verb 'depender' requires the fixed preposition 'de'."
     }
   }
 ]

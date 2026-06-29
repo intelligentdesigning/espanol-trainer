@@ -1,0 +1,275 @@
+{
+ "kind": "tense",
+ "id": "condicional",
+ "name": {
+  "de": "Konditional (condicional)",
+  "en": "Conditional (condicional)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Das condicional simple drückt Höflichkeit, Hypothesen, Ratschläge und die Zukunft aus der Vergangenheit aus.",
+  "en": "The simple conditional expresses politeness, hypotheses, advice, and the future-in-the-past."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung: Infinitiv + -ía",
+    "en": "Formation: infinitive + -ía"
+   },
+   "body": {
+    "de": "An den ganzen Infinitiv kommen die Endungen -ía, -ías, -ía, -íamos, -íais, -ían.",
+    "en": "Add the endings -ía, -ías, -ía, -íamos, -íais, -ían to the full infinitive."
+   },
+   "examples": [
+    {
+     "es": "Yo hablaría con ella.",
+     "gloss": {
+      "de": "Ich würde mit ihr sprechen.",
+      "en": "I would talk to her."
+     }
+    },
+    {
+     "es": "Comeríamos más tarde.",
+     "gloss": {
+      "de": "Wir würden später essen.",
+      "en": "We would eat later."
+     }
+    },
+    {
+     "es": "Vivirían en el campo.",
+     "gloss": {
+      "de": "Sie würden auf dem Land leben.",
+      "en": "They would live in the countryside."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Höflichkeit",
+    "en": "Politeness"
+   },
+   "body": {
+    "de": "Mit dem condicional klingen Bitten und Wünsche höflicher und weicher.",
+    "en": "The conditional makes requests and wishes sound more polite and softer."
+   },
+   "examples": [
+    {
+     "es": "¿Podría ayudarme?",
+     "gloss": {
+      "de": "Könnten Sie mir helfen?",
+      "en": "Could you help me?"
+     },
+     "note": {
+      "de": "höfliche Bitte",
+      "en": "polite request"
+     }
+    },
+    {
+     "es": "Querría un café.",
+     "gloss": {
+      "de": "Ich hätte gern einen Kaffee.",
+      "en": "I would like a coffee."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Hypothesen",
+    "en": "Hypotheses"
+   },
+   "body": {
+    "de": "Es beschreibt, was unter einer Bedingung passieren würde, oft im Nebensatz.",
+    "en": "It describes what would happen under a condition, often in the main clause."
+   },
+   "examples": [
+    {
+     "es": "Yo sería más feliz allí.",
+     "gloss": {
+      "de": "Ich wäre dort glücklicher.",
+      "en": "I would be happier there."
+     }
+    },
+    {
+     "es": "Tendríamos más tiempo.",
+     "gloss": {
+      "de": "Wir hätten mehr Zeit.",
+      "en": "We would have more time."
+     }
+    },
+    {
+     "es": "Eso no haría falta.",
+     "gloss": {
+      "de": "Das wäre nicht nötig.",
+      "en": "That would not be necessary."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Ratschläge",
+    "en": "Advice"
+   },
+   "body": {
+    "de": "Mit deber oder poder im condicional gibt man freundliche Empfehlungen.",
+    "en": "Use deber or poder in the conditional to give friendly recommendations."
+   },
+   "examples": [
+    {
+     "es": "Deberías descansar más.",
+     "gloss": {
+      "de": "Du solltest dich mehr ausruhen.",
+      "en": "You should rest more."
+     },
+     "note": {
+      "de": "freundlicher Tipp",
+      "en": "friendly tip"
+     }
+    },
+    {
+     "es": "Podrías hablar con él.",
+     "gloss": {
+      "de": "Du könntest mit ihm reden.",
+      "en": "You could talk to him."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Zukunft aus der Vergangenheit",
+    "en": "Future-in-the-past"
+   },
+   "body": {
+    "de": "Es nennt etwas, das aus einem Vergangenheitspunkt heraus noch bevorstand.",
+    "en": "It names something still to come as seen from a point in the past."
+   },
+   "examples": [
+    {
+     "es": "Dijo que vendría pronto.",
+     "gloss": {
+      "de": "Er sagte, dass er bald kommen würde.",
+      "en": "He said he would come soon."
+     }
+    },
+    {
+     "es": "Pensé que lo harías.",
+     "gloss": {
+      "de": "Ich dachte, du würdest es tun.",
+      "en": "I thought you would do it."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßige Stämme wie im Futur",
+    "en": "Irregular stems as in the future"
+   },
+   "body": {
+    "de": "Verben mit unregelmäßigem Futurstamm nutzen denselben Stamm plus die -ía-Endungen.",
+    "en": "Verbs with an irregular future stem use that same stem plus the -ía endings."
+   },
+   "examples": [
+    {
+     "es": "Tendría que irme ya.",
+     "gloss": {
+      "de": "Ich müsste schon gehen.",
+      "en": "I would have to leave now."
+     },
+     "note": {
+      "de": "tener: tendr-",
+      "en": "tener: tendr-"
+     }
+    },
+    {
+     "es": "¿Qué dirías tú?",
+     "gloss": {
+      "de": "Was würdest du sagen?",
+      "en": "What would you say?"
+     },
+     "note": {
+      "de": "decir: dir-",
+      "en": "decir: dir-"
+     }
+    },
+    {
+     "es": "Yo no haría eso.",
+     "gloss": {
+      "de": "Das würde ich nicht tun.",
+      "en": "I would not do that."
+     },
+     "note": {
+      "de": "hacer: har-",
+      "en": "hacer: har-"
+     }
+    }
+   ]
+  }
+ ],
+ "endings": {
+  "label": {
+   "de": "Regelmäßige Endungen",
+   "en": "Regular endings"
+  },
+  "ar": [
+   "-ía",
+   "-ías",
+   "-ía",
+   "-íamos",
+   "-íais",
+   "-ían"
+  ],
+  "er": [
+   "-ía",
+   "-ías",
+   "-ía",
+   "-íamos",
+   "-íais",
+   "-ían"
+  ],
+  "ir": [
+   "-ía",
+   "-ías",
+   "-ía",
+   "-íamos",
+   "-íais",
+   "-ían"
+  ]
+ },
+ "examples": [
+  {
+   "es": "¿Te gustaría venir con nosotros?",
+   "gloss": {
+    "de": "Würdest du gern mitkommen?",
+    "en": "Would you like to come with us?"
+   }
+  },
+  {
+   "es": "En tu lugar, dormiría más.",
+   "gloss": {
+    "de": "An deiner Stelle würde ich mehr schlafen.",
+    "en": "In your place, I would sleep more."
+   }
+  },
+  {
+   "es": "Ellos estarían muy contentos.",
+   "gloss": {
+    "de": "Sie wären sehr zufrieden.",
+    "en": "They would be very happy."
+   }
+  },
+  {
+   "es": "Querríamos quedarnos un día más.",
+   "gloss": {
+    "de": "Wir würden gern einen Tag länger bleiben.",
+    "en": "We would like to stay one more day."
+   }
+  }
+ ]
+}

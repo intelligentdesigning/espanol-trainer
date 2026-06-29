@@ -1,0 +1,186 @@
+{
+ "kind": "tense",
+ "id": "pluscuamperfecto",
+ "name": {
+  "de": "Plusquamperfekt (pluscuamperfecto)",
+  "en": "Past perfect (pluscuamperfecto)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Für eine Handlung, die schon vor einem anderen Ereignis in der Vergangenheit abgeschlossen war (die Vorvergangenheit).",
+  "en": "For an action already completed before another past event (the past-before-the-past)."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung",
+    "en": "Formation"
+   },
+   "body": {
+    "de": "haber im Imperfekt (había, habías, había, habíamos, habíais, habían) plus Partizip.",
+    "en": "haber in the imperfect (había, habías, había, habíamos, habíais, habían) plus the participle."
+   },
+   "examples": [
+    {
+     "es": "yo había hablado",
+     "gloss": {
+      "de": "ich hatte gesprochen",
+      "en": "I had spoken"
+     },
+     "note": {
+      "de": "había + Partizip",
+      "en": "había + participle"
+     }
+    },
+    {
+     "es": "nosotros habíamos comido",
+     "gloss": {
+      "de": "wir hatten gegessen",
+      "en": "we had eaten"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Vergangenheit vor der Vergangenheit",
+    "en": "Past before the past"
+   },
+   "body": {
+    "de": "Beschreibt eine Handlung, die vor einem anderen Vergangenheitsereignis schon vorbei war.",
+    "en": "Describes an action that was already over before another past event."
+   },
+   "examples": [
+    {
+     "es": "Ya habíamos comido cuando llegó.",
+     "gloss": {
+      "de": "Wir hatten schon gegessen, als er kam.",
+      "en": "We had already eaten when he arrived."
+     }
+    },
+    {
+     "es": "Ella ya había salido.",
+     "gloss": {
+      "de": "Sie war schon gegangen.",
+      "en": "She had already left."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Partizip bleibt unverändert",
+    "en": "Participle stays fixed"
+   },
+   "body": {
+    "de": "Das Partizip endet immer auf -o und verändert sich nie nach Person oder Geschlecht.",
+    "en": "The participle always ends in -o and never changes for person or gender."
+   },
+   "examples": [
+    {
+     "es": "habían vivido",
+     "gloss": {
+      "de": "sie hatten gelebt",
+      "en": "they had lived"
+     },
+     "note": {
+      "de": "-o bleibt fest",
+      "en": "-o stays fixed"
+     }
+    },
+    {
+     "es": "habíamos ido",
+     "gloss": {
+      "de": "wir waren gegangen",
+      "en": "we had gone"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßige Partizipien",
+    "en": "Irregular participles"
+   },
+   "body": {
+    "de": "Einige Verben haben ein eigenes Partizip, etwa hacer → hecho und decir → dicho.",
+    "en": "Some verbs have a special participle, like hacer → hecho and decir → dicho."
+   },
+   "examples": [
+    {
+     "es": "Yo ya había hecho la cena.",
+     "gloss": {
+      "de": "Ich hatte das Abendessen schon gemacht.",
+      "en": "I had already made dinner."
+     }
+    },
+    {
+     "es": "Tú habías dicho la verdad.",
+     "gloss": {
+      "de": "Du hattest die Wahrheit gesagt.",
+      "en": "You had told the truth."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Zwei feste Teile",
+    "en": "Two fixed parts"
+   },
+   "body": {
+    "de": "haber und Partizip stehen zusammen; dazwischen kommt nur das Wort no.",
+    "en": "haber and the participle stay together; only the word no goes between them around them."
+   },
+   "examples": [
+    {
+     "es": "No habías tenido tiempo.",
+     "gloss": {
+      "de": "Du hattest keine Zeit gehabt.",
+      "en": "You had not had time."
+     }
+    },
+    {
+     "es": "Todavía no habían dormido.",
+     "gloss": {
+      "de": "Sie hatten noch nicht geschlafen.",
+      "en": "They had not slept yet."
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Cuando llamaste, yo ya había salido.",
+   "gloss": {
+    "de": "Als du anriefst, war ich schon gegangen.",
+    "en": "When you called, I had already left."
+   }
+  },
+  {
+   "es": "Nunca habíamos estado en Madrid.",
+   "gloss": {
+    "de": "Wir waren noch nie in Madrid gewesen.",
+    "en": "We had never been in Madrid."
+   }
+  },
+  {
+   "es": "Ella había vivido allí muchos años.",
+   "gloss": {
+    "de": "Sie hatte dort viele Jahre gelebt.",
+    "en": "She had lived there for many years."
+   }
+  },
+  {
+   "es": "Antes de la clase ya habían hecho los deberes.",
+   "gloss": {
+    "de": "Vor dem Unterricht hatten sie die Hausaufgaben schon gemacht.",
+    "en": "Before class they had already done the homework."
+   }
+  }
+ ]
+}

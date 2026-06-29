@@ -14,6 +14,19 @@
     }
   },
   {
+    "kind": "fill",
+    "prompt": "Padre ___ hijo trabajan juntos en el taller.",
+    "promptGloss": {
+      "de": "Vater und Sohn arbeiten zusammen in der Werkstatt.",
+      "en": "Father and son work together in the workshop."
+    },
+    "answer": "e",
+    "explain": {
+      "de": "'hijo' beginnt mit hi-, daher wird 'y' zu 'e'. Der Anfangslaut des Folgeworts entscheidet.",
+      "en": "'hijo' starts with hi-, so 'y' becomes 'e'. The following word's initial sound decides this."
+    }
+  },
+  {
     "kind": "choice",
     "prompt": "Necesitamos madera ___ hierro para la construcción.",
     "promptGloss": {
@@ -65,6 +78,20 @@
     "explain": {
       "de": "'ocho' beginnt mit o-, deshalb wird 'o' zu 'u'. Klassischer Fall: 'siete u ocho'.",
       "en": "'ocho' starts with o-, so 'o' becomes 'u'. A classic case: 'siete u ocho'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Hay siete ___ ocho sillas en la cocina?",
+    "promptGloss": {
+      "de": "Gibt es sieben oder acht Stühle in der Küche?",
+      "en": "Are there seven or eight chairs in the kitchen?"
+    },
+    "options": ["u", "o"],
+    "answer": "u",
+    "explain": {
+      "de": "Vor 'ocho' (o-) wird 'o' zu 'u'. 'o ocho' wäre durch den doppelten o-Laut schwer verständlich.",
+      "en": "Before 'ocho' (o-), 'o' becomes 'u'. 'o ocho' would be hard to understand because of the doubled o- sound."
     }
   },
   {
@@ -143,7 +170,7 @@
       "de": "Warum hast du mir nicht die Wahrheit gesagt?",
       "en": "Why didn't you tell me the truth?"
     },
-    "options": ["Por qué", "Porque", "Porqué", "Por que"],
+    "options": ["Por qué", "Porque", "Porqué"],
     "answer": "Por qué",
     "explain": {
       "de": "In einer direkten Frage steht 'por qué' (zwei Wörter, mit Akzent) = warum. 'porque' bedeutet 'weil' und leitet keine Frage ein.",
@@ -220,19 +247,6 @@
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Aunque no me ___ (gustar) la verdura, la como porque es sana.",
-    "promptGloss": {
-      "de": "Obwohl ich Gemüse nicht mag, esse ich es, weil es gesund ist.",
-      "en": "Although I don't like vegetables, I eat them because they're healthy."
-    },
-    "answer": "gusta",
-    "explain": {
-      "de": "Der Sprecher gibt eine reale Tatsache zu (er mag es wirklich nicht), also 'aunque' + Indikativ: 'gusta'. Der Subjuntivo 'guste' würde es zur bloßen Annahme machen.",
-      "en": "The speaker concedes a real fact (they genuinely dislike it), so 'aunque' + indicative: 'gusta'. The subjunctive 'guste' would turn it into a mere hypothesis."
-    }
-  },
-  {
     "kind": "choice",
     "prompt": "Estoy seguro de ___ vas a aprobar el examen.",
     "promptGloss": {
@@ -258,20 +272,6 @@
     "explain": {
       "de": "Hier werden zwei gleichwertige Hauptsätze verbunden, also die beiordnende Konjunktion 'y'. 'que'/'porque' würden einen untergeordneten Nebensatz einleiten.",
       "en": "Two equal main clauses are linked here, so the coordinating conjunction 'y'. 'que'/'porque' would introduce a subordinate clause."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "No fue por dinero, ___ porque creía en el proyecto.",
-    "promptGloss": {
-      "de": "Es war nicht wegen des Geldes, sondern weil er an das Projekt glaubte.",
-      "en": "It wasn't for money, but because he believed in the project."
-    },
-    "options": ["sino", "pero", "sino que"],
-    "answer": "sino",
-    "explain": {
-      "de": "Nach der Verneinung korrigiert 'sino' direkt mit dem Nebensatz 'porque...'; da hier kein eigenes konjugiertes Verb direkt nach 'sino' steht, sondern die Konjunktion 'porque', verwendet man 'sino', nicht 'sino que'. 'pero' wäre keine Korrektur.",
-      "en": "After the negation, 'sino' corrects directly with the 'porque...' clause; since 'porque' (not a bare conjugated verb) follows, use 'sino', not 'sino que'. 'pero' would not express a correction."
     }
   }
 ]

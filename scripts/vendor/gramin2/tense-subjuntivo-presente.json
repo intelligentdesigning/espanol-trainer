@@ -1,0 +1,284 @@
+{
+ "kind": "tense",
+ "id": "subjuntivo-presente",
+ "name": {
+  "de": "Subjuntivo Präsens",
+  "en": "Present subjunctive"
+ },
+ "mood": {
+  "de": "Subjuntivo",
+  "en": "Subjunctive"
+ },
+ "summary": {
+  "de": "Der presente de subjuntivo steht nach Ausdrücken von Wunsch, Gefühl, Zweifel, Notwendigkeit und unpersönlicher Wertung, meist im Nebensatz mit que.",
+  "en": "The present subjunctive is used after expressions of wish, emotion, doubt, necessity and impersonal opinion, usually in a que-clause."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Auslöser: Wunsch, Gefühl, Zweifel",
+    "en": "Triggers: wish, emotion, doubt"
+   },
+   "body": {
+    "de": "Nach Wunsch, Gefühl, Zweifel oder Notwendigkeit folgt im que-Nebensatz der Subjuntivo.",
+    "en": "After wish, emotion, doubt or necessity, the que-clause takes the subjunctive."
+   },
+   "examples": [
+    {
+     "es": "Quiero que hables conmigo.",
+     "gloss": {
+      "de": "Ich will, dass du mit mir sprichst.",
+      "en": "I want you to talk to me."
+     },
+     "note": {
+      "de": "Wunsch",
+      "en": "wish"
+     }
+    },
+    {
+     "es": "Me alegro de que comas más.",
+     "gloss": {
+      "de": "Ich freue mich, dass du mehr isst.",
+      "en": "I'm glad you eat more."
+     },
+     "note": {
+      "de": "Gefühl",
+      "en": "emotion"
+     }
+    },
+    {
+     "es": "Dudo que puedan venir.",
+     "gloss": {
+      "de": "Ich bezweifle, dass sie kommen können.",
+      "en": "I doubt they can come."
+     },
+     "note": {
+      "de": "Zweifel",
+      "en": "doubt"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unpersönliche Wertung",
+    "en": "Impersonal opinion"
+   },
+   "body": {
+    "de": "Unpersönliche Wendungen wie es ist nötig/gut, dass verlangen ebenfalls den Subjuntivo.",
+    "en": "Impersonal phrases like it's necessary/good that also require the subjunctive."
+   },
+   "examples": [
+    {
+     "es": "Es necesario que tengas paciencia.",
+     "gloss": {
+      "de": "Es ist nötig, dass du Geduld hast.",
+      "en": "It's necessary that you have patience."
+     }
+    },
+    {
+     "es": "Es bueno que duermas bien.",
+     "gloss": {
+      "de": "Es ist gut, dass du gut schläfst.",
+      "en": "It's good that you sleep well."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "ojalá, para que, cuando + Zukunft",
+    "en": "ojalá, para que, cuando + future"
+   },
+   "body": {
+    "de": "ojalá, para que und cuando (bei Zukunftsbezug) lösen den Subjuntivo aus.",
+    "en": "ojalá, para que and cuando (referring to the future) trigger the subjunctive."
+   },
+   "examples": [
+    {
+     "es": "Ojalá haga buen tiempo.",
+     "gloss": {
+      "de": "Hoffentlich ist schönes Wetter.",
+      "en": "Hopefully the weather is nice."
+     },
+     "note": {
+      "de": "hoffentlich",
+      "en": "hopefully"
+     }
+    },
+    {
+     "es": "Te lo digo para que sepas la verdad.",
+     "gloss": {
+      "de": "Ich sage es dir, damit du die Wahrheit weißt.",
+      "en": "I tell you so that you know the truth."
+     },
+     "note": {
+      "de": "Absicht",
+      "en": "purpose"
+     }
+    },
+    {
+     "es": "Cuando vayas, llámame.",
+     "gloss": {
+      "de": "Wenn du gehst, ruf mich an.",
+      "en": "When you go, call me."
+     },
+     "note": {
+      "de": "Zukunft",
+      "en": "future"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Bildung: yo-Stamm, Endung tauschen",
+    "en": "Formation: yo-stem, swap endings"
+   },
+   "body": {
+    "de": "Vom yo-Stamm des Präsens ausgehen und die Endung tauschen: -ar zu -e, -er/-ir zu -a.",
+    "en": "Take the yo present stem and swap endings: -ar to -e, -er/-ir to -a."
+   },
+   "examples": [
+    {
+     "es": "Espero que hablen claro.",
+     "gloss": {
+      "de": "Ich hoffe, dass sie deutlich sprechen.",
+      "en": "I hope they speak clearly."
+     },
+     "note": {
+      "de": "-ar zu -en",
+      "en": "-ar to -en"
+     }
+    },
+    {
+     "es": "Quiero que comas algo.",
+     "gloss": {
+      "de": "Ich will, dass du etwas isst.",
+      "en": "I want you to eat something."
+     },
+     "note": {
+      "de": "-er zu -as",
+      "en": "-er to -as"
+     }
+    },
+    {
+     "es": "Es raro que tenga miedo.",
+     "gloss": {
+      "de": "Es ist seltsam, dass er Angst hat.",
+      "en": "It's strange that he is afraid."
+     },
+     "note": {
+      "de": "tengo zu tenga",
+      "en": "tengo to tenga"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßige & Stammwechsel",
+    "en": "Irregulars & stem changes"
+   },
+   "body": {
+    "de": "Eigene Formen: sea, vaya, haya, sepa, dé, esté; Stammwechsel bleiben erhalten (quiera, pueda, duerma).",
+    "en": "Special forms: sea, vaya, haya, sepa, dé, esté; stem changes carry over (quiera, pueda, duerma)."
+   },
+   "examples": [
+    {
+     "es": "Espero que sea verdad.",
+     "gloss": {
+      "de": "Ich hoffe, dass es wahr ist.",
+      "en": "I hope it's true."
+     },
+     "note": {
+      "de": "ser",
+      "en": "ser"
+     }
+    },
+    {
+     "es": "Quiero que estés aquí.",
+     "gloss": {
+      "de": "Ich will, dass du hier bist.",
+      "en": "I want you to be here."
+     },
+     "note": {
+      "de": "estar",
+      "en": "estar"
+     }
+    },
+    {
+     "es": "No creo que quieras eso.",
+     "gloss": {
+      "de": "Ich glaube nicht, dass du das willst.",
+      "en": "I don't think you want that."
+     },
+     "note": {
+      "de": "Stammwechsel",
+      "en": "stem change"
+     }
+    }
+   ]
+  }
+ ],
+ "endings": {
+  "label": {
+   "de": "Regelmäßige Endungen",
+   "en": "Regular endings"
+  },
+  "ar": [
+   "-e",
+   "-es",
+   "-e",
+   "-emos",
+   "-éis",
+   "-en"
+  ],
+  "er": [
+   "-a",
+   "-as",
+   "-a",
+   "-amos",
+   "-áis",
+   "-an"
+  ],
+  "ir": [
+   "-a",
+   "-as",
+   "-a",
+   "-amos",
+   "-áis",
+   "-an"
+  ]
+ },
+ "examples": [
+  {
+   "es": "Ojalá vengan pronto.",
+   "gloss": {
+    "de": "Hoffentlich kommen sie bald.",
+    "en": "Hopefully they come soon."
+   }
+  },
+  {
+   "es": "Es importante que vivamos en paz.",
+   "gloss": {
+    "de": "Es ist wichtig, dass wir in Frieden leben.",
+    "en": "It's important that we live in peace."
+   }
+  },
+  {
+   "es": "Dudo que puedas hacerlo solo.",
+   "gloss": {
+    "de": "Ich bezweifle, dass du es allein schaffst.",
+    "en": "I doubt you can do it alone."
+   }
+  },
+  {
+   "es": "No creo que digas la verdad.",
+   "gloss": {
+    "de": "Ich glaube nicht, dass du die Wahrheit sagst.",
+    "en": "I don't think you're telling the truth."
+   }
+  }
+ ]
+}

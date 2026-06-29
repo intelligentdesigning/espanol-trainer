@@ -1,0 +1,194 @@
+{
+ "kind": "topic",
+ "id": "pronombres-sujeto",
+ "name": {
+  "de": "Subjektpronomen",
+  "en": "Subject pronouns"
+ },
+ "summary": {
+  "de": "Spanische Subjektpronomen (yo, tú, usted ...) und wann man sie weglässt.",
+  "en": "Spanish subject pronouns (yo, tú, usted ...) and when to drop them."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Die Pronomen",
+    "en": "The pronouns"
+   },
+   "body": {
+    "de": "yo, tú, usted, él/ella; nosotros/-as, vosotros/-as, ustedes, ellos/ellas.",
+    "en": "yo, tú, usted, él/ella; nosotros/-as, vosotros/-as, ustedes, ellos/ellas."
+   },
+   "examples": [
+    {
+     "es": "Yo soy alemán y ella es española.",
+     "gloss": {
+      "de": "Ich bin Deutscher und sie ist Spanierin.",
+      "en": "I am German and she is Spanish."
+     }
+    },
+    {
+     "es": "Nosotros trabajamos, ellos descansan.",
+     "gloss": {
+      "de": "Wir arbeiten, sie ruhen sich aus.",
+      "en": "We work, they rest."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Meistens weglassen",
+    "en": "Usually dropped"
+   },
+   "body": {
+    "de": "Die Verbendung zeigt die Person, daher steht das Pronomen meist gar nicht.",
+    "en": "The verb ending shows the person, so the pronoun is usually left out."
+   },
+   "examples": [
+    {
+     "es": "Hablo español.",
+     "gloss": {
+      "de": "Ich spreche Spanisch.",
+      "en": "I speak Spanish."
+     },
+     "note": {
+      "de": "kein \"yo\" nötig",
+      "en": "no \"yo\" needed"
+     }
+    },
+    {
+     "es": "¿Vives en Madrid?",
+     "gloss": {
+      "de": "Wohnst du in Madrid?",
+      "en": "Do you live in Madrid?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Pronomen zur Betonung",
+    "en": "Pronoun for emphasis"
+   },
+   "body": {
+    "de": "Man setzt das Pronomen für Betonung oder Kontrast zwischen Personen.",
+    "en": "You add the pronoun for emphasis or contrast between people."
+   },
+   "examples": [
+    {
+     "es": "Yo pago, tú esperas aquí.",
+     "gloss": {
+      "de": "Ich zahle, du wartest hier.",
+      "en": "I pay, you wait here."
+     },
+     "note": {
+      "de": "Kontrast",
+      "en": "contrast"
+     }
+    },
+    {
+     "es": "¿Y tú? ¿Qué quieres?",
+     "gloss": {
+      "de": "Und du? Was willst du?",
+      "en": "And you? What do you want?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "tú vs. usted",
+    "en": "tú vs. usted"
+   },
+   "body": {
+    "de": "\"tú\" ist informell, \"usted\" höflich/formell und steht mit der él/ella-Form.",
+    "en": "\"tú\" is informal, \"usted\" is polite/formal and takes the él/ella verb form."
+   },
+   "examples": [
+    {
+     "es": "¿Cómo estás? (tú)",
+     "gloss": {
+      "de": "Wie geht es dir?",
+      "en": "How are you?"
+     },
+     "note": {
+      "de": "informell",
+      "en": "informal"
+     }
+    },
+    {
+     "es": "¿Cómo está usted?",
+     "gloss": {
+      "de": "Wie geht es Ihnen?",
+      "en": "How are you?"
+     },
+     "note": {
+      "de": "höflich",
+      "en": "polite"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Plural und Geschlecht",
+    "en": "Plural and gender"
+   },
+   "body": {
+    "de": "nosotras/vosotras/ellas nur bei reinen Frauengruppen; sonst maskuline Form.",
+    "en": "Use nosotras/vosotras/ellas only for all-female groups; otherwise the masculine form."
+   },
+   "examples": [
+    {
+     "es": "Nosotras somos amigas.",
+     "gloss": {
+      "de": "Wir sind Freundinnen.",
+      "en": "We are (female) friends."
+     },
+     "note": {
+      "de": "nur Frauen",
+      "en": "women only"
+     }
+    },
+    {
+     "es": "Ellos son mis hermanos.",
+     "gloss": {
+      "de": "Sie sind meine Geschwister.",
+      "en": "They are my siblings."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "vos und vosotros",
+    "en": "vos and vosotros"
+   },
+   "body": {
+    "de": "In Lateinamerika ist der Plural \"ustedes\"; vielerorts ersetzt \"vos\" das \"tú\".",
+    "en": "In Latin America the plural is \"ustedes\"; in many areas \"vos\" replaces \"tú\"."
+   },
+   "examples": [
+    {
+     "es": "Vos tenés razón. (Argentina)",
+     "gloss": {
+      "de": "Du hast recht.",
+      "en": "You are right."
+     },
+     "note": {
+      "de": "voseo",
+      "en": "voseo"
+     }
+    },
+    {
+     "es": "Ustedes hablan rápido.",
+     "gloss": {
+      "de": "Ihr/Sie sprecht schnell.",
+      "en": "You (pl.) speak fast."
+     }
+    }
+   ]
+  }
+ ]
+}

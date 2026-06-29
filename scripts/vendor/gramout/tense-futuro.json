@@ -1,220 +1,257 @@
 [
   {
-    "kind": "choice",
-    "prompt": "Mañana ___ con mi jefe sobre el proyecto.",
+    "kind": "fill",
+    "prompt": "Mañana ___ con ella sobre el plan.",
     "promptGloss": {
-      "de": "Morgen werde ich mit meinem Chef über das Projekt sprechen.",
-      "en": "Tomorrow I will talk with my boss about the project."
+      "de": "Morgen werde ich mit ihr über den Plan sprechen.",
+      "en": "Tomorrow I will talk with her about the plan."
     },
-    "options": ["hablaré", "hablará", "hablaríe", "hablareé"],
     "answer": "hablaré",
     "explain": {
-      "de": "Die yo-Endung im Futuro ist -é, angehängt an den vollen Infinitiv: hablar + é. 'hablará' ist die él/ella-Form, die anderen Formen existieren nicht.",
-      "en": "The yo ending in the futuro is -é, added to the full infinitive: hablar + é. 'hablará' is the él/ella form; the other forms do not exist."
+      "de": "Die yo-Endung -é wird an den vollen Infinitiv hablar gehängt: hablar + é.",
+      "en": "The yo ending -é attaches to the full infinitive hablar: hablar + é."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Nosotros ___ a las dos en casa.",
+    "promptGloss": {
+      "de": "Wir werden um zwei zu Hause essen.",
+      "en": "We will eat at two at home."
+    },
+    "options": ["comeremos", "comerémos", "comremos", "comeríamos"],
+    "answer": "comeremos",
+    "explain": {
+      "de": "Die nosotros-Endung -emos kommt an den ganzen Infinitiv comer; comeremos trägt keinen Akzent. 'comeríamos' wäre Konditional.",
+      "en": "The nosotros ending -emos attaches to the full infinitive comer; comeremos has no accent. 'comeríamos' would be conditional."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Nosotros ___ a las dos en el restaurante. (comer)",
-    "promptGloss": {
-      "de": "Wir werden um zwei im Restaurant essen.",
-      "en": "We will eat at two at the restaurant."
-    },
-    "answer": "comeremos",
-    "explain": {
-      "de": "Die nosotros-Endung -emos wird an den ganzen Infinitiv comer gehängt: comer + emos. Der Infinitiv bleibt vollständig erhalten.",
-      "en": "The nosotros ending -emos attaches to the full infinitive comer: comer + emos. The infinitive stays intact."
-    }
-  },
-  {
-    "kind": "choice",
     "prompt": "El año que viene tú ___ en Madrid.",
     "promptGloss": {
       "de": "Nächstes Jahr wirst du in Madrid wohnen.",
       "en": "Next year you will live in Madrid."
     },
-    "options": ["vivirás", "viviras", "vivrás", "vivirías"],
     "answer": "vivirás",
     "explain": {
-      "de": "-ir-Verben bekommen dieselben Endungen wie -ar/-er; die tú-Form ist vivir + ás = vivirás (mit Akzent auf á). 'vivirías' wäre Konditional, 'vivras' lässt das i des Infinitivs weg.",
-      "en": "-ir verbs take the same endings as -ar/-er; the tú form is vivir + ás = vivirás (accent on á). 'vivirías' is conditional, and 'vivras' drops the i of the infinitive."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Yo ___ tiempo para ayudarte el lunes. (tener)",
-    "promptGloss": {
-      "de": "Ich werde am Montag Zeit haben, dir zu helfen.",
-      "en": "I will have time to help you on Monday."
-    },
-    "answer": "tendré",
-    "explain": {
-      "de": "tener hat den unregelmäßigen Stamm tendr-; daran kommt die normale yo-Endung -é: tendré. Die Endungen bleiben also regelmäßig, nur der Stamm ändert sich.",
-      "en": "tener uses the irregular stem tendr-, to which the regular yo ending -é attaches: tendré. Only the stem changes; the endings stay regular."
+      "de": "-ir-Verben bekommen dieselben Endungen wie -ar/-er: vivir + ás = vivirás.",
+      "en": "-ir verbs take the same endings as -ar/-er: vivir + ás = vivirás."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Lo siento, no ___ venir a la reunión esta tarde.",
+    "prompt": "Ellos ___ juntos en la misma ciudad.",
     "promptGloss": {
-      "de": "Tut mir leid, wir werden heute Nachmittag nicht zur Sitzung kommen können.",
-      "en": "Sorry, we won't be able to come to the meeting this afternoon."
+      "de": "Sie werden zusammen in derselben Stadt wohnen.",
+      "en": "They will live together in the same city."
     },
-    "options": ["podremos", "poderemos", "podriamos", "pudremos"],
-    "answer": "podremos",
+    "options": ["vivirán", "viviran", "vivrán", "vivirían"],
+    "answer": "vivirán",
     "explain": {
-      "de": "poder nutzt den Sonderstamm podr-; nosotros = podr + emos = podremos. 'poderemos' baut fälschlich auf dem vollen Infinitiv auf, 'podriamos' ist Konditional.",
-      "en": "poder uses the special stem podr-; nosotros = podr + emos = podremos. 'poderemos' wrongly uses the full infinitive, and 'podriamos' is conditional."
+      "de": "Die ellos-Endung -án kommt an den vollen Infinitiv vivir und trägt den Akzent: vivirán. 'vivirían' wäre Konditional.",
+      "en": "The ellos ending -án attaches to the full infinitive vivir and carries the accent: vivirán. 'vivirían' would be conditional."
     }
   },
   {
     "kind": "fill",
-    "prompt": "¿Qué ___ tú después de las clases? (hacer)",
+    "prompt": "Pasado mañana ella ___ para el examen final.",
+    "promptGloss": {
+      "de": "Übermorgen wird sie für die Abschlussprüfung lernen.",
+      "en": "The day after tomorrow she will study for the final exam."
+    },
+    "answer": "estudiará",
+    "explain": {
+      "de": "Die él/ella-Endung -á wird an den ganzen Infinitiv estudiar gehängt: estudiar + á.",
+      "en": "The él/ella ending -á attaches to the full infinitive estudiar: estudiar + á."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El lunes yo ___ tiempo para ayudarte.",
+    "promptGloss": {
+      "de": "Am Montag werde ich Zeit haben, dir zu helfen.",
+      "en": "On Monday I will have time to help you."
+    },
+    "answer": "tendré",
+    "explain": {
+      "de": "tener hat den unregelmäßigen Stamm tendr-, dazu die normale Endung -é: tendré.",
+      "en": "tener uses the irregular stem tendr- plus the regular ending -é: tendré."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Lo siento, mañana no ___ venir a la reunión.",
+    "promptGloss": {
+      "de": "Tut mir leid, morgen werden wir nicht zur Sitzung kommen können.",
+      "en": "Sorry, tomorrow we won't be able to come to the meeting."
+    },
+    "options": ["podremos", "poderemos", "podríamos", "podrémos"],
+    "answer": "podremos",
+    "explain": {
+      "de": "poder hat den Stamm podr-, dazu die nosotros-Endung -emos: podremos. 'poderemos' nutzt fälschlich den vollen Infinitiv, 'podríamos' wäre Konditional.",
+      "en": "poder uses the stem podr- plus the nosotros ending -emos: podremos. 'poderemos' wrongly keeps the full infinitive; 'podríamos' would be conditional."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Qué ___ tú después de la clase?",
     "promptGloss": {
       "de": "Was wirst du nach dem Unterricht machen?",
       "en": "What will you do after class?"
     },
+    "options": ["harás", "hacerás", "harías", "hacrás"],
     "answer": "harás",
     "explain": {
-      "de": "hacer hat den unregelmäßigen Stamm har-; tú = har + ás = harás. Eine regelmäßige Bildung 'hacerás' wäre falsch.",
-      "en": "hacer has the irregular stem har-; tú = har + ás = harás. A regular form 'hacerás' would be wrong."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Según el pronóstico, ___ un buen día para la excursión.",
-    "promptGloss": {
-      "de": "Laut Vorhersage wird es ein guter Tag für den Ausflug sein.",
-      "en": "According to the forecast, it will be a good day for the trip."
-    },
-    "options": ["será", "sería", "es", "estará"],
-    "answer": "será",
-    "explain": {
-      "de": "Das Futuro drückt hier eine Vorhersage aus: ser + á = será. 'sería' ist Konditional, 'es' ist Präsens, und für 'ein guter Tag sein' braucht man ser, nicht estar.",
-      "en": "The futuro expresses a prediction here: ser + á = será. 'sería' is conditional, 'es' is present, and 'to be a good day' needs ser, not estar."
+      "de": "hacer hat den Stamm har-, dazu die tú-Endung -ás: harás. 'hacerás' nutzt fälschlich den vollen Infinitiv, 'harías' wäre Konditional.",
+      "en": "hacer uses the stem har- plus the tú ending -ás: harás. 'hacerás' wrongly keeps the full infinitive; 'harías' would be conditional."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Estoy seguro de que ellos ___ que sí. (decir)",
+    "prompt": "Nosotros ___ la mesa más tarde.",
+    "promptGloss": {
+      "de": "Wir werden später den Tisch decken.",
+      "en": "We will set the table later."
+    },
+    "answer": "pondremos",
+    "explain": {
+      "de": "poner hat den unregelmäßigen Stamm pondr-, dazu die nosotros-Endung -emos: pondremos.",
+      "en": "poner uses the irregular stem pondr- plus the nosotros ending -emos: pondremos."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Tú ___ a la fiesta el sábado, ¿verdad?",
+    "promptGloss": {
+      "de": "Du wirst am Samstag zur Party kommen, oder?",
+      "en": "You will come to the party on Saturday, right?"
+    },
+    "answer": "vendrás",
+    "explain": {
+      "de": "venir hat den Stamm vendr-, dazu die tú-Endung -ás: vendrás.",
+      "en": "venir uses the stem vendr- plus the tú ending -ás: vendrás."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Pronto tú ___ la verdad sobre todo esto.",
+    "promptGloss": {
+      "de": "Bald wirst du die Wahrheit über all das wissen.",
+      "en": "Soon you will know the truth about all this."
+    },
+    "options": ["sabrás", "saberás", "sabrías", "sabás"],
+    "answer": "sabrás",
+    "explain": {
+      "de": "saber hat den Stamm sabr-, dazu die tú-Endung -ás: sabrás. 'saberás' nutzt fälschlich den vollen Infinitiv, 'sabrías' wäre Konditional.",
+      "en": "saber uses the stem sabr- plus the tú ending -ás: sabrás. 'saberás' wrongly keeps the full infinitive; 'sabrías' would be conditional."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Creo que mañana ___ un buen día.",
+    "promptGloss": {
+      "de": "Ich glaube, morgen wird es ein guter Tag sein.",
+      "en": "I think tomorrow it will be a good day."
+    },
+    "answer": "será",
+    "explain": {
+      "de": "Vorhersage im Futuro: die él/ella-Form von ser ist será. ser hat keinen unregelmäßigen Stamm.",
+      "en": "Prediction in the futuro: the él/ella form of ser is será. ser has no irregular stem."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Estoy seguro de que ellos ___ que sí.",
     "promptGloss": {
       "de": "Ich bin sicher, dass sie Ja sagen werden.",
       "en": "I'm sure they will say yes."
     },
+    "options": ["dirán", "decirán", "dirían", "dicen"],
     "answer": "dirán",
     "explain": {
-      "de": "decir hat den unregelmäßigen Stamm dir-; ellos = dir + án = dirán. Die Vorhersage wird mit dem Futuro ausgedrückt, eine Form 'decirán' wäre falsch.",
-      "en": "decir has the irregular stem dir-; ellos = dir + án = dirán. The prediction uses the futuro, and a form 'decirán' would be wrong."
+      "de": "Vorhersage im Futuro: decir hat den Stamm dir-, dazu die ellos-Endung -án: dirán. 'decirán' nutzt fälschlich den Infinitiv, 'dirían' wäre Konditional.",
+      "en": "Prediction in the futuro: decir uses the stem dir- plus the ellos ending -án: dirán. 'decirán' wrongly keeps the infinitive; 'dirían' would be conditional."
     }
   },
   {
-    "kind": "choice",
-    "prompt": "No contesta el teléfono; ___ en el cine ahora mismo.",
+    "kind": "fill",
+    "prompt": "El equipo ___ el partido del domingo.",
     "promptGloss": {
-      "de": "Er geht nicht ans Telefon; er ist wohl gerade jetzt im Kino.",
-      "en": "He's not answering the phone; he must be at the cinema right now."
+      "de": "Die Mannschaft wird das Spiel am Sonntag gewinnen.",
+      "en": "The team will win Sunday's match."
     },
-    "options": ["estará", "está", "estaría", "estuvo"],
+    "answer": "ganará",
+    "explain": {
+      "de": "Vorhersage im Futuro: die él-Endung -á kommt an den vollen Infinitiv ganar: ganar + á.",
+      "en": "Prediction in the futuro: the él ending -á attaches to the full infinitive ganar: ganar + á."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No contesta el teléfono; ___ en casa ahora.",
+    "promptGloss": {
+      "de": "Er geht nicht ans Telefon; er wird wohl jetzt zu Hause sein.",
+      "en": "He's not answering the phone; he must be at home now."
+    },
     "answer": "estará",
     "explain": {
-      "de": "Hier drückt das Futuro eine Vermutung über die Gegenwart aus (er ist wohl...): estar + á = estará. 'está' wäre eine sichere Aussage, nicht die geforderte Vermutung.",
-      "en": "Here the futuro expresses conjecture about the present (he must be...): estar + á = estará. 'está' would be a certain statement, not the required guess."
+      "de": "Vermutung über die Gegenwart: das Futuro estará drückt 'wird wohl sein' aus.",
+      "en": "Conjecture about the present: the futuro estará expresses 'must be / probably is'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Están muy callados; ___ descansar después del viaje.",
+    "prompt": "Están muy callados; ___ descansar un rato.",
     "promptGloss": {
-      "de": "Sie sind sehr still; sie wollen wohl nach der Reise ausruhen.",
-      "en": "They are very quiet; they probably want to rest after the trip."
+      "de": "Sie sind sehr still; sie wollen wohl eine Weile ausruhen.",
+      "en": "They are very quiet; they probably want to rest a while."
     },
-    "options": ["querrán", "quererán", "quieren", "querían"],
+    "options": ["querrán", "quererán", "quieren", "querrían"],
     "answer": "querrán",
     "explain": {
-      "de": "querer hat den Sonderstamm querr- (mit Doppel-r); ellos = querr + án = querrán, hier als Vermutung. 'quererán' baut falsch auf dem vollen Infinitiv auf.",
-      "en": "querer uses the special stem querr- (double r); ellos = querr + án = querrán, here as conjecture. 'quererán' wrongly builds on the full infinitive."
+      "de": "Vermutung über die Gegenwart: querer hat den Stamm querr-, dazu -án: querrán. 'quererán' nutzt fälschlich den Infinitiv, 'querrían' wäre Konditional.",
+      "en": "Conjecture about the present: querer uses the stem querr- plus -án: querrán. 'quererán' wrongly keeps the infinitive; 'querrían' would be conditional."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Nosotros ___ la mesa más tarde, cuando lleguen los invitados. (poner)",
+    "prompt": "Llaman a la puerta; ___ el cartero.",
     "promptGloss": {
-      "de": "Wir werden später den Tisch decken, wenn die Gäste ankommen.",
-      "en": "We will set the table later, when the guests arrive."
+      "de": "Es klingelt an der Tür; das wird wohl der Briefträger sein.",
+      "en": "Someone's at the door; it must be the mailman."
     },
-    "answer": "pondremos",
+    "answer": "será",
     "explain": {
-      "de": "poner gehört zu den Verben mit eingeschobenem d: Stamm pondr-; nosotros = pondr + emos = pondremos. Eine Form 'poneremos' wäre falsch.",
-      "en": "poner belongs to the verbs with an inserted d: stem pondr-; nosotros = pondr + emos = pondremos. A form 'poneremos' would be wrong."
+      "de": "Vermutung über die Gegenwart: será drückt eine Vermutung aus ('wird wohl sein').",
+      "en": "Conjecture about the present: será expresses a guess ('must be / probably is')."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "La próxima semana yo ___ en avión a Sevilla.",
+    "promptGloss": {
+      "de": "Nächste Woche werde ich mit dem Flugzeug nach Sevilla reisen.",
+      "en": "Next week I will travel by plane to Seville."
+    },
+    "options": ["viajaré", "viajará", "viajaríe", "viajré"],
+    "answer": "viajaré",
+    "explain": {
+      "de": "Die yo-Endung -é kommt an den vollen Infinitiv viajar: viajar + é. 'viajará' ist die él-Form.",
+      "en": "The yo ending -é attaches to the full infinitive viajar: viajar + é. 'viajará' is the él form."
     }
   },
   {
     "kind": "fill",
-    "prompt": "¿___ (tú) a la fiesta del sábado? (venir)",
+    "prompt": "Vosotros ___ la respuesta pronto.",
     "promptGloss": {
-      "de": "Wirst du zur Party am Samstag kommen?",
-      "en": "Will you come to Saturday's party?"
+      "de": "Ihr werdet die Antwort bald bekommen.",
+      "en": "You all will receive the answer soon."
     },
-    "answer": "Vendrás",
-    "altAnswers": ["vendrás"],
+    "answer": "recibiréis",
     "explain": {
-      "de": "venir hat den unregelmäßigen Stamm vendr-; tú = vendr + ás = vendrás. Der Stamm bekommt ein eingeschobenes d, die Endung bleibt regelmäßig.",
-      "en": "venir has the irregular stem vendr-; tú = vendr + ás = vendrás. The stem gains an inserted d, while the ending stays regular."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Vosotros ___ la verdad muy pronto.",
-    "promptGloss": {
-      "de": "Ihr werdet die Wahrheit sehr bald erfahren.",
-      "en": "You (pl.) will know the truth very soon."
-    },
-    "options": ["sabréis", "saberéis", "sabráis", "sabrás"],
-    "answer": "sabréis",
-    "explain": {
-      "de": "saber hat den Sonderstamm sabr-; die vosotros-Endung ist -éis: sabr + éis = sabréis. 'saberéis' nutzt fälschlich den vollen Infinitiv, 'sabrás' ist die tú-Form.",
-      "en": "saber uses the special stem sabr-; the vosotros ending is -éis: sabr + éis = sabréis. 'saberéis' wrongly uses the full infinitive, and 'sabrás' is the tú form."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "El próximo verano mis padres ___ a Italia de vacaciones.",
-    "promptGloss": {
-      "de": "Nächsten Sommer werden meine Eltern in den Urlaub nach Italien reisen.",
-      "en": "Next summer my parents will travel to Italy on vacation."
-    },
-    "options": ["viajarán", "viajaran", "viajarían", "viajan"],
-    "answer": "viajarán",
-    "explain": {
-      "de": "Der Zeitmarker 'el próximo verano' verlangt das Futuro: viajar + án = viajarán (mit Akzent auf á). 'viajaran' (ohne Akzent) ist Subjuntivo, 'viajarían' Konditional.",
-      "en": "The time marker 'el próximo verano' calls for the futuro: viajar + án = viajarán (accent on á). 'viajaran' (no accent) is subjunctive, and 'viajarían' is conditional."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "No sé dónde está Ana, pero a esta hora ___ trabajando en la oficina.",
-    "promptGloss": {
-      "de": "Ich weiß nicht, wo Ana ist, aber um diese Uhrzeit arbeitet sie wohl im Büro.",
-      "en": "I don't know where Ana is, but at this hour she's probably working at the office."
-    },
-    "options": ["estará", "está", "estaría", "estuvo"],
-    "answer": "estará",
-    "explain": {
-      "de": "Vermutung über die Gegenwart: estar + á = estará drückt 'sie ist wohl/wahrscheinlich' aus. 'está' wäre eine sichere Aussage, 'estaría' Konditional und 'estuvo' Vergangenheit.",
-      "en": "Conjecture about the present: estar + á = estará expresses 'she's probably'. 'está' would be a certain statement, 'estaría' is conditional, and 'estuvo' is past."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Te lo prometo: lo ___ (tú) muy pronto y todo tendrá sentido. (saber)",
-    "promptGloss": {
-      "de": "Ich verspreche es dir: Du wirst es sehr bald wissen, und alles wird Sinn ergeben.",
-      "en": "I promise you: you will know it very soon, and everything will make sense."
-    },
-    "answer": "sabrás",
-    "explain": {
-      "de": "saber hat den unregelmäßigen Stamm sabr-; tú = sabr + ás = sabrás. Die Endung -ás ist dieselbe wie bei regelmäßigen Verben, nur der Stamm ist verkürzt.",
-      "en": "saber has the irregular stem sabr-; tú = sabr + ás = sabrás. The ending -ás is the same as for regular verbs; only the stem is shortened."
+      "de": "-ir-Verben nutzen dieselben Endungen; die vosotros-Endung -éis kommt an recibir: recibir + éis.",
+      "en": "-ir verbs use the same endings; the vosotros ending -éis attaches to recibir: recibir + éis."
     }
   }
 ]

@@ -1,0 +1,205 @@
+{
+ "kind": "topic",
+ "id": "interrogativos",
+ "name": {
+  "de": "Frage- & Ausrufewörter",
+  "en": "Interrogatives & exclamatives"
+ },
+ "summary": {
+  "de": "Fragewörter (qué, quién, cuál, cómo, cuándo, dónde, cuánto, por qué) tragen in Fragen immer einen Akzent; ¡Qué…! bildet Ausrufe.",
+  "en": "Question words (qué, quién, cuál, cómo, cuándo, dónde, cuánto, por qué) always carry an accent in questions; ¡Qué…! forms exclamations."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Akzent in (in)direkten Fragen",
+    "en": "Accent in (in)direct questions"
+   },
+   "body": {
+    "de": "In direkten und indirekten Fragen tragen alle Fragewörter immer einen Schreibakzent (Tilde).",
+    "en": "In direct and indirect questions all question words always carry a written accent."
+   },
+   "examples": [
+    {
+     "es": "¿Dónde vives?",
+     "gloss": {
+      "de": "Wo wohnst du?",
+      "en": "Where do you live?"
+     }
+    },
+    {
+     "es": "No sé cómo se llama.",
+     "gloss": {
+      "de": "Ich weiß nicht, wie er heißt.",
+      "en": "I don't know what his name is."
+     },
+     "note": {
+      "de": "indirekte Frage",
+      "en": "indirect question"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "qué vs. cuál",
+    "en": "qué vs. cuál"
+   },
+   "body": {
+    "de": "qué fragt nach Definition/Art; cuál(es) wählt aus einer Menge aus ('welcher von').",
+    "en": "qué asks for a definition/kind; cuál(es) selects from a set ('which one of')."
+   },
+   "examples": [
+    {
+     "es": "¿Qué quieres?",
+     "gloss": {
+      "de": "Was willst du?",
+      "en": "What do you want?"
+     }
+    },
+    {
+     "es": "¿Cuál prefieres, el rojo o el azul?",
+     "gloss": {
+      "de": "Welchen ziehst du vor, den roten oder den blauen?",
+      "en": "Which do you prefer, the red or the blue?"
+     },
+     "note": {
+      "de": "Auswahl",
+      "en": "selection"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Vor Nomen meist qué",
+    "en": "Before a noun usually qué"
+   },
+   "body": {
+    "de": "Direkt vor einem Nomen steht im Spanischen meist qué (= 'welcher/was für ein'), nicht cuál.",
+    "en": "Directly before a noun Spanish usually uses qué (= 'which/what'), not cuál."
+   },
+   "examples": [
+    {
+     "es": "¿Qué libro lees?",
+     "gloss": {
+      "de": "Welches Buch liest du?",
+      "en": "Which book are you reading?"
+     }
+    },
+    {
+     "es": "¿Qué color te gusta más?",
+     "gloss": {
+      "de": "Welche Farbe magst du am liebsten?",
+      "en": "Which colour do you like best?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Anpassung im Numerus",
+    "en": "Number agreement"
+   },
+   "body": {
+    "de": "quién/cuál haben Plural quiénes/cuáles; cuánto passt sich in Genus und Numerus an.",
+    "en": "quién/cuál have plurals quiénes/cuáles; cuánto agrees in gender and number."
+   },
+   "examples": [
+    {
+     "es": "¿Quiénes son ellos?",
+     "gloss": {
+      "de": "Wer sind sie?",
+      "en": "Who are they?"
+     },
+     "note": {
+      "de": "Plural",
+      "en": "plural"
+     }
+    },
+    {
+     "es": "¿Cuántas hermanas tienes?",
+     "gloss": {
+      "de": "Wie viele Schwestern hast du?",
+      "en": "How many sisters do you have?"
+     },
+     "note": {
+      "de": "fem. Plural",
+      "en": "fem. plural"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "por qué vs. porque",
+    "en": "por qué vs. porque"
+   },
+   "body": {
+    "de": "por qué (zwei Wörter, Akzent) fragt 'warum'; porque (ein Wort) antwortet 'weil'.",
+    "en": "por qué (two words, accent) asks 'why'; porque (one word) answers 'because'."
+   },
+   "examples": [
+    {
+     "es": "¿Por qué lloras?",
+     "gloss": {
+      "de": "Warum weinst du?",
+      "en": "Why are you crying?"
+     }
+    },
+    {
+     "es": "Lloro porque estoy triste.",
+     "gloss": {
+      "de": "Ich weine, weil ich traurig bin.",
+      "en": "I'm crying because I'm sad."
+     },
+     "note": {
+      "de": "Antwort",
+      "en": "answer"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Ausrufe mit ¡Qué…!",
+    "en": "Exclamations with ¡Qué…!"
+   },
+   "body": {
+    "de": "¡Qué + Adjektiv/Nomen! drückt Erstaunen aus; mit Nomen + Adjektiv steht oft 'más/tan'.",
+    "en": "¡Qué + adjective/noun! expresses surprise; with noun + adjective often add 'más/tan'."
+   },
+   "examples": [
+    {
+     "es": "¡Qué bonito!",
+     "gloss": {
+      "de": "Wie schön!",
+      "en": "How nice!"
+     }
+    },
+    {
+     "es": "¡Qué día tan largo!",
+     "gloss": {
+      "de": "Was für ein langer Tag!",
+      "en": "What a long day!"
+     },
+     "note": {
+      "de": "Nomen + tan",
+      "en": "noun + tan"
+     }
+    },
+    {
+     "es": "¡Cuánta gente!",
+     "gloss": {
+      "de": "Wie viele Leute!",
+      "en": "So many people!"
+     },
+     "note": {
+      "de": "Menge",
+      "en": "quantity"
+     }
+    }
+   ]
+  }
+ ]
+}

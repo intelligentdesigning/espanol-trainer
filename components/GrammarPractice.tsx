@@ -32,7 +32,7 @@ function renderPrompt(prompt: string) {
   ));
 }
 
-export function GrammarPractice({ topicId, items }: { topicId: string; items: PracticeItem[] }) {
+export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: string; items: PracticeItem[]; onRunningChange?: (running: boolean) => void }) {
   const { t, L } = useI18n();
   const [order, setOrder] = useState<PracticeItem[]>(items);
   const [started, setStarted] = useState(false);
@@ -62,6 +62,8 @@ export function GrammarPractice({ topicId, items }: { topicId: string; items: Pr
     setStatus("idle");
     setCorrect(0);
     startedAt.current = Date.now();
+    onRunningChange?.(true); // hide the lesson material while testing (no peeking)
+    if (typeof window !== "undefined") window.scrollTo({ top: 0 });
   };
 
   if (!started && !done) {
@@ -138,6 +140,7 @@ export function GrammarPractice({ topicId, items }: { topicId: string; items: Pr
       });
       setStarted(false);
       setDone(true);
+      onRunningChange?.(false); // test over → lesson material may show again
       getChapterBest(topicId).then((b) => setFinalBest(b.bestPct));
       return;
     }
@@ -164,7 +167,7 @@ export function GrammarPractice({ topicId, items }: { topicId: string; items: Pr
         {item.kind === "choice" && item.options ? (
           <div className="mt-4 grid gap-2 sm:grid-cols-2">
             {item.options.map((opt) => {
-              const isAnswer = opt.toLowerCase() === item.answer.toLowerCase();
+              const isAnswer = opt === item.answer; // exact: case/accent are part of the answer
               const isPicked = picked === opt;
               let cls = "border-border hover:bg-foreground/5";
               if (status !== "idle") {

@@ -1,0 +1,219 @@
+{
+ "kind": "topic",
+ "id": "conjunciones",
+ "name": {
+  "de": "Konjunktionen",
+  "en": "Conjunctions"
+ },
+ "summary": {
+  "de": "Konjunktionen verbinden Wörter und Sätze; einige ändern ihre Form je nach folgendem Laut.",
+  "en": "Conjunctions link words and clauses; some change their form depending on the following sound."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "y wird zu e vor i-/hi-",
+    "en": "y becomes e before i-/hi-"
+   },
+   "body": {
+    "de": "Vor einem Wort mit i- oder hi- (aber nicht hie-) wird \"y\" zu \"e\".",
+    "en": "Before a word starting with i- or hi- (but not hie-), \"y\" becomes \"e\"."
+   },
+   "examples": [
+    {
+     "es": "Padre e hijo trabajan juntos.",
+     "gloss": {
+      "de": "Vater und Sohn arbeiten zusammen.",
+      "en": "Father and son work together."
+     }
+    },
+    {
+     "es": "Es inteligente e interesante.",
+     "gloss": {
+      "de": "Er ist intelligent und interessant.",
+      "en": "He is intelligent and interesting."
+     }
+    },
+    {
+     "es": "Madera y hierro.",
+     "gloss": {
+      "de": "Holz und Eisen.",
+      "en": "Wood and iron."
+     },
+     "note": {
+      "de": "hie- bleibt \"y\"",
+      "en": "hie- keeps \"y\""
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "o wird zu u vor o-/ho-",
+    "en": "o becomes u before o-/ho-"
+   },
+   "body": {
+    "de": "Vor einem Wort mit o- oder ho- wird \"o\" (oder) zu \"u\".",
+    "en": "Before a word starting with o- or ho-, \"o\" (or) becomes \"u\"."
+   },
+   "examples": [
+    {
+     "es": "¿Tienes siete u ocho?",
+     "gloss": {
+      "de": "Hast du sieben oder acht?",
+      "en": "Do you have seven or eight?"
+     }
+    },
+    {
+     "es": "Mujeres u hombres.",
+     "gloss": {
+      "de": "Frauen oder Männer.",
+      "en": "Women or men."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "pero vs. sino (vs. sino que)",
+    "en": "pero vs. sino (vs. sino que)"
+   },
+   "body": {
+    "de": "\"sino\" nach einer Verneinung korrigiert (sondern); \"sino que\" vor konjugiertem Verb; sonst \"pero\".",
+    "en": "\"sino\" corrects after a negation (but rather); \"sino que\" before a conjugated verb; otherwise \"pero\"."
+   },
+   "examples": [
+    {
+     "es": "No es azul, sino verde.",
+     "gloss": {
+      "de": "Es ist nicht blau, sondern grün.",
+      "en": "It's not blue, but green."
+     }
+    },
+    {
+     "es": "No vino, sino que llamó.",
+     "gloss": {
+      "de": "Er kam nicht, sondern rief an.",
+      "en": "He didn't come, but rather called."
+     },
+     "note": {
+      "de": "Verb folgt → sino que",
+      "en": "verb follows → sino que"
+     }
+    },
+    {
+     "es": "Es caro, pero bueno.",
+     "gloss": {
+      "de": "Es ist teuer, aber gut.",
+      "en": "It's expensive, but good."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "porque / por qué / porqué",
+    "en": "porque / por qué / porqué"
+   },
+   "body": {
+    "de": "\"porque\" = weil; \"por qué\" = warum (Frage); \"el porqué\" = der Grund (Substantiv).",
+    "en": "\"porque\" = because; \"por qué\" = why (question); \"el porqué\" = the reason (noun)."
+   },
+   "examples": [
+    {
+     "es": "¿Por qué lloras?",
+     "gloss": {
+      "de": "Warum weinst du?",
+      "en": "Why are you crying?"
+     }
+    },
+    {
+     "es": "Lloro porque estoy triste.",
+     "gloss": {
+      "de": "Ich weine, weil ich traurig bin.",
+      "en": "I cry because I'm sad."
+     }
+    },
+    {
+     "es": "No sé el porqué.",
+     "gloss": {
+      "de": "Ich kenne den Grund nicht.",
+      "en": "I don't know the reason."
+     },
+     "note": {
+      "de": "Substantiv",
+      "en": "noun"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "aunque: Indikativ vs. Subjuntivo",
+    "en": "aunque: indicative vs. subjunctive"
+   },
+   "body": {
+    "de": "\"aunque\" + Indikativ = obwohl (Tatsache); + Subjuntivo = auch wenn (Annahme/Einräumung).",
+    "en": "\"aunque\" + indicative = although (fact); + subjunctive = even if (hypothetical/concession)."
+   },
+   "examples": [
+    {
+     "es": "Aunque llueve, salgo.",
+     "gloss": {
+      "de": "Obwohl es regnet, gehe ich raus.",
+      "en": "Although it's raining, I go out."
+     },
+     "note": {
+      "de": "Tatsache",
+      "en": "fact"
+     }
+    },
+    {
+     "es": "Aunque llueva, saldré.",
+     "gloss": {
+      "de": "Auch wenn es regnen sollte, gehe ich raus.",
+      "en": "Even if it rains, I'll go out."
+     },
+     "note": {
+      "de": "Annahme",
+      "en": "hypothetical"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Beiordnend vs. unterordnend",
+    "en": "Coordinating vs. subordinating"
+   },
+   "body": {
+    "de": "Beiordnend (y, o, pero) verbindet Gleichwertiges; unterordnend (porque, aunque, que) leitet Nebensatz ein.",
+    "en": "Coordinating (y, o, pero) links equals; subordinating (porque, aunque, que) introduces a dependent clause."
+   },
+   "examples": [
+    {
+     "es": "Como y bebo.",
+     "gloss": {
+      "de": "Ich esse und trinke.",
+      "en": "I eat and drink."
+     },
+     "note": {
+      "de": "beiordnend",
+      "en": "coordinating"
+     }
+    },
+    {
+     "es": "Sé que vienes.",
+     "gloss": {
+      "de": "Ich weiß, dass du kommst.",
+      "en": "I know that you're coming."
+     },
+     "note": {
+      "de": "unterordnend",
+      "en": "subordinating"
+     }
+    }
+   ]
+  }
+ ]
+}

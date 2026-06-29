@@ -1,0 +1,235 @@
+{
+ "kind": "tense",
+ "id": "futuro",
+ "name": {
+  "de": "Futur (futuro simple)",
+  "en": "Future (futuro simple)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Das Futuro simple beschreibt zukünftige Handlungen, Vorhersagen und Vermutungen über die Gegenwart.",
+  "en": "The futuro simple expresses future actions, predictions, and conjecture about the present."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Endungen am ganzen Infinitiv",
+    "en": "Endings on the full infinitive"
+   },
+   "body": {
+    "de": "Die Endungen -é, -ás, -á, -emos, -éis, -án werden an den vollen Infinitiv gehängt.",
+    "en": "The endings -é, -ás, -á, -emos, -éis, -án attach to the full infinitive."
+   },
+   "examples": [
+    {
+     "es": "Mañana hablaré con ella.",
+     "gloss": {
+      "de": "Morgen werde ich mit ihr sprechen.",
+      "en": "Tomorrow I will talk with her."
+     }
+    },
+    {
+     "es": "Comeremos a las dos.",
+     "gloss": {
+      "de": "Wir werden um zwei essen.",
+      "en": "We will eat at two."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Gleiche Endungen für alle Verben",
+    "en": "Same endings for all verbs"
+   },
+   "body": {
+    "de": "-ar, -er und -ir bekommen dieselben Endungen; nur der Infinitiv ändert sich.",
+    "en": "-ar, -er and -ir verbs share the same endings; only the infinitive changes."
+   },
+   "examples": [
+    {
+     "es": "Vivirás en Madrid.",
+     "gloss": {
+      "de": "Du wirst in Madrid wohnen.",
+      "en": "You will live in Madrid."
+     }
+    },
+    {
+     "es": "Vivirán juntos.",
+     "gloss": {
+      "de": "Sie werden zusammen wohnen.",
+      "en": "They will live together."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßige Stämme",
+    "en": "Irregular stems"
+   },
+   "body": {
+    "de": "Manche Verben nutzen einen besonderen Stamm wie tendr-, podr- oder har-, die Endungen bleiben gleich.",
+    "en": "Some verbs use a special stem like tendr-, podr- or har-, but the endings stay the same."
+   },
+   "examples": [
+    {
+     "es": "Tendré tiempo el lunes.",
+     "gloss": {
+      "de": "Ich werde am Montag Zeit haben.",
+      "en": "I will have time on Monday."
+     },
+     "note": {
+      "de": "tener: tendr-",
+      "en": "tener: tendr-"
+     }
+    },
+    {
+     "es": "No podremos venir.",
+     "gloss": {
+      "de": "Wir werden nicht kommen können.",
+      "en": "We won't be able to come."
+     },
+     "note": {
+      "de": "poder: podr-",
+      "en": "poder: podr-"
+     }
+    },
+    {
+     "es": "¿Qué harás después?",
+     "gloss": {
+      "de": "Was wirst du danach machen?",
+      "en": "What will you do afterward?"
+     },
+     "note": {
+      "de": "hacer: har-",
+      "en": "hacer: har-"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Vorhersagen",
+    "en": "Predictions"
+   },
+   "body": {
+    "de": "Das Futuro drückt aus, was man erwartet oder voraussagt.",
+    "en": "The futuro states what you expect or predict will happen."
+   },
+   "examples": [
+    {
+     "es": "Será un buen día.",
+     "gloss": {
+      "de": "Es wird ein guter Tag sein.",
+      "en": "It will be a good day."
+     }
+    },
+    {
+     "es": "Dirán que sí.",
+     "gloss": {
+      "de": "Sie werden Ja sagen.",
+      "en": "They will say yes."
+     },
+     "note": {
+      "de": "decir: dir-",
+      "en": "decir: dir-"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Vermutung über die Gegenwart",
+    "en": "Conjecture about the present"
+   },
+   "body": {
+    "de": "Das Futuro kann eine Vermutung über etwas Gegenwärtiges ausdrücken (wohl, wahrscheinlich).",
+    "en": "The futuro can express a guess about something happening now (probably, must be)."
+   },
+   "examples": [
+    {
+     "es": "Estará en casa ahora.",
+     "gloss": {
+      "de": "Er wird wohl jetzt zu Hause sein.",
+      "en": "He must be at home now."
+     }
+    },
+    {
+     "es": "Querrán descansar.",
+     "gloss": {
+      "de": "Sie wollen wohl ausruhen.",
+      "en": "They probably want to rest."
+     },
+     "note": {
+      "de": "querer: querr-",
+      "en": "querer: querr-"
+     }
+    }
+   ]
+  }
+ ],
+ "endings": {
+  "label": {
+   "de": "Regelmäßige Endungen",
+   "en": "Regular endings"
+  },
+  "ar": [
+   "-é",
+   "-ás",
+   "-á",
+   "-emos",
+   "-éis",
+   "-án"
+  ],
+  "er": [
+   "-é",
+   "-ás",
+   "-á",
+   "-emos",
+   "-éis",
+   "-án"
+  ],
+  "ir": [
+   "-é",
+   "-ás",
+   "-á",
+   "-emos",
+   "-éis",
+   "-án"
+  ]
+ },
+ "examples": [
+  {
+   "es": "El año que viene viviré en España.",
+   "gloss": {
+    "de": "Nächstes Jahr werde ich in Spanien leben.",
+    "en": "Next year I will live in Spain."
+   }
+  },
+  {
+   "es": "Pondremos la mesa más tarde.",
+   "gloss": {
+    "de": "Wir werden später den Tisch decken.",
+    "en": "We will set the table later."
+   }
+  },
+  {
+   "es": "¿Vendrás a la fiesta?",
+   "gloss": {
+    "de": "Wirst du zur Party kommen?",
+    "en": "Will you come to the party?"
+   }
+  },
+  {
+   "es": "Lo sabrás pronto.",
+   "gloss": {
+    "de": "Du wirst es bald wissen.",
+    "en": "You will know it soon."
+   }
+  }
+ ]
+}

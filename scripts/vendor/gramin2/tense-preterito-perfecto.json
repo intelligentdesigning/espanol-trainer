@@ -1,0 +1,210 @@
+{
+ "kind": "tense",
+ "id": "preterito-perfecto",
+ "name": {
+  "de": "Perfekt (pretérito perfecto)",
+  "en": "Present perfect (pretérito perfecto)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Vergangene Handlung mit Bezug zur Gegenwart oder Erfahrung bis jetzt.",
+  "en": "Past action with present relevance, or an experience up to now."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung: haber + Partizip",
+    "en": "Formation: haber + participle"
+   },
+   "body": {
+    "de": "haber im Präsens (he, has, ha, hemos, habéis, han) plus Partizip Perfekt.",
+    "en": "haber in the present (he, has, ha, hemos, habéis, han) plus the past participle."
+   },
+   "examples": [
+    {
+     "es": "He hablado con María.",
+     "gloss": {
+      "de": "Ich habe mit María gesprochen.",
+      "en": "I have spoken with María."
+     },
+     "note": {
+      "de": "he + Partizip",
+      "en": "he + participle"
+     }
+    },
+    {
+     "es": "Hemos comido en casa.",
+     "gloss": {
+      "de": "Wir haben zu Hause gegessen.",
+      "en": "We have eaten at home."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Zusammengesetzte Zeit",
+    "en": "A compound tense"
+   },
+   "body": {
+    "de": "Es gibt keine eigenen Endungen; nur haber wird konjugiert, das Partizip bleibt gleich.",
+    "en": "It has no own endings; only haber is conjugated, the participle stays the same."
+   },
+   "examples": [
+    {
+     "es": "Has vivido aquí.",
+     "gloss": {
+      "de": "Du hast hier gewohnt.",
+      "en": "You have lived here."
+     }
+    },
+    {
+     "es": "Han vivido aquí.",
+     "gloss": {
+      "de": "Sie haben hier gewohnt.",
+      "en": "They have lived here."
+     },
+     "note": {
+      "de": "Partizip unverändert",
+      "en": "participle unchanged"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Jüngste Vergangenheit",
+    "en": "Recent past"
+   },
+   "body": {
+    "de": "Für eine kürzlich Geschehenes mit Bezug zum Jetzt, oft mit hoy, esta semana, ya.",
+    "en": "For something recent that still matters now, often with hoy, esta semana, ya."
+   },
+   "examples": [
+    {
+     "es": "Hoy he tenido un buen día.",
+     "gloss": {
+      "de": "Heute hatte ich einen guten Tag.",
+      "en": "Today I have had a good day."
+     },
+     "note": {
+      "de": "Signalwort: hoy",
+      "en": "signal word: hoy"
+     }
+    },
+    {
+     "es": "Ya he hecho la tarea.",
+     "gloss": {
+      "de": "Ich habe die Aufgabe schon gemacht.",
+      "en": "I have already done the task."
+     },
+     "note": {
+      "de": "ya = schon",
+      "en": "ya = already"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Erfahrungen im Leben",
+    "en": "Life experiences"
+   },
+   "body": {
+    "de": "Für Erfahrungen bis jetzt, oft mit alguna vez, nunca, todavía no.",
+    "en": "For experiences up to now, often with alguna vez, nunca, todavía no."
+   },
+   "examples": [
+    {
+     "es": "¿Alguna vez has estado en España?",
+     "gloss": {
+      "de": "Warst du schon mal in Spanien?",
+      "en": "Have you ever been to Spain?"
+     },
+     "note": {
+      "de": "alguna vez = je",
+      "en": "alguna vez = ever"
+     }
+    },
+    {
+     "es": "Todavía no he visto la película.",
+     "gloss": {
+      "de": "Ich habe den Film noch nicht gesehen.",
+      "en": "I haven't seen the film yet."
+     },
+     "note": {
+      "de": "visto = unregelmäßig",
+      "en": "visto = irregular"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßige Partizipien",
+    "en": "Irregular participles"
+   },
+   "body": {
+    "de": "Manche Partizipien sind unregelmäßig: hecho, dicho, visto, escrito, vuelto, puesto, roto, abierto.",
+    "en": "Some participles are irregular: hecho, dicho, visto, escrito, vuelto, puesto, roto, abierto."
+   },
+   "examples": [
+    {
+     "es": "He hecho un pastel.",
+     "gloss": {
+      "de": "Ich habe einen Kuchen gemacht.",
+      "en": "I have made a cake."
+     },
+     "note": {
+      "de": "hacer -> hecho",
+      "en": "hacer -> hecho"
+     }
+    },
+    {
+     "es": "Ha dicho la verdad.",
+     "gloss": {
+      "de": "Er hat die Wahrheit gesagt.",
+      "en": "He has told the truth."
+     },
+     "note": {
+      "de": "decir -> dicho",
+      "en": "decir -> dicho"
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Habéis sido muy amables.",
+   "gloss": {
+    "de": "Ihr seid sehr nett gewesen.",
+    "en": "You have been very kind."
+   }
+  },
+  {
+   "es": "Esta mañana he ido al médico.",
+   "gloss": {
+    "de": "Heute Morgen bin ich zum Arzt gegangen.",
+    "en": "This morning I have gone to the doctor."
+   }
+  },
+  {
+   "es": "No hemos podido dormir.",
+   "gloss": {
+    "de": "Wir haben nicht schlafen können.",
+    "en": "We have not been able to sleep."
+   }
+  },
+  {
+   "es": "¿Has querido decir eso?",
+   "gloss": {
+    "de": "Wolltest du das sagen?",
+    "en": "Have you meant to say that?"
+   }
+  }
+ ]
+}

@@ -1,248 +1,245 @@
 [
   {
-    "kind": "choice",
-    "prompt": "¿Tienes las llaves? Sí, ___ tengo en el bolso.",
+    "kind": "fill",
+    "prompt": "¿Ves la película? Sí, ___ veo.",
     "promptGloss": {
-      "de": "Hast du die Schlüssel? Ja, ich habe sie in der Tasche.",
-      "en": "Do you have the keys? Yes, I have them in the bag."
+      "de": "Siehst du den Film? Ja, ich sehe ihn.",
+      "en": "Do you see the film? Yes, I see it."
     },
-    "options": ["las", "los", "les", "les las"],
-    "answer": "las",
+    "answer": "la",
     "explain": {
-      "de": "„las llaves“ ist weiblich Plural und direktes Objekt (wen/was?), also „las“. „les“ ist ein indirektes Pronomen und passt nicht zum direkten Objekt.",
-      "en": "\"las llaves\" is feminine plural and the direct object (whom/what?), so \"las\". \"les\" is an indirect pronoun and does not fit a direct object."
+      "de": "'la' ersetzt das direkte Objekt 'la película' (weiblich, Singular).",
+      "en": "'la' replaces the direct object 'la película' (feminine, singular)."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Mañana ___ llamo para confirmar la cita, señor Pérez.",
+    "prompt": "Compro los libros y ___ leo.",
     "promptGloss": {
-      "de": "Morgen rufe ich Sie an, um den Termin zu bestätigen, Herr Pérez.",
-      "en": "Tomorrow I'll call you to confirm the appointment, Mr. Pérez."
+      "de": "Ich kaufe die Bücher und lese sie.",
+      "en": "I buy the books and read them."
     },
-    "options": ["lo", "le", "te"],
-    "answer": "lo",
+    "answer": "los",
+    "options": ["los", "les", "las"],
     "explain": {
-      "de": "„llamar a alguien“ regiert in der Standardnorm ein direktes Objekt; für eine männliche Person (usted) ist das „lo“. „te“ wäre Duzen und passt nicht zur Höflichkeitsform.",
-      "en": "\"llamar a alguien\" governs a direct object in the standard norm; for a male person (usted) that is \"lo\". \"te\" is informal and clashes with the polite form."
+      "de": "'los' ersetzt das direkte Objekt 'los libros' (männlich, Plural); 'les' wäre indirekt.",
+      "en": "'los' replaces the direct object 'los libros' (masculine, plural); 'les' would be indirect."
     }
   },
   {
     "kind": "fill",
-    "prompt": "¿Ves a los niños en el patio? Sí, ___ veo desde aquí.",
+    "prompt": "¿Tienes mi número? Sí, ___ llamo mañana.",
     "promptGloss": {
-      "de": "Siehst du die Kinder auf dem Hof? Ja, ich sehe sie von hier aus.",
-      "en": "Do you see the children in the yard? Yes, I see them from here."
+      "de": "Hast du meine Nummer? Ja, ich rufe dich morgen an.",
+      "en": "Do you have my number? Yes, I'll call you tomorrow."
     },
-    "answer": "los",
+    "answer": "te",
     "explain": {
-      "de": "„los niños“ ist männlich Plural und direktes Objekt, also „los“. Es ersetzt das ganze Substantiv, das deshalb nicht wiederholt wird.",
-      "en": "\"los niños\" is masculine plural and the direct object, so \"los\". It replaces the whole noun, which is therefore not repeated."
+      "de": "'te' ist das direkte Objektpronomen für 'dich'.",
+      "en": "'te' is the direct object pronoun for 'you'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "___ doy las gracias a mi profesora por su ayuda.",
+    "prompt": "¿Conoces a Ana? Sí, ___ conozco bien.",
     "promptGloss": {
-      "de": "Ich danke meiner Lehrerin für ihre Hilfe.",
-      "en": "I give thanks to my teacher for her help."
+      "de": "Kennst du Ana? Ja, ich kenne sie gut.",
+      "en": "Do you know Ana? Yes, I know her well."
     },
-    "options": ["Le", "La", "Lo"],
+    "answer": "la",
+    "options": ["la", "lo", "le"],
+    "explain": {
+      "de": "'la' ersetzt das direkte Objekt 'a Ana' (weiblich); 'lo' wäre männlich.",
+      "en": "'la' replaces the direct object 'a Ana' (feminine); 'lo' would be masculine."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "___ doy el regalo a María.",
+    "promptGloss": {
+      "de": "Ich gebe María das Geschenk.",
+      "en": "I give the gift to María."
+    },
     "answer": "Le",
     "explain": {
-      "de": "„a mi profesora“ ist das indirekte Objekt (wem?), also „le“ — unabhängig vom Geschlecht. „La“ wäre direkt und falsch, weil das direkte Objekt hier „las gracias“ ist.",
-      "en": "\"a mi profesora\" is the indirect object (to whom?), so \"le\" — regardless of gender. \"La\" would be a direct object and is wrong, since the direct object here is \"las gracias\"."
+      "de": "'le' ist das indirekte Objektpronomen für 'a María' (ihr).",
+      "en": "'le' is the indirect object pronoun for 'a María' (to her)."
     }
   },
   {
     "kind": "fill",
-    "prompt": "¿Qué ___ regalas a tus padres por su aniversario?",
+    "prompt": "¿___ dices la verdad?",
     "promptGloss": {
-      "de": "Was schenkst du deinen Eltern zum Jahrestag?",
-      "en": "What are you giving (to) your parents for their anniversary?"
+      "de": "Sagst du mir die Wahrheit?",
+      "en": "Are you telling me the truth?"
     },
-    "answer": "les",
+    "answer": "Me",
     "explain": {
-      "de": "„a tus padres“ ist das indirekte Objekt im Plural, also „les“. Auch wenn das indirekte Objekt schon genannt wird, steht im Spanischen zusätzlich das Pronomen (Verdopplung).",
-      "en": "\"a tus padres\" is the plural indirect object, so \"les\". Even when the indirect object is mentioned, Spanish still adds the pronoun (clitic doubling)."
+      "de": "'me' ist das indirekte Objektpronomen für 'mir'.",
+      "en": "'me' is the indirect object pronoun for 'to me'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Necesito el informe hoy. ¿___ puedes enviar antes de las cinco?",
+    "prompt": "___ escribo a mis padres cada semana.",
     "promptGloss": {
-      "de": "Ich brauche den Bericht heute. Kannst du ihn mir vor fünf schicken?",
-      "en": "I need the report today. Can you send it to me before five?"
+      "de": "Ich schreibe meinen Eltern jede Woche.",
+      "en": "I write to my parents every week."
     },
-    "options": ["Me lo", "Lo me", "Me le", "Te lo"],
-    "answer": "Me lo",
+    "answer": "Les",
+    "options": ["Les", "Le", "Los"],
     "explain": {
-      "de": "Bei zwei Pronomen steht das indirekte (me) immer vor dem direkten (lo): „me lo“. „Lo me“ verstößt gegen die feste Reihenfolge.",
-      "en": "With two pronouns the indirect one (me) always precedes the direct one (lo): \"me lo\". \"Lo me\" violates the fixed order."
+      "de": "'les' ersetzt das indirekte Objekt 'a mis padres' (ihnen, Plural); 'le' wäre Singular.",
+      "en": "'les' replaces the indirect object 'a mis padres' (to them, plural); 'le' would be singular."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Si te gustan estas fotos, ___ envío por correo ahora mismo.",
+    "prompt": "¿___ das el dinero a tu hermano?",
     "promptGloss": {
-      "de": "Wenn dir diese Fotos gefallen, schicke ich sie dir sofort per Mail.",
-      "en": "If you like these photos, I'll send them to you by email right now."
+      "de": "Gibst du deinem Bruder das Geld?",
+      "en": "Are you giving the money to your brother?"
     },
-    "options": ["te las", "las te", "te los", "se las"],
-    "answer": "te las",
+    "answer": "Le",
+    "options": ["Le", "Lo", "Les"],
     "explain": {
-      "de": "Indirekt „te“ vor direkt „las“ (= las fotos, weiblich Plural). „se las“ wäre für él/ella/usted, aber hier ist der Empfänger „te“, das nicht zu „se“ wird.",
-      "en": "Indirect \"te\" before direct \"las\" (= las fotos, feminine plural). \"se las\" would be for él/ella/usted, but here the recipient is \"te\", which does not change to \"se\"."
+      "de": "'le' ist das indirekte Objektpronomen für 'a tu hermano' (ihm, Singular).",
+      "en": "'le' is the indirect object pronoun for 'a tu hermano' (to him, singular)."
     }
   },
   {
     "kind": "fill",
-    "prompt": "—¿Le diste el dinero a Pablo? —Sí, ___ lo di ayer.",
+    "prompt": "¿El libro? Te ___ doy ahora.",
     "promptGloss": {
-      "de": "—Hast du Pablo das Geld gegeben? —Ja, ich habe es ihm gestern gegeben.",
-      "en": "—Did you give the money to Pablo? —Yes, I gave it to him yesterday."
+      "de": "Das Buch? Ich gebe es dir jetzt.",
+      "en": "The book? I give it to you now."
+    },
+    "answer": "lo",
+    "explain": {
+      "de": "Das indirekte 'te' steht vor dem direkten 'lo' (= el libro).",
+      "en": "The indirect 'te' comes before the direct 'lo' (= el libro)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Quiero las flores. ¿___ las traes?",
+    "promptGloss": {
+      "de": "Ich will die Blumen. Bringst du sie mir?",
+      "en": "I want the flowers. Will you bring them to me?"
+    },
+    "answer": "Me",
+    "options": ["Me", "Las", "Le"],
+    "explain": {
+      "de": "Das indirekte 'me' steht vor dem direkten 'las'; die Reihenfolge ist indirekt vor direkt.",
+      "en": "The indirect 'me' comes before the direct 'las'; the order is indirect before direct."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Es muy fácil. ¿Nos ___ explicas?",
+    "promptGloss": {
+      "de": "Es ist sehr einfach. Erklärst du es uns?",
+      "en": "It's very easy. Will you explain it to us?"
+    },
+    "answer": "lo",
+    "explain": {
+      "de": "Das indirekte 'nos' steht vor dem direkten 'lo'.",
+      "en": "The indirect 'nos' comes before the direct 'lo'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Aquí tienes la carta: ¿___ lo dices a él?",
+    "promptGloss": {
+      "de": "Hier hast du den Brief: Sagst du es ihm?",
+      "en": "Here's the letter: will you say it to him?"
     },
     "answer": "se",
+    "options": ["se", "le", "te"],
     "explain": {
-      "de": "Vor dem direkten „lo“ wird das indirekte „le“ (a Pablo) zwingend zu „se“: „se lo di“. „le lo“ ist im Spanischen unmöglich.",
-      "en": "Before the direct \"lo\", the indirect \"le\" (a Pablo) obligatorily becomes \"se\": \"se lo di\". \"le lo\" is impossible in Spanish."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Compré flores para mi madre y ___ regalé en su cumpleaños.",
-    "promptGloss": {
-      "de": "Ich kaufte Blumen für meine Mutter und schenkte sie ihr zum Geburtstag.",
-      "en": "I bought flowers for my mother and gave them to her on her birthday."
-    },
-    "options": ["se las", "le las", "se los", "las le"],
-    "answer": "se las",
-    "explain": {
-      "de": "„a mi madre“ = le, „las flores“ = las; vor „las“ wird „le“ zu „se“, also „se las“. „le las“ ist nie korrekt, weil le/les vor lo/la/los/las immer zu se werden.",
-      "en": "\"a mi madre\" = le, \"las flores\" = las; before \"las\", \"le\" becomes \"se\", giving \"se las\". \"le las\" is never correct, since le/les before lo/la/los/las always become se."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "El libro es muy bueno; quiero ___ esta noche.",
-    "promptGloss": {
-      "de": "Das Buch ist sehr gut; ich will es heute Abend lesen.",
-      "en": "The book is very good; I want to read it tonight."
-    },
-    "options": ["leerlo", "lo leer", "leerle", "le leer"],
-    "answer": "leerlo",
-    "explain": {
-      "de": "Am Infinitiv wird das Pronomen angehängt: „leerlo“. „lo leer“ ist falsch, weil ein vorangestelltes Pronomen nur vor dem konjugierten Verb (quiero) stehen dürfte.",
-      "en": "On an infinitive the pronoun is attached: \"leerlo\". \"lo leer\" is wrong, because a preceding pronoun could only stand before the conjugated verb (quiero)."
+      "de": "Vor dem direkten 'lo' wird 'le' (a él) immer zu 'se'.",
+      "en": "Before the direct 'lo', 'le' (a él) always becomes 'se'."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Tengo prisa, pero estoy termin___ ahora mismo. (terminarlo)",
+    "prompt": "El regalo es para mi madre. ___ la regalo hoy.",
     "promptGloss": {
-      "de": "Ich habe es eilig, aber ich beende es gerade.",
-      "en": "I'm in a hurry, but I'm finishing it right now."
+      "de": "Das Geschenk ist für meine Mutter. Ich schenke es ihr heute.",
+      "en": "The gift is for my mother. I give it to her today."
     },
-    "answer": "ándolo",
+    "answer": "Se",
     "explain": {
-      "de": "Am Gerundium wird das Pronomen angehängt und ein Akzent gesetzt: „terminándolo“. Ohne Akzent würde sich die betonte Silbe verschieben.",
-      "en": "On the gerund the pronoun is attached and an accent is added: \"terminándolo\". Without the accent the stressed syllable would shift."
+      "de": "Vor dem direkten 'la' wird 'le' (a mi madre) zu 'se'.",
+      "en": "Before the direct 'la', 'le' (a mi madre) becomes 'se'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Aquí tienes la carta. ¡___ a tu hermano cuanto antes!",
+    "prompt": "Las cartas son para ellos. ___ las mando hoy.",
     "promptGloss": {
-      "de": "Hier hast du den Brief. Gib ihn deinem Bruder so bald wie möglich!",
-      "en": "Here's the letter. Give it to your brother as soon as possible!"
+      "de": "Die Briefe sind für sie. Ich schicke sie ihnen heute.",
+      "en": "The letters are for them. I send them to them today."
     },
-    "options": ["Dásela", "Dásela ", "Se la da", "Le la das"],
-    "answer": "Dásela",
+    "answer": "Se",
+    "options": ["Se", "Les", "Le"],
     "explain": {
-      "de": "Beim bejahten Imperativ werden beide Pronomen angehängt; „le“ wird vor „la“ zu „se“: dar → da + se + la = „Dásela“ (mit Akzent). Vorangestellt wäre nur beim verneinten Imperativ korrekt.",
-      "en": "In the affirmative imperative both pronouns attach; \"le\" becomes \"se\" before \"la\": dar → da + se + la = \"Dásela\" (with accent). Placing them before the verb is only correct in the negative imperative."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "No ___ digas la verdad todavía; esperemos un poco.",
-    "promptGloss": {
-      "de": "Sag ihm die Wahrheit noch nicht; warten wir ein bisschen.",
-      "en": "Don't tell him the truth yet; let's wait a bit."
-    },
-    "options": ["se la", "díse la", "dísela", "la se"],
-    "answer": "se la",
-    "explain": {
-      "de": "Beim verneinten Imperativ stehen die Pronomen VOR dem Verb, nicht angehängt: „no se la digas“. „le“ (a él) wird vor „la“ (la verdad) zu „se“.",
-      "en": "In the negative imperative the pronouns go BEFORE the verb, not attached: \"no se la digas\". \"le\" (a él) becomes \"se\" before \"la\" (la verdad)."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "¿El paquete para Ana y Luis? Ya ___ he mandado.",
-    "promptGloss": {
-      "de": "Das Paket für Ana und Luis? Ich habe es ihnen schon geschickt.",
-      "en": "The package for Ana and Luis? I've already sent it to them."
-    },
-    "options": ["se lo", "les lo", "se los", "lo les"],
-    "answer": "se lo",
-    "explain": {
-      "de": "„a Ana y Luis“ = les, „el paquete“ = lo (Singular!); vor „lo“ wird „les“ zu „se“: „se lo“. „se los“ wäre falsch, weil nur ein Paket gemeint ist.",
-      "en": "\"a Ana y Luis\" = les, \"el paquete\" = lo (singular!); before \"lo\", \"les\" becomes \"se\": \"se lo\". \"se los\" is wrong because only one package is meant."
+      "de": "Vor dem direkten 'las' wird 'les' (a ellos) zu 'se'; deshalb nicht 'les'.",
+      "en": "Before the direct 'las', 'les' (a ellos) becomes 'se'; that's why not 'les'."
     }
   },
   {
     "kind": "fill",
-    "prompt": "—¿Me puedes pasar la sal? —Claro, ahora ___ paso. (te + la)",
+    "prompt": "Estoy haciéndo___ ahora mismo.",
     "promptGloss": {
-      "de": "—Kannst du mir das Salz reichen? —Klar, ich reiche es dir gleich.",
-      "en": "—Can you pass me the salt? —Sure, I'll pass it to you now."
+      "de": "Ich mache es gerade jetzt.",
+      "en": "I'm doing it right now."
     },
-    "answer": "te la",
+    "answer": "lo",
     "explain": {
-      "de": "Indirekt „te“ vor direkt „la“ (= la sal). Da der Empfänger „te“ ist, gibt es keine Umwandlung zu „se“; die gilt nur für le/les.",
-      "en": "Indirect \"te\" before direct \"la\" (= la sal). Since the recipient is \"te\", there is no change to \"se\"; that only applies to le/les."
+      "de": "Am Gerundium wird das Pronomen 'lo' angehängt.",
+      "en": "The pronoun 'lo' is attached to the gerund."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Estos documentos son urgentes; estoy ___ para ti en este momento.",
+    "prompt": "No quiero esperar. Quiero ver___ ya.",
     "promptGloss": {
-      "de": "Diese Dokumente sind dringend; ich bereite sie dir gerade vor.",
-      "en": "These documents are urgent; I'm preparing them for you right now."
+      "de": "Ich will nicht warten. Ich will dich schon sehen.",
+      "en": "I don't want to wait. I want to see you now."
     },
-    "options": ["preparándotelos", "te los preparando", "preparándolos te", "preparándotelas"],
-    "answer": "preparándotelos",
+    "answer": "te",
+    "options": ["te", "lo", "le"],
     "explain": {
-      "de": "Am Gerundium hängen beide Pronomen in der Reihenfolge indirekt+direkt: preparando + te + los = „preparándotelos“ (= los documentos, männl. Plural), mit Akzent. „te los preparando“ verstößt gegen die Anhängeregel.",
-      "en": "On the gerund both pronouns attach in the order indirect+direct: preparando + te + los = \"preparándotelos\" (= los documentos, masc. plural), with accent. \"te los preparando\" breaks the attachment rule."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "A mis abuelos ___ visito cada domingo porque viven cerca.",
-    "promptGloss": {
-      "de": "Meine Großeltern besuche ich jeden Sonntag, weil sie in der Nähe wohnen.",
-      "en": "I visit my grandparents every Sunday because they live nearby."
-    },
-    "options": ["los", "les", "se"],
-    "answer": "los",
-    "explain": {
-      "de": "„visitar a alguien“ hat ein direktes Objekt; „a mis abuelos“ ist männl. Plural, also „los“. „les“ ist hier ein typischer Leísmo-Fehler, denn besucht wird ein direktes Objekt.",
-      "en": "\"visitar a alguien\" takes a direct object; \"a mis abuelos\" is masculine plural, so \"los\". \"les\" here is a typical leísmo error, since what is visited is a direct object."
+      "de": "Am Infinitiv 'ver' wird das Pronomen 'te' angehängt.",
+      "en": "The pronoun 'te' is attached to the infinitive 'ver'."
     }
   },
   {
     "kind": "fill",
-    "prompt": "—¿Les explicaste el problema a los alumnos? —Sí, ___ ___ expliqué con calma. (les/le + lo)",
+    "prompt": "Tengo el lápiz aquí. ¡Dáme___!",
     "promptGloss": {
-      "de": "—Hast du den Schülern das Problem erklärt? —Ja, ich habe es ihnen in Ruhe erklärt.",
-      "en": "—Did you explain the problem to the students? —Yes, I explained it to them calmly."
+      "de": "Ich habe den Stift hier. Gib ihn mir!",
+      "en": "I have the pencil here. Give it to me!"
     },
-    "answer": "se lo",
+    "answer": "lo",
     "explain": {
-      "de": "„a los alumnos“ = les, „el problema“ = lo; vor „lo“ wird „les“ zu „se“, Reihenfolge indirekt vor direkt: „se lo“. „les lo“ ist ausgeschlossen.",
-      "en": "\"a los alumnos\" = les, \"el problema\" = lo; before \"lo\", \"les\" becomes \"se\", indirect before direct: \"se lo\". \"les lo\" is impossible."
+      "de": "Am bejahten Imperativ wird das direkte 'lo' nach 'me' angehängt.",
+      "en": "On the affirmative imperative, the direct 'lo' is attached after 'me'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Es un secreto. No quiero decír___ a nadie.",
+    "promptGloss": {
+      "de": "Es ist ein Geheimnis. Ich will es niemandem sagen.",
+      "en": "It's a secret. I don't want to say it to anyone."
+    },
+    "answer": "lo",
+    "options": ["lo", "le", "se"],
+    "explain": {
+      "de": "Am Infinitiv 'decir' wird das direkte 'lo' angehängt.",
+      "en": "The direct 'lo' is attached to the infinitive 'decir'."
     }
   }
 ]

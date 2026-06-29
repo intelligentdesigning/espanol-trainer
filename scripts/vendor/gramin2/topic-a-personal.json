@@ -1,0 +1,159 @@
+{
+ "kind": "topic",
+ "id": "a-personal",
+ "name": {
+  "de": "Das persönliche „a\"",
+  "en": "The personal \"a\""
+ },
+ "summary": {
+  "de": "Das persönliche „a\" steht vor einer bestimmten Person (oder einem Haustier) als direktem Objekt.",
+  "en": "The personal \"a\" goes before a specific person (or pet) used as a direct object."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "„a\" vor bestimmten Personen",
+    "en": "\"a\" before specific people"
+   },
+   "body": {
+    "de": "Vor einer bestimmten Person als direktem Objekt steht immer das persönliche „a\".",
+    "en": "Before a specific person as direct object, always use the personal \"a\"."
+   },
+   "examples": [
+    {
+     "es": "Veo a María.",
+     "gloss": {
+      "de": "Ich sehe María.",
+      "en": "I see María."
+     }
+    },
+    {
+     "es": "Conozco a tu hermano.",
+     "gloss": {
+      "de": "Ich kenne deinen Bruder.",
+      "en": "I know your brother."
+     }
+    },
+    {
+     "es": "Llamé al profesor.",
+     "gloss": {
+      "de": "Ich rief den Lehrer an.",
+      "en": "I called the teacher."
+     },
+     "note": {
+      "de": "a + el = al",
+      "en": "a + el = al"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Kein „a\" vor Sachen",
+    "en": "No \"a\" before things"
+   },
+   "body": {
+    "de": "Vor Dingen, Orten oder Objekten steht kein persönliches „a\".",
+    "en": "Before things, places, or objects there is no personal \"a\"."
+   },
+   "examples": [
+    {
+     "es": "Veo la casa.",
+     "gloss": {
+      "de": "Ich sehe das Haus.",
+      "en": "I see the house."
+     }
+    },
+    {
+     "es": "Esperamos el autobús.",
+     "gloss": {
+      "de": "Wir warten auf den Bus.",
+      "en": "We're waiting for the bus."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "„a\" bei geliebten Haustieren",
+    "en": "\"a\" with beloved pets"
+   },
+   "body": {
+    "de": "Auch ein bestimmtes, vertrautes Haustier bekommt das persönliche „a\".",
+    "en": "A specific, familiar pet also takes the personal \"a\"."
+   },
+   "examples": [
+    {
+     "es": "Busco a mi perro.",
+     "gloss": {
+      "de": "Ich suche meinen Hund.",
+      "en": "I'm looking for my dog."
+     }
+    },
+    {
+     "es": "Quiero mucho a mi gato.",
+     "gloss": {
+      "de": "Ich liebe meine Katze sehr.",
+      "en": "I love my cat a lot."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Kein „a\" nach „tener\"",
+    "en": "No \"a\" after \"tener\""
+   },
+   "body": {
+    "de": "Nach „tener\" entfällt das persönliche „a\" meistens, auch bei Personen.",
+    "en": "After \"tener\" the personal \"a\" is usually dropped, even with people."
+   },
+   "examples": [
+    {
+     "es": "Tengo dos hermanos.",
+     "gloss": {
+      "de": "Ich habe zwei Brüder.",
+      "en": "I have two brothers."
+     }
+    },
+    {
+     "es": "Tenemos muchos amigos.",
+     "gloss": {
+      "de": "Wir haben viele Freunde.",
+      "en": "We have many friends."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Kein „a\" bei unbestimmten Personen",
+    "en": "No \"a\" with indefinite people"
+   },
+   "body": {
+    "de": "Bei einer beliebigen, nicht bestimmten Person entfällt das persönliche „a\".",
+    "en": "With an any-one, non-specific person the personal \"a\" is omitted."
+   },
+   "examples": [
+    {
+     "es": "Necesito un médico.",
+     "gloss": {
+      "de": "Ich brauche einen Arzt.",
+      "en": "I need a doctor."
+     },
+     "note": {
+      "de": "irgendeinen Arzt",
+      "en": "any doctor"
+     }
+    },
+    {
+     "es": "Busco un profesor de español.",
+     "gloss": {
+      "de": "Ich suche einen Spanischlehrer.",
+      "en": "I'm looking for a Spanish teacher."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,218 +1,282 @@
 [
   {
-    "kind": "choice",
-    "prompt": "De niño, ___ todos los veranos a casa de mis abuelos.",
+    "kind": "fill",
+    "prompt": "De niño, ___ mucho con mis amigos.",
     "promptGloss": {
-      "de": "Als Kind fuhr ich jeden Sommer zum Haus meiner Großeltern.",
-      "en": "As a child, I used to go to my grandparents' house every summer."
+      "de": "Als Kind redete ich viel mit meinen Freunden.",
+      "en": "As a child, I talked a lot with my friends."
     },
-    "options": ["iba", "fui", "voy"],
-    "answer": "iba",
+    "answer": "hablaba",
+    "altAnswers": [],
     "explain": {
-      "de": "\"De niño\" und \"todos los veranos\" markieren eine wiederholte Gewohnheit in der Vergangenheit, also Imperfekt: iba (ir → unregelmäßig). \"Fui\" (Indefinido) bezeichnet ein einmaliges abgeschlossenes Ereignis, nicht eine Gewohnheit.",
-      "en": "\"De niño\" and \"todos los veranos\" mark a repeated past habit, so the imperfect: iba (ir is irregular). \"Fui\" (preterite) marks one finished event, not a habit."
+      "de": "Frühere Gewohnheit, deshalb Imperfekt; hablar (-ar) wird zu hablaba.",
+      "en": "Past habit, so imperfect; hablar (-ar) becomes hablaba."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Cuando vivíamos en el pueblo, mi padre ___ (trabajar) en el campo.",
+    "prompt": "Aquel día ___ y hacía frío.",
     "promptGloss": {
-      "de": "Als wir im Dorf wohnten, arbeitete mein Vater auf dem Feld.",
-      "en": "When we lived in the village, my father worked in the fields."
+      "de": "An jenem Tag regnete es und es war kalt.",
+      "en": "That day it was raining and it was cold."
     },
-    "answer": "trabajaba",
+    "answer": "llovía",
+    "altAnswers": [],
     "explain": {
-      "de": "-ar-Verb, 3. Person Singular: Stamm trabaj- plus Endung -aba = trabajaba. Es beschreibt eine andauernde Hintergrundsituation in der Vergangenheit.",
-      "en": "An -ar verb, 3rd person singular: stem trabaj- plus -aba = trabajaba. It describes an ongoing background situation in the past."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Antes nosotros ___ (comer) juntos cada domingo.",
-    "promptGloss": {
-      "de": "Früher aßen wir jeden Sonntag zusammen.",
-      "en": "We used to eat together every Sunday."
-    },
-    "answer": "comíamos",
-    "explain": {
-      "de": "-er-Verb in der 1. Person Plural: Stamm com- plus Endung -íamos = comíamos. \"Antes\" und \"cada domingo\" signalisieren eine wiederholte Handlung.",
-      "en": "An -er verb in the nosotros form: stem com- plus -íamos = comíamos. \"Antes\" and \"cada domingo\" signal a repeated action."
+      "de": "Wetter wird im Imperfekt beschrieben; llover (-er) wird zu llovía.",
+      "en": "Weather is described in the imperfect; llover (-er) becomes llovía."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Mi hermana ___ muy alta y siempre llevaba el pelo largo.",
+    "prompt": "Nosotros ___ español en casa todos los días.",
     "promptGloss": {
-      "de": "Meine Schwester war sehr groß und trug immer langes Haar.",
-      "en": "My sister was very tall and always wore her hair long."
+      "de": "Wir sprachen jeden Tag zu Hause Spanisch.",
+      "en": "We spoke Spanish at home every day."
     },
-    "options": ["era", "fue", "estaba"],
-    "answer": "era",
+    "answer": "hablábamos",
+    "options": ["hablábamos", "hablabamos", "habliamos"],
     "explain": {
-      "de": "Eine dauerhafte Eigenschaft/Beschreibung in der Vergangenheit verlangt ser im Imperfekt: era (ser → unregelmäßig). \"Estaba\" (estar) passt nicht für eine inhärente Eigenschaft wie Größe, und \"fue\" (Indefinido) drückt keine Beschreibung aus.",
-      "en": "A lasting trait/description in the past needs ser in the imperfect: era (ser is irregular). \"Estaba\" (estar) doesn't fit an inherent quality like height, and \"fue\" (preterite) doesn't express description."
+      "de": "-ar-Verben nehmen in der nosotros-Form -ábamos, mit Akzent auf dem á.",
+      "en": "-ar verbs take -ábamos in the nosotros form, with the accent on á; 'hablabamos' lacks it."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Cuando era pequeña, yo ___ (vivir) cerca de la playa.",
+    "prompt": "Ella ___ muy cansada esa tarde.",
     "promptGloss": {
-      "de": "Als ich klein war, wohnte ich in der Nähe des Strandes.",
-      "en": "When I was little, I lived near the beach."
+      "de": "Sie war an jenem Nachmittag sehr müde.",
+      "en": "She was very tired that afternoon."
+    },
+    "answer": "estaba",
+    "altAnswers": [],
+    "explain": {
+      "de": "Beschreibung im Imperfekt; estar (-ar) wird zu estaba.",
+      "en": "Description in the imperfect; estar (-ar) becomes estaba."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "De pequeño, yo ___ en una casa azul.",
+    "promptGloss": {
+      "de": "Als ich klein war, wohnte ich in einem blauen Haus.",
+      "en": "When I was little, I lived in a blue house."
     },
     "answer": "vivía",
+    "options": ["vivía", "vivaba", "viviaba"],
     "explain": {
-      "de": "-ir-Verb in der 1. Person Singular: Stamm viv- plus Endung -ía = vivía. -er- und -ir-Verben teilen sich im Imperfekt dieselben Endungen.",
-      "en": "An -ir verb in the yo form: stem viv- plus -ía = vivía. -er and -ir verbs share the same imperfect endings."
+      "de": "-ir-Verben nehmen -ía; vivir wird zu vivía. 'vivaba' mischt falsch die -ar-Endung ein.",
+      "en": "-ir verbs take -ía; vivir becomes vivía. 'vivaba' wrongly uses the -ar ending."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Mi abuelo ___ (ver) la televisión todas las noches después de cenar.",
+    "prompt": "Cada día ___ juntos en la cocina.",
     "promptGloss": {
-      "de": "Mein Großvater sah jeden Abend nach dem Essen fern.",
-      "en": "My grandfather used to watch television every night after dinner."
+      "de": "Wir aßen jeden Tag zusammen in der Küche.",
+      "en": "Every day we ate together in the kitchen."
+    },
+    "answer": "comíamos",
+    "altAnswers": [],
+    "explain": {
+      "de": "Wiederholte Handlung im Imperfekt; comer (-er) wird in der nosotros-Form zu comíamos.",
+      "en": "Repeated action in the imperfect; comer (-er) becomes comíamos in the nosotros form."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mi hermano ___ cerca del mar.",
+    "promptGloss": {
+      "de": "Mein Bruder wohnte in Meeresnähe.",
+      "en": "My brother lived near the sea."
+    },
+    "answer": "vivía",
+    "altAnswers": [],
+    "explain": {
+      "de": "-ir-Verben nehmen -ía; vivir wird in der él-Form zu vivía.",
+      "en": "-ir verbs take -ía; vivir becomes vivía in the él form."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mi abuelo ___ muy alto y fuerte.",
+    "promptGloss": {
+      "de": "Mein Großvater war sehr groß und stark.",
+      "en": "My grandfather was very tall and strong."
+    },
+    "answer": "era",
+    "options": ["era", "estaba", "eraba"],
+    "explain": {
+      "de": "ser ist unregelmäßig: era. 'estaba' (estar) passt nicht zu einer dauerhaften Eigenschaft.",
+      "en": "ser is irregular: era. 'estaba' (estar) does not fit a permanent quality."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Todos los domingos ___ al parque con mi familia.",
+    "promptGloss": {
+      "de": "Jeden Sonntag gingen wir mit meiner Familie in den Park.",
+      "en": "Every Sunday we used to go to the park with my family."
+    },
+    "answer": "íbamos",
+    "altAnswers": [],
+    "explain": {
+      "de": "ir ist unregelmäßig; die nosotros-Form ist íbamos.",
+      "en": "ir is irregular; the nosotros form is íbamos."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Desde la ventana yo ___ las montañas cada mañana.",
+    "promptGloss": {
+      "de": "Vom Fenster aus sah ich jeden Morgen die Berge.",
+      "en": "From the window I saw the mountains every morning."
     },
     "answer": "veía",
+    "options": ["veía", "vía", "vería"],
     "explain": {
-      "de": "Ver ist eines der nur drei unregelmäßigen Verben: ver → veía. Es behält das -e- des Stamms (ve-), daher veía und nicht \"vía\".",
-      "en": "Ver is one of only three irregular verbs: ver → veía. It keeps the stem's -e- (ve-), hence veía, not \"vía\"."
+      "de": "ver ist unregelmäßig und behält das e: veía. 'vía' lässt das e falsch weg.",
+      "en": "ver is irregular and keeps the e: veía. 'vía' wrongly drops the e."
     }
   },
   {
-    "kind": "choice",
-    "prompt": "Yo ___ doce años cuando empecé a tocar la guitarra.",
+    "kind": "fill",
+    "prompt": "En esa época yo ___ diez años.",
     "promptGloss": {
-      "de": "Ich war zwölf Jahre alt, als ich anfing, Gitarre zu spielen.",
-      "en": "I was twelve years old when I started playing the guitar."
+      "de": "In jener Zeit war ich zehn Jahre alt.",
+      "en": "At that time I was ten years old."
     },
-    "options": ["tenía", "tuve", "tengo"],
     "answer": "tenía",
+    "altAnswers": [],
     "explain": {
-      "de": "Für Altersangaben in der Vergangenheit benutzt man immer das Imperfekt: tenía. Tener hat im Imperfekt keine Stammänderung, also ten- plus -ía = tenía (nicht \"tuve\", das Indefinido).",
-      "en": "Age in the past always uses the imperfect: tenía. Tener has no stem change in the imperfect, so ten- plus -ía = tenía (not \"tuve\", the preterite)."
+      "de": "Alter steht im Imperfekt; tener bleibt regelmäßig: tenía, ohne Stammänderung.",
+      "en": "Age uses the imperfect; tener stays regular: tenía, with no stem change."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "De joven, él ___ ser médico.",
+    "promptGloss": {
+      "de": "Als junger Mann wollte er Arzt werden.",
+      "en": "As a young man, he wanted to be a doctor."
+    },
+    "answer": "quería",
+    "options": ["quería", "quiería", "queraba"],
+    "explain": {
+      "de": "Im Imperfekt gibt es keine Stammänderung; querer wird regelmäßig zu quería.",
+      "en": "The imperfect has no stem change; querer becomes the regular quería."
     }
   },
   {
     "kind": "fill",
-    "prompt": "De pequeños, mis hermanos y yo ___ (querer) ser astronautas.",
+    "prompt": "Mis abuelos ___ una casa muy grande.",
     "promptGloss": {
-      "de": "Als wir klein waren, wollten meine Geschwister und ich Astronauten werden.",
-      "en": "When we were little, my siblings and I wanted to be astronauts."
+      "de": "Meine Großeltern hatten ein sehr großes Haus.",
+      "en": "My grandparents had a very big house."
     },
-    "answer": "queríamos",
+    "answer": "tenían",
+    "altAnswers": [],
     "explain": {
-      "de": "Querer hat im Präsens eine Stammänderung (quiero), aber im Imperfekt gibt es keine Stammänderungen: quer- plus -íamos = queríamos.",
-      "en": "Querer has a stem change in the present (quiero), but the imperfect has no stem changes: quer- plus -íamos = queríamos."
+      "de": "tener bleibt regelmäßig; die ellos-Form ist tenían, ohne Stammänderung.",
+      "en": "tener stays regular; the ellos form is tenían, with no stem change."
     }
   },
   {
     "kind": "choice",
-    "prompt": "___ las ocho de la mañana cuando sonó el teléfono.",
+    "prompt": "En ese momento ___ las tres de la tarde.",
     "promptGloss": {
-      "de": "Es war acht Uhr morgens, als das Telefon klingelte.",
-      "en": "It was eight in the morning when the phone rang."
+      "de": "In jenem Moment war es drei Uhr nachmittags.",
+      "en": "At that moment it was three in the afternoon."
     },
-    "options": ["Eran", "Fueron", "Era"],
-    "answer": "Eran",
+    "answer": "eran",
+    "options": ["eran", "estaban", "iban"],
     "explain": {
-      "de": "Uhrzeit in der Vergangenheit steht im Imperfekt von ser: Eran. Da \"las ocho\" Plural ist, braucht man die 3. Person Plural \"eran\", nicht das Singular \"era\". \"Fueron\" (Indefinido) wird für Uhrzeit nicht verwendet.",
-      "en": "Telling time in the past uses ser in the imperfect: Eran. Since \"las ocho\" is plural, you need the plural \"eran\", not the singular \"era\". \"Fueron\" (preterite) is not used for time."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Ayer ___ y por eso no salimos a pasear.",
-    "promptGloss": {
-      "de": "Gestern regnete es, und deshalb gingen wir nicht spazieren.",
-      "en": "Yesterday it was raining, and that's why we didn't go for a walk."
-    },
-    "options": ["llovía", "llovió", "llueve"],
-    "answer": "llovía",
-    "explain": {
-      "de": "Wetter als Hintergrund/Beschreibung steht im Imperfekt: llovía. Obwohl \"ayer\" oft das Indefinido begleitet, beschreibt hier das Wetter die Umstände, nicht ein abgeschlossenes Ereignis.",
-      "en": "Weather as background/description goes in the imperfect: llovía. Although \"ayer\" often goes with the preterite, here the weather describes the circumstances, not a completed event."
+      "de": "Uhrzeit steht im Imperfekt mit ser: eran las tres. 'estaban' (estar) passt nicht zur Uhrzeit.",
+      "en": "Telling time uses the imperfect of ser: eran las tres. 'estaban' (estar) does not fit time."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Todos los días, ella se ___ (levantar) a las seis de la mañana.",
+    "prompt": "Tú siempre ___ la tarea por la tarde.",
     "promptGloss": {
-      "de": "Jeden Tag stand sie um sechs Uhr morgens auf.",
-      "en": "Every day, she used to get up at six in the morning."
+      "de": "Du machtest die Hausaufgaben immer nachmittags.",
+      "en": "You always did your homework in the afternoon."
     },
-    "answer": "levantaba",
+    "answer": "hacías",
+    "altAnswers": [],
     "explain": {
-      "de": "\"Todos los días\" ist ein typischer Auslöser für das Imperfekt (Gewohnheit): -ar-Verb, 3. Person, levant- plus -aba = levantaba. Das reflexive \"se\" steht davor.",
-      "en": "\"Todos los días\" is a classic imperfect trigger (habit): an -ar verb, 3rd person, levant- plus -aba = levantaba. The reflexive \"se\" goes before it."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Mientras yo ___, mi hermano preparaba la cena.",
-    "promptGloss": {
-      "de": "Während ich lernte, bereitete mein Bruder das Abendessen zu.",
-      "en": "While I was studying, my brother was preparing dinner."
-    },
-    "options": ["estudiaba", "estudié", "estudiaría"],
-    "answer": "estudiaba",
-    "explain": {
-      "de": "Zwei gleichzeitige, andauernde Handlungen in der Vergangenheit, oft mit \"mientras\", stehen beide im Imperfekt: estudiaba. \"Estudié\" (Indefinido) würde eine abgeschlossene Einzelhandlung markieren.",
-      "en": "Two simultaneous, ongoing past actions, often with \"mientras\", both take the imperfect: estudiaba. \"Estudié\" (preterite) would mark a single completed action."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Yo leía tranquilamente cuando de repente ___ un ruido en la cocina.",
-    "promptGloss": {
-      "de": "Ich las ruhig, als plötzlich ein Geräusch in der Küche ertönte.",
-      "en": "I was reading quietly when suddenly there was a noise in the kitchen."
-    },
-    "options": ["se oyó", "se oía", "se oye"],
-    "answer": "se oyó",
-    "explain": {
-      "de": "Das Imperfekt (leía) liefert den Hintergrund, aber die plötzliche, unterbrechende Handlung mit \"de repente\" verlangt das Indefinido: se oyó. Das Imperfekt \"se oía\" würde ein andauerndes, nicht ein plötzliches Geräusch bedeuten.",
-      "en": "The imperfect (leía) sets the background, but the sudden interrupting action with \"de repente\" needs the preterite: se oyó. The imperfect \"se oía\" would imply an ongoing, not a sudden, noise."
+      "de": "Gewohnheit im Imperfekt; hacer (-er) wird in der tú-Form zu hacías.",
+      "en": "Habit in the imperfect; hacer (-er) becomes hacías in the tú form."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Cuando éramos jóvenes, vosotros ___ (ir) mucho al cine.",
+    "prompt": "Cuando éramos pequeños, ___ a la playa cada verano.",
     "promptGloss": {
-      "de": "Als wir jung waren, gingt ihr oft ins Kino.",
-      "en": "When we were young, you all used to go to the cinema a lot."
+      "de": "Als wir klein waren, gingen wir jeden Sommer zum Strand.",
+      "en": "When we were little, we used to go to the beach every summer."
     },
-    "answer": "ibais",
+    "answer": "íbamos",
+    "altAnswers": [],
     "explain": {
-      "de": "Ir ist unregelmäßig im Imperfekt (Stamm ib-): 2. Person Plural = ibais. \"Mucho\" signalisiert eine wiederholte Gewohnheit, daher das Imperfekt.",
-      "en": "Ir is irregular in the imperfect (stem ib-): the vosotros form is ibais. \"Mucho\" signals a repeated habit, hence the imperfect."
+      "de": "Wiederholte Gewohnheit; ir ist unregelmäßig, nosotros-Form íbamos.",
+      "en": "Repeated habit; ir is irregular, nosotros form íbamos."
     }
   },
   {
     "kind": "choice",
-    "prompt": "El año pasado por fin ___ a Sevilla; me encantó la ciudad.",
+    "prompt": "Los niños ___ en el jardín todas las tardes.",
     "promptGloss": {
-      "de": "Letztes Jahr reiste ich endlich nach Sevilla; die Stadt hat mir sehr gefallen.",
-      "en": "Last year I finally traveled to Seville; I loved the city."
+      "de": "Die Kinder spielten jeden Nachmittag im Garten.",
+      "en": "The children played in the garden every afternoon."
     },
-    "options": ["viajé", "viajaba", "viajo"],
-    "answer": "viajé",
+    "answer": "jugaban",
+    "options": ["jugaban", "jugaron", "juguaban"],
     "explain": {
-      "de": "Eine einmalige, abgeschlossene Handlung mit \"el año pasado\" und \"por fin\" verlangt das Indefinido: viajé, nicht das Imperfekt \"viajaba\". Das Imperfekt würde eine wiederholte Gewohnheit ausdrücken.",
-      "en": "A single completed action with \"el año pasado\" and \"por fin\" needs the preterite: viajé, not the imperfect \"viajaba\". The imperfect would express a repeated habit."
+      "de": "Wiederholte Handlung im Imperfekt; jugar (-ar) wird regelmäßig zu jugaban, ohne Stammänderung.",
+      "en": "Repeated action in the imperfect; jugar (-ar) is regular jugaban, with no stem change."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Los sábados mi madre ___ (hacer) un pastel y toda la familia lo comía.",
+    "prompt": "Cada noche mi madre ___ una historia antes de dormir.",
     "promptGloss": {
-      "de": "Samstags machte meine Mutter einen Kuchen, und die ganze Familie aß ihn.",
-      "en": "On Saturdays my mother used to make a cake and the whole family would eat it."
+      "de": "Jede Nacht las meine Mutter vor dem Schlafen eine Geschichte.",
+      "en": "Every night my mother read a story before sleeping."
     },
-    "answer": "hacía",
+    "answer": "leía",
+    "altAnswers": [],
     "explain": {
-      "de": "Hacer ist regelmäßig im Imperfekt: hac- plus -ía = hacía. \"Los sábados\" markiert eine wiederholte Gewohnheit, daher das Imperfekt.",
-      "en": "Hacer is regular in the imperfect: hac- plus -ía = hacía. \"Los sábados\" marks a repeated habit, hence the imperfect."
+      "de": "Wiederholte Handlung im Imperfekt; leer (-er) wird in der él-Form zu leía.",
+      "en": "Repeated action in the imperfect; leer (-er) becomes leía in the él form."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Antes nosotros ___ al cine los sábados.",
+    "promptGloss": {
+      "de": "Früher gingen wir samstags ins Kino.",
+      "en": "We used to go to the cinema on Saturdays."
+    },
+    "answer": "íbamos",
+    "options": ["íbamos", "ibamos", "vamos"],
+    "explain": {
+      "de": "ir ist unregelmäßig: íbamos mit Akzent. 'ibamos' fehlt der Akzent.",
+      "en": "ir is irregular: íbamos with an accent. 'ibamos' is missing the accent."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "En la foto, el cielo ___ azul y todo estaba tranquilo.",
+    "promptGloss": {
+      "de": "Auf dem Foto war der Himmel blau und alles war ruhig.",
+      "en": "In the photo, the sky was blue and everything was calm."
+    },
+    "answer": "era",
+    "altAnswers": [],
+    "explain": {
+      "de": "Beschreibung im Imperfekt mit ser; die unregelmäßige él-Form ist era.",
+      "en": "Description in the imperfect with ser; the irregular él form is era."
     }
   }
 ]

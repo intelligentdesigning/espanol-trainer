@@ -1,0 +1,170 @@
+{
+ "kind": "topic",
+ "id": "negacion",
+ "name": {
+  "de": "Verneinung",
+  "en": "Negation"
+ },
+ "summary": {
+  "de": "Verneinung im Spanischen: \"no\" vor dem Verb, doppelte Verneinung und \"ni ... ni\".",
+  "en": "Spanish negation: \"no\" before the verb, double negatives, and \"ni ... ni\"."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "\"no\" vor dem Verb",
+    "en": "\"no\" before the verb"
+   },
+   "body": {
+    "de": "\"no\" steht direkt vor dem konjugierten Verb, nur Objektpronomen dürfen dazwischen.",
+    "en": "\"no\" goes directly before the conjugated verb; only object pronouns may come between."
+   },
+   "examples": [
+    {
+     "es": "No hablo francés.",
+     "gloss": {
+      "de": "Ich spreche kein Französisch.",
+      "en": "I don't speak French."
+     }
+    },
+    {
+     "es": "No lo conozco.",
+     "gloss": {
+      "de": "Ich kenne ihn nicht.",
+      "en": "I don't know him."
+     },
+     "note": {
+      "de": "Pronomen dazwischen",
+      "en": "pronoun in between"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Doppelte Verneinung",
+    "en": "Double negation"
+   },
+   "body": {
+    "de": "Steht ein Verneinungswort (nada, nunca, nadie, ninguno, tampoco) nach dem Verb, braucht es \"no\" davor.",
+    "en": "If a negative word (nada, nunca, nadie, ninguno, tampoco) comes after the verb, you need \"no\" before it."
+   },
+   "examples": [
+    {
+     "es": "No veo nada.",
+     "gloss": {
+      "de": "Ich sehe nichts.",
+      "en": "I don't see anything."
+     }
+    },
+    {
+     "es": "No viene nunca.",
+     "gloss": {
+      "de": "Er kommt nie.",
+      "en": "He never comes."
+     }
+    },
+    {
+     "es": "No conozco a nadie.",
+     "gloss": {
+      "de": "Ich kenne niemanden.",
+      "en": "I don't know anyone."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Verneinungswort vorangestellt",
+    "en": "Negative word fronted"
+   },
+   "body": {
+    "de": "Steht das Verneinungswort vor dem Verb, fällt \"no\" weg.",
+    "en": "When the negative word comes before the verb, \"no\" is dropped."
+   },
+   "examples": [
+    {
+     "es": "Nadie viene.",
+     "gloss": {
+      "de": "Niemand kommt.",
+      "en": "Nobody comes."
+     },
+     "note": {
+      "de": "kein \"no\"",
+      "en": "no \"no\""
+     }
+    },
+    {
+     "es": "Nada es fácil.",
+     "gloss": {
+      "de": "Nichts ist einfach.",
+      "en": "Nothing is easy."
+     }
+    },
+    {
+     "es": "Nunca como carne.",
+     "gloss": {
+      "de": "Ich esse nie Fleisch.",
+      "en": "I never eat meat."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "\"tampoco\" (auch nicht)",
+    "en": "\"tampoco\" (neither)"
+   },
+   "body": {
+    "de": "\"tampoco\" verneint zusätzlich; nach dem Verb mit \"no\", vor dem Verb ohne.",
+    "en": "\"tampoco\" adds a negation; after the verb use \"no\", before the verb omit it."
+   },
+   "examples": [
+    {
+     "es": "Yo tampoco lo sé.",
+     "gloss": {
+      "de": "Ich weiß es auch nicht.",
+      "en": "I don't know it either."
+     }
+    },
+    {
+     "es": "No me gusta tampoco.",
+     "gloss": {
+      "de": "Es gefällt mir auch nicht.",
+      "en": "I don't like it either."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "\"ni ... ni\" (weder ... noch)",
+    "en": "\"ni ... ni\" (neither ... nor)"
+   },
+   "body": {
+    "de": "\"ni ... ni\" verbindet zwei verneinte Teile; nach dem Verb steht zusätzlich \"no\".",
+    "en": "\"ni ... ni\" links two negated parts; after the verb add \"no\" as well."
+   },
+   "examples": [
+    {
+     "es": "No tengo ni tiempo ni dinero.",
+     "gloss": {
+      "de": "Ich habe weder Zeit noch Geld.",
+      "en": "I have neither time nor money."
+     }
+    },
+    {
+     "es": "Ni Ana ni Luis vienen.",
+     "gloss": {
+      "de": "Weder Ana noch Luis kommen.",
+      "en": "Neither Ana nor Luis is coming."
+     },
+     "note": {
+      "de": "vorangestellt: kein \"no\"",
+      "en": "fronted: no \"no\""
+     }
+    }
+   ]
+  }
+ ]
+}

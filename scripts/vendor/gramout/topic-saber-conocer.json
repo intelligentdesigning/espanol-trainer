@@ -1,263 +1,260 @@
 [
   {
-    "kind": "choice",
-    "prompt": "No ___ a qué hora sale el tren.",
-    "promptGloss": {
-      "de": "Ich weiß nicht, um wie viel Uhr der Zug abfährt.",
-      "en": "I don't know what time the train leaves."
-    },
-    "options": ["sé", "conozco"],
-    "answer": "sé",
-    "explain": {
-      "de": "Vor einem indirekten Fragesatz (\"a qué hora...\") geht es um eine Information/Tatsache, also \"saber\". \"conocer\" steht nie vor einem Nebensatz.",
-      "en": "Before an indirect question (\"a qué hora...\") you state a fact/piece of information, so \"saber\". \"conocer\" is never used before a clause."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "¿___ a mi hermano? Está allí, al lado de la puerta.",
-    "promptGloss": {
-      "de": "Kennst du meinen Bruder? Er steht dort, neben der Tür.",
-      "en": "Do you know my brother? He's over there, next to the door."
-    },
-    "options": ["Conoces", "Sabes"],
-    "answer": "Conoces",
-    "explain": {
-      "de": "Eine Person zu kennen heißt vertraut sein → \"conocer\" (hier mit persönlichem \"a\"). \"saber\" wäre nur für Fakten/Fähigkeiten.",
-      "en": "Being acquainted with a person calls for \"conocer\" (here with the personal \"a\"). \"saber\" is only for facts/skills."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Mi abuela ___ cocinar una paella increíble.",
-    "promptGloss": {
-      "de": "Meine Oma kann eine unglaubliche Paella kochen.",
-      "en": "My grandma can cook an amazing paella."
-    },
-    "options": ["sabe", "conoce", "puede"],
-    "answer": "sabe",
-    "explain": {
-      "de": "\"saber\" + Infinitiv bezeichnet eine erlernte Fähigkeit (kochen können). \"conocer\" steht nie vor einem Infinitiv, und \"poder\" meint eher momentane Möglichkeit/Erlaubnis statt erlernter Fertigkeit.",
-      "en": "\"saber\" + infinitive expresses a learned skill (knowing how to cook). \"conocer\" never precedes an infinitive, and \"poder\" implies momentary possibility/permission, not an acquired skill."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "___ un restaurante muy bueno cerca de aquí.",
-    "promptGloss": {
-      "de": "Ich kenne ein sehr gutes Restaurant in der Nähe.",
-      "en": "I know a very good restaurant near here."
-    },
-    "options": ["Conozco", "Sé"],
-    "answer": "Conozco",
-    "explain": {
-      "de": "Mit einem Ort/einer Sache vertraut sein → \"conocer\". \"saber\" passt nur zu Fakten oder Fähigkeiten, nicht zu \"einen Ort kennen\".",
-      "en": "Being familiar with a place/thing → \"conocer\". \"saber\" only fits facts or skills, not knowing a place."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Sé ___ es Ana, pero no la conozco en persona.",
-    "promptGloss": {
-      "de": "Ich weiß, wer Ana ist, aber ich kenne sie nicht persönlich.",
-      "en": "I know who Ana is, but I don't know her in person."
-    },
-    "options": ["quién", "a quién", "que"],
-    "answer": "quién",
-    "explain": {
-      "de": "Nach \"saber\" folgt der indirekte Fragesatz mit \"quién\" (wer sie ist = Information). Das persönliche \"a\" gehört zu \"conocer + Person\", nicht hierher; \"que\" (ohne Akzent) wäre die falsche Konjunktion.",
-      "en": "After \"saber\" comes the indirect question \"quién\" (who she is = information). The personal \"a\" belongs to \"conocer + person\", not here; unaccented \"que\" would be the wrong connector."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Ellos no ___ nadar, por eso tienen miedo del mar.",
-    "promptGloss": {
-      "de": "Sie können nicht schwimmen, deshalb haben sie Angst vor dem Meer.",
-      "en": "They don't know how to swim, that's why they're afraid of the sea."
-    },
-    "options": ["saben", "conocen"],
-    "answer": "saben",
-    "explain": {
-      "de": "Schwimmen ist eine erlernte Fähigkeit → \"saber\" + Infinitiv. \"conocer\" kann nie eine Fähigkeit ausdrücken.",
-      "en": "Swimming is a learned skill → \"saber\" + infinitive. \"conocer\" can never express a skill."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "¿___ tú dónde vive Pedro?",
-    "promptGloss": {
-      "de": "Weißt du, wo Pedro wohnt?",
-      "en": "Do you know where Pedro lives?"
-    },
-    "options": ["Sabes", "Conoces"],
-    "answer": "Sabes",
-    "explain": {
-      "de": "Vor dem Nebensatz \"dónde vive Pedro\" steht eine gefragte Information → \"saber\". Man würde Pedro \"conocer\", aber seine Adresse \"saber\".",
-      "en": "Before the clause \"dónde vive Pedro\" you ask for information → \"saber\". You'd \"conocer\" Pedro, but \"saber\" where he lives."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Quiero ___ Argentina algún día; dicen que es preciosa.",
-    "promptGloss": {
-      "de": "Ich möchte eines Tages Argentinien kennenlernen; es soll wunderschön sein.",
-      "en": "I want to get to know Argentina someday; they say it's beautiful."
-    },
-    "options": ["conocer", "saber"],
-    "answer": "conocer",
-    "explain": {
-      "de": "Ein Land/einen Ort kennen(lernen) → \"conocer\". \"saber\" passt hier nicht, da es um Vertrautheit mit einem Ort geht, nicht um eine Tatsache.",
-      "en": "Getting to know a country/place → \"conocer\". \"saber\" doesn't fit, since it's about familiarity with a place, not a fact."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Conozco ___ Marta desde la universidad.",
-    "promptGloss": {
-      "de": "Ich kenne Marta seit der Uni.",
-      "en": "I've known Marta since university."
-    },
-    "options": ["a", "—", "con"],
-    "answer": "a",
-    "explain": {
-      "de": "Vor einer konkreten Person verlangt \"conocer\" immer das persönliche \"a\" (conocer a Marta). Ohne \"a\" oder mit \"con\" ist es falsch.",
-      "en": "Before a specific person \"conocer\" always takes the personal \"a\" (conocer a Marta). Leaving it out or using \"con\" is wrong."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Nosotros ___ la respuesta correcta, pero no la dijimos.",
-    "promptGloss": {
-      "de": "Wir wussten die richtige Antwort, sagten sie aber nicht.",
-      "en": "We knew the correct answer, but we didn't say it."
-    },
-    "options": ["sabíamos", "conocíamos"],
-    "answer": "sabíamos",
-    "explain": {
-      "de": "Eine Antwort/ein Faktum weiß man → \"saber\". \"conocer\" würde \"mit der Antwort vertraut sein\" andeuten und ist hier unpassend.",
-      "en": "You know an answer/fact → \"saber\". \"conocer\" would suggest \"being acquainted with the answer\" and is wrong here."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "¿___ tú a alguien que hable japonés?",
-    "promptGloss": {
-      "de": "Kennst du jemanden, der Japanisch spricht?",
-      "en": "Do you know anyone who speaks Japanese?"
-    },
-    "options": ["Conoces", "Sabes"],
-    "answer": "Conoces",
-    "explain": {
-      "de": "\"jemanden kennen\" = Person → \"conocer\" mit persönlichem \"a\" (a alguien). \"saber\" wäre nur korrekt, wenn man eine Information abfragt.",
-      "en": "\"to know someone\" = a person → \"conocer\" with the personal \"a\" (a alguien). \"saber\" would only be right when asking for information."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Mi padre ___ mucho de historia: te cuenta cualquier fecha.",
-    "promptGloss": {
-      "de": "Mein Vater weiß viel über Geschichte: Er nennt dir jedes Datum.",
-      "en": "My dad knows a lot about history: he can tell you any date."
-    },
-    "options": ["sabe", "conoce"],
-    "answer": "sabe",
-    "explain": {
-      "de": "\"saber de algo\" = umfangreiches Faktenwissen über ein Thema haben. \"conocer\" würde eher Vertrautheit mit konkreten Werken/Orten meinen, nicht Datenwissen.",
-      "en": "\"saber de algo\" = having extensive factual knowledge about a subject. \"conocer\" would imply familiarity with specific works/places, not knowledge of dates."
-    }
-  },
-  {
     "kind": "fill",
-    "prompt": "Yo ___ tocar la guitarra desde los ocho años. (saber)",
+    "prompt": "Yo ___ tu número de teléfono de memoria.",
     "promptGloss": {
-      "de": "Ich kann seit meinem achten Lebensjahr Gitarre spielen.",
-      "en": "I've known how to play the guitar since I was eight."
+      "de": "Ich weiß deine Telefonnummer auswendig.",
+      "en": "I know your phone number by heart."
     },
     "answer": "sé",
     "explain": {
-      "de": "Gitarre spielen ist eine erlernte Fähigkeit → \"saber\" + Infinitiv; 1. Person Singular = \"sé\" (mit Akzent). \"conocer\" wäre hier unmöglich.",
-      "en": "Playing guitar is a learned skill → \"saber\" + infinitive; first person singular = \"sé\" (with accent). \"conocer\" is impossible here."
+      "de": "Eine Information/Tatsache, die man weiß, braucht \"saber\" (1. Person: sé).",
+      "en": "A fact you know takes \"saber\" (1st person: sé)."
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Nosotros ___ muy bien esta ciudad porque vivimos aquí. (conocer)",
+    "kind": "choice",
+    "prompt": "No ___ dónde está la estación.",
     "promptGloss": {
-      "de": "Wir kennen diese Stadt sehr gut, weil wir hier wohnen.",
-      "en": "We know this city very well because we live here."
+      "de": "Ich weiß nicht, wo der Bahnhof ist.",
+      "en": "I don't know where the station is."
     },
-    "answer": "conocemos",
+    "options": ["sé", "conozco", "conoces"],
+    "answer": "sé",
     "explain": {
-      "de": "Eine Stadt/einen Ort kennen → \"conocer\"; 1. Person Plural = \"conocemos\". Mit \"saber\" wäre der Satz falsch, weil es um Vertrautheit mit dem Ort geht.",
-      "en": "Knowing a city/place → \"conocer\"; first person plural = \"conocemos\". \"saber\" would be wrong since it's about familiarity with the place."
+      "de": "Vor einem Nebensatz (dónde…) geht es um eine Information, also \"saber\". \"conocer\" steht nie vor einem Nebensatz.",
+      "en": "Before a clause (dónde…) you state information, so \"saber\". \"conocer\" never comes before a clause."
     }
   },
   {
     "kind": "fill",
-    "prompt": "¿___ (tú) cuántos habitantes tiene México? (saber)",
+    "prompt": "¿___ tú a qué hora llega el tren?",
     "promptGloss": {
-      "de": "Weißt du, wie viele Einwohner Mexiko hat?",
-      "en": "Do you know how many inhabitants Mexico has?"
+      "de": "Weißt du, um wie viel Uhr der Zug ankommt?",
+      "en": "Do you know what time the train arrives?"
     },
     "answer": "Sabes",
     "altAnswers": ["sabes"],
     "explain": {
-      "de": "Vor dem indirekten Fragesatz (\"cuántos habitantes...\") steht eine Information → \"saber\"; 2. Person Singular = \"sabes\". Achtung: Man würde Mexiko \"conocer\", aber diese Zahl \"saber\".",
-      "en": "Before the indirect question (\"cuántos habitantes...\") you ask for information → \"saber\"; second person singular = \"sabes\". Note: you'd \"conocer\" Mexico, but \"saber\" this number."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Ayer (yo) ___ a la nueva profesora en la reunión. (conocer, pretérito)",
-    "promptGloss": {
-      "de": "Gestern habe ich die neue Lehrerin beim Treffen kennengelernt.",
-      "en": "Yesterday I met the new teacher at the meeting."
-    },
-    "answer": "conocí",
-    "explain": {
-      "de": "Im Indefinido bedeutet \"conocer\" \"kennenlernen\" (erstes Treffen); 1. Person Singular = \"conocí\". Eine Person lernt man kennen → \"conocer\" + persönliches \"a\" (a la profesora), nicht \"saber\".",
-      "en": "In the preterite \"conocer\" means \"to meet for the first time\"; first person singular = \"conocí\". You meet a person → \"conocer\" + personal \"a\" (a la profesora), not \"saber\"."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Sé ___ Ana es médica, pero no conozco a su familia. (conjunción: dass/that)",
-    "promptGloss": {
-      "de": "Ich weiß, dass Ana Ärztin ist, aber ich kenne ihre Familie nicht.",
-      "en": "I know that Ana is a doctor, but I don't know her family."
-    },
-    "answer": "que",
-    "explain": {
-      "de": "Nach \"saber\" leitet die Konjunktion \"que\" (ohne Akzent) den Faktensatz ein (= dass). Für die Familie steht \"conocer\" + persönliches \"a\". So zeigt der Satz den Kontrast saber (Fakt) vs. conocer (Bekanntschaft).",
-      "en": "After \"saber\" the unaccented conjunction \"que\" introduces the factual clause (= that). For the family you use \"conocer\" + personal \"a\". The sentence shows the contrast saber (fact) vs. conocer (acquaintance)."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Esos turistas no ___ a nadie en la ciudad y se sienten solos. (conocer)",
-    "promptGloss": {
-      "de": "Diese Touristen kennen niemanden in der Stadt und fühlen sich allein.",
-      "en": "Those tourists don't know anyone in the city and feel lonely."
-    },
-    "answer": "conocen",
-    "explain": {
-      "de": "\"niemanden kennen\" = Personen → \"conocer\" mit persönlichem \"a\" (a nadie); 3. Person Plural = \"conocen\". \"saber\" wäre hier falsch, da es um Bekanntschaft mit Menschen geht.",
-      "en": "\"to know no one\" = people → \"conocer\" with the personal \"a\" (a nadie); third person plural = \"conocen\". \"saber\" would be wrong since it's about acquaintance with people."
+      "de": "Eine erfragte Information vor einem Nebensatz verlangt \"saber\" (2. Person: sabes).",
+      "en": "Asking for information before a clause needs \"saber\" (2nd person: sabes)."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Aunque ___ la teoría perfectamente, todavía no ___ conducir.",
+    "prompt": "Mi madre ___ la respuesta de esa pregunta.",
     "promptGloss": {
-      "de": "Obwohl ich die Theorie perfekt kenne, kann ich noch nicht Auto fahren.",
-      "en": "Although I know the theory perfectly, I still don't know how to drive."
+      "de": "Meine Mutter weiß die Antwort auf diese Frage.",
+      "en": "My mother knows the answer to that question."
     },
-    "options": ["conozco / sé", "sé / conozco", "sé / sé", "conozco / conozco"],
-    "answer": "conozco / sé",
+    "options": ["sabe", "conoce"],
+    "answer": "sabe",
     "explain": {
-      "de": "\"die Theorie (als Stoff/Material) kennen\" → \"conocer\"; \"Auto fahren können\" ist eine Fähigkeit → \"saber\" + Infinitiv. Genau dieser Kontrast wird hier geprüft: Vertrautheit vs. erlernte Fertigkeit.",
-      "en": "\"to know the theory (as a body of material)\" → \"conocer\"; \"to know how to drive\" is a skill → \"saber\" + infinitive. This is exactly the contrast tested: familiarity vs. learned skill."
+      "de": "Eine Antwort ist eine Information, also \"saber\" (3. Person: sabe).",
+      "en": "An answer is information, so \"saber\" (3rd person: sabe)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Yo ___ nadar muy bien.",
+    "promptGloss": {
+      "de": "Ich kann sehr gut schwimmen.",
+      "en": "I can swim very well."
+    },
+    "answer": "sé",
+    "explain": {
+      "de": "\"saber\" + Infinitiv (nadar) drückt eine erlernte Fähigkeit aus (1. Person: sé).",
+      "en": "\"saber\" + infinitive (nadar) expresses a learned skill (1st person: sé)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿___ cocinar paella?",
+    "promptGloss": {
+      "de": "Kannst du Paella kochen?",
+      "en": "Can you cook paella?"
+    },
+    "options": ["Sabes", "Conoces"],
+    "answer": "Sabes",
+    "explain": {
+      "de": "Vor einem Infinitiv (cocinar) steht \"saber\"; \"conocer\" kann nie mit Infinitiv stehen.",
+      "en": "Before an infinitive (cocinar) you use \"saber\"; \"conocer\" never takes an infinitive."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mis amigos ___ tocar la guitarra.",
+    "promptGloss": {
+      "de": "Meine Freunde können Gitarre spielen.",
+      "en": "My friends know how to play the guitar."
+    },
+    "answer": "saben",
+    "explain": {
+      "de": "Erlernte Fähigkeit mit Infinitiv (tocar) → \"saber\" (3. Person Plural: saben).",
+      "en": "A learned skill with an infinitive (tocar) → \"saber\" (3rd person plural: saben)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Nosotros no ___ bailar salsa.",
+    "promptGloss": {
+      "de": "Wir können keine Salsa tanzen.",
+      "en": "We don't know how to dance salsa."
+    },
+    "options": ["sabemos", "conocemos"],
+    "answer": "sabemos",
+    "explain": {
+      "de": "\"saber\" + Infinitiv (bailar) für eine Fähigkeit (1. Person Plural: sabemos); \"conocer\" steht nie vor einem Infinitiv.",
+      "en": "\"saber\" + infinitive (bailar) for a skill (1st person plural: sabemos); \"conocer\" never precedes an infinitive."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Yo ___ Madrid muy bien.",
+    "promptGloss": {
+      "de": "Ich kenne Madrid sehr gut.",
+      "en": "I know Madrid very well."
+    },
+    "answer": "conozco",
+    "explain": {
+      "de": "Vertrautheit mit einem Ort verlangt \"conocer\" (1. Person: conozco).",
+      "en": "Familiarity with a place takes \"conocer\" (1st person: conozco)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ una buena cafetería aquí cerca.",
+    "promptGloss": {
+      "de": "Ich kenne ein gutes Café hier in der Nähe.",
+      "en": "I know a good café near here."
+    },
+    "options": ["Conozco", "Sé"],
+    "answer": "Conozco",
+    "explain": {
+      "de": "Ein Ort/eine Sache, mit der man vertraut ist, verlangt \"conocer\"; \"saber\" passt nur zu Fakten.",
+      "en": "A place/thing you are acquainted with takes \"conocer\"; \"saber\" only fits facts."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿___ vosotros un buen restaurante por aquí?",
+    "promptGloss": {
+      "de": "Kennt ihr ein gutes Restaurant hier in der Gegend?",
+      "en": "Do you all know a good restaurant around here?"
+    },
+    "answer": "Conocéis",
+    "altAnswers": ["conocéis"],
+    "explain": {
+      "de": "Vertrautheit mit einem Ort/einer Sache → \"conocer\" (2. Person Plural: conocéis).",
+      "en": "Familiarity with a place/thing → \"conocer\" (2nd person plural: conocéis)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ellos ___ muy bien esta ciudad.",
+    "promptGloss": {
+      "de": "Sie kennen diese Stadt sehr gut.",
+      "en": "They know this city very well."
+    },
+    "options": ["conocen", "saben"],
+    "answer": "conocen",
+    "explain": {
+      "de": "Eine Stadt kennt man als Ort → \"conocer\" (3. Person Plural: conocen).",
+      "en": "A city is known as a place → \"conocer\" (3rd person plural: conocen)."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Conozco ___ Ana desde hace años.",
+    "promptGloss": {
+      "de": "Ich kenne Ana seit Jahren.",
+      "en": "I've known Ana for years."
+    },
+    "answer": "a",
+    "explain": {
+      "de": "Vor einer Person steht nach \"conocer\" das persönliche \"a\".",
+      "en": "Before a person, \"conocer\" takes the personal \"a\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Conoces ___ mi hermano?",
+    "promptGloss": {
+      "de": "Kennst du meinen Bruder?",
+      "en": "Do you know my brother?"
+    },
+    "options": ["a", "—"],
+    "answer": "a",
+    "explain": {
+      "de": "Vor einer Person braucht \"conocer\" das persönliche \"a\"; ohne \"a\" wäre es falsch.",
+      "en": "Before a person, \"conocer\" needs the personal \"a\"; leaving it out is wrong."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Quiero conocer ___ tus padres este fin de semana.",
+    "promptGloss": {
+      "de": "Ich möchte deine Eltern an diesem Wochenende kennenlernen.",
+      "en": "I want to meet your parents this weekend."
+    },
+    "answer": "a",
+    "explain": {
+      "de": "Auch vor Personen im Plural steht nach \"conocer\" das persönliche \"a\".",
+      "en": "Even before plural people, \"conocer\" takes the personal \"a\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Yo ___ a la profesora nueva del colegio.",
+    "promptGloss": {
+      "de": "Ich kenne die neue Lehrerin der Schule.",
+      "en": "I know the new teacher at the school."
+    },
+    "options": ["conozco", "sé"],
+    "answer": "conozco",
+    "explain": {
+      "de": "Eine Person, die man kennt (mit \"a\"), verlangt \"conocer\", nicht \"saber\".",
+      "en": "A person you are acquainted with (with \"a\") takes \"conocer\", not \"saber\"."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Sé quién es Ana, pero no la ___.",
+    "promptGloss": {
+      "de": "Ich weiß, wer Ana ist, aber ich kenne sie nicht.",
+      "en": "I know who Ana is, but I don't know her."
+    },
+    "answer": "conozco",
+    "explain": {
+      "de": "Persönliche Bekanntschaft (sie persönlich kennen) verlangt \"conocer\", während das Faktum mit \"saber\" steht.",
+      "en": "Personal acquaintance (knowing her in person) takes \"conocer\", while the fact uses \"saber\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ que vives en Sevilla, pero no conozco tu barrio.",
+    "promptGloss": {
+      "de": "Ich weiß, dass du in Sevilla wohnst, aber ich kenne dein Viertel nicht.",
+      "en": "I know that you live in Seville, but I don't know your neighborhood."
+    },
+    "options": ["Sé", "Conozco"],
+    "answer": "Sé",
+    "explain": {
+      "de": "Vor dem Nebensatz (que…) steht \"saber\"; den Ort \"Viertel\" kennt man dagegen mit \"conocer\".",
+      "en": "Before the clause (que…) you use \"saber\"; the place \"neighborhood\" is known with \"conocer\"."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ella ___ a mucha gente, pero no sabe sus nombres.",
+    "promptGloss": {
+      "de": "Sie kennt viele Leute, aber sie weiß ihre Namen nicht.",
+      "en": "She knows many people, but she doesn't know their names."
+    },
+    "answer": "conoce",
+    "explain": {
+      "de": "Personen kennen → \"conocer\" (conoce); die Namen als Information weiß man mit \"saber\".",
+      "en": "Knowing people → \"conocer\" (conoce); the names as information use \"saber\"."
     }
   }
 ]

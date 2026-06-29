@@ -1,0 +1,167 @@
+{
+ "kind": "topic",
+ "id": "gustar",
+ "name": {
+  "de": "gustar & ähnliche Verben",
+  "en": "gustar-type verbs"
+ },
+ "summary": {
+  "de": "Bei gustar & ähnlichen Verben steht die Person im Dativ (indirektes Objekt) und das gemochte Ding ist das Subjekt, das die Verbform (3. Person Sg./Pl.) bestimmt.",
+  "en": "With gustar-type verbs the person is the indirect object and the liked thing is the subject, which controls the verb form (3rd person sg./pl.)."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Indirektes Objektpronomen ist Pflicht",
+    "en": "Indirect object pronoun is obligatory"
+   },
+   "body": {
+    "de": "Vor das Verb kommt immer me, te, le, nos, os oder les.",
+    "en": "Always put me, te, le, nos, os or les before the verb."
+   },
+   "examples": [
+    {
+     "es": "Me gusta el café.",
+     "gloss": {
+      "de": "Mir gefällt der Kaffee. (Ich mag Kaffee.)",
+      "en": "I like coffee."
+     }
+    },
+    {
+     "es": "Nos gusta la música.",
+     "gloss": {
+      "de": "Uns gefällt die Musik.",
+      "en": "We like the music."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Verb richtet sich nach dem Ding",
+    "en": "Verb agrees with the thing"
+   },
+   "body": {
+    "de": "Singular-Subjekt: gusta; Plural-Subjekt: gustan; vor Infinitiv immer Singular.",
+    "en": "Singular subject: gusta; plural subject: gustan; before an infinitive always singular."
+   },
+   "examples": [
+    {
+     "es": "Me gustan los libros.",
+     "gloss": {
+      "de": "Mir gefallen die Bücher.",
+      "en": "I like the books."
+     },
+     "note": {
+      "de": "Plural-Subjekt",
+      "en": "plural subject"
+     }
+    },
+    {
+     "es": "Me gusta leer.",
+     "gloss": {
+      "de": "Ich lese gern.",
+      "en": "I like to read."
+     },
+     "note": {
+      "de": "Infinitiv → gusta",
+      "en": "infinitive → gusta"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "a mí, a ti … zur Betonung",
+    "en": "a mí, a ti … for emphasis"
+   },
+   "body": {
+    "de": "Optionales a + betontes Pronomen betont oder kontrastiert die Person, ersetzt aber nie me/te/le.",
+    "en": "Optional a + stressed pronoun emphasises or contrasts the person but never replaces me/te/le."
+   },
+   "examples": [
+    {
+     "es": "A mí me gusta el té.",
+     "gloss": {
+      "de": "Mir (betont) gefällt der Tee.",
+      "en": "I (for my part) like tea."
+     }
+    },
+    {
+     "es": "A ti te gustan los gatos.",
+     "gloss": {
+      "de": "Dir gefallen die Katzen.",
+      "en": "You like cats."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "le/les mit a + Name klären",
+    "en": "Clarify le/les with a + name"
+   },
+   "body": {
+    "de": "Bei er/sie/Sie/Plural nennt a + Person, wer gemeint ist; le/les bleibt trotzdem stehen.",
+    "en": "For he/she/you/them, a + person says who is meant; le/les still stays."
+   },
+   "examples": [
+    {
+     "es": "A Ana le gusta bailar.",
+     "gloss": {
+      "de": "Ana tanzt gern.",
+      "en": "Ana likes to dance."
+     }
+    },
+    {
+     "es": "A mis padres les gusta viajar.",
+     "gloss": {
+      "de": "Meine Eltern reisen gern.",
+      "en": "My parents like to travel."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Verben wie gustar",
+    "en": "Verbs like gustar"
+   },
+   "body": {
+    "de": "encantar, interesar, doler, faltar und quedar folgen genau demselben Muster.",
+    "en": "encantar, interesar, doler, faltar and quedar follow exactly the same pattern."
+   },
+   "examples": [
+    {
+     "es": "Me encanta esta canción.",
+     "gloss": {
+      "de": "Diese Lied liebe ich.",
+      "en": "I love this song."
+     },
+     "note": {
+      "de": "encantar = sehr mögen",
+      "en": "encantar = to love"
+     }
+    },
+    {
+     "es": "Me duelen los pies.",
+     "gloss": {
+      "de": "Mir tun die Füße weh.",
+      "en": "My feet hurt."
+     },
+     "note": {
+      "de": "doler o→ue",
+      "en": "doler o→ue"
+     }
+    },
+    {
+     "es": "Nos faltan dos sillas.",
+     "gloss": {
+      "de": "Uns fehlen zwei Stühle.",
+      "en": "We are missing two chairs."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "kind": "topic",
+ "id": "saber-conocer",
+ "name": {
+  "de": "saber vs conocer",
+  "en": "saber vs conocer"
+ },
+ "summary": {
+  "de": "\"saber\" steht für Fakten und Fähigkeiten, \"conocer\" für Vertrautheit mit Personen, Orten und Dingen.",
+  "en": "\"saber\" is for facts and skills, \"conocer\" is for being acquainted with people, places, and things."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "saber = Fakten & Informationen",
+    "en": "saber = facts & information"
+   },
+   "body": {
+    "de": "\"saber\" benutzt man für Tatsachen, Daten oder Informationen, die man weiß.",
+    "en": "Use \"saber\" for facts, data, or information that you know."
+   },
+   "examples": [
+    {
+     "es": "Sé tu número de teléfono.",
+     "gloss": {
+      "de": "Ich weiß deine Telefonnummer.",
+      "en": "I know your phone number."
+     }
+    },
+    {
+     "es": "No sé dónde está la estación.",
+     "gloss": {
+      "de": "Ich weiß nicht, wo der Bahnhof ist.",
+      "en": "I don't know where the station is."
+     },
+     "note": {
+      "de": "vor Nebensatz: saber",
+      "en": "before clause: saber"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "saber + Infinitiv = etwas können",
+    "en": "saber + infinitive = know how to do"
+   },
+   "body": {
+    "de": "\"saber\" plus Infinitiv heißt, eine erlernte Fähigkeit zu beherrschen.",
+    "en": "\"saber\" plus an infinitive means having a learned skill."
+   },
+   "examples": [
+    {
+     "es": "Sé nadar muy bien.",
+     "gloss": {
+      "de": "Ich kann sehr gut schwimmen.",
+      "en": "I can swim very well."
+     }
+    },
+    {
+     "es": "¿Sabes cocinar paella?",
+     "gloss": {
+      "de": "Kannst du Paella kochen?",
+      "en": "Can you cook paella?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "conocer = Personen & Orte kennen",
+    "en": "conocer = know people & places"
+   },
+   "body": {
+    "de": "\"conocer\" heißt, mit einer Person, einem Ort oder einer Sache vertraut zu sein.",
+    "en": "\"conocer\" means being acquainted with a person, place, or thing."
+   },
+   "examples": [
+    {
+     "es": "Conozco Madrid muy bien.",
+     "gloss": {
+      "de": "Ich kenne Madrid sehr gut.",
+      "en": "I know Madrid very well."
+     }
+    },
+    {
+     "es": "Conozco una buena cafetería aquí.",
+     "gloss": {
+      "de": "Ich kenne ein gutes Café hier.",
+      "en": "I know a good café here."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "conocer a + Person",
+    "en": "conocer a + person"
+   },
+   "body": {
+    "de": "Vor Personen steht nach \"conocer\" immer das persönliche \"a\".",
+    "en": "Before people, \"conocer\" always takes the personal \"a\"."
+   },
+   "examples": [
+    {
+     "es": "Conozco a Ana desde hace años.",
+     "gloss": {
+      "de": "Ich kenne Ana seit Jahren.",
+      "en": "I've known Ana for years."
+     },
+     "note": {
+      "de": "Person → a",
+      "en": "person → a"
+     }
+    },
+    {
+     "es": "¿Conoces a mi hermano?",
+     "gloss": {
+      "de": "Kennst du meinen Bruder?",
+      "en": "Do you know my brother?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Kontrast: wissen vs. kennen",
+    "en": "Contrast: know facts vs. be acquainted"
+   },
+   "body": {
+    "de": "\"saber\" = Information/Fähigkeit, \"conocer\" = persönliche Bekanntschaft oder Erfahrung.",
+    "en": "\"saber\" = information/skill, \"conocer\" = personal acquaintance or experience."
+   },
+   "examples": [
+    {
+     "es": "Sé quién es Ana, pero no la conozco.",
+     "gloss": {
+      "de": "Ich weiß, wer Ana ist, aber ich kenne sie nicht.",
+      "en": "I know who Ana is, but I don't know her."
+     },
+     "note": {
+      "de": "beide im selben Satz",
+      "en": "both in one sentence"
+     }
+    }
+   ]
+  }
+ ]
+}

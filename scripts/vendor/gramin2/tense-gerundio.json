@@ -1,0 +1,194 @@
+{
+ "kind": "tense",
+ "id": "gerundio",
+ "name": {
+  "de": "Gerundium (gerundio)",
+  "en": "Gerund (gerundio)"
+ },
+ "mood": {
+  "de": "Infinite Form",
+  "en": "Non-finite"
+ },
+ "summary": {
+  "de": "Das Gerundio beschreibt eine gerade laufende Handlung, meist mit \"estar\" (gerade dabei sein, etwas zu tun), oder die Art und Weise.",
+  "en": "The gerundio describes an ongoing action, usually with \"estar\" (to be in the middle of doing something), or the manner of an action."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Regelmäßige Bildung",
+    "en": "Regular formation"
+   },
+   "body": {
+    "de": "-ar wird zu -ando, -er und -ir werden zu -iendo; die Form ändert sich nie nach Person.",
+    "en": "-ar becomes -ando, -er and -ir become -iendo; the form never changes by person."
+   },
+   "examples": [
+    {
+     "es": "hablando, comiendo, viviendo",
+     "gloss": {
+      "de": "sprechend, essend, lebend",
+      "en": "speaking, eating, living"
+     },
+     "note": {
+      "de": "drei Endungstypen",
+      "en": "three ending types"
+     }
+    },
+    {
+     "es": "teniendo, haciendo, queriendo",
+     "gloss": {
+      "de": "habend, machend, wollend",
+      "en": "having, doing, wanting"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "estar + Gerundio (Verlaufsform)",
+    "en": "estar + gerundio (progressive)"
+   },
+   "body": {
+    "de": "Mit \"estar\" plus Gerundio sagst du, dass etwas genau jetzt im Gange ist.",
+    "en": "With \"estar\" plus gerundio you say something is happening right now."
+   },
+   "examples": [
+    {
+     "es": "Estoy comiendo ahora.",
+     "gloss": {
+      "de": "Ich esse gerade.",
+      "en": "I'm eating right now."
+     }
+    },
+    {
+     "es": "Los niños están durmiendo.",
+     "gloss": {
+      "de": "Die Kinder schlafen gerade.",
+      "en": "The children are sleeping."
+     }
+    },
+    {
+     "es": "¿Qué estás haciendo?",
+     "gloss": {
+      "de": "Was machst du gerade?",
+      "en": "What are you doing?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßig: y und Stammwechsel",
+    "en": "Irregular: y and stem changes"
+   },
+   "body": {
+    "de": "Manche Verben schreiben sich mit y oder ändern den Stamm: diciendo, durmiendo, yendo.",
+    "en": "Some verbs use y or change their stem: diciendo, durmiendo, yendo."
+   },
+   "examples": [
+    {
+     "es": "Está diciendo la verdad.",
+     "gloss": {
+      "de": "Er sagt gerade die Wahrheit.",
+      "en": "He is telling the truth."
+     }
+    },
+    {
+     "es": "Está durmiendo bien.",
+     "gloss": {
+      "de": "Er schläft gut.",
+      "en": "He is sleeping well."
+     },
+     "note": {
+      "de": "o wird zu u",
+      "en": "o becomes u"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Art und Weise",
+    "en": "Manner"
+   },
+   "body": {
+    "de": "Allein steht das Gerundio für die Art und Weise: wie etwas getan wird (wobei, dadurch dass).",
+    "en": "On its own the gerundio expresses manner: how something is done (while, by doing)."
+   },
+   "examples": [
+    {
+     "es": "Aprendo español viendo películas.",
+     "gloss": {
+      "de": "Ich lerne Spanisch, indem ich Filme schaue.",
+      "en": "I learn Spanish by watching films."
+     },
+     "note": {
+      "de": "viendo = wie?",
+      "en": "viendo = how?"
+     }
+    },
+    {
+     "es": "Llegó corriendo.",
+     "gloss": {
+      "de": "Er kam angerannt.",
+      "en": "He came running."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Keine Personalform",
+    "en": "Not a six-person form"
+   },
+   "body": {
+    "de": "Das Gerundio hat nur eine Form für alle; die Person zeigt das Hilfsverb (estar).",
+    "en": "The gerundio has just one form for everyone; the person is shown by the helper verb (estar)."
+   },
+   "examples": [
+    {
+     "es": "Estamos viviendo aquí.",
+     "gloss": {
+      "de": "Wir wohnen gerade hier.",
+      "en": "We are living here."
+     },
+     "note": {
+      "de": "estar trägt die Person",
+      "en": "estar carries the person"
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Estoy aprendiendo, no, estoy comiendo.",
+   "gloss": {
+    "de": "Ich esse gerade.",
+    "en": "I'm eating right now."
+   }
+  },
+  {
+   "es": "Estás siendo muy amable.",
+   "gloss": {
+    "de": "Du bist gerade sehr nett.",
+    "en": "You're being very kind."
+   }
+  },
+  {
+   "es": "Voy yendo poco a poco.",
+   "gloss": {
+    "de": "Ich komme nach und nach voran.",
+    "en": "I'm getting there bit by bit."
+   }
+  },
+  {
+   "es": "Estamos haciendo la cena.",
+   "gloss": {
+    "de": "Wir machen gerade das Abendessen.",
+    "en": "We're making dinner."
+   }
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "kind": "tense",
+ "id": "preterito-indefinido",
+ "name": {
+  "de": "Indefinido (pretérito indefinido)",
+  "en": "Preterite (pretérito indefinido)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Für abgeschlossene Handlungen in der Vergangenheit und für aufeinanderfolgende Ereignisse.",
+  "en": "For completed past actions and for a sequence of events."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Wann benutzt man es",
+    "en": "When to use it"
+   },
+   "body": {
+    "de": "Für einzelne abgeschlossene Handlungen und für eine Kette von Ereignissen in der Vergangenheit.",
+    "en": "For single completed actions and for a chain of events in the past."
+   },
+   "examples": [
+    {
+     "es": "Ayer hablé con mi madre.",
+     "gloss": {
+      "de": "Gestern sprach ich mit meiner Mutter.",
+      "en": "Yesterday I spoke with my mother."
+     },
+     "note": {
+      "de": "abgeschlossen",
+      "en": "completed"
+     }
+    },
+    {
+     "es": "Comí, viví y dormí allí.",
+     "gloss": {
+      "de": "Ich aß, lebte und schlief dort.",
+      "en": "I ate, lived and slept there."
+     },
+     "note": {
+      "de": "Reihenfolge",
+      "en": "sequence"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Regelmäßige Endungen",
+    "en": "Regular endings"
+   },
+   "body": {
+    "de": "-ar: é, aste, ó, amos, asteis, aron; -er/-ir: í, iste, ió, imos, isteis, ieron.",
+    "en": "-ar: é, aste, ó, amos, asteis, aron; -er/-ir: í, iste, ió, imos, isteis, ieron."
+   },
+   "examples": [
+    {
+     "es": "Hablaste mucho.",
+     "gloss": {
+      "de": "Du hast viel geredet.",
+      "en": "You talked a lot."
+     }
+    },
+    {
+     "es": "Comieron en casa.",
+     "gloss": {
+      "de": "Sie aßen zu Hause.",
+      "en": "They ate at home."
+     }
+    },
+    {
+     "es": "Vivió en Madrid.",
+     "gloss": {
+      "de": "Er/Sie lebte in Madrid.",
+      "en": "He/She lived in Madrid."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Starke unregelmäßige Stämme",
+    "en": "Strong irregular stems"
+   },
+   "body": {
+    "de": "Neuer Stamm plus betonungslose Endungen e, iste, o, imos, isteis, ieron (kein Akzent).",
+    "en": "New stem plus unstressed endings e, iste, o, imos, isteis, ieron (no accent)."
+   },
+   "examples": [
+    {
+     "es": "Tuve que trabajar.",
+     "gloss": {
+      "de": "Ich musste arbeiten.",
+      "en": "I had to work."
+     },
+     "note": {
+      "de": "tener > tuv-",
+      "en": "tener > tuv-"
+     }
+    },
+    {
+     "es": "Estuvimos en casa.",
+     "gloss": {
+      "de": "Wir waren zu Hause.",
+      "en": "We were at home."
+     },
+     "note": {
+      "de": "estar > estuv-",
+      "en": "estar > estuv-"
+     }
+    },
+    {
+     "es": "No pude dormir.",
+     "gloss": {
+      "de": "Ich konnte nicht schlafen.",
+      "en": "I couldn't sleep."
+     },
+     "note": {
+      "de": "poder > pud-",
+      "en": "poder > pud-"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "decir, hacer und querer",
+    "en": "decir, hacer and querer"
+   },
+   "body": {
+    "de": "dij- verliert das i in dijeron; hacer wird hizo (z); querer wird quis-.",
+    "en": "dij- drops the i in dijeron; hacer becomes hizo (z); querer becomes quis-."
+   },
+   "examples": [
+    {
+     "es": "Me dijo la verdad.",
+     "gloss": {
+      "de": "Er/Sie sagte mir die Wahrheit.",
+      "en": "He/She told me the truth."
+     },
+     "note": {
+      "de": "decir > dij-",
+      "en": "decir > dij-"
+     }
+    },
+    {
+     "es": "Hizo la cena.",
+     "gloss": {
+      "de": "Er/Sie machte das Abendessen.",
+      "en": "He/She made dinner."
+     },
+     "note": {
+      "de": "c wird z",
+      "en": "c becomes z"
+     }
+    },
+    {
+     "es": "Quise ayudar.",
+     "gloss": {
+      "de": "Ich wollte helfen.",
+      "en": "I wanted to help."
+     },
+     "note": {
+      "de": "querer > quis-",
+      "en": "querer > quis-"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "fui für ser/ir und ó>u",
+    "en": "fui for ser/ir and ó>u"
+   },
+   "body": {
+    "de": "ser und ir teilen fui, fue; -ir-Verben ändern in der 3. Person o zu u: durmió.",
+    "en": "ser and ir share fui, fue; -ir verbs change o to u in the 3rd person: durmió."
+   },
+   "examples": [
+    {
+     "es": "Fui al cine.",
+     "gloss": {
+      "de": "Ich ging ins Kino.",
+      "en": "I went to the cinema."
+     },
+     "note": {
+      "de": "ir",
+      "en": "ir"
+     }
+    },
+    {
+     "es": "Fue un buen día.",
+     "gloss": {
+      "de": "Es war ein guter Tag.",
+      "en": "It was a good day."
+     },
+     "note": {
+      "de": "ser",
+      "en": "ser"
+     }
+    },
+    {
+     "es": "El niño durmió bien.",
+     "gloss": {
+      "de": "Das Kind schlief gut.",
+      "en": "The child slept well."
+     },
+     "note": {
+      "de": "o wird u",
+      "en": "o becomes u"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Schreibänderung in der 1. Person",
+    "en": "Spelling change in the 1st person"
+   },
+   "body": {
+    "de": "Vor -é wird c>qu, g>gu, z>c, damit der Laut gleich bleibt.",
+    "en": "Before -é, c>qu, g>gu, z>c, so the sound stays the same."
+   },
+   "examples": [
+    {
+     "es": "Busqué las llaves.",
+     "gloss": {
+      "de": "Ich suchte die Schlüssel.",
+      "en": "I looked for the keys."
+     },
+     "note": {
+      "de": "buscar",
+      "en": "buscar"
+     }
+    },
+    {
+     "es": "Llegué tarde.",
+     "gloss": {
+      "de": "Ich kam spät an.",
+      "en": "I arrived late."
+     },
+     "note": {
+      "de": "llegar",
+      "en": "llegar"
+     }
+    },
+    {
+     "es": "Empecé a leer.",
+     "gloss": {
+      "de": "Ich fing an zu lesen.",
+      "en": "I started to read."
+     },
+     "note": {
+      "de": "empezar",
+      "en": "empezar"
+     }
+    }
+   ]
+  }
+ ],
+ "endings": {
+  "label": {
+   "de": "Regelmäßige Endungen",
+   "en": "Regular endings"
+  },
+  "ar": [
+   "-é",
+   "-aste",
+   "-ó",
+   "-amos",
+   "-asteis",
+   "-aron"
+  ],
+  "er": [
+   "-í",
+   "-iste",
+   "-ió",
+   "-imos",
+   "-isteis",
+   "-ieron"
+  ],
+  "ir": [
+   "-í",
+   "-iste",
+   "-ió",
+   "-imos",
+   "-isteis",
+   "-ieron"
+  ]
+ },
+ "examples": [
+  {
+   "es": "Ella vivió diez años en París.",
+   "gloss": {
+    "de": "Sie lebte zehn Jahre in Paris.",
+    "en": "She lived ten years in Paris."
+   }
+  },
+  {
+   "es": "Tuvimos un problema, pero lo hicimos bien.",
+   "gloss": {
+    "de": "Wir hatten ein Problem, aber wir machten es gut.",
+    "en": "We had a problem, but we did it well."
+   }
+  },
+  {
+   "es": "Dijeron que no quisieron venir.",
+   "gloss": {
+    "de": "Sie sagten, dass sie nicht kommen wollten.",
+    "en": "They said they didn't want to come."
+   }
+  },
+  {
+   "es": "Comimos y luego dormimos.",
+   "gloss": {
+    "de": "Wir aßen und dann schliefen wir.",
+    "en": "We ate and then we slept."
+   }
+  }
+ ]
+}

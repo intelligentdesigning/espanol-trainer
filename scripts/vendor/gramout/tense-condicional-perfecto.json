@@ -1,219 +1,254 @@
 [
   {
     "kind": "fill",
-    "prompt": "Yo ___ comido más, pero ya estaba lleno. (yo, haber)",
+    "prompt": "Yo ___ comido más en la fiesta.",
     "promptGloss": {
-      "de": "Ich hätte mehr gegessen, aber ich war schon satt.",
-      "en": "I would have eaten more, but I was already full."
+      "de": "Ich hätte auf der Party mehr gegessen.",
+      "en": "I would have eaten more at the party."
     },
     "answer": "habría",
+    "altAnswers": [],
     "explain": {
-      "de": "Das Condicional perfecto bildet man mit haber im Konditional + Partizip; die 1. Person Singular von haber lautet habría.",
-      "en": "The condicional perfecto uses haber in the conditional + participle; the first person singular of haber is habría."
+      "de": "Konditional II = habría + Partizip; bei yo lautet die Form habría.",
+      "en": "Conditional perfect = habría + participle; for yo the form is habría."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Ellos ___ venido, pero perdieron el tren.",
+    "prompt": "Ellos ___ venido a la boda.",
     "promptGloss": {
-      "de": "Sie wären gekommen, aber sie verpassten den Zug.",
-      "en": "They would have come, but they missed the train."
+      "de": "Sie wären zur Hochzeit gekommen.",
+      "en": "They would have come to the wedding."
     },
-    "options": ["habrían", "habría", "habríamos", "habríais"],
     "answer": "habrían",
+    "options": ["habrían", "habría", "habríamos"],
     "explain": {
-      "de": "Das Subjekt ellos verlangt die 3. Person Plural von haber: habrían. habría wäre Singular, habríamos/habríais falsche Personen.",
-      "en": "The subject ellos requires the third person plural of haber: habrían. habría is singular, habríamos/habríais are the wrong persons."
+      "de": "Bei ellos heißt das Hilfsverb habrían; habría (yo/él) und habríamos (nosotros) passen nicht.",
+      "en": "For ellos the auxiliary is habrían; habría (yo/él) and habríamos (nosotros) do not fit."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Con tu ayuda, nosotros ___ terminado antes. (haber)",
+    "prompt": "Nosotros habríamos ___ mejor allí.",
     "promptGloss": {
-      "de": "Mit deiner Hilfe hätten wir früher fertig gewesen.",
-      "en": "With your help, we would have finished earlier."
+      "de": "Wir hätten dort besser geschlafen.",
+      "en": "We would have slept better there."
     },
-    "answer": "habríamos",
+    "answer": "dormido",
+    "altAnswers": [],
     "explain": {
-      "de": "Für nosotros lautet haber im Konditional habríamos; das Partizip terminado bleibt unverändert.",
-      "en": "For nosotros, haber in the conditional is habríamos; the participle terminado stays unchanged."
+      "de": "Nach habríamos steht das Partizip Perfekt dormido.",
+      "en": "After habríamos comes the past participle dormido."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Si hubiera estudiado, ___ aprobado el examen.",
+    "promptGloss": {
+      "de": "Wenn ich gelernt hätte, hätte ich die Prüfung bestanden.",
+      "en": "If I had studied, I would have passed the exam."
+    },
+    "answer": "habría",
+    "altAnswers": [],
+    "explain": {
+      "de": "Im si-Satz mit Plusquamperfekt Subjunktiv folgt der Hauptsatz im Konditional II: habría aprobado.",
+      "en": "In the si-clause with pluperfect subjunctive, the main clause uses the conditional perfect: habría aprobado."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Yo habría ___ la verdad en tu lugar.",
+    "prompt": "Habríamos ido al cine ___ fuera posible.",
+    "promptGloss": {
+      "de": "Wir wären ins Kino gegangen, wenn es möglich gewesen wäre.",
+      "en": "We would have gone to the cinema if it had been possible."
+    },
+    "answer": "si",
+    "options": ["si", "cuando", "porque"],
+    "explain": {
+      "de": "Die Bedingung wird mit si eingeleitet; cuando und porque drücken keine Bedingung aus.",
+      "en": "The condition is introduced with si; cuando and porque do not express a condition."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Yo ___ dicho la verdad en tu lugar.",
     "promptGloss": {
       "de": "Ich hätte an deiner Stelle die Wahrheit gesagt.",
       "en": "I would have told the truth in your place."
     },
-    "options": ["dicho", "decido", "dichos", "diciendo"],
-    "answer": "dicho",
+    "answer": "habría",
+    "altAnswers": [],
     "explain": {
-      "de": "decir hat das unregelmäßige Partizip dicho. decido existiert nicht, dichos wäre falsch (das Partizip ist im zusammengesetzten Tempus unveränderlich), diciendo ist das Gerundium.",
-      "en": "decir has the irregular participle dicho. decido does not exist, dichos is wrong (the participle is invariable in a compound tense), and diciendo is the gerund."
+      "de": "Das Konditional II drückt aus, was man getan hätte: habría dicho.",
+      "en": "The conditional perfect expresses what one would have done: habría dicho."
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Ella ___ hecho lo mismo que tú. (haber)",
+    "kind": "choice",
+    "prompt": "Ella ___ hecho lo mismo que tú.",
     "promptGloss": {
       "de": "Sie hätte dasselbe gemacht wie du.",
       "en": "She would have done the same as you."
     },
     "answer": "habría",
+    "options": ["habría", "habrías", "habríais"],
     "explain": {
-      "de": "ella verlangt die 3. Person Singular von haber (habría); das unregelmäßige Partizip von hacer ist hecho und ändert sich nie.",
-      "en": "ella requires the third person singular of haber (habría); the irregular participle of hacer is hecho and never changes."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Vosotros ___ podido ayudar, pero no quisisteis.",
-    "promptGloss": {
-      "de": "Ihr hättet helfen können, aber ihr wolltet nicht.",
-      "en": "You all could have helped, but you didn't want to."
-    },
-    "options": ["habríais", "habrían", "habríamos", "habrías"],
-    "answer": "habríais",
-    "explain": {
-      "de": "vosotros verlangt die 2. Person Plural von haber: habríais (mit Akzent auf dem í). habrían ist 3. Plural, habríamos 1. Plural, habrías 2. Singular.",
-      "en": "vosotros requires the second person plural of haber: habríais (accent on the í). habrían is third plural, habríamos first plural, habrías second singular."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Si hubiera estudiado, ___ el examen.",
-    "promptGloss": {
-      "de": "Wenn ich gelernt hätte, hätte ich die Prüfung bestanden.",
-      "en": "If I had studied, I would have passed the exam."
-    },
-    "options": ["habría aprobado", "habré aprobado", "aprobaría", "hubiera aprobado"],
-    "answer": "habría aprobado",
-    "explain": {
-      "de": "Nach si + Plusquamperfekt Subjunktiv (hubiera estudiado) steht im Hauptsatz das Condicional perfecto: habría aprobado. habré aprobado ist Futur, aprobaría einfaches Konditional (kein abgeschlossenes Ergebnis).",
-      "en": "After si + pluperfect subjunctive (hubiera estudiado), the main clause takes the condicional perfecto: habría aprobado. habré aprobado is future, aprobaría is the simple conditional (no completed result)."
+      "de": "Bei ella lautet das Hilfsverb habría; habrías (tú) und habríais (vosotros) passen nicht.",
+      "en": "For ella the auxiliary is habría; habrías (tú) and habríais (vosotros) do not fit."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Nosotros ___ ido si hubiera sido posible. (haber + ir)",
+    "prompt": "Tú habrías ___ suerte con ese trabajo.",
     "promptGloss": {
-      "de": "Wir wären gegangen, wenn es möglich gewesen wäre.",
-      "en": "We would have gone if it had been possible."
+      "de": "Du hättest mit diesem Job Glück gehabt.",
+      "en": "You would have been lucky with that job."
     },
-    "answer": "habríamos ido",
+    "answer": "tenido",
+    "altAnswers": [],
     "explain": {
-      "de": "Im Hauptsatz eines irrealen Bedingungssatzes der Vergangenheit steht das Condicional perfecto: habríamos ido. Das Partizip ido (ir) bleibt unverändert.",
-      "en": "The main clause of an unreal past conditional takes the condicional perfecto: habríamos ido. The participle ido (ir) stays unchanged."
+      "de": "Das Partizip tenido bleibt unverändert; nur habría wird gebeugt (habrías).",
+      "en": "The participle tenido stays fixed; only habría is conjugated (habrías)."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Ya ___ comido cuando llegué; los platos estaban vacíos.",
+    "prompt": "Vosotros habríais ___ ayudar con la mudanza.",
     "promptGloss": {
-      "de": "Sie hatten wohl schon gegessen, als ich ankam; die Teller waren leer.",
-      "en": "They had probably already eaten when I arrived; the plates were empty."
+      "de": "Ihr hättet beim Umzug helfen können.",
+      "en": "You all could have helped with the move."
     },
-    "options": ["habrían", "habían", "habrán", "habrías"],
+    "answer": "podido",
+    "options": ["podido", "podida", "podidos"],
+    "explain": {
+      "de": "Das Partizip bleibt immer gleich: podido; es richtet sich nicht nach dem Subjekt.",
+      "en": "The participle is always the same: podido; it does not agree with the subject."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Los niños ya ___ comido cuando yo llegué a casa.",
+    "promptGloss": {
+      "de": "Die Kinder hatten wohl schon gegessen, als ich nach Hause kam.",
+      "en": "The children had probably already eaten when I got home."
+    },
     "answer": "habrían",
+    "altAnswers": [],
     "explain": {
-      "de": "Das Condicional perfecto (habrían comido) drückt hier eine Vermutung über die Vergangenheit aus ('sie hatten wohl schon...'). habían comido wäre eine sichere Feststellung (Plusquamperfekt), habrán ein Futur.",
-      "en": "The condicional perfecto (habrían comido) here expresses a guess about the past ('they had probably...'). habían comido would be a certain statement (pluperfect), and habrán is a future."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "¿Tú qué ___ en mi situación?",
-    "promptGloss": {
-      "de": "Was hättest du in meiner Situation gemacht?",
-      "en": "What would you have done in my situation?"
-    },
-    "options": ["habrías hecho", "habrás hecho", "harías", "hiciste"],
-    "answer": "habrías hecho",
-    "explain": {
-      "de": "Es geht um eine abgeschlossene, hypothetische Vergangenheitshandlung → Condicional perfecto: habrías hecho. harías (einfaches Konditional) bezöge sich auf Gegenwart/Zukunft, hiciste ist reale Vergangenheit, habrás hecho ist Futur.",
-      "en": "It refers to a completed, hypothetical past action → condicional perfecto: habrías hecho. harías (simple conditional) would point to present/future, hiciste is real past, and habrás hecho is future."
+      "de": "Das Konditional II kann eine Vermutung über die Vergangenheit ausdrücken: habrían comido.",
+      "en": "The conditional perfect can express a guess about the past: habrían comido."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Yo no ___ querido ir a esa fiesta. (yo, haber)",
+    "prompt": "Con tu ayuda, todo ___ sido más fácil.",
     "promptGloss": {
-      "de": "Ich hätte nicht zu dieser Party gehen wollen.",
-      "en": "I would not have wanted to go to that party."
+      "de": "Mit deiner Hilfe wäre alles einfacher gewesen.",
+      "en": "With your help, everything would have been easier."
     },
     "answer": "habría",
+    "altAnswers": [],
     "explain": {
-      "de": "Auch in der Verneinung steht haber im Konditional (habría) + Partizip; no steht vor habría. Das Partizip querido bleibt fest.",
-      "en": "Even in the negative, haber stays in the conditional (habría) + participle; no comes before habría. The participle querido stays fixed."
+      "de": "Konditional II von ser: habría sido (todo, 3. Person Singular).",
+      "en": "Conditional perfect of ser: habría sido (todo, third person singular)."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Tú ___ tenido suerte si hubieras jugado.",
+    "prompt": "¿Tú qué ___ hecho en esa situación?",
     "promptGloss": {
-      "de": "Du hättest Glück gehabt, wenn du gespielt hättest.",
-      "en": "You would have been lucky if you had played."
+      "de": "Was hättest du in dieser Situation gemacht?",
+      "en": "What would you have done in that situation?"
     },
-    "options": ["habrías", "habrás", "tendrías", "hubieras"],
     "answer": "habrías",
+    "options": ["habrías", "habría", "habrían"],
     "explain": {
-      "de": "Der irreale si-Satz (si hubieras jugado) verlangt im Hauptsatz das Condicional perfecto: habrías tenido. habrás ist Futur, tendrías einfaches Konditional, hubieras gehört in den Nebensatz.",
-      "en": "The unreal si-clause (si hubieras jugado) requires the condicional perfecto in the main clause: habrías tenido. habrás is future, tendrías simple conditional, hubieras belongs in the subordinate clause."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "En tu lugar, yo ___ las maletas la noche anterior.",
-    "promptGloss": {
-      "de": "An deiner Stelle hätte ich die Koffer am Vorabend gepackt.",
-      "en": "In your place, I would have packed the suitcases the night before."
-    },
-    "options": ["habría hecho", "haría", "habría hechas", "hacía"],
-    "answer": "habría hecho",
-    "explain": {
-      "de": "Was man anders getan hätte → Condicional perfecto: habría hecho (hacer las maletas). Das Partizip ist unveränderlich, also nie hechas; haría wäre einfaches Konditional, hacía Imperfekt.",
-      "en": "What one would have done differently → condicional perfecto: habría hecho. The participle is invariable, never hechas; haría would be simple conditional, hacía the imperfect."
+      "de": "Bei tú lautet die Form habrías; habría (yo/él) und habrían (ellos) passen nicht.",
+      "en": "For tú the form is habrías; habría (yo/él) and habrían (ellos) do not fit."
     }
   },
   {
     "kind": "fill",
-    "prompt": "No contestó; ___ roto el teléfono, supongo. (ella, haber + romper)",
+    "prompt": "Yo no ___ querido ir solo a la reunión.",
     "promptGloss": {
-      "de": "Sie antwortete nicht; sie wird wohl das Telefon kaputt gemacht haben, vermute ich.",
-      "en": "She didn't answer; she had probably broken the phone, I suppose."
-    },
-    "answer": "habría roto",
-    "explain": {
-      "de": "Vermutung über die Vergangenheit (3. Sg.) mit dem unregelmäßigen Partizip roto (romper), nicht rompido: habría roto.",
-      "en": "A guess about the past (3rd sg.) with the irregular participle roto (romper), not rompido: habría roto."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Habría ___ más fácil con un buen mapa.",
-    "promptGloss": {
-      "de": "Es wäre mit einer guten Karte einfacher gewesen.",
-      "en": "It would have been easier with a good map."
-    },
-    "options": ["sido", "estado", "siendo", "sidos"],
-    "answer": "sido",
-    "explain": {
-      "de": "Hier beschreibt 'es wäre einfach gewesen' eine Eigenschaft/Bewertung → ser, Partizip sido. estado (estar) passte nicht zu fácil als Wesensmerkmal; siendo ist Gerundium, sidos existiert nicht.",
-      "en": "Here 'it would have been easy' describes a quality/judgement → ser, participle sido. estado (estar) does not fit fácil as an inherent trait; siendo is the gerund, and sidos does not exist."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Si me lo hubieras pedido, te ___ ayudado encantado. (yo, haber)",
-    "promptGloss": {
-      "de": "Wenn du mich darum gebeten hättest, hätte ich dir gern geholfen.",
-      "en": "If you had asked me, I would have helped you gladly."
+      "de": "Ich hätte nicht allein zum Treffen gehen wollen.",
+      "en": "I would not have wanted to go alone to the meeting."
     },
     "answer": "habría",
+    "altAnswers": [],
     "explain": {
-      "de": "Nach si + Plusquamperfekt Subjunktiv (hubieras pedido) folgt im Hauptsatz das Condicional perfecto: te habría ayudado. Das Objektpronomen te steht vor der konjugierten Form habría.",
-      "en": "After si + pluperfect subjunctive (hubieras pedido), the main clause takes the condicional perfecto: te habría ayudado. The object pronoun te comes before the conjugated form habría."
+      "de": "Verneint steht no vor dem Hilfsverb: yo no habría querido.",
+      "en": "Negated, no goes before the auxiliary: yo no habría querido."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Si lo hubiera sabido, ellos ___ venido antes.",
+    "promptGloss": {
+      "de": "Wenn sie es gewusst hätten, wären sie früher gekommen.",
+      "en": "If they had known, they would have come earlier."
+    },
+    "answer": "habrían",
+    "options": ["habrían", "habría", "habríamos"],
+    "explain": {
+      "de": "Im Hauptsatz nach dem si-Satz steht das Konditional II; bei ellos heißt es habrían.",
+      "en": "In the main clause after the si-clause comes the conditional perfect; for ellos it is habrían."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Vosotros ___ podido llegar a tiempo sin tráfico.",
+    "promptGloss": {
+      "de": "Ihr hättet ohne Verkehr pünktlich ankommen können.",
+      "en": "You all could have arrived on time without traffic."
+    },
+    "answer": "habríais",
+    "altAnswers": [],
+    "explain": {
+      "de": "Bei vosotros lautet das Hilfsverb habríais.",
+      "en": "For vosotros the auxiliary is habríais."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ella habría ___ la verdad de otra manera.",
+    "promptGloss": {
+      "de": "Sie hätte die Wahrheit anders gesagt.",
+      "en": "She would have told the truth in a different way."
+    },
+    "answer": "dicho",
+    "options": ["dicho", "dicha", "dichos"],
+    "explain": {
+      "de": "Das Partizip bleibt unveränderlich: dicho, unabhängig vom Subjekt ella.",
+      "en": "The participle is invariable: dicho, regardless of the subject ella."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Nosotros ___ dormido mejor en otro hotel.",
+    "promptGloss": {
+      "de": "Wir hätten in einem anderen Hotel besser geschlafen.",
+      "en": "We would have slept better in another hotel."
+    },
+    "answer": "habríamos",
+    "altAnswers": [],
+    "explain": {
+      "de": "Bei nosotros lautet das Hilfsverb habríamos.",
+      "en": "For nosotros the auxiliary is habríamos."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Mis padres ya ___ salido de casa cuando empezó a llover.",
+    "promptGloss": {
+      "de": "Meine Eltern waren wohl schon aus dem Haus, als es zu regnen begann.",
+      "en": "My parents had probably already left the house when it started to rain."
+    },
+    "answer": "habrían",
+    "options": ["habrían", "habríais", "habría"],
+    "explain": {
+      "de": "Vermutung über die Vergangenheit bei ellos: habrían salido; die anderen Formen passen nicht zum Subjekt.",
+      "en": "Guess about the past for ellos: habrían salido; the other forms do not match the subject."
     }
   }
 ]

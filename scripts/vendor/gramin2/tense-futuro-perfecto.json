@@ -1,0 +1,191 @@
+{
+ "kind": "tense",
+ "id": "futuro-perfecto",
+ "name": {
+  "de": "Futur II (futuro perfecto)",
+  "en": "Future perfect (futuro perfecto)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Das Futuro perfecto beschreibt, was bis zu einem Zeitpunkt in der Zukunft abgeschlossen sein wird, oder eine Vermutung über die jüngste Vergangenheit.",
+  "en": "The futuro perfecto expresses what will have happened by a point in the future, or a guess about the recent past."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung: haber im Futur + Partizip",
+    "en": "Formation: haber in the future + participle"
+   },
+   "body": {
+    "de": "haber im Futur (habré, habrás, habrá, habremos, habréis, habrán) plus das Partizip Perfekt.",
+    "en": "haber in the future (habré, habrás, habrá, habremos, habréis, habrán) plus the past participle."
+   },
+   "examples": [
+    {
+     "es": "habré hablado",
+     "gloss": {
+      "de": "ich werde gesprochen haben",
+      "en": "I will have spoken"
+     },
+     "note": {
+      "de": "habré + Partizip",
+      "en": "habré + participle"
+     }
+    },
+    {
+     "es": "habremos comido",
+     "gloss": {
+      "de": "wir werden gegessen haben",
+      "en": "we will have eaten"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Abgeschlossen bis zu einem Zeitpunkt",
+    "en": "Completed by a future point"
+   },
+   "body": {
+    "de": "Es sagt, dass eine Handlung vor einem bestimmten Zeitpunkt in der Zukunft fertig sein wird.",
+    "en": "It says an action will be finished before a certain point in the future."
+   },
+   "examples": [
+    {
+     "es": "Para mañana ya habré terminado.",
+     "gloss": {
+      "de": "Bis morgen werde ich schon fertig sein.",
+      "en": "By tomorrow I will already have finished."
+     },
+     "note": {
+      "de": "Zeitpunkt: para mañana",
+      "en": "Point: para mañana"
+     }
+    },
+    {
+     "es": "A las ocho habremos vivido aquí un año.",
+     "gloss": {
+      "de": "Um acht werden wir ein Jahr hier gewohnt haben.",
+      "en": "By eight we will have lived here a year."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Vermutung über die jüngste Vergangenheit",
+    "en": "Guess about the recent past"
+   },
+   "body": {
+    "de": "Es drückt eine Vermutung darüber aus, was wohl gerade passiert ist.",
+    "en": "It expresses a guess about what has probably just happened."
+   },
+   "examples": [
+    {
+     "es": "Habrá comido ya.",
+     "gloss": {
+      "de": "Er wird wohl schon gegessen haben.",
+      "en": "He has probably already eaten."
+     },
+     "note": {
+      "de": "Vermutung, kein echtes Futur",
+      "en": "A guess, not real future"
+     }
+    },
+    {
+     "es": "¿Qué habrá dicho Ana?",
+     "gloss": {
+      "de": "Was Ana wohl gesagt hat?",
+      "en": "I wonder what Ana has said?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Zusammengesetzte Zeit, festes Partizip",
+    "en": "Compound tense, fixed participle"
+   },
+   "body": {
+    "de": "Das Partizip bleibt immer gleich; nur haber verändert sich nach der Person.",
+    "en": "The participle never changes; only haber changes with the person."
+   },
+   "examples": [
+    {
+     "es": "habré hecho, habrás hecho, habrá hecho",
+     "gloss": {
+      "de": "ich/du/er werde(n) gemacht haben",
+      "en": "I/you/he will have done"
+     },
+     "note": {
+      "de": "Partizip unverändert",
+      "en": "Participle unchanged"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßige Partizipien",
+    "en": "Irregular participles"
+   },
+   "body": {
+    "de": "Manche Partizipien sind unregelmäßig, etwa hecho (hacer) und dicho (decir).",
+    "en": "Some participles are irregular, such as hecho (hacer) and dicho (decir)."
+   },
+   "examples": [
+    {
+     "es": "Lo habré hecho para el lunes.",
+     "gloss": {
+      "de": "Bis Montag werde ich es gemacht haben.",
+      "en": "I will have done it by Monday."
+     }
+    },
+    {
+     "es": "Habrán dicho la verdad.",
+     "gloss": {
+      "de": "Sie werden wohl die Wahrheit gesagt haben.",
+      "en": "They have probably told the truth."
+     },
+     "note": {
+      "de": "decir → dicho",
+      "en": "decir → dicho"
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Para el viernes habré terminado el trabajo.",
+   "gloss": {
+    "de": "Bis Freitag werde ich die Arbeit beendet haben.",
+    "en": "By Friday I will have finished the work."
+   }
+  },
+  {
+   "es": "Cuando llegues, ya habremos comido.",
+   "gloss": {
+    "de": "Wenn du ankommst, werden wir schon gegessen haben.",
+    "en": "When you arrive, we will already have eaten."
+   }
+  },
+  {
+   "es": "Habrá tenido un problema en el camino.",
+   "gloss": {
+    "de": "Er wird wohl unterwegs ein Problem gehabt haben.",
+    "en": "He has probably had a problem on the way."
+   }
+  },
+  {
+   "es": "Para entonces habrás aprendido mucho.",
+   "gloss": {
+    "de": "Bis dahin wirst du viel gelernt haben.",
+    "en": "By then you will have learned a lot."
+   }
+  }
+ ]
+}

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { RuleList } from "@/components/RuleList";
@@ -11,6 +12,8 @@ import type { GrammarTopic } from "@/lib/types";
 export function TopicDetail({ topic }: { topic: GrammarTopic }) {
   const { L, t } = useI18n();
   const hasTest = topic.practice.length > 0;
+  // while the test runs, the lesson material is hidden so you can't look things up
+  const [testRunning, setTestRunning] = useState(false);
 
   const nav = [
     { id: "ueberblick", label: t("lesson.overview") },
@@ -27,33 +30,37 @@ export function TopicDetail({ topic }: { topic: GrammarTopic }) {
         <p className="mt-1 text-muted">{L(topic.summary)}</p>
       </header>
 
-      <LessonNav items={nav} />
+      {!testRunning && <LessonNav items={nav} />}
 
       <div className="space-y-8">
-        <Segment id="ueberblick" title={t("lesson.overview")}>
-          <p className="text-[15px] leading-relaxed">{L(topic.summary)}</p>
-          {/* quick reference: every rule title at a glance */}
-          <div className="rounded-xl border border-border bg-card p-4">
-            <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("lesson.quickRef")}</div>
-            <ol className="space-y-1.5 text-sm">
-              {topic.rules.map((r, i) => (
-                <li key={r.id} className="flex gap-2.5">
-                  <span className="text-brand">{i + 1}.</span>
-                  <span>{L(r.title)}</span>
-                </li>
-              ))}
-            </ol>
-          </div>
-        </Segment>
+        {!testRunning && (
+          <Segment id="ueberblick" title={t("lesson.overview")}>
+            <p className="text-[15px] leading-relaxed">{L(topic.summary)}</p>
+            {/* quick reference: every rule title at a glance */}
+            <div className="rounded-xl border border-border bg-card p-4">
+              <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("lesson.quickRef")}</div>
+              <ol className="space-y-1.5 text-sm">
+                {topic.rules.map((r, i) => (
+                  <li key={r.id} className="flex gap-2.5">
+                    <span className="text-brand">{i + 1}.</span>
+                    <span>{L(r.title)}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          </Segment>
+        )}
 
-        <Segment id="regeln" title={t("lesson.rules")} hint={`${topic.rules.length}`}>
-          <RuleList rules={topic.rules} />
-        </Segment>
+        {!testRunning && (
+          <Segment id="regeln" title={t("lesson.rules")} hint={`${topic.rules.length}`}>
+            <RuleList rules={topic.rules} />
+          </Segment>
+        )}
 
         {hasTest && (
           <Segment id="test" title={t("lesson.test")} hint={`${topic.practice.length}`}>
-            <p className="text-sm text-muted">{t("lesson.testIntro")}</p>
-            <GrammarPractice topicId={topic.id} items={topic.practice} />
+            {!testRunning && <p className="text-sm text-muted">{t("lesson.testIntro")}</p>}
+            <GrammarPractice topicId={topic.id} items={topic.practice} onRunningChange={setTestRunning} />
           </Segment>
         )}
       </div>

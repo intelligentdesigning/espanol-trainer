@@ -6,11 +6,11 @@
       "de": "Wo wohnst du, im Zentrum oder am Stadtrand?",
       "en": "Where do you live, in the centre or on the outskirts?"
     },
-    "options": ["Dónde", "Donde", "Adónde", "De dónde"],
+    "options": ["Dónde", "Donde", "Adónde"],
     "answer": "Dónde",
     "explain": {
-      "de": "In direkten Fragen trägt das Fragewort immer einen Akzent: 'dónde'. Das unbetonte 'donde' ist ein Relativ-/Verbindungswort (z. B. 'la casa donde vivo').",
-      "en": "In direct questions the question word always carries an accent: 'dónde'. Unaccented 'donde' is a relative/connector word (e.g. 'la casa donde vivo')."
+      "de": "In direkten Fragen trägt das Fragewort immer einen Akzent: 'dónde'. Das unbetonte 'donde' ist ein Relativwort (z. B. 'la casa donde vivo').",
+      "en": "In direct questions the question word always carries an accent: 'dónde'. Unaccented 'donde' is a relative word (e.g. 'la casa donde vivo')."
     }
   },
   {
@@ -20,7 +20,7 @@
       "de": "Wer ist deine Spanischlehrerin?",
       "en": "Who is your Spanish teacher?"
     },
-    "options": ["Quién", "Qué", "Cuál", "Cómo"],
+    "options": ["Quién", "Qué", "Cuál"],
     "answer": "Quién",
     "explain": {
       "de": "Nach einer Person fragt man mit 'quién'. 'Qué' fragt nach einer Sache/Definition, 'cuál' wählt aus einer Menge aus.",
@@ -34,10 +34,10 @@
       "de": "Was machst du an diesem Wochenende?",
       "en": "What are you doing this weekend?"
     },
-    "options": ["Qué", "Cuál", "Cómo", "Cuánto"],
+    "options": ["Qué", "Cuál", "Cómo"],
     "answer": "Qué",
     "explain": {
-      "de": "'Qué' fragt offen nach der Sache/Tätigkeit ('was'). 'Cuál' setzt eine Auswahl aus bekannten Optionen voraus, die hier nicht gegeben ist.",
+      "de": "'Qué' fragt offen nach der Sache/Tätigkeit ('was'). 'Cuál' setzt eine Auswahl aus bekannten Optionen voraus, die hier fehlt.",
       "en": "'Qué' asks openly for the thing/activity ('what'). 'Cuál' presupposes a choice among known options, which is absent here."
     }
   },
@@ -48,7 +48,7 @@
       "de": "Ich habe zwei Autos. Welches ziehst du vor, das rote oder das schwarze?",
       "en": "I have two cars. Which do you prefer, the red one or the black one?"
     },
-    "options": ["Cuál", "Qué", "Quién", "Cómo"],
+    "options": ["Cuál", "Qué", "Quién"],
     "answer": "Cuál",
     "explain": {
       "de": "Es wird aus einer bekannten Menge ausgewählt ('das rote oder das schwarze'), daher 'cuál'. 'Qué' würde nach einer Definition fragen, nicht nach einer Auswahl.",
@@ -62,7 +62,7 @@
       "de": "Welches Buch liest du gerade?",
       "en": "Which book are you reading right now?"
     },
-    "options": ["Qué", "Cuál", "Cuáles", "Cómo"],
+    "options": ["Qué", "Cuál", "Cuáles"],
     "answer": "Qué",
     "explain": {
       "de": "Direkt vor einem Nomen steht im Spanischen normalerweise 'qué' (= 'welches'), nicht 'cuál'. 'Cuál libro' ist im Standardspanisch ein typischer Fehler.",
@@ -71,54 +71,57 @@
   },
   {
     "kind": "choice",
-    "prompt": "¿___ es la capital de Perú?",
+    "prompt": "¿___ color te gusta más, el verde o el azul?",
     "promptGloss": {
-      "de": "Welches ist die Hauptstadt von Peru?",
-      "en": "What is the capital of Peru?"
+      "de": "Welche Farbe magst du lieber, grün oder blau?",
+      "en": "Which colour do you like more, green or blue?"
     },
-    "options": ["Cuál", "Qué", "Quién", "Cómo"],
-    "answer": "Cuál",
-    "explain": {
-      "de": "Vor 'ser + Nomen' verlangt das Spanische 'cuál', wenn nach einer konkreten Information aus einer Menge gefragt wird. '¿Qué es la capital?' würde nach einer Definition des Begriffs 'Hauptstadt' fragen.",
-      "en": "Before 'ser + noun' Spanish uses 'cuál' when asking for a specific piece of information from a set. '¿Qué es la capital?' would ask for the definition of the word 'capital'."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "¿___ es la diferencia entre 'ser' y 'estar'? (Definition gesucht)",
-    "promptGloss": {
-      "de": "Was ist der Unterschied zwischen 'ser' und 'estar'?",
-      "en": "What is the difference between 'ser' and 'estar'?"
-    },
+    "options": ["Qué", "Cuál", "Cuáles"],
     "answer": "Qué",
     "explain": {
-      "de": "Hier wird nach einer Definition/Erklärung gefragt ('was bedeutet/ist'), daher 'qué', obwohl 'ser' folgt. Bei einer Definition steht 'qué', nicht 'cuál'.",
-      "en": "Here a definition/explanation is requested ('what is/means'), so 'qué', even though 'ser' follows. For a definition use 'qué', not 'cuál'."
+      "de": "Direkt vor dem Nomen 'color' steht 'qué', auch wenn ausgewählt wird. 'Cuál' vor einem Nomen gilt als Fehler.",
+      "en": "Directly before the noun 'color' Spanish uses 'qué', even when selecting. 'Cuál' before a noun is considered an error."
     }
   },
   {
     "kind": "fill",
-    "prompt": "¿___ de estos vestidos te gustan más? (Auswahl, Plural)",
+    "prompt": "¿___ significa esta palabra en alemán?",
+    "promptGloss": {
+      "de": "Was bedeutet dieses Wort auf Deutsch?",
+      "en": "What does this word mean in German?"
+    },
+    "answer": "Qué",
+    "altAnswers": ["qué"],
+    "explain": {
+      "de": "'qué' fragt nach Bedeutung/Definition und trägt in der Frage den Akzent.",
+      "en": "'qué' asks for meaning/definition and carries the accent in the question."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿___ de estos vestidos te gustan más?",
     "promptGloss": {
       "de": "Welche dieser Kleider gefallen dir am besten?",
       "en": "Which of these dresses do you like best?"
     },
     "answer": "Cuáles",
+    "altAnswers": ["cuáles"],
     "explain": {
-      "de": "Auswahl aus einer Menge ('de estos vestidos') verlangt 'cuál', und das Verb 'gustan' im Plural fordert die Pluralform 'cuáles'. Der Akzent bleibt auch im Plural.",
+      "de": "Auswahl aus einer Menge ('de estos vestidos') verlangt 'cuál', und das Plural-Verb 'gustan' fordert die Pluralform 'cuáles'. Der Akzent bleibt auch im Plural.",
       "en": "Selecting from a set ('de estos vestidos') requires 'cuál', and the plural verb 'gustan' forces the plural form 'cuáles'. The accent stays in the plural too."
     }
   },
   {
     "kind": "fill",
-    "prompt": "¿___ son los responsables de este proyecto? (mehrere Personen)",
+    "prompt": "¿___ son los responsables de este proyecto?",
     "promptGloss": {
       "de": "Wer sind die Verantwortlichen für dieses Projekt?",
       "en": "Who are the people responsible for this project?"
     },
     "answer": "Quiénes",
+    "altAnswers": ["quiénes"],
     "explain": {
-      "de": "Bei mehreren Personen (Verb 'son', Nomen Plural) steht der Plural 'quiénes'. Das singularische 'quién' passt nicht zu 'son los responsables'.",
+      "de": "Bei mehreren Personen (Verb 'son', Nomen im Plural) steht der Plural 'quiénes'. Das singularische 'quién' passt nicht zu 'son los responsables'.",
       "en": "With several people (verb 'son', plural noun) the plural 'quiénes' is used. Singular 'quién' does not fit 'son los responsables'."
     }
   },
@@ -129,7 +132,7 @@
       "de": "Wie viele Geschwister hast du insgesamt?",
       "en": "How many siblings do you have in total?"
     },
-    "options": ["Cuántos", "Cuántas", "Cuánto", "Cuán"],
+    "options": ["Cuántos", "Cuántas", "Cuánto"],
     "answer": "Cuántos",
     "explain": {
       "de": "'Cuánto' passt sich in Genus und Numerus an: 'hermanos' ist maskulin Plural, also 'cuántos'. 'Cuántas' wäre feminin.",
@@ -138,15 +141,16 @@
   },
   {
     "kind": "fill",
-    "prompt": "¿___ agua bebes al día? (unzählbar, fem. Singular)",
+    "prompt": "¿___ agua bebes cada día?",
     "promptGloss": {
-      "de": "Wie viel Wasser trinkst du am Tag?",
-      "en": "How much water do you drink per day?"
+      "de": "Wie viel Wasser trinkst du jeden Tag?",
+      "en": "How much water do you drink each day?"
     },
     "answer": "Cuánta",
+    "altAnswers": ["cuánta"],
     "explain": {
-      "de": "'Agua' ist feminin Singular und unzählbar, daher die angepasste Form 'cuánta'. Das Maskulinum 'cuánto' wäre hier falsch.",
-      "en": "'Agua' is feminine singular and uncountable, so the agreeing form 'cuánta'. The masculine 'cuánto' would be wrong here."
+      "de": "'Agua' ist feminin Singular, daher die angepasste Form 'cuánta'. Das Maskulinum 'cuánto' wäre hier falsch.",
+      "en": "'Agua' is feminine singular, so the agreeing form 'cuánta'. The masculine 'cuánto' would be wrong here."
     }
   },
   {
@@ -156,7 +160,7 @@
       "de": "Warum weinst du? Ich verstehe nicht, was mit dir los ist.",
       "en": "Why are you crying? I don't understand what's wrong with you."
     },
-    "options": ["Por qué", "Porque", "Porqué", "Por que"],
+    "options": ["Por qué", "Porque", "Porqué"],
     "answer": "Por qué",
     "explain": {
       "de": "Die Frage 'warum' schreibt man getrennt und mit Akzent: 'por qué'. 'Porque' (ein Wort) heißt 'weil' und 'el porqué' wäre das Substantiv 'der Grund'.",
@@ -165,7 +169,7 @@
   },
   {
     "kind": "fill",
-    "prompt": "No voy a la fiesta ___ estoy muy cansado. (Begründung: weil)",
+    "prompt": "No voy a la fiesta ___ estoy muy cansado.",
     "promptGloss": {
       "de": "Ich gehe nicht auf die Party, weil ich sehr müde bin.",
       "en": "I'm not going to the party because I'm very tired."
@@ -178,15 +182,15 @@
   },
   {
     "kind": "fill",
-    "prompt": "Dime ___ has llegado tan tarde hoy. (indirekte Frage: warum)",
+    "prompt": "Dime ___ has llegado tan tarde hoy.",
     "promptGloss": {
       "de": "Sag mir, warum du heute so spät gekommen bist.",
       "en": "Tell me why you arrived so late today."
     },
     "answer": "por qué",
     "explain": {
-      "de": "Auch in indirekten Fragen behält 'por qué' Akzent und Getrenntschreibung. Das angehängte 'porque' (ein Wort) würde fälschlich 'weil' bedeuten.",
-      "en": "Even in indirect questions 'por qué' keeps its accent and is written as two words. The joined 'porque' (one word) would wrongly mean 'because'."
+      "de": "Auch in indirekten Fragen behält 'por qué' Akzent und Getrenntschreibung. Das zusammengeschriebene 'porque' würde fälschlich 'weil' bedeuten.",
+      "en": "Even in indirect questions 'por qué' keeps its accent and stays two words. The joined 'porque' would wrongly mean 'because'."
     }
   },
   {
@@ -196,10 +200,10 @@
       "de": "Ich weiß nicht, wie der neue Junge in der Klasse heißt.",
       "en": "I don't know what the new boy in the class is called."
     },
-    "options": ["cómo", "como", "qué", "que"],
+    "options": ["cómo", "como", "qué"],
     "answer": "cómo",
     "explain": {
-      "de": "Auch in indirekten Fragen ('no sé cómo…') trägt das Fragewort einen Akzent: 'cómo'. Das unbetonte 'como' bedeutet 'wie/da' im Vergleich und ist hier falsch.",
+      "de": "Auch in indirekten Fragen ('no sé cómo…') trägt das Fragewort einen Akzent: 'cómo'. Das unbetonte 'como' bedeutet 'wie/als' im Vergleich und ist hier falsch.",
       "en": "Even in indirect questions ('no sé cómo…') the question word carries an accent: 'cómo'. Unaccented 'como' means 'like/as' and is wrong here."
     }
   },
@@ -210,7 +214,7 @@
       "de": "Ich frage mich, wann Marta von ihrer Reise zurückkommt.",
       "en": "I wonder when Marta will come back from her trip."
     },
-    "options": ["cuándo", "cuando", "cuanto", "cómo"],
+    "options": ["cuándo", "cuando", "cómo"],
     "answer": "cuándo",
     "explain": {
       "de": "'Me pregunto…' leitet eine indirekte Frage ein, daher trägt 'cuándo' (wann) einen Akzent. Das unbetonte 'cuando' ('als/wenn') gehört zu Aussagesätzen.",
@@ -224,7 +228,7 @@
       "de": "Wie schön dieses Dorf ist!",
       "en": "How beautiful this village is!"
     },
-    "options": ["Qué", "Cómo", "Cuánto", "Cuál"],
+    "options": ["Qué", "Cómo", "Cuál"],
     "answer": "Qué",
     "explain": {
       "de": "Ausrufe vor einem Adjektiv bildet man mit '¡Qué + Adjektiv!' ('Wie schön!'). 'Cómo' leitet keinen Ausruf mit Adjektiv ein.",
@@ -233,7 +237,7 @@
   },
   {
     "kind": "fill",
-    "prompt": "¡Qué día ___ largo! No paramos de trabajar. (Verstärker zwischen Nomen und Adjektiv)",
+    "prompt": "¡Qué día ___ largo! No paramos de trabajar.",
     "promptGloss": {
       "de": "Was für ein langer Tag! Wir hörten nicht auf zu arbeiten.",
       "en": "What a long day! We didn't stop working."
@@ -241,18 +245,19 @@
     "answer": "tan",
     "altAnswers": ["más"],
     "explain": {
-      "de": "Bei 'Qué + Nomen + Adjektiv' steht zwischen Nomen und Adjektiv ein Verstärker: 'qué día tan largo' (auch 'más' möglich). Ohne ihn klingt der Ausruf unvollständig.",
-      "en": "With 'Qué + noun + adjective' an intensifier goes between noun and adjective: 'qué día tan largo' ('más' is also possible). Without it the exclamation sounds incomplete."
+      "de": "Bei 'Qué + Nomen + Adjektiv' steht dazwischen 'tan' (auch 'más'): 'qué día tan largo'. Ohne den Verstärker klingt der Ausruf unvollständig.",
+      "en": "With 'Qué + noun + adjective' you add 'tan' (or 'más') in between: 'qué día tan largo'. Without the intensifier the exclamation sounds incomplete."
     }
   },
   {
     "kind": "fill",
-    "prompt": "¡___ gente hay en la plaza hoy! (Ausruf über Menge, fem.)",
+    "prompt": "¡___ gente hay en la plaza hoy!",
     "promptGloss": {
       "de": "Wie viele Leute sind heute auf dem Platz!",
       "en": "So many people are in the square today!"
     },
     "answer": "Cuánta",
+    "altAnswers": ["cuánta"],
     "explain": {
       "de": "Im Mengen-Ausruf passt sich 'cuánto' an: 'gente' ist feminin Singular, also '¡Cuánta gente!'. Der Akzent bleibt auch im Ausruf erhalten.",
       "en": "In a quantity exclamation 'cuánto' agrees: 'gente' is feminine singular, so '¡Cuánta gente!'. The accent is kept in exclamations too."
@@ -260,16 +265,16 @@
   },
   {
     "kind": "choice",
-    "prompt": "¿___ es el problema exactamente? Cuéntamelo todo.",
+    "prompt": "¿___ es la capital de Perú?",
     "promptGloss": {
-      "de": "Was genau ist das Problem? Erzähl mir alles.",
-      "en": "What exactly is the problem? Tell me everything."
+      "de": "Welches ist die Hauptstadt von Peru?",
+      "en": "What is the capital of Peru?"
     },
-    "options": ["Cuál", "Qué", "Cómo", "Quién"],
+    "options": ["Cuál", "Qué", "Quién"],
     "answer": "Cuál",
     "explain": {
-      "de": "Vor 'ser + bestimmtem Nomen' fragt man mit 'cuál' nach der konkreten Sache ('Was ist das Problem?'). '¿Qué es el problema?' würde nach der Definition des Wortes 'Problem' fragen.",
-      "en": "Before 'ser + a definite noun' you ask with 'cuál' for the specific thing ('What is the problem?'). '¿Qué es el problema?' would ask for the definition of the word 'problem'."
+      "de": "Vor 'ser + Nomen' verlangt das Spanische 'cuál', wenn nach einer konkreten Information aus einer Menge gefragt wird. '¿Qué es la capital?' würde nach der Definition des Begriffs 'Hauptstadt' fragen.",
+      "en": "Before 'ser + noun' Spanish uses 'cuál' when asking for a specific piece of information from a set. '¿Qué es la capital?' would ask for the definition of the word 'capital'."
     }
   }
 ]

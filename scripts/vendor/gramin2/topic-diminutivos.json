@@ -1,0 +1,218 @@
+{
+ "kind": "topic",
+ "id": "diminutivos",
+ "name": {
+  "de": "Diminutive & Augmentative",
+  "en": "Diminutives & augmentatives"
+ },
+ "summary": {
+  "de": "Diminutive (-ito, -illo) verkleinern oder verniedlichen, Augmentative (-ón, -azo) vergrößern oder verstärken.",
+  "en": "Diminutives (-ito, -illo) make small or affectionate, augmentatives (-ón, -azo) make big or intense."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "-ito / -ita: klein & liebevoll",
+    "en": "-ito / -ita: small & affectionate"
+   },
+   "body": {
+    "de": "Das häufigste Diminutiv; ersetzt den Endvokal -o/-a durch -ito/-ita.",
+    "en": "The most common diminutive; replace the final -o/-a with -ito/-ita."
+   },
+   "examples": [
+    {
+     "es": "Tengo una casita en el campo.",
+     "gloss": {
+      "de": "Ich habe ein kleines Haus auf dem Land.",
+      "en": "I have a little house in the countryside."
+     },
+     "note": {
+      "de": "casa → casita",
+      "en": "casa → casita"
+     }
+    },
+    {
+     "es": "¡Qué perrito tan bonito!",
+     "gloss": {
+      "de": "Was für ein süßer kleiner Hund!",
+      "en": "What a cute little dog!"
+     },
+     "note": {
+      "de": "perro → perrito",
+      "en": "perro → perrito"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "-cito / -cita bei -e, -n, -r",
+    "en": "-cito / -cita after -e, -n, -r"
+   },
+   "body": {
+    "de": "Wörter auf -e, -n oder -r bekommen meist -cito/-cita statt -ito.",
+    "en": "Words ending in -e, -n or -r usually take -cito/-cita, not -ito."
+   },
+   "examples": [
+    {
+     "es": "¿Quieres un cafecito?",
+     "gloss": {
+      "de": "Möchtest du einen kleinen Kaffee?",
+      "en": "Would you like a little coffee?"
+     },
+     "note": {
+      "de": "café → cafecito",
+      "en": "café → cafecito"
+     }
+    },
+    {
+     "es": "Espérame un ratito, por favor.",
+     "gloss": {
+      "de": "Warte kurz auf mich, bitte.",
+      "en": "Wait a little while for me, please."
+     },
+     "note": {
+      "de": "rato → ratito (Ausnahme)",
+      "en": "rato → ratito (exception)"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Rechtschreibung: c→qu, g→gu, z→c",
+    "en": "Spelling: c→qu, g→gu, z→c"
+   },
+   "body": {
+    "de": "Der harte Klang bleibt erhalten: c wird qu, g wird gu, z wird c.",
+    "en": "Keep the hard sound: c becomes qu, g becomes gu, z becomes c."
+   },
+   "examples": [
+    {
+     "es": "El chiquito juega en el parque.",
+     "gloss": {
+      "de": "Der Kleine spielt im Park.",
+      "en": "The little one plays in the park."
+     },
+     "note": {
+      "de": "chico → chiquito",
+      "en": "chico → chiquito"
+     }
+    },
+    {
+     "es": "Comimos un pedacito de pan.",
+     "gloss": {
+      "de": "Wir aßen ein kleines Stück Brot.",
+      "en": "We ate a little piece of bread."
+     },
+     "note": {
+      "de": "pedazo → pedacito",
+      "en": "pedazo → pedacito"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "-illo / -illa: oft leicht abwertend",
+    "en": "-illo / -illa: often slightly dismissive"
+   },
+   "body": {
+    "de": "Verkleinert ebenfalls, klingt aber oft abwertend oder bildet feste Wörter.",
+    "en": "Also a diminutive, but often dismissive or forms fixed words."
+   },
+   "examples": [
+    {
+     "es": "Es solo un problemilla sin importancia.",
+     "gloss": {
+      "de": "Es ist nur ein kleines, unwichtiges Problem.",
+      "en": "It's just a minor, unimportant problem."
+     },
+     "note": {
+      "de": "problema → problemilla",
+      "en": "problema → problemilla"
+     }
+    },
+    {
+     "es": "Me gusta el bocadillo de jamón.",
+     "gloss": {
+      "de": "Ich mag das Schinkenbrötchen.",
+      "en": "I like the ham sandwich."
+     },
+     "note": {
+      "de": "festes Wort",
+      "en": "fixed word"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "-ón / -ona: groß & verstärkend",
+    "en": "-ón / -ona: big & intensifying"
+   },
+   "body": {
+    "de": "Vergrößert oder verstärkt; manchmal ändert sich dabei das Geschlecht.",
+    "en": "Makes bigger or stronger; sometimes the gender changes."
+   },
+   "examples": [
+    {
+     "es": "Vive en un casón enorme.",
+     "gloss": {
+      "de": "Er wohnt in einem riesigen Haus.",
+      "en": "He lives in a huge house."
+     },
+     "note": {
+      "de": "casa → casón (m.)",
+      "en": "casa → casón (m.)"
+     }
+    },
+    {
+     "es": "¡Qué cabezón eres!",
+     "gloss": {
+      "de": "Was für ein Dickschädel du bist!",
+      "en": "What a stubborn head you are!"
+     },
+     "note": {
+      "de": "cabeza → cabezón",
+      "en": "cabeza → cabezón"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "-azo: großer Schlag oder Hieb",
+    "en": "-azo: a big blow or hit"
+   },
+   "body": {
+    "de": "Bedeutet oft einen heftigen Schlag mit dem genannten Gegenstand.",
+    "en": "Often means a forceful blow given with the named thing."
+   },
+   "examples": [
+    {
+     "es": "Le dio un golpazo a la puerta.",
+     "gloss": {
+      "de": "Er versetzte der Tür einen heftigen Schlag.",
+      "en": "He gave the door a hard blow."
+     },
+     "note": {
+      "de": "golpe → golpazo",
+      "en": "golpe → golpazo"
+     }
+    },
+    {
+     "es": "Recibió un codazo en el partido.",
+     "gloss": {
+      "de": "Er bekam im Spiel einen Ellbogenstoß.",
+      "en": "He got an elbow jab in the match."
+     },
+     "note": {
+      "de": "codo → codazo",
+      "en": "codo → codazo"
+     }
+    }
+   ]
+  }
+ ]
+}

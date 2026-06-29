@@ -1,0 +1,164 @@
+{
+ "kind": "tense",
+ "id": "subjuntivo-pluscuamperfecto",
+ "name": {
+  "de": "Subjuntivo Plusquamperfekt",
+  "en": "Pluperfect subjunctive"
+ },
+ "mood": {
+  "de": "Subjuntivo",
+  "en": "Subjunctive"
+ },
+ "summary": {
+  "de": "Für hypothetische, nicht eingetretene Vergangenheit – meist nach 'si' und in irrealen Wünschen.",
+  "en": "For hypothetical, unrealized past situations – usually after 'si' and in unreal wishes."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung",
+    "en": "Formation"
+   },
+   "body": {
+    "de": "Imperfekt-Subjuntivo von 'haber' (hubiera, hubieras…) plus Partizip Perfekt.",
+    "en": "Imperfect subjunctive of 'haber' (hubiera, hubieras…) plus past participle."
+   },
+   "examples": [
+    {
+     "es": "si hubiera sabido",
+     "gloss": {
+      "de": "wenn ich gewusst hätte",
+      "en": "if I had known"
+     },
+     "note": {
+      "de": "haber + Partizip",
+      "en": "haber + participle"
+     }
+    },
+    {
+     "es": "si lo hubieras dicho",
+     "gloss": {
+      "de": "wenn du es gesagt hättest",
+      "en": "if you had said it"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Irreale Vergangenheit (si)",
+    "en": "Unreal past (si)"
+   },
+   "body": {
+    "de": "Nach 'si' steht es für eine Bedingung, die in der Vergangenheit nicht eintrat.",
+    "en": "After 'si' it marks a condition that did not happen in the past."
+   },
+   "examples": [
+    {
+     "es": "Si hubiera tenido tiempo, te habría ayudado.",
+     "gloss": {
+      "de": "Wenn ich Zeit gehabt hätte, hätte ich dir geholfen.",
+      "en": "If I had had time, I would have helped you."
+     },
+     "note": {
+      "de": "mit Konditional Perfekt",
+      "en": "with conditional perfect"
+     }
+    },
+    {
+     "es": "Si hubieran podido, habrían venido.",
+     "gloss": {
+      "de": "Wenn sie gekonnt hätten, wären sie gekommen.",
+      "en": "If they had been able, they would have come."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Irreale Wünsche",
+    "en": "Unreal wishes"
+   },
+   "body": {
+    "de": "Nach 'ojalá' oder 'como si' für unerfüllte Wünsche über die Vergangenheit.",
+    "en": "After 'ojalá' or 'como si' for unfulfilled wishes about the past."
+   },
+   "examples": [
+    {
+     "es": "Ojalá hubiera comido más.",
+     "gloss": {
+      "de": "Hätte ich doch mehr gegessen.",
+      "en": "I wish I had eaten more."
+     },
+     "note": {
+      "de": "unerfüllter Wunsch",
+      "en": "unfulfilled wish"
+     }
+    },
+    {
+     "es": "Habla como si hubiera estado allí.",
+     "gloss": {
+      "de": "Er redet, als wäre er dort gewesen.",
+      "en": "He talks as if he had been there."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "In Nebensätzen",
+    "en": "In subordinate clauses"
+   },
+   "body": {
+    "de": "Nach Auslösern, die den Subjuntivo verlangen, für ein früheres, irreales Geschehen.",
+    "en": "After triggers requiring the subjunctive, for an earlier, unreal event."
+   },
+   "examples": [
+    {
+     "es": "No creía que hubiera sido tan fácil.",
+     "gloss": {
+      "de": "Ich glaubte nicht, dass es so einfach gewesen wäre.",
+      "en": "I didn't think it had been so easy."
+     }
+    },
+    {
+     "es": "Me alegró que hubieras venido.",
+     "gloss": {
+      "de": "Es freute mich, dass du gekommen warst.",
+      "en": "I was glad you had come."
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Si hubiéramos vivido allí, lo sabríamos.",
+   "gloss": {
+    "de": "Wenn wir dort gelebt hätten, wüssten wir es.",
+    "en": "If we had lived there, we would know it."
+   }
+  },
+  {
+   "es": "Ojalá hubiera hecho los deberes.",
+   "gloss": {
+    "de": "Hätte ich doch die Hausaufgaben gemacht.",
+    "en": "I wish I had done the homework."
+   }
+  },
+  {
+   "es": "Nadie pensó que hubieras querido eso.",
+   "gloss": {
+    "de": "Niemand dachte, dass du das gewollt hättest.",
+    "en": "Nobody thought you had wanted that."
+   }
+  },
+  {
+   "es": "Actuó como si no hubiera dormido nada.",
+   "gloss": {
+    "de": "Er tat, als hätte er gar nicht geschlafen.",
+    "en": "He acted as if he hadn't slept at all."
+   }
+  }
+ ]
+}

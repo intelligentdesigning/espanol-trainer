@@ -1,0 +1,223 @@
+{
+ "kind": "topic",
+ "id": "pronombres-objeto",
+ "name": {
+  "de": "Objektpronomen (direkt & indirekt)",
+  "en": "Object pronouns"
+ },
+ "summary": {
+  "de": "Objektpronomen ersetzen das direkte oder indirekte Objekt und stehen meist vor dem konjugierten Verb.",
+  "en": "Object pronouns replace the direct or indirect object and usually go before the conjugated verb."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Direkte Objektpronomen",
+    "en": "Direct object pronouns"
+   },
+   "body": {
+    "de": "me, te, lo/la, nos, os, los/las ersetzen das direkte Objekt (wen/was?).",
+    "en": "me, te, lo/la, nos, os, los/las replace the direct object (whom/what?)."
+   },
+   "examples": [
+    {
+     "es": "¿Ves la película? Sí, la veo.",
+     "gloss": {
+      "de": "Siehst du den Film? Ja, ich sehe ihn.",
+      "en": "Do you see the film? Yes, I see it."
+     },
+     "note": {
+      "de": "la = la película",
+      "en": "la = the film"
+     }
+    },
+    {
+     "es": "Te llamo mañana.",
+     "gloss": {
+      "de": "Ich rufe dich morgen an.",
+      "en": "I'll call you tomorrow."
+     }
+    },
+    {
+     "es": "Compro los libros y los leo.",
+     "gloss": {
+      "de": "Ich kaufe die Bücher und lese sie.",
+      "en": "I buy the books and read them."
+     },
+     "note": {
+      "de": "los = los libros",
+      "en": "los = the books"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Indirekte Objektpronomen",
+    "en": "Indirect object pronouns"
+   },
+   "body": {
+    "de": "me, te, le, nos, os, les ersetzen das indirekte Objekt (wem?); le/les für ihm/ihr/ihnen.",
+    "en": "me, te, le, nos, os, les replace the indirect object (to whom?); le/les for him/her/them."
+   },
+   "examples": [
+    {
+     "es": "Le doy el regalo a María.",
+     "gloss": {
+      "de": "Ich gebe María das Geschenk.",
+      "en": "I give the gift to María."
+     },
+     "note": {
+      "de": "le = a María",
+      "en": "le = to María"
+     }
+    },
+    {
+     "es": "¿Me dices la verdad?",
+     "gloss": {
+      "de": "Sagst du mir die Wahrheit?",
+      "en": "Are you telling me the truth?"
+     }
+    },
+    {
+     "es": "Les escribo a mis padres.",
+     "gloss": {
+      "de": "Ich schreibe meinen Eltern.",
+      "en": "I write to my parents."
+     },
+     "note": {
+      "de": "les = a mis padres",
+      "en": "les = to my parents"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Reihenfolge: indirekt vor direkt",
+    "en": "Order: indirect before direct"
+   },
+   "body": {
+    "de": "Bei zwei Pronomen steht das indirekte immer vor dem direkten.",
+    "en": "With two pronouns, the indirect one always comes before the direct one."
+   },
+   "examples": [
+    {
+     "es": "Te lo doy.",
+     "gloss": {
+      "de": "Ich gebe es dir.",
+      "en": "I give it to you."
+     },
+     "note": {
+      "de": "te (IO) + lo (DO)",
+      "en": "te (IO) + lo (DO)"
+     }
+    },
+    {
+     "es": "Me las trae.",
+     "gloss": {
+      "de": "Er bringt sie mir.",
+      "en": "He brings them to me."
+     },
+     "note": {
+      "de": "me + las",
+      "en": "me + las"
+     }
+    },
+    {
+     "es": "¿Nos lo explicas?",
+     "gloss": {
+      "de": "Erklärst du es uns?",
+      "en": "Will you explain it to us?"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "le/les wird zu se",
+    "en": "le/les becomes se"
+   },
+   "body": {
+    "de": "Vor lo, la, los, las werden le und les immer zu se.",
+    "en": "Before lo, la, los, las, le and les always change to se."
+   },
+   "examples": [
+    {
+     "es": "Se lo di (a él).",
+     "gloss": {
+      "de": "Ich gab es ihm.",
+      "en": "I gave it to him."
+     },
+     "note": {
+      "de": "le + lo → se lo",
+      "en": "le + lo → se lo"
+     }
+    },
+    {
+     "es": "Se las mando a ellos.",
+     "gloss": {
+      "de": "Ich schicke sie ihnen.",
+      "en": "I send them to them."
+     },
+     "note": {
+      "de": "les + las → se las",
+      "en": "les + las → se las"
+     }
+    },
+    {
+     "es": "Se la regalo a mi madre.",
+     "gloss": {
+      "de": "Ich schenke es meiner Mutter.",
+      "en": "I give it to my mother."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Stellung der Pronomen",
+    "en": "Placement of pronouns"
+   },
+   "body": {
+    "de": "Vor dem konjugierten Verb; angehängt an Infinitiv, Gerundium oder bejahten Imperativ.",
+    "en": "Before the conjugated verb; attached to infinitive, gerund or affirmative imperative."
+   },
+   "examples": [
+    {
+     "es": "Quiero verte. / Te quiero ver.",
+     "gloss": {
+      "de": "Ich will dich sehen.",
+      "en": "I want to see you."
+     },
+     "note": {
+      "de": "Infinitiv: beides ok",
+      "en": "Infinitive: both ok"
+     }
+    },
+    {
+     "es": "Estoy haciéndolo.",
+     "gloss": {
+      "de": "Ich mache es gerade.",
+      "en": "I'm doing it."
+     },
+     "note": {
+      "de": "Gerundium: angehängt",
+      "en": "Gerund: attached"
+     }
+    },
+    {
+     "es": "¡Dámelo!",
+     "gloss": {
+      "de": "Gib es mir!",
+      "en": "Give it to me!"
+     },
+     "note": {
+      "de": "bejahter Imperativ",
+      "en": "affirmative imperative"
+     }
+    }
+   ]
+  }
+ ]
+}

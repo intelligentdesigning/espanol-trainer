@@ -1,248 +1,191 @@
 [
   {
-    "kind": "choice",
-    "prompt": "Lo siento, ___ hablo alemán.",
-    "promptGloss": {
-      "de": "Tut mir leid, ich spreche kein Deutsch.",
-      "en": "Sorry, I don't speak German."
-    },
-    "options": ["no", "no es", "nada"],
+    "kind": "fill",
+    "prompt": "Yo ___ hablo francés.",
+    "promptGloss": { "de": "Ich spreche kein Französisch.", "en": "I don't speak French." },
     "answer": "no",
     "explain": {
-      "de": "„no“ steht direkt vor dem konjugierten Verb „hablo“, um es zu verneinen. „no es“ wäre falsch, weil hier kein zweites Verb gebraucht wird, und „nada“ ist ein Nomen-Verneiner, kein Satzverneiner.",
-      "en": "\"no\" goes directly before the conjugated verb \"hablo\" to negate it. \"no es\" is wrong because no extra verb is needed, and \"nada\" negates a noun, not the whole clause."
+      "de": "\"no\" steht direkt vor dem konjugierten Verb \"hablo\".",
+      "en": "\"no\" goes directly before the conjugated verb \"hablo\"."
     }
   },
   {
     "kind": "choice",
-    "prompt": "¿Conoces a Pedro? — No, ___ conozco.",
-    "promptGloss": {
-      "de": "Kennst du Pedro? — Nein, ich kenne ihn nicht.",
-      "en": "Do you know Pedro? — No, I don't know him."
-    },
-    "options": ["no lo", "lo no", "no le"],
-    "answer": "no lo",
+    "prompt": "___ lo conozco.",
+    "promptGloss": { "de": "Ich kenne ihn nicht.", "en": "I don't know him." },
+    "answer": "No",
+    "options": ["No", "Nada", "Nadie"],
     "explain": {
-      "de": "„no“ steht vor dem konjugierten Verb, und nur das Objektpronomen „lo“ darf zwischen „no“ und dem Verb stehen: „no lo conozco“. „lo no“ kehrt die Reihenfolge falsch um.",
-      "en": "\"no\" comes before the conjugated verb, and only the object pronoun \"lo\" may sit between \"no\" and the verb: \"no lo conozco\". \"lo no\" wrongly reverses the order."
+      "de": "\"no\" steht vor dem Verb; das Objektpronomen \"lo\" darf dazwischen stehen. \"Nada/Nadie\" passen hier nicht.",
+      "en": "\"no\" comes before the verb; the object pronoun \"lo\" may sit between. \"Nada/Nadie\" don't fit here."
     }
   },
   {
     "kind": "fill",
-    "prompt": "En esta caja ___ veo nada.",
-    "promptGloss": {
-      "de": "In dieser Kiste sehe ich nichts.",
-      "en": "In this box I don't see anything."
-    },
+    "prompt": "Ella ___ me llama.",
+    "promptGloss": { "de": "Sie ruft mich nicht an.", "en": "She doesn't call me." },
     "answer": "no",
     "explain": {
-      "de": "Steht das Verneinungswort „nada“ nach dem Verb, ist die doppelte Verneinung Pflicht: „no … nada“. Ohne „no“ wäre der Satz im Spanischen ungrammatisch.",
-      "en": "When the negative word \"nada\" follows the verb, the double negative is obligatory: \"no … nada\". Without \"no\" the sentence is ungrammatical in Spanish."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Mi abuelo es muy tímido y ___ habla con nadie.",
-    "promptGloss": {
-      "de": "Mein Großvater ist sehr schüchtern und spricht mit niemandem.",
-      "en": "My grandfather is very shy and doesn't talk to anyone."
-    },
-    "options": ["no", "ni", "sí"],
-    "answer": "no",
-    "explain": {
-      "de": "Weil „nadie“ nach dem Verb steht, verlangt die doppelte Verneinung ein „no“ vor dem Verb: „no habla con nadie“. „ni“ wäre nur bei „ni … ni“ oder additiver Verneinung richtig.",
-      "en": "Because \"nadie\" comes after the verb, the double negative requires \"no\" before the verb: \"no habla con nadie\". \"ni\" would only fit in \"ni … ni\" or additive negation."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "___ viene a mis fiestas; siempre estoy solo.",
-    "promptGloss": {
-      "de": "Niemand kommt zu meinen Festen; ich bin immer allein.",
-      "en": "Nobody comes to my parties; I'm always alone."
-    },
-    "options": ["Nadie", "No nadie", "Nada"],
-    "answer": "Nadie",
-    "explain": {
-      "de": "Steht das Verneinungswort vor dem Verb, fällt „no“ weg: „Nadie viene“. „No nadie“ ist falsch, weil man kein zweites „no“ voranstellt, und „Nada“ („nichts“) passt inhaltlich nicht für Personen.",
-      "en": "When the negative word precedes the verb, \"no\" is dropped: \"Nadie viene\". \"No nadie\" is wrong because you don't add a fronted \"no\", and \"Nada\" (\"nothing\") doesn't fit for people."
+      "de": "\"no\" steht vor dem Verb, nur das Objektpronomen \"me\" steht dazwischen.",
+      "en": "\"no\" goes before the verb; only the object pronoun \"me\" comes between."
     }
   },
   {
     "kind": "fill",
-    "prompt": "___ es fácil al principio; todo cuesta esfuerzo.",
-    "promptGloss": {
-      "de": "Nichts ist am Anfang einfach; alles kostet Mühe.",
-      "en": "Nothing is easy at the beginning; everything takes effort."
-    },
-    "answer": "Nada",
+    "prompt": "No veo ___.",
+    "promptGloss": { "de": "Ich sehe nichts.", "en": "I don't see anything." },
+    "answer": "nada",
     "explain": {
-      "de": "Das vorangestellte Verneinungswort „Nada“ ersetzt das Subjekt und braucht kein „no“: „Nada es fácil“. Ein „No nada es…“ wäre doppelt und falsch.",
-      "en": "The fronted negative word \"Nada\" serves as the subject and needs no \"no\": \"Nada es fácil\". A form like \"No nada es…\" would be a wrong double marker."
+      "de": "Nach dem Verb mit vorangehendem \"no\" steht das Verneinungswort \"nada\".",
+      "en": "After the verb with a preceding \"no\", the negative word \"nada\" is used."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Soy vegetariano: ___ como carne.",
-    "promptGloss": {
-      "de": "Ich bin Vegetarier: Ich esse nie Fleisch.",
-      "en": "I'm a vegetarian: I never eat meat."
-    },
-    "options": ["nunca", "no nunca", "nunca no"],
+    "prompt": "No conozco a ___.",
+    "promptGloss": { "de": "Ich kenne niemanden.", "en": "I don't know anyone." },
+    "answer": "nadie",
+    "options": ["nadie", "nada", "nunca"],
+    "explain": {
+      "de": "Für Personen steht \"nadie\" (niemand). \"nada\" meint Dinge, \"nunca\" meint die Zeit.",
+      "en": "For people use \"nadie\" (nobody). \"nada\" refers to things, \"nunca\" to time."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No viene ___.",
+    "promptGloss": { "de": "Er kommt nie.", "en": "He never comes." },
     "answer": "nunca",
     "explain": {
-      "de": "Hier steht das Verneinungswort vor dem Verb, deshalb ohne „no“: „Nunca como carne“. „no nunca“ und „nunca no“ sind beide falsch, weil „nunca“ vorangestellt allein verneint.",
-      "en": "Here the negative word precedes the verb, so no \"no\": \"Nunca como carne\". Both \"no nunca\" and \"nunca no\" are wrong because a fronted \"nunca\" negates on its own."
+      "de": "Nach dem Verb mit \"no\" davor steht das Zeit-Verneinungswort \"nunca\" (nie).",
+      "en": "After the verb with \"no\" before it, the time negative \"nunca\" (never) is used."
     }
   },
   {
-    "kind": "fill",
-    "prompt": "Llamé tres veces, pero ___ contestó nadie.",
-    "promptGloss": {
-      "de": "Ich rief dreimal an, aber niemand antwortete.",
-      "en": "I called three times, but nobody answered."
-    },
+    "kind": "choice",
+    "prompt": "Mi abuelo ___ habla con nadie.",
+    "promptGloss": { "de": "Mein Großvater spricht mit niemandem.", "en": "My grandfather doesn't talk to anyone." },
     "answer": "no",
+    "options": ["no", "ni", "sí"],
     "explain": {
-      "de": "Da „nadie“ hinter dem Verb steht, muss „no“ davor: „no contestó nadie“. Diese doppelte Verneinung ist im Spanischen Standard und kein Fehler.",
-      "en": "Since \"nadie\" follows the verb, \"no\" must precede it: \"no contestó nadie\". This double negative is standard Spanish, not an error."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "A mí no me gusta el café. — A mí ___.",
-    "promptGloss": {
-      "de": "Mir schmeckt der Kaffee nicht. — Mir auch nicht.",
-      "en": "I don't like coffee. — Me neither."
-    },
-    "options": ["tampoco", "también", "ni"],
-    "answer": "tampoco",
-    "explain": {
-      "de": "„tampoco“ ist die Entsprechung von „auch nicht“ und schließt sich an eine vorangehende Verneinung an. „también“ („auch“) wäre die zustimmende Form für positive Aussagen und hier falsch.",
-      "en": "\"tampoco\" means \"neither/not … either\" and follows a previous negative statement. \"también\" (\"also/too\") is for affirmative agreement and is wrong here."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Yo no fui a la reunión y Marta ___ fue.",
-    "promptGloss": {
-      "de": "Ich ging nicht zum Treffen, und Marta ging auch nicht.",
-      "en": "I didn't go to the meeting, and Marta didn't go either."
-    },
-    "options": ["tampoco", "no tampoco", "tampoco no"],
-    "answer": "tampoco",
-    "explain": {
-      "de": "Steht „tampoco“ vor dem Verb, entfällt „no“: „Marta tampoco fue“. „no tampoco“ und „tampoco no“ sind falsch, weil das vorangestellte „tampoco“ schon verneint.",
-      "en": "When \"tampoco\" stands before the verb, \"no\" is dropped: \"Marta tampoco fue\". \"no tampoco\" and \"tampoco no\" are wrong because the fronted \"tampoco\" already negates."
+      "de": "Weil \"nadie\" nach dem Verb steht, braucht es \"no\" davor (doppelte Verneinung).",
+      "en": "Because \"nadie\" comes after the verb, \"no\" is needed before it (double negation)."
     }
   },
   {
     "kind": "fill",
-    "prompt": "No tengo hambre y sed ___ tengo.",
-    "promptGloss": {
-      "de": "Ich habe keinen Hunger, und Durst habe ich auch nicht.",
-      "en": "I'm not hungry, and I'm not thirsty either."
-    },
-    "answer": "tampoco",
+    "prompt": "___ viene a la fiesta.",
+    "promptGloss": { "de": "Niemand kommt zur Party.", "en": "Nobody comes to the party." },
+    "answer": "Nadie",
     "explain": {
-      "de": "„tampoco“ („auch nicht“) wird hier vorangestellt verwendet und braucht deshalb kein „no“: „sed tampoco tengo“. Es knüpft an die vorhergehende Verneinung „No tengo hambre“ an.",
-      "en": "\"tampoco\" (\"not … either\") is used in fronted position here and so needs no \"no\": \"sed tampoco tengo\". It picks up the earlier negation \"No tengo hambre\"."
+      "de": "Steht das Verneinungswort \"nadie\" vor dem Verb, fällt \"no\" weg.",
+      "en": "When the negative word \"nadie\" comes before the verb, \"no\" is dropped."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Después de la mudanza no me queda ___ tiempo ___ dinero.",
-    "promptGloss": {
-      "de": "Nach dem Umzug bleibt mir weder Zeit noch Geld.",
-      "en": "After the move I have neither time nor money left."
-    },
-    "options": ["ni … ni", "no … ni", "o … o"],
-    "answer": "ni … ni",
+    "prompt": "___ es fácil.",
+    "promptGloss": { "de": "Nichts ist einfach.", "en": "Nothing is easy." },
+    "answer": "Nada",
+    "options": ["Nada", "No nada", "No"],
     "explain": {
-      "de": "„ni … ni“ verbindet zwei verneinte Teile („weder … noch“); zusammen mit dem „no“ vor dem Verb ist es korrekt. „o … o“ („entweder … oder“) wäre nicht verneinend.",
-      "en": "\"ni … ni\" links two negated parts (\"neither … nor\"); together with the \"no\" before the verb it is correct. \"o … o\" (\"either … or\") is not negative."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "___ Ana ___ Luis vienen a la cena de hoy.",
-    "promptGloss": {
-      "de": "Weder Ana noch Luis kommen zum heutigen Abendessen.",
-      "en": "Neither Ana nor Luis is coming to today's dinner."
-    },
-    "options": ["Ni … ni", "No … ni", "Ni … no"],
-    "answer": "Ni … ni",
-    "explain": {
-      "de": "Wenn „ni … ni“ vor dem Verb steht (als vorangestelltes Subjekt), fällt das „no“ weg: „Ni Ana ni Luis vienen“. „No … ni“ wäre nur richtig, wenn das Verb vorausginge.",
-      "en": "When \"ni … ni\" precedes the verb (as a fronted subject), the \"no\" is dropped: \"Ni Ana ni Luis vienen\". \"No … ni\" would only be right if the verb came first."
+      "de": "Vorangestelltes \"nada\" verneint allein; \"no\" entfällt. \"No nada\" ist falsch (doppelt vorangestellt).",
+      "en": "Fronted \"nada\" negates on its own; \"no\" is dropped. \"No nada\" is wrong (double fronting)."
     }
   },
   {
     "kind": "fill",
-    "prompt": "No me interesa ni el fútbol ___ el tenis.",
-    "promptGloss": {
-      "de": "Mich interessiert weder Fußball noch Tennis.",
-      "en": "I'm interested in neither football nor tennis."
-    },
+    "prompt": "___ como carne.",
+    "promptGloss": { "de": "Ich esse nie Fleisch.", "en": "I never eat meat." },
+    "answer": "Nunca",
+    "explain": {
+      "de": "Steht \"nunca\" vor dem Verb \"como\", fällt \"no\" weg.",
+      "en": "When \"nunca\" comes before the verb \"como\", \"no\" is dropped."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ me lo dijo.",
+    "promptGloss": { "de": "Niemand hat es mir gesagt.", "en": "Nobody told me." },
+    "answer": "Nadie",
+    "options": ["Nadie", "No nadie", "Nada"],
+    "explain": {
+      "de": "Vorangestelltes \"nadie\" braucht kein \"no\". \"No nadie\" ist falsch.",
+      "en": "Fronted \"nadie\" needs no \"no\". \"No nadie\" is wrong."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Yo ___ lo sé.",
+    "promptGloss": { "de": "Ich weiß es auch nicht.", "en": "I don't know it either." },
+    "answer": "tampoco",
+    "explain": {
+      "de": "\"tampoco\" steht hier vor dem Verb und braucht daher kein \"no\".",
+      "en": "\"tampoco\" comes before the verb here and therefore needs no \"no\"."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "No me gusta ___.",
+    "promptGloss": { "de": "Es gefällt mir auch nicht.", "en": "I don't like it either." },
+    "answer": "tampoco",
+    "options": ["tampoco", "también", "nada"],
+    "explain": {
+      "de": "\"tampoco\" (auch nicht) verneint zusätzlich; mit \"no\" vor dem Verb. \"también\" ist die positive Form.",
+      "en": "\"tampoco\" (either) adds a negation, with \"no\" before the verb. \"también\" is the affirmative form."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Marta ___ fue a la reunión.",
+    "promptGloss": { "de": "Marta ging auch nicht zum Treffen.", "en": "Marta didn't go to the meeting either." },
+    "answer": "tampoco",
+    "options": ["tampoco", "no tampoco", "también"],
+    "explain": {
+      "de": "Vor dem Verb steht \"tampoco\" ohne \"no\". \"no tampoco\" ist falsch, \"también\" ist bejahend.",
+      "en": "Before the verb, \"tampoco\" stands without \"no\". \"no tampoco\" is wrong, \"también\" is affirmative."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No tengo ___ tiempo ni dinero.",
+    "promptGloss": { "de": "Ich habe weder Zeit noch Geld.", "en": "I have neither time nor money." },
     "answer": "ni",
     "explain": {
-      "de": "In „ni … ni“ leitet das zweite „ni“ das zweite verneinte Glied ein: „ni el fútbol ni el tenis“. Ein „o“ oder „y“ wäre hier falsch, weil der Satz schon verneint ist.",
-      "en": "In \"ni … ni\" the second \"ni\" introduces the second negated element: \"ni el fútbol ni el tenis\". An \"o\" or \"y\" would be wrong because the clause is already negative."
+      "de": "\"ni ... ni\" verbindet zwei verneinte Teile; nach dem Verb steht zusätzlich \"no\".",
+      "en": "\"ni ... ni\" links two negated parts; after the verb \"no\" is added as well."
     }
   },
   {
     "kind": "choice",
-    "prompt": "¿Quieres algo de beber? — No, gracias, no quiero ___.",
-    "promptGloss": {
-      "de": "Möchtest du etwas trinken? — Nein, danke, ich möchte nichts.",
-      "en": "Do you want something to drink? — No, thanks, I don't want anything."
-    },
-    "options": ["nada", "algo", "nadie"],
-    "answer": "nada",
+    "prompt": "No quiero ni café ___ té.",
+    "promptGloss": { "de": "Ich möchte weder Kaffee noch Tee.", "en": "I want neither coffee nor tea." },
+    "answer": "ni",
+    "options": ["ni", "y", "o"],
     "explain": {
-      "de": "Im verneinten Satz wird aus „algo“ („etwas“) das Verneinungswort „nada“ („nichts“): „no quiero nada“. „algo“ kann nach „no … quiero“ nicht stehen, und „nadie“ („niemand“) bezeichnet Personen.",
-      "en": "In a negative clause \"algo\" (\"something\") becomes the negative word \"nada\" (\"nothing\"): \"no quiero nada\". \"algo\" cannot follow \"no … quiero\", and \"nadie\" (\"nobody\") refers to people."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "___ estudiante entregó la tarea a tiempo.",
-    "promptGloss": {
-      "de": "Kein Schüler gab die Aufgabe rechtzeitig ab.",
-      "en": "No student handed in the homework on time."
-    },
-    "options": ["Ningún", "Ninguno", "Nada de"],
-    "answer": "Ningún",
-    "explain": {
-      "de": "Vor einem männlichen Nomen wird „ninguno“ zu „ningún“ apokopiert: „Ningún estudiante“. Vorangestellt braucht es kein „no“. Die volle Form „Ninguno“ stünde nur ohne folgendes Nomen.",
-      "en": "Before a masculine noun \"ninguno\" is shortened to \"ningún\": \"Ningún estudiante\". Fronted, it needs no \"no\". The full form \"Ninguno\" would only stand without a following noun."
+      "de": "Im Muster \"ni ... ni\" steht auch im zweiten Teil \"ni\". \"y/o\" wären bejahende Verbindungen.",
+      "en": "In the \"ni ... ni\" pattern the second part also uses \"ni\". \"y/o\" would be affirmative connectors."
     }
   },
   {
     "kind": "fill",
-    "prompt": "He buscado por todas partes, pero ___ encontré ninguna solución.",
-    "promptGloss": {
-      "de": "Ich habe überall gesucht, aber ich fand keine Lösung.",
-      "en": "I searched everywhere, but I didn't find any solution."
-    },
-    "answer": "no",
+    "prompt": "___ Ana ni Luis vienen.",
+    "promptGloss": { "de": "Weder Ana noch Luis kommen.", "en": "Neither Ana nor Luis is coming." },
+    "answer": "Ni",
     "explain": {
-      "de": "Weil „ninguna solución“ nach dem Verb steht, ist „no“ davor Pflicht: „no encontré ninguna solución“. Das ist dieselbe doppelte Verneinung wie bei „nada“ oder „nadie“.",
-      "en": "Because \"ninguna solución\" follows the verb, \"no\" is obligatory before it: \"no encontré ninguna solución\". This is the same double negative as with \"nada\" or \"nadie\"."
+      "de": "Steht \"ni ... ni\" vor dem Verb, fällt \"no\" weg.",
+      "en": "When \"ni ... ni\" comes before the verb, \"no\" is dropped."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Nunca le he dicho ___ a nadie sobre esto.",
-    "promptGloss": {
-      "de": "Ich habe darüber nie jemandem etwas gesagt.",
-      "en": "I have never told anyone anything about this."
-    },
-    "options": ["nada", "algo", "todo"],
-    "answer": "nada",
+    "prompt": "___ tengo ni hambre ni sed.",
+    "promptGloss": { "de": "Ich habe weder Hunger noch Durst.", "en": "I'm neither hungry nor thirsty." },
+    "answer": "No",
+    "options": ["No", "Ni", "Nada"],
     "explain": {
-      "de": "Im Spanischen häufen sich mehrere Verneinungswörter ohne Widerspruch: „Nunca … nada … a nadie“ bleibt verneint. „algo“ wäre falsch, weil ein verneinter Satz „nada“ statt „algo“ verlangt.",
-      "en": "Spanish allows several negative words to pile up without cancelling out: \"Nunca … nada … a nadie\" stays negative. \"algo\" is wrong because a negative clause requires \"nada\", not \"algo\"."
+      "de": "Steht \"ni ... ni\" nach dem Verb, braucht es \"no\" davor. Hier beginnt der Satz mit dem Verb.",
+      "en": "When \"ni ... ni\" follows the verb, \"no\" is needed before it. Here the sentence starts with the verb."
     }
   }
 ]

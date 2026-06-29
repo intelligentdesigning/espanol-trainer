@@ -1,0 +1,174 @@
+{
+ "kind": "topic",
+ "id": "comparativo",
+ "name": {
+  "de": "Steigerung (Komparativ & Superlativ)",
+  "en": "Comparatives & superlatives"
+ },
+ "summary": {
+  "de": "Vergleiche und Steigerungen im Spanischen mit más/menos ... que, tan ... como, el más und unregelmäßigen Formen.",
+  "en": "Spanish comparisons and degrees using más/menos ... que, tan ... como, el más, and irregular forms."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Komparativ: mehr/weniger ... als",
+    "en": "Comparative: more/less ... than"
+   },
+   "body": {
+    "de": "más/menos + Adjektiv + que drückt einen ungleichen Vergleich aus.",
+    "en": "más/menos + adjective + que expresses an unequal comparison."
+   },
+   "examples": [
+    {
+     "es": "María es más alta que Juan.",
+     "gloss": {
+      "de": "María ist größer als Juan.",
+      "en": "María is taller than Juan."
+     }
+    },
+    {
+     "es": "Este libro es menos interesante que el otro.",
+     "gloss": {
+      "de": "Dieses Buch ist weniger interessant als das andere.",
+      "en": "This book is less interesting than the other."
+     }
+    },
+    {
+     "es": "Tengo más de veinte euros.",
+     "gloss": {
+      "de": "Ich habe mehr als zwanzig Euro.",
+      "en": "I have more than twenty euros."
+     },
+     "note": {
+      "de": "vor Zahl: de statt que",
+      "en": "before a number: de not que"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Gleichheitsvergleich: tan ... como",
+    "en": "Equality: tan ... como"
+   },
+   "body": {
+    "de": "tan + Adjektiv + como bedeutet \"genauso ... wie\"; mit Nomen tanto/-a/-os/-as ... como.",
+    "en": "tan + adjective + como means \"as ... as\"; with nouns use tanto/-a/-os/-as ... como."
+   },
+   "examples": [
+    {
+     "es": "Pedro es tan rápido como su hermano.",
+     "gloss": {
+      "de": "Pedro ist genauso schnell wie sein Bruder.",
+      "en": "Pedro is as fast as his brother."
+     }
+    },
+    {
+     "es": "Tengo tantos amigos como tú.",
+     "gloss": {
+      "de": "Ich habe genauso viele Freunde wie du.",
+      "en": "I have as many friends as you."
+     },
+     "note": {
+      "de": "tantos passt sich an",
+      "en": "tantos agrees with noun"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Superlativ: el/la más ...",
+    "en": "Superlative: el/la más ..."
+   },
+   "body": {
+    "de": "Bestimmter Artikel + más/menos + Adjektiv; \"von\" wird zu de.",
+    "en": "Definite article + más/menos + adjective; \"of/in\" becomes de."
+   },
+   "examples": [
+    {
+     "es": "Es la chica más inteligente de la clase.",
+     "gloss": {
+      "de": "Sie ist das klügste Mädchen der Klasse.",
+      "en": "She is the smartest girl in the class."
+     }
+    },
+    {
+     "es": "Son los días más largos del año.",
+     "gloss": {
+      "de": "Es sind die längsten Tage des Jahres.",
+      "en": "They are the longest days of the year."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßig: mejor, peor, mayor, menor",
+    "en": "Irregular: mejor, peor, mayor, menor"
+   },
+   "body": {
+    "de": "bueno→mejor, malo→peor, grande→mayor, pequeño→menor; sie ersetzen más + Adjektiv.",
+    "en": "bueno→mejor, malo→peor, grande→mayor, pequeño→menor; they replace más + adjective."
+   },
+   "examples": [
+    {
+     "es": "Este restaurante es mejor que aquel.",
+     "gloss": {
+      "de": "Dieses Restaurant ist besser als jenes.",
+      "en": "This restaurant is better than that one."
+     }
+    },
+    {
+     "es": "Mi hermano mayor vive en Madrid.",
+     "gloss": {
+      "de": "Mein älterer Bruder wohnt in Madrid.",
+      "en": "My older brother lives in Madrid."
+     },
+     "note": {
+      "de": "mayor = älter",
+      "en": "mayor = older"
+     }
+    },
+    {
+     "es": "La comida es peor hoy.",
+     "gloss": {
+      "de": "Das Essen ist heute schlechter.",
+      "en": "The food is worse today."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Absoluter Superlativ: -ísimo",
+    "en": "Absolute superlative: -ísimo"
+   },
+   "body": {
+    "de": "Endung -ísimo/-a/-os/-as bedeutet \"sehr/äußerst\" ohne Vergleich; passt sich an.",
+    "en": "The ending -ísimo/-a/-os/-as means \"very/extremely\" without comparison; it agrees."
+   },
+   "examples": [
+    {
+     "es": "La paella está buenísima.",
+     "gloss": {
+      "de": "Die Paella ist superlecker.",
+      "en": "The paella is extremely tasty."
+     }
+    },
+    {
+     "es": "Las casas son carísimas.",
+     "gloss": {
+      "de": "Die Häuser sind sündhaft teuer.",
+      "en": "The houses are extremely expensive."
+     },
+     "note": {
+      "de": "Endvokal entfällt",
+      "en": "drop final vowel"
+     }
+    }
+   ]
+  }
+ ]
+}

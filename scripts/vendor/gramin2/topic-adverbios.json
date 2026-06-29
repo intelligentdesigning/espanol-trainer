@@ -1,0 +1,209 @@
+{
+ "kind": "topic",
+ "id": "adverbios",
+ "name": {
+  "de": "Adverbien & -mente",
+  "en": "Adverbs & -mente"
+ },
+ "summary": {
+  "de": "Spanische Adverbien bildet man oft mit weiblichem Adjektiv + -mente; daneben gibt es feste Adverbien wie bien, mal, mucho, poco.",
+  "en": "Spanish adverbs are often formed from the feminine adjective + -mente; alongside there are fixed adverbs like bien, mal, mucho, poco."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung mit -mente",
+    "en": "Forming with -mente"
+   },
+   "body": {
+    "de": "Adverb = weibliche Adjektivform + -mente; hat das Adjektiv keine Femininform, hängt man -mente direkt an.",
+    "en": "Adverb = feminine adjective form + -mente; if the adjective has no feminine form, just add -mente."
+   },
+   "examples": [
+    {
+     "es": "Habla rápidamente.",
+     "gloss": {
+      "de": "Er/Sie spricht schnell.",
+      "en": "He/She speaks quickly."
+     },
+     "note": {
+      "de": "rápida + mente",
+      "en": "rápida + mente"
+     }
+    },
+    {
+     "es": "Trabaja fácilmente.",
+     "gloss": {
+      "de": "Er/Sie arbeitet mühelos.",
+      "en": "He/She works easily."
+     },
+     "note": {
+      "de": "fácil → fácilmente",
+      "en": "fácil → fácilmente"
+     }
+    },
+    {
+     "es": "Lo explica claramente.",
+     "gloss": {
+      "de": "Er/Sie erklärt es klar.",
+      "en": "He/She explains it clearly."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Akzent bleibt bei -mente",
+    "en": "Accent stays with -mente"
+   },
+   "body": {
+    "de": "Der Akzent des Adjektivs bleibt erhalten; -mente trägt zusätzlich seine eigene Betonung.",
+    "en": "The adjective's written accent is kept; -mente carries its own stress as well."
+   },
+   "examples": [
+    {
+     "es": "rápido → rápidamente",
+     "gloss": {
+      "de": "schnell → schnell (Adv.)",
+      "en": "fast → quickly"
+     },
+     "note": {
+      "de": "Akzent bleibt",
+      "en": "accent kept"
+     }
+    },
+    {
+     "es": "difícil → difícilmente",
+     "gloss": {
+      "de": "schwierig → kaum/schwerlich",
+      "en": "difficult → with difficulty"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Zwei Adverbien hintereinander",
+    "en": "Two adverbs in a row"
+   },
+   "body": {
+    "de": "Bei zwei verbundenen -mente-Adverbien trägt nur das letzte -mente; das erste bleibt Femininform.",
+    "en": "With two joined -mente adverbs, only the last takes -mente; the first stays the feminine form."
+   },
+   "examples": [
+    {
+     "es": "Habla lenta y claramente.",
+     "gloss": {
+      "de": "Er/Sie spricht langsam und klar.",
+      "en": "He/She speaks slowly and clearly."
+     },
+     "note": {
+      "de": "lenta, nicht lentamente",
+      "en": "lenta, not lentamente"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Feste Adverbien: bien/mal/mucho/poco",
+    "en": "Fixed adverbs: bien/mal/mucho/poco"
+   },
+   "body": {
+    "de": "Häufige Adverbien sind unregelmäßig: gut = bien, schlecht = mal, viel = mucho, wenig = poco.",
+    "en": "Common adverbs are irregular: well = bien, badly = mal, a lot = mucho, little = poco."
+   },
+   "examples": [
+    {
+     "es": "Cocinas muy bien.",
+     "gloss": {
+      "de": "Du kochst sehr gut.",
+      "en": "You cook very well."
+     },
+     "note": {
+      "de": "nicht buenamente",
+      "en": "not buenamente"
+     }
+    },
+    {
+     "es": "Duermo poco.",
+     "gloss": {
+      "de": "Ich schlafe wenig.",
+      "en": "I sleep little."
+     }
+    },
+    {
+     "es": "Trabaja mucho.",
+     "gloss": {
+      "de": "Er/Sie arbeitet viel.",
+      "en": "He/She works a lot."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Stellung des Adverbs",
+    "en": "Adverb placement"
+   },
+   "body": {
+    "de": "Das Adverb steht meist direkt nach dem Verb, nie zwischen Hilfsverb und Partizip.",
+    "en": "The adverb usually goes right after the verb, never between auxiliary and participle."
+   },
+   "examples": [
+    {
+     "es": "Comemos siempre juntos.",
+     "gloss": {
+      "de": "Wir essen immer zusammen.",
+      "en": "We always eat together."
+     }
+    },
+    {
+     "es": "Ha hablado claramente.",
+     "gloss": {
+      "de": "Er/Sie hat klar gesprochen.",
+      "en": "He/She has spoken clearly."
+     },
+     "note": {
+      "de": "nach Partizip",
+      "en": "after participle"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Adjektiv vs. Adverb",
+    "en": "Adjective vs. adverb"
+   },
+   "body": {
+    "de": "Adjektive richten sich nach dem Nomen; Adverbien sind unveränderlich und beschreiben das Verb.",
+    "en": "Adjectives agree with the noun; adverbs are invariable and describe the verb."
+   },
+   "examples": [
+    {
+     "es": "El coche es rápido.",
+     "gloss": {
+      "de": "Das Auto ist schnell.",
+      "en": "The car is fast."
+     },
+     "note": {
+      "de": "Adjektiv",
+      "en": "adjective"
+     }
+    },
+    {
+     "es": "El coche va rápido.",
+     "gloss": {
+      "de": "Das Auto fährt schnell.",
+      "en": "The car goes fast."
+     },
+     "note": {
+      "de": "rápido umgangssprachlich Adv.",
+      "en": "rápido colloquial adv."
+     }
+    }
+   ]
+  }
+ ]
+}

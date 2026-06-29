@@ -1,0 +1,229 @@
+{
+ "kind": "tense",
+ "id": "subjuntivo-imperfecto",
+ "name": {
+  "de": "Subjuntivo Imperfekt",
+  "en": "Imperfect subjunctive"
+ },
+ "mood": {
+  "de": "Subjuntivo",
+  "en": "Subjunctive"
+ },
+ "summary": {
+  "de": "Vergangenheits-Konjunktiv: nach Vergangenheits-Auslösern, in irrealen Bedingungssätzen (Si...) und für höfliche Wünsche.",
+  "en": "Past subjunctive: after past triggers, in unreal if-clauses (Si...), and for polite wishes."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung aus dem Stamm",
+    "en": "Built from the stem"
+   },
+   "body": {
+    "de": "Nimm den ellos-Stamm des Indefinido und hänge -ara oder -iera an.",
+    "en": "Take the ellos preterite stem and add -ara or -iera endings."
+   },
+   "examples": [
+    {
+     "es": "hablar > hablara",
+     "gloss": {
+      "de": "sprechen > sprächte",
+      "en": "to speak > spoke (subj.)"
+     },
+     "note": {
+      "de": "-ar-Verben: -ara",
+      "en": "-ar verbs: -ara"
+     }
+    },
+    {
+     "es": "tener > tuviera",
+     "gloss": {
+      "de": "haben > hätte",
+      "en": "to have > had (subj.)"
+     },
+     "note": {
+      "de": "Stamm tuv- aus tuvieron",
+      "en": "stem from tuvieron"
+     }
+    },
+    {
+     "es": "comer > comiera",
+     "gloss": {
+      "de": "essen > äße",
+      "en": "to eat > ate (subj.)"
+     },
+     "note": {
+      "de": "-er/-ir-Verben: -iera",
+      "en": "-er/-ir verbs: -iera"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Irreale Bedingung (Si...)",
+    "en": "Unreal if-clauses (Si...)"
+   },
+   "body": {
+    "de": "Nach si steht diese Form für eine unwahrscheinliche oder unmögliche Bedingung in der Gegenwart.",
+    "en": "After si it marks an unlikely or impossible present condition."
+   },
+   "examples": [
+    {
+     "es": "Si tuviera tiempo, viajaría más.",
+     "gloss": {
+      "de": "Wenn ich Zeit hätte, würde ich mehr reisen.",
+      "en": "If I had time, I'd travel more."
+     }
+    },
+    {
+     "es": "Si fuera rico, no trabajaría.",
+     "gloss": {
+      "de": "Wenn ich reich wäre, würde ich nicht arbeiten.",
+      "en": "If I were rich, I wouldn't work."
+     },
+     "note": {
+      "de": "fuera = ser/ir",
+      "en": "fuera = ser/ir"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Nach Vergangenheits-Auslösern",
+    "en": "After past triggers"
+   },
+   "body": {
+    "de": "Steht der Hauptsatz in der Vergangenheit, folgt im Nebensatz der Imperfekt-Konjunktiv.",
+    "en": "When the main clause is past, the subordinate clause takes this form."
+   },
+   "examples": [
+    {
+     "es": "Quería que vinieras.",
+     "gloss": {
+      "de": "Ich wollte, dass du kommst.",
+      "en": "I wanted you to come."
+     },
+     "note": {
+      "de": "Wunsch in der Vergangenheit",
+      "en": "wish in the past"
+     }
+    },
+    {
+     "es": "Esperaba que durmieras bien.",
+     "gloss": {
+      "de": "Ich hoffte, dass du gut schläfst.",
+      "en": "I hoped you'd sleep well."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Höfliche Wünsche",
+    "en": "Polite wishes"
+   },
+   "body": {
+    "de": "Mit quisiera klingt eine Bitte oder ein Wunsch besonders höflich und sanft.",
+    "en": "Quisiera makes a request or wish sound especially polite and soft."
+   },
+   "examples": [
+    {
+     "es": "Quisiera un café, por favor.",
+     "gloss": {
+      "de": "Ich hätte gern einen Kaffee, bitte.",
+      "en": "I'd like a coffee, please."
+     },
+     "note": {
+      "de": "höflicher als quiero",
+      "en": "softer than quiero"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "-ra ist Standard",
+    "en": "-ra is standard"
+   },
+   "body": {
+    "de": "Es gibt zwei Endungen (-ra und -se); die -ra-Form ist heute üblich und Standard.",
+    "en": "There are two endings (-ra and -se); the -ra form is the everyday standard."
+   },
+   "examples": [
+    {
+     "es": "Ojalá pudiera ayudarte.",
+     "gloss": {
+      "de": "Hoffentlich könnte ich dir helfen.",
+      "en": "I wish I could help you."
+     },
+     "note": {
+      "de": "-ra-Form, ganz normal",
+      "en": "-ra form, fully normal"
+     }
+    }
+   ]
+  }
+ ],
+ "endings": {
+  "label": {
+   "de": "Regelmäßige Endungen",
+   "en": "Regular endings"
+  },
+  "ar": [
+   "-ara",
+   "-aras",
+   "-ara",
+   "-áramos",
+   "-arais",
+   "-aran"
+  ],
+  "er": [
+   "-iera",
+   "-ieras",
+   "-iera",
+   "-iéramos",
+   "-ierais",
+   "-ieran"
+  ],
+  "ir": [
+   "-iera",
+   "-ieras",
+   "-iera",
+   "-iéramos",
+   "-ierais",
+   "-ieran"
+  ]
+ },
+ "examples": [
+  {
+   "es": "Si estuviera aquí, te lo diría.",
+   "gloss": {
+    "de": "Wenn er hier wäre, würde ich es dir sagen.",
+    "en": "If he were here, I'd tell you."
+   }
+  },
+  {
+   "es": "Me pidió que hablara más despacio.",
+   "gloss": {
+    "de": "Er bat mich, langsamer zu sprechen.",
+    "en": "He asked me to speak more slowly."
+   }
+  },
+  {
+   "es": "No había nadie que hiciera el trabajo.",
+   "gloss": {
+    "de": "Es gab niemanden, der die Arbeit machte.",
+    "en": "There was nobody who did the work."
+   }
+  },
+  {
+   "es": "Si comieras menos, dormirías mejor.",
+   "gloss": {
+    "de": "Wenn du weniger äßest, würdest du besser schlafen.",
+    "en": "If you ate less, you'd sleep better."
+   }
+  }
+ ]
+}

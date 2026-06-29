@@ -1,0 +1,270 @@
+{
+ "kind": "tense",
+ "id": "presente",
+ "name": {
+  "de": "Präsens (presente)",
+  "en": "Present (presente)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Für Gewohnheiten, allgemeine Wahrheiten, aktuelle Zustände und die nahe Zukunft.",
+  "en": "For habits, general truths, current states, and the near future."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Regelmäßige Endungen",
+    "en": "Regular endings"
+   },
+   "body": {
+    "de": "Stamm plus -ar, -er oder -ir Endungen; -er und -ir sind fast gleich.",
+    "en": "Stem plus -ar, -er, or -ir endings; -er and -ir are nearly identical."
+   },
+   "examples": [
+    {
+     "es": "Hablo español todos los días.",
+     "gloss": {
+      "de": "Ich spreche jeden Tag Spanisch.",
+      "en": "I speak Spanish every day."
+     },
+     "note": {
+      "de": "-ar: Gewohnheit",
+      "en": "-ar: habit"
+     }
+    },
+    {
+     "es": "Comemos a las dos.",
+     "gloss": {
+      "de": "Wir essen um zwei.",
+      "en": "We eat at two."
+     },
+     "note": {
+      "de": "-er: nosotros",
+      "en": "-er: nosotros"
+     }
+    },
+    {
+     "es": "¿Dónde vives?",
+     "gloss": {
+      "de": "Wo wohnst du?",
+      "en": "Where do you live?"
+     },
+     "note": {
+      "de": "-ir Form",
+      "en": "-ir form"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Stammwechsel",
+    "en": "Stem change"
+   },
+   "body": {
+    "de": "Vokal ändert sich (e>ie, o>ue, e>i, u>ue), außer bei nosotros und vosotros.",
+    "en": "Stem vowel changes (e>ie, o>ue, e>i, u>ue) except in nosotros and vosotros."
+   },
+   "examples": [
+    {
+     "es": "Quiero un café, pero queremos agua.",
+     "gloss": {
+      "de": "Ich will einen Kaffee, aber wir wollen Wasser.",
+      "en": "I want a coffee, but we want water."
+     },
+     "note": {
+      "de": "e>ie, nosotros normal",
+      "en": "e>ie, nosotros plain"
+     }
+    },
+    {
+     "es": "No puedo dormir bien.",
+     "gloss": {
+      "de": "Ich kann nicht gut schlafen.",
+      "en": "I can't sleep well."
+     },
+     "note": {
+      "de": "o>ue",
+      "en": "o>ue"
+     }
+    },
+    {
+     "es": "Él siempre dice la verdad.",
+     "gloss": {
+      "de": "Er sagt immer die Wahrheit.",
+      "en": "He always tells the truth."
+     },
+     "note": {
+      "de": "e>i",
+      "en": "e>i"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Unregelmäßiges yo",
+    "en": "Irregular yo"
+   },
+   "body": {
+    "de": "Viele Verben haben nur in der yo-Form -go (tengo, hago); Rest oft normal.",
+    "en": "Many verbs take -go only in the yo form (tengo, hago); rest often regular."
+   },
+   "examples": [
+    {
+     "es": "Tengo dos hermanos.",
+     "gloss": {
+      "de": "Ich habe zwei Geschwister.",
+      "en": "I have two siblings."
+     },
+     "note": {
+      "de": "yo: -go",
+      "en": "yo: -go"
+     }
+    },
+    {
+     "es": "Hago la cena hoy.",
+     "gloss": {
+      "de": "Ich mache heute das Abendessen.",
+      "en": "I'm making dinner today."
+     },
+     "note": {
+      "de": "nur yo irregulär",
+      "en": "only yo irregular"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Ganz unregelmäßig",
+    "en": "Fully irregular"
+   },
+   "body": {
+    "de": "ser, estar, ir haben eigene Formen und müssen auswendig gelernt werden.",
+    "en": "ser, estar, and ir have unique forms you must memorize."
+   },
+   "examples": [
+    {
+     "es": "Soy de Alemania y estoy en Madrid.",
+     "gloss": {
+      "de": "Ich bin aus Deutschland und bin in Madrid.",
+      "en": "I'm from Germany and I'm in Madrid."
+     },
+     "note": {
+      "de": "ser vs. estar",
+      "en": "ser vs. estar"
+     }
+    },
+    {
+     "es": "Vamos al cine esta noche.",
+     "gloss": {
+      "de": "Wir gehen heute Abend ins Kino.",
+      "en": "We're going to the cinema tonight."
+     },
+     "note": {
+      "de": "ir: vamos",
+      "en": "ir: vamos"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Nahe Zukunft",
+    "en": "Near future"
+   },
+   "body": {
+    "de": "Das Präsens drückt auch geplante, baldige Handlungen aus.",
+    "en": "The present also expresses planned, upcoming actions."
+   },
+   "examples": [
+    {
+     "es": "Mañana voy a la playa.",
+     "gloss": {
+      "de": "Morgen gehe ich an den Strand.",
+      "en": "Tomorrow I'm going to the beach."
+     },
+     "note": {
+      "de": "Zukunft mit Präsens",
+      "en": "future via present"
+     }
+    },
+    {
+     "es": "Esta tarde como con María.",
+     "gloss": {
+      "de": "Heute Nachmittag esse ich mit María.",
+      "en": "This afternoon I'm eating with María."
+     },
+     "note": {
+      "de": "geplant",
+      "en": "planned"
+     }
+    }
+   ]
+  }
+ ],
+ "endings": {
+  "label": {
+   "de": "Regelmäßige Endungen",
+   "en": "Regular endings"
+  },
+  "ar": [
+   "-o",
+   "-as",
+   "-a",
+   "-amos",
+   "-áis",
+   "-an"
+  ],
+  "er": [
+   "-o",
+   "-es",
+   "-e",
+   "-emos",
+   "-éis",
+   "-en"
+  ],
+  "ir": [
+   "-o",
+   "-es",
+   "-e",
+   "-imos",
+   "-ís",
+   "-en"
+  ]
+ },
+ "examples": [
+  {
+   "es": "Los niños duermen ocho horas.",
+   "gloss": {
+    "de": "Die Kinder schlafen acht Stunden.",
+    "en": "The children sleep eight hours."
+   }
+  },
+  {
+   "es": "El sol sale por el este.",
+   "gloss": {
+    "de": "Die Sonne geht im Osten auf.",
+    "en": "The sun rises in the east."
+   }
+  },
+  {
+   "es": "¿Qué haces los fines de semana?",
+   "gloss": {
+    "de": "Was machst du am Wochenende?",
+    "en": "What do you do on weekends?"
+   }
+  },
+  {
+   "es": "Ahora mismo estamos cansados.",
+   "gloss": {
+    "de": "Gerade jetzt sind wir müde.",
+    "en": "Right now we are tired."
+   }
+  }
+ ]
+}

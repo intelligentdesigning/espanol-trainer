@@ -1,0 +1,212 @@
+{
+ "kind": "topic",
+ "id": "preposiciones",
+ "name": {
+  "de": "Präpositionen",
+  "en": "Prepositions"
+ },
+ "summary": {
+  "de": "Spanische Präpositionen verbinden Wörter und drücken Ort, Richtung, Zeit und Beziehung aus; viele Verben verlangen eine feste Präposition.",
+  "en": "Spanish prepositions link words and express place, direction, time and relation; many verbs require a fixed preposition."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "en (Ort) vs. a (Richtung/Ziel)",
+    "en": "en (location) vs. a (direction/goal)"
+   },
+   "body": {
+    "de": "en steht für den Ort, wo etwas ist; a für die Richtung oder das Ziel einer Bewegung.",
+    "en": "Use en for where something is; use a for the direction or goal of movement."
+   },
+   "examples": [
+    {
+     "es": "Estoy en casa.",
+     "gloss": {
+      "de": "Ich bin zu Hause.",
+      "en": "I am at home."
+     },
+     "note": {
+      "de": "Ort = en",
+      "en": "location = en"
+     }
+    },
+    {
+     "es": "Voy a Madrid.",
+     "gloss": {
+      "de": "Ich fahre nach Madrid.",
+      "en": "I'm going to Madrid."
+     },
+     "note": {
+      "de": "Ziel = a",
+      "en": "goal = a"
+     }
+    },
+    {
+     "es": "Vivo en España.",
+     "gloss": {
+      "de": "Ich wohne in Spanien.",
+      "en": "I live in Spain."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "de: Herkunft, Besitz, Stoff",
+    "en": "de: origin, possession, material"
+   },
+   "body": {
+    "de": "de drückt Herkunft, Zugehörigkeit, Material und den Ausgangspunkt aus.",
+    "en": "de expresses origin, belonging, material and the starting point."
+   },
+   "examples": [
+    {
+     "es": "Soy de Alemania.",
+     "gloss": {
+      "de": "Ich komme aus Deutschland.",
+      "en": "I'm from Germany."
+     },
+     "note": {
+      "de": "Herkunft",
+      "en": "origin"
+     }
+    },
+    {
+     "es": "El libro de María.",
+     "gloss": {
+      "de": "Marías Buch.",
+      "en": "María's book."
+     },
+     "note": {
+      "de": "Besitz",
+      "en": "possession"
+     }
+    },
+    {
+     "es": "Una mesa de madera.",
+     "gloss": {
+      "de": "Ein Tisch aus Holz.",
+      "en": "A wooden table."
+     },
+     "note": {
+      "de": "Material",
+      "en": "material"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "con, sin, sobre, entre, contra",
+    "en": "con, sin, sobre, entre, contra"
+   },
+   "body": {
+    "de": "con = mit, sin = ohne, sobre = auf/über, entre = zwischen, contra = gegen.",
+    "en": "con = with, sin = without, sobre = on/about, entre = between, contra = against."
+   },
+   "examples": [
+    {
+     "es": "Café con leche, por favor.",
+     "gloss": {
+      "de": "Kaffee mit Milch, bitte.",
+      "en": "Coffee with milk, please."
+     }
+    },
+    {
+     "es": "El gato está entre las cajas.",
+     "gloss": {
+      "de": "Die Katze ist zwischen den Kisten.",
+      "en": "The cat is between the boxes."
+     }
+    },
+    {
+     "es": "Jugamos contra ellos.",
+     "gloss": {
+      "de": "Wir spielen gegen sie.",
+      "en": "We play against them."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "hacia, hasta, desde",
+    "en": "hacia, hasta, desde"
+   },
+   "body": {
+    "de": "hacia = in Richtung, hasta = bis (zu), desde = seit/von ... an.",
+    "en": "hacia = towards, hasta = until/up to, desde = since/from."
+   },
+   "examples": [
+    {
+     "es": "Camino hacia el parque.",
+     "gloss": {
+      "de": "Ich gehe in Richtung Park.",
+      "en": "I walk towards the park."
+     },
+     "note": {
+      "de": "Richtung",
+      "en": "direction"
+     }
+    },
+    {
+     "es": "Trabajo desde las nueve hasta las cinco.",
+     "gloss": {
+      "de": "Ich arbeite von neun bis fünf.",
+      "en": "I work from nine until five."
+     },
+     "note": {
+      "de": "desde ... hasta",
+      "en": "from ... until"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Feste Verb-Präposition-Paare",
+    "en": "Fixed verb + preposition pairs"
+   },
+   "body": {
+    "de": "Manche Verben verlangen eine feste Präposition: pensar en, soñar con, depender de.",
+    "en": "Some verbs require a fixed preposition: pensar en, soñar con, depender de."
+   },
+   "examples": [
+    {
+     "es": "Pienso en ti.",
+     "gloss": {
+      "de": "Ich denke an dich.",
+      "en": "I think of you."
+     },
+     "note": {
+      "de": "pensar en",
+      "en": "pensar en"
+     }
+    },
+    {
+     "es": "Sueño con viajar.",
+     "gloss": {
+      "de": "Ich träume davon zu reisen.",
+      "en": "I dream of traveling."
+     },
+     "note": {
+      "de": "soñar con",
+      "en": "soñar con"
+     }
+    },
+    {
+     "es": "Depende de ti.",
+     "gloss": {
+      "de": "Es hängt von dir ab.",
+      "en": "It depends on you."
+     },
+     "note": {
+      "de": "depender de",
+      "en": "depender de"
+     }
+    }
+   ]
+  }
+ ]
+}

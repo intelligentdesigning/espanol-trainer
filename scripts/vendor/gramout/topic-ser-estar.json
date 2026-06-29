@@ -9,8 +9,8 @@
     "options": ["soy", "estoy"],
     "answer": "soy",
     "explain": {
-      "de": "Der Beruf nennt, wer man ist (Identität), und steht mit ser: soy profesora. Estar wäre falsch, weil es nur einen vorübergehenden Zustand oder Ort ausdrückt.",
-      "en": "Profession states who you are (identity) and takes ser: soy profesora. Estar would be wrong because it only marks a temporary state or location."
+      "de": "Der Beruf nennt, wer man ist, und steht mit ser: soy profesora. Estar wäre falsch, weil es nur Ort oder vorübergehenden Zustand ausdrückt.",
+      "en": "Profession states who you are and takes ser: soy profesora. Estar would be wrong because it only marks location or a temporary state."
     }
   },
   {
@@ -23,8 +23,8 @@
     "options": ["son", "están", "están en"],
     "answer": "son",
     "explain": {
-      "de": "Herkunft (de + Land) wird immer mit ser ausgedrückt: son de Argentina. Verlockend ist estar wegen des Orts, aber estar bezeichnet nur, wo man sich befindet, nicht woher man kommt.",
-      "en": "Origin (de + country) always uses ser: son de Argentina. Estar is tempting because of place, but estar only marks where you are, not where you are from."
+      "de": "Herkunft (de + Land) steht immer mit ser: son de Argentina. Estar bezeichnet nur, wo man sich befindet, nicht woher man kommt.",
+      "en": "Origin (de + country) always uses ser: son de Argentina. Estar only marks where you are, not where you are from."
     }
   },
   {
@@ -37,8 +37,8 @@
     "answer": "Son",
     "altAnswers": ["son"],
     "explain": {
-      "de": "Die Uhrzeit steht immer mit ser, und bei Stunden im Plural in der 3. Person Plural: son las tres. Estar ist bei Zeitangaben nie möglich.",
-      "en": "Time is always expressed with ser, and with plural hours in the third person plural: son las tres. Estar is never used for clock time."
+      "de": "Die Uhrzeit steht immer mit ser, bei Stunden im Plural: son las tres. Estar ist bei Zeitangaben nie möglich.",
+      "en": "Time is always expressed with ser, plural for hours: son las tres. Estar is never used for clock time."
     }
   },
   {
@@ -51,8 +51,8 @@
     "options": ["es", "está"],
     "answer": "es",
     "explain": {
-      "de": "Das Material (de + Stoff) ist eine feste Eigenschaft und steht mit ser: es de madera. Estar wäre hier falsch, da es um die Beschaffenheit, nicht um einen Zustand geht.",
-      "en": "Material (de + substance) is an inherent property and takes ser: es de madera. Estar would be wrong here, since it concerns composition, not a state."
+      "de": "Das Material (de + Stoff) ist eine feste Eigenschaft und steht mit ser: es de madera. Estar wäre falsch, da es um die Beschaffenheit geht.",
+      "en": "Material (de + substance) is an inherent property and takes ser: es de madera. Estar would be wrong, since this concerns composition."
     }
   },
   {
@@ -65,7 +65,7 @@
     "options": ["son", "están", "tienen"],
     "answer": "son",
     "explain": {
-      "de": "Besitz (de + Person) wird mit ser ausgedrückt: son de mi vecina. Estar bezeichnet niemals Besitz, sondern nur Ort oder Zustand.",
+      "de": "Besitz (de + Person) steht mit ser: son de mi vecina. Estar bezeichnet niemals Besitz, sondern nur Ort oder Zustand.",
       "en": "Possession (de + person) uses ser: son de mi vecina. Estar never marks ownership, only location or state."
     }
   },
@@ -79,21 +79,8 @@
     "options": ["es", "está"],
     "answer": "es",
     "explain": {
-      "de": "Körpergröße ist ein festes Merkmal und steht mit ser: es alta. Está alta würde bedeuten, dass sie für ihr Alter gerade groß wirkt, was hier nicht gemeint ist.",
-      "en": "Height is an inherent trait and takes ser: es alta. Está alta would suggest she looks tall for her age right now, which is not intended here."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "El cielo ___ azul y no hay ni una nube hoy. (estar)",
-    "promptGloss": {
-      "de": "Der Himmel ist (heute) blau, und es gibt heute keine einzige Wolke.",
-      "en": "The sky is blue today and there isn't a single cloud."
-    },
-    "answer": "está",
-    "explain": {
-      "de": "Eine Farbe als momentaner, sichtbarer Zustand (heute, gerade jetzt) steht mit estar: el cielo está azul. Mit ser (el cielo es azul) wäre es eine allgemeine, dauerhafte Eigenschaft.",
-      "en": "A colour as a momentary, observed state (today, right now) takes estar: el cielo está azul. With ser (el cielo es azul) it would be a general, permanent trait."
+      "de": "Die Körpergröße ist ein festes Merkmal und steht mit ser: es alta. Estar würde einen vorübergehenden Eindruck meinen.",
+      "en": "Height is an inherent trait and takes ser: es alta. Estar would suggest a passing impression."
     }
   },
   {
@@ -106,35 +93,48 @@
     "options": ["está", "es", "hay"],
     "answer": "está",
     "explain": {
-      "de": "Der Ort eines Gegenstands oder Raums wird mit estar ausgedrückt: ¿dónde está? Ser nennt nie die Lage von Dingen, sondern Identität oder Eigenschaft.",
-      "en": "The location of an object or room takes estar: ¿dónde está? Ser never states where things are, only identity or trait."
+      "de": "Der Ort eines Raums wird mit estar ausgedrückt: ¿dónde está? Ser nennt nie die Lage von Dingen.",
+      "en": "The location of a room takes estar: ¿dónde está? Ser never states where things are."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Los libros que buscas ___ encima de la mesa de la cocina.",
+    "promptGloss": {
+      "de": "Die Bücher, die du suchst, sind auf dem Küchentisch.",
+      "en": "The books you are looking for are on the kitchen table."
+    },
+    "answer": "están",
+    "explain": {
+      "de": "Wo sich etwas befindet, steht mit estar, 3. Person Plural: están encima de la mesa.",
+      "en": "Where something is located uses estar; third person plural is están encima de la mesa."
     }
   },
   {
     "kind": "choice",
     "prompt": "La fiesta de cumpleaños ___ en casa de Marta este sábado.",
     "promptGloss": {
-      "de": "Die Geburtstagsfeier ist (findet statt) bei Marta diesen Samstag.",
-      "en": "The birthday party is (takes place) at Marta's this Saturday."
+      "de": "Die Geburtstagsfeier findet diesen Samstag bei Marta statt.",
+      "en": "The birthday party is at Marta's this Saturday."
     },
     "options": ["es", "está"],
     "answer": "es",
     "explain": {
-      "de": "Bei Veranstaltungen meint \"stattfinden / sich abspielen\" ser, auch wenn ein Ort genannt wird: la fiesta es en casa de Marta. Das ist die Ausnahme zur Ortsregel, denn está beschriebe nur, wo ein Gegenstand liegt.",
-      "en": "For events, \"to take place\" uses ser even when a place is named: la fiesta es en casa de Marta. This is the exception to the location rule, since está would only say where an object sits."
+      "de": "Bei Veranstaltungen heißt \"stattfinden\" ser, auch wenn ein Ort genannt wird: la fiesta es en casa de Marta. Das ist die Ausnahme zur Ortsregel.",
+      "en": "For events, \"to take place\" uses ser even when a place is named: la fiesta es en casa de Marta. This is the exception to the location rule."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Después de correr diez kilómetros, nosotros ___ muy cansados. (estar)",
+    "prompt": "Después de correr diez kilómetros, nosotros ___ muy cansados.",
     "promptGloss": {
       "de": "Nach zehn Kilometern Laufen sind wir sehr müde.",
       "en": "After running ten kilometres, we are very tired."
     },
     "answer": "estamos",
     "explain": {
-      "de": "Müdigkeit ist ein vorübergehender Zustand und steht mit estar: estamos cansados. Cansado mit ser gibt es nicht im Sinne von müde, sondern höchstens \"ermüdend\".",
-      "en": "Tiredness is a temporary state and takes estar: estamos cansados. Cansado with ser does not mean tired but at most \"tiring\"."
+      "de": "Müdigkeit ist ein vorübergehender Zustand und steht mit estar: estamos cansados.",
+      "en": "Tiredness is a temporary state and takes estar: estamos cansados."
     }
   },
   {
@@ -147,132 +147,129 @@
     "options": ["estoy", "soy"],
     "answer": "estoy",
     "explain": {
-      "de": "Die Verlaufsform (gerade dabei sein) bildet man mit estar + Gerundium: estoy comiendo. Ser wird im Spanischen nie mit dem Gerundium kombiniert.",
-      "en": "The progressive (being in the middle of) is formed with estar + gerund: estoy comiendo. Ser is never combined with the gerund in Spanish."
+      "de": "Die Verlaufsform bildet man mit estar + Gerundium: estoy comiendo. Ser wird nie mit dem Gerundium kombiniert.",
+      "en": "The progressive is formed with estar + gerund: estoy comiendo. Ser is never combined with the gerund."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Mi madre ___ muy contenta hoy porque viene toda la familia.",
+    "promptGloss": {
+      "de": "Meine Mutter ist heute sehr froh, weil die ganze Familie kommt.",
+      "en": "My mother is very happy today because the whole family is coming."
+    },
+    "answer": "está",
+    "explain": {
+      "de": "Die momentane Stimmung steht mit estar: está contenta. Gefühle und Laune sind immer estar.",
+      "en": "A current mood takes estar: está contenta. Feelings and moods are always estar."
     }
   },
   {
     "kind": "choice",
-    "prompt": "La conferencia ___ aburrida, así que muchos ___ aburridos a los diez minutos.",
+    "prompt": "La conferencia ___ aburrida; por eso todos se durmieron.",
     "promptGloss": {
-      "de": "Der Vortrag ist langweilig, deshalb langweilten sich viele schon nach zehn Minuten.",
-      "en": "The lecture is boring, so many were bored within ten minutes."
+      "de": "Der Vortrag ist langweilig; deshalb sind alle eingeschlafen.",
+      "en": "The lecture is boring; that's why everyone fell asleep."
     },
-    "options": ["es / estaban", "está / eran", "era / estaban"],
-    "answer": "es / estaban",
+    "options": ["es", "está", "están"],
+    "answer": "es",
     "explain": {
-      "de": "Mit ser beschreibt aburrido die Eigenschaft \"langweilig\" (die Sache), mit estar das Gefühl \"gelangweilt\" (die Person): la conferencia es aburrida, la gente está aburrida. Beides zu vertauschen ist der klassische Fehler.",
-      "en": "With ser, aburrido describes the trait \"boring\" (the thing); with estar it describes the feeling \"bored\" (the person): la conferencia es aburrida, la gente está aburrida. Swapping the two is the classic mistake."
+      "de": "Als Eigenschaft der Sache bedeutet aburrido \"langweilig\" und steht mit ser: es aburrida. Mit estar hieße es \"gelangweilt\".",
+      "en": "As a trait of the thing, aburrido means \"boring\" and takes ser: es aburrida. With estar it would mean \"bored\"."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Yo ___ aburrido en casa porque no tengo nada que hacer.",
+    "promptGloss": {
+      "de": "Mir ist langweilig zu Hause, weil ich nichts zu tun habe.",
+      "en": "I am bored at home because I have nothing to do."
+    },
+    "answer": "estoy",
+    "explain": {
+      "de": "Das Gefühl \"gelangweilt sein\" steht mit estar: estoy aburrido.",
+      "en": "The feeling \"to be bored\" uses estar: estoy aburrido."
     }
   },
   {
     "kind": "choice",
     "prompt": "No comas ese plátano todavía, ___ verde.",
     "promptGloss": {
-      "de": "Iss diese Banane noch nicht, sie ist (noch) unreif.",
+      "de": "Iss diese Banane noch nicht, sie ist noch unreif.",
       "en": "Don't eat that banana yet, it is unripe."
     },
     "options": ["está", "es"],
     "answer": "está",
     "explain": {
-      "de": "Verde mit estar bedeutet hier den Zustand \"unreif\": está verde. Mit ser (es verde) hieße es nur, die Banane sei von Natur aus grün gefärbt, was bei einer Banane absurd wäre.",
-      "en": "Verde with estar means the state \"unripe\" here: está verde. With ser (es verde) it would only mean the banana is naturally green, which makes no sense for a banana."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Carlos siempre ayuda a todos; ___ una persona muy buena. Hoy, además, ___ muy guapo con ese traje.",
-    "promptGloss": {
-      "de": "Carlos hilft immer allen; er ist ein sehr guter Mensch. Heute sieht er außerdem in diesem Anzug sehr gut aus.",
-      "en": "Carlos always helps everyone; he is a very good person. Today he also looks very handsome in that suit."
-    },
-    "options": ["es / está", "está / es", "es / es"],
-    "answer": "es / está",
-    "explain": {
-      "de": "Ser bueno nennt den Charakter (gut/gütig als Wesen), estar guapo nennt das momentane Aussehen (heute gut aussehend). Mit está bueno würde man dagegen sagen, dass jemand attraktiv/lecker ist, nicht charakterlich gut.",
-      "en": "Ser bueno states character (good as a nature), estar guapo states current appearance (looking good today). By contrast está bueno would mean someone is attractive/tasty, not good in character."
+      "de": "Verde mit estar bedeutet hier den Zustand \"unreif\": está verde. Mit ser hieße es nur, die Banane sei von Natur aus grün.",
+      "en": "Verde with estar means the state \"unripe\" here: está verde. With ser it would only mean the banana is naturally green."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Hoy ___ lunes y mañana ___ martes. (ser, ser)",
+    "prompt": "Hoy ___ lunes y mañana es martes.",
     "promptGloss": {
       "de": "Heute ist Montag und morgen ist Dienstag.",
       "en": "Today is Monday and tomorrow is Tuesday."
     },
     "answer": "es",
     "explain": {
-      "de": "Wochentag und Datum stehen mit ser in der 3. Person Singular: hoy es lunes, mañana es martes. Estar ist bei Zeitangaben dieser Art nie korrekt.",
-      "en": "Weekday and date take ser in the third person singular: hoy es lunes, mañana es martes. Estar is never correct for this kind of time reference."
+      "de": "Wochentag und Datum stehen mit ser in der 3. Person Singular: hoy es lunes. Estar ist hier nie korrekt.",
+      "en": "Weekday and date take ser in the third person singular: hoy es lunes. Estar is never correct here."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Mi abuela ___ muy mayor, pero hoy ___ contenta porque viene toda la familia.",
+    "prompt": "La nieve recién caída ___ blanca.",
     "promptGloss": {
-      "de": "Meine Oma ist sehr alt, aber heute ist sie froh, weil die ganze Familie kommt.",
-      "en": "My grandmother is very old, but today she is happy because the whole family is coming."
+      "de": "Der frisch gefallene Schnee ist weiß.",
+      "en": "Freshly fallen snow is white."
     },
-    "options": ["es / está", "está / es", "es / es"],
-    "answer": "es / está",
+    "options": ["es", "está", "son"],
+    "answer": "es",
     "explain": {
-      "de": "Das Alter als feste Eigenschaft steht mit ser (es mayor), die momentane Stimmung mit estar (está contenta). Gefühle und Laune sind immer estar.",
-      "en": "Age as an inherent trait takes ser (es mayor); the current mood takes estar (está contenta). Feelings and moods are always estar."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "La nieve ___ blanca y el agua del mar ___ muy fría hoy.",
-    "promptGloss": {
-      "de": "Der Schnee ist weiß, und das Meerwasser ist heute sehr kalt.",
-      "en": "Snow is white and the sea water is very cold today."
-    },
-    "options": ["es / está", "está / es", "es / es"],
-    "answer": "es / está",
-    "explain": {
-      "de": "Die feste Farbe des Schnees ist eine Eigenschaft (ser: es blanca), die heutige Temperatur des Wassers ein veränderlicher Zustand (estar: está fría). Hier prallen dauerhaftes Merkmal und vorübergehender Zustand aufeinander.",
-      "en": "Snow's inherent colour is a trait (ser: es blanca); the water's temperature today is a changeable state (estar: está fría). Here a permanent trait and a temporary state meet."
+      "de": "Die feste, natürliche Farbe steht mit ser: es blanca. Estar würde einen wechselnden Zustand bedeuten.",
+      "en": "An inherent, natural color uses ser: es blanca. Estar would imply a changing state."
     }
   },
   {
     "kind": "fill",
-    "prompt": "—¿Cómo ___ (tú)? —Bien, gracias, aunque un poco nervioso por el examen. (estar)",
+    "prompt": "—¿Cómo ___ tú hoy? —Bien, gracias, aunque un poco nervioso.",
     "promptGloss": {
-      "de": "— Wie geht es dir? — Gut, danke, obwohl ich wegen der Prüfung etwas nervös bin.",
-      "en": "— How are you? — Fine, thanks, though a little nervous about the exam."
+      "de": "— Wie geht es dir heute? — Gut, danke, obwohl ich etwas nervös bin.",
+      "en": "— How are you today? — Fine, thanks, though a little nervous."
     },
     "answer": "estás",
     "explain": {
-      "de": "Nach dem Befinden \"wie geht es dir\" fragt man mit estar: ¿cómo estás? Ser (¿cómo eres?) würde dagegen nach dem Charakter/Aussehen fragen (\"wie bist du so\").",
-      "en": "You ask about wellbeing \"how are you\" with estar: ¿cómo estás? Ser (¿cómo eres?) would instead ask about character/appearance (\"what are you like\")."
+      "de": "Nach dem Befinden fragt man mit estar: ¿cómo estás? Ser würde nach Charakter oder Aussehen fragen.",
+      "en": "You ask about wellbeing with estar: ¿cómo estás? Ser would ask about character or appearance."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Madrid ___ la capital de España y ___ en el centro del país.",
+    "prompt": "Madrid ___ en el centro del país, lejos de la costa.",
     "promptGloss": {
-      "de": "Madrid ist die Hauptstadt Spaniens und liegt im Zentrum des Landes.",
-      "en": "Madrid is the capital of Spain and is in the centre of the country."
+      "de": "Madrid liegt im Zentrum des Landes, weit von der Küste.",
+      "en": "Madrid is in the centre of the country, far from the coast."
     },
-    "options": ["es / está", "está / es", "es / es"],
-    "answer": "es / está",
+    "options": ["está", "es", "hay"],
+    "answer": "está",
     "explain": {
-      "de": "Die Identität \"ist die Hauptstadt\" steht mit ser (es la capital), die geografische Lage mit estar (está en el centro). Auch wenn Orte unverrückbar sind, nimmt die Lage immer estar.",
-      "en": "The identity \"is the capital\" takes ser (es la capital); the geographic location takes estar (está en el centro). Even though places never move, location always takes estar."
+      "de": "Die geografische Lage steht mit estar: está en el centro. Auch wenn Orte unverrückbar sind, nimmt die Lage immer estar.",
+      "en": "Geographic location takes estar: está en el centro. Even though places never move, location always takes estar."
     }
   },
   {
-    "kind": "choice",
-    "prompt": "La sopa ___ muy rica, pero ten cuidado porque ___ caliente.",
+    "kind": "fill",
+    "prompt": "Este reloj antiguo ___ de oro, por eso vale tanto.",
     "promptGloss": {
-      "de": "Die Suppe ist sehr lecker, aber pass auf, denn sie ist heiß.",
-      "en": "The soup is very tasty, but be careful because it is hot."
+      "de": "Diese alte Uhr ist aus Gold, deshalb ist sie so viel wert.",
+      "en": "This old watch is made of gold, that's why it's worth so much."
     },
-    "options": ["está / está", "es / es", "está / es"],
-    "answer": "está / está",
+    "answer": "es",
     "explain": {
-      "de": "Bei Speisen bewertet estar rico den momentanen Geschmack (schmeckt lecker) und estar caliente die Temperatur — beides Zustände dieses konkreten Tellers. Ser rica beschriebe dagegen eine generelle Eigenschaft des Gerichts.",
-      "en": "For food, estar rico judges the taste right now (tastes great) and estar caliente the temperature — both states of this particular dish. Ser rica would instead describe a general property of the dish."
+      "de": "Das Material (de + Stoff) ist eine feste Eigenschaft und steht mit ser: es de oro.",
+      "en": "Material (de + substance) is an inherent property and takes ser: es de oro."
     }
   }
 ]

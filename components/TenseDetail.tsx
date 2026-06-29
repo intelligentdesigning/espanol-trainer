@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { RuleList } from "@/components/RuleList";
@@ -14,6 +15,8 @@ export function TenseDetail({ topic }: { topic: TenseTopic }) {
   const persons = PERSON_LABELS[locale];
 
   const hasTest = !!topic.practice && topic.practice.length > 0;
+  // while the test runs, the lesson material is hidden so you can't look things up
+  const [testRunning, setTestRunning] = useState(false);
   const nav = [
     { id: "verwendung", label: t("lesson.usage") },
     ...(topic.endings ? [{ id: "bildung", label: t("lesson.formation") }] : []),
@@ -39,9 +42,11 @@ export function TenseDetail({ topic }: { topic: TenseTopic }) {
         </div>
       ) : (
         <>
-          <LessonNav items={nav} />
+          {!testRunning && <LessonNav items={nav} />}
 
           <div className="space-y-8">
+            {!testRunning && (
+            <>
             <Segment id="verwendung" title={t("lesson.usage")}>
               <p className="text-[15px] leading-relaxed">{L(topic.summary)}</p>
             </Segment>
@@ -101,11 +106,13 @@ export function TenseDetail({ topic }: { topic: TenseTopic }) {
                 </Link>
               </Segment>
             )}
+            </>
+            )}
 
             {hasTest && (
               <Segment id="test" title={t("lesson.test")} hint={`${topic.practice!.length}`}>
-                <p className="text-sm text-muted">{t("lesson.testIntro")}</p>
-                <GrammarPractice topicId={topic.id} items={topic.practice!} />
+                {!testRunning && <p className="text-sm text-muted">{t("lesson.testIntro")}</p>}
+                <GrammarPractice topicId={topic.id} items={topic.practice!} onRunningChange={setTestRunning} />
               </Segment>
             )}
           </div>

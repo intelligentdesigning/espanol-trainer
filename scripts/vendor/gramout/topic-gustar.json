@@ -9,8 +9,35 @@
     "options": ["Me", "Yo", "Mí"],
     "answer": "Me",
     "explain": {
-      "de": "Vor gustar steht immer ein indirektes Objektpronomen (me, te, le …), nie das Subjektpronomen „yo“. „Yo gusto“ hieße „ich gefalle“ – ein ganz anderer Satz.",
-      "en": "gustar always takes an indirect object pronoun (me, te, le …) in front, never the subject pronoun \"yo\". \"Yo gusto\" would mean \"I am pleasing\", a different sentence."
+      "de": "Vor gustar steht immer ein indirektes Objektpronomen (me, te, le …), nie das Subjektpronomen „yo“.",
+      "en": "gustar always takes an indirect object pronoun (me, te, le …) in front, never the subject pronoun \"yo\"."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "___ gusta la música a mis amigos y a mí.",
+    "promptGloss": {
+      "de": "Uns gefällt die Musik.",
+      "en": "We like the music."
+    },
+    "answer": "Nos",
+    "explain": {
+      "de": "Für „wir“ steht das Pflicht-Pronomen nos vor dem Verb.",
+      "en": "For \"we\" the obligatory pronoun nos goes before the verb."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿___ gusta el chocolate?",
+    "promptGloss": {
+      "de": "Magst du Schokolade?",
+      "en": "Do you like chocolate?"
+    },
+    "options": ["Te", "Tú", "Ti"],
+    "answer": "Te",
+    "explain": {
+      "de": "Für „du“ braucht gustar das indirekte Pronomen te, nicht das Subjektpronomen „tú“.",
+      "en": "For \"you\" gustar needs the indirect pronoun te, not the subject pronoun \"tú\"."
     }
   },
   {
@@ -23,22 +50,21 @@
     "options": ["gusta", "gustamos", "gustan"],
     "answer": "gusta",
     "explain": {
-      "de": "Das Subjekt ist „la música“ (Singular), deshalb gusta in der 3. Person Singular. „gustamos“ wäre 1. Person Plural und falsch, weil nicht „wir“ das Subjekt sind, sondern die Musik.",
-      "en": "The subject is \"la música\" (singular), so gusta in the 3rd person singular. \"gustamos\" would be 1st person plural and wrong, because the subject is the music, not \"we\"."
+      "de": "Das Subjekt ist „la música“ (Singular), deshalb gusta. „gustamos“ wäre falsch, weil nicht „wir“ das Subjekt sind, sondern die Musik.",
+      "en": "The subject is \"la música\" (singular), so gusta. \"gustamos\" would be wrong, because the subject is the music, not \"we\"."
     }
   },
   {
-    "kind": "choice",
+    "kind": "fill",
     "prompt": "Me ___ los días de lluvia y las tardes tranquilas.",
     "promptGloss": {
       "de": "Mir gefallen die Regentage und die ruhigen Nachmittage.",
       "en": "I like rainy days and quiet afternoons."
     },
-    "options": ["gustan", "gusta", "gustas"],
     "answer": "gustan",
     "explain": {
-      "de": "Das Subjekt ist mehrteilig und im Plural („los días … y las tardes“), deshalb gustan. „gusta“ wäre nur bei einem Singular-Subjekt richtig.",
-      "en": "The subject is plural and compound (\"los días … y las tardes\"), so gustan. \"gusta\" would only fit a singular subject."
+      "de": "Das Subjekt ist mehrteilig und im Plural („los días … y las tardes“), deshalb gustan.",
+      "en": "The subject is plural and compound (\"los días … y las tardes\"), so gustan."
     }
   },
   {
@@ -51,8 +77,21 @@
     "options": ["gusta", "gustan", "gustamos"],
     "answer": "gusta",
     "explain": {
-      "de": "Vor einem Infinitiv (auch vor mehreren: „viajar y conocer“) steht gustar immer im Singular: gusta. „gustan“ wäre falsch, denn ein Infinitiv zählt nicht als Plural-Subjekt.",
-      "en": "Before an infinitive (even several: \"viajar y conocer\") gustar is always singular: gusta. \"gustan\" is wrong, since an infinitive does not count as a plural subject."
+      "de": "Vor einem Infinitiv (auch vor mehreren) steht gustar immer im Singular: gusta.",
+      "en": "Before an infinitive (even several) gustar is always singular: gusta."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Me ___ leer novelas por la noche.",
+    "promptGloss": {
+      "de": "Ich lese abends gern Romane.",
+      "en": "I like to read novels at night."
+    },
+    "answer": "gusta",
+    "explain": {
+      "de": "Vor einem Infinitiv steht gustar immer im Singular: gusta.",
+      "en": "Before an infinitive gustar is always singular: gusta."
     }
   },
   {
@@ -65,8 +104,8 @@
     "options": ["A", "De", "Para"],
     "answer": "A",
     "explain": {
-      "de": "Die betonte Person wird mit der Präposition „a“ markiert: a mí, a ti … Hier betont/kontrastiert sie „mí“ gegenüber „ti“. „de“ oder „para“ passen bei gustar-Verben nicht.",
-      "en": "The stressed person is marked with the preposition \"a\": a mí, a ti … Here it contrasts \"mí\" with \"ti\". \"de\" or \"para\" do not work with gustar-type verbs."
+      "de": "Die betonte Person wird mit der Präposition „a“ markiert: a mí, a ti … „de“ oder „para“ passen bei gustar-Verben nicht.",
+      "en": "The stressed person is marked with the preposition \"a\": a mí, a ti … \"de\" or \"para\" do not work with gustar-type verbs."
     }
   },
   {
@@ -79,8 +118,21 @@
     "options": ["me", "mí", "yo"],
     "answer": "me",
     "explain": {
-      "de": "„a mí“ betont nur die Person; das pflichtige Objektpronomen me muss trotzdem stehen. „a mí mí gustan“ oder „a mí yo gustan“ sind falsch – betontes Pronomen ersetzt nie me/te/le.",
-      "en": "\"a mí\" only emphasises the person; the obligatory object pronoun me must still appear. \"a mí mí …\" or \"a mí yo …\" are wrong – the stressed pronoun never replaces me/te/le."
+      "de": "„a mí“ betont nur die Person; das pflichtige Pronomen me muss trotzdem stehen und wird nie durch das betonte Pronomen ersetzt.",
+      "en": "\"a mí\" only emphasises the person; the obligatory pronoun me must still appear and is never replaced by the stressed pronoun."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "A ___ me gustan los idiomas; por eso estudio cuatro.",
+    "promptGloss": {
+      "de": "Mir gefallen Sprachen; deshalb lerne ich vier.",
+      "en": "I like languages; that's why I study four."
+    },
+    "answer": "mí",
+    "explain": {
+      "de": "Nach der Präposition „a“ steht das betonte Pronomen mí (mit Akzent), nicht „yo“. Es betont die Person zusätzlich zum pflichtigen me.",
+      "en": "After the preposition \"a\" comes the stressed pronoun mí (with accent), not \"yo\". It emphasises the person in addition to the obligatory me."
     }
   },
   {
@@ -93,8 +145,21 @@
     "options": ["le", "se", "la"],
     "answer": "le",
     "explain": {
-      "de": "Bei der 3. Person Singular ist das indirekte Objektpronomen le; „a Ana“ erklärt nur, wer gemeint ist, ersetzt es aber nicht. „la“ (direktes Objekt) wäre hier grammatisch falsch.",
-      "en": "For 3rd person singular the indirect object pronoun is le; \"a Ana\" only clarifies who is meant but does not replace it. \"la\" (direct object) would be grammatically wrong here."
+      "de": "Bei der 3. Person Singular ist das indirekte Objektpronomen le; „a Ana“ erklärt nur, wer gemeint ist. „la“ (direktes Objekt) wäre hier falsch.",
+      "en": "For 3rd person singular the indirect object pronoun is le; \"a Ana\" only clarifies who is meant. \"la\" (direct object) would be wrong here."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "A Pedro ___ gusta el fútbol más que el tenis.",
+    "promptGloss": {
+      "de": "Pedro mag Fußball mehr als Tennis.",
+      "en": "Pedro likes football more than tennis."
+    },
+    "answer": "le",
+    "explain": {
+      "de": "„Pedro“ ist 3. Person Singular → le. Das „a + Name“ klärt nur, wer gemeint ist; das Pronomen le bleibt trotzdem stehen.",
+      "en": "\"Pedro\" is 3rd person singular → le. The \"a + name\" only clarifies who is meant; the pronoun le still has to appear."
     }
   },
   {
@@ -107,8 +172,21 @@
     "options": ["les", "le", "nos"],
     "answer": "les",
     "explain": {
-      "de": "„mis padres“ ist Plural (sie/ellos), daher das Pronomen les. „le“ wäre Singular und stimmt nicht überein; das „a + Person“ verlangt trotzdem das passende le/les.",
-      "en": "\"mis padres\" is plural (they/ellos), so the pronoun les. \"le\" would be singular and mismatched; the \"a + person\" still needs the matching le/les."
+      "de": "„mis padres“ ist Plural (ellos), daher das Pronomen les; „le“ wäre Singular und stimmt nicht überein.",
+      "en": "\"mis padres\" is plural (ellos), so the pronoun les; \"le\" would be singular and mismatched."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "A los niños ___ gustan los dibujos animados los sábados.",
+    "promptGloss": {
+      "de": "Den Kindern gefallen samstags die Zeichentrickfilme.",
+      "en": "The children like cartoons on Saturdays."
+    },
+    "answer": "les",
+    "explain": {
+      "de": "„los niños“ ist Plural → les. Das „a + Person“ verlangt trotzdem das passende Pronomen.",
+      "en": "\"los niños\" is plural → les. The \"a + person\" still needs the matching pronoun."
     }
   },
   {
@@ -121,8 +199,8 @@
     "options": ["encanta", "encantan", "encanto"],
     "answer": "encanta",
     "explain": {
-      "de": "encantar folgt genau dem gustar-Muster: Subjekt „esta canción“ (Singular) → encanta. „encanto“ (1. Person) wäre falsch, weil nicht „ich“ das Subjekt bin, sondern das Lied.",
-      "en": "encantar follows the gustar pattern exactly: subject \"esta canción\" (singular) → encanta. \"encanto\" (1st person) is wrong, because the subject is the song, not \"I\"."
+      "de": "encantar folgt dem gustar-Muster: Subjekt „esta canción“ (Singular) → encanta. „encanto“ (1. Person) wäre falsch.",
+      "en": "encantar follows the gustar pattern: subject \"esta canción\" (singular) → encanta. \"encanto\" (1st person) would be wrong."
     }
   },
   {
@@ -135,8 +213,21 @@
     "options": ["duelen", "duele", "dolen"],
     "answer": "duelen",
     "explain": {
-      "de": "doler folgt dem gustar-Muster; Subjekt „las piernas“ ist Plural → duelen. „dolen“ ist keine Form: doler hat den Stammwechsel o→ue, also duele/duelen.",
-      "en": "doler follows the gustar pattern; the subject \"las piernas\" is plural → duelen. \"dolen\" is not a form: doler has the o→ue stem change, giving duele/duelen."
+      "de": "doler folgt dem gustar-Muster; Subjekt „las piernas“ ist Plural → duelen (Stammwechsel o→ue). „dolen“ ist keine Form.",
+      "en": "doler follows the gustar pattern; the subject \"las piernas\" is plural → duelen (o→ue stem change). \"dolen\" is not a form."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Me ___ los pies después de caminar todo el día.",
+    "promptGloss": {
+      "de": "Mir tun nach dem ganztägigen Laufen die Füße weh.",
+      "en": "My feet hurt after walking all day."
+    },
+    "answer": "duelen",
+    "explain": {
+      "de": "doler folgt dem gustar-Muster und hat den Stammwechsel o→ue; Subjekt „los pies“ ist Plural → duelen.",
+      "en": "doler follows the gustar pattern and has the o→ue stem change; the subject \"los pies\" is plural → duelen."
     }
   },
   {
@@ -149,8 +240,21 @@
     "options": ["faltan", "falta", "faltamos"],
     "answer": "faltan",
     "explain": {
-      "de": "faltar funktioniert wie gustar; das Subjekt „dos huevos …“ ist Plural → faltan. „faltamos“ (wir fehlen) wäre falsch, denn nicht wir fehlen, sondern die Zutaten.",
-      "en": "faltar works like gustar; the subject \"dos huevos …\" is plural → faltan. \"faltamos\" (we are missing) is wrong, since it is the ingredients that are lacking, not us."
+      "de": "faltar funktioniert wie gustar; das Subjekt „dos huevos …“ ist Plural → faltan. „faltamos“ wäre falsch, denn die Zutaten fehlen, nicht wir.",
+      "en": "faltar works like gustar; the subject \"dos huevos …\" is plural → faltan. \"faltamos\" would be wrong, since it is the ingredients that are lacking, not us."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Solo nos ___ tres euros para pagar la cuenta.",
+    "promptGloss": {
+      "de": "Uns fehlen nur drei Euro, um die Rechnung zu bezahlen.",
+      "en": "We are only missing three euros to pay the bill."
+    },
+    "answer": "faltan",
+    "explain": {
+      "de": "faltar folgt dem gustar-Muster: Subjekt „tres euros“ ist Plural → faltan. Nicht „wir“ sind das Subjekt, sondern das Geld.",
+      "en": "faltar follows the gustar pattern: the subject \"tres euros\" is plural → faltan. The subject is not \"we\" but the money."
     }
   },
   {
@@ -163,114 +267,8 @@
     "options": ["te", "ti", "se"],
     "answer": "te",
     "explain": {
-      "de": "interesar folgt dem gustar-Muster: 2. Person Singular braucht te. „a ti“ betont nur, ersetzt aber das pflichtige te nicht; „ti“ allein an dieser Stelle ist falsch.",
-      "en": "interesar follows the gustar pattern: 2nd person singular needs te. \"a ti\" only emphasises and does not replace the obligatory te; \"ti\" alone here is wrong."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "A los niños les ___ los dibujos animados los sábados.",
-    "promptGloss": {
-      "de": "Den Kindern gefallen samstags die Zeichentrickfilme.",
-      "en": "The children like cartoons on Saturdays."
-    },
-    "options": ["gustan", "gusta", "gustaron"],
-    "answer": "gustan",
-    "explain": {
-      "de": "Das Subjekt „los dibujos“ ist Plural → gustan; les passt zur Pluralperson „los niños“. „gusta“ würde nicht mit dem Plural-Subjekt übereinstimmen.",
-      "en": "The subject \"los dibujos\" is plural → gustan; les matches the plural person \"los niños\". \"gusta\" would not agree with the plural subject."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "No me gusta el ruido, ___ me molesta para concentrarme.",
-    "promptGloss": {
-      "de": "Ich mag den Lärm nicht, denn er stört mich beim Konzentrieren.",
-      "en": "I don't like the noise, because it disturbs my concentration."
-    },
-    "options": ["porque", "para que", "por qué"],
-    "answer": "porque",
-    "explain": {
-      "de": "„porque“ (= weil) leitet den Grund ein. „para que“ + Subjuntivo hieße „damit“, und „por qué“ ist die Frageform „warum“ – beide passen hier nicht.",
-      "en": "\"porque\" (= because) introduces the reason. \"para que\" + subjunctive means \"so that\", and \"por qué\" is the question word \"why\" – neither fits here."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "A nosotros nos ___ mucho el cine español. (gustar)",
-    "promptGloss": {
-      "de": "Uns gefällt das spanische Kino sehr.",
-      "en": "We really like Spanish cinema."
-    },
-    "answer": "gusta",
-    "explain": {
-      "de": "Das Subjekt „el cine“ ist Singular, daher gusta – unabhängig davon, dass die Person „nosotros“ Plural ist. Das Verb richtet sich nach dem Ding, nicht nach der Person.",
-      "en": "The subject \"el cine\" is singular, so gusta – regardless of the plural person \"nosotros\". The verb agrees with the thing, not with the person."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "A ___ me gustan los idiomas; por eso estudio cuatro. (betontes Pronomen)",
-    "promptGloss": {
-      "de": "Mir gefallen Sprachen; deshalb lerne ich vier.",
-      "en": "I like languages; that's why I study four."
-    },
-    "answer": "mí",
-    "explain": {
-      "de": "Nach der Präposition „a“ steht das betonte Pronomen mí (mit Akzent), nicht „yo“. Es betont die Person und steht zusätzlich zum pflichtigen me.",
-      "en": "After the preposition \"a\" comes the stressed pronoun mí (with accent), not \"yo\". It emphasises the person and appears in addition to the obligatory me."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "A Pedro ___ gusta el fútbol, pero a sus hermanas les gusta el tenis. (Objektpronomen)",
-    "promptGloss": {
-      "de": "Pedro mag Fußball, aber seine Schwestern mögen Tennis.",
-      "en": "Pedro likes football, but his sisters like tennis."
-    },
-    "answer": "le",
-    "explain": {
-      "de": "„Pedro“ ist 3. Person Singular → le. Das „a + Name“ klärt nur, wer gemeint ist; das Pronomen le bleibt trotzdem stehen.",
-      "en": "\"Pedro\" is 3rd person singular → le. The \"a + name\" only clarifies who is meant; the pronoun le still has to appear."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Me ___ los pies después de caminar todo el día. (doler)",
-    "promptGloss": {
-      "de": "Mir tun nach dem ganztägigen Laufen die Füße weh.",
-      "en": "My feet hurt after walking all day."
-    },
-    "answer": "duelen",
-    "explain": {
-      "de": "doler folgt dem gustar-Muster und hat den Stammwechsel o→ue; Subjekt „los pies“ ist Plural → duelen. Eine Form „dolen“ gibt es nicht.",
-      "en": "doler follows the gustar pattern and has the o→ue stem change; the subject \"los pies\" is plural → duelen. There is no form \"dolen\"."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "A los estudiantes les ___ interesar las clases prácticas. (interesar)",
-    "promptGloss": {
-      "de": "Die Studenten interessieren sich für die Praxiskurse.",
-      "en": "The students are interested in the practical classes."
-    },
-    "answer": "interesan",
-    "explain": {
-      "de": "Das Subjekt „las clases prácticas“ ist Plural → interesan; das Pronomen les passt zur Pluralperson. interesar verhält sich wie gustar, das Verb folgt dem Ding.",
-      "en": "The subject \"las clases prácticas\" is plural → interesan; the pronoun les matches the plural person. interesar behaves like gustar, the verb follows the thing."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Solo nos ___ tres euros para pagar la cuenta. (faltar)",
-    "promptGloss": {
-      "de": "Uns fehlen nur drei Euro, um die Rechnung zu bezahlen.",
-      "en": "We are only missing three euros to pay the bill."
-    },
-    "answer": "faltan",
-    "explain": {
-      "de": "faltar folgt dem gustar-Muster: Subjekt „tres euros“ ist Plural → faltan. Nicht „wir“ sind das Subjekt, sondern das Geld, das fehlt.",
-      "en": "faltar follows the gustar pattern: the subject \"tres euros\" is plural → faltan. The subject is not \"we\" but the money that is lacking."
+      "de": "interesar folgt dem gustar-Muster: 2. Person Singular braucht te. „a ti“ betont nur, ersetzt aber das pflichtige te nicht.",
+      "en": "interesar follows the gustar pattern: 2nd person singular needs te. \"a ti\" only emphasises and does not replace the obligatory te."
     }
   }
 ]

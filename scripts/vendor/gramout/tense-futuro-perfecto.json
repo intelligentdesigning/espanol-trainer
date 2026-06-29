@@ -1,219 +1,244 @@
 [
   {
     "kind": "fill",
-    "prompt": "Para el viernes ___ terminado el trabajo. (yo, haber)",
+    "prompt": "Para mañana yo ya ___ hablado con el jefe.",
     "promptGloss": {
-      "de": "Bis Freitag werde ich die Arbeit beendet haben.",
-      "en": "By Friday I will have finished the work."
+      "de": "Bis morgen werde ich schon mit dem Chef gesprochen haben.",
+      "en": "By tomorrow I will already have spoken with the boss."
     },
     "answer": "habré",
     "explain": {
-      "de": "Das Futuro perfecto bildet man mit haber im Futur + Partizip; die 1. Person Singular von haber ist habré.",
-      "en": "The futuro perfecto uses haber in the future + participle; the first person singular of haber is habré."
+      "de": "Futuro perfecto: haber im Futur in der 1. Person Singular ist 'habré' plus Partizip.",
+      "en": "Futuro perfecto: haber in the future, first person singular, is 'habré' plus the participle."
     }
   },
   {
     "kind": "choice",
-    "prompt": "A las ocho ya ___ comido todos.",
+    "prompt": "Para el viernes nosotros ___ terminado el proyecto.",
     "promptGloss": {
-      "de": "Um acht werden alle schon gegessen haben.",
-      "en": "By eight everyone will already have eaten."
+      "de": "Bis Freitag werden wir das Projekt beendet haben.",
+      "en": "By Friday we will have finished the project."
     },
-    "options": ["habrán", "habrá", "habremos", "habréis"],
-    "answer": "habrán",
+    "options": ["habremos", "habré", "habrán"],
+    "answer": "habremos",
     "explain": {
-      "de": "Das Subjekt todos (ellos) verlangt die 3. Person Plural von haber: habrán. habrá wäre Singular, habremos/habréis falsche Personen.",
-      "en": "The subject todos (ellos) requires the third person plural of haber: habrán. habrá is singular, habremos/habréis are the wrong persons."
+      "de": "Das Subjekt 'nosotros' verlangt 'habremos'; 'habré' (ich) und 'habrán' (sie) passen nicht.",
+      "en": "The subject 'nosotros' requires 'habremos'; 'habré' (I) and 'habrán' (they) do not fit."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Cuando llegues, nosotros ya ___ comido. (haber)",
+    "prompt": "Para entonces tú ___ aprendido mucho español.",
     "promptGloss": {
-      "de": "Wenn du ankommst, werden wir schon gegessen haben.",
-      "en": "When you arrive, we will already have eaten."
+      "de": "Bis dahin wirst du viel Spanisch gelernt haben.",
+      "en": "By then you will have learned a lot of Spanish."
+    },
+    "answer": "habrás",
+    "explain": {
+      "de": "Futuro perfecto: haber im Futur in der 2. Person Singular ist 'habrás'.",
+      "en": "Futuro perfecto: haber in the future, second person singular, is 'habrás'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "A las ocho ellos ya ___ llegado a casa.",
+    "promptGloss": {
+      "de": "Um acht werden sie schon zu Hause angekommen sein.",
+      "en": "By eight they will already have arrived home."
+    },
+    "options": ["habrán", "habréis", "habrá"],
+    "answer": "habrán",
+    "explain": {
+      "de": "Das Subjekt 'ellos' verlangt 'habrán'; 'habréis' (ihr) und 'habrá' (er/sie) passen nicht.",
+      "en": "The subject 'ellos' requires 'habrán'; 'habréis' (you all) and 'habrá' (he/she) do not fit."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Para el lunes nosotros ___ comido en ese restaurante.",
+    "promptGloss": {
+      "de": "Bis Montag werden wir in diesem Restaurant gegessen haben.",
+      "en": "By Monday we will have eaten at that restaurant."
     },
     "answer": "habremos",
     "explain": {
-      "de": "Für nosotros lautet haber im Futur habremos; das Partizip comido bleibt unverändert.",
-      "en": "For nosotros, haber in the future is habremos; the participle comido stays unchanged."
+      "de": "Bildung mit haber im Futur ('habremos') plus dem Partizip 'comido'.",
+      "en": "Formed with haber in the future ('habremos') plus the participle 'comido'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Lo habré ___ para el lunes.",
+    "prompt": "Vosotros, para el sábado, ___ acabado los exámenes.",
     "promptGloss": {
-      "de": "Bis Montag werde ich es gemacht haben.",
-      "en": "I will have done it by Monday."
+      "de": "Ihr werdet bis Samstag die Prüfungen beendet haben.",
+      "en": "By Saturday you all will have finished the exams."
     },
-    "options": ["hecho", "hacido", "hechos", "haciendo"],
-    "answer": "hecho",
-    "explain": {
-      "de": "hacer hat das unregelmäßige Partizip hecho. hacido existiert nicht, hechos wäre falsch (das Partizip ist im zusammengesetzten Tempus unveränderlich), haciendo ist das Gerundium.",
-      "en": "hacer has the irregular participle hecho. hacido does not exist, hechos is wrong (the participle is invariable in a compound tense), and haciendo is the gerund."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Habrán ___ la verdad. (decir)",
-    "promptGloss": {
-      "de": "Sie werden wohl die Wahrheit gesagt haben.",
-      "en": "They have probably told the truth."
-    },
-    "answer": "dicho",
-    "explain": {
-      "de": "decir bildet das unregelmäßige Partizip dicho (nicht decido). Das Partizip ändert sich nicht nach Person oder Zahl.",
-      "en": "decir forms the irregular participle dicho (not decido). The participle does not change with person or number."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "¿Qué ___ dicho Ana? No contesta al teléfono.",
-    "promptGloss": {
-      "de": "Was Ana wohl gesagt hat? Sie geht nicht ans Telefon.",
-      "en": "I wonder what Ana has said? She isn't answering the phone."
-    },
-    "options": ["habrá", "ha", "habría", "había"],
-    "answer": "habrá",
-    "explain": {
-      "de": "Das Futuro perfecto (habrá dicho) drückt hier eine Vermutung über die jüngste Vergangenheit aus. ha dicho wäre eine reine Feststellung, habría/había gehören zu anderen Zeiten.",
-      "en": "The futuro perfecto (habrá dicho) here expresses a guess about the recent past. ha dicho would be a plain statement, while habría/había belong to other tenses."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "No está aquí; ___ a casa, ya es muy tarde.",
-    "promptGloss": {
-      "de": "Er ist nicht hier; er wird wohl schon nach Hause gegangen sein, es ist schon sehr spät.",
-      "en": "He isn't here; he has probably already gone home, it's very late."
-    },
-    "options": ["se habrá ido", "se ha ido", "se irá", "se habría ido"],
-    "answer": "se habrá ido",
-    "explain": {
-      "de": "Für eine Vermutung über eine bereits abgeschlossene Handlung verwendet man das Futuro perfecto: se habrá ido. se ha ido stellt es als Tatsache dar, se irá ist eine Vermutung über die Gegenwart/Zukunft, nicht über Vergangenes.",
-      "en": "For a guess about an already completed action you use the futuro perfecto: se habrá ido. se ha ido states it as fact, and se irá guesses about the present/future, not the past."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Para entonces ___ mucho, ya verás.",
-    "promptGloss": {
-      "de": "Bis dahin wirst du viel gelernt haben, du wirst schon sehen.",
-      "en": "By then you will have learned a lot, you'll see."
-    },
-    "options": ["habrás aprendido", "aprenderás", "has aprendido", "habrías aprendido"],
-    "answer": "habrás aprendido",
-    "explain": {
-      "de": "Der Zeitausdruck para entonces markiert einen Endpunkt in der Zukunft, vor dem die Handlung abgeschlossen ist: Futuro perfecto. aprenderás (einfaches Futur) sagt nur, dass es passiert, nicht dass es bis dahin abgeschlossen ist.",
-      "en": "The time phrase para entonces marks a future endpoint by which the action is completed: futuro perfecto. aprenderás (simple future) only says it happens, not that it is finished by then."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Para mañana ya ___ resuelto el problema. (yo, haber)",
-    "promptGloss": {
-      "de": "Bis morgen werde ich das Problem schon gelöst haben.",
-      "en": "By tomorrow I will already have solved the problem."
-    },
-    "answer": "habré",
-    "explain": {
-      "de": "para mañana nennt den zukünftigen Zeitpunkt; mit haber im Futur (habré) + Partizip drückt man die bis dahin abgeschlossene Handlung aus.",
-      "en": "para mañana names the future point; haber in the future (habré) + participle expresses the action completed by then."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Tú ___ visto esa película; siempre ves las novedades.",
-    "promptGloss": {
-      "de": "Du wirst diesen Film wohl gesehen haben; du siehst dir immer die Neuheiten an.",
-      "en": "You have probably seen that film; you always watch the new releases."
-    },
-    "options": ["habrás", "habrá", "habréis", "habremos"],
-    "answer": "habrás",
-    "explain": {
-      "de": "tú verlangt die 2. Person Singular von haber: habrás. habrá ist 3. Person Singular, habréis 2. Person Plural, habremos 1. Person Plural.",
-      "en": "tú requires the second person singular of haber: habrás. habrá is third singular, habréis second plural, habremos first plural."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "A las once vosotros ya ___ llegado al hotel. (haber)",
-    "promptGloss": {
-      "de": "Um elf werdet ihr schon im Hotel angekommen sein.",
-      "en": "By eleven you will already have arrived at the hotel."
-    },
+    "options": ["habréis", "habremos", "habrás"],
     "answer": "habréis",
     "explain": {
-      "de": "Für vosotros lautet haber im Futur habréis (mit Akzent auf dem é). Das Partizip llegado bleibt fest.",
-      "en": "For vosotros, haber in the future is habréis (accent on the é). The participle llegado stays fixed."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Marta no ha venido a clase; ___ enferma.",
-    "promptGloss": {
-      "de": "Marta ist nicht zum Unterricht gekommen; sie wird wohl krank geworden sein.",
-      "en": "Marta hasn't come to class; she has probably fallen ill."
-    },
-    "options": ["se habrá puesto", "se ha puesto", "se pondrá", "se habrá ponido"],
-    "answer": "se habrá puesto",
-    "explain": {
-      "de": "Vermutung über die jüngste Vergangenheit → Futuro perfecto mit dem unregelmäßigen Partizip puesto (poner). se ha puesto wäre Tatsache, se pondrá Zukunft, und se habrá ponido ist falsch gebildet.",
-      "en": "A guess about the recent past → futuro perfecto with the irregular participle puesto (poner). se ha puesto would be fact, se pondrá future, and se habrá ponido is malformed."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Cuando vuelvas, nosotras ___ la casa entera.",
-    "promptGloss": {
-      "de": "Wenn du zurückkommst, werden wir das ganze Haus geputzt haben.",
-      "en": "When you come back, we will have cleaned the whole house."
-    },
-    "options": ["habremos limpiado", "limpiaremos", "habremos limpiadas", "hemos limpiado"],
-    "answer": "habremos limpiado",
-    "explain": {
-      "de": "Die Handlung ist vor dem Zeitpunkt (cuando vuelvas) abgeschlossen → habremos limpiado. Das Partizip ist unveränderlich, also nie limpiadas; limpiaremos ist einfaches Futur, hemos limpiado Perfekt der Vergangenheit.",
-      "en": "The action is completed before the point (cuando vuelvas) → habremos limpiado. The participle is invariable, never limpiadas; limpiaremos is simple future, hemos limpiado is the present perfect."
+      "de": "Das Subjekt 'vosotros' verlangt 'habréis'; 'habremos' (wir) und 'habrás' (du) passen nicht.",
+      "en": "The subject 'vosotros' requires 'habréis'; 'habremos' (we) and 'habrás' (you) do not fit."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Tardan mucho... ¿___ tenido un problema en el camino? (ellos, haber)",
+    "prompt": "Cuando llegues, nosotros ya ___ cenado.",
     "promptGloss": {
-      "de": "Sie brauchen lange... werden sie wohl unterwegs ein Problem gehabt haben?",
-      "en": "They're taking long... could they have had a problem on the way?"
+      "de": "Wenn du ankommst, werden wir schon zu Abend gegessen haben.",
+      "en": "When you arrive, we will already have had dinner."
+    },
+    "answer": "habremos",
+    "explain": {
+      "de": "Eine bis zu einem zukünftigen Zeitpunkt abgeschlossene Handlung: 'habremos cenado'.",
+      "en": "An action completed by a future point: 'habremos cenado'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "A las diez ella ___ vivido aquí un año.",
+    "promptGloss": {
+      "de": "Um zehn wird sie ein Jahr hier gewohnt haben.",
+      "en": "By ten she will have lived here a year."
+    },
+    "answer": "habrá",
+    "explain": {
+      "de": "Futuro perfecto: haber im Futur in der 3. Person Singular ist 'habrá'.",
+      "en": "Futuro perfecto: haber in the future, third person singular, is 'habrá'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Son las once y no contesta; ___ comido ya.",
+    "promptGloss": {
+      "de": "Es ist elf Uhr und er antwortet nicht; er wird wohl schon gegessen haben.",
+      "en": "It is eleven and he does not answer; he has probably already eaten."
+    },
+    "options": ["habrá", "habrás", "habréis"],
+    "answer": "habrá",
+    "explain": {
+      "de": "Vermutung über die jüngste Vergangenheit in der 3. Person Singular: 'habrá comido'.",
+      "en": "A guess about the recent past in the third person singular: 'habrá comido'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "No sé dónde está Ana; ___ salido sin avisar.",
+    "promptGloss": {
+      "de": "Ich weiß nicht, wo Ana ist; sie wird wohl ohne Bescheid gegangen sein.",
+      "en": "I do not know where Ana is; she has probably left without telling."
+    },
+    "answer": "habrá",
+    "explain": {
+      "de": "Vermutung über etwas, das wohl gerade passiert ist: 'habrá salido'.",
+      "en": "A guess about something that has probably just happened: 'habrá salido'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "¿Qué ___ dicho los vecinos sobre el ruido?",
+    "promptGloss": {
+      "de": "Was die Nachbarn wohl über den Lärm gesagt haben?",
+      "en": "I wonder what the neighbors have said about the noise?"
     },
     "answer": "habrán",
     "explain": {
-      "de": "Vermutung über die jüngste Vergangenheit in der 3. Person Plural: habrán tenido. Das Futuro perfecto ersetzt hier eine Wendung wie 'wahrscheinlich haben sie...'.",
-      "en": "A guess about the recent past in the third person plural: habrán tenido. The futuro perfecto here replaces a phrase like 'they have probably...'."
+      "de": "Vermutung in der 3. Person Plural: 'habrán' plus dem Partizip 'dicho'.",
+      "en": "A guess in the third person plural: 'habrán' plus the participle 'dicho'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Para cuando te jubiles, la empresa ya ___ a otro país.",
+    "prompt": "Para el martes yo ya lo ___ hecho.",
     "promptGloss": {
-      "de": "Bis du in Rente gehst, wird die Firma schon in ein anderes Land umgezogen sein.",
-      "en": "By the time you retire, the company will already have moved to another country."
+      "de": "Bis Dienstag werde ich es schon gemacht haben.",
+      "en": "By Tuesday I will already have done it."
     },
-    "options": ["se habrá mudado", "se mudará", "se había mudado", "se habría mudado"],
-    "answer": "se habrá mudado",
+    "options": ["hecho", "hacido", "haciendo"],
+    "answer": "hecho",
     "explain": {
-      "de": "para cuando + Subjunktiv markiert einen zukünftigen Endpunkt; davor abgeschlossen → Futuro perfecto (se habrá mudado). se mudará lässt das 'davor schon' weg; se había/habría mudado sind Vergangenheits- bzw. Konditionalformen.",
-      "en": "para cuando + subjunctive marks a future endpoint; completed before it → futuro perfecto (se habrá mudado). se mudará drops the 'already by then'; se había/habría mudado are past/conditional forms."
+      "de": "Das Partizip von 'hacer' ist unregelmäßig: 'hecho'; 'hacido' existiert nicht und 'haciendo' ist das Gerundium.",
+      "en": "The participle of 'hacer' is irregular: 'hecho'; 'hacido' does not exist and 'haciendo' is the gerund."
     }
   },
   {
     "kind": "fill",
-    "prompt": "No me lo han devuelto; lo ___ roto, seguro. (ellos, haber + romper)",
+    "prompt": "Para esa hora ellos ___ dicho la verdad.",
     "promptGloss": {
-      "de": "Sie haben es mir nicht zurückgegeben; sie werden es wohl kaputt gemacht haben, bestimmt.",
-      "en": "They haven't given it back to me; they have surely broken it."
+      "de": "Bis dahin werden sie die Wahrheit gesagt haben.",
+      "en": "By that time they will have told the truth."
     },
-    "answer": "habrán roto",
+    "answer": "habrán",
     "explain": {
-      "de": "Vermutung über die Vergangenheit (3. Pl.) mit dem unregelmäßigen Partizip roto (romper), nicht rompido: habrán roto.",
-      "en": "A guess about the past (3rd pl.) with the irregular participle roto (romper), not rompido: habrán roto."
+      "de": "Futuro perfecto in der 3. Person Plural: 'habrán'; das Partizip von 'decir' ist unregelmäßig ('dicho').",
+      "en": "Futuro perfecto in the third person plural: 'habrán'; the participle of 'decir' is irregular ('dicho')."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Para el lunes ella ya ___ la verdad.",
+    "promptGloss": {
+      "de": "Bis Montag wird sie die Wahrheit schon gesagt haben.",
+      "en": "By Monday she will already have told the truth."
+    },
+    "options": ["habrá dicho", "habrá decido", "habrá diciendo"],
+    "answer": "habrá dicho",
+    "explain": {
+      "de": "Das Partizip von 'decir' ist unregelmäßig: 'dicho'; 'decido' existiert nicht und 'diciendo' ist das Gerundium.",
+      "en": "The participle of 'decir' is irregular: 'dicho'; 'decido' does not exist and 'diciendo' is the gerund."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Para junio nosotros ___ todo el curso.",
+    "promptGloss": {
+      "de": "Bis Juni werden wir den ganzen Kurs gemacht haben.",
+      "en": "By June we will have done the whole course."
+    },
+    "options": ["habremos hecho", "habréis hecho", "habré hecho"],
+    "answer": "habremos hecho",
+    "explain": {
+      "de": "Das Subjekt 'nosotros' verlangt 'habremos'; das Partizip 'hecho' bleibt unverändert.",
+      "en": "The subject 'nosotros' requires 'habremos'; the participle 'hecho' stays unchanged."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Para las cinco vosotros ___ escrito el informe.",
+    "promptGloss": {
+      "de": "Bis fünf Uhr werdet ihr den Bericht geschrieben haben.",
+      "en": "By five you all will have written the report."
+    },
+    "answer": "habréis",
+    "explain": {
+      "de": "Futuro perfecto: haber im Futur in der 2. Person Plural ist 'habréis'.",
+      "en": "Futuro perfecto: haber in the future, second person plural, is 'habréis'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Para el jueves tú ___ leído todo el libro.",
+    "promptGloss": {
+      "de": "Bis Donnerstag wirst du das ganze Buch gelesen haben.",
+      "en": "By Thursday you will have read the whole book."
+    },
+    "options": ["habrás", "habrá", "habremos"],
+    "answer": "habrás",
+    "explain": {
+      "de": "Das Subjekt 'tú' verlangt 'habrás'; 'habrá' (er/sie) und 'habremos' (wir) passen nicht.",
+      "en": "The subject 'tú' requires 'habrás'; 'habrá' (he/she) and 'habremos' (we) do not fit."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Para el final del mes yo ___ hecho la mudanza.",
+    "promptGloss": {
+      "de": "Bis Ende des Monats werde ich den Umzug gemacht haben.",
+      "en": "By the end of the month I will have done the move."
+    },
+    "answer": "habré",
+    "explain": {
+      "de": "Futuro perfecto in der 1. Person Singular: 'habré' plus dem unregelmäßigen Partizip 'hecho'.",
+      "en": "Futuro perfecto in the first person singular: 'habré' plus the irregular participle 'hecho'."
     }
   }
 ]

@@ -1,0 +1,183 @@
+{
+ "kind": "tense",
+ "id": "condicional-perfecto",
+ "name": {
+  "de": "Konditional II (condicional perfecto)",
+  "en": "Conditional perfect (condicional perfecto)"
+ },
+ "mood": {
+  "de": "Indikativ",
+  "en": "Indicative"
+ },
+ "summary": {
+  "de": "Für etwas, das unter bestimmten Bedingungen passiert wäre, aber nicht eingetreten ist.",
+  "en": "For something that would have happened under certain conditions but did not occur."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Bildung",
+    "en": "Formation"
+   },
+   "body": {
+    "de": "habría im Konditional plus Partizip Perfekt des Hauptverbs.",
+    "en": "habría in the conditional plus the past participle of the main verb."
+   },
+   "examples": [
+    {
+     "es": "Yo habría comido más.",
+     "gloss": {
+      "de": "Ich hätte mehr gegessen.",
+      "en": "I would have eaten more."
+     },
+     "note": {
+      "de": "habría + Partizip",
+      "en": "habría + participle"
+     }
+    },
+    {
+     "es": "Ellos habrían venido.",
+     "gloss": {
+      "de": "Sie wären gekommen.",
+      "en": "They would have come."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Mit si-Satz",
+    "en": "With si-clause"
+   },
+   "body": {
+    "de": "Oft mit si plus Plusquamperfekt Subjunktiv: was unter einer Bedingung passiert wäre.",
+    "en": "Often with si plus pluperfect subjunctive: what would have happened under a condition."
+   },
+   "examples": [
+    {
+     "es": "Si hubiera estudiado, habría aprobado.",
+     "gloss": {
+      "de": "Wenn ich gelernt hätte, hätte ich bestanden.",
+      "en": "If I had studied, I would have passed."
+     },
+     "note": {
+      "de": "irreale Vergangenheit",
+      "en": "unreal past"
+     }
+    },
+    {
+     "es": "Habríamos ido si fuera posible.",
+     "gloss": {
+      "de": "Wir wären gegangen, wenn es möglich gewesen wäre.",
+      "en": "We would have gone if it had been possible."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Anders gehandelt",
+    "en": "Done differently"
+   },
+   "body": {
+    "de": "Drückt aus, was man getan hätte, aber nicht getan hat.",
+    "en": "Expresses what one would have done but did not do."
+   },
+   "examples": [
+    {
+     "es": "Yo habría dicho la verdad.",
+     "gloss": {
+      "de": "Ich hätte die Wahrheit gesagt.",
+      "en": "I would have told the truth."
+     }
+    },
+    {
+     "es": "Ella habría hecho lo mismo.",
+     "gloss": {
+      "de": "Sie hätte dasselbe gemacht.",
+      "en": "She would have done the same."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Partizip bleibt gleich",
+    "en": "Participle stays fixed"
+   },
+   "body": {
+    "de": "Das Partizip ändert sich nie; nur habría wird gebeugt.",
+    "en": "The participle never changes; only habría is conjugated."
+   },
+   "examples": [
+    {
+     "es": "Tú habrías tenido suerte.",
+     "gloss": {
+      "de": "Du hättest Glück gehabt.",
+      "en": "You would have been lucky."
+     }
+    },
+    {
+     "es": "Vosotros habríais podido ayudar.",
+     "gloss": {
+      "de": "Ihr hättet helfen können.",
+      "en": "You all could have helped."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Vermutung über die Vergangenheit",
+    "en": "Guess about the past"
+   },
+   "body": {
+    "de": "Kann eine Vermutung über etwas Vergangenes ausdrücken.",
+    "en": "Can express a guess about something in the past."
+   },
+   "examples": [
+    {
+     "es": "Ya habrían comido cuando llegué.",
+     "gloss": {
+      "de": "Sie hätten wohl schon gegessen, als ich ankam.",
+      "en": "They had probably already eaten when I arrived."
+     },
+     "note": {
+      "de": "Vermutung",
+      "en": "probability"
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Habría sido más fácil con tu ayuda.",
+   "gloss": {
+    "de": "Es wäre mit deiner Hilfe einfacher gewesen.",
+    "en": "It would have been easier with your help."
+   }
+  },
+  {
+   "es": "Nosotros habríamos dormido mejor allí.",
+   "gloss": {
+    "de": "Wir hätten dort besser geschlafen.",
+    "en": "We would have slept better there."
+   }
+  },
+  {
+   "es": "¿Tú qué habrías hecho?",
+   "gloss": {
+    "de": "Was hättest du gemacht?",
+    "en": "What would you have done?"
+   }
+  },
+  {
+   "es": "Yo no habría querido ir.",
+   "gloss": {
+    "de": "Ich hätte nicht gehen wollen.",
+    "en": "I would not have wanted to go."
+   }
+  }
+ ]
+}

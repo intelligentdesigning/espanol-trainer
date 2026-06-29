@@ -1,0 +1,195 @@
+{
+ "kind": "topic",
+ "id": "genero-numero",
+ "name": {
+  "de": "Genus & Plural der Nomen",
+  "en": "Noun gender & plural"
+ },
+ "summary": {
+  "de": "Im Spanischen hat jedes Nomen ein Geschlecht (meist -o maskulin, -a feminin) und bildet den Plural mit -s oder -es.",
+  "en": "In Spanish every noun has a gender (usually -o masculine, -a feminine) and forms its plural with -s or -es."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Genus nach Endung: -o maskulin, -a feminin",
+    "en": "Gender by ending: -o masculine, -a feminine"
+   },
+   "body": {
+    "de": "Nomen auf -o sind meist maskulin (el), Nomen auf -a meist feminin (la).",
+    "en": "Nouns ending in -o are usually masculine (el), nouns in -a usually feminine (la)."
+   },
+   "examples": [
+    {
+     "es": "El libro es nuevo.",
+     "gloss": {
+      "de": "Das Buch ist neu.",
+      "en": "The book is new."
+     },
+     "note": {
+      "de": "-o → maskulin",
+      "en": "-o → masculine"
+     }
+    },
+    {
+     "es": "La casa es grande.",
+     "gloss": {
+      "de": "Das Haus ist groß.",
+      "en": "The house is big."
+     },
+     "note": {
+      "de": "-a → feminin",
+      "en": "-a → feminine"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Ausnahmen beim Genus",
+    "en": "Gender exceptions"
+   },
+   "body": {
+    "de": "Einige Wörter brechen die Regel: el día, la mano, la foto, und -ma-Wörter wie el problema sind maskulin.",
+    "en": "Some words break the rule: el día, la mano, la foto, and -ma words like el problema are masculine."
+   },
+   "examples": [
+    {
+     "es": "El día está soleado.",
+     "gloss": {
+      "de": "Der Tag ist sonnig.",
+      "en": "The day is sunny."
+     },
+     "note": {
+      "de": "-a, aber maskulin",
+      "en": "-a but masculine"
+     }
+    },
+    {
+     "es": "La mano está fría.",
+     "gloss": {
+      "de": "Die Hand ist kalt.",
+      "en": "The hand is cold."
+     },
+     "note": {
+      "de": "-o, aber feminin",
+      "en": "-o but feminine"
+     }
+    },
+    {
+     "es": "El problema es difícil.",
+     "gloss": {
+      "de": "Das Problem ist schwierig.",
+      "en": "The problem is difficult."
+     },
+     "note": {
+      "de": "-ma → maskulin",
+      "en": "-ma → masculine"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Plural auf Vokal: + -s",
+    "en": "Plural on a vowel: + -s"
+   },
+   "body": {
+    "de": "Endet das Nomen auf unbetontem Vokal, hängt man nur -s an.",
+    "en": "If the noun ends in an unstressed vowel, just add -s."
+   },
+   "examples": [
+    {
+     "es": "Tengo dos gatos.",
+     "gloss": {
+      "de": "Ich habe zwei Katzen.",
+      "en": "I have two cats."
+     },
+     "note": {
+      "de": "gato → gatos",
+      "en": "gato → gatos"
+     }
+    },
+    {
+     "es": "Compro tres camisas.",
+     "gloss": {
+      "de": "Ich kaufe drei Hemden.",
+      "en": "I buy three shirts."
+     },
+     "note": {
+      "de": "camisa → camisas",
+      "en": "camisa → camisas"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Plural auf Konsonant: + -es",
+    "en": "Plural on a consonant: + -es"
+   },
+   "body": {
+    "de": "Endet das Nomen auf einen Konsonanten, hängt man -es an.",
+    "en": "If the noun ends in a consonant, add -es."
+   },
+   "examples": [
+    {
+     "es": "Hay muchos árboles aquí.",
+     "gloss": {
+      "de": "Hier gibt es viele Bäume.",
+      "en": "There are many trees here."
+     },
+     "note": {
+      "de": "árbol → árboles",
+      "en": "árbol → árboles"
+     }
+    },
+    {
+     "es": "Veo tres flores.",
+     "gloss": {
+      "de": "Ich sehe drei Blumen.",
+      "en": "I see three flowers."
+     },
+     "note": {
+      "de": "flor → flores",
+      "en": "flor → flores"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Plural von -z: z wird zu -ces",
+    "en": "Plural of -z: z becomes -ces"
+   },
+   "body": {
+    "de": "Endet das Nomen auf -z, wird das z im Plural zu c und man hängt -es an.",
+    "en": "If the noun ends in -z, the z changes to c in the plural and you add -es."
+   },
+   "examples": [
+    {
+     "es": "Como dos veces al día.",
+     "gloss": {
+      "de": "Ich esse zweimal am Tag.",
+      "en": "I eat twice a day."
+     },
+     "note": {
+      "de": "vez → veces",
+      "en": "vez → veces"
+     }
+    },
+    {
+     "es": "Tengo muchos lápices.",
+     "gloss": {
+      "de": "Ich habe viele Bleistifte.",
+      "en": "I have many pencils."
+     },
+     "note": {
+      "de": "lápiz → lápices",
+      "en": "lápiz → lápices"
+     }
+    }
+   ]
+  }
+ ]
+}

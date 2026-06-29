@@ -24,7 +24,11 @@ function clean(it) {
   if (it.kind === "choice") {
     if (!Array.isArray(it.options) || it.options.length < 2) return null;
     const opts = it.options.map((o) => String(o).trim()).filter(Boolean);
-    if (!opts.some((o) => o.toLowerCase() === out.answer.toLowerCase())) return null;
+    // answer must be byte-identical to one option (choice is compared EXACTLY at
+    // runtime — case/accent matter for capitalization/accent questions)
+    const match = opts.find((o) => o === out.answer) || opts.find((o) => o.toLowerCase() === out.answer.toLowerCase());
+    if (!match) return null;
+    out.answer = match;
     out.options = opts;
   } else if (Array.isArray(it.altAnswers)) {
     const alts = it.altAnswers.map((a) => String(a).trim()).filter(Boolean);

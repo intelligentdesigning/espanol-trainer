@@ -1,0 +1,164 @@
+{
+ "kind": "topic",
+ "id": "posesivos",
+ "name": {
+  "de": "Possessivbegleiter & -pronomen",
+  "en": "Possessives"
+ },
+ "summary": {
+  "de": "Spanische Possessive: unbetonte Begleiter vor dem Nomen (mi, tu, su...) und betonte Pronomen (el mio, la tuya...), die sich angleichen.",
+  "en": "Spanish possessives: unstressed forms before the noun (mi, tu, su...) and stressed pronouns (el mio, la tuya...) that must agree."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Begleiter vor dem Nomen",
+    "en": "Possessives before the noun"
+   },
+   "body": {
+    "de": "mi, tu, su, nuestro/-a, vuestro/-a, su stehen unbetont direkt vor dem Substantiv.",
+    "en": "mi, tu, su, nuestro/-a, vuestro/-a, su are unstressed and stand directly before the noun."
+   },
+   "examples": [
+    {
+     "es": "mi hermano, tu casa",
+     "gloss": {
+      "de": "mein Bruder, dein Haus",
+      "en": "my brother, your house"
+     }
+    },
+    {
+     "es": "su perro",
+     "gloss": {
+      "de": "sein/ihr Hund",
+      "en": "his/her dog"
+     },
+     "note": {
+      "de": "'su' = sein/ihr/Ihr",
+      "en": "'su' = his/her/your"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Angleichung im Numerus",
+    "en": "Agreement in number"
+   },
+   "body": {
+    "de": "Der Begleiter richtet sich nach dem Substantiv: Plural haengt ein -s an (mi/mis).",
+    "en": "The possessive agrees with the noun: the plural adds -s (mi/mis)."
+   },
+   "examples": [
+    {
+     "es": "mi libro / mis libros",
+     "gloss": {
+      "de": "mein Buch / meine Buecher",
+      "en": "my book / my books"
+     }
+    },
+    {
+     "es": "su amigo / sus amigos",
+     "gloss": {
+      "de": "sein Freund / seine Freunde",
+      "en": "his friend / his friends"
+     },
+     "note": {
+      "de": "nach dem Nomen, nicht nach dem Besitzer",
+      "en": "agrees with noun, not owner"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "nuestro/vuestro: auch Genus",
+    "en": "nuestro/vuestro: also gender"
+   },
+   "body": {
+    "de": "nuestro und vuestro veraendern sich nach Genus UND Numerus: -o/-a/-os/-as.",
+    "en": "nuestro and vuestro change for gender AND number: -o/-a/-os/-as."
+   },
+   "examples": [
+    {
+     "es": "nuestro coche, nuestra casa",
+     "gloss": {
+      "de": "unser Auto, unser Haus",
+      "en": "our car, our house"
+     }
+    },
+    {
+     "es": "nuestros hijos, nuestras hijas",
+     "gloss": {
+      "de": "unsere Soehne, unsere Toechter",
+      "en": "our sons, our daughters"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Betonte Form (Pronomen)",
+    "en": "Stressed form (pronoun)"
+   },
+   "body": {
+    "de": "Als Pronomen oder nach dem Nomen stehen die betonten Formen: mio, tuyo, suyo, nuestro.",
+    "en": "As a pronoun or after the noun, use the stressed forms: mio, tuyo, suyo, nuestro."
+   },
+   "examples": [
+    {
+     "es": "un amigo mio",
+     "gloss": {
+      "de": "ein Freund von mir",
+      "en": "a friend of mine"
+     },
+     "note": {
+      "de": "nach dem Nomen",
+      "en": "after the noun"
+     }
+    },
+    {
+     "es": "Este coche es mio.",
+     "gloss": {
+      "de": "Dieses Auto ist meins.",
+      "en": "This car is mine."
+     },
+     "note": {
+      "de": "nach 'ser' ohne Artikel",
+      "en": "after 'ser', no article"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Pronomen mit Artikel",
+    "en": "Pronoun with article"
+   },
+   "body": {
+    "de": "Ersetzt es das Nomen, steht Artikel + betonte Form, beide angeglichen: el mio, la tuya.",
+    "en": "Replacing the noun, use article + stressed form, both agreeing: el mio, la tuya."
+   },
+   "examples": [
+    {
+     "es": "Mi coche y el tuyo.",
+     "gloss": {
+      "de": "Mein Auto und deins.",
+      "en": "My car and yours."
+     }
+    },
+    {
+     "es": "Tus llaves y las mias.",
+     "gloss": {
+      "de": "Deine Schluessel und meine.",
+      "en": "Your keys and mine."
+     },
+     "note": {
+      "de": "Genus + Numerus angleichen",
+      "en": "agree in gender + number"
+     }
+    }
+   ]
+  }
+ ]
+}

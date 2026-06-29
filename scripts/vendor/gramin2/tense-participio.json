@@ -1,0 +1,217 @@
+{
+ "kind": "tense",
+ "id": "participio",
+ "name": {
+  "de": "Partizip (participio)",
+  "en": "Past participle (participio)"
+ },
+ "mood": {
+  "de": "Infinite Form",
+  "en": "Non-finite"
+ },
+ "summary": {
+  "de": "Das Partizip bildet die zusammengesetzten Zeiten mit haber und dient als Adjektiv.",
+  "en": "The past participle forms compound tenses with haber and works as an adjective."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Regelmäßige Bildung",
+    "en": "Regular formation"
+   },
+   "body": {
+    "de": "-ar wird zu -ado, -er und -ir werden zu -ido.",
+    "en": "-ar becomes -ado, while -er and -ir become -ido."
+   },
+   "examples": [
+    {
+     "es": "hablado, comido, vivido",
+     "gloss": {
+      "de": "gesprochen, gegessen, gelebt",
+      "en": "spoken, eaten, lived"
+     },
+     "note": {
+      "de": "ein Stamm, drei Endungen",
+      "en": "one stem, three endings"
+     }
+    },
+    {
+     "es": "tenido, podido, dormido",
+     "gloss": {
+      "de": "gehabt, gekonnt, geschlafen",
+      "en": "had, been able, slept"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Wichtige unregelmäßige Formen",
+    "en": "Key irregular forms"
+   },
+   "body": {
+    "de": "Manche Partizipien muss man auswendig lernen, weil sie der Regel nicht folgen.",
+    "en": "Some participles must be memorized because they break the regular rule."
+   },
+   "examples": [
+    {
+     "es": "hecho, dicho, visto",
+     "gloss": {
+      "de": "gemacht, gesagt, gesehen",
+      "en": "done, said, seen"
+     },
+     "note": {
+      "de": "hacer, decir, ver",
+      "en": "hacer, decir, ver"
+     }
+    },
+    {
+     "es": "escrito, vuelto, puesto",
+     "gloss": {
+      "de": "geschrieben, zurückgekehrt, gestellt",
+      "en": "written, returned, put"
+     },
+     "note": {
+      "de": "escribir, volver, poner",
+      "en": "escribir, volver, poner"
+     }
+    },
+    {
+     "es": "roto, abierto",
+     "gloss": {
+      "de": "kaputt, geöffnet",
+      "en": "broken, opened"
+     },
+     "note": {
+      "de": "romper, abrir",
+      "en": "romper, abrir"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Zusammengesetzte Zeiten mit haber",
+    "en": "Compound tenses with haber"
+   },
+   "body": {
+    "de": "Nach haber bleibt das Partizip immer unverändert auf -o.",
+    "en": "After haber the participle always stays unchanged, ending in -o."
+   },
+   "examples": [
+    {
+     "es": "He comido en casa.",
+     "gloss": {
+      "de": "Ich habe zu Hause gegessen.",
+      "en": "I have eaten at home."
+     }
+    },
+    {
+     "es": "Ella ha dicho la verdad.",
+     "gloss": {
+      "de": "Sie hat die Wahrheit gesagt.",
+      "en": "She has told the truth."
+     },
+     "note": {
+      "de": "haber + Partizip",
+      "en": "haber + participle"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Als Adjektiv anpassen",
+    "en": "As an adjective it agrees"
+   },
+   "body": {
+    "de": "Als Adjektiv passt sich das Partizip in Geschlecht und Zahl an.",
+    "en": "Used as an adjective, the participle agrees in gender and number."
+   },
+   "examples": [
+    {
+     "es": "una puerta abierta",
+     "gloss": {
+      "de": "eine offene Tür",
+      "en": "an open door"
+     },
+     "note": {
+      "de": "weiblich, Einzahl",
+      "en": "feminine, singular"
+     }
+    },
+    {
+     "es": "los platos rotos",
+     "gloss": {
+      "de": "die kaputten Teller",
+      "en": "the broken plates"
+     },
+     "note": {
+      "de": "männlich, Mehrzahl",
+      "en": "masculine, plural"
+     }
+    },
+    {
+     "es": "las cartas escritas",
+     "gloss": {
+      "de": "die geschriebenen Briefe",
+      "en": "the written letters"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Keine sechs Personen",
+    "en": "Not a six-person form"
+   },
+   "body": {
+    "de": "Das Partizip hat keine eigenen Personalformen wie ein normales Verb.",
+    "en": "The participle has no personal forms like a normal conjugated verb."
+   },
+   "examples": [
+    {
+     "es": "hecho, puesto, vuelto",
+     "gloss": {
+      "de": "gemacht, gestellt, zurückgekehrt",
+      "en": "done, put, returned"
+     },
+     "note": {
+      "de": "eine Grundform",
+      "en": "one base form"
+     }
+    }
+   ]
+  }
+ ],
+ "examples": [
+  {
+   "es": "Han visto la película juntos.",
+   "gloss": {
+    "de": "Sie haben den Film zusammen gesehen.",
+    "en": "They have seen the film together."
+   }
+  },
+  {
+   "es": "La ventana está abierta.",
+   "gloss": {
+    "de": "Das Fenster ist offen.",
+    "en": "The window is open."
+   }
+  },
+  {
+   "es": "Hemos vivido aquí muchos años.",
+   "gloss": {
+    "de": "Wir haben viele Jahre hier gelebt.",
+    "en": "We have lived here for many years."
+   }
+  },
+  {
+   "es": "He puesto los libros en la mesa.",
+   "gloss": {
+    "de": "Ich habe die Bücher auf den Tisch gestellt.",
+    "en": "I have put the books on the table."
+   }
+  }
+ ]
+}

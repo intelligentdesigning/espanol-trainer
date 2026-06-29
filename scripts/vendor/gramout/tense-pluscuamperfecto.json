@@ -1,20 +1,20 @@
 [
   {
     "kind": "fill",
-    "prompt": "Cuando tú llamaste, yo ya ___ salido de casa. (yo, haber)",
+    "prompt": "Cuando tú llamaste, yo ya ___ salido de casa.",
     "promptGloss": {
       "de": "Als du anriefst, war ich schon aus dem Haus gegangen.",
       "en": "When you called, I had already left the house."
     },
     "answer": "había",
     "explain": {
-      "de": "Das Plusquamperfekt bildet man mit haber im Imperfekt + Partizip; für yo lautet haber im Imperfekt había.",
-      "en": "The pluscuamperfecto uses haber in the imperfect + participle; for yo, haber in the imperfect is había."
+      "de": "Für yo lautet haber im Imperfekt había.",
+      "en": "For yo, haber in the imperfect is había."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Ya ___ comido cuando llegó nuestro amigo.",
+    "prompt": "Nosotros ya ___ comido cuando llegó nuestro amigo.",
     "promptGloss": {
       "de": "Wir hatten schon gegessen, als unser Freund ankam.",
       "en": "We had already eaten when our friend arrived."
@@ -22,8 +22,8 @@
     "options": ["habíamos", "habían", "habíais", "había"],
     "answer": "habíamos",
     "explain": {
-      "de": "Das Subjekt nosotros verlangt die 1. Person Plural von haber im Imperfekt: habíamos. habían wäre ellos, habíais vosotros, había Singular.",
-      "en": "The subject nosotros requires the first person plural of haber in the imperfect: habíamos. habían is ellos, habíais vosotros, había singular."
+      "de": "nosotros verlangt die 1. Person Plural habíamos; habían wäre ellos.",
+      "en": "nosotros needs the first person plural habíamos; habían would be ellos."
     }
   },
   {
@@ -36,35 +36,48 @@
     "options": ["habían", "habíamos", "había", "habéis"],
     "answer": "habían",
     "explain": {
-      "de": "ellos verlangt habían (3. Person Plural von haber im Imperfekt). había wäre Singular, habíamos nosotros; habéis ist Präsens und gehört zum pretérito perfecto, nicht hierher.",
-      "en": "ellos requires habían (third person plural of haber in the imperfect). había is singular, habíamos nosotros; habéis is present tense and belongs to the present perfect, not here."
+      "de": "ellos verlangt habían; habéis ist Präsens und gehört nicht hierher.",
+      "en": "ellos needs habían; habéis is present tense and does not belong here."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Antes de la clase, ellos ya ___ hecho los deberes. (haber + hacer)",
+    "prompt": "Tú ___ vivido en España muchos años antes de mudarte.",
+    "promptGloss": {
+      "de": "Du hattest viele Jahre in Spanien gelebt, bevor du umgezogen bist.",
+      "en": "You had lived in Spain for many years before moving."
+    },
+    "answer": "habías",
+    "explain": {
+      "de": "Für tú lautet haber im Imperfekt habías.",
+      "en": "For tú, haber in the imperfect is habías."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Antes de la clase, ellos ya habían ___ los deberes.",
     "promptGloss": {
       "de": "Vor dem Unterricht hatten sie die Hausaufgaben schon gemacht.",
       "en": "Before class they had already done the homework."
     },
-    "answer": "habían hecho",
+    "answer": "hecho",
     "explain": {
-      "de": "haber im Imperfekt für ellos ist habían; hacer hat das unregelmäßige Partizip hecho (nicht hacido).",
-      "en": "haber in the imperfect for ellos is habían; hacer has the irregular participle hecho (not hacido)."
+      "de": "hacer hat das unregelmäßige Partizip hecho, nicht hacido.",
+      "en": "hacer has the irregular participle hecho, not hacido."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Tú me ___ dicho la verdad, por eso confié en ti.",
+    "prompt": "Tú me habías ___ la verdad, por eso confié en ti.",
     "promptGloss": {
       "de": "Du hattest mir die Wahrheit gesagt, deshalb vertraute ich dir.",
       "en": "You had told me the truth, that's why I trusted you."
     },
-    "options": ["habías dicho", "habías decido", "habías dicha", "has dicho"],
-    "answer": "habías dicho",
+    "options": ["dicho", "decido", "dicha", "diciendo"],
+    "answer": "dicho",
     "explain": {
-      "de": "decir bildet das unregelmäßige Partizip dicho (nicht decido), und das Partizip endet immer auf -o, nie dicha. has dicho wäre pretérito perfecto (Gegenwartsbezug).",
-      "en": "decir forms the irregular participle dicho (not decido), and the participle always ends in -o, never dicha. has dicho would be the present perfect (linked to now)."
+      "de": "decir hat das unregelmäßige Partizip dicho; es endet auf -o, nie dicha.",
+      "en": "decir has the irregular participle dicho; it ends in -o, never dicha."
     }
   },
   {
@@ -77,21 +90,34 @@
     "options": ["vivido", "vivida", "vividos", "viviendo"],
     "answer": "vivido",
     "explain": {
-      "de": "Das Partizip ist unveränderlich und endet auf -o: vivido. vivida/vividos passen das Partizip falsch an Genus/Numerus an; viviendo ist das Gerundium.",
-      "en": "The participle is invariable and ends in -o: vivido. vivida/vividos wrongly agree the participle for gender/number; viviendo is the gerund."
+      "de": "Das Partizip ist unveränderlich und endet auf -o: vivido; vivida passt es falsch ans Geschlecht an.",
+      "en": "The participle is invariable and ends in -o: vivido; vivida wrongly agrees for gender."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Nosotros ___ vivido en tres países antes de los treinta años. (haber + vivir)",
+    "prompt": "Las chicas ya habían ___ a casa cuando empezó la tormenta.",
     "promptGloss": {
-      "de": "Wir hatten vor dem dreißigsten Lebensjahr in drei Ländern gelebt.",
-      "en": "We had lived in three countries before the age of thirty."
+      "de": "Die Mädchen waren schon nach Hause gegangen, als das Gewitter begann.",
+      "en": "The girls had already gone home when the storm started."
     },
-    "answer": "habíamos vivido",
+    "answer": "ido",
     "explain": {
-      "de": "haber im Imperfekt für nosotros ist habíamos; das regelmäßige -ir-Partizip von vivir ist vivido und bleibt fest.",
-      "en": "haber in the imperfect for nosotros is habíamos; the regular -ir participle of vivir is vivido and stays fixed."
+      "de": "Das Partizip bleibt fest auf -o: ido, auch bei weiblichem Subjekt.",
+      "en": "The participle stays fixed in -o: ido, even with a feminine subject."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Nosotros ya habíamos ___ en tres países antes de los treinta años.",
+    "promptGloss": {
+      "de": "Wir hatten vor dem dreißigsten Lebensjahr schon in drei Ländern gelebt.",
+      "en": "We had already lived in three countries before the age of thirty."
+    },
+    "answer": "vivido",
+    "explain": {
+      "de": "Das regelmäßige Partizip von vivir ist vivido und bleibt unverändert.",
+      "en": "The regular participle of vivir is vivido and stays fixed."
     }
   },
   {
@@ -99,26 +125,26 @@
     "prompt": "Todavía no ___ dormido cuando sonó la alarma.",
     "promptGloss": {
       "de": "Sie hatten noch nicht geschlafen, als der Alarm losging.",
-      "en": "They had not yet slept when the alarm went off."
+      "en": "They had not slept yet when the alarm went off."
     },
-    "options": ["habían", "se habían", "habían no", "no habían"],
+    "options": ["habían", "habían no", "habíais", "había"],
     "answer": "habían",
     "explain": {
-      "de": "Zwischen haber und Partizip darf nur no stehen; hier steht no schon vor todavía/dem Verb, also folgt direkt habían dormido. habían no und se habían (mit überflüssigem se) sind falsch.",
-      "en": "Only no may stand between haber and the participle; here no already precedes the verb, so habían dormido follows directly. habían no and se habían (with a needless se) are wrong."
+      "de": "Bei dormido (ellos) verlangt haber habían; no steht schon vor haber, daher nie habían no.",
+      "en": "With dormido (ellos) haber must be habían; no already sits before haber, so never habían no."
     }
   },
   {
     "kind": "fill",
-    "prompt": "No ___ tenido tiempo de avisarte, lo siento. (tú, haber)",
+    "prompt": "No ___ tenido tiempo de avisarte, lo siento.",
     "promptGloss": {
       "de": "Du hattest keine Zeit gehabt, mir Bescheid zu geben, tut mir leid.",
       "en": "You had not had time to let me know, I'm sorry."
     },
     "answer": "habías",
     "explain": {
-      "de": "haber im Imperfekt für tú ist habías; das verneinende no steht vor habías, niemals zwischen habías und dem Partizip tenido.",
-      "en": "haber in the imperfect for tú is habías; the negating no goes before habías, never between habías and the participle tenido."
+      "de": "Für tú lautet haber habías; das verneinende no steht davor, nie zwischen habías und tenido.",
+      "en": "For tú haber is habías; the negating no goes before it, never between habías and tenido."
     }
   },
   {
@@ -131,76 +157,35 @@
     "options": ["había empezado", "empezó", "empezaba", "ha empezado"],
     "answer": "había empezado",
     "explain": {
-      "de": "Die Handlung war vor dem anderen Vergangenheitsereignis (llegamos) schon abgeschlossen → Plusquamperfekt había empezado. empezó/empezaba stellen sie als gleichzeitig oder nachher dar; ha empezado hätte Gegenwartsbezug.",
-      "en": "The action was already over before the other past event (llegamos) → pluscuamperfecto había empezado. empezó/empezaba present it as simultaneous or later; ha empezado would link to the present."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Esta mañana ___ mi café antes de salir; ahora ya estoy en la oficina.",
-    "promptGloss": {
-      "de": "Heute Morgen habe ich vor dem Gehen meinen Kaffee getrunken; jetzt bin ich schon im Büro.",
-      "en": "This morning I had my coffee before leaving; now I'm already at the office."
-    },
-    "options": ["me he tomado", "me había tomado", "me tomaba", "me habría tomado"],
-    "answer": "me he tomado",
-    "explain": {
-      "de": "esta mañana gehört zu einem noch andauernden Zeitraum mit Gegenwartsbezug → pretérito perfecto (he tomado), nicht Plusquamperfekt. había tomado bräuchte ein zweites, späteres Vergangenheitsereignis als Bezugspunkt.",
-      "en": "esta mañana belongs to an ongoing period linked to now → present perfect (he tomado), not the pluscuamperfecto. había tomado would need a second, later past event as its reference point."
+      "de": "Die Handlung war vor dem anderen Vergangenheitsereignis schon abgeschlossen, daher había empezado; empezó stellt sie als gleichzeitig dar.",
+      "en": "The action was already over before the other past event, so había empezado; empezó presents it as simultaneous."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Cuando volví a casa, alguien ya ___ abierto todas las ventanas. (haber + abrir)",
+    "prompt": "Cuando volví a casa, mi hermano ya había ___ la cena.",
     "promptGloss": {
-      "de": "Als ich nach Hause zurückkam, hatte jemand schon alle Fenster geöffnet.",
-      "en": "When I came back home, someone had already opened all the windows."
+      "de": "Als ich nach Hause zurückkam, hatte mein Bruder das Abendessen schon gemacht.",
+      "en": "When I came back home, my brother had already made dinner."
     },
-    "answer": "había abierto",
+    "answer": "hecho",
     "explain": {
-      "de": "haber im Imperfekt für alguien (3. Sg.) ist había; abrir hat das unregelmäßige Partizip abierto (nicht abrido).",
-      "en": "haber in the imperfect for alguien (3rd sg.) is había; abrir has the irregular participle abierto (not abrido)."
+      "de": "hacer hat das unregelmäßige Partizip hecho, nicht hacido.",
+      "en": "hacer has the irregular participle hecho, not hacido."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Vosotros nunca ___ visto el mar hasta aquel verano.",
+    "prompt": "Vosotros nunca habíais ___ la verdad hasta aquel día.",
     "promptGloss": {
-      "de": "Ihr hattet das Meer bis zu jenem Sommer noch nie gesehen.",
-      "en": "You had never seen the sea until that summer."
+      "de": "Ihr hattet bis zu jenem Tag nie die Wahrheit gesagt.",
+      "en": "You had never told the truth until that day."
     },
-    "options": ["habíais visto", "habíais visado", "habíais vistos", "habéis visto"],
-    "answer": "habíais visto",
+    "options": ["dicho", "decido", "dicha", "diciendo"],
+    "answer": "dicho",
     "explain": {
-      "de": "haber im Imperfekt für vosotros ist habíais (mit Akzent); ver hat das unregelmäßige Partizip visto, das unveränderlich bleibt (nie vistos). habéis visto wäre pretérito perfecto.",
-      "en": "haber in the imperfect for vosotros is habíais (with an accent); ver has the irregular participle visto, which stays invariable (never vistos). habéis visto would be the present perfect."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Ayer no comí nada en todo el día porque ___ mucho la noche anterior.",
-    "promptGloss": {
-      "de": "Gestern habe ich den ganzen Tag nichts gegessen, weil ich am Abend zuvor viel gegessen hatte.",
-      "en": "Yesterday I ate nothing all day because I had eaten a lot the night before."
-    },
-    "options": ["había cenado", "cené", "cenaba", "he cenado"],
-    "answer": "había cenado",
-    "explain": {
-      "de": "la noche anterior liegt vor dem Bezugspunkt ayer → Vorvergangenheit, also Plusquamperfekt había cenado. cené/cenaba ordnen die Handlung nicht als davor abgeschlossen ein; he cenado hätte Gegenwartsbezug.",
-      "en": "la noche anterior is before the reference point ayer → past-before-past, so pluscuamperfecto había cenado. cené/cenaba don't mark it as completed beforehand; he cenado would link to the present."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "El tren ya ___ cuando llegamos a la estación, así que perdimos la conexión. (haber + irse)",
-    "promptGloss": {
-      "de": "Der Zug war schon weg, als wir am Bahnhof ankamen, also verpassten wir den Anschluss.",
-      "en": "The train had already left when we got to the station, so we missed the connection."
-    },
-    "answer": "se había ido",
-    "explain": {
-      "de": "Vor dem zweiten Vergangenheitsereignis (llegamos) abgeschlossen → Plusquamperfekt; bei reflexivem irse steht das Pronomen vor haber: se había ido (Partizip ido).",
-      "en": "Completed before the second past event (llegamos) → pluscuamperfecto; with reflexive irse the pronoun goes before haber: se había ido (participle ido)."
+      "de": "decir hat das unregelmäßige Partizip dicho; es bleibt auf -o, nie dicha.",
+      "en": "decir has the irregular participle dicho; it stays in -o, never dicha."
     }
   },
   {
@@ -213,8 +198,48 @@
     "options": ["habían cambiado", "cambiaron", "han cambiado", "habrían cambiado"],
     "answer": "habían cambiado",
     "explain": {
-      "de": "Die Veränderung war vor dem Bezugspunkt (no reconocí) bereits abgeschlossen → Plusquamperfekt habían cambiado. cambiaron lässt das 'davor schon' weg, han cambiado hat Gegenwartsbezug, habrían cambiado ist Konditional.",
-      "en": "The change was already complete before the reference point (no reconocí) → pluscuamperfecto habían cambiado. cambiaron drops the 'already before', han cambiado links to the present, and habrían cambiado is conditional."
+      "de": "Die Veränderung war vor dem Bezugspunkt schon abgeschlossen, daher habían cambiado; cambiaron lässt das 'davor schon' weg.",
+      "en": "The change was already complete before the reference point, so habían cambiado; cambiaron drops the 'already before'."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "El tren ya se había ___ cuando llegamos a la estación.",
+    "promptGloss": {
+      "de": "Der Zug war schon weggefahren, als wir am Bahnhof ankamen.",
+      "en": "The train had already left when we got to the station."
+    },
+    "answer": "ido",
+    "explain": {
+      "de": "Vor dem zweiten Vergangenheitsereignis abgeschlossen; das Partizip von irse ist ido und bleibt fest.",
+      "en": "Completed before the second past event; the participle of irse is ido and stays fixed."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Antes de aquella cena, yo nunca ___ marisco.",
+    "promptGloss": {
+      "de": "Vor jenem Abendessen hatte ich noch nie Meeresfrüchte probiert.",
+      "en": "Before that dinner, I had never tried seafood."
+    },
+    "options": ["había probado", "probé", "probaba", "he probado"],
+    "answer": "había probado",
+    "explain": {
+      "de": "Die Handlung war vor dem anderen Vergangenheitsereignis schon vorbei, daher había probado; he probado hätte Gegenwartsbezug.",
+      "en": "The action was already over before the other past event, so había probado; he probado would link to the present."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Vosotros todavía no ___ comido cuando empezó la reunión.",
+    "promptGloss": {
+      "de": "Ihr hattet noch nicht gegessen, als die Besprechung begann.",
+      "en": "You had not eaten yet when the meeting started."
+    },
+    "answer": "habíais",
+    "explain": {
+      "de": "Für vosotros lautet haber im Imperfekt habíais; no steht davor, nie zwischen habíais und comido.",
+      "en": "For vosotros, haber in the imperfect is habíais; no goes before it, never between habíais and comido."
     }
   }
 ]

@@ -1,226 +1,245 @@
 [
   {
     "kind": "fill",
-    "prompt": "Si yo ___ (hablar) español, viviría en Madrid.",
+    "prompt": "El profesor quería que nosotros ___ en clase.",
     "promptGloss": {
-      "de": "Wenn ich Spanisch spräche, würde ich in Madrid leben.",
-      "en": "If I spoke Spanish, I would live in Madrid."
+      "de": "Der Lehrer wollte, dass wir im Unterricht sprechen.",
+      "en": "The teacher wanted us to speak in class."
     },
-    "answer": "hablara",
-    "altAnswers": ["hablase"],
+    "answer": "habláramos",
     "explain": {
-      "de": "-ar-Verben bilden den Imperfekt-Konjunktiv aus dem ellos-Stamm des Indefinido (hablaron) plus -ara: hablara. Die -se-Form (hablase) ist ebenfalls korrekt, aber -ra ist Standard.",
-      "en": "-ar verbs form the imperfect subjunctive from the ellos preterite stem (hablaron) plus -ara: hablara. The -se form (hablase) is also valid, but -ra is standard."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Esperaba que tú ___ (comer) algo antes de salir.",
-    "promptGloss": {
-      "de": "Ich hoffte, dass du etwas isst, bevor du gehst.",
-      "en": "I hoped you would eat something before leaving."
-    },
-    "answer": "comieras",
-    "altAnswers": ["comieses"],
-    "explain": {
-      "de": "-er-Verben hängen -ieras an: vom Stamm comie- (aus comieron) wird comieras. Da der Hauptsatz in der Vergangenheit steht (esperaba), muss der Nebensatz im Imperfekt-Konjunktiv stehen.",
-      "en": "-er verbs add -ieras: from the stem comie- (from comieron) you get comieras. Because the main clause is past (esperaba), the subordinate clause needs the imperfect subjunctive."
+      "de": "-ar-Verben bilden den Imperfekt-Konjunktiv mit -ara: hablar wird für nosotros zu 'habláramos'.",
+      "en": "-ar verbs form the imperfect subjunctive with -ara: hablar becomes 'habláramos' for nosotros."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Si ___ rico, no trabajaría más.",
+    "prompt": "Mi madre esperaba que yo ___ más verdura.",
     "promptGloss": {
-      "de": "Wenn ich reich wäre, würde ich nicht mehr arbeiten.",
-      "en": "If I were rich, I wouldn't work anymore."
+      "de": "Meine Mutter hoffte, dass ich mehr Gemüse esse.",
+      "en": "My mother hoped I'd eat more vegetables."
     },
-    "options": ["fuera", "sería", "soy", "era"],
-    "answer": "fuera",
+    "options": ["comara", "comiera", "comería"],
+    "answer": "comiera",
     "explain": {
-      "de": "Nach si steht bei einer irrealen Gegenwartsbedingung der Imperfekt-Konjunktiv (fuera von ser). Der Konditional sería gehört in den Hauptsatz, nicht in den si-Satz; soy (Präsens) und era (Imperfekt Indikativ) drücken keine irreale Bedingung aus.",
-      "en": "After si, an unreal present condition takes the imperfect subjunctive (fuera from ser). The conditional sería belongs in the main clause, not the si-clause; soy (present) and era (imperfect indicative) don't express an unreal condition."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "___ un café con leche, por favor.",
-    "promptGloss": {
-      "de": "Ich hätte gern einen Milchkaffee, bitte.",
-      "en": "I'd like a coffee with milk, please."
-    },
-    "options": ["Quisiera", "Quiero", "Querría", "Quería"],
-    "answer": "Quisiera",
-    "explain": {
-      "de": "Quisiera (Imperfekt-Konjunktiv von querer) macht die Bitte besonders höflich und sanft. Quiero (Präsens) klingt direkter, und Quería bzw. Querría sind hier nicht die feststehende Höflichkeitsform für eine Bestellung.",
-      "en": "Quisiera (imperfect subjunctive of querer) makes the request especially polite and soft. Quiero (present) sounds more direct, and Quería / Querría are not the set polite form for ordering here."
+      "de": "-er-Verben nehmen die Endung -iera, also comer zu 'comiera'. 'comara' hätte die falsche -ar-Endung.",
+      "en": "-er verbs take the -iera ending, so comer becomes 'comiera'. 'comara' would use the wrong -ar ending."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Si ___ (tener) más tiempo, viajaría por todo el mundo.",
+    "prompt": "Si yo ___ más dinero, compraría una casa.",
     "promptGloss": {
-      "de": "Wenn ich mehr Zeit hätte, würde ich um die ganze Welt reisen.",
-      "en": "If I had more time, I would travel all over the world."
+      "de": "Wenn ich mehr Geld hätte, würde ich ein Haus kaufen.",
+      "en": "If I had more money, I'd buy a house."
     },
     "answer": "tuviera",
-    "altAnswers": ["tuviese"],
     "explain": {
-      "de": "Tener ist unregelmäßig: Der Stamm tuv- kommt aus dem Indefinido tuvieron, dazu -iera: tuviera. Man darf nicht den Infinitivstamm (tenie-) verwenden.",
-      "en": "Tener is irregular: the stem tuv- comes from the preterite tuvieron, plus -iera: tuviera. You must not use the infinitive stem (tenie-)."
+      "de": "Der Stamm kommt aus dem ellos-Indefinido tuvieron, daher 'tuviera' und nicht 'teniera'.",
+      "en": "The stem comes from the ellos preterite tuvieron, so 'tuviera', not 'teniera'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Mi madre quería que nosotros ___ a casa antes de medianoche.",
+    "prompt": "Si yo ___ tú, aceptaría el trabajo.",
     "promptGloss": {
-      "de": "Meine Mutter wollte, dass wir vor Mitternacht nach Hause kommen.",
-      "en": "My mother wanted us to come home before midnight."
+      "de": "Wenn ich du wäre, würde ich den Job annehmen.",
+      "en": "If I were you, I'd accept the job."
     },
-    "options": ["volviéramos", "volvamos", "volveríamos", "volvíamos"],
-    "answer": "volviéramos",
+    "options": ["era", "fuera", "sería"],
+    "answer": "fuera",
     "explain": {
-      "de": "Der Vergangenheits-Auslöser quería verlangt im Nebensatz den Imperfekt-Konjunktiv; die nosotros-Form trägt einen Akzent: volviéramos. Volvamos ist Präsens-Konjunktiv (passt zu einem Gegenwarts-Hauptsatz), die anderen sind Indikativ/Konditional.",
-      "en": "The past trigger quería requires the imperfect subjunctive in the subordinate clause; the nosotros form is accented: volviéramos. Volvamos is present subjunctive (for a present main clause), the others are indicative/conditional."
+      "de": "ser nutzt die unregelmäßige Form 'fuera' (aus fueron); 'era' ist Indikativ und 'sería' der Konditional.",
+      "en": "ser uses the irregular form 'fuera' (from fueron); 'era' is indicative and 'sería' the conditional."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Me pidió que ___ (hablar) más despacio porque no me entendía.",
+    "prompt": "Si ___ tiempo, viajaría más.",
     "promptGloss": {
-      "de": "Er bat mich, langsamer zu sprechen, weil er mich nicht verstand.",
-      "en": "He asked me to speak more slowly because he didn't understand me."
+      "de": "Wenn ich Zeit hätte, würde ich mehr reisen.",
+      "en": "If I had time, I'd travel more."
     },
-    "answer": "hablara",
-    "altAnswers": ["hablase"],
+    "answer": "tuviera",
     "explain": {
-      "de": "Pidió steht in der Vergangenheit, also folgt im que-Satz der Imperfekt-Konjunktiv hablara. Ein Infinitiv (hablar) ist nach pedir que mit Subjektwechsel nicht möglich.",
-      "en": "Pidió is in the past, so the que-clause takes the imperfect subjunctive hablara. An infinitive (hablar) is not possible after pedir que with a change of subject."
+      "de": "Nach si steht für eine unwahrscheinliche Gegenwarts-Bedingung der Imperfekt-Konjunktiv: tener zu 'tuviera'.",
+      "en": "After si an unlikely present condition uses the imperfect subjunctive: tener becomes 'tuviera'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "No había nadie que ___ el trabajo a tiempo.",
+    "prompt": "Si ___ rico, no trabajaría.",
     "promptGloss": {
-      "de": "Es gab niemanden, der die Arbeit rechtzeitig machte.",
-      "en": "There was nobody who did the work on time."
+      "de": "Wenn ich reich wäre, würde ich nicht arbeiten.",
+      "en": "If I were rich, I wouldn't work."
     },
-    "options": ["hiciera", "hacía", "haría", "hizo"],
-    "answer": "hiciera",
+    "options": ["soy", "fuera", "sería"],
+    "answer": "fuera",
     "explain": {
-      "de": "Der negierte, unbestimmte Bezug (no había nadie que...) in einem Vergangenheitskontext löst den Imperfekt-Konjunktiv aus; hacer ist unregelmäßig: Stamm hic- aus hicieron, also hiciera. Die Indikativformen hacía/hizo und der Konditional haría passen nicht zum verneinten Antezedens.",
-      "en": "The negated, indefinite antecedent (no había nadie que...) in a past context triggers the imperfect subjunctive; hacer is irregular: stem hic- from hicieron, so hiciera. The indicative forms hacía/hizo and the conditional haría don't fit the negated antecedent."
+      "de": "Die irreale si-Bedingung verlangt den Imperfekt-Konjunktiv 'fuera'. 'soy' ist Indikativ und der Konditional 'sería' gehört in den Hauptsatz.",
+      "en": "The unreal si-clause needs the imperfect subjunctive 'fuera'. 'soy' is indicative and the conditional 'sería' belongs in the main clause."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Ojalá ___ (poder) ayudarte, pero no me queda tiempo.",
+    "prompt": "Si ___ menos, dormirías mejor.",
     "promptGloss": {
-      "de": "Hoffentlich könnte ich dir helfen, aber mir bleibt keine Zeit.",
-      "en": "I wish I could help you, but I have no time left."
+      "de": "Wenn du weniger äßest, würdest du besser schlafen.",
+      "en": "If you ate less, you'd sleep better."
     },
-    "answer": "pudiera",
-    "altAnswers": ["pudiese"],
-    "explain": {
-      "de": "Ojalá + Imperfekt-Konjunktiv drückt einen Wunsch aus, der als unwahrscheinlich gilt; poder ist unregelmäßig: Stamm pud- aus pudieron, also pudiera (-ra-Form, ganz normal).",
-      "en": "Ojalá + imperfect subjunctive expresses a wish seen as unlikely; poder is irregular: stem pud- from pudieron, so pudiera (the fully normal -ra form)."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Si ___ menos, dormirías mucho mejor.",
-    "promptGloss": {
-      "de": "Wenn du weniger äßest, würdest du viel besser schlafen.",
-      "en": "If you ate less, you would sleep much better."
-    },
-    "options": ["comieras", "comerías", "comías", "comas"],
     "answer": "comieras",
     "explain": {
-      "de": "Im irrealen si-Satz steht der Imperfekt-Konjunktiv (comieras), während der Konditional comerías in den Hauptsatz gehört (dormirías). Comías ist Imperfekt Indikativ und comas Präsens-Konjunktiv.",
-      "en": "In the unreal si-clause you use the imperfect subjunctive (comieras), while the conditional comerías belongs in the main clause (dormirías). Comías is imperfect indicative and comas is present subjunctive."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Si él ___ (estar) aquí ahora, te lo diría todo.",
-    "promptGloss": {
-      "de": "Wenn er jetzt hier wäre, würde er dir alles sagen.",
-      "en": "If he were here now, he would tell you everything."
-    },
-    "answer": "estuviera",
-    "altAnswers": ["estuviese"],
-    "explain": {
-      "de": "Estar ist unregelmäßig: Stamm estuv- aus estuvieron, dazu -iera ergibt estuviera. Die irreale Gegenwartsbedingung nach si verlangt den Imperfekt-Konjunktiv, nicht den Indikativ está.",
-      "en": "Estar is irregular: stem estuv- from estuvieron, plus -iera gives estuviera. The unreal present condition after si requires the imperfect subjunctive, not the indicative está."
+      "de": "Nach si in der irrealen Bedingung steht der Imperfekt-Konjunktiv: comer für tú zu 'comieras'.",
+      "en": "After si in an unreal condition the imperfect subjunctive is used: comer for tú becomes 'comieras'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Buscábamos un guía que ___ inglés, pero no encontramos a nadie.",
+    "prompt": "Si él ___ aquí, te lo diría.",
     "promptGloss": {
-      "de": "Wir suchten einen Führer, der Englisch sprach, aber wir fanden niemanden.",
-      "en": "We were looking for a guide who spoke English, but we found no one."
+      "de": "Wenn er hier wäre, würde ich es dir sagen.",
+      "en": "If he were here, I'd tell you."
     },
-    "options": ["hablara", "hablaba", "habla", "hablase"],
+    "options": ["está", "estuviera", "estaría"],
+    "answer": "estuviera",
+    "explain": {
+      "de": "Die unmögliche si-Bedingung fordert 'estuviera' (Stamm aus estuvieron). 'está' ist Indikativ, 'estaría' der Konditional für den Hauptsatz.",
+      "en": "The impossible si-clause requires 'estuviera' (stem from estuvieron). 'está' is indicative, 'estaría' is the conditional for the main clause."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Quería que ___ a mi fiesta.",
+    "promptGloss": {
+      "de": "Ich wollte, dass du zu meiner Party kommst.",
+      "en": "I wanted you to come to my party."
+    },
+    "answer": "vinieras",
+    "explain": {
+      "de": "Der Hauptsatz steht in der Vergangenheit (quería), darum folgt im Nebensatz der Imperfekt-Konjunktiv: venir zu 'vinieras'.",
+      "en": "The main clause is past (quería), so the subordinate clause takes the imperfect subjunctive: venir becomes 'vinieras'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Esperaba que ___ bien anoche.",
+    "promptGloss": {
+      "de": "Ich hoffte, dass du letzte Nacht gut schläfst.",
+      "en": "I hoped you'd sleep well last night."
+    },
+    "options": ["duermes", "durmieras", "dormirás"],
+    "answer": "durmieras",
+    "explain": {
+      "de": "Nach dem Vergangenheits-Auslöser 'esperaba que' steht der Imperfekt-Konjunktiv 'durmieras'. 'duermes' ist Indikativ Präsens.",
+      "en": "After the past trigger 'esperaba que' the imperfect subjunctive 'durmieras' is used. 'duermes' is present indicative."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Me pidió que ___ más despacio.",
+    "promptGloss": {
+      "de": "Er bat mich, langsamer zu sprechen.",
+      "en": "He asked me to speak more slowly."
+    },
     "answer": "hablara",
     "explain": {
-      "de": "Ein gesuchter, nicht existierender (unbestimmter) Bezug nach einem Vergangenheits-Hauptsatz (buscábamos) verlangt den Imperfekt-Konjunktiv hablara. Der Indikativ hablaba würde einen konkreten, bekannten Führer bezeichnen; hablase wäre korrekt, ist aber als Variante nicht die erwartete Standardform hier.",
-      "en": "A sought-after, non-existent (indefinite) antecedent after a past main clause (buscábamos) requires the imperfect subjunctive hablara. The indicative hablaba would refer to a specific, known guide; hablase would be correct but is the less standard variant here."
-    }
-  },
-  {
-    "kind": "fill",
-    "prompt": "Quería que vosotros ___ (venir) a la fiesta conmigo.",
-    "promptGloss": {
-      "de": "Ich wollte, dass ihr mit mir zur Party kommt.",
-      "en": "I wanted you (plural) to come to the party with me."
-    },
-    "answer": "vinierais",
-    "altAnswers": ["vinieseis"],
-    "explain": {
-      "de": "Venir ist unregelmäßig: Stamm vin- aus vinieron; die vosotros-Endung ist -ierais, also vinierais. Der Vergangenheits-Auslöser quería erzwingt den Imperfekt-Konjunktiv.",
-      "en": "Venir is irregular: stem vin- from vinieron; the vosotros ending is -ierais, giving vinierais. The past trigger quería forces the imperfect subjunctive."
+      "de": "Der Auslöser im Indefinido (me pidió) verlangt im Nebensatz den Imperfekt-Konjunktiv: hablar zu 'hablara'.",
+      "en": "The preterite trigger (me pidió) requires the imperfect subjunctive in the subordinate clause: hablar becomes 'hablara'."
     }
   },
   {
     "kind": "choice",
-    "prompt": "Si tú ___ la verdad, te enfadarías mucho.",
+    "prompt": "No había nadie que ___ el trabajo.",
     "promptGloss": {
-      "de": "Wenn du die Wahrheit wüsstest, würdest du dich sehr ärgern.",
-      "en": "If you knew the truth, you would get very angry."
+      "de": "Es gab niemanden, der die Arbeit machte.",
+      "en": "There was nobody who did the work."
     },
-    "options": ["supieras", "sabrías", "sabías", "sabes"],
-    "answer": "supieras",
+    "options": ["hacía", "hiciera", "haría"],
+    "answer": "hiciera",
     "explain": {
-      "de": "Saber ist unregelmäßig: Stamm sup- aus supieron, also supieras im irrealen si-Satz. Der Konditional sabrías gehört in den Hauptsatz (te enfadarías), nicht hinter si.",
-      "en": "Saber is irregular: stem sup- from supieron, giving supieras in the unreal si-clause. The conditional sabrías belongs in the main clause (te enfadarías), not after si."
+      "de": "Der Hauptsatz in der Vergangenheit (no había nadie que) löst den Imperfekt-Konjunktiv 'hiciera' aus. 'hacía' ist Indikativ Imperfekt.",
+      "en": "The past main clause (no había nadie que) triggers the imperfect subjunctive 'hiciera'. 'hacía' is the indicative imperfect."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Nos sorprendió que el examen ___ (ser) tan difícil.",
+    "prompt": "___ un café, por favor.",
     "promptGloss": {
-      "de": "Es überraschte uns, dass die Prüfung so schwer war.",
-      "en": "It surprised us that the exam was so difficult."
+      "de": "Ich hätte gern einen Kaffee, bitte.",
+      "en": "I'd like a coffee, please."
     },
-    "answer": "fuera",
-    "altAnswers": ["fuese"],
+    "answer": "Quisiera",
     "explain": {
-      "de": "Das Gefühlsverb im Vergangenheitskontext (nos sorprendió) verlangt im que-Satz den Imperfekt-Konjunktiv; ser/ir teilen die Form fuera (Stamm aus fueron). Der Indikativ era wäre hier nach einem Auslöser des Gefühls falsch.",
-      "en": "The emotion verb in a past context (nos sorprendió) requires the imperfect subjunctive in the que-clause; ser/ir share the form fuera (stem from fueron). The indicative era would be wrong here after a trigger of emotion."
+      "de": "Mit 'quisiera' klingt der Wunsch besonders höflich und sanft, sanfter als 'quiero'.",
+      "en": "With 'quisiera' the wish sounds especially polite and soft, softer than 'quiero'."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "___ reservar una mesa para dos, por favor.",
+    "promptGloss": {
+      "de": "Ich würde gern einen Tisch für zwei reservieren, bitte.",
+      "en": "I'd like to reserve a table for two, please."
+    },
+    "options": ["Quiero", "Quisiera", "Querré"],
+    "answer": "Quisiera",
+    "explain": {
+      "de": "Für einen besonders höflichen Wunsch nimmt man die Form 'quisiera'. 'quiero' wirkt direkter und weniger sanft.",
+      "en": "For an especially polite wish you use the form 'quisiera'. 'quiero' sounds more direct and less soft."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Si nosotros ___ (dormir) más, estaríamos de mejor humor.",
+    "prompt": "Ojalá ___ ayudarte, pero no puedo.",
     "promptGloss": {
-      "de": "Wenn wir mehr schliefen, wären wir besser gelaunt.",
-      "en": "If we slept more, we would be in a better mood."
+      "de": "Hoffentlich könnte ich dir helfen, aber ich kann nicht.",
+      "en": "I wish I could help you, but I can't."
     },
-    "answer": "durmiéramos",
-    "altAnswers": ["durmiésemos"],
+    "answer": "pudiera",
     "explain": {
-      "de": "Dormir hat im Indefinido die Vokalveränderung o>u (durmieron); daraus wird der Imperfekt-Konjunktiv durmiéramos, mit Akzent in der nosotros-Form. Die Form ohne Vokalwechsel (dormiéramos) wäre falsch.",
-      "en": "Dormir has the o>u vowel change in the preterite (durmieron); from that you build the imperfect subjunctive durmiéramos, with an accent in the nosotros form. The form without the vowel change (dormiéramos) would be wrong."
+      "de": "Nach ojalá steht hier die übliche -ra-Standardform: poder zu 'pudiera' (Stamm aus pudieron).",
+      "en": "After ojalá the everyday standard -ra form is used: poder becomes 'pudiera' (stem from pudieron)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Ojalá ___ más cerca de la playa.",
+    "promptGloss": {
+      "de": "Hoffentlich wäre ich näher am Strand.",
+      "en": "I wish I were closer to the beach."
+    },
+    "options": ["estaría", "estuviera", "estaba"],
+    "answer": "estuviera",
+    "explain": {
+      "de": "Nach ojalá steht die übliche -ra-Standardform 'estuviera'. 'estaría' ist Konditional und 'estaba' Indikativ.",
+      "en": "After ojalá the everyday -ra standard form 'estuviera' is used. 'estaría' is the conditional and 'estaba' the indicative."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Si ellos ___ la verdad, todo cambiaría.",
+    "promptGloss": {
+      "de": "Wenn sie die Wahrheit wüssten, würde sich alles ändern.",
+      "en": "If they knew the truth, everything would change."
+    },
+    "answer": "supieran",
+    "explain": {
+      "de": "Die irreale si-Bedingung verlangt den Imperfekt-Konjunktiv: saber für ellos zu 'supieran' (Stamm aus supieron).",
+      "en": "The unreal si-clause needs the imperfect subjunctive: saber for ellos becomes 'supieran' (stem from supieron)."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Me alegré de que ___ a verme.",
+    "promptGloss": {
+      "de": "Ich freute mich, dass du mich besuchen kamst.",
+      "en": "I was glad you came to see me."
+    },
+    "options": ["vienes", "vinieras", "vendrías"],
+    "answer": "vinieras",
+    "explain": {
+      "de": "Der Vergangenheits-Auslöser 'me alegré de que' fordert im Nebensatz den Imperfekt-Konjunktiv 'vinieras'. 'vienes' ist Indikativ Präsens.",
+      "en": "The past trigger 'me alegré de que' requires the imperfect subjunctive 'vinieras' in the subordinate clause. 'vienes' is present indicative."
     }
   }
 ]

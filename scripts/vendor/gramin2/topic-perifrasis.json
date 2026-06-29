@@ -1,0 +1,193 @@
+{
+ "kind": "topic",
+ "id": "perifrasis",
+ "name": {
+  "de": "Verbalperiphrasen",
+  "en": "Verb periphrases"
+ },
+ "summary": {
+  "de": "Verbalperiphrasen verbinden ein konjugiertes Hilfsverb mit dem Infinitiv, um Zukunft, Pflicht, Wiederholung oder Gewohnheit auszudrücken.",
+  "en": "Verb periphrases combine a conjugated helper verb with the infinitive to express future, obligation, repetition, or habit."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "ir a + Infinitiv (nahe Zukunft)",
+    "en": "ir a + infinitive (near future)"
+   },
+   "body": {
+    "de": "Konjugiere 'ir', dann 'a' und Infinitiv, um geplante oder bald folgende Handlungen auszudrücken.",
+    "en": "Conjugate 'ir', then 'a' plus infinitive to express planned or upcoming actions."
+   },
+   "examples": [
+    {
+     "es": "Voy a estudiar esta tarde.",
+     "gloss": {
+      "de": "Ich werde heute Nachmittag lernen.",
+      "en": "I'm going to study this afternoon."
+     }
+    },
+    {
+     "es": "Vamos a comer pronto.",
+     "gloss": {
+      "de": "Wir werden bald essen.",
+      "en": "We're going to eat soon."
+     },
+     "note": {
+      "de": "immer mit 'a'",
+      "en": "always with 'a'"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Pflicht: tener que / hay que / deber + Inf",
+    "en": "Obligation: tener que / hay que / deber + inf"
+   },
+   "body": {
+    "de": "'tener que' = persönliche Pflicht, 'hay que' = unpersönlich, 'deber' = Ratschlag bzw. moralische Pflicht.",
+    "en": "'tener que' = personal must, 'hay que' = impersonal must, 'deber' = should/ought to."
+   },
+   "examples": [
+    {
+     "es": "Tengo que trabajar mañana.",
+     "gloss": {
+      "de": "Ich muss morgen arbeiten.",
+      "en": "I have to work tomorrow."
+     },
+     "note": {
+      "de": "persönlich",
+      "en": "personal"
+     }
+    },
+    {
+     "es": "Hay que respetar las reglas.",
+     "gloss": {
+      "de": "Man muss die Regeln respektieren.",
+      "en": "One must respect the rules."
+     },
+     "note": {
+      "de": "kein Subjekt",
+      "en": "no subject"
+     }
+    },
+    {
+     "es": "Debes descansar más.",
+     "gloss": {
+      "de": "Du solltest dich mehr ausruhen.",
+      "en": "You should rest more."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "acabar de + Infinitiv (gerade getan)",
+    "en": "acabar de + infinitive (just did)"
+   },
+   "body": {
+    "de": "'acabar de' + Infinitiv beschreibt eine Handlung, die gerade eben abgeschlossen wurde.",
+    "en": "'acabar de' + infinitive describes an action just completed a moment ago."
+   },
+   "examples": [
+    {
+     "es": "Acabo de llegar a casa.",
+     "gloss": {
+      "de": "Ich bin gerade nach Hause gekommen.",
+      "en": "I've just arrived home."
+     }
+    },
+    {
+     "es": "Acabamos de comer.",
+     "gloss": {
+      "de": "Wir haben gerade gegessen.",
+      "en": "We've just eaten."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "volver a + Infinitiv (wieder tun)",
+    "en": "volver a + infinitive (do again)"
+   },
+   "body": {
+    "de": "'volver a' + Infinitiv drückt aus, dass eine Handlung erneut bzw. nochmals geschieht.",
+    "en": "'volver a' + infinitive expresses that an action happens again."
+   },
+   "examples": [
+    {
+     "es": "Vuelvo a leer el libro.",
+     "gloss": {
+      "de": "Ich lese das Buch noch einmal.",
+      "en": "I'm reading the book again."
+     }
+    },
+    {
+     "es": "No vuelvas a llegar tarde.",
+     "gloss": {
+      "de": "Komm nicht wieder zu spät.",
+      "en": "Don't be late again."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "estar a punto de + Inf (kurz davor)",
+    "en": "estar a punto de + inf (about to)"
+   },
+   "body": {
+    "de": "'estar a punto de' + Infinitiv bedeutet, dass etwas unmittelbar bevorsteht oder gleich passiert.",
+    "en": "'estar a punto de' + infinitive means something is about to happen any moment."
+   },
+   "examples": [
+    {
+     "es": "El tren está a punto de salir.",
+     "gloss": {
+      "de": "Der Zug ist kurz davor abzufahren.",
+      "en": "The train is about to leave."
+     }
+    },
+    {
+     "es": "Estoy a punto de terminar.",
+     "gloss": {
+      "de": "Ich bin kurz davor fertig zu sein.",
+      "en": "I'm about to finish."
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "soler + Infinitiv (pflegen zu)",
+    "en": "soler + infinitive (usually do)"
+   },
+   "body": {
+    "de": "'soler' + Infinitiv beschreibt eine Gewohnheit; es existiert nur im Präsens und Imperfekt.",
+    "en": "'soler' + infinitive describes a habit; it exists only in present and imperfect."
+   },
+   "examples": [
+    {
+     "es": "Suelo desayunar a las ocho.",
+     "gloss": {
+      "de": "Ich frühstücke gewöhnlich um acht.",
+      "en": "I usually have breakfast at eight."
+     },
+     "note": {
+      "de": "Stammwechsel o→ue",
+      "en": "stem change o→ue"
+     }
+    },
+    {
+     "es": "Solíamos jugar en el parque.",
+     "gloss": {
+      "de": "Wir spielten früher oft im Park.",
+      "en": "We used to play in the park."
+     }
+    }
+   ]
+  }
+ ]
+}

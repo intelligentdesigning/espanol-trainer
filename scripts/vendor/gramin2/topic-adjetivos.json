@@ -1,0 +1,184 @@
+{
+ "kind": "topic",
+ "id": "adjetivos",
+ "name": {
+  "de": "Adjektive: Angleichung & Stellung",
+  "en": "Adjective agreement & position"
+ },
+ "summary": {
+  "de": "Spanische Adjektive passen sich in Geschlecht und Zahl an und stehen meist nach dem Nomen, manchmal verkürzt oder mit Bedeutungswechsel je nach Stellung.",
+  "en": "Spanish adjectives agree in gender and number and usually follow the noun, sometimes shortened or changing meaning depending on position."
+ },
+ "rules": [
+  {
+   "title": {
+    "de": "Angleichung in Geschlecht und Zahl",
+    "en": "Agreement in gender and number"
+   },
+   "body": {
+    "de": "Das Adjektiv richtet sich in Geschlecht und Zahl nach dem Nomen, das es beschreibt.",
+    "en": "The adjective matches the noun it describes in gender and number."
+   },
+   "examples": [
+    {
+     "es": "el coche rojo / la casa roja",
+     "gloss": {
+      "de": "das rote Auto / das rote Haus",
+      "en": "the red car / the red house"
+     },
+     "note": {
+      "de": "-o maskulin, -a feminin",
+      "en": "-o masculine, -a feminine"
+     }
+    },
+    {
+     "es": "los libros nuevos / las sillas nuevas",
+     "gloss": {
+      "de": "die neuen Bücher / die neuen Stühle",
+      "en": "the new books / the new chairs"
+     },
+     "note": {
+      "de": "Plural mit -s",
+      "en": "plural with -s"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Adjektive auf -e und Konsonant",
+    "en": "Adjectives ending in -e or a consonant"
+   },
+   "body": {
+    "de": "Adjektive auf -e oder Konsonant ändern sich nicht nach Geschlecht, nur im Plural.",
+    "en": "Adjectives ending in -e or a consonant do not change for gender, only for plural."
+   },
+   "examples": [
+    {
+     "es": "un chico inteligente / una chica inteligente",
+     "gloss": {
+      "de": "ein kluger Junge / ein kluges Mädchen",
+      "en": "a smart boy / a smart girl"
+     },
+     "note": {
+      "de": "gleiche Form",
+      "en": "same form"
+     }
+    },
+    {
+     "es": "un examen fácil / unos exámenes fáciles",
+     "gloss": {
+      "de": "eine leichte Prüfung / leichte Prüfungen",
+      "en": "an easy exam / easy exams"
+     },
+     "note": {
+      "de": "Plural: -es",
+      "en": "plural: -es"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Stellung: meist nach dem Nomen",
+    "en": "Position: usually after the noun"
+   },
+   "body": {
+    "de": "Das Adjektiv steht normalerweise nach dem Nomen, besonders bei Farbe, Form und Herkunft.",
+    "en": "The adjective normally goes after the noun, especially color, shape and origin."
+   },
+   "examples": [
+    {
+     "es": "un vino tinto",
+     "gloss": {
+      "de": "ein Rotwein",
+      "en": "a red wine"
+     },
+     "note": {
+      "de": "Farbe folgt nach",
+      "en": "color follows"
+     }
+    },
+    {
+     "es": "una película española",
+     "gloss": {
+      "de": "ein spanischer Film",
+      "en": "a Spanish film"
+     },
+     "note": {
+      "de": "Herkunft folgt nach",
+      "en": "origin follows"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Verkürzung: buen, gran, mal",
+    "en": "Shortening: buen, gran, mal"
+   },
+   "body": {
+    "de": "bueno/malo verlieren das -o vor maskulinem Singular-Nomen; grande wird vor jedem Singular zu gran.",
+    "en": "bueno/malo drop the -o before a masculine singular noun; grande becomes gran before any singular."
+   },
+   "examples": [
+    {
+     "es": "un buen amigo",
+     "gloss": {
+      "de": "ein guter Freund",
+      "en": "a good friend"
+     },
+     "note": {
+      "de": "bueno → buen",
+      "en": "bueno → buen"
+     }
+    },
+    {
+     "es": "una gran idea",
+     "gloss": {
+      "de": "eine großartige Idee",
+      "en": "a great idea"
+     },
+     "note": {
+      "de": "grande → gran",
+      "en": "grande → gran"
+     }
+    }
+   ]
+  },
+  {
+   "title": {
+    "de": "Bedeutungswechsel durch Stellung",
+    "en": "Meaning change by position"
+   },
+   "body": {
+    "de": "Manche Adjektive ändern die Bedeutung je nach Stellung vor oder nach dem Nomen.",
+    "en": "Some adjectives change meaning depending on whether they stand before or after the noun."
+   },
+   "examples": [
+    {
+     "es": "un gran hombre / un hombre grande",
+     "gloss": {
+      "de": "ein bedeutender Mann / ein großgewachsener Mann",
+      "en": "a great man / a big (tall) man"
+     },
+     "note": {
+      "de": "vorher = Wert",
+      "en": "before = quality"
+     }
+    },
+    {
+     "es": "un viejo amigo / un amigo viejo",
+     "gloss": {
+      "de": "ein langjähriger Freund / ein alter Freund",
+      "en": "an old (longtime) friend / an elderly friend"
+     },
+     "note": {
+      "de": "Stellung zählt",
+      "en": "position matters"
+     }
+    }
+   ]
+  }
+ ]
+}

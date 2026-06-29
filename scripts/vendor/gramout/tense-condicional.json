@@ -1,15 +1,15 @@
 [
   {
     "kind": "fill",
-    "prompt": "Yo ___ con ella mañana, pero hoy no tengo tiempo. (hablar)",
+    "prompt": "Yo ___ con ella mañana, pero hoy no tengo tiempo.",
     "promptGloss": {
       "de": "Ich würde morgen mit ihr sprechen, aber heute habe ich keine Zeit.",
       "en": "I would talk to her tomorrow, but today I have no time."
     },
     "answer": "hablaría",
     "explain": {
-      "de": "Das condicional bildet man aus dem ganzen Infinitiv (hablar) plus -ía: hablar + ía = hablaría. Der Infinitiv bleibt vollständig erhalten, anders als im Präsens.",
-      "en": "The conditional is the full infinitive (hablar) plus -ía: hablar + ía = hablaría. The whole infinitive stays, unlike in the present tense."
+      "de": "Das condicional bildet man aus dem ganzen Infinitiv (hablar) plus -ía: hablar + ía = hablaría.",
+      "en": "The conditional is the full infinitive (hablar) plus -ía: hablar + ía = hablaría."
     }
   },
   {
@@ -22,21 +22,21 @@
     "options": ["comeríamos", "comaríamos", "comeremos", "comíamos"],
     "answer": "comeríamos",
     "explain": {
-      "de": "An den Infinitiv comer kommt die nosotros-Endung -íamos: comer + íamos = comeríamos. 'comeremos' ist Futur, 'comíamos' ist Imperfekt, 'comaríamos' existiert nicht.",
-      "en": "The infinitive comer takes the nosotros ending -íamos: comer + íamos = comeríamos. 'comeremos' is future, 'comíamos' is imperfect, 'comaríamos' is not a word."
+      "de": "An den Infinitiv comer kommt die nosotros-Endung -íamos: comer + íamos = comeríamos. 'comeremos' ist Futur, 'comíamos' ist Imperfekt.",
+      "en": "The infinitive comer takes the nosotros ending -íamos: comer + íamos = comeríamos. 'comeremos' is future, 'comíamos' is imperfect."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Ellos ___ en el campo si pudieran. (vivir)",
+    "prompt": "Ellos ___ en el campo, lejos de la ciudad.",
     "promptGloss": {
-      "de": "Sie würden auf dem Land leben, wenn sie könnten.",
-      "en": "They would live in the countryside if they could."
+      "de": "Sie würden auf dem Land leben, weit weg von der Stadt.",
+      "en": "They would live in the countryside, far from the city."
     },
     "answer": "vivirían",
     "explain": {
-      "de": "Auch -ir-Verben nehmen dieselben Endungen am vollen Infinitiv: vivir + ían = vivirían. -ar-, -er- und -ir-Verben haben im condicional identische Endungen.",
-      "en": "Also -ir verbs take the same endings on the full infinitive: vivir + ían = vivirían. -ar, -er and -ir verbs share identical conditional endings."
+      "de": "Auch -ir-Verben nehmen dieselben Endungen am vollen Infinitiv: vivir + ían = vivirían.",
+      "en": "Also -ir verbs take the same endings on the full infinitive: vivir + ían = vivirían."
     }
   },
   {
@@ -55,29 +55,42 @@
   },
   {
     "kind": "choice",
-    "prompt": "En el restaurante: «___ un café con leche, por favor.»",
+    "prompt": "«___ un café con leche, por favor.»",
     "promptGloss": {
-      "de": "Im Restaurant: «Ich hätte gern einen Milchkaffee, bitte.»",
-      "en": "At the restaurant: \"I would like a coffee with milk, please.\""
+      "de": "«Ich hätte gern einen Milchkaffee, bitte.»",
+      "en": "\"I would like a coffee with milk, please.\""
     },
     "options": ["Querría", "Quiero", "Querré", "Quería"],
     "answer": "Querría",
     "explain": {
-      "de": "'Querría' (condicional von querer, unregelmäßiger Stamm querr-) klingt höflich: 'ich hätte gern'. 'Quiero' wäre die direkte Bestellung, 'Querré' ist Futur.",
-      "en": "'Querría' (conditional of querer, irregular stem querr-) sounds polite: 'I would like'. 'Quiero' is the blunt order, 'Querré' is future."
+      "de": "'Querría' (condicional von querer, Stamm querr-) klingt höflich: 'ich hätte gern'. 'Quiero' wäre die direkte Bestellung, 'Querré' ist Futur.",
+      "en": "'Querría' (conditional of querer, stem querr-) sounds polite: 'I would like'. 'Quiero' is the blunt order, 'Querré' is future."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Si viviéramos en el centro, ___ más tiempo cada día. (tener)",
+    "prompt": "Con un coche, nosotros ___ más tiempo cada día.",
     "promptGloss": {
-      "de": "Wenn wir im Zentrum wohnten, hätten wir jeden Tag mehr Zeit.",
-      "en": "If we lived downtown, we would have more time every day."
+      "de": "Mit einem Auto hätten wir jeden Tag mehr Zeit.",
+      "en": "With a car, we would have more time every day."
     },
     "answer": "tendríamos",
     "explain": {
-      "de": "Hypothese im Hauptsatz: was unter einer Bedingung passieren würde. Tener hat den unregelmäßigen Stamm tendr-: tendr + íamos = tendríamos.",
-      "en": "Hypothesis in the main clause: what would happen under a condition. Tener has the irregular stem tendr-: tendr + íamos = tendríamos."
+      "de": "Hypothese im Hauptsatz: was unter einer Bedingung passieren würde. Tener hat den Stamm tendr-: tendr + íamos = tendríamos.",
+      "en": "Hypothesis in the main clause: what would happen under a condition. Tener has the stem tendr-: tendr + íamos = tendríamos."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Cerca del mar, yo ___ mucho más feliz.",
+    "promptGloss": {
+      "de": "Am Meer wäre ich viel glücklicher.",
+      "en": "Near the sea, I would be much happier."
+    },
+    "answer": "sería",
+    "explain": {
+      "de": "Hypothese mit ser. Ser ist im condicional regelmäßig: ser + ía = sería für yo.",
+      "en": "Hypothesis with ser. Ser is regular in the conditional: ser + ía = sería for yo."
     }
   },
   {
@@ -90,21 +103,21 @@
     "options": ["deberías", "debes", "deberás", "debías"],
     "answer": "deberías",
     "explain": {
-      "de": "Für einen freundlichen Ratschlag nutzt man deber im condicional: deber + ías = deberías ('du solltest'). 'Debes' (Präsens) klingt wie eine Pflicht/Befehl, nicht wie ein Tipp.",
-      "en": "For friendly advice you use deber in the conditional: deber + ías = deberías ('you should'). 'Debes' (present) sounds like an obligation/order, not a tip."
+      "de": "Für einen freundlichen Ratschlag nutzt man deber im condicional: deber + ías = deberías ('du solltest'). 'Debes' (Präsens) klingt wie eine Pflicht, nicht wie ein Tipp.",
+      "en": "For friendly advice you use deber in the conditional: deber + ías = deberías ('you should'). 'Debes' (present) sounds like an obligation, not a tip."
     }
   },
   {
     "kind": "fill",
-    "prompt": "El problema es serio; ___ hablar con tu jefe sobre esto. (tú, poder)",
+    "prompt": "El problema es serio; ___ hablar con tu jefe sobre esto.",
     "promptGloss": {
       "de": "Das Problem ist ernst; du könntest mit deinem Chef darüber reden.",
       "en": "The problem is serious; you could talk to your boss about this."
     },
     "answer": "podrías",
     "explain": {
-      "de": "Ratschlag mit poder im condicional: poder hat den unregelmäßigen Stamm podr-, also podr + ías = podrías ('du könntest'). Nicht 'poderías'.",
-      "en": "Advice with poder in the conditional: poder has the irregular stem podr-, so podr + ías = podrías ('you could'). Not 'poderías'."
+      "de": "Ratschlag mit poder im condicional: poder hat den Stamm podr-, also podr + ías = podrías ('du könntest'). Nicht 'poderías'.",
+      "en": "Advice with poder in the conditional: poder has the stem podr-, so podr + ías = podrías ('you could'). Not 'poderías'."
     }
   },
   {
@@ -123,75 +136,74 @@
   },
   {
     "kind": "fill",
-    "prompt": "Yo pensé que tú lo ___ sin problemas, pero fue difícil. (hacer)",
+    "prompt": "Yo pensé que tú lo ___ sin problemas, pero fue difícil.",
     "promptGloss": {
       "de": "Ich dachte, du würdest es problemlos schaffen, aber es war schwierig.",
       "en": "I thought you would do it without problems, but it was hard."
     },
     "answer": "harías",
     "explain": {
-      "de": "Zukunft aus der Vergangenheit nach 'pensé'. Hacer hat den unregelmäßigen Stamm har- (wie im Futur): har + ías = harías. Nicht 'haserías' oder 'harías'.",
-      "en": "Future-in-the-past after 'pensé'. Hacer has the irregular stem har- (as in the future): har + ías = harías. Not 'haserías' or 'harías'."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "¿Qué ___ tú en mi lugar? Yo no sé qué decidir.",
-    "promptGloss": {
-      "de": "Was würdest du an meiner Stelle sagen? Ich weiß nicht, was ich entscheiden soll.",
-      "en": "What would you say in my place? I don't know what to decide."
-    },
-    "options": ["dirías", "decirías", "dirás", "decías"],
-    "answer": "dirías",
-    "explain": {
-      "de": "Decir hat den unregelmäßigen Stamm dir-: dir + ías = dirías. 'Decirías' (mit vollem Infinitiv) ist falsch, weil decir zu den Verben mit irregulärem Stamm gehört. 'Dirás' ist Futur.",
-      "en": "Decir has the irregular stem dir-: dir + ías = dirías. 'Decirías' (full infinitive) is wrong because decir has an irregular stem. 'Dirás' is future."
+      "de": "Zukunft aus der Vergangenheit nach 'pensé'. Hacer hat den Stamm har- (wie im Futur): har + ías = harías.",
+      "en": "Future-in-the-past after 'pensé'. Hacer has the stem har- (as in the future): har + ías = harías."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Lo siento, pero ahora mismo ___ que irme; tengo una cita. (yo, tener)",
+    "prompt": "Lo siento, pero ahora mismo ___ que irme; tengo una cita.",
     "promptGloss": {
       "de": "Es tut mir leid, aber ich müsste jetzt gehen; ich habe einen Termin.",
       "en": "I'm sorry, but right now I would have to leave; I have an appointment."
     },
     "answer": "tendría",
     "explain": {
-      "de": "Höfliche Abschwächung mit 'tener que' im condicional. Stamm tendr- plus yo-Endung -ía: tendr + ía = tendría. Achtung: yo und él/ella teilen sich die Endung -ía.",
-      "en": "Polite softening with 'tener que' in the conditional. Stem tendr- plus the yo ending -ía: tendr + ía = tendría. Note: yo and él/ella share the ending -ía."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Te lo prometo: el lunes que viene ___ todo el dinero. Es un hecho.",
-    "promptGloss": {
-      "de": "Ich verspreche es dir: nächsten Montag werde ich das ganze Geld zurückgeben. Das ist sicher.",
-      "en": "I promise you: next Monday I will return all the money. It's a fact."
-    },
-    "options": ["devolveré", "devolvería", "devolvía", "devuelvo"],
-    "answer": "devolveré",
-    "explain": {
-      "de": "Hier ist eine sichere, reale Zukunftsaussage ('es ist sicher') gemeint → Futur 'devolveré', nicht das hypothetische condicional 'devolvería'. Das condicional würde Unsicherheit/Hypothese signalisieren.",
-      "en": "This is a certain, real future statement ('it's a fact') → future 'devolveré', not the hypothetical conditional 'devolvería'. The conditional would signal uncertainty/hypothesis."
-    }
-  },
-  {
-    "kind": "choice",
-    "prompt": "Cuando éramos niños, los domingos ___ en el parque durante horas.",
-    "promptGloss": {
-      "de": "Als wir Kinder waren, spielten wir sonntags stundenlang im Park.",
-      "en": "When we were children, on Sundays we used to play in the park for hours."
-    },
-    "options": ["jugábamos", "jugaríamos", "jugaremos", "jugamos"],
-    "answer": "jugábamos",
-    "explain": {
-      "de": "Eine wiederholte Gewohnheit in der Vergangenheit verlangt das Imperfekt 'jugábamos', nicht das condicional 'jugaríamos'. Vorsicht: die nosotros-Endungen klingen ähnlich (-ábamos vs. -aríamos), bedeuten aber Verschiedenes.",
-      "en": "A repeated past habit needs the imperfect 'jugábamos', not the conditional 'jugaríamos'. Careful: the nosotros endings sound similar (-ábamos vs. -aríamos) but mean different things."
+      "de": "Höfliche Abschwächung mit 'tener que' im condicional. Stamm tendr- plus yo-Endung -ía: tendr + ía = tendría.",
+      "en": "Polite softening with 'tener que' in the conditional. Stem tendr- plus the yo ending -ía: tendr + ía = tendría."
     }
   },
   {
     "kind": "fill",
-    "prompt": "Ellos ___ muy contentos con la noticia, seguro. (estar)",
+    "prompt": "Yo no ___ eso nunca; me parece mal.",
+    "promptGloss": {
+      "de": "Das würde ich nie tun; ich finde es falsch.",
+      "en": "I would never do that; it seems wrong to me."
+    },
+    "answer": "haría",
+    "explain": {
+      "de": "Hacer hat den Stamm har- plus die yo-Endung -ía: har + ía = haría.",
+      "en": "Hacer has the stem har- plus the yo ending -ía: har + ía = haría."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Me prometió que me ___ todo el dinero el lunes.",
+    "promptGloss": {
+      "de": "Er versprach mir, dass er mir am Montag das ganze Geld zurückgeben würde.",
+      "en": "He promised me he would return all the money on Monday."
+    },
+    "options": ["devolvería", "devolverá", "devuelve", "devolvía"],
+    "answer": "devolvería",
+    "explain": {
+      "de": "Zukunft aus der Vergangenheit: nach 'prometió' stand die Rückgabe noch bevor → condicional. Devolver ist regelmäßig: devolver + ía = devolvería. 'Devolverá' (Futur) passt nicht nach dem Vergangenheitsverb.",
+      "en": "Future-in-the-past: after 'prometió' the return was still ahead → conditional. Devolver is regular: devolver + ía = devolvería. 'Devolverá' (future) does not fit after the past verb."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "Con más dinero, nosotros ___ en el parque una casa grande.",
+    "promptGloss": {
+      "de": "Mit mehr Geld würden wir am Park ein großes Haus kaufen.",
+      "en": "With more money, we would buy a big house by the park."
+    },
+    "options": ["compraríamos", "compraremos", "comprábamos", "compramos"],
+    "answer": "compraríamos",
+    "explain": {
+      "de": "Hypothese im Hauptsatz: voller Infinitiv comprar + nosotros-Endung -íamos = compraríamos. 'Compraremos' ist Futur, 'comprábamos' ist Imperfekt.",
+      "en": "Hypothesis in the main clause: full infinitive comprar + the nosotros ending -íamos = compraríamos. 'Compraremos' is future, 'comprábamos' is imperfect."
+    }
+  },
+  {
+    "kind": "fill",
+    "prompt": "Ellos ___ muy contentos con la noticia, seguro.",
     "promptGloss": {
       "de": "Sie wären sicher sehr zufrieden mit der Nachricht.",
       "en": "They would surely be very happy with the news."
@@ -200,6 +212,20 @@
     "explain": {
       "de": "Estar ist im condicional regelmäßig: voller Infinitiv estar + ellos-Endung -ían = estarían. Der Akzent steht immer auf dem í der Endung.",
       "en": "Estar is regular in the conditional: full infinitive estar + the ellos ending -ían = estarían. The accent always falls on the í of the ending."
+    }
+  },
+  {
+    "kind": "choice",
+    "prompt": "¿Qué ___ tú en mi lugar? No sé qué decidir.",
+    "promptGloss": {
+      "de": "Was würdest du an meiner Stelle sagen? Ich weiß nicht, was ich entscheiden soll.",
+      "en": "What would you say in my place? I don't know what to decide."
+    },
+    "options": ["dirías", "decirías", "dirás", "decías"],
+    "answer": "dirías",
+    "explain": {
+      "de": "Decir hat den Stamm dir-: dir + ías = dirías. 'Decirías' (mit vollem Infinitiv) ist falsch, weil decir einen irregulären Stamm hat. 'Dirás' ist Futur.",
+      "en": "Decir has the stem dir-: dir + ías = dirías. 'Decirías' (full infinitive) is wrong because decir has an irregular stem. 'Dirás' is future."
     }
   },
   {
