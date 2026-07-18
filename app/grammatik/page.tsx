@@ -31,16 +31,16 @@ export default function GrammatikPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold tracking-tight">{t("nav.grammar")}</h1>
+        <h1 className="font-display text-2xl font-bold tracking-tight">{t("nav.grammar")}</h1>
         <p className="mt-1 text-muted">{t("grammar.intro")}</p>
       </div>
 
       {/* level banner */}
       {prog && (
-        <div className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm">
+        <div className="card flex items-center gap-4 p-5">
           <ScoreRing correct={prog.passedCount} total={prog.total} size={96} />
           <div className="min-w-0">
-            <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("grammar.progressTitle")}</div>
+            <div className="section-label">{t("grammar.progressTitle")}</div>
             <div className="text-xl font-bold">
               <span className="text-brand">{t("grammar.level")} {prog.level}</span> · {prog.levelTitle}
             </div>
@@ -50,18 +50,18 @@ export default function GrammatikPage() {
         </div>
       )}
 
-      <div className="grid gap-3">
+      <div className="grid gap-3 stagger">
         {areas.map((a) => (
           <Link
             key={a.href}
             href={a.href}
-            className="group flex items-center gap-4 rounded-xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+            className="card card-hover group flex items-center gap-4 p-5"
           >
             <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand">
               <a.Icon className="h-6 w-6" />
             </span>
             <div className="flex-1">
-              <div className="font-semibold group-hover:text-brand">{a.title}</div>
+              <div className="font-display font-semibold group-hover:text-brand">{a.title}</div>
               <div className="mt-0.5 text-sm text-muted">{a.desc}</div>
             </div>
             {prog && (

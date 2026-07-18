@@ -3,7 +3,8 @@ export function ScoreRing({ correct, total, size = 132 }: { correct: number; tot
   const pct = total ? Math.round((correct / total) * 100) : 0;
   const r = (size - 14) / 2;
   const circ = 2 * Math.PI * r;
-  const color = pct >= 80 ? "#16a34a" : pct >= 50 ? "var(--brand-2)" : "var(--brand)";
+  const offset = circ * (1 - pct / 100);
+  const color = pct >= 80 ? "var(--success)" : pct >= 50 ? "var(--brand-2)" : "var(--brand)";
   return (
     <div className="relative inline-flex items-center justify-center" style={{ width: size, height: size }}>
       <svg width={size} height={size} className="-rotate-90">
@@ -16,13 +17,24 @@ export function ScoreRing({ correct, total, size = 132 }: { correct: number; tot
           strokeWidth={10}
           strokeLinecap="round"
           strokeDasharray={circ}
-          strokeDashoffset={circ * (1 - pct / 100)}
-          style={{ stroke: color, transition: "stroke-dashoffset .6s ease" }}
-        />
+          strokeDashoffset={offset}
+          style={{ stroke: color, transition: "stroke-dashoffset .9s ease-out" }}
+        >
+          <animate
+            attributeName="stroke-dashoffset"
+            from={circ}
+            to={offset}
+            dur="0.9s"
+            calcMode="spline"
+            keyTimes="0;1"
+            keySplines="0 0 0.58 1"
+            fill="freeze"
+          />
+        </circle>
       </svg>
       <div className="absolute flex flex-col items-center">
-        <span className="text-3xl font-bold">{correct}<span className="text-lg text-muted">/{total}</span></span>
-        <span className="text-xs text-muted">{pct}%</span>
+        <span className="font-display text-3xl font-bold">{correct}<span className="text-lg text-muted">/{total}</span></span>
+        <span className="font-display text-xs text-muted">{pct}%</span>
       </div>
     </div>
   );

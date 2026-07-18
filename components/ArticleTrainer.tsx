@@ -79,26 +79,30 @@ export function ArticleTrainer() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, status, idx]);
 
-  if (!articles) return <p className="text-muted">{t("common.loading")}</p>;
+  if (!articles) return (
+    <div className="space-y-4">
+      <div className="h-8 w-48 skeleton rounded-lg" />
+      <div className="h-20 w-full skeleton rounded-2xl" />
+      <div className="h-40 w-full skeleton rounded-2xl" />
+    </div>
+  );
 
-  const chip = (selected: boolean) =>
-    `rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
-      selected ? "border-transparent bg-article/15 text-article" : "border-border text-muted hover:bg-foreground/5 hover:text-foreground"
-    }`;
+  const chip = (selected: boolean) => `chip${selected ? " is-active" : ""}`;
+  const chipAccent = { ["--chip-accent" as string]: "var(--color-article)" };
 
   if (phase === "setup") {
     const irrN = articles.filter((a) => a.irregular).length;
     return (
-      <div className="space-y-6">
+      <div className="stagger space-y-6">
         <div className="flex items-start gap-3">
           <Link href="/vokabular" className="text-sm text-muted hover:text-foreground">←</Link>
           <div>
-            <h1 className="text-2xl font-bold tracking-tight text-article">{t("artikel.title")}</h1>
+            <h1 className="font-display text-2xl font-bold tracking-tight text-article">{t("artikel.title")}</h1>
             <p className="mt-1 text-muted">{t("artikel.subtitle")}</p>
           </div>
         </div>
 
-        <div className="rounded-2xl border border-border bg-card p-4">
+        <div className="card p-4">
           <div className="flex items-baseline justify-between text-sm">
             <span className="font-semibold">{t("artikel.title")}</span>
             <span className="text-muted">{prog?.mastered ?? 0} {t("artikel.sure")} · {irrN} {t("artikel.irregular")}</span>
@@ -108,21 +112,21 @@ export function ArticleTrainer() {
 
         <div className="grid gap-5 sm:grid-cols-2">
           <div>
-            <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("artikel.mode")}</div>
+            <div className="section-label mb-2">{t("artikel.mode")}</div>
             <div className="flex flex-wrap gap-2">
-              <button onClick={() => setMode("mixed")} className={chip(mode === "mixed")}>{t("artikel.mixed")}</button>
-              <button onClick={() => setMode("hard")} className={chip(mode === "hard")}>{t("artikel.hard")}</button>
+              <button onClick={() => setMode("mixed")} className={chip(mode === "mixed")} style={mode === "mixed" ? chipAccent : undefined}>{t("artikel.mixed")}</button>
+              <button onClick={() => setMode("hard")} className={chip(mode === "hard")} style={mode === "hard" ? chipAccent : undefined}>{t("artikel.hard")}</button>
             </div>
           </div>
           <div>
-            <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.round")}</div>
+            <div className="section-label mb-2">{t("vocab.setup.round")}</div>
             <div className="flex flex-wrap gap-2">
-              {COUNTS.map((n) => <button key={n} onClick={() => setCount(n)} className={chip(count === n)}>{n}</button>)}
+              {COUNTS.map((n) => <button key={n} onClick={() => setCount(n)} className={chip(count === n)} style={count === n ? chipAccent : undefined}>{n}</button>)}
             </div>
           </div>
         </div>
 
-        <button onClick={start} className="w-full rounded-xl bg-article px-5 py-4 font-semibold text-white hover:opacity-90">
+        <button onClick={start} className="btn btn-lg w-full bg-article text-white">
           {t("common.start")}
         </button>
       </div>
@@ -138,18 +142,18 @@ export function ArticleTrainer() {
       <div className="mx-auto max-w-md space-y-6">
         <div className="flex justify-center pt-2"><ScoreRing correct={correct} total={totalDone} /></div>
         <div className="grid grid-cols-3 gap-3 text-center">
-          <div className="rounded-xl border border-border bg-card py-3"><div className="text-2xl font-bold text-green-600 dark:text-green-400">{correct}</div><div className="text-xs text-muted">{t("stats.todayCorrect")}</div></div>
-          <div className="rounded-xl border border-border bg-card py-3"><div className="text-2xl font-bold text-red-600 dark:text-red-400">{wrong}</div><div className="text-xs text-muted">{t("stats.todayWrong")}</div></div>
-          <div className="rounded-xl border border-border bg-card py-3"><div className="text-2xl font-bold">{timeStr}</div><div className="text-xs text-muted">{t("buch.time")}</div></div>
+          <div className="card py-3"><div className="font-display text-2xl font-bold text-success">{correct}</div><div className="text-xs text-muted">{t("stats.todayCorrect")}</div></div>
+          <div className="card py-3"><div className="font-display text-2xl font-bold text-danger">{wrong}</div><div className="text-xs text-muted">{t("stats.todayWrong")}</div></div>
+          <div className="card py-3"><div className="font-display text-2xl font-bold">{timeStr}</div><div className="text-xs text-muted">{t("buch.time")}</div></div>
         </div>
         <div className="space-y-2">
           {wrongQs.length > 0 && (
-            <button onClick={retryWrong} className="w-full rounded-xl border-2 border-red-500/40 px-5 py-3 font-semibold text-red-600 transition-colors hover:bg-red-500/10 dark:text-red-400">
+            <button onClick={retryWrong} className="w-full rounded-xl border-2 border-danger/40 px-5 py-3 font-semibold text-danger transition-colors hover:bg-danger/10">
               {t("buch.retryWrong")} ({wrongQs.length})
             </button>
           )}
-          <button onClick={start} className="w-full rounded-xl bg-article px-5 py-3 font-semibold text-white hover:opacity-90">{t("buch.more")} ({count})</button>
-          <button onClick={() => { setPhase("setup"); refreshMastery(); }} className="w-full px-5 py-2 text-sm font-medium text-muted hover:text-foreground">{t("buch.overview")}</button>
+          <button onClick={start} className="btn w-full bg-article text-white">{t("buch.more")} ({count})</button>
+          <button onClick={() => { setPhase("setup"); refreshMastery(); }} className="btn btn-ghost btn-sm w-full">{t("buch.overview")}</button>
         </div>
       </div>
     );
@@ -192,9 +196,9 @@ export function ArticleTrainer() {
         <div className="h-full bg-article transition-all" style={{ width: `${(idx / total) * 100}%` }} />
       </div>
 
-      <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
-        <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("artikel.q")}</div>
-        <div className="mt-3 flex items-center justify-center gap-2 text-3xl font-bold">
+      <div className="card p-6 text-center">
+        <div className="section-label">{t("artikel.q")}</div>
+        <div className="mt-3 flex items-center justify-center gap-2 font-display text-4xl font-bold">
           <span lang="es"><span className="text-muted">___</span> {q.es}</span>
           <SpeakButton text={q.es} />
         </div>
@@ -207,8 +211,8 @@ export function ArticleTrainer() {
           const isPicked = picked === opt;
           let cls = "border-border hover:bg-foreground/5";
           if (status !== "idle") {
-            if (isAnswer) cls = "border-green-500 bg-green-500/10 text-green-700 dark:text-green-400";
-            else if (isPicked) cls = "border-red-500 bg-red-500/10 text-red-700 dark:text-red-400";
+            if (isAnswer) cls = "border-success bg-success/10 text-success";
+            else if (isPicked) cls = "border-danger bg-danger/10 text-danger";
             else cls = "border-border opacity-50";
           }
           return (
@@ -221,7 +225,7 @@ export function ArticleTrainer() {
       </div>
 
       {status !== "idle" && (
-        <div className={`rounded-xl p-4 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
+        <div className={`animate-pop rounded-xl p-4 text-sm ${status === "right" ? "bg-success/10 text-success" : "bg-danger/10 text-danger"}`}>
           <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
           <div className="mt-1 text-foreground"><b lang="es">{q.article} {q.es}</b>{meaning.get(q.es) ? ` — ${meaning.get(q.es)}` : ""}</div>
           {q.irregular && q.note && (
@@ -230,7 +234,7 @@ export function ArticleTrainer() {
               <span className="italic">{L(q.note)}</span>
             </div>
           )}
-          <button onClick={next} className="mt-3 rounded-lg bg-article px-4 py-2 font-medium text-white hover:opacity-90">{t("common.continue")}</button>
+          <button onClick={next} className="btn btn-sm mt-3 bg-article text-white">{t("common.continue")}</button>
         </div>
       )}
     </div>

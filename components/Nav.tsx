@@ -29,18 +29,19 @@ export function Nav() {
     <header className="sticky top-0 z-10 border-b border-border bg-background/85 backdrop-blur">
       {/* wide header so the whole nav fits without scrolling on desktop */}
       <div className="mx-auto flex max-w-7xl items-center gap-2 px-4 py-3 sm:px-6">
-        <Link href="/" className="flex shrink-0 items-center gap-2 font-bold tracking-tight">
-          <span className="inline-block h-2.5 w-2.5 rounded-full bg-brand" />
-          <span>Español</span>
+        <Link href="/" className="group flex shrink-0 items-center gap-2">
+          <span className="inline-block h-2.5 w-2.5 rounded-full bg-brand transition-transform group-hover:scale-125" />
+          <span className="font-display text-lg font-semibold tracking-tight">Español</span>
         </Link>
         <nav className="flex flex-1 items-center gap-0.5 overflow-x-auto [scrollbar-width:none] sm:gap-1 [&::-webkit-scrollbar]:hidden">
           {links.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              className={`shrink-0 rounded-md px-2 py-1.5 text-sm font-medium transition-colors sm:px-2.5 ${
+              aria-current={isUnder(pathname, l.href) ? "page" : undefined}
+              className={`shrink-0 rounded-lg px-2 py-1.5 text-sm font-medium transition-colors sm:px-2.5 ${
                 isUnder(pathname, l.href)
-                  ? "bg-brand/10 text-brand"
+                  ? "bg-brand/10 font-semibold text-brand"
                   : "text-muted hover:bg-foreground/5 hover:text-foreground"
               }`}
             >
@@ -51,7 +52,7 @@ export function Nav() {
         <button
           onClick={toggle}
           aria-label={t("lang.label")}
-          className="shrink-0 rounded-md border border-border px-2 py-1.5 text-xs font-semibold text-muted hover:text-foreground"
+          className="btn btn-secondary btn-sm shrink-0"
         >
           {locale === "de" ? "EN" : "DE"}
         </button>

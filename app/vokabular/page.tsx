@@ -93,16 +93,16 @@ export default function VokabularPage() {
     return (
       <div className="space-y-6">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">{t("vocab.pick.title")}</h1>
+          <h1 className="font-display text-2xl font-bold tracking-tight">{t("vocab.pick.title")}</h1>
           <p className="mt-1 text-sm text-muted">{t("vocab.pick.subtitle")}</p>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="stagger grid gap-4 sm:grid-cols-2">
           {CATS.map((c) => (
             <button
               key={c.id}
               onClick={() => { setCat(c.id); setBand("easy"); }}
-              className={`group relative overflow-hidden rounded-2xl border bg-card p-5 text-left shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg ${c.border} ${c.hoverBorder}`}
+              className={`group card card-hover relative overflow-hidden p-5 text-left ${c.border} ${c.hoverBorder}`}
             >
               {/* colored corner wash */}
               <div className={`pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full ${c.bg} blur-2xl`} />
@@ -111,7 +111,7 @@ export default function VokabularPage() {
                   <c.Icon className="h-6 w-6" />
                 </div>
                 <div className="min-w-0">
-                  <div className={`text-lg font-semibold transition-colors ${c.hoverText}`}>{t(`vocab.cat.${c.id}` as never)}</div>
+                  <div className={`font-display text-lg font-semibold transition-colors ${c.hoverText}`}>{t(`vocab.cat.${c.id}` as never)}</div>
                   <p className="mt-0.5 text-sm leading-snug text-muted">{t(`vocab.cat.${c.id}.desc` as never)}</p>
                   <div className={`mt-3 inline-flex items-center gap-1.5 rounded-full ${c.bg} px-2.5 py-1 text-xs font-semibold ${c.text}`}>
                     <span className={`h-1.5 w-1.5 rounded-full ${c.dot}`} />
@@ -120,7 +120,7 @@ export default function VokabularPage() {
                   {snap ? (
                     <MasteryBar right={snap.byCat[c.id].right} wrong={snap.byCat[c.id].wrong} neu={snap.byCat[c.id].new} />
                   ) : (
-                    <div className="mt-2.5 h-2 w-full rounded-full bg-foreground/10" />
+                    <div className="mt-2.5 h-2 w-full skeleton rounded-full" />
                   )}
                 </div>
                 <IconArrowRight className={`ml-auto h-5 w-5 shrink-0 text-muted transition-transform group-hover:translate-x-1 ${c.hoverText}`} />
@@ -132,7 +132,7 @@ export default function VokabularPage() {
         {/* special exercise: gender / article trainer */}
         <Link
           href="/vokabular/artikel"
-          className="group relative block overflow-hidden rounded-2xl border border-article/30 bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-article/60 hover:shadow-lg"
+          className="group card card-hover relative block overflow-hidden border-article/30 p-5 hover:border-article/60"
         >
           <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-article/10 blur-2xl" />
           <div className="relative flex items-start gap-4">
@@ -140,7 +140,7 @@ export default function VokabularPage() {
               <IconLetters className="h-6 w-6" />
             </div>
             <div className="min-w-0 flex-1">
-              <div className="text-lg font-semibold transition-colors group-hover:text-article">{t("vocab.cat.article")}</div>
+              <div className="font-display text-lg font-semibold transition-colors group-hover:text-article">{t("vocab.cat.article")}</div>
               <p className="mt-0.5 text-sm leading-snug text-muted">{t("vocab.cat.article.desc")}</p>
               {artProg && <MasteryBar right={artProg.right} wrong={artProg.wrong} neu={artProg.new} />}
             </div>
@@ -151,7 +151,7 @@ export default function VokabularPage() {
         {/* special exercise: numbers trainer */}
         <Link
           href="/zahlen"
-          className="group relative block overflow-hidden rounded-2xl border border-noun/30 bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-noun/60 hover:shadow-lg"
+          className="group card card-hover relative block overflow-hidden border-noun/30 p-5 hover:border-noun/60"
         >
           <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-noun/10 blur-2xl" />
           <div className="relative flex items-start gap-4">
@@ -159,7 +159,7 @@ export default function VokabularPage() {
               <IconHash className="h-6 w-6" />
             </div>
             <div className="min-w-0 flex-1">
-              <div className="text-lg font-semibold transition-colors group-hover:text-noun">{t("numbers.title")}</div>
+              <div className="font-display text-lg font-semibold transition-colors group-hover:text-noun">{t("numbers.title")}</div>
               <p className="mt-0.5 text-sm leading-snug text-muted">{t("numbers.cardDesc")}</p>
             </div>
             <IconArrowRight className="ml-auto h-5 w-5 shrink-0 text-muted transition-transform group-hover:translate-x-1 group-hover:text-noun" />
@@ -178,6 +178,7 @@ export default function VokabularPage() {
     { dir: "es-en", title: t("vocab.setup.typeEn"), desc: t("vocab.setup.typeEn.desc"), from: "ES", to: "EN" },
   ];
   const bandEmpty = bandCounts[band] === 0;
+  const chipStyle = { ["--chip-accent" as string]: `var(--color-${active.dot.slice(3)})` } as React.CSSProperties;
 
   return (
     <div className="space-y-7">
@@ -192,12 +193,12 @@ export default function VokabularPage() {
         <div className={`inline-flex h-11 w-11 items-center justify-center rounded-xl ${active.bg} ${active.text}`}>
           <active.Icon className="h-6 w-6" />
         </div>
-        <h1 className={`text-2xl font-bold tracking-tight ${active.text}`}>{t(`vocab.cat.${active.id}` as never)}</h1>
+        <h1 className={`font-display text-2xl font-bold tracking-tight ${active.text}`}>{t(`vocab.cat.${active.id}` as never)}</h1>
       </div>
 
       {/* difficulty */}
       <div>
-        <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.difficulty")}</div>
+        <div className="section-label mb-2">{t("vocab.setup.difficulty")}</div>
         <div className="flex flex-wrap gap-2">
           {BANDS.map((b) => {
             const n = bandCounts[b.id];
@@ -207,9 +208,8 @@ export default function VokabularPage() {
                 key={b.id}
                 onClick={() => setBand(b.id)}
                 disabled={n === 0}
-                className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-40 ${
-                  selected ? `${active.bg} ${active.text} border-transparent` : "border-border text-muted hover:text-foreground hover:bg-foreground/5"
-                }`}
+                style={selected ? chipStyle : undefined}
+                className={`chip ${selected ? "is-active" : ""} disabled:cursor-not-allowed disabled:opacity-40`}
               >
                 {t(`vocab.diff.${b.id}` as never)}
                 <span className="ml-1.5 text-xs opacity-70">{n}</span>
@@ -222,7 +222,7 @@ export default function VokabularPage() {
       {/* focus (which words) + round length — compact, sensible defaults */}
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.focus")}</div>
+          <div className="section-label mb-2">{t("vocab.setup.focus")}</div>
           <div className="flex flex-wrap gap-2">
             {FOCI.map((s) => {
               const selected = scope === s;
@@ -231,9 +231,8 @@ export default function VokabularPage() {
                   key={s}
                   onClick={() => setScope(s)}
                   title={t(`vocab.focusDesc.${s}` as never)}
-                  className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
-                    selected ? `${active.bg} ${active.text} border-transparent` : "border-border text-muted hover:text-foreground hover:bg-foreground/5"
-                  }`}
+                  style={selected ? chipStyle : undefined}
+                  className={`chip ${selected ? "is-active" : ""}`}
                 >
                   {t(`vocab.focus.${s}` as never)}
                 </button>
@@ -242,7 +241,7 @@ export default function VokabularPage() {
           </div>
         </div>
         <div>
-          <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.round")}</div>
+          <div className="section-label mb-2">{t("vocab.setup.round")}</div>
           <div className="flex flex-wrap gap-2">
             {COUNTS.map((n) => {
               const selected = count === n;
@@ -250,9 +249,8 @@ export default function VokabularPage() {
                 <button
                   key={n}
                   onClick={() => setCount(n)}
-                  className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
-                    selected ? `${active.bg} ${active.text} border-transparent` : "border-border text-muted hover:text-foreground hover:bg-foreground/5"
-                  }`}
+                  style={selected ? chipStyle : undefined}
+                  className={`chip ${selected ? "is-active" : ""}`}
                 >
                   {n}
                 </button>
@@ -264,7 +262,7 @@ export default function VokabularPage() {
 
       {/* direction = the two options; picking one starts the round */}
       <div>
-        <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.directionTitle")}</div>
+        <div className="section-label mb-2">{t("vocab.setup.directionTitle")}</div>
         <div className="grid gap-3 sm:grid-cols-2">
           {directions.map((d) =>
             bandEmpty ? (
@@ -275,14 +273,14 @@ export default function VokabularPage() {
               <Link
                 key={d.dir}
                 href={href(d.dir)}
-                className={`group rounded-2xl border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg ${active.border} ${active.hoverBorder}`}
+                className={`group card card-hover p-5 ${active.border} ${active.hoverBorder}`}
               >
                 <div className="flex items-center gap-2 text-sm font-semibold">
                   <span className="rounded-md bg-foreground/5 px-2 py-0.5 font-mono text-xs">{d.from}</span>
                   <IconArrowRight className={`h-4 w-4 ${active.text}`} />
                   <span className={`rounded-md px-2 py-0.5 font-mono text-xs ${active.bg} ${active.text}`}>{d.to}</span>
                 </div>
-                <div className={`mt-3 text-lg font-semibold transition-colors ${active.hoverText}`}>{d.title}</div>
+                <div className={`font-display mt-3 text-lg font-semibold transition-colors ${active.hoverText}`}>{d.title}</div>
                 <p className="mt-0.5 text-sm leading-snug text-muted">{d.desc}</p>
               </Link>
             )

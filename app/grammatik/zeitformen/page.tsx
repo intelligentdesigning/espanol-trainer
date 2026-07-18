@@ -19,28 +19,28 @@ export default function ZeitformenIndex() {
     <div className="space-y-5">
       <Link href="/grammatik" className="text-sm text-muted hover:text-foreground">← {t("nav.grammar")}</Link>
       <div className="flex items-end justify-between gap-3">
-        <h1 className="text-2xl font-bold tracking-tight">{t("grammar.area.zeitformen")}</h1>
+        <h1 className="font-display text-2xl font-bold tracking-tight">{t("grammar.area.zeitformen")}</h1>
         {prog && <span className="shrink-0 rounded-full bg-foreground/5 px-3 py-1 text-sm font-semibold">{passed}/{available.length}</span>}
       </div>
 
       <Link
         href="/grammatik/uebung/konjugation"
-        className="flex items-center justify-between rounded-xl bg-brand px-5 py-4 font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
+        className="btn btn-primary btn-lg w-full justify-between"
       >
         {t("conj.title")}
         <IconArrowRight className="h-5 w-5" />
       </Link>
 
-      <div className="grid gap-2">
+      <div className="grid gap-2 stagger">
         {zeitformen.map((tn) =>
           tn.available ? (
             <Link
               key={tn.id}
               href={`/grammatik/zeitformen/${tn.id}`}
-              className="group flex items-center justify-between rounded-xl border border-border bg-card p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+              className="card card-hover group flex items-center justify-between p-4"
             >
               <div>
-                <div className="font-semibold group-hover:text-brand">{L(tn.name)}</div>
+                <div className="font-display font-semibold group-hover:text-brand">{L(tn.name)}</div>
                 <div className="text-xs text-muted">{L(tn.mood)}</div>
               </div>
               <div className="flex items-center gap-2">
@@ -49,7 +49,7 @@ export default function ZeitformenIndex() {
               </div>
             </Link>
           ) : (
-            <div key={tn.id} className="flex items-center justify-between rounded-xl border border-dashed border-border p-4 opacity-70">
+            <div key={tn.id} className="flex items-center justify-between rounded-2xl border border-dashed border-border p-4 opacity-70">
               <div>
                 <div className="font-medium">{L(tn.name)}</div>
                 <div className="text-xs text-muted">{L(tn.mood)}</div>

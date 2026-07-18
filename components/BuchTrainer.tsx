@@ -140,26 +140,31 @@ export function BuchTrainer() {
 
   const retryWrong = () => { if (wrongQs.length) beginRound(shuffle(wrongQs), lektion); };
 
-  if (!data) return <p className="text-muted">{t("common.loading")}</p>;
+  if (!data) return (
+    <div className="space-y-4">
+      <div className="h-8 w-48 skeleton rounded-lg" />
+      <div className="h-24 w-full skeleton rounded-2xl" />
+      <div className="h-24 w-full skeleton rounded-2xl" />
+    </div>
+  );
 
   if (phase === "setup") {
-    const chip = (selected: boolean) =>
-      `rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
-        selected ? "border-transparent bg-vocab/10 text-vocab" : "border-border text-muted hover:bg-foreground/5 hover:text-foreground"
-      }`;
+    const chip = (selected: boolean) => `chip${selected ? " is-active" : ""}`;
+    const chipAccent = (selected: boolean) =>
+      selected ? { ["--chip-accent" as string]: "var(--color-vocab)" } : undefined;
     const stat = (name: string) => (name === "__all__" ? mastery?.overall : mastery?.byLektion.get(name));
 
     return (
-      <div className="space-y-6">
+      <div className="space-y-6 stagger">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">{t("buch.title")}</h1>
+          <h1 className="font-display text-2xl font-bold tracking-tight">{t("buch.title")}</h1>
           <p className="mt-1 text-muted">{t("buch.subtitle")}</p>
         </div>
 
         <div className="flex flex-wrap gap-2">
           {(["es-de", "de-es"] as Dir[]).map((d) => (
             <button key={d} onClick={() => setDir(d)}
-              className={`rounded-lg border px-3 py-2 text-sm font-semibold ${dir === d ? "border-vocab bg-vocab/10 text-vocab" : "border-border text-muted hover:bg-foreground/5"}`}>
+              className={chip(dir === d)} style={chipAccent(dir === d)}>
               {d === "es-de" ? t("buch.dirEsDe") : t("buch.dirDeEs")}
             </button>
           ))}
@@ -167,15 +172,15 @@ export function BuchTrainer() {
 
         <div className="grid gap-5 sm:grid-cols-2">
           <div>
-            <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.focus")}</div>
+            <div className="mb-2 section-label">{t("vocab.setup.focus")}</div>
             <div className="flex flex-wrap gap-2">
-              {FOCI.map((s) => <button key={s} onClick={() => setScope(s)} title={t(`vocab.focusDesc.${s}` as never)} className={chip(scope === s)}>{t(`vocab.focus.${s}` as never)}</button>)}
+              {FOCI.map((s) => <button key={s} onClick={() => setScope(s)} title={t(`vocab.focusDesc.${s}` as never)} className={chip(scope === s)} style={chipAccent(scope === s)}>{t(`vocab.focus.${s}` as never)}</button>)}
             </div>
           </div>
           <div>
-            <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.round")}</div>
+            <div className="mb-2 section-label">{t("vocab.setup.round")}</div>
             <div className="flex flex-wrap gap-2">
-              {COUNTS.map((n) => <button key={n} onClick={() => setCount(n)} className={chip(count === n)}>{n}</button>)}
+              {COUNTS.map((n) => <button key={n} onClick={() => setCount(n)} className={chip(count === n)} style={chipAccent(count === n)}>{n}</button>)}
             </div>
           </div>
         </div>
@@ -186,7 +191,7 @@ export function BuchTrainer() {
             const active = lektion === l.name;
             return (
               <button key={l.name} onClick={() => setLektion(l.name)}
-                className={`rounded-xl border p-4 text-left transition-all ${active ? "border-vocab bg-vocab/10" : "border-border hover:-translate-y-0.5 hover:bg-foreground/5 hover:shadow-sm"}`}>
+                className={`card p-4 text-left ${active ? "border-vocab bg-vocab/10" : "card-hover"}`}>
                 <div className="flex items-baseline justify-between">
                   <span className="text-base font-semibold">{l.label}</span>
                   <span className="text-sm text-muted">{l.n} {t("vocab.cat.words")}</span>
@@ -199,7 +204,7 @@ export function BuchTrainer() {
 
         {note && <p className="rounded-xl border border-dashed border-border p-4 text-sm text-muted">{note}</p>}
 
-        <button onClick={() => start()} className="w-full rounded-xl bg-vocab px-5 py-4 font-semibold text-white hover:opacity-90">
+        <button onClick={() => start()} className="btn btn-lg w-full bg-vocab text-white">
           {t("common.start")}
         </button>
       </div>
@@ -222,23 +227,23 @@ export function BuchTrainer() {
 
         {/* richtig / falsch / Zeit */}
         <div className="grid grid-cols-3 gap-3 text-center">
-          <div className="rounded-xl border border-border bg-card py-3">
-            <div className="text-2xl font-bold text-green-600 dark:text-green-400">{correct}</div>
+          <div className="card py-3">
+            <div className="font-display text-2xl font-bold text-success">{correct}</div>
             <div className="text-xs text-muted">{t("stats.todayCorrect")}</div>
           </div>
-          <div className="rounded-xl border border-border bg-card py-3">
-            <div className="text-2xl font-bold text-red-600 dark:text-red-400">{wrong}</div>
+          <div className="card py-3">
+            <div className="font-display text-2xl font-bold text-danger">{wrong}</div>
             <div className="text-xs text-muted">{t("stats.todayWrong")}</div>
           </div>
-          <div className="rounded-xl border border-border bg-card py-3">
-            <div className="text-2xl font-bold">{timeStr}</div>
+          <div className="card py-3">
+            <div className="font-display text-2xl font-bold">{timeStr}</div>
             <div className="text-xs text-muted">{t("buch.time")}</div>
           </div>
         </div>
 
         {/* overall Lektion progress */}
         {lekStat && (
-          <div className="rounded-xl border border-border bg-card p-4">
+          <div className="card p-4">
             <div className="text-sm font-semibold">{lekLabel}</div>
             <MasteryBar right={lekStat.right} wrong={lekStat.wrong} neu={lekStat.new} />
           </div>
@@ -247,19 +252,19 @@ export function BuchTrainer() {
         {/* actions */}
         <div className="space-y-2">
           {wrongQs.length > 0 && (
-            <button onClick={retryWrong} className="w-full rounded-xl border-2 border-red-500/40 px-5 py-3 font-semibold text-red-600 transition-colors hover:bg-red-500/10 dark:text-red-400">
+            <button onClick={retryWrong} className="w-full rounded-xl border-2 border-danger/40 px-5 py-3 font-semibold text-danger transition-colors hover:bg-danger/10">
               {t("buch.retryWrong")} ({wrongQs.length})
             </button>
           )}
-          <button onClick={() => start()} className="w-full rounded-xl bg-vocab px-5 py-3 font-semibold text-white hover:opacity-90">
+          <button onClick={() => start()} className="btn btn-lg w-full bg-vocab text-white">
             {t("buch.more")} ({count})
           </button>
           {nextLek && (
-            <button onClick={() => start(nextLek)} className="flex w-full items-center justify-center gap-1.5 rounded-xl border border-border px-5 py-3 font-medium hover:bg-foreground/5">
+            <button onClick={() => start(nextLek)} className="btn btn-secondary btn-lg w-full gap-1.5">
               {t("buch.next").replace("{l}", nextLek)} →
             </button>
           )}
-          <button onClick={() => { setPhase("setup"); refreshMastery(); }} className="w-full px-5 py-2 text-sm font-medium text-muted hover:text-foreground">
+          <button onClick={() => { setPhase("setup"); refreshMastery(); }} className="btn btn-ghost btn-sm w-full text-muted">
             {t("buch.overview")}
           </button>
         </div>
@@ -308,10 +313,10 @@ export function BuchTrainer() {
         <div className="h-full bg-vocab transition-all" style={{ width: `${(idx / total) * 100}%` }} />
       </div>
 
-      <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
-        <div className="text-xs font-semibold uppercase tracking-wide text-muted">{dir === "es-de" ? t("buch.dirEsDe") : t("buch.dirDeEs")}</div>
+      <div className="card p-6 text-center">
+        <div className="section-label">{dir === "es-de" ? t("buch.dirEsDe") : t("buch.dirDeEs")}</div>
         <div className="mt-3 flex items-center justify-center gap-2">
-          <span className="text-3xl font-bold" lang={dir === "es-de" ? "es" : "de"}>{formatNotation(q.prompt)}</span>
+          <span className="font-display text-4xl font-bold" lang={dir === "es-de" ? "es" : "de"}>{formatNotation(q.prompt)}</span>
           {dir === "es-de" && <SpeakButton text={q.es} />}
         </div>
         {q.pos && <div className="mt-2.5 flex justify-center"><PosTag pos={q.pos} /></div>}
@@ -320,9 +325,9 @@ export function BuchTrainer() {
       <div className="space-y-3">
         <SpanishInput ref={inputRef} value={input} onChange={setInput} onEnter={submit} readOnly={status !== "idle"}
           placeholder={t("quiz.placeholder")} showAccents={dir === "de-es"}
-          className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-vocab"}`} />
+          className={`input-quiz w-full ${status === "right" ? "!border-success" : status === "wrong" ? "!border-danger" : ""}`} />
         {status !== "idle" && (
-          <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
+          <div className={`animate-pop rounded-xl p-3 text-sm ${status === "right" ? "bg-success/10 text-success" : "bg-danger/10 text-danger"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
             <div className="mt-1 flex items-center gap-1.5 text-foreground">
               <span>{status === "wrong" ? t("quiz.answerWas") : `${t("quiz.meaning")}:`} <b>{formatNotation(q.canonical)}</b></span>
@@ -330,7 +335,7 @@ export function BuchTrainer() {
             </div>
           </div>
         )}
-        <button type="button" onClick={submit} className="w-full rounded-xl bg-vocab px-4 py-3 font-semibold text-white hover:opacity-90">
+        <button type="button" onClick={submit} className="btn btn-lg w-full bg-vocab text-white">
           {status === "idle" ? t("common.check") : t("common.continue")}
         </button>
       </div>

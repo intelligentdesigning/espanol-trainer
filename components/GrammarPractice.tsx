@@ -69,11 +69,11 @@ export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: 
   if (!started && !done) {
     const passed = best >= PASS_PCT;
     return (
-      <div className="space-y-3">
-        <div className="flex items-center justify-between rounded-xl border border-border bg-card px-4 py-3 text-sm">
+      <div className="space-y-3 stagger">
+        <div className="card flex items-center justify-between px-4 py-3 text-sm">
           <span className="text-muted">{t("grammar.passInfo")}</span>
           {best > 0 ? (
-            <span className={`inline-flex items-center gap-1.5 font-semibold ${passed ? "text-green-600 dark:text-green-400" : "text-brand-2"}`}>
+            <span className={`inline-flex items-center gap-1.5 font-semibold ${passed ? "text-success" : "text-brand-2"}`}>
               {passed && <IconCheck className="h-4 w-4" />}
               {t("grammar.best")}: {best}%
             </span>
@@ -83,7 +83,7 @@ export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: 
         </div>
         <button
           onClick={begin}
-          className="w-full rounded-xl bg-brand px-5 py-4 text-center font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
+          className="btn btn-primary btn-lg w-full"
         >
           {best > 0 ? t("grammar.retry") : t("practice.start")} ({items.length})
         </button>
@@ -96,12 +96,12 @@ export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: 
     const passed = pct >= PASS_PCT;
     const isNewBest = pct > best;
     return (
-      <div className={`rounded-2xl border p-6 text-center shadow-sm ${passed ? "border-green-500/50 bg-green-500/5" : "border-border bg-card"}`}>
+      <div className={`card animate-pop p-6 text-center ${passed ? "border-success/50 bg-success/5" : ""}`}>
         <div className="flex justify-center">
-          {passed ? <IconTrophy className="h-10 w-10 text-green-500" /> : null}
+          {passed ? <IconTrophy className="h-10 w-10 text-success" /> : null}
         </div>
         <div className="mt-2 flex justify-center"><ScoreRing correct={correct} total={order.length} size={120} /></div>
-        <div className={`mt-3 text-lg font-bold ${passed ? "text-green-600 dark:text-green-400" : "text-foreground"}`}>
+        <div className={`mt-3 font-display text-xl font-bold ${passed ? "text-success" : "text-foreground"}`}>
           {passed ? t("grammar.passedTitle") : t("grammar.notPassedTitle")}
         </div>
         <p className="mt-1 text-sm text-muted">
@@ -110,7 +110,7 @@ export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: 
         {isNewBest && <div className="mt-2 inline-block rounded-full bg-brand/10 px-3 py-1 text-xs font-semibold text-brand">{t("grammar.newBest")}</div>}
         <div className="mt-2 text-xs text-muted">{t("grammar.best")}: {finalBest}%</div>
         <div className="mt-4 flex justify-center gap-2">
-          <button onClick={begin} className="rounded-lg bg-brand px-4 py-2 font-medium text-white hover:opacity-90">{t("grammar.retry")}</button>
+          <button onClick={begin} className="btn btn-primary">{t("grammar.retry")}</button>
         </div>
       </div>
     );
@@ -160,8 +160,8 @@ export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: 
         <div className="h-full bg-brand transition-all" style={{ width: `${(idx / order.length) * 100}%` }} />
       </div>
 
-      <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
-        <div className="text-lg" lang="es">{renderPrompt(item.prompt)}</div>
+      <div className="card p-6 text-center">
+        <div className="font-display text-2xl leading-snug" lang="es">{renderPrompt(item.prompt)}</div>
         {item.promptGloss && <div className="mt-1 text-sm text-muted">{L(item.promptGloss)}</div>}
 
         {item.kind === "choice" && item.options ? (
@@ -171,8 +171,8 @@ export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: 
               const isPicked = picked === opt;
               let cls = "border-border hover:bg-foreground/5";
               if (status !== "idle") {
-                if (isAnswer) cls = "border-green-500 bg-green-500/10 text-green-700 dark:text-green-400";
-                else if (isPicked) cls = "border-red-500 bg-red-500/10 text-red-700 dark:text-red-400";
+                if (isAnswer) cls = "border-success bg-success/10 text-success";
+                else if (isPicked) cls = "border-danger bg-danger/10 text-danger";
                 else cls = "border-border opacity-60";
               }
               return (
@@ -191,23 +191,23 @@ export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: 
               onEnter={() => (status === "idle" ? answer(input) : next())}
               readOnly={status !== "idle"}
               placeholder={t("quiz.placeholder")}
-              className={`w-full rounded-lg border-2 bg-card px-3 py-2 outline-none ${
-                status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-brand"
+              className={`input-quiz ${
+                status === "right" ? "!border-success" : status === "wrong" ? "!border-danger" : ""
               }`}
             />
             {status === "idle" && (
-              <button type="button" onClick={() => answer(input)} className="w-full rounded-lg bg-brand px-4 py-2 font-semibold text-white hover:opacity-90">{t("common.check")}</button>
+              <button type="button" onClick={() => answer(input)} className="btn btn-primary w-full">{t("common.check")}</button>
             )}
           </div>
         )}
       </div>
 
       {status !== "idle" && (
-        <div className={`rounded-xl p-4 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
+        <div className={`animate-pop rounded-xl p-4 text-sm ${status === "right" ? "bg-success/10 text-success" : "bg-danger/10 text-danger"}`}>
           <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
           {status === "wrong" && <div className="mt-1 text-foreground" lang="es">{t("quiz.answerWas")} <b>{item.answer}</b></div>}
           <div className="mt-1 text-foreground/80">{L(item.explain)}</div>
-          <button onClick={next} className="mt-3 rounded-lg bg-brand px-4 py-2 font-medium text-white hover:opacity-90">{t("common.continue")}</button>
+          <button onClick={next} className="btn btn-primary mt-3">{t("common.continue")}</button>
         </div>
       )}
     </div>

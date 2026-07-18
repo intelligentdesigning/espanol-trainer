@@ -103,7 +103,7 @@ export const SpanishInput = forwardRef<SpanishInputHandle, Props>(function Spani
         <input {...common} ref={inputRef as React.RefObject<HTMLInputElement>} className={className} />
       )}
       {showAccents && !disabled && !readOnly && (
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex flex-wrap gap-2">
           {ACCENTS.map((c) => (
             <button
               key={c}
@@ -111,7 +111,7 @@ export const SpanishInput = forwardRef<SpanishInputHandle, Props>(function Spani
               tabIndex={-1}
               onMouseDown={(e) => e.preventDefault()}
               onClick={() => insert(c)}
-              className="h-8 w-8 rounded-md border border-border bg-card text-base font-medium text-muted transition-colors hover:border-brand hover:text-brand"
+              className="chip h-9 w-9 justify-center !px-0 text-base font-medium hover:border-brand hover:text-brand"
             >
               {c}
             </button>

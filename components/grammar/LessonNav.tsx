@@ -23,7 +23,7 @@ export function LessonNav({ items }: { items: { id: string; label: string }[] })
   const go = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
 
   return (
-    <nav className="sticky top-[53px] z-10 -mx-4 border-b border-border bg-background/85 px-4 py-2 backdrop-blur">
+    <nav className="sticky top-[var(--nav-h)] z-10 -mx-4 border-b border-border bg-background/85 px-4 py-2 backdrop-blur">
       <div className="flex gap-1.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {items.map((i) => (
           <button

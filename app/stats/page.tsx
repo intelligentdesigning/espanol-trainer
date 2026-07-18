@@ -80,8 +80,8 @@ export default function StatsPage() {
   };
 
   return (
-    <div className="space-y-6">
-      <h1 className="text-2xl font-bold tracking-tight">{t("stats.title")}</h1>
+    <div className="space-y-6 stagger">
+      <h1 className="font-display text-2xl font-bold tracking-tight">{t("stats.title")}</h1>
 
       {!hasData ? (
         <p className="text-muted">{t("stats.none")}</p>
@@ -89,7 +89,7 @@ export default function StatsPage() {
         <>
           {/* today — how much practiced today (right/wrong/total, right wins on retry) */}
           {today && (
-            <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+            <div className="card p-5">
               <div className="flex items-center justify-between">
                 <h2 className="font-semibold">{t("stats.today")}</h2>
                 <span className="text-xs text-muted">
@@ -100,15 +100,15 @@ export default function StatsPage() {
               </div>
               <div className="mt-3 grid grid-cols-3 gap-3 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-green-600 dark:text-green-400">{today.correct}</div>
+                  <div className="font-display text-3xl font-bold text-success">{today.correct}</div>
                   <div className="text-xs text-muted">{t("stats.todayCorrect")}</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-red-600 dark:text-red-400">{today.wrong}</div>
+                  <div className="font-display text-3xl font-bold text-danger">{today.wrong}</div>
                   <div className="text-xs text-muted">{t("stats.todayWrong")}</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold">{today.total}</div>
+                  <div className="font-display text-3xl font-bold">{today.total}</div>
                   <div className="text-xs text-muted">{t("stats.todayTotal")}</div>
                 </div>
               </div>
@@ -135,12 +135,12 @@ export default function StatsPage() {
 
           {/* history — past days (a day = a session) + averages */}
           {activeDays.length > 0 && (
-            <div className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+            <div className="card p-5">
               <h2 className="font-semibold">{t("stats.history")}</h2>
               <div className="mt-3 grid grid-cols-3 gap-3 text-center">
-                <div><div className="text-2xl font-bold text-vocab">{dailyAvg}</div><div className="text-xs text-muted">{t("stats.dailyAvg")}</div></div>
-                <div><div className="text-2xl font-bold text-vocab">{weeklyAvg}</div><div className="text-xs text-muted">{t("stats.weeklyAvg")}</div></div>
-                <div><div className="text-2xl font-bold">{activeDays.length}</div><div className="text-xs text-muted">{t("stats.daysLearned")}</div></div>
+                <div><div className="font-display text-2xl font-bold text-vocab">{dailyAvg}</div><div className="text-xs text-muted">{t("stats.dailyAvg")}</div></div>
+                <div><div className="font-display text-2xl font-bold text-vocab">{weeklyAvg}</div><div className="text-xs text-muted">{t("stats.weeklyAvg")}</div></div>
+                <div><div className="font-display text-2xl font-bold">{activeDays.length}</div><div className="text-xs text-muted">{t("stats.daysLearned")}</div></div>
               </div>
               <div className="mt-4 divide-y divide-border">
                 {[...activeDays].reverse().slice(0, 14).map((d) => {
@@ -162,11 +162,11 @@ export default function StatsPage() {
 
           {/* mastery headline — the "high score" */}
           {snap && (
-            <div className="flex flex-col items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm sm:flex-row sm:gap-6">
+            <div className="card flex flex-col items-center gap-4 p-5 sm:flex-row sm:gap-6">
               <ScoreRing correct={snap.overall.mastered} total={snap.overall.total} />
               <div className="text-center sm:text-left">
                 <div className="text-sm text-muted">{t("stats.mastered")}</div>
-                <div className="text-3xl font-bold">
+                <div className="font-display text-3xl font-bold">
                   {snap.overall.mastered} <span className="text-lg text-muted">/ {snap.overall.total}</span>
                 </div>
                 <div className="mt-1 text-sm text-muted">
@@ -180,10 +180,10 @@ export default function StatsPage() {
 
           {/* grammar level */}
           {gprog && (
-            <Link href="/grammatik" className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+            <Link href="/grammatik" className="card card-hover flex items-center gap-4 p-5">
               <ScoreRing correct={gprog.passedCount} total={gprog.total} size={84} />
               <div className="min-w-0 flex-1">
-                <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("grammar.progressTitle")}</div>
+                <div className="section-label">{t("grammar.progressTitle")}</div>
                 <div className="text-lg font-bold"><span className="text-brand">{t("grammar.level")} {gprog.level}</span> · {gprog.levelTitle}</div>
                 <div className="text-sm text-muted">{gprog.passedCount}/{gprog.total} {t("grammar.chaptersPassed")}</div>
               </div>
@@ -193,10 +193,10 @@ export default function StatsPage() {
 
           {/* coursebook (Buch) mastery */}
           {buch && buch.overall.total > 0 && (
-            <Link href="/buch" className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+            <Link href="/buch" className="card card-hover flex items-center gap-4 p-5">
               <ScoreRing correct={buch.overall.mastered} total={buch.overall.total} size={84} />
               <div className="min-w-0 flex-1">
-                <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("home.buch.title")}</div>
+                <div className="section-label">{t("home.buch.title")}</div>
                 <div className="text-lg font-bold">{buch.overall.masteredPct}% <span className="text-sm font-medium text-muted">{t("vocab.cat.mastered")}</span></div>
                 <div className="text-sm text-muted">{buch.overall.mastered}/{buch.overall.total}</div>
               </div>
@@ -206,10 +206,10 @@ export default function StatsPage() {
 
           {/* article (gender) trainer */}
           {art && art.total > 0 && (
-            <Link href="/vokabular/artikel" className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+            <Link href="/vokabular/artikel" className="card card-hover flex items-center gap-4 p-5">
               <ScoreRing correct={art.mastered} total={art.total} size={84} />
               <div className="min-w-0 flex-1">
-                <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("artikel.title")}</div>
+                <div className="section-label">{t("artikel.title")}</div>
                 <div className="text-lg font-bold">{art.masteredPct}% <span className="text-sm font-medium text-muted">{t("vocab.cat.mastered")}</span></div>
                 <div className="text-sm text-muted">{art.mastered}/{art.total}</div>
               </div>
@@ -221,7 +221,7 @@ export default function StatsPage() {
           {snap && (
             <section>
               <h2 className="mb-2 font-semibold">{t("stats.breakdown")}</h2>
-              <div className="space-y-3 rounded-xl border border-border bg-card p-4 shadow-sm">
+              <div className="card space-y-3 p-4">
                 {CATS.map((id) => {
                   const c = snap.byCat[id];
                   const pct = (n: number) => (c.total ? (n / c.total) * 100 : 0);
@@ -232,14 +232,14 @@ export default function StatsPage() {
                         <span className="text-muted">{c.mastered}/{c.total} · {c.masteredPct}%</span>
                       </div>
                       <div className="flex h-2.5 w-full overflow-hidden rounded-full bg-foreground/10">
-                        <div className="bg-green-500 transition-all" style={{ width: `${pct(c.mastered)}%` }} />
+                        <div className="bg-success transition-all" style={{ width: `${pct(c.mastered)}%` }} />
                         <div className="bg-brand-2 transition-all" style={{ width: `${pct(c.learning)}%` }} />
                       </div>
                     </div>
                   );
                 })}
                 <div className="flex flex-wrap gap-x-4 gap-y-1 pt-1 text-xs text-muted">
-                  <span className="inline-flex items-center gap-1.5"><span className="h-2 w-2 rounded-full bg-green-500" />{t("vocab.cat.mastered")}</span>
+                  <span className="inline-flex items-center gap-1.5"><span className="h-2 w-2 rounded-full bg-success" />{t("vocab.cat.mastered")}</span>
                   <span className="inline-flex items-center gap-1.5"><span className="h-2 w-2 rounded-full bg-brand-2" />{t("stats.mLearning")}</span>
                   <span className="inline-flex items-center gap-1.5"><span className="h-2 w-2 rounded-full bg-foreground/15" />{t("stats.mNew")}</span>
                 </div>
@@ -258,7 +258,7 @@ export default function StatsPage() {
           {sessions.length > 0 && (
             <section>
               <h2 className="mb-2 font-semibold">{t("stats.recent")}</h2>
-              <div className="divide-y divide-border rounded-xl border border-border bg-card">
+              <div className="card divide-y divide-border">
                 {sessions.slice(0, 10).map((s) => (
                   <div key={s.id} className="flex items-center justify-between px-4 py-2.5 text-sm">
                     <div>
@@ -283,7 +283,7 @@ export default function StatsPage() {
                 resetAll().then(wipeRemote).then(refresh);
               }
             }}
-            className="rounded-lg border border-red-500/40 px-4 py-2 text-sm font-medium text-red-600 hover:bg-red-500/10 dark:text-red-400"
+            className="btn btn-danger"
           >
             {t("stats.reset")}
           </button>
@@ -342,20 +342,20 @@ function SyncCard() {
   const status = (() => {
     if (sync.state === "syncing") return { dot: "bg-amber-500 animate-pulse", text: t("sync.syncing") };
     if (sync.state === "offline") return { dot: "bg-foreground/30", text: t("sync.offline") };
-    if (sync.state === "error") return { dot: "bg-red-500", text: t("sync.error") };
+    if (sync.state === "error") return { dot: "bg-danger", text: t("sync.error") };
     if (sync.lastSyncAt) {
       const secs = Math.round((Date.now() - sync.lastSyncAt) / 1000);
       const ago = secs < 60 ? t("sync.justNow") : new Date(sync.lastSyncAt).toLocaleTimeString(locale === "de" ? "de-DE" : "en-US", { hour: "2-digit", minute: "2-digit" });
-      return { dot: "bg-green-500", text: `${t("sync.synced")} · ${ago}` };
+      return { dot: "bg-success", text: `${t("sync.synced")} · ${ago}` };
     }
     return { dot: "bg-foreground/30", text: t("sync.idle") };
   })();
 
   return (
-    <section className="rounded-2xl border border-border bg-card p-5 shadow-sm">
+    <section className="card p-5">
       <div className="flex items-center justify-between gap-3">
         <h2 className="font-semibold">{t("sync.title")}</h2>
-        <button onClick={() => void syncNow()} className="inline-flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-semibold text-muted hover:text-foreground">
+        <button onClick={() => void syncNow()} className="btn btn-sm btn-secondary">
           <IconConjugate className={`h-3.5 w-3.5 ${sync.state === "syncing" ? "animate-spin" : ""}`} /> {t("sync.now")}
         </button>
       </div>
@@ -366,14 +366,14 @@ function SyncCard() {
       <p className="mt-2 text-sm text-muted">{t("sync.desc")}</p>
 
       {msg && (
-        <p className={`mt-2 text-sm ${msg.kind === "ok" ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400"}`}>{msg.text}</p>
+        <p className={`mt-2 text-sm animate-pop ${msg.kind === "ok" ? "text-success" : "text-danger"}`}>{msg.text}</p>
       )}
 
       <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-border pt-3 text-xs">
-        <button onClick={doExport} className="inline-flex items-center gap-1.5 text-muted hover:text-foreground">
+        <button onClick={doExport} className="btn btn-sm btn-ghost">
           <IconDownload className="h-3.5 w-3.5" /> {t("sync.download")}
         </button>
-        <button onClick={() => fileRef.current?.click()} className="inline-flex items-center gap-1.5 text-muted hover:text-foreground">
+        <button onClick={() => fileRef.current?.click()} className="btn btn-sm btn-ghost">
           <IconUpload className="h-3.5 w-3.5" /> {t("backup.import")}
         </button>
         <input ref={fileRef} type="file" accept="application/json,.json" onChange={onImport} className="hidden" />
@@ -390,8 +390,8 @@ function SyncCard() {
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-xl border border-border bg-card p-4 text-center shadow-sm">
-      <div className="text-2xl font-bold text-brand">{value}</div>
+    <div className="card p-4 text-center">
+      <div className="font-display text-2xl font-bold text-brand">{value}</div>
       <div className="mt-0.5 text-xs text-muted">{label}</div>
     </div>
   );

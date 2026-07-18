@@ -52,18 +52,15 @@ export function NumberTrainer() {
     setPhase("run");
   };
 
-  const chip = (selected: boolean) =>
-    `rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors ${
-      selected ? "border-transparent bg-noun/15 text-noun" : "border-border text-muted hover:bg-foreground/5 hover:text-foreground"
-    }`;
+  const chip = (selected: boolean) => `chip${selected ? " is-active" : ""}`;
 
   if (phase === "setup") {
     return (
-      <div className="space-y-6">
+      <div className="space-y-6 stagger">
         <div className="flex items-start gap-3">
           <Link href="/vokabular" className="text-sm text-muted hover:text-foreground">←</Link>
           <div>
-            <h1 className="text-2xl font-bold tracking-tight text-noun">{t("numbers.title")}</h1>
+            <h1 className="font-display text-2xl font-bold tracking-tight text-noun">{t("numbers.title")}</h1>
             <p className="mt-1 text-muted">{t("numbers.subtitle")}</p>
           </div>
         </div>
@@ -71,27 +68,27 @@ export function NumberTrainer() {
         <div className="flex flex-wrap gap-2">
           {(["d2w", "w2d"] as Mode[]).map((m) => (
             <button key={m} onClick={() => setMode(m)}
-              className={`rounded-lg border px-3 py-2 text-sm font-semibold ${mode === m ? "border-noun bg-noun/10 text-noun" : "border-border text-muted hover:bg-foreground/5"}`}>
+              className={chip(mode === m)} style={{ ["--chip-accent" as string]: "var(--color-noun)" }}>
               {m === "d2w" ? t("numbers.modeD2w") : t("numbers.modeW2d")}
             </button>
           ))}
         </div>
 
         <div>
-          <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("numbers.range")}</div>
+          <div className="mb-2 section-label">{t("numbers.range")}</div>
           <div className="flex flex-wrap gap-2">
-            {RANGES.map((r) => <button key={r.max} onClick={() => setRangeMax(r.max)} className={chip(rangeMax === r.max)}>{r.label}</button>)}
+            {RANGES.map((r) => <button key={r.max} onClick={() => setRangeMax(r.max)} className={chip(rangeMax === r.max)} style={{ ["--chip-accent" as string]: "var(--color-noun)" }}>{r.label}</button>)}
           </div>
         </div>
 
         <div>
-          <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{t("vocab.setup.round")}</div>
+          <div className="mb-2 section-label">{t("vocab.setup.round")}</div>
           <div className="flex flex-wrap gap-2">
-            {COUNTS.map((n) => <button key={n} onClick={() => setCount(n)} className={chip(count === n)}>{n}</button>)}
+            {COUNTS.map((n) => <button key={n} onClick={() => setCount(n)} className={chip(count === n)} style={{ ["--chip-accent" as string]: "var(--color-noun)" }}>{n}</button>)}
           </div>
         </div>
 
-        <button onClick={start} className="w-full rounded-xl bg-noun px-5 py-4 font-semibold text-white hover:opacity-90">
+        <button onClick={start} className="btn btn-lg bg-noun text-white w-full">
           {t("common.start")}
         </button>
       </div>
@@ -106,14 +103,14 @@ export function NumberTrainer() {
     return (
       <div className="mx-auto max-w-md space-y-6">
         <div className="flex justify-center pt-2"><ScoreRing correct={correct} total={total} /></div>
-        <div className="grid grid-cols-3 gap-3 text-center">
-          <div className="rounded-xl border border-border bg-card py-3"><div className="text-2xl font-bold text-green-600 dark:text-green-400">{correct}</div><div className="text-xs text-muted">{t("stats.todayCorrect")}</div></div>
-          <div className="rounded-xl border border-border bg-card py-3"><div className="text-2xl font-bold text-red-600 dark:text-red-400">{wrong}</div><div className="text-xs text-muted">{t("stats.todayWrong")}</div></div>
-          <div className="rounded-xl border border-border bg-card py-3"><div className="text-2xl font-bold">{timeStr}</div><div className="text-xs text-muted">{t("buch.time")}</div></div>
+        <div className="grid grid-cols-3 gap-3 text-center stagger">
+          <div className="card py-3"><div className="font-display text-2xl font-bold text-success">{correct}</div><div className="text-xs text-muted">{t("stats.todayCorrect")}</div></div>
+          <div className="card py-3"><div className="font-display text-2xl font-bold text-danger">{wrong}</div><div className="text-xs text-muted">{t("stats.todayWrong")}</div></div>
+          <div className="card py-3"><div className="font-display text-2xl font-bold">{timeStr}</div><div className="text-xs text-muted">{t("buch.time")}</div></div>
         </div>
         <div className="space-y-2">
-          <button onClick={start} className="w-full rounded-xl bg-noun px-5 py-3 font-semibold text-white hover:opacity-90">{t("buch.more")} ({count})</button>
-          <button onClick={() => setPhase("setup")} className="w-full px-5 py-2 text-sm font-medium text-muted hover:text-foreground">{t("buch.overview")}</button>
+          <button onClick={start} className="btn btn-lg bg-noun text-white w-full">{t("buch.more")} ({count})</button>
+          <button onClick={() => setPhase("setup")} className="btn btn-ghost w-full">{t("buch.overview")}</button>
         </div>
       </div>
     );
@@ -153,12 +150,12 @@ export function NumberTrainer() {
         <div className="h-full bg-noun transition-all" style={{ width: `${(idx / total) * 100}%` }} />
       </div>
 
-      <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
+      <div className="card p-6 text-center">
         {mode === "d2w" ? (
-          <div className="text-4xl font-bold tabular-nums">{groupDigits(n)}</div>
+          <div className="font-display text-4xl font-bold tabular-nums">{groupDigits(n)}</div>
         ) : (
           <div className="flex items-center justify-center gap-2">
-            <span className="text-2xl font-bold leading-snug" lang="es">{words}</span>
+            <span className="font-display text-2xl font-bold leading-snug" lang="es">{words}</span>
             <SpeakButton text={words} />
           </div>
         )}
@@ -167,9 +164,9 @@ export function NumberTrainer() {
       <div className="space-y-3">
         <SpanishInput ref={inputRef} value={input} onChange={setInput} onEnter={submit} readOnly={status !== "idle"}
           placeholder={mode === "d2w" ? t("numbers.placeholderWords") : t("numbers.placeholderDigits")} showAccents={mode === "d2w"}
-          className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-noun"}`} />
+          className={`input-quiz w-full ${status === "right" ? "!border-success" : status === "wrong" ? "!border-danger" : ""}`} />
         {status !== "idle" && (
-          <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
+          <div className={`animate-pop rounded-xl p-3 text-sm ${status === "right" ? "bg-success/10 text-success" : "bg-danger/10 text-danger"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
             <div className="mt-1 flex items-center gap-1.5 text-foreground">
               <span>{t("quiz.answerWas")} <b lang={mode === "d2w" ? "es" : undefined}>{mode === "d2w" ? words : groupDigits(n)}</b></span>
@@ -177,7 +174,7 @@ export function NumberTrainer() {
             </div>
           </div>
         )}
-        <button type="button" onClick={submit} className="w-full rounded-xl bg-noun px-4 py-3 font-semibold text-white hover:opacity-90">
+        <button type="button" onClick={submit} className="btn btn-lg bg-noun text-white w-full">
           {status === "idle" ? t("common.check") : t("common.continue")}
         </button>
       </div>

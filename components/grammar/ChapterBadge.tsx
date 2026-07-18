@@ -8,7 +8,7 @@ export function ChapterBadge({ stat }: { stat?: ChapterStat }) {
   if (!stat || stat.bestPct === 0) return null;
   if (stat.passed) {
     return (
-      <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-green-500/15 px-2 py-0.5 text-xs font-bold text-green-600 dark:text-green-400">
+      <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-success/15 px-2 py-0.5 text-xs font-bold text-success">
         <IconCheck className="h-3.5 w-3.5" /> {stat.bestPct}%
       </span>
     );

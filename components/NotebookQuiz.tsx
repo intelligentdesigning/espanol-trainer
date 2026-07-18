@@ -51,7 +51,7 @@ export function NotebookQuiz({ entries, onExit }: { entries: NotebookEntry[]; on
   }, [idx, status]);
 
   if (questions.length === 0) {
-    return <p className="rounded-xl border border-dashed border-border p-6 text-center text-muted">{t("notebook.needMore")}</p>;
+    return <p className="rounded-2xl border border-dashed border-border p-6 text-center text-muted">{t("notebook.needMore")}</p>;
   }
 
   const total = questions.length;
@@ -80,27 +80,27 @@ export function NotebookQuiz({ entries, onExit }: { entries: NotebookEntry[]; on
       <div className="mx-auto max-w-md space-y-6 text-center">
         <ScoreRing correct={correct} total={total} />
         <div className="flex justify-center gap-3">
-          <button onClick={() => { setIdx(0); setInput(""); setStatus("idle"); setCorrect(0); setDone(false); startedAt.current = Date.now(); }} className="rounded-lg bg-brand px-4 py-2 font-medium text-white hover:opacity-90">{t("quiz.result.again")}</button>
-          <button onClick={onExit} className="rounded-lg border border-border px-4 py-2 font-medium hover:bg-foreground/5">{t("notebook.list")}</button>
+          <button onClick={() => { setIdx(0); setInput(""); setStatus("idle"); setCorrect(0); setDone(false); startedAt.current = Date.now(); }} className="btn bg-brand-2 text-white">{t("quiz.result.again")}</button>
+          <button onClick={onExit} className="btn btn-secondary">{t("notebook.list")}</button>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="mx-auto max-w-md space-y-5">
+    <div className="mx-auto max-w-md space-y-5 stagger">
       <div className="flex items-center justify-between text-sm text-muted">
         <span>{idx + 1} / {total}</span>
         <span>{t("quiz.score")}: <b className="text-foreground">{correct}</b></span>
       </div>
       <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
-        <div className="h-full bg-vocab transition-all" style={{ width: `${(idx / total) * 100}%` }} />
+        <div className="h-full bg-brand-2 transition-all" style={{ width: `${(idx / total) * 100}%` }} />
       </div>
 
-      <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
-        <div className="text-xs font-semibold uppercase tracking-wide text-muted">{t("quiz.meaning")}</div>
+      <div className="card p-6 text-center">
+        <div className="section-label">{t("quiz.meaning")}</div>
         <div className="mt-3 flex items-center justify-center gap-2">
-          <span className="text-3xl font-bold" lang="es">{q.prompt}</span>
+          <span className="font-display text-4xl font-bold" lang="es">{q.prompt}</span>
           <SpeakButton text={q.prompt} />
         </div>
       </div>
@@ -114,10 +114,10 @@ export function NotebookQuiz({ entries, onExit }: { entries: NotebookEntry[]; on
           readOnly={status !== "idle"}
           placeholder={t("quiz.placeholder")}
           showAccents={false}
-          className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-vocab"}`}
+          className={`input-quiz ${status === "right" ? "!border-success" : status === "wrong" ? "!border-danger" : ""}`}
         />
         {status !== "idle" && (
-          <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
+          <div className={`rounded-xl p-3 text-sm animate-pop ${status === "right" ? "bg-success/10 text-success" : "bg-danger/10 text-danger"}`}>
             <div className="font-semibold">{status === "right" ? t("quiz.correct") : t("quiz.wrong")}</div>
             <div className="mt-1 text-foreground">
               {status === "wrong" ? t("quiz.answerWas") : `${t("quiz.meaning")}:`} <b>{q.canonical}</b>
@@ -125,10 +125,10 @@ export function NotebookQuiz({ entries, onExit }: { entries: NotebookEntry[]; on
           </div>
         )}
         <div className="flex gap-2">
-          <button type="button" onClick={submit} className="flex-1 rounded-xl bg-vocab px-4 py-3 font-semibold text-white hover:opacity-90">
+          <button type="button" onClick={submit} className="btn flex-1 bg-brand-2 text-white">
             {status === "idle" ? t("common.check") : t("common.continue")}
           </button>
-          <button type="button" onClick={onExit} className="rounded-xl border border-border px-4 py-3 text-sm text-muted hover:bg-foreground/5">{t("notebook.list")}</button>
+          <button type="button" onClick={onExit} className="btn btn-secondary">{t("notebook.list")}</button>
         </div>
       </div>
     </div>

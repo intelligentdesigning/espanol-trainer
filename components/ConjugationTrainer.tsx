@@ -60,7 +60,7 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
       <div className="space-y-6">
         <Link href="/grammatik/zeitformen" className="text-sm text-muted hover:text-foreground">← {t("grammar.area.zeitformen")}</Link>
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">{t("conj.title")}</h1>
+          <h1 className="font-display text-2xl font-bold tracking-tight">{t("conj.title")}</h1>
           <p className="mt-1 text-muted">{t("conj.pickTense")}</p>
         </div>
         <select
@@ -77,12 +77,12 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
           ))}
         </select>
         <p className="text-sm font-medium text-muted">{t("conj.pickDifficulty")} · {FORM_LABELS[tense]}</p>
-        <div className="grid gap-3">
+        <div className="stagger grid gap-3">
           {([1, 2, 3, 4] as Tier[]).map((tr) => (
             <button
               key={tr}
               onClick={() => start(tr)}
-              className="flex items-center justify-between rounded-xl border border-border bg-card p-5 text-left shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+              className="card card-hover flex items-center justify-between p-5 text-left"
             >
               <span className="font-semibold">{tierLabels[tr]}</span>
               <span className="text-brand">{t("conj.start")} →</span>
@@ -98,13 +98,13 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
     const total = questions.length;
     return (
       <div className="mx-auto max-w-md space-y-6 text-center">
-        <h1 className="text-2xl font-bold">{t("quiz.result.title")}</h1>
+        <h1 className="font-display text-2xl font-bold tracking-tight">{t("quiz.result.title")}</h1>
         <div className="flex justify-center"><ScoreRing correct={correct} total={total} /></div>
         <div className="flex justify-center gap-3">
-          <button onClick={() => start(tier)} className="rounded-lg bg-brand px-4 py-2 font-medium text-white hover:opacity-90">
+          <button onClick={() => start(tier)} className="btn btn-primary">
             {t("quiz.result.again")}
           </button>
-          <button onClick={() => setPhase("setup")} className="rounded-lg border border-border px-4 py-2 font-medium hover:bg-foreground/5">
+          <button onClick={() => setPhase("setup")} className="btn btn-secondary">
             {t("conj.pickDifficulty")}
           </button>
         </div>
@@ -145,19 +145,22 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
 
   return (
     <div className="mx-auto max-w-md space-y-5">
-      <div className="flex items-center justify-between text-sm text-muted">
-        <span>{idx + 1} / {total}</span>
-        <span>{t("quiz.score")}: <b className="text-foreground">{correct}</b></span>
+      <div className="flex items-end justify-between">
+        <div>
+          <div className="font-display text-lg font-bold">{idx + 1} / {total}</div>
+          <div className="section-label mt-0.5">{FORM_LABELS[tense]}</div>
+        </div>
+        <span className="text-sm text-muted">{t("quiz.score")}: <b className="text-foreground">{correct}</b></span>
       </div>
       <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">
         <div className="h-full bg-brand transition-all" style={{ width: `${(idx / total) * 100}%` }} />
       </div>
 
-      <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-sm">
-        <div className="text-xs font-semibold uppercase tracking-wide text-muted">
+      <div className="card p-6 text-center">
+        <div className="section-label">
           {t("conj.prompt")} · {FORM_LABELS[tense]}
         </div>
-        <div className="mt-3 text-3xl font-bold text-brand" lang="es">{q.infinitive}</div>
+        <div className="mt-3 font-display text-4xl font-bold text-brand" lang="es">{q.infinitive}</div>
         <div className="mt-2.5 flex justify-center"><PosTag pos="verb" /></div>
         <div className="mt-1 text-sm text-muted">{q.meaning}</div>
         <div className="mt-4 inline-block rounded-lg bg-foreground/5 px-3 py-1.5 text-lg font-semibold" lang="es">
@@ -173,13 +176,13 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
           onEnter={submit}
           readOnly={status !== "idle"}
           placeholder={t("quiz.placeholder")}
-          className={`w-full rounded-xl border-2 bg-card px-4 py-3 text-lg outline-none transition-colors ${
-            status === "right" ? "border-green-500" : status === "wrong" ? "border-red-500" : "border-border focus:border-brand"
+          className={`input-quiz ${
+            status === "right" ? "!border-success" : status === "wrong" ? "!border-danger" : ""
           }`}
         />
 
         {status !== "idle" && (
-          <div className={`rounded-xl p-3 text-sm ${status === "right" ? "bg-green-500/10 text-green-700 dark:text-green-400" : "bg-red-500/10 text-red-700 dark:text-red-400"}`}>
+          <div className={`animate-pop rounded-xl p-3 text-sm ${status === "right" ? "bg-success/10 text-success" : "bg-danger/10 text-danger"}`}>
             <div className="font-semibold">{status === "right" ? t("conj.correct") : t("conj.wrong")}</div>
             {status === "wrong" && (
               <div className="mt-1 text-foreground" lang="es">{t("conj.answerWas")} <b>{q.expected}</b></div>
@@ -191,7 +194,7 @@ export function ConjugationTrainer({ initialTense = "presente" }: { initialTense
           </div>
         )}
 
-        <button type="button" onClick={submit} className="w-full rounded-xl bg-brand px-4 py-3 font-semibold text-white hover:opacity-90">
+        <button type="button" onClick={submit} className="btn btn-primary btn-lg w-full">
           {status === "idle" ? t("common.check") : t("common.continue")}
         </button>
       </div>

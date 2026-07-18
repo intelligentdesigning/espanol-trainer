@@ -20,13 +20,13 @@ export function MasteryBar({ right, wrong, neu }: { right: number; wrong: number
   return (
     <div className="mt-2.5">
       <div className="flex h-2 w-full overflow-hidden rounded-full bg-foreground/10">
-        <div className="bg-green-500 transition-all" style={{ width: `${(right / total) * 100}%` }} />
-        <div className="bg-red-500/80 transition-all" style={{ width: `${(wrong / total) * 100}%` }} />
+        <div className="bg-success transition-all" style={{ width: `${(right / total) * 100}%` }} />
+        <div className="bg-danger/80 transition-all" style={{ width: `${(wrong / total) * 100}%` }} />
       </div>
       <div className="mt-2 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 text-[11px] text-muted">
         <span className="inline-flex flex-wrap items-center gap-x-2.5 gap-y-1">
-          {dot("bg-green-500", right, t("stats.todayCorrect"))}
-          {dot("bg-red-500", wrong, t("stats.todayWrong"))}
+          {dot("bg-success", right, t("stats.todayCorrect"))}
+          {dot("bg-danger", wrong, t("stats.todayWrong"))}
           {dot("bg-foreground/25", neu, t("stats.mNew"))}
         </span>
         <span className="font-semibold text-foreground">{learned}% {t("vocab.learned")}</span>
