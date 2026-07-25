@@ -11,6 +11,7 @@ import { ScoreRing } from "@/components/ScoreRing";
 import { QuizWithPanels } from "@/components/QuizPanels";
 import { SpeakButton } from "@/components/SpeakButton";
 import { PosTag } from "@/components/PosTag";
+import { CefrBadge } from "@/components/CefrBadge";
 import type { ProgressRecord, VocabDetails } from "@/lib/types";
 
 type Status = "idle" | "right" | "wrong";
@@ -145,7 +146,7 @@ export function QuizRunner({ config, modeId }: { config: QuizConfig; modeId: str
           <span className="font-display text-4xl font-bold" lang={config.direction === "es-en" ? "es" : "en"}>{formatNotation(q.prompt)}</span>
           {config.direction === "es-en" && <SpeakButton text={q.es} />}
         </div>
-        {q.pos && <div className="mt-2.5 flex justify-center"><PosTag pos={q.pos} /></div>}
+        {(q.pos || q.cefr) && <div className="mt-2.5 flex items-center justify-center gap-2">{q.cefr && <CefrBadge level={q.cefr} />}{q.pos && <PosTag pos={q.pos} />}</div>}
       </div>
 
       <div className="space-y-3">

@@ -10,6 +10,8 @@ export type Pos =
 
 export type Gender = "m" | "f" | null;
 export type Tier = 1 | 2 | 3 | 4;
+/** CEFR difficulty level, shown as a colour-coded badge across the app. */
+export type Cefr = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
 /** One row of public/data/vocab.json */
 export interface VocabItem {
@@ -21,6 +23,7 @@ export interface VocabItem {
   gender: Gender;
   rank: number;       // 1 = most frequent
   diff: Tier;
+  cefr?: Cefr;
 }
 
 /** Six-person conjugation tenses supported by the trainer (keys match content ids). */
@@ -59,10 +62,31 @@ export interface BuchEntry {
   en?: string;     // English translation (accepted on input + shown alongside DE)
   deAlt?: string;  // close German synonyms also accepted (comma-separated)
   pos?: Pos;       // part of speech (Wortart) for the label
+  cefr?: Cefr;
 }
 export interface BuchData {
   lektionen: { name: string; count: number }[];
   entries: BuchEntry[];
+}
+
+/** public/data/themes.json — thematic vocabulary sets ("Temas"). */
+export interface ThemeEntry {
+  es: string;
+  de: string;
+  en: string;
+  pos?: Pos;
+  gender: Gender;
+  cefr?: Cefr;
+}
+export interface Theme {
+  id: string;
+  name: LocalizedText;
+  icon?: string;      // icon key for the card
+  entries: ThemeEntry[];
+}
+export interface ThemesData {
+  themes: { id: string; name: LocalizedText; count: number; icon?: string }[];
+  byTheme: Record<string, ThemeEntry[]>;
 }
 
 /** public/data/details.json — learner-dictionary content per vocab id. */
@@ -125,6 +149,7 @@ export interface GrammarTopic {
   summary: LocalizedText;
   rules: GrammarRule[];
   practice: PracticeItem[];
+  cefr?: Cefr;
 }
 export interface TenseTopic {
   id: string;
@@ -138,6 +163,7 @@ export interface TenseTopic {
   practiceTenseKey?: string; // links to the conjugation trainer
   practice?: PracticeItem[]; // scored rules/usage test for this tense
   available: boolean;        // false => listed but "coming soon"
+  cefr?: Cefr;
 }
 
 // --- Local progress / SRS (IndexedDB) --------------------------------------

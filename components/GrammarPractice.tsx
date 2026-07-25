@@ -7,8 +7,9 @@ import { recordResult, addSession, getChapterBest } from "@/lib/storage/db";
 import { PASS_PCT } from "@/lib/grammar-progress";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
+import { CefrBadge } from "@/components/CefrBadge";
 import { IconTrophy, IconCheck } from "@/components/icons";
-import type { PracticeItem } from "@/lib/types";
+import type { PracticeItem, Cefr } from "@/lib/types";
 
 type Status = "idle" | "right" | "wrong";
 
@@ -32,7 +33,7 @@ function renderPrompt(prompt: string) {
   ));
 }
 
-export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: string; items: PracticeItem[]; onRunningChange?: (running: boolean) => void }) {
+export function GrammarPractice({ topicId, items, cefr, onRunningChange }: { topicId: string; items: PracticeItem[]; cefr?: Cefr; onRunningChange?: (running: boolean) => void }) {
   const { t, L } = useI18n();
   const [order, setOrder] = useState<PracticeItem[]>(items);
   const [started, setStarted] = useState(false);
@@ -153,7 +154,7 @@ export function GrammarPractice({ topicId, items, onRunningChange }: { topicId: 
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between text-sm text-muted">
-        <span>{idx + 1} / {order.length}</span>
+        <span className="flex items-center gap-2">{idx + 1} / {order.length} {cefr && <CefrBadge level={cefr} />}</span>
         <span>{t("quiz.score")}: <b className="text-foreground">{correct}</b></span>
       </div>
       <div className="h-1.5 w-full overflow-hidden rounded-full bg-foreground/10">

@@ -750,7 +750,8 @@
      "espanol"
     ]
    }
-  ]
+  ],
+  "cefr": "A1"
  },
  {
   "id": "ser-estar",
@@ -1308,7 +1309,8 @@
   "summary": {
    "de": "Ser beschreibt, was etwas dauerhaft ist (Identität, Herkunft, Eigenschaften); estar beschreibt Ort, vorübergehende Zustände und Verlauf.",
    "en": "Ser describes what something essentially is (identity, origin, traits); estar describes location, temporary states and the progressive."
-  }
+  },
+  "cefr": "A2"
  },
  {
   "id": "por-para",
@@ -1786,7 +1788,8 @@
      "en": "I work a lot in order to save money this year."
     }
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "genero-numero",
@@ -2287,7 +2290,8 @@
      "en": "I have five red apples."
     }
    }
-  ]
+  ],
+  "cefr": "A1"
  },
  {
   "id": "articulos",
@@ -2834,7 +2838,8 @@
      "a la"
     ]
    }
-  ]
+  ],
+  "cefr": "A1"
  },
  {
   "id": "adjetivos",
@@ -3334,7 +3339,8 @@
   "summary": {
    "de": "Spanische Adjektive passen sich in Geschlecht und Zahl an und stehen meist nach dem Nomen, manchmal verkürzt oder mit Bedeutungswechsel je nach Stellung.",
    "en": "Spanish adjectives agree in gender and number and usually follow the noun, sometimes shortened or changing meaning depending on position."
-  }
+  },
+  "cefr": "A1"
  },
  {
   "id": "comparativo",
@@ -3788,7 +3794,8 @@
      "en": "The exam was extremely hard, very difficult."
     }
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "posesivos",
@@ -4258,7 +4265,8 @@
   "summary": {
    "de": "Spanische Possessive: unbetonte Begleiter vor dem Nomen (mi, tu, su...) und betonte Pronomen (el mio, la tuya...), die sich angleichen.",
    "en": "Spanish possessives: unstressed forms before the noun (mi, tu, su...) and stressed pronouns (el mio, la tuya...) that must agree."
-  }
+  },
+  "cefr": "A1"
  },
  {
   "id": "demostrativos",
@@ -4753,7 +4761,8 @@
   "summary": {
    "de": "Demonstrativa zeigen, wie nah ein Ding ist: este (hier), ese (bei dir), aquel (dort drüben).",
    "en": "Demonstratives show how near a thing is: este (here), ese (by you), aquel (over there)."
-  }
+  },
+  "cefr": "A1"
  },
  {
   "id": "pronombres-sujeto",
@@ -5212,7 +5221,8 @@
      "nosotros"
     ]
    }
-  ]
+  ],
+  "cefr": "A1"
  },
  {
   "id": "pronombres-objeto",
@@ -5720,7 +5730,8 @@
      "se"
     ]
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "reflexivos",
@@ -6197,7 +6208,8 @@
      "te"
     ]
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "gustar",
@@ -6690,7 +6702,8 @@
      "se"
     ]
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "a-personal",
@@ -7149,7 +7162,8 @@
   "summary": {
    "de": "Das persönliche „a\" steht vor einer bestimmten Person (oder einem Haustier) als direktem Objekt.",
    "en": "The personal \"a\" goes before a specific person (or pet) used as a direct object."
-  }
+  },
+  "cefr": "A2"
  },
  {
   "id": "preposiciones",
@@ -7658,7 +7672,8 @@
      "con"
     ]
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "negacion",
@@ -8113,7 +8128,8 @@
      "Nada"
     ]
    }
-  ]
+  ],
+  "cefr": "A1"
  },
  {
   "id": "interrogativos",
@@ -8663,7 +8679,8 @@
      "Quién"
     ]
    }
-  ]
+  ],
+  "cefr": "A1"
  },
  {
   "id": "relativos",
@@ -9155,7 +9172,8 @@
      "quienes"
     ]
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "conjunciones",
@@ -9709,7 +9727,8 @@
      "porque"
     ]
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "adverbios",
@@ -10222,7 +10241,8 @@
      "en": "He/She spoke softly but firmly with the boss."
     }
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "diminutivos",
@@ -10757,7 +10777,8 @@
      "codón"
     ]
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "perifrasis",
@@ -11310,7 +11331,8 @@
      "Solíamos"
     ]
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "saber-conocer",
@@ -11755,7 +11777,8 @@
      "en": "She knows many people, but she doesn't know their names."
     }
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "hay-estar",
@@ -12208,6 +12231,7 @@
      "están"
     ]
    }
-  ]
+  ],
+  "cefr": "A1"
  }
 ]

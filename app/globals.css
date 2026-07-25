@@ -24,6 +24,13 @@
   --shadow-hover: 0 6px 12px rgba(70, 50, 35, .08), 0 20px 44px -14px rgba(70, 50, 35, .22);
   /* nav height, consumed by sticky sub-navs */
   --nav-h: 57px;
+  /* CEFR level colours (A1 easy → C2 native) */
+  --cefr-a1: #16a34a;
+  --cefr-a2: #0891b2;
+  --cefr-b1: #2563eb;
+  --cefr-b2: #d97706;
+  --cefr-c1: #dc2626;
+  --cefr-c2: #7c3aed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,6 +50,12 @@
     --cat-article: #a78bfa; /* violet-400 */
     --success: #4ade80;
     --danger: #f87171;
+    --cefr-a1: #4ade80;
+    --cefr-a2: #22d3ee;
+    --cefr-b1: #60a5fa;
+    --cefr-b2: #fbbf24;
+    --cefr-c1: #f87171;
+    --cefr-c2: #a78bfa;
     --shadow-card: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 20px -10px rgba(0, 0, 0, .5);
     --shadow-hover: 0 6px 14px rgba(0, 0, 0, .35), 0 22px 48px -14px rgba(0, 0, 0, .6);
   }
@@ -158,6 +171,17 @@ body {
     transition: border-color .15s, box-shadow .15s;
   }
   .input-quiz:focus { border-color: var(--brand); box-shadow: 0 0 0 4px color-mix(in oklab, var(--brand) 15%, transparent); }
+
+  .cefr-badge {
+    --c: var(--muted);
+    display: inline-flex; align-items: center; gap: .2rem;
+    border-radius: 9999px; padding: .05rem .42rem;
+    font-size: .68rem; font-weight: 700; letter-spacing: .01em; line-height: 1.4;
+    color: var(--c);
+    background: color-mix(in oklab, var(--c) 15%, transparent);
+    border: 1px solid color-mix(in oklab, var(--c) 30%, transparent);
+    white-space: nowrap;
+  }
 
   .skeleton { position: relative; overflow: hidden; border-radius: .55rem; background: color-mix(in oklab, var(--foreground) 8%, transparent); }
   .skeleton::after {

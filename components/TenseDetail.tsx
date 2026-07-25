@@ -7,6 +7,7 @@ import { RuleList } from "@/components/RuleList";
 import { GrammarPractice } from "@/components/GrammarPractice";
 import { Segment } from "@/components/grammar/Segment";
 import { LessonNav } from "@/components/grammar/LessonNav";
+import { CefrBadge } from "@/components/CefrBadge";
 import { PERSON_LABELS } from "@/lib/conjugation/trainer";
 import type { TenseTopic } from "@/lib/types";
 
@@ -31,8 +32,11 @@ export function TenseDetail({ topic }: { topic: TenseTopic }) {
       <Link href="/grammatik/zeitformen" className="text-sm text-muted hover:text-foreground">← {t("grammar.area.zeitformen")}</Link>
 
       <header>
-        <span className="rounded-full bg-brand/10 px-2.5 py-1 text-xs font-semibold text-brand">{L(topic.mood)}</span>
-        <h1 className="mt-2 text-2xl font-bold tracking-tight">{L(topic.name)}</h1>
+        <div className="flex items-center gap-2">
+          <span className="rounded-full bg-brand/10 px-2.5 py-1 text-xs font-semibold text-brand">{L(topic.mood)}</span>
+          {topic.cefr && <CefrBadge level={topic.cefr} />}
+        </div>
+        <h1 className="mt-2 font-display text-2xl font-bold tracking-tight">{L(topic.name)}</h1>
         <p className="mt-1 text-muted">{L(topic.summary)}</p>
       </header>
 
@@ -112,7 +116,7 @@ export function TenseDetail({ topic }: { topic: TenseTopic }) {
             {hasTest && (
               <Segment id="test" title={t("lesson.test")} hint={`${topic.practice!.length}`}>
                 {!testRunning && <p className="text-sm text-muted">{t("lesson.testIntro")}</p>}
-                <GrammarPractice topicId={topic.id} items={topic.practice!} onRunningChange={setTestRunning} />
+                <GrammarPractice topicId={topic.id} items={topic.practice!} cefr={topic.cefr} onRunningChange={setTestRunning} />
               </Segment>
             )}
           </div>

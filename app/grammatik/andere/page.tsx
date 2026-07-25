@@ -6,6 +6,7 @@ import { useI18n } from "@/lib/i18n/locale";
 import { topics } from "@/content/topics";
 import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progress";
 import { ChapterBadge } from "@/components/grammar/ChapterBadge";
+import { CefrBadge } from "@/components/CefrBadge";
 
 export default function AndereIndex() {
   const { L, t } = useI18n();
@@ -33,7 +34,10 @@ export default function AndereIndex() {
             className="card card-hover group p-4"
           >
             <div className="flex items-start justify-between gap-2">
-              <div className="font-display font-semibold group-hover:text-brand">{L(tp.name)}</div>
+              <div className="flex items-center gap-2">
+                <span className="font-display font-semibold group-hover:text-brand">{L(tp.name)}</span>
+                {tp.cefr && <CefrBadge level={tp.cefr} />}
+              </div>
               <ChapterBadge stat={prog?.byId.get(tp.id)} />
             </div>
             <div className="mt-0.5 line-clamp-2 text-sm text-muted">{L(tp.summary)}</div>

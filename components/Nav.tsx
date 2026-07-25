@@ -17,6 +17,7 @@ export function Nav() {
   const links: { href: string; key: UIKey }[] = [
     { href: "/", key: "nav.home" },
     { href: "/vokabular", key: "nav.vocab" },
+    { href: "/themen", key: "nav.themen" },
     { href: "/zahlen", key: "nav.numbers" },
     { href: "/konjugation", key: "nav.conj" },
     { href: "/grammatik", key: "nav.grammar" },

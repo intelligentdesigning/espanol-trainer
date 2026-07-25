@@ -7,6 +7,7 @@ import { RuleList } from "@/components/RuleList";
 import { GrammarPractice } from "@/components/GrammarPractice";
 import { Segment } from "@/components/grammar/Segment";
 import { LessonNav } from "@/components/grammar/LessonNav";
+import { CefrBadge } from "@/components/CefrBadge";
 import type { GrammarTopic } from "@/lib/types";
 
 export function TopicDetail({ topic }: { topic: GrammarTopic }) {
@@ -26,7 +27,10 @@ export function TopicDetail({ topic }: { topic: GrammarTopic }) {
       <Link href="/grammatik/andere" className="text-sm text-muted hover:text-foreground">← {t("grammar.area.andere")}</Link>
 
       <header>
-        <h1 className="text-2xl font-bold tracking-tight">{L(topic.name)}</h1>
+        <div className="flex flex-wrap items-center gap-2.5">
+          <h1 className="font-display text-2xl font-bold tracking-tight">{L(topic.name)}</h1>
+          {topic.cefr && <CefrBadge level={topic.cefr} />}
+        </div>
         <p className="mt-1 text-muted">{L(topic.summary)}</p>
       </header>
 
@@ -60,7 +64,7 @@ export function TopicDetail({ topic }: { topic: GrammarTopic }) {
         {hasTest && (
           <Segment id="test" title={t("lesson.test")} hint={`${topic.practice.length}`}>
             {!testRunning && <p className="text-sm text-muted">{t("lesson.testIntro")}</p>}
-            <GrammarPractice topicId={topic.id} items={topic.practice} onRunningChange={setTestRunning} />
+            <GrammarPractice topicId={topic.id} items={topic.practice} cefr={topic.cefr} onRunningChange={setTestRunning} />
           </Segment>
         )}
       </div>

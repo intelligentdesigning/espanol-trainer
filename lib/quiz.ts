@@ -1,4 +1,4 @@
-import type { Pos, ProgressRecord, VocabItem } from "@/lib/types";
+import type { Pos, Cefr, ProgressRecord, VocabItem } from "@/lib/types";
 
 export type Direction = "es-en" | "en-es";
 export type QuizScope = "smart" | "weak" | "new" | "all";
@@ -21,6 +21,7 @@ export interface QuizQuestion {
   accepted: string[];   // accepted answers (raw, accented)
   canonical: string;    // the "official" answer to display
   pos?: Pos;            // part of speech (noun/verb/adj/…) for the Wortart label
+  cefr?: Cefr;          // CEFR level for the badge
 }
 
 // --- answer normalization (accent/case-insensitive, like the JetPunk rules) ---
@@ -233,6 +234,7 @@ export function buildSession(
         accepted: v.en,
         canonical: v.en.join(" / "),
         pos: v.pos,
+        cefr: v.cefr,
       }));
   } else {
     // EN -> ES: merge synonyms that share the same English clue.
@@ -253,6 +255,7 @@ export function buildSession(
         accepted: items.map((i) => i.es),
         canonical: items.map((i) => i.es).join(" / "),
         pos: items[0].pos,
+        cefr: items[0].cefr,
       };
     });
   }

@@ -12,7 +12,8 @@ import { QuizWithPanels } from "@/components/QuizPanels";
 import { MasteryBar } from "@/components/MasteryBar";
 import { SpeakButton } from "@/components/SpeakButton";
 import { PosTag } from "@/components/PosTag";
-import type { BuchData, BuchDetails, ProgressRecord, Pos } from "@/lib/types";
+import { CefrBadge } from "@/components/CefrBadge";
+import type { BuchData, BuchDetails, ProgressRecord, Pos, Cefr } from "@/lib/types";
 
 type Dir = "es-de" | "de-es";
 type Phase = "setup" | "run" | "done";
@@ -35,7 +36,7 @@ function shuffle<T>(a: T[]): T[] {
   return r;
 }
 
-interface Q { id: string; es: string; prompt: string; accepted: string[]; canonical: string; pos?: Pos; }
+interface Q { id: string; es: string; prompt: string; accepted: string[]; canonical: string; pos?: Pos; cefr?: Cefr; }
 
 export function BuchTrainer() {
   const { t } = useI18n();
@@ -130,10 +131,10 @@ export function BuchTrainer() {
           ...(e.en ? splitMeanings(e.en) : []),
         ];
         const canonical = e.en ? `${e.de}  ·  ${e.en}` : e.de;
-        return { id: keyOf(e.es), es: e.es, prompt: e.es, accepted, canonical, pos: e.pos };
+        return { id: keyOf(e.es), es: e.es, prompt: e.es, accepted, canonical, pos: e.pos, cefr: e.cefr };
       }
       // de -> es: answer is the Spanish word itself.
-      return { id: keyOf(e.es), es: e.es, prompt: e.de, accepted: splitMeanings(e.es), canonical: e.es, pos: e.pos };
+      return { id: keyOf(e.es), es: e.es, prompt: e.de, accepted: splitMeanings(e.es), canonical: e.es, pos: e.pos, cefr: e.cefr };
     });
     beginRound(qs, lek);
   };
@@ -319,7 +320,7 @@ export function BuchTrainer() {
           <span className="font-display text-4xl font-bold" lang={dir === "es-de" ? "es" : "de"}>{formatNotation(q.prompt)}</span>
           {dir === "es-de" && <SpeakButton text={q.es} />}
         </div>
-        {q.pos && <div className="mt-2.5 flex justify-center"><PosTag pos={q.pos} /></div>}
+        {(q.pos || q.cefr) && <div className="mt-2.5 flex items-center justify-center gap-2">{q.cefr && <CefrBadge level={q.cefr} />}{q.pos && <PosTag pos={q.pos} />}</div>}
       </div>
 
       <div className="space-y-3">

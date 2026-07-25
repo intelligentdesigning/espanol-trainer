@@ -7,6 +7,7 @@ import { IconArrowRight } from "@/components/icons";
 import { zeitformen } from "@/content/zeitformen";
 import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progress";
 import { ChapterBadge } from "@/components/grammar/ChapterBadge";
+import { CefrBadge } from "@/components/CefrBadge";
 
 export default function ZeitformenIndex() {
   const { L, t } = useI18n();
@@ -44,6 +45,7 @@ export default function ZeitformenIndex() {
                 <div className="text-xs text-muted">{L(tn.mood)}</div>
               </div>
               <div className="flex items-center gap-2">
+                {tn.cefr && <CefrBadge level={tn.cefr} />}
                 <ChapterBadge stat={prog?.byId.get(tn.id)} />
                 <span className="text-brand">→</span>
               </div>

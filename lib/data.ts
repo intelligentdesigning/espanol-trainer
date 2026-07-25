@@ -1,7 +1,8 @@
-import type { VocabItem, VerbItem, VocabIndex, BuchData, VocabDetails, BuchDetails, NounArticle } from "@/lib/types";
+import type { VocabItem, VerbItem, VocabIndex, BuchData, VocabDetails, BuchDetails, NounArticle, ThemesData } from "@/lib/types";
 
 // Client-side loaders for the committed data files (in public/data, fetched lazily).
 let vocabPromise: Promise<VocabItem[]> | null = null;
+let themesPromise: Promise<ThemesData> | null = null;
 let verbsPromise: Promise<VerbItem[]> | null = null;
 let indexPromise: Promise<VocabIndex> | null = null;
 let buchPromise: Promise<BuchData> | null = null;
@@ -27,6 +28,10 @@ export function loadIndex(): Promise<VocabIndex> {
 }
 export function loadBuch(): Promise<BuchData> {
   return (buchPromise ??= load<BuchData>("buch.json"));
+}
+/** Thematic vocabulary sets ("Temas"). */
+export function loadThemes(): Promise<ThemesData> {
+  return (themesPromise ??= load<ThemesData>("themes.json"));
 }
 /** Definitions + example sentences (keyed by vocab id). Tolerates a missing file. */
 export function loadDetails(): Promise<VocabDetails> {

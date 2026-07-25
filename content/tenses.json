@@ -558,7 +558,8 @@
      "comen"
     ]
    }
-  ]
+  ],
+  "cefr": "A1"
  },
  {
   "id": "preterito-imperfecto",
@@ -1106,7 +1107,8 @@
      "en": "In the photo, the sky was blue and everything was calm."
     }
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "preterito-indefinido",
@@ -1733,7 +1735,8 @@
      "empezó"
     ]
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "preterito-perfecto",
@@ -2249,7 +2252,8 @@
      "en": "You (pl.) have been very kind to me today."
     }
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "pluscuamperfecto",
@@ -2735,7 +2739,8 @@
      "en": "You had not eaten yet when the meeting started."
     }
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "futuro",
@@ -3277,7 +3282,8 @@
      "en": "You all will receive the answer soon."
     }
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "futuro-perfecto",
@@ -3754,7 +3760,8 @@
      "en": "By the end of the month I will have done the move."
     }
    }
-  ]
+  ],
+  "cefr": "B2"
  },
  {
   "id": "condicional",
@@ -4330,7 +4337,8 @@
      "gustaba"
     ]
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "condicional-perfecto",
@@ -4799,7 +4807,8 @@
      "habría"
     ]
    }
-  ]
+  ],
+  "cefr": "B2"
  },
  {
   "id": "subjuntivo-presente",
@@ -5395,7 +5404,8 @@
      "en": "It's good that we go to the party."
     }
    }
-  ]
+  ],
+  "cefr": "B1"
  },
  {
   "id": "subjuntivo-imperfecto",
@@ -5915,7 +5925,8 @@
      "vendrías"
     ]
    }
-  ]
+  ],
+  "cefr": "B2"
  },
  {
   "id": "subjuntivo-perfecto",
@@ -6393,7 +6404,8 @@
      "haremos"
     ]
    }
-  ]
+  ],
+  "cefr": "B2"
  },
  {
   "id": "subjuntivo-pluscuamperfecto",
@@ -6870,7 +6882,8 @@
      "hubieras"
     ]
    }
-  ]
+  ],
+  "cefr": "C1"
  },
  {
   "id": "imperativo",
@@ -7407,7 +7420,8 @@
      "en": "Go home, it's already late."
     }
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "gerundio",
@@ -7887,7 +7901,8 @@
      "en": "You're being very kind to me today, thanks."
     }
    }
-  ]
+  ],
+  "cefr": "A2"
  },
  {
   "id": "participio",
@@ -8408,6 +8423,7 @@
      "abiertas"
     ]
    }
-  ]
+  ],
+  "cefr": "A2"
  }
 ]
