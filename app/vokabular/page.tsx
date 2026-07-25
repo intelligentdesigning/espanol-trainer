@@ -7,7 +7,7 @@ import { loadVocab } from "@/lib/data";
 import { loadMastery, type MasterySnapshot } from "@/lib/progress";
 import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progress";
 import type { QuizScope } from "@/lib/quiz";
-import type { Pos, VocabItem } from "@/lib/types";
+import type { Pos, Cefr, VocabItem } from "@/lib/types";
 import {
   IconCards,
   IconConjugate,
@@ -23,6 +23,7 @@ type BandId = "easy" | "medium" | "hard" | "all";
 
 const FOCI: QuizScope[] = ["smart", "weak", "new"];
 const COUNTS = [10, 20, 30, 50];
+const LEVELS: (Cefr | "all")[] = ["all", "A1", "A2", "B1", "B2"];
 
 const CATS: {
   id: CatId;
@@ -62,6 +63,7 @@ export default function VokabularPage() {
   const [band, setBand] = useState<BandId>("easy");
   const [scope, setScope] = useState<QuizScope>("smart");
   const [count, setCount] = useState(20);
+  const [level, setLevel] = useState<Cefr | "all">("all");
 
   useEffect(() => {
     loadVocab().then(setVocab);
@@ -171,7 +173,7 @@ export default function VokabularPage() {
 
   // ---- Step 2: setup (difficulty + focus + round + direction) --------------
   const href = (dir: "es-en" | "en-es") =>
-    `/vokabular/quiz?mode=${active.id}&dir=${dir}&diff=${band}&scope=${scope}&count=${count}`;
+    `/vokabular/quiz?mode=${active.id}&dir=${dir}&diff=${band}&scope=${scope}&level=${level}&count=${count}`;
 
   const directions: { dir: "en-es" | "es-en"; title: string; desc: string; from: string; to: string }[] = [
     { dir: "en-es", title: t("vocab.setup.typeEs"), desc: t("vocab.setup.typeEs.desc"), from: "EN", to: "ES" },
@@ -257,6 +259,21 @@ export default function VokabularPage() {
               );
             })}
           </div>
+        </div>
+      </div>
+
+      <div>
+        <div className="section-label mb-2">{t("themes.level")}</div>
+        <div className="flex flex-wrap gap-2">
+          {LEVELS.map((lv) => {
+            const selected = level === lv;
+            return (
+              <button key={lv} onClick={() => setLevel(lv)} style={selected ? chipStyle : undefined}
+                className={`chip ${selected ? "is-active" : ""}`}>
+                {lv === "all" ? t("themes.levelAll") : lv}
+              </button>
+            );
+          })}
         </div>
       </div>
 

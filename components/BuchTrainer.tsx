@@ -21,6 +21,7 @@ type Status = "idle" | "right" | "wrong";
 
 const FOCI: QuizScope[] = ["smart", "weak", "new"];
 const COUNTS = [10, 20, 30, 50];
+const LEVELS: (Cefr | "all")[] = ["all", "A1", "A2", "B1", "B2"];
 
 // Keep slash notation intact (checkAnswer/expandForms expands "Kellner/in" etc.);
 // only split true synonym separators.
@@ -47,6 +48,7 @@ export function BuchTrainer() {
   const [dir, setDir] = useState<Dir>("es-de");
   const [scope, setScope] = useState<QuizScope>("smart");
   const [count, setCount] = useState(20);
+  const [level, setLevel] = useState<Cefr | "all">("all");
   const [note, setNote] = useState("");
   const [phase, setPhase] = useState<Phase>("setup");
 
@@ -81,7 +83,7 @@ export function BuchTrainer() {
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, lektion, scope, count, dir, data]);
+  }, [phase, lektion, scope, count, dir, level, data]);
 
   const beginRound = (qs: Q[], lek: string) => {
     setLektion(lek);
@@ -97,7 +99,8 @@ export function BuchTrainer() {
     const recs = new Map<string, ProgressRecord>();
     for (const r of prog) if (r.kind === "vocab" && r.itemKey.startsWith("buch:")) recs.set(r.itemKey.slice(5), r);
     const recOf = (e: BuchData["entries"][number]) => pickBuchRec(recs, keyOf(e.es), dir);
-    const pool = lek === "__all__" ? data.entries : data.entries.filter((e) => e.lektion === lek);
+    const pool = (lek === "__all__" ? data.entries : data.entries.filter((e) => e.lektion === lek))
+      .filter((e) => level === "all" || e.cefr === level);
 
     // Words still to learn in THIS direction = never seen or last answered wrong.
     const todo = pool.filter((e) => { const r = recOf(e); return !r || r.seen === 0 || r.lastResult === "wrong"; });
@@ -183,6 +186,13 @@ export function BuchTrainer() {
             <div className="flex flex-wrap gap-2">
               {COUNTS.map((n) => <button key={n} onClick={() => setCount(n)} className={chip(count === n)} style={chipAccent(count === n)}>{n}</button>)}
             </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="mb-2 section-label">{t("themes.level")}</div>
+          <div className="flex flex-wrap gap-2">
+            {LEVELS.map((lv) => <button key={lv} onClick={() => setLevel(lv)} className={chip(level === lv)} style={chipAccent(level === lv)}>{lv === "all" ? t("themes.levelAll") : lv}</button>)}
           </div>
         </div>
 

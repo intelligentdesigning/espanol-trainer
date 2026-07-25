@@ -11,6 +11,7 @@ export interface QuizConfig {
   count: number;
   freqWindow?: [number, number];
   scope?: QuizScope; // default "smart"
+  level?: Cefr | "all"; // CEFR filter
 }
 
 export interface QuizQuestion {
@@ -217,6 +218,7 @@ export function buildSession(
 ): QuizQuestion[] {
   let pool = vocab;
   if (config.pos && config.pos !== "all") pool = pool.filter((v) => v.pos === config.pos);
+  if (config.level && config.level !== "all") pool = pool.filter((v) => v.cefr === config.level);
   if (config.freqWindow) {
     const [lo, hi] = config.freqWindow;
     pool = pool.filter((v) => v.rank >= lo && v.rank <= hi);
