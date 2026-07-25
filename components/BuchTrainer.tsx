@@ -13,6 +13,7 @@ import { MasteryBar } from "@/components/MasteryBar";
 import { SpeakButton } from "@/components/SpeakButton";
 import { PosTag } from "@/components/PosTag";
 import { CefrBadge } from "@/components/CefrBadge";
+import { cefrRange } from "@/lib/cefr";
 import type { BuchData, BuchDetails, ProgressRecord, Pos, Cefr } from "@/lib/types";
 
 type Dir = "es-de" | "de-es";
@@ -200,11 +201,16 @@ export function BuchTrainer() {
           {[{ name: "__all__", label: t("buch.all"), n: data.entries.length }, ...data.lektionen.map((l) => ({ name: l.name, label: l.name, n: l.count }))].map((l) => {
             const st = stat(l.name);
             const active = lektion === l.name;
+            const pool = l.name === "__all__" ? data.entries : data.entries.filter((e) => e.lektion === l.name);
+            const range = cefrRange(pool.map((e) => e.cefr));
             return (
               <button key={l.name} onClick={() => setLektion(l.name)}
                 className={`card p-4 text-left ${active ? "border-vocab bg-vocab/10" : "card-hover"}`}>
-                <div className="flex items-baseline justify-between">
-                  <span className="text-base font-semibold">{l.label}</span>
+                <div className="flex items-baseline justify-between gap-2">
+                  <span className="flex items-center gap-2 text-base font-semibold">
+                    {l.label}
+                    {range && <CefrBadge level={range.min} label={range.label} />}
+                  </span>
                   <span className="text-sm text-muted">{l.n} {t("vocab.cat.words")}</span>
                 </div>
                 {st ? <MasteryBar right={st.right} wrong={st.wrong} neu={st.new} /> : <div className="mt-2.5 h-2 w-full rounded-full bg-foreground/10" />}

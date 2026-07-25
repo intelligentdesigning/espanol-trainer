@@ -17,6 +17,8 @@ import {
   IconHash,
 } from "@/components/icons";
 import { MasteryBar } from "@/components/MasteryBar";
+import { CefrBadge } from "@/components/CefrBadge";
+import { cefrRange } from "@/lib/cefr";
 
 type CatId = "common" | "verbs" | "nouns" | "adj";
 type BandId = "easy" | "medium" | "hard" | "all";
@@ -79,6 +81,16 @@ export default function VokabularPage() {
     return m;
   }, [vocab]);
 
+  const catRange = useMemo(() => {
+    const m: Partial<Record<CatId, ReturnType<typeof cefrRange>>> = {};
+    if (!vocab) return m;
+    for (const c of CATS) {
+      const pool = c.pos ? vocab.filter((v) => v.pos === c.pos) : vocab;
+      m[c.id] = cefrRange(pool.map((v) => v.cefr));
+    }
+    return m;
+  }, [vocab]);
+
   const bandCounts = useMemo(() => {
     const def = CATS.find((c) => c.id === cat);
     const m: Record<BandId, number> = { easy: 0, medium: 0, hard: 0, all: 0 };
@@ -115,9 +127,12 @@ export default function VokabularPage() {
                 <div className="min-w-0">
                   <div className={`font-display text-lg font-semibold transition-colors ${c.hoverText}`}>{t(`vocab.cat.${c.id}` as never)}</div>
                   <p className="mt-0.5 text-sm leading-snug text-muted">{t(`vocab.cat.${c.id}.desc` as never)}</p>
-                  <div className={`mt-3 inline-flex items-center gap-1.5 rounded-full ${c.bg} px-2.5 py-1 text-xs font-semibold ${c.text}`}>
-                    <span className={`h-1.5 w-1.5 rounded-full ${c.dot}`} />
-                    {vocab ? `${catCounts[c.id]} ${t("vocab.cat.words")}` : "…"}
+                  <div className="mt-3 flex flex-wrap items-center gap-2">
+                    <div className={`inline-flex items-center gap-1.5 rounded-full ${c.bg} px-2.5 py-1 text-xs font-semibold ${c.text}`}>
+                      <span className={`h-1.5 w-1.5 rounded-full ${c.dot}`} />
+                      {vocab ? `${catCounts[c.id]} ${t("vocab.cat.words")}` : "…"}
+                    </div>
+                    {catRange[c.id] && <CefrBadge level={catRange[c.id]!.min} label={catRange[c.id]!.label} />}
                   </div>
                   {snap ? (
                     <MasteryBar right={snap.byCat[c.id].right} wrong={snap.byCat[c.id].wrong} neu={snap.byCat[c.id].new} />
