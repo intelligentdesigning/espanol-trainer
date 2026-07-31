@@ -1,0 +1,338 @@
+{
+  "la calle": {
+    "defEs": "Vía de una ciudad por donde pasan personas y coches.",
+    "defDe": "Weg in einer Stadt, auf dem Menschen und Autos unterwegs sind.",
+    "defEn": "A way in a town where people and cars pass.",
+    "exEs": "Mi casa está en una calle muy tranquila.",
+    "exDe": "Mein Haus liegt in einer sehr ruhigen Straße.",
+    "exEn": "My house is on a very quiet street."
+  },
+  "la esquina": {
+    "defEs": "Punto donde se juntan dos calles.",
+    "defDe": "Stelle, an der zwei Straßen zusammentreffen.",
+    "defEn": "The point where two streets meet.",
+    "exEs": "Te espero en la esquina del banco.",
+    "exDe": "Ich warte an der Ecke bei der Bank auf dich.",
+    "exEn": "I'll wait for you at the corner by the bank."
+  },
+  "la plaza": {
+    "defEs": "Espacio abierto y grande en el centro de un barrio.",
+    "defDe": "Großer offener Platz mitten in einem Viertel.",
+    "defEn": "A large open space in the middle of a neighbourhood.",
+    "exEs": "Los niños juegan en la plaza cada tarde.",
+    "exDe": "Die Kinder spielen jeden Nachmittag auf dem Platz.",
+    "exEn": "The children play in the square every afternoon."
+  },
+  "la avenida": {
+    "defEs": "Calle muy ancha y larga de una ciudad.",
+    "defDe": "Sehr breite und lange Straße einer Stadt.",
+    "defEn": "A very wide and long street in a city.",
+    "exEs": "La avenida tiene muchas tiendas y cafés.",
+    "exDe": "Die Allee hat viele Geschäfte und Cafés.",
+    "exEn": "The avenue has many shops and cafés."
+  },
+  "el cruce": {
+    "defEs": "Lugar donde dos calles se cortan.",
+    "defDe": "Ort, an dem sich zwei Straßen schneiden.",
+    "defEn": "A place where two streets cut across each other.",
+    "exEs": "Gira a la derecha en el próximo cruce.",
+    "exDe": "Bieg an der nächsten Kreuzung rechts ab.",
+    "exEn": "Turn right at the next crossing."
+  },
+  "el semáforo": {
+    "defEs": "Aparato con luces que ordena el tráfico.",
+    "defDe": "Gerät mit Lichtern, das den Verkehr regelt.",
+    "defEn": "A device with lights that controls traffic.",
+    "exEs": "El semáforo está en rojo, espera un momento.",
+    "exDe": "Die Ampel ist rot, warte einen Moment.",
+    "exEn": "The traffic light is red, wait a moment."
+  },
+  "la acera": {
+    "defEs": "Parte de la calle donde caminan las personas.",
+    "defDe": "Teil der Straße, auf dem die Menschen gehen.",
+    "defEn": "The part of the street where people walk.",
+    "exEs": "Camina por la acera, es más seguro.",
+    "exDe": "Geh auf dem Gehweg, das ist sicherer.",
+    "exEn": "Walk on the sidewalk, it is safer."
+  },
+  "el paso de peatones": {
+    "defEs": "Zona con rayas blancas para cruzar la calle.",
+    "defDe": "Bereich mit weißen Streifen zum Überqueren der Straße.",
+    "defEn": "An area with white stripes for crossing the street.",
+    "exEs": "Cruza siempre por el paso de peatones.",
+    "exDe": "Überquere immer am Zebrastreifen.",
+    "exEn": "Always cross at the pedestrian crossing."
+  },
+  "la rotonda": {
+    "defEs": "Círculo de tráfico donde los coches giran.",
+    "defDe": "Runder Verkehrskreis, in dem die Autos herumfahren.",
+    "defEn": "A traffic circle where cars go around.",
+    "exEs": "Toma la segunda salida de la rotonda.",
+    "exDe": "Nimm die zweite Ausfahrt am Kreisverkehr.",
+    "exEn": "Take the second exit at the roundabout."
+  },
+  "el puente": {
+    "defEs": "Construcción que pasa por encima de un río.",
+    "defDe": "Bauwerk, das über einen Fluss führt.",
+    "defEn": "A structure that goes over a river.",
+    "exEs": "Cruzamos el puente para llegar al museo.",
+    "exDe": "Wir überqueren die Brücke, um zum Museum zu kommen.",
+    "exEn": "We cross the bridge to reach the museum."
+  },
+  "la manzana": {
+    "defEs": "Grupo de casas rodeado por cuatro calles.",
+    "defDe": "Gruppe von Häusern, die von vier Straßen umgeben ist.",
+    "defEn": "A group of houses surrounded by four streets.",
+    "exEs": "La farmacia está a dos manzanas de aquí.",
+    "exDe": "Die Apotheke ist zwei Häuserblocks von hier entfernt.",
+    "exEn": "The pharmacy is two blocks from here."
+  },
+  "el mapa": {
+    "defEs": "Dibujo que muestra un país o una ciudad.",
+    "defDe": "Zeichnung, die ein Land oder eine Stadt zeigt.",
+    "defEn": "A drawing that shows a country or a city.",
+    "exEs": "Miro el mapa en el móvil para orientarme.",
+    "exDe": "Ich schaue auf die Karte im Handy, um mich zu orientieren.",
+    "exEn": "I look at the map on my phone to find my way."
+  },
+  "el plano": {
+    "defEs": "Dibujo detallado de las calles de una ciudad.",
+    "defDe": "Detaillierte Zeichnung der Straßen einer Stadt.",
+    "defEn": "A detailed drawing of a city's streets.",
+    "exEs": "En la oficina de turismo dan un plano gratis.",
+    "exDe": "Im Tourismusbüro gibt es einen kostenlosen Stadtplan.",
+    "exEn": "At the tourist office they give a free city map."
+  },
+  "la dirección": {
+    "defEs": "Calle y número donde vive alguien.",
+    "defDe": "Straße und Nummer, wo jemand wohnt.",
+    "defEn": "The street and number where someone lives.",
+    "exEs": "¿Me puedes dar tu dirección, por favor?",
+    "exDe": "Kannst du mir bitte deine Adresse geben?",
+    "exEn": "Can you give me your address, please?"
+  },
+  "el camino": {
+    "defEs": "Ruta que se sigue para llegar a un sitio.",
+    "defDe": "Weg, dem man folgt, um an einen Ort zu kommen.",
+    "defEn": "The route you follow to get somewhere.",
+    "exEs": "Este camino lleva directamente al parque.",
+    "exDe": "Dieser Weg führt direkt zum Park.",
+    "exEn": "This path leads straight to the park."
+  },
+  "la derecha": {
+    "defEs": "Lado contrario al del corazón.",
+    "defDe": "Seite, die der Herzseite gegenüberliegt.",
+    "defEn": "The side opposite to the heart side.",
+    "exEs": "Gira a la derecha después del banco.",
+    "exDe": "Bieg nach der Bank rechts ab.",
+    "exEn": "Turn right after the bank."
+  },
+  "la izquierda": {
+    "defEs": "Lado del cuerpo donde está el corazón.",
+    "defDe": "Körperseite, auf der das Herz liegt.",
+    "defEn": "The side of the body where the heart is.",
+    "exEs": "La panadería queda a la izquierda.",
+    "exDe": "Die Bäckerei liegt links.",
+    "exEn": "The bakery is on the left."
+  },
+  "recto": {
+    "defEs": "Sin girar, en línea directa.",
+    "defDe": "Ohne abzubiegen, in gerader Linie.",
+    "defEn": "Without turning, in a direct line.",
+    "exEs": "Sigue recto hasta el semáforo.",
+    "exDe": "Geh geradeaus bis zur Ampel.",
+    "exEn": "Keep going straight until the traffic light."
+  },
+  "todo recto": {
+    "defEs": "Sin cambiar de calle en ningún momento.",
+    "defDe": "Ohne an irgendeiner Stelle die Straße zu wechseln.",
+    "defEn": "Without changing streets at any point.",
+    "exEs": "Camina todo recto y verás la estación.",
+    "exDe": "Geh immer geradeaus und du siehst den Bahnhof.",
+    "exEn": "Walk straight ahead and you will see the station."
+  },
+  "cerca": {
+    "defEs": "A poca distancia de un lugar.",
+    "defDe": "In geringer Entfernung von einem Ort.",
+    "defEn": "At a short distance from a place.",
+    "exEs": "El supermercado está muy cerca de casa.",
+    "exDe": "Der Supermarkt ist ganz in der Nähe von zu Hause.",
+    "exEn": "The supermarket is very close to home."
+  },
+  "lejos": {
+    "defEs": "A mucha distancia de un lugar.",
+    "defDe": "In großer Entfernung von einem Ort.",
+    "defEn": "At a great distance from a place.",
+    "exEs": "El aeropuerto está lejos del centro.",
+    "exDe": "Der Flughafen ist weit vom Zentrum entfernt.",
+    "exEn": "The airport is far from the centre."
+  },
+  "aquí": {
+    "defEs": "En el lugar donde estoy ahora.",
+    "defDe": "An dem Ort, wo ich jetzt bin.",
+    "defEn": "In the place where I am now.",
+    "exEs": "Ven aquí, hay sitio para todos.",
+    "exDe": "Komm hierher, es gibt Platz für alle.",
+    "exEn": "Come here, there is room for everyone."
+  },
+  "allí": {
+    "defEs": "En un lugar lejos de quien habla.",
+    "defDe": "An einem Ort weit weg von dem, der spricht.",
+    "defEn": "In a place far from the speaker.",
+    "exEs": "El museo está allí, detrás de la iglesia.",
+    "exDe": "Das Museum ist dort, hinter der Kirche.",
+    "exEn": "The museum is over there, behind the church."
+  },
+  "enfrente de": {
+    "defEs": "En el lado opuesto de algo.",
+    "defDe": "Auf der gegenüberliegenden Seite von etwas.",
+    "defEn": "On the opposite side of something.",
+    "exEs": "El hotel está enfrente de la estación.",
+    "exDe": "Das Hotel liegt gegenüber dem Bahnhof.",
+    "exEn": "The hotel is opposite the station."
+  },
+  "al lado de": {
+    "defEs": "Muy cerca, justo a un costado.",
+    "defDe": "Ganz nah, direkt daneben.",
+    "defEn": "Very close, right beside something.",
+    "exEs": "La farmacia está al lado de la panadería.",
+    "exDe": "Die Apotheke ist neben der Bäckerei.",
+    "exEn": "The pharmacy is next to the bakery."
+  },
+  "detrás de": {
+    "defEs": "En la parte posterior de algo.",
+    "defDe": "Auf der Rückseite von etwas.",
+    "defEn": "At the back part of something.",
+    "exEs": "El coche está detrás de la casa.",
+    "exDe": "Das Auto steht hinter dem Haus.",
+    "exEn": "The car is behind the house."
+  },
+  "delante de": {
+    "defEs": "En la parte de adelante de algo.",
+    "defDe": "Auf der Vorderseite von etwas.",
+    "defEn": "At the front part of something.",
+    "exEs": "Nos vemos delante del cine a las ocho.",
+    "exDe": "Wir treffen uns um acht vor dem Kino.",
+    "exEn": "We meet in front of the cinema at eight."
+  },
+  "entre": {
+    "defEs": "En el espacio que separa dos cosas.",
+    "defDe": "In dem Raum, der zwei Dinge trennt.",
+    "defEn": "In the space that separates two things.",
+    "exEs": "El bar está entre la plaza y el puente.",
+    "exDe": "Die Bar liegt zwischen dem Platz und der Brücke.",
+    "exEn": "The bar is between the square and the bridge."
+  },
+  "junto a": {
+    "defEs": "Pegado o muy próximo a algo.",
+    "defDe": "Unmittelbar bei oder sehr nah an etwas.",
+    "defEn": "Right beside or very near something.",
+    "exEs": "Vivo junto a un parque muy bonito.",
+    "exDe": "Ich wohne direkt an einem sehr schönen Park.",
+    "exEn": "I live right next to a very nice park."
+  },
+  "hasta": {
+    "defEs": "Marca el punto final de un recorrido.",
+    "defDe": "Bezeichnet den Endpunkt einer Strecke.",
+    "defEn": "Marks the end point of a route.",
+    "exEs": "Camina hasta la esquina y para allí.",
+    "exDe": "Geh bis zur Ecke und halte dort an.",
+    "exEn": "Walk up to the corner and stop there."
+  },
+  "hacia": {
+    "defEs": "En dirección a un lugar.",
+    "defDe": "In Richtung eines Ortes.",
+    "defEn": "In the direction of a place.",
+    "exEs": "Vamos hacia el norte de la ciudad.",
+    "exDe": "Wir gehen Richtung Norden der Stadt.",
+    "exEn": "We are going towards the north of the city."
+  },
+  "girar": {
+    "defEs": "Cambiar de dirección al andar o conducir.",
+    "defDe": "Beim Gehen oder Fahren die Richtung wechseln.",
+    "defEn": "To change direction while walking or driving.",
+    "exEs": "Tienes que girar a la izquierda aquí.",
+    "exDe": "Du musst hier links abbiegen.",
+    "exEn": "You have to turn left here."
+  },
+  "doblar": {
+    "defEs": "Tomar otra calle en una esquina.",
+    "defDe": "An einer Ecke in eine andere Straße einbiegen.",
+    "defEn": "To take another street at a corner.",
+    "exEs": "Dobla en la primera calle a la derecha.",
+    "exDe": "Bieg in die erste Straße rechts ein.",
+    "exEn": "Turn into the first street on the right."
+  },
+  "seguir": {
+    "defEs": "Continuar por el mismo camino.",
+    "defDe": "Auf demselben Weg weitergehen.",
+    "defEn": "To continue along the same way.",
+    "exEs": "Sigue esta calle hasta la plaza.",
+    "exDe": "Folge dieser Straße bis zum Platz.",
+    "exEn": "Follow this street up to the square."
+  },
+  "cruzar": {
+    "defEs": "Pasar de un lado al otro de una calle.",
+    "defDe": "Von einer Seite einer Straße auf die andere gehen.",
+    "defEn": "To go from one side of a street to the other.",
+    "exEs": "Vamos a cruzar la calle con cuidado.",
+    "exDe": "Wir überqueren die Straße vorsichtig.",
+    "exEn": "Let's cross the street carefully."
+  },
+  "preguntar": {
+    "defEs": "Pedir una información a otra persona.",
+    "defDe": "Eine andere Person um eine Information bitten.",
+    "defEn": "To ask another person for information.",
+    "exEs": "Voy a preguntar dónde está la parada.",
+    "exDe": "Ich frage, wo die Haltestelle ist.",
+    "exEn": "I am going to ask where the stop is."
+  },
+  "perderse": {
+    "defEs": "No saber dónde se está ni cómo seguir.",
+    "defDe": "Nicht wissen, wo man ist und wie es weitergeht.",
+    "defEn": "Not knowing where you are or how to go on.",
+    "exEs": "Es fácil perderse en el casco antiguo.",
+    "exDe": "In der Altstadt verirrt man sich leicht.",
+    "exEn": "It is easy to get lost in the old town."
+  },
+  "coger": {
+    "defEs": "Subir a un transporte para viajar.",
+    "defDe": "In ein Verkehrsmittel einsteigen, um zu fahren.",
+    "defEn": "To get on a means of transport to travel.",
+    "exEs": "Puedes coger el autobús número doce.",
+    "exDe": "Du kannst den Bus Nummer zwölf nehmen.",
+    "exEn": "You can take bus number twelve."
+  },
+  "encontrar": {
+    "defEs": "Ver o hallar algo que se buscaba.",
+    "defDe": "Etwas sehen oder finden, das man gesucht hat.",
+    "defEn": "To see or find something you were looking for.",
+    "exEs": "No consigo encontrar la calle en el mapa.",
+    "exDe": "Ich finde die Straße auf der Karte nicht.",
+    "exEn": "I cannot find the street on the map."
+  },
+  "¿Dónde está...?": {
+    "defEs": "Pregunta para saber el lugar de algo.",
+    "defDe": "Frage, um den Ort von etwas zu erfahren.",
+    "defEn": "A question to learn where something is.",
+    "exEs": "Perdone, ¿dónde está la estación de tren?",
+    "exDe": "Entschuldigung, wo ist der Bahnhof?",
+    "exEn": "Excuse me, where is the train station?"
+  },
+  "¿Cómo se llega a...?": {
+    "defEs": "Pregunta para saber el camino a un sitio.",
+    "defDe": "Frage nach dem Weg zu einem Ort.",
+    "defEn": "A question asking the way to a place.",
+    "exEs": "¿Cómo se llega al museo desde aquí?",
+    "exDe": "Wie kommt man von hier zum Museum?",
+    "exEn": "How do you get to the museum from here?"
+  },
+  "a la vuelta de la esquina": {
+    "defEs": "Muy cerca, justo pasando la esquina.",
+    "defDe": "Ganz nah, gleich um die Ecke.",
+    "defEn": "Very close, just around the corner.",
+    "exEs": "El quiosco está a la vuelta de la esquina.",
+    "exDe": "Der Kiosk ist gleich um die Ecke.",
+    "exEn": "The kiosk is just around the corner."
+  }
+}

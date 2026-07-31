@@ -43,26 +43,59 @@ export function canSpeak(): boolean {
 }
 
 /** Speak text in the language currently being learned (Spanish or German).
- *  Cancels any ongoing utterance first. Returns false if unsupported. */
-export function speak(text: string, opts?: { onStart?: () => void; onEnd?: () => void; lang?: string }): boolean {
+ *  Returns false if the browser has no speech support at all. `onFail` fires
+ *  when the browser accepted the request but never actually spoke — Brave's
+ *  fingerprinting shield and some locked-down setups do exactly that, and the
+ *  UI should say so instead of silently doing nothing. */
+export function speak(
+  text: string,
+  opts?: { onStart?: () => void; onEnd?: () => void; onFail?: () => void; lang?: string },
+): boolean {
   if (!canSpeak() || !text.trim()) return false;
-  try {
-    const synth = window.speechSynthesis;
-    synth.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    const tag = opts?.lang || (getActiveLang() === "de" ? "de-DE" : "es-ES");
-    u.lang = tag;
-    u.rate = 0.9; // a touch slower for learners
-    const v = pickVoice(tag);
-    if (v) u.voice = v;
-    if (opts?.onStart) u.onstart = opts.onStart;
-    if (opts?.onEnd) {
-      u.onend = opts.onEnd;
-      u.onerror = opts.onEnd;
+  const synth = window.speechSynthesis;
+  const tag = opts?.lang || (getActiveLang() === "de" ? "de-DE" : "es-ES");
+
+  const utter = () => {
+    try {
+      // Only cancel when something is actually queued: a bare cancel() right
+      // before speak() is a known Chrome bug that swallows the next utterance.
+      if (synth.speaking || synth.pending) synth.cancel();
+      if (synth.paused) synth.resume(); // Chrome sometimes leaves it paused
+
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = tag;
+      u.rate = 0.9; // a touch slower for learners
+      const v = pickVoice(tag);
+      if (v) u.voice = v;
+
+      let started = false;
+      u.onstart = () => { started = true; opts?.onStart?.(); };
+      u.onend = () => opts?.onEnd?.();
+      u.onerror = () => { opts?.onEnd?.(); if (!started) opts?.onFail?.(); };
+      synth.speak(u);
+
+      // Nothing happened within a second → treat as blocked.
+      setTimeout(() => {
+        if (!started && !synth.speaking && !synth.pending) {
+          opts?.onEnd?.();
+          opts?.onFail?.();
+        }
+      }, 1200);
+    } catch {
+      opts?.onEnd?.();
+      opts?.onFail?.();
     }
-    synth.speak(u);
-    return true;
-  } catch {
-    return false;
+  };
+
+  // Voices load asynchronously; on the very first click they are often still
+  // empty. Give them one short beat rather than speaking with no voice at all.
+  if (!voices.length) {
+    loadVoices();
+    if (!voices.length) {
+      setTimeout(() => { loadVoices(); utter(); }, 120);
+      return true;
+    }
   }
+  utter();
+  return true;
 }

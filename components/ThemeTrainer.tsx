@@ -3,8 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
-import { loadThemes } from "@/lib/data";
+import { loadThemes, loadThemeDetails } from "@/lib/data";
 import { useLang } from "@/lib/lang";
+import { QuizWithPanels } from "@/components/QuizPanels";
 import { checkAnswer, formatNotation } from "@/lib/quiz";
 import { recordResult, addSession } from "@/lib/storage/db";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
@@ -13,7 +14,7 @@ import { SpeakButton } from "@/components/SpeakButton";
 import { PosTag } from "@/components/PosTag";
 import { CefrBadge } from "@/components/CefrBadge";
 import { cefrRange } from "@/lib/cefr";
-import type { ThemesData, ThemeEntry, Cefr, Pos } from "@/lib/types";
+import type { ThemesData, ThemeEntry, BuchDetails, Cefr, Pos } from "@/lib/types";
 
 type Dir = "es-de" | "de-es";
 type Phase = "index" | "setup" | "run" | "done";
@@ -31,6 +32,7 @@ export function ThemeTrainer() {
   const { t, L } = useI18n();
   const { lang } = useLang();
   const [data, setData] = useState<ThemesData | null>(null);
+  const [details, setDetails] = useState<BuchDetails>({});
   const [themeId, setThemeId] = useState<string | null>(null);
   const [dir, setDir] = useState<Dir>("es-de");
   const [level, setLevel] = useState<Cefr | "all">("all");
@@ -46,7 +48,7 @@ export function ThemeTrainer() {
   const startedAt = useRef(Date.now());
   const inputRef = useRef<SpanishInputHandle>(null);
 
-  useEffect(() => { loadThemes().then(setData); }, []);
+  useEffect(() => { loadThemes().then(setData); loadThemeDetails().then(setDetails); }, []);
   useEffect(() => { if (phase === "run" && status === "idle") inputRef.current?.focus(); }, [phase, status, idx]);
 
   if (!data) return (
@@ -189,8 +191,8 @@ export function ThemeTrainer() {
     setIdx((i) => i + 1); setInput(""); setStatus("idle");
   };
 
-  return (
-    <div className="mx-auto max-w-md space-y-5">
+  const center = (
+    <div className="space-y-5">
       <div className="flex items-end justify-between">
         <div>
           <div className="text-sm font-medium text-foreground">{t("quiz.round")} {idx + 1} / {total}</div>
@@ -231,5 +233,12 @@ export function ThemeTrainer() {
         </button>
       </div>
     </div>
+  );
+
+  // definition on the left, example sentence on the right (same as the coursebook trainer)
+  return (
+    <QuizWithPanels detail={details[keyOf(q.es)]} answered={status !== "idle"} enabled={Object.keys(details).length > 0}>
+      {center}
+    </QuizWithPanels>
   );
 }

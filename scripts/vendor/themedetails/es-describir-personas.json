@@ -1,0 +1,346 @@
+{
+  "alto": {
+    "defEs": "Que mide más que la mayoría de la gente.",
+    "defDe": "Wer größer ist als die meisten Menschen.",
+    "defEn": "Taller than most people.",
+    "exEs": "Mi primo es muy alto y juega al baloncesto.",
+    "exDe": "Mein Cousin ist sehr groß und spielt Basketball.",
+    "exEn": "My cousin is very tall and plays basketball."
+  },
+  "bajo": {
+    "defEs": "Que mide poco en altura.",
+    "defDe": "Wer wenig Körpergröße hat.",
+    "defEn": "Short in height.",
+    "exEs": "Ella es bajita, pero muy rápida.",
+    "exDe": "Sie ist klein, aber sehr schnell.",
+    "exEn": "She is short but very fast."
+  },
+  "guapo": {
+    "defEs": "Que tiene una cara y un aspecto agradables.",
+    "defDe": "Wer ein angenehmes Gesicht und Aussehen hat.",
+    "defEn": "Having a pleasant face and appearance.",
+    "exEs": "Tu hermano es muy guapo en esa foto.",
+    "exDe": "Dein Bruder sieht auf dem Foto sehr gut aus.",
+    "exEn": "Your brother looks very handsome in that photo."
+  },
+  "feo": {
+    "defEs": "Que no resulta agradable a la vista.",
+    "defDe": "Was für das Auge nicht angenehm ist.",
+    "defEn": "Not pleasant to look at.",
+    "exEs": "Ese jersey me parece bastante feo.",
+    "exDe": "Diesen Pullover finde ich ziemlich hässlich.",
+    "exEn": "I find that sweater quite ugly."
+  },
+  "gordo": {
+    "defEs": "Que tiene mucho peso en el cuerpo.",
+    "defDe": "Wer viel Körpergewicht hat.",
+    "defEn": "Having a lot of body weight.",
+    "exEs": "El gato está un poco gordo.",
+    "exDe": "Die Katze ist etwas dick.",
+    "exEn": "The cat is a bit fat."
+  },
+  "delgado": {
+    "defEs": "Que tiene poco peso y el cuerpo estrecho.",
+    "defDe": "Wer wenig Gewicht und einen schmalen Körper hat.",
+    "defEn": "Having little weight and a narrow body.",
+    "exEs": "Mi vecino es alto y delgado.",
+    "exDe": "Mein Nachbar ist groß und schlank.",
+    "exEn": "My neighbor is tall and slim."
+  },
+  "joven": {
+    "defEs": "Que tiene pocos años de vida.",
+    "defDe": "Wer wenige Lebensjahre hat.",
+    "defEn": "Having lived few years.",
+    "exEs": "La profesora nueva es muy joven.",
+    "exDe": "Die neue Lehrerin ist sehr jung.",
+    "exEn": "The new teacher is very young."
+  },
+  "viejo": {
+    "defEs": "Que tiene muchos años de vida.",
+    "defDe": "Wer viele Lebensjahre hat.",
+    "defEn": "Having lived many years.",
+    "exEs": "Ese señor viejo pasea cada mañana.",
+    "exDe": "Dieser alte Herr geht jeden Morgen spazieren.",
+    "exEn": "That old gentleman takes a walk every morning."
+  },
+  "moreno": {
+    "defEs": "Que tiene el pelo o la piel oscuros.",
+    "defDe": "Wer dunkle Haare oder dunkle Haut hat.",
+    "defEn": "Having dark hair or dark skin.",
+    "exEs": "Es moreno y tiene los ojos verdes.",
+    "exDe": "Er ist dunkelhaarig und hat grüne Augen.",
+    "exEn": "He is dark haired and has green eyes."
+  },
+  "rubio": {
+    "defEs": "Que tiene el pelo de color claro.",
+    "defDe": "Wer helles Haar hat.",
+    "defEn": "Having light colored hair.",
+    "exEs": "Su hija es rubia como su madre.",
+    "exDe": "Seine Tochter ist blond wie ihre Mutter.",
+    "exEn": "His daughter is blonde like her mother."
+  },
+  "pelirrojo": {
+    "defEs": "Que tiene el pelo de color naranja rojizo.",
+    "defDe": "Wer rötlich oranges Haar hat.",
+    "defEn": "Having reddish orange hair.",
+    "exEs": "El niño pelirrojo se llama Tomás.",
+    "exDe": "Der rothaarige Junge heißt Tomás.",
+    "exEn": "The red haired boy is called Tomás."
+  },
+  "calvo": {
+    "defEs": "Que ya no tiene pelo en la cabeza.",
+    "defDe": "Wer keine Haare mehr auf dem Kopf hat.",
+    "defEn": "Having no hair left on the head.",
+    "exEs": "Mi tío se quedó calvo muy joven.",
+    "exDe": "Mein Onkel wurde sehr früh kahl.",
+    "exEn": "My uncle went bald very young."
+  },
+  "el pelo": {
+    "defEs": "Lo que crece en la cabeza de una persona.",
+    "defDe": "Was auf dem Kopf eines Menschen wächst.",
+    "defEn": "What grows on a person's head.",
+    "exEs": "Tiene el pelo largo y oscuro.",
+    "exDe": "Sie hat lange, dunkle Haare.",
+    "exEn": "She has long dark hair."
+  },
+  "los ojos": {
+    "defEs": "Las partes de la cara con las que vemos.",
+    "defDe": "Die Teile des Gesichts, mit denen wir sehen.",
+    "defEn": "The parts of the face we see with.",
+    "exEs": "Mi hija tiene los ojos azules.",
+    "exDe": "Meine Tochter hat blaue Augen.",
+    "exEn": "My daughter has blue eyes."
+  },
+  "la barba": {
+    "defEs": "Pelo que crece en la cara de un hombre.",
+    "defDe": "Haar, das im Gesicht eines Mannes wächst.",
+    "defEn": "Hair that grows on a man's face.",
+    "exEs": "Se dejó barba durante el invierno.",
+    "exDe": "Er ließ sich im Winter einen Bart wachsen.",
+    "exEn": "He grew a beard over the winter."
+  },
+  "el bigote": {
+    "defEs": "Pelo que hay encima de la boca.",
+    "defDe": "Haar, das über dem Mund wächst.",
+    "defEn": "Hair above the mouth.",
+    "exEs": "Mi abuelo lleva bigote desde siempre.",
+    "exDe": "Mein Großvater trägt seit jeher einen Schnurrbart.",
+    "exEn": "My grandfather has always worn a mustache."
+  },
+  "las gafas": {
+    "defEs": "Objeto con cristales que ayuda a ver mejor.",
+    "defDe": "Gegenstand mit Gläsern, der besseres Sehen ermöglicht.",
+    "defEn": "An object with lenses that helps you see better.",
+    "exEs": "Necesito las gafas para leer el periódico.",
+    "exDe": "Ich brauche die Brille, um Zeitung zu lesen.",
+    "exEn": "I need glasses to read the newspaper."
+  },
+  "liso": {
+    "defEs": "Sin ondas ni curvas, completamente recto.",
+    "defDe": "Ohne Wellen oder Locken, ganz gerade.",
+    "defEn": "Without waves or curls, completely straight.",
+    "exEs": "Tiene el pelo liso y muy brillante.",
+    "exDe": "Sie hat glattes und sehr glänzendes Haar.",
+    "exEn": "She has straight and very shiny hair."
+  },
+  "rizado": {
+    "defEs": "Que forma pequeñas ondas o rizos.",
+    "defDe": "Was kleine Wellen oder Locken bildet.",
+    "defEn": "Forming small waves or curls.",
+    "exEs": "Su pelo rizado le llega a los hombros.",
+    "exDe": "Ihr lockiges Haar reicht bis zu den Schultern.",
+    "exEn": "Her curly hair reaches her shoulders."
+  },
+  "fuerte": {
+    "defEs": "Que tiene mucha fuerza física.",
+    "defDe": "Wer viel körperliche Kraft hat.",
+    "defEn": "Having a lot of physical strength.",
+    "exEs": "Es fuerte y puede levantar la caja solo.",
+    "exDe": "Er ist stark und kann die Kiste allein heben.",
+    "exEn": "He is strong and can lift the box alone."
+  },
+  "simpático": {
+    "defEs": "Que trata bien a los demás y cae bien.",
+    "defDe": "Wer andere gut behandelt und beliebt ist.",
+    "defEn": "Treating others well and being likeable.",
+    "exEs": "El camarero fue muy simpático con nosotros.",
+    "exDe": "Der Kellner war sehr nett zu uns.",
+    "exEn": "The waiter was very nice to us."
+  },
+  "antipático": {
+    "defEs": "Que trata a los demás con poca amabilidad.",
+    "defDe": "Wer andere wenig freundlich behandelt.",
+    "defEn": "Treating others in an unfriendly way.",
+    "exEs": "El vecino nuevo parece un poco antipático.",
+    "exDe": "Der neue Nachbar wirkt etwas unfreundlich.",
+    "exEn": "The new neighbor seems a bit unfriendly."
+  },
+  "amable": {
+    "defEs": "Que ayuda y habla con educación.",
+    "defDe": "Wer hilft und höflich spricht.",
+    "defEn": "Helpful and polite in speech.",
+    "exEs": "Fue muy amable y me acompañó a la estación.",
+    "exDe": "Er war sehr freundlich und begleitete mich zum Bahnhof.",
+    "exEn": "He was very kind and walked me to the station."
+  },
+  "inteligente": {
+    "defEs": "Que aprende y entiende las cosas con facilidad.",
+    "defDe": "Wer Dinge leicht lernt und versteht.",
+    "defEn": "Learning and understanding things easily.",
+    "exEs": "Es una niña inteligente y muy curiosa.",
+    "exDe": "Sie ist ein kluges und sehr neugieriges Mädchen.",
+    "exEn": "She is an intelligent and very curious girl."
+  },
+  "tonto": {
+    "defEs": "Que actúa sin pensar o entiende poco.",
+    "defDe": "Wer unüberlegt handelt oder wenig versteht.",
+    "defEn": "Acting without thinking or understanding little.",
+    "exEs": "Fue un error tonto, pero sin consecuencias.",
+    "exDe": "Es war ein dummer Fehler, aber ohne Folgen.",
+    "exEn": "It was a silly mistake, but with no consequences."
+  },
+  "gracioso": {
+    "defEs": "Que hace reír a los demás.",
+    "defDe": "Wer andere zum Lachen bringt.",
+    "defEn": "Making other people laugh.",
+    "exEs": "Mi tío es muy gracioso en las comidas.",
+    "exDe": "Mein Onkel ist beim Essen sehr witzig.",
+    "exEn": "My uncle is very funny at meals."
+  },
+  "serio": {
+    "defEs": "Que ríe poco y habla con formalidad.",
+    "defDe": "Wer wenig lacht und förmlich spricht.",
+    "defEn": "Laughing little and speaking formally.",
+    "exEs": "El jefe es serio, pero justo.",
+    "exDe": "Der Chef ist ernst, aber gerecht.",
+    "exEn": "The boss is serious but fair."
+  },
+  "alegre": {
+    "defEs": "Que está casi siempre de buen humor.",
+    "defDe": "Wer fast immer guter Laune ist.",
+    "defEn": "Almost always in a good mood.",
+    "exEs": "Es una persona alegre y muy positiva.",
+    "exDe": "Sie ist ein fröhlicher und sehr positiver Mensch.",
+    "exEn": "She is a cheerful and very positive person."
+  },
+  "tímido": {
+    "defEs": "Que habla poco delante de gente desconocida.",
+    "defDe": "Wer vor fremden Menschen wenig spricht.",
+    "defEn": "Speaking little in front of strangers.",
+    "exEs": "Mi hijo es tímido con los desconocidos.",
+    "exDe": "Mein Sohn ist bei Fremden schüchtern.",
+    "exEn": "My son is shy with strangers."
+  },
+  "trabajador": {
+    "defEs": "Que se esfuerza mucho en su trabajo.",
+    "defDe": "Wer sich bei der Arbeit sehr anstrengt.",
+    "defEn": "Putting a lot of effort into their work.",
+    "exEs": "Es muy trabajadora y nunca se queja.",
+    "exDe": "Sie ist sehr fleißig und beschwert sich nie.",
+    "exEn": "She is very hardworking and never complains."
+  },
+  "perezoso": {
+    "defEs": "Que evita el esfuerzo y prefiere descansar.",
+    "defDe": "Wer Anstrengung meidet und lieber ruht.",
+    "defEn": "Avoiding effort and preferring to rest.",
+    "exEs": "Los domingos me pongo un poco perezoso.",
+    "exDe": "Sonntags werde ich etwas faul.",
+    "exEn": "On Sundays I get a bit lazy."
+  },
+  "generoso": {
+    "defEs": "Que da cosas o tiempo a los demás sin problema.",
+    "defDe": "Wer anderen bereitwillig Dinge oder Zeit gibt.",
+    "defEn": "Readily giving things or time to others.",
+    "exEs": "Es generoso con sus amigos y su familia.",
+    "exDe": "Er ist großzügig zu Freunden und Familie.",
+    "exEn": "He is generous with his friends and family."
+  },
+  "egoísta": {
+    "defEs": "Que solo piensa en sí mismo.",
+    "defDe": "Wer nur an sich selbst denkt.",
+    "defEn": "Thinking only about oneself.",
+    "exEs": "No seas egoísta y comparte el postre.",
+    "exDe": "Sei nicht egoistisch und teile den Nachtisch.",
+    "exEn": "Do not be selfish and share the dessert."
+  },
+  "honesto": {
+    "defEs": "Que dice la verdad y actúa con rectitud.",
+    "defDe": "Wer die Wahrheit sagt und aufrichtig handelt.",
+    "defEn": "Telling the truth and acting uprightly.",
+    "exEs": "Prefiero un jefe honesto y directo.",
+    "exDe": "Ich bevorzuge einen ehrlichen und direkten Chef.",
+    "exEn": "I prefer an honest and direct boss."
+  },
+  "orgulloso": {
+    "defEs": "Que siente satisfacción por algo propio.",
+    "defDe": "Wer Zufriedenheit über etwas Eigenes empfindet.",
+    "defEn": "Feeling satisfaction about something of one's own.",
+    "exEs": "Está orgulloso de su hija médica.",
+    "exDe": "Er ist stolz auf seine Tochter, die Ärztin ist.",
+    "exEn": "He is proud of his daughter, who is a doctor."
+  },
+  "valiente": {
+    "defEs": "Que actúa aunque tenga miedo.",
+    "defDe": "Wer handelt, obwohl er Angst hat.",
+    "defEn": "Acting even when afraid.",
+    "exEs": "Fue valiente al hablar delante de todos.",
+    "exDe": "Er war mutig, vor allen zu sprechen.",
+    "exEn": "He was brave to speak in front of everyone."
+  },
+  "cariñoso": {
+    "defEs": "Que muestra afecto con abrazos y palabras dulces.",
+    "defDe": "Wer Zuneigung mit Umarmungen und lieben Worten zeigt.",
+    "defEn": "Showing affection with hugs and sweet words.",
+    "exEs": "Mi abuela siempre fue muy cariñosa.",
+    "exDe": "Meine Großmutter war immer sehr liebevoll.",
+    "exEn": "My grandmother was always very affectionate."
+  },
+  "maleducado": {
+    "defEs": "Que habla o actúa sin respeto.",
+    "defDe": "Wer respektlos spricht oder handelt.",
+    "defEn": "Speaking or acting without respect.",
+    "exEs": "Es maleducado interrumpir a la gente.",
+    "exDe": "Es ist unhöflich, Leute zu unterbrechen.",
+    "exEn": "It is rude to interrupt people."
+  },
+  "testarudo": {
+    "defEs": "Que no cambia de idea aunque se equivoque.",
+    "defDe": "Wer seine Meinung nicht ändert, selbst bei Irrtum.",
+    "defEn": "Not changing their mind even when wrong.",
+    "exEs": "Mi hermano es testarudo y nunca cede.",
+    "exDe": "Mein Bruder ist stur und gibt nie nach.",
+    "exEn": "My brother is stubborn and never gives in."
+  },
+  "presumido": {
+    "defEs": "Que habla demasiado bien de sí mismo.",
+    "defDe": "Wer zu gut über sich selbst spricht.",
+    "defEn": "Speaking too well of oneself.",
+    "exEs": "Es simpático, aunque un poco presumido.",
+    "exDe": "Er ist nett, wenn auch etwas eingebildet.",
+    "exEn": "He is nice, though a bit vain."
+  },
+  "sensato": {
+    "defEs": "Que piensa bien antes de decidir.",
+    "defDe": "Wer vor einer Entscheidung gut nachdenkt.",
+    "defEn": "Thinking carefully before deciding.",
+    "exEs": "Tomó una decisión sensata sobre el dinero.",
+    "exDe": "Er traf eine vernünftige Entscheidung über das Geld.",
+    "exEn": "He made a sensible decision about the money."
+  },
+  "el carácter": {
+    "defEs": "Manera de ser de una persona.",
+    "defDe": "Art und Weise, wie ein Mensch ist.",
+    "defEn": "The way a person is.",
+    "exEs": "Tiene buen carácter y mucha paciencia.",
+    "exDe": "Sie hat einen guten Charakter und viel Geduld.",
+    "exEn": "She has a good character and much patience."
+  },
+  "el aspecto": {
+    "defEs": "Cómo se ve una persona por fuera.",
+    "defDe": "Wie eine Person von außen aussieht.",
+    "defEn": "How a person looks on the outside.",
+    "exEs": "Hoy tienes buen aspecto.",
+    "exDe": "Du siehst heute gut aus.",
+    "exEn": "You look good today."
+  }
+}

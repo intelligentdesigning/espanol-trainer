@@ -1,0 +1,362 @@
+{
+  "la casa": {
+    "defEs": "Edificio donde vive una familia.",
+    "defDe": "Gebäude, in dem eine Familie wohnt.",
+    "defEn": "A building where a family lives.",
+    "exEs": "Su casa tiene un jardín grande.",
+    "exDe": "Ihr Haus hat einen großen Garten.",
+    "exEn": "Their house has a big garden."
+  },
+  "el piso": {
+    "defEs": "Vivienda dentro de un edificio con varias plantas.",
+    "defDe": "Wohnung in einem mehrstöckigen Gebäude.",
+    "defEn": "A home inside a building with several floors.",
+    "exEs": "Alquilamos un piso cerca del centro.",
+    "exDe": "Wir mieten eine Wohnung nahe dem Zentrum.",
+    "exEn": "We rent a flat near the centre."
+  },
+  "la habitación": {
+    "defEs": "Espacio cerrado dentro de una vivienda.",
+    "defDe": "Abgeschlossener Raum innerhalb einer Wohnung.",
+    "defEn": "An enclosed space inside a home.",
+    "exEs": "Mi habitación tiene mucha luz.",
+    "exDe": "Mein Zimmer hat viel Licht.",
+    "exEn": "My room gets a lot of light."
+  },
+  "la cocina": {
+    "defEs": "Lugar de la casa donde se prepara la comida.",
+    "defDe": "Raum im Haus, in dem das Essen zubereitet wird.",
+    "defEn": "The room in the house where food is prepared.",
+    "exEs": "Desayunamos siempre en la cocina.",
+    "exDe": "Wir frühstücken immer in der Küche.",
+    "exEn": "We always have breakfast in the kitchen."
+  },
+  "el baño": {
+    "defEs": "Lugar con ducha e inodoro para lavarse.",
+    "defDe": "Raum mit Dusche und Toilette zum Waschen.",
+    "defEn": "The room with a shower and toilet for washing.",
+    "exEs": "El baño está al final del pasillo.",
+    "exDe": "Das Bad ist am Ende des Flurs.",
+    "exEn": "The bathroom is at the end of the corridor."
+  },
+  "el dormitorio": {
+    "defEs": "Habitación donde está la cama y se duerme.",
+    "defDe": "Zimmer mit dem Bett, in dem man schläft.",
+    "defEn": "The room with the bed where you sleep.",
+    "exEs": "El dormitorio da al patio.",
+    "exDe": "Das Schlafzimmer geht zum Hof hinaus.",
+    "exEn": "The bedroom faces the courtyard."
+  },
+  "el salón": {
+    "defEs": "Sala grande para estar con la familia.",
+    "defDe": "Großer Raum, um mit der Familie zusammen zu sein.",
+    "defEn": "A large room for being together with the family.",
+    "exEs": "Vemos la tele en el salón.",
+    "exDe": "Wir sehen im Wohnzimmer fern.",
+    "exEn": "We watch TV in the living room."
+  },
+  "el comedor": {
+    "defEs": "Sala donde se come, con mesa y sillas.",
+    "defDe": "Raum zum Essen, mit Tisch und Stühlen.",
+    "defEn": "The room where you eat, with a table and chairs.",
+    "exEs": "Ponemos la mesa en el comedor.",
+    "exDe": "Wir decken den Tisch im Esszimmer.",
+    "exEn": "We set the table in the dining room."
+  },
+  "el pasillo": {
+    "defEs": "Paso estrecho que une las habitaciones.",
+    "defDe": "Schmaler Gang, der die Zimmer verbindet.",
+    "defEn": "A narrow passage connecting the rooms.",
+    "exEs": "El pasillo es muy estrecho y oscuro.",
+    "exDe": "Der Flur ist sehr eng und dunkel.",
+    "exEn": "The hallway is very narrow and dark."
+  },
+  "el garaje": {
+    "defEs": "Espacio cerrado para guardar el coche.",
+    "defDe": "Geschlossener Raum zum Abstellen des Autos.",
+    "defEn": "An enclosed space for keeping the car.",
+    "exEs": "Dejo la bicicleta en el garaje.",
+    "exDe": "Ich stelle das Fahrrad in die Garage.",
+    "exEn": "I leave the bike in the garage."
+  },
+  "el jardín": {
+    "defEs": "Terreno con plantas al lado de la casa.",
+    "defDe": "Fläche mit Pflanzen neben dem Haus.",
+    "defEn": "A piece of land with plants next to the house.",
+    "exEs": "En verano cenamos en el jardín.",
+    "exDe": "Im Sommer essen wir im Garten zu Abend.",
+    "exEn": "In summer we have dinner in the garden."
+  },
+  "la mesa": {
+    "defEs": "Mueble plano con patas para comer o trabajar.",
+    "defDe": "Flaches Möbel mit Beinen zum Essen oder Arbeiten.",
+    "defEn": "A flat piece of furniture with legs for eating or working.",
+    "exEs": "Deja las llaves sobre la mesa.",
+    "exDe": "Leg die Schlüssel auf den Tisch.",
+    "exEn": "Leave the keys on the table."
+  },
+  "la silla": {
+    "defEs": "Mueble con respaldo para sentarse una persona.",
+    "defDe": "Möbel mit Lehne, auf dem eine Person sitzt.",
+    "defEn": "A piece of furniture with a back for one person to sit on.",
+    "exEs": "Falta una silla para el invitado.",
+    "exDe": "Für den Gast fehlt ein Stuhl.",
+    "exEn": "There is one chair missing for the guest."
+  },
+  "la cama": {
+    "defEs": "Mueble blando donde se duerme.",
+    "defDe": "Weiches Möbel, in dem man schläft.",
+    "defEn": "A soft piece of furniture where you sleep.",
+    "exEs": "La cama nueva es muy cómoda.",
+    "exDe": "Das neue Bett ist sehr bequem.",
+    "exEn": "The new bed is very comfortable."
+  },
+  "el sofá": {
+    "defEs": "Asiento largo y blando para varias personas.",
+    "defDe": "Langer, weicher Sitz für mehrere Personen.",
+    "defEn": "A long soft seat for several people.",
+    "exEs": "El gato duerme siempre en el sofá.",
+    "exDe": "Die Katze schläft immer auf dem Sofa.",
+    "exEn": "The cat always sleeps on the sofa."
+  },
+  "el armario": {
+    "defEs": "Mueble alto y cerrado para guardar ropa.",
+    "defDe": "Hohes, geschlossenes Möbel für Kleidung.",
+    "defEn": "A tall closed piece of furniture for storing clothes.",
+    "exEs": "El armario ya no cierra bien.",
+    "exDe": "Der Schrank schließt nicht mehr richtig.",
+    "exEn": "The wardrobe no longer closes properly."
+  },
+  "la estantería": {
+    "defEs": "Mueble con tablas para poner libros.",
+    "defDe": "Möbel mit Brettern für Bücher.",
+    "defEn": "A piece of furniture with shelves for books.",
+    "exEs": "La estantería está llena de libros.",
+    "exDe": "Das Regal ist voller Bücher.",
+    "exEn": "The shelf is full of books."
+  },
+  "el cajón": {
+    "defEs": "Caja que se saca de un mueble.",
+    "defDe": "Kasten, den man aus einem Möbel zieht.",
+    "defEn": "A box that pulls out of a piece of furniture.",
+    "exEs": "Los cubiertos están en el primer cajón.",
+    "exDe": "Das Besteck ist in der ersten Schublade.",
+    "exEn": "The cutlery is in the first drawer."
+  },
+  "la lámpara": {
+    "defEs": "Objeto que da luz en una habitación.",
+    "defDe": "Gegenstand, der einem Zimmer Licht gibt.",
+    "defEn": "An object that gives light in a room.",
+    "exEs": "Enciende la lámpara, no veo nada.",
+    "exDe": "Mach die Lampe an, ich sehe nichts.",
+    "exEn": "Turn on the lamp, I can't see anything."
+  },
+  "la nevera": {
+    "defEs": "Aparato frío para conservar alimentos.",
+    "defDe": "Kaltes Gerät, das Lebensmittel frisch hält.",
+    "defEn": "A cold appliance for keeping food fresh.",
+    "exEs": "La leche está en la nevera.",
+    "exDe": "Die Milch ist im Kühlschrank.",
+    "exEn": "The milk is in the fridge."
+  },
+  "el horno": {
+    "defEs": "Aparato cerrado que cocina con calor.",
+    "defDe": "Geschlossenes Gerät, das mit Hitze gart.",
+    "defEn": "A closed appliance that cooks with heat.",
+    "exEs": "El pollo lleva una hora en el horno.",
+    "exDe": "Das Hähnchen ist seit einer Stunde im Ofen.",
+    "exEn": "The chicken has been in the oven for an hour."
+  },
+  "el fregadero": {
+    "defEs": "Pila de la cocina con grifo para lavar.",
+    "defDe": "Küchenbecken mit Wasserhahn zum Spülen.",
+    "defEn": "The kitchen basin with a tap for washing.",
+    "exEs": "Hay platos sucios en el fregadero.",
+    "exDe": "Im Spülbecken steht schmutziges Geschirr.",
+    "exEn": "There are dirty dishes in the sink."
+  },
+  "el lavavajillas": {
+    "defEs": "Máquina que lava los platos sola.",
+    "defDe": "Maschine, die das Geschirr selbst spült.",
+    "defEn": "A machine that washes the dishes by itself.",
+    "exEs": "Pongo el lavavajillas después de cenar.",
+    "exDe": "Ich stelle die Spülmaschine nach dem Essen an.",
+    "exEn": "I run the dishwasher after dinner."
+  },
+  "la lavadora": {
+    "defEs": "Máquina que lava la ropa.",
+    "defDe": "Maschine, die die Wäsche wäscht.",
+    "defEn": "A machine that washes clothes.",
+    "exEs": "La lavadora hace mucho ruido.",
+    "exDe": "Die Waschmaschine macht viel Lärm.",
+    "exEn": "The washing machine makes a lot of noise."
+  },
+  "el espejo": {
+    "defEs": "Cristal donde ves tu propia imagen.",
+    "defDe": "Glas, in dem man sein eigenes Bild sieht.",
+    "defEn": "A glass in which you see your own image.",
+    "exEs": "Me peino delante del espejo.",
+    "exDe": "Ich kämme mich vor dem Spiegel.",
+    "exEn": "I comb my hair in front of the mirror."
+  },
+  "la ventana": {
+    "defEs": "Abertura en la pared con cristal.",
+    "defDe": "Öffnung in der Wand mit Glas.",
+    "defEn": "An opening in the wall with glass.",
+    "exEs": "Abre la ventana, hace mucho calor.",
+    "exDe": "Mach das Fenster auf, es ist sehr heiß.",
+    "exEn": "Open the window, it is very hot."
+  },
+  "la puerta": {
+    "defEs": "Pieza que abre y cierra la entrada.",
+    "defDe": "Teil, das den Eingang öffnet und schließt.",
+    "defEn": "The part that opens and closes an entrance.",
+    "exEs": "Cierra la puerta con llave, por favor.",
+    "exDe": "Schließ die Tür bitte ab.",
+    "exEn": "Please lock the door."
+  },
+  "la pared": {
+    "defEs": "Superficie vertical que separa espacios.",
+    "defDe": "Senkrechte Fläche, die Räume trennt.",
+    "defEn": "A vertical surface that separates spaces.",
+    "exEs": "Vamos a pintar la pared de blanco.",
+    "exDe": "Wir streichen die Wand weiß.",
+    "exEn": "We are going to paint the wall white."
+  },
+  "el suelo": {
+    "defEs": "Superficie por donde caminamos dentro de casa.",
+    "defDe": "Fläche, auf der wir im Haus laufen.",
+    "defEn": "The surface we walk on inside the house.",
+    "exEs": "El suelo de madera está muy frío.",
+    "exDe": "Der Holzboden ist sehr kalt.",
+    "exEn": "The wooden floor is very cold."
+  },
+  "el techo": {
+    "defEs": "Parte de arriba de una habitación.",
+    "defDe": "Oberer Teil eines Zimmers.",
+    "defEn": "The upper part of a room.",
+    "exEs": "La lámpara cuelga del techo.",
+    "exDe": "Die Lampe hängt von der Decke.",
+    "exEn": "The lamp hangs from the ceiling."
+  },
+  "la llave": {
+    "defEs": "Pieza de metal que abre una cerradura.",
+    "defDe": "Metallstück, das ein Schloss öffnet.",
+    "defEn": "A metal piece that opens a lock.",
+    "exEs": "Dejé la llave dentro del piso.",
+    "exDe": "Ich habe den Schlüssel in der Wohnung gelassen.",
+    "exEn": "I left the key inside the flat."
+  },
+  "la toalla": {
+    "defEs": "Tela que usas para secarte.",
+    "defDe": "Tuch, mit dem man sich abtrocknet.",
+    "defEn": "A cloth you use to dry yourself.",
+    "exEs": "Necesito una toalla limpia, por favor.",
+    "exDe": "Ich brauche bitte ein sauberes Handtuch.",
+    "exEn": "I need a clean towel, please."
+  },
+  "la manta": {
+    "defEs": "Tela gruesa que da calor en la cama.",
+    "defDe": "Dickes Tuch, das im Bett wärmt.",
+    "defEn": "A thick cloth that keeps you warm in bed.",
+    "exEs": "En invierno uso dos mantas.",
+    "exDe": "Im Winter benutze ich zwei Decken.",
+    "exEn": "In winter I use two blankets."
+  },
+  "la almohada": {
+    "defEs": "Cojín blando para apoyar la cabeza.",
+    "defDe": "Weiches Kissen, auf das man den Kopf legt.",
+    "defEn": "A soft cushion for resting your head.",
+    "exEs": "Esta almohada es demasiado dura.",
+    "exDe": "Dieses Kissen ist zu hart.",
+    "exEn": "This pillow is too hard."
+  },
+  "el enchufe": {
+    "defEs": "Punto de la pared para conectar aparatos.",
+    "defDe": "Stelle in der Wand, um Geräte anzuschließen.",
+    "defEn": "A point in the wall for connecting devices.",
+    "exEs": "No hay ningún enchufe libre aquí.",
+    "exDe": "Hier ist keine Steckdose frei.",
+    "exEn": "There is no free socket here."
+  },
+  "la basura": {
+    "defEs": "Cosas que ya no sirven y se tiran.",
+    "defDe": "Dinge, die nicht mehr nützen und weggeworfen werden.",
+    "defEn": "Things that are no longer useful and get thrown away.",
+    "exEs": "Saco la basura todas las noches.",
+    "exDe": "Ich bringe jeden Abend den Müll raus.",
+    "exEn": "I take out the rubbish every night."
+  },
+  "limpiar": {
+    "defEs": "Quitar la suciedad de algo.",
+    "defDe": "Den Schmutz von etwas entfernen.",
+    "defEn": "To remove dirt from something.",
+    "exEs": "Hoy toca limpiar el baño.",
+    "exDe": "Heute ist das Bad dran mit Putzen.",
+    "exEn": "Today it is time to clean the bathroom."
+  },
+  "cocinar": {
+    "defEs": "Preparar comida con fuego o calor.",
+    "defDe": "Essen mit Feuer oder Hitze zubereiten.",
+    "defEn": "To prepare food with fire or heat.",
+    "exEs": "Mi padre cocina muy bien.",
+    "exDe": "Mein Vater kocht sehr gut.",
+    "exEn": "My father cooks very well."
+  },
+  "ordenar": {
+    "defEs": "Poner cada cosa en su sitio.",
+    "defDe": "Jedes Ding an seinen Platz stellen.",
+    "defEn": "To put everything in its place.",
+    "exEs": "Tengo que ordenar mi habitación.",
+    "exDe": "Ich muss mein Zimmer aufräumen.",
+    "exEn": "I have to tidy my room."
+  },
+  "lavar": {
+    "defEs": "Limpiar algo con agua y jabón.",
+    "defDe": "Etwas mit Wasser und Seife reinigen.",
+    "defEn": "To clean something with water and soap.",
+    "exEs": "Lavo la ropa dos veces por semana.",
+    "exDe": "Ich wasche die Wäsche zweimal pro Woche.",
+    "exEn": "I wash the clothes twice a week."
+  },
+  "fregar": {
+    "defEs": "Lavar platos o el suelo frotando.",
+    "defDe": "Geschirr oder den Boden schrubbend reinigen.",
+    "defEn": "To wash dishes or the floor by scrubbing.",
+    "exEs": "Después de comer friego los platos.",
+    "exDe": "Nach dem Essen spüle ich das Geschirr.",
+    "exEn": "After eating I wash the dishes."
+  },
+  "barrer": {
+    "defEs": "Quitar el polvo del suelo con una escoba.",
+    "defDe": "Den Staub mit einem Besen vom Boden entfernen.",
+    "defEn": "To remove dust from the floor with a broom.",
+    "exEs": "Barro la cocina cada mañana.",
+    "exDe": "Ich fege die Küche jeden Morgen.",
+    "exEn": "I sweep the kitchen every morning."
+  },
+  "planchar": {
+    "defEs": "Quitar las arrugas de la ropa con calor.",
+    "defDe": "Falten aus der Kleidung mit Hitze entfernen.",
+    "defEn": "To remove creases from clothes using heat.",
+    "exEs": "Odio planchar las camisas.",
+    "exDe": "Ich hasse es, Hemden zu bügeln.",
+    "exEn": "I hate ironing shirts."
+  },
+  "secar": {
+    "defEs": "Quitar el agua de algo mojado.",
+    "defDe": "Das Wasser von etwas Nassem entfernen.",
+    "defEn": "To remove water from something wet.",
+    "exEs": "Seca los vasos con este paño.",
+    "exDe": "Trockne die Gläser mit diesem Tuch.",
+    "exEn": "Dry the glasses with this cloth."
+  },
+  "colgar": {
+    "defEs": "Poner algo suspendido de un gancho o cuerda.",
+    "defDe": "Etwas an einen Haken oder eine Leine hängen.",
+    "defEn": "To hang something from a hook or line.",
+    "exEs": "Cuelgo la ropa en el balcón.",
+    "exDe": "Ich hänge die Wäsche auf dem Balkon auf.",
+    "exEn": "I hang the laundry on the balcony."
+  }
+}

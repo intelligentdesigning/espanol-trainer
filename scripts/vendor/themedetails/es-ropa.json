@@ -1,0 +1,354 @@
+{
+  "la ropa": {
+    "defEs": "Todo lo que una persona lleva puesto.",
+    "defDe": "Alles, was eine Person am Körper trägt.",
+    "defEn": "Everything a person wears.",
+    "exEs": "Guardo la ropa limpia en el armario.",
+    "exDe": "Ich räume die saubere Kleidung in den Schrank.",
+    "exEn": "I put the clean clothes in the wardrobe."
+  },
+  "la camiseta": {
+    "defEs": "Prenda ligera de manga corta para la parte de arriba.",
+    "defDe": "Leichtes kurzärmeliges Kleidungsstück für oben.",
+    "defEn": "A light short sleeved top.",
+    "exEs": "En verano llevo camiseta y pantalones cortos.",
+    "exDe": "Im Sommer trage ich T-Shirt und kurze Hosen.",
+    "exEn": "In summer I wear a T-shirt and shorts."
+  },
+  "la camisa": {
+    "defEs": "Prenda de arriba con botones y cuello.",
+    "defDe": "Oberteil mit Knöpfen und Kragen.",
+    "defEn": "A top with buttons and a collar.",
+    "exEs": "Para la oficina me pongo una camisa blanca.",
+    "exDe": "Fürs Büro ziehe ich ein weißes Hemd an.",
+    "exEn": "For the office I put on a white shirt."
+  },
+  "el pantalón": {
+    "defEs": "Prenda que cubre las dos piernas.",
+    "defDe": "Kleidungsstück, das beide Beine bedeckt.",
+    "defEn": "A garment that covers both legs.",
+    "exEs": "Este pantalón me queda un poco corto.",
+    "exDe": "Diese Hose ist mir etwas zu kurz.",
+    "exEn": "These trousers are a bit short on me."
+  },
+  "los vaqueros": {
+    "defEs": "Pantalones de tela azul fuerte, muy comunes.",
+    "defDe": "Hose aus festem blauem Stoff, sehr verbreitet.",
+    "defEn": "Trousers made of strong blue fabric, very common.",
+    "exEs": "Llevo vaqueros casi todos los días.",
+    "exDe": "Ich trage fast jeden Tag Jeans.",
+    "exEn": "I wear jeans almost every day."
+  },
+  "la falda": {
+    "defEs": "Prenda que cae desde la cintura sin separar las piernas.",
+    "defDe": "Kleidungsstück, das von der Taille fällt, ohne die Beine zu trennen.",
+    "defEn": "A garment that hangs from the waist without separating the legs.",
+    "exEs": "Ana lleva una falda negra a la fiesta.",
+    "exDe": "Ana trägt einen schwarzen Rock zur Party.",
+    "exEn": "Ana is wearing a black skirt to the party."
+  },
+  "el vestido": {
+    "defEs": "Prenda de una sola pieza para el cuerpo entero.",
+    "defDe": "Einteiliges Kleidungsstück für den ganzen Körper.",
+    "defEn": "A one piece garment for the whole body.",
+    "exEs": "Compró un vestido rojo para la boda.",
+    "exDe": "Sie hat ein rotes Kleid für die Hochzeit gekauft.",
+    "exEn": "She bought a red dress for the wedding."
+  },
+  "el jersey": {
+    "defEs": "Prenda de lana que abriga la parte de arriba.",
+    "defDe": "Wollkleidungsstück, das den Oberkörper wärmt.",
+    "defEn": "A woollen garment that keeps the upper body warm.",
+    "exEs": "Hace frío, ponte un jersey.",
+    "exDe": "Es ist kalt, zieh einen Pullover an.",
+    "exEn": "It is cold, put on a jumper."
+  },
+  "la chaqueta": {
+    "defEs": "Prenda abierta que se lleva encima de la camisa.",
+    "defDe": "Offenes Kleidungsstück, das man über dem Hemd trägt.",
+    "defEn": "An open garment worn over a shirt.",
+    "exEs": "Deja la chaqueta en la silla.",
+    "exDe": "Leg die Jacke auf den Stuhl.",
+    "exEn": "Leave the jacket on the chair."
+  },
+  "el abrigo": {
+    "defEs": "Prenda larga y gruesa para el frío.",
+    "defDe": "Langes, dickes Kleidungsstück für die Kälte.",
+    "defEn": "A long thick garment for cold weather.",
+    "exEs": "En invierno no salgo sin abrigo.",
+    "exDe": "Im Winter gehe ich nicht ohne Mantel raus.",
+    "exEn": "In winter I do not go out without a coat."
+  },
+  "los zapatos": {
+    "defEs": "Lo que se pone en los pies para salir a la calle.",
+    "defDe": "Was man an den Füßen trägt, um nach draußen zu gehen.",
+    "defEn": "What you put on your feet to go outside.",
+    "exEs": "Estos zapatos negros son muy cómodos.",
+    "exDe": "Diese schwarzen Schuhe sind sehr bequem.",
+    "exEn": "These black shoes are very comfortable."
+  },
+  "las zapatillas": {
+    "defEs": "Calzado ligero y blando para el deporte o la casa.",
+    "defDe": "Leichte, weiche Schuhe für Sport oder zu Hause.",
+    "defEn": "Light soft shoes for sport or the house.",
+    "exEs": "Me pongo las zapatillas para ir a correr.",
+    "exDe": "Ich ziehe die Turnschuhe zum Laufen an.",
+    "exEn": "I put on my trainers to go running."
+  },
+  "las botas": {
+    "defEs": "Calzado alto que cubre también el tobillo.",
+    "defDe": "Hohe Schuhe, die auch den Knöchel bedecken.",
+    "defEn": "High shoes that also cover the ankle.",
+    "exEs": "Con lluvia llevo botas de agua.",
+    "exDe": "Bei Regen trage ich Gummistiefel.",
+    "exEn": "When it rains I wear rubber boots."
+  },
+  "los calcetines": {
+    "defEs": "Prenda fina que se pone en los pies bajo el zapato.",
+    "defDe": "Dünnes Kleidungsstück, das man unter dem Schuh am Fuß trägt.",
+    "defEn": "A thin garment worn on the feet under shoes.",
+    "exEs": "No encuentro los calcetines azules.",
+    "exDe": "Ich finde die blauen Socken nicht.",
+    "exEn": "I cannot find the blue socks."
+  },
+  "el sombrero": {
+    "defEs": "Prenda para la cabeza con ala alrededor.",
+    "defDe": "Kopfbedeckung mit Krempe ringsum.",
+    "defEn": "A head covering with a brim around it.",
+    "exEs": "Lleva un sombrero para el sol.",
+    "exDe": "Er trägt einen Hut gegen die Sonne.",
+    "exEn": "He wears a hat against the sun."
+  },
+  "la gorra": {
+    "defEs": "Prenda de tela para la cabeza con visera delante.",
+    "defDe": "Stoffkopfbedeckung mit Schirm vorn.",
+    "defEn": "A cloth head covering with a peak at the front.",
+    "exEs": "El chico juega con una gorra roja.",
+    "exDe": "Der Junge spielt mit einer roten Kappe.",
+    "exEn": "The boy plays wearing a red cap."
+  },
+  "los guantes": {
+    "defEs": "Prenda que cubre las manos y los dedos.",
+    "defDe": "Kleidungsstück, das Hände und Finger bedeckt.",
+    "defEn": "A garment covering the hands and fingers.",
+    "exEs": "Sin guantes se me quedan las manos heladas.",
+    "exDe": "Ohne Handschuhe werden meine Hände eiskalt.",
+    "exEn": "Without gloves my hands get freezing."
+  },
+  "la bufanda": {
+    "defEs": "Tela larga que se pone alrededor del cuello.",
+    "defDe": "Langes Tuch, das man um den Hals legt.",
+    "defEn": "A long piece of cloth worn around the neck.",
+    "exEs": "Mi madre me hizo una bufanda de lana.",
+    "exDe": "Meine Mutter hat mir einen Wollschal gemacht.",
+    "exEn": "My mother made me a woollen scarf."
+  },
+  "el cinturón": {
+    "defEs": "Tira que sujeta el pantalón en la cintura.",
+    "defDe": "Band, das die Hose an der Taille hält.",
+    "defEn": "A strip that holds trousers at the waist.",
+    "exEs": "Necesito un cinturón con estos pantalones.",
+    "exDe": "Ich brauche zu dieser Hose einen Gürtel.",
+    "exEn": "I need a belt with these trousers."
+  },
+  "la corbata": {
+    "defEs": "Tira de tela elegante que se lleva al cuello.",
+    "defDe": "Elegantes Stoffband, das man am Hals trägt.",
+    "defEn": "An elegant strip of cloth worn at the neck.",
+    "exEs": "Se puso una corbata azul para la reunión.",
+    "exDe": "Er hat für das Meeting eine blaue Krawatte angezogen.",
+    "exEn": "He put on a blue tie for the meeting."
+  },
+  "el traje": {
+    "defEs": "Conjunto elegante de chaqueta y pantalón.",
+    "defDe": "Elegantes Set aus Jackett und Hose.",
+    "defEn": "An elegant set of jacket and trousers.",
+    "exEs": "Lleva traje solo en ocasiones especiales.",
+    "exDe": "Er trägt nur zu besonderen Anlässen einen Anzug.",
+    "exEn": "He wears a suit only on special occasions."
+  },
+  "el bañador": {
+    "defEs": "Prenda que se lleva para nadar.",
+    "defDe": "Kleidungsstück, das man zum Schwimmen trägt.",
+    "defEn": "A garment worn for swimming.",
+    "exEs": "Olvidé el bañador en casa.",
+    "exDe": "Ich habe die Badehose zu Hause vergessen.",
+    "exEn": "I forgot my swimsuit at home."
+  },
+  "el pijama": {
+    "defEs": "Ropa cómoda que se usa para dormir.",
+    "defDe": "Bequeme Kleidung, die man zum Schlafen trägt.",
+    "defEn": "Comfortable clothes worn for sleeping.",
+    "exEs": "Los domingos estoy en pijama hasta tarde.",
+    "exDe": "Sonntags bleibe ich lange im Schlafanzug.",
+    "exEn": "On Sundays I stay in pyjamas until late."
+  },
+  "la ropa interior": {
+    "defEs": "Prendas que se llevan debajo de todo lo demás.",
+    "defDe": "Kleidungsstücke, die man unter allem anderen trägt.",
+    "defEn": "Garments worn under everything else.",
+    "exEs": "Metí ropa interior limpia en la maleta.",
+    "exDe": "Ich habe frische Unterwäsche in den Koffer gepackt.",
+    "exEn": "I packed clean underwear in the suitcase."
+  },
+  "los pantalones cortos": {
+    "defEs": "Pantalones que terminan por encima de la rodilla.",
+    "defDe": "Hose, die über dem Knie endet.",
+    "defEn": "Trousers that end above the knee.",
+    "exEs": "Con este calor prefiero pantalones cortos.",
+    "exDe": "Bei dieser Hitze trage ich lieber kurze Hosen.",
+    "exEn": "In this heat I prefer shorts."
+  },
+  "la sudadera": {
+    "defEs": "Prenda gruesa y cómoda de manga larga.",
+    "defDe": "Dickes, bequemes Oberteil mit langen Ärmeln.",
+    "defEn": "A thick comfortable long sleeved top.",
+    "exEs": "Llevo una sudadera gris para entrenar.",
+    "exDe": "Ich trage zum Training ein graues Sweatshirt.",
+    "exEn": "I wear a grey sweatshirt to train."
+  },
+  "el chaleco": {
+    "defEs": "Prenda sin mangas que se lleva encima.",
+    "defDe": "Ärmelloses Kleidungsstück, das man darüber trägt.",
+    "defEn": "A sleeveless garment worn on top.",
+    "exEs": "El chaleco abriga sin dar calor en los brazos.",
+    "exDe": "Die Weste wärmt, ohne die Arme heiß zu machen.",
+    "exEn": "The vest keeps you warm without heating your arms."
+  },
+  "las gafas de sol": {
+    "defEs": "Cristales oscuros que protegen los ojos del sol.",
+    "defDe": "Dunkle Gläser, die die Augen vor der Sonne schützen.",
+    "defEn": "Dark lenses that protect the eyes from the sun.",
+    "exEs": "Siempre llevo gafas de sol en la playa.",
+    "exDe": "Am Strand trage ich immer eine Sonnenbrille.",
+    "exEn": "I always wear sunglasses at the beach."
+  },
+  "el bolso": {
+    "defEs": "Objeto que se lleva colgado para guardar cosas.",
+    "defDe": "Umhängbares Behältnis für persönliche Sachen.",
+    "defEn": "A carried bag for keeping personal things.",
+    "exEs": "Tengo las llaves en el bolso.",
+    "exDe": "Ich habe die Schlüssel in der Handtasche.",
+    "exEn": "I have the keys in my handbag."
+  },
+  "el reloj": {
+    "defEs": "Objeto que marca la hora, a menudo en la muñeca.",
+    "defDe": "Gegenstand, der die Zeit anzeigt, oft am Handgelenk.",
+    "defEn": "An object that shows the time, often on the wrist.",
+    "exEs": "Mi reloj se para cada dos días.",
+    "exDe": "Meine Uhr bleibt alle zwei Tage stehen.",
+    "exEn": "My watch stops every two days."
+  },
+  "el anillo": {
+    "defEs": "Joya redonda que se lleva en el dedo.",
+    "defDe": "Runder Schmuck, den man am Finger trägt.",
+    "defEn": "A round piece of jewellery worn on the finger.",
+    "exEs": "Lleva un anillo de plata en la mano derecha.",
+    "exDe": "Sie trägt einen Silberring an der rechten Hand.",
+    "exEn": "She wears a silver ring on her right hand."
+  },
+  "el collar": {
+    "defEs": "Joya que se pone alrededor del cuello.",
+    "defDe": "Schmuck, den man um den Hals legt.",
+    "defEn": "A piece of jewellery worn around the neck.",
+    "exEs": "Le regalé un collar por su cumpleaños.",
+    "exDe": "Ich habe ihr zum Geburtstag eine Kette geschenkt.",
+    "exEn": "I gave her a necklace for her birthday."
+  },
+  "los pendientes": {
+    "defEs": "Joyas pequeñas que se llevan en las orejas.",
+    "defDe": "Kleiner Schmuck, den man an den Ohren trägt.",
+    "defEn": "Small jewellery worn in the ears.",
+    "exEs": "Estos pendientes son de mi abuela.",
+    "exDe": "Diese Ohrringe sind von meiner Oma.",
+    "exEn": "These earrings belonged to my grandmother."
+  },
+  "el paraguas": {
+    "defEs": "Objeto que se abre para no mojarse con la lluvia.",
+    "defDe": "Gegenstand, den man aufspannt, um im Regen trocken zu bleiben.",
+    "defEn": "An object you open to stay dry in the rain.",
+    "exEs": "Coge el paraguas, va a llover.",
+    "exDe": "Nimm den Schirm mit, es wird regnen.",
+    "exEn": "Take the umbrella, it is going to rain."
+  },
+  "la talla": {
+    "defEs": "Medida de una prenda, por ejemplo pequeña o grande.",
+    "defDe": "Maß eines Kleidungsstücks, etwa klein oder groß.",
+    "defEn": "The size of a garment, for example small or large.",
+    "exEs": "¿Tiene esta camisa en otra talla?",
+    "exDe": "Haben Sie dieses Hemd in einer anderen Größe?",
+    "exEn": "Do you have this shirt in another size?"
+  },
+  "el bolsillo": {
+    "defEs": "Hueco de una prenda para guardar cosas pequeñas.",
+    "defDe": "Öffnung an einem Kleidungsstück für kleine Sachen.",
+    "defEn": "A pouch in a garment for small things.",
+    "exEs": "Llevo el móvil en el bolsillo.",
+    "exDe": "Ich habe das Handy in der Tasche.",
+    "exEn": "I carry my phone in my pocket."
+  },
+  "la manga": {
+    "defEs": "Parte de una prenda que cubre el brazo.",
+    "defDe": "Teil eines Kleidungsstücks, der den Arm bedeckt.",
+    "defEn": "The part of a garment covering the arm.",
+    "exEs": "Súbete las mangas para fregar.",
+    "exDe": "Krempel die Ärmel zum Abwaschen hoch.",
+    "exEn": "Roll up your sleeves to do the dishes."
+  },
+  "llevar": {
+    "defEs": "Tener una prenda puesta.",
+    "defDe": "Ein Kleidungsstück anhaben.",
+    "defEn": "To have a garment on.",
+    "exEs": "Hoy lleva un abrigo muy elegante.",
+    "exDe": "Heute trägt sie einen sehr eleganten Mantel.",
+    "exEn": "Today she is wearing a very elegant coat."
+  },
+  "vestirse": {
+    "defEs": "Ponerse la ropa.",
+    "defDe": "Sich die Kleidung anziehen.",
+    "defEn": "To put your clothes on.",
+    "exEs": "Me visto rápido y salgo de casa.",
+    "exDe": "Ich ziehe mich schnell an und gehe aus dem Haus.",
+    "exEn": "I get dressed quickly and leave the house."
+  },
+  "ponerse": {
+    "defEs": "Colocarse una prenda encima del cuerpo.",
+    "defDe": "Ein Kleidungsstück am Körper anlegen.",
+    "defEn": "To put a garment on your body.",
+    "exEs": "Ponte los zapatos, ya nos vamos.",
+    "exDe": "Zieh die Schuhe an, wir gehen los.",
+    "exEn": "Put your shoes on, we are leaving."
+  },
+  "quitarse": {
+    "defEs": "Sacarse una prenda del cuerpo.",
+    "defDe": "Ein Kleidungsstück vom Körper nehmen.",
+    "defEn": "To take a garment off your body.",
+    "exEs": "Se quita la chaqueta al entrar en casa.",
+    "exDe": "Er zieht die Jacke aus, wenn er nach Hause kommt.",
+    "exEn": "He takes off his jacket when he gets home."
+  },
+  "probarse": {
+    "defEs": "Ponerse una prenda en la tienda para ver si vale.",
+    "defDe": "Ein Kleidungsstück im Laden anziehen, um zu sehen, ob es passt.",
+    "defEn": "To try a garment on in a shop to see if it fits.",
+    "exEs": "Quiero probarme estos vaqueros, por favor.",
+    "exDe": "Ich möchte diese Jeans bitte anprobieren.",
+    "exEn": "I would like to try on these jeans, please."
+  },
+  "quedar bien": {
+    "defEs": "Ser una prenda adecuada y favorecedora para alguien.",
+    "defDe": "Einem Menschen gut passen und stehen.",
+    "defEn": "To suit and fit someone well.",
+    "exEs": "Ese color te queda muy bien.",
+    "exDe": "Diese Farbe steht dir sehr gut.",
+    "exEn": "That colour suits you very well."
+  },
+  "de moda": {
+    "defEs": "Que gusta y se lleva mucho en este momento.",
+    "defDe": "Gerade beliebt und viel getragen.",
+    "defEn": "Popular and widely worn right now.",
+    "exEs": "Las faldas largas están de moda otra vez.",
+    "exDe": "Lange Röcke sind wieder in Mode.",
+    "exEn": "Long skirts are in fashion again."
+  }
+}

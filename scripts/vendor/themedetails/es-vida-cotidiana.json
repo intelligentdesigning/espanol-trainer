@@ -1,0 +1,338 @@
+{
+  "despertarse": {
+    "defEs": "Dejar de dormir y abrir los ojos.",
+    "defDe": "Aufhören zu schlafen und die Augen öffnen.",
+    "defEn": "To stop sleeping and open your eyes.",
+    "exEs": "Me despierto a las siete cada mañana.",
+    "exDe": "Ich wache jeden Morgen um sieben auf.",
+    "exEn": "I wake up at seven every morning."
+  },
+  "levantarse": {
+    "defEs": "Salir de la cama y ponerse de pie.",
+    "defDe": "Aus dem Bett steigen und aufstehen.",
+    "defEn": "To get out of bed and stand up.",
+    "exEs": "Mi hermano se levanta muy despacio.",
+    "exDe": "Mein Bruder steht sehr langsam auf.",
+    "exEn": "My brother gets up very slowly."
+  },
+  "ducharse": {
+    "defEs": "Lavarse el cuerpo con agua en el baño.",
+    "defDe": "Sich im Bad mit Wasser waschen.",
+    "defEn": "To wash your body with water in the bathroom.",
+    "exEs": "Me ducho antes de ir al trabajo.",
+    "exDe": "Ich dusche, bevor ich zur Arbeit gehe.",
+    "exEn": "I shower before going to work."
+  },
+  "desayunar": {
+    "defEs": "Tomar la primera comida del día.",
+    "defDe": "Die erste Mahlzeit des Tages einnehmen.",
+    "defEn": "To have the first meal of the day.",
+    "exEs": "Desayunamos café con tostadas.",
+    "exDe": "Wir frühstücken Kaffee mit Toast.",
+    "exEn": "We have coffee with toast for breakfast."
+  },
+  "comer": {
+    "defEs": "Tomar alimentos por la boca.",
+    "defDe": "Nahrung durch den Mund zu sich nehmen.",
+    "defEn": "To take food through the mouth.",
+    "exEs": "Hoy comemos en casa de mi madre.",
+    "exDe": "Heute essen wir bei meiner Mutter.",
+    "exEn": "Today we are eating at my mother's house."
+  },
+  "cenar": {
+    "defEs": "Tomar la última comida del día, por la noche.",
+    "defDe": "Abends die letzte Mahlzeit des Tages essen.",
+    "defEn": "To eat the last meal of the day, in the evening.",
+    "exEs": "Cenamos siempre a las nueve.",
+    "exDe": "Wir essen immer um neun zu Abend.",
+    "exEn": "We always have dinner at nine."
+  },
+  "dormir": {
+    "defEs": "Descansar con los ojos cerrados durante horas.",
+    "defDe": "Stundenlang mit geschlossenen Augen ruhen.",
+    "defEn": "To rest with your eyes closed for hours.",
+    "exEs": "Los fines de semana duermo ocho horas.",
+    "exDe": "Am Wochenende schlafe ich acht Stunden.",
+    "exEn": "On weekends I sleep eight hours."
+  },
+  "trabajar": {
+    "defEs": "Hacer una actividad para ganar dinero.",
+    "defDe": "Eine Tätigkeit ausüben, um Geld zu verdienen.",
+    "defEn": "To do an activity in order to earn money.",
+    "exEs": "Mi padre trabaja en una oficina pequeña.",
+    "exDe": "Mein Vater arbeitet in einem kleinen Büro.",
+    "exEn": "My father works in a small office."
+  },
+  "estudiar": {
+    "defEs": "Aprender algo leyendo o practicando.",
+    "defDe": "Etwas durch Lesen oder Üben lernen.",
+    "defEn": "To learn something by reading or practising.",
+    "exEs": "Estudio español todas las tardes.",
+    "exDe": "Ich lerne jeden Nachmittag Spanisch.",
+    "exEn": "I study Spanish every afternoon."
+  },
+  "vivir": {
+    "defEs": "Tener la casa en un lugar, o estar vivo.",
+    "defDe": "An einem Ort wohnen oder am Leben sein.",
+    "defEn": "To have your home in a place, or to be alive.",
+    "exEs": "Vivimos en un pueblo muy tranquilo.",
+    "exDe": "Wir wohnen in einem sehr ruhigen Dorf.",
+    "exEn": "We live in a very quiet village."
+  },
+  "vestirse": {
+    "defEs": "Ponerse la ropa.",
+    "defDe": "Sich die Kleidung anziehen.",
+    "defEn": "To put your clothes on.",
+    "exEs": "El niño ya se viste solo.",
+    "exDe": "Das Kind zieht sich schon allein an.",
+    "exEn": "The child already gets dressed by himself."
+  },
+  "cocinar": {
+    "defEs": "Preparar comida con calor en la cocina.",
+    "defDe": "In der Küche Essen mit Hitze zubereiten.",
+    "defEn": "To prepare food with heat in the kitchen.",
+    "exEs": "Los domingos cocino para toda la familia.",
+    "exDe": "Sonntags koche ich für die ganze Familie.",
+    "exEn": "On Sundays I cook for the whole family."
+  },
+  "limpiar": {
+    "defEs": "Quitar la suciedad de un lugar o una cosa.",
+    "defDe": "Den Schmutz von einem Ort oder Ding entfernen.",
+    "defEn": "To remove dirt from a place or thing.",
+    "exEs": "Limpio la cocina después de cenar.",
+    "exDe": "Ich putze die Küche nach dem Abendessen.",
+    "exEn": "I clean the kitchen after dinner."
+  },
+  "descansar": {
+    "defEs": "Parar un rato para recuperar fuerzas.",
+    "defDe": "Eine Weile pausieren, um Kraft zu sammeln.",
+    "defEn": "To stop for a while to recover your strength.",
+    "exEs": "Después de correr necesito descansar un poco.",
+    "exDe": "Nach dem Laufen muss ich mich etwas ausruhen.",
+    "exEn": "After running I need to rest a little."
+  },
+  "lavarse los dientes": {
+    "defEs": "Limpiar la boca con cepillo y pasta.",
+    "defDe": "Den Mund mit Bürste und Paste reinigen.",
+    "defEn": "To clean your mouth with a brush and paste.",
+    "exEs": "Me lavo los dientes tres veces al día.",
+    "exDe": "Ich putze mir dreimal am Tag die Zähne.",
+    "exEn": "I brush my teeth three times a day."
+  },
+  "la rutina": {
+    "defEs": "Serie de cosas que haces siempre igual.",
+    "defDe": "Reihe von Dingen, die man immer gleich macht.",
+    "defEn": "A series of things you always do the same way.",
+    "exEs": "Mi rutina empieza con un café.",
+    "exDe": "Meine Routine beginnt mit einem Kaffee.",
+    "exEn": "My routine starts with a coffee."
+  },
+  "el día": {
+    "defEs": "Tiempo de veinticuatro horas con luz y noche.",
+    "defDe": "Zeitraum von vierundzwanzig Stunden mit Licht und Nacht.",
+    "defEn": "A period of twenty four hours with light and night.",
+    "exEs": "Ha sido un día muy largo.",
+    "exDe": "Es war ein sehr langer Tag.",
+    "exEn": "It has been a very long day."
+  },
+  "la mañana": {
+    "defEs": "Primera parte del día, hasta el mediodía.",
+    "defDe": "Erster Teil des Tages, bis zum Mittag.",
+    "defEn": "The first part of the day, until noon.",
+    "exEs": "Por la mañana salgo a pasear.",
+    "exDe": "Am Morgen gehe ich spazieren.",
+    "exEn": "In the morning I go for a walk."
+  },
+  "la tarde": {
+    "defEs": "Parte del día entre el mediodía y la noche.",
+    "defDe": "Teil des Tages zwischen Mittag und Nacht.",
+    "defEn": "The part of the day between noon and night.",
+    "exEs": "Esta tarde tengo clase de guitarra.",
+    "exDe": "Heute Nachmittag habe ich Gitarrenunterricht.",
+    "exEn": "This afternoon I have a guitar lesson."
+  },
+  "la noche": {
+    "defEs": "Parte oscura del día, cuando dormimos.",
+    "defDe": "Dunkler Teil des Tages, wenn wir schlafen.",
+    "defEn": "The dark part of the day, when we sleep.",
+    "exEs": "Por la noche leo un poco en la cama.",
+    "exDe": "Nachts lese ich ein wenig im Bett.",
+    "exEn": "At night I read a little in bed."
+  },
+  "la casa": {
+    "defEs": "Edificio donde vive una persona o familia.",
+    "defDe": "Gebäude, in dem eine Person oder Familie lebt.",
+    "defEn": "A building where a person or family lives.",
+    "exEs": "Vuelvo a casa sobre las seis.",
+    "exDe": "Ich komme gegen sechs nach Hause.",
+    "exEn": "I get home around six."
+  },
+  "la cama": {
+    "defEs": "Mueble donde una persona duerme.",
+    "defDe": "Möbelstück, in dem man schläft.",
+    "defEn": "A piece of furniture where a person sleeps.",
+    "exEs": "Hago la cama antes de desayunar.",
+    "exDe": "Ich mache das Bett vor dem Frühstück.",
+    "exEn": "I make the bed before breakfast."
+  },
+  "la comida": {
+    "defEs": "Todo lo que comemos, o la comida del mediodía.",
+    "defDe": "Alles, was wir essen, oder das Mittagessen.",
+    "defEn": "Everything we eat, or the midday meal.",
+    "exEs": "La comida está lista en la mesa.",
+    "exDe": "Das Essen steht fertig auf dem Tisch.",
+    "exEn": "The food is ready on the table."
+  },
+  "el desayuno": {
+    "defEs": "Primera comida de la mañana.",
+    "defDe": "Erste Mahlzeit am Morgen.",
+    "defEn": "The first meal in the morning.",
+    "exEs": "El desayuno del hotel es muy bueno.",
+    "exDe": "Das Frühstück im Hotel ist sehr gut.",
+    "exEn": "The hotel breakfast is very good."
+  },
+  "el trabajo": {
+    "defEs": "Actividad que haces para ganar dinero.",
+    "defDe": "Tätigkeit, mit der man Geld verdient.",
+    "defEn": "The activity you do to earn money.",
+    "exEs": "Voy al trabajo en bicicleta.",
+    "exDe": "Ich fahre mit dem Fahrrad zur Arbeit.",
+    "exEn": "I go to work by bike."
+  },
+  "la ropa": {
+    "defEs": "Cosas que llevamos puestas sobre el cuerpo.",
+    "defDe": "Sachen, die wir am Körper tragen.",
+    "defEn": "Things we wear on our body.",
+    "exEs": "Guardo la ropa limpia en el armario.",
+    "exDe": "Ich räume die saubere Kleidung in den Schrank.",
+    "exEn": "I put the clean clothes in the wardrobe."
+  },
+  "el reloj": {
+    "defEs": "Objeto que indica la hora.",
+    "defDe": "Gegenstand, der die Uhrzeit anzeigt.",
+    "defEn": "An object that shows the time.",
+    "exEs": "Mi reloj se para otra vez.",
+    "exDe": "Meine Uhr bleibt schon wieder stehen.",
+    "exEn": "My watch stops again."
+  },
+  "la llave": {
+    "defEs": "Pieza pequeña de metal para abrir puertas.",
+    "defDe": "Kleines Metallteil zum Öffnen von Türen.",
+    "defEn": "A small metal piece for opening doors.",
+    "exEs": "Siempre pierdo las llaves del coche.",
+    "exDe": "Ich verliere immer die Autoschlüssel.",
+    "exEn": "I always lose the car keys."
+  },
+  "el móvil": {
+    "defEs": "Teléfono pequeño que llevas contigo.",
+    "defDe": "Kleines Telefon, das man bei sich trägt.",
+    "defEn": "A small telephone you carry with you.",
+    "exEs": "Cargo el móvil por la noche.",
+    "exDe": "Ich lade das Handy nachts auf.",
+    "exEn": "I charge my phone at night."
+  },
+  "las tareas": {
+    "defEs": "Trabajos que hay que hacer en casa o clase.",
+    "defDe": "Aufgaben, die zu Hause oder in der Schule anfallen.",
+    "defEn": "Jobs that have to be done at home or at school.",
+    "exEs": "Hacemos las tareas de casa entre todos.",
+    "exDe": "Wir erledigen die Hausarbeit gemeinsam.",
+    "exEn": "We do the household chores together."
+  },
+  "temprano": {
+    "defEs": "En las primeras horas, antes de lo normal.",
+    "defDe": "In den ersten Stunden, früher als üblich.",
+    "defEn": "In the early hours, sooner than usual.",
+    "exEs": "Mañana tengo que salir temprano.",
+    "exDe": "Morgen muss ich früh losgehen.",
+    "exEn": "Tomorrow I have to leave early."
+  },
+  "tarde": {
+    "defEs": "Después de la hora prevista.",
+    "defDe": "Nach der vorgesehenen Zeit.",
+    "defEn": "After the expected time.",
+    "exEs": "Lo siento, hoy llego tarde.",
+    "exDe": "Entschuldigung, heute komme ich zu spät.",
+    "exEn": "Sorry, today I am arriving late."
+  },
+  "siempre": {
+    "defEs": "En todos los momentos, sin excepción.",
+    "defDe": "Zu jedem Zeitpunkt, ohne Ausnahme.",
+    "defEn": "At all times, without exception.",
+    "exEs": "Siempre desayuno antes de salir.",
+    "exDe": "Ich frühstücke immer vor dem Weggehen.",
+    "exEn": "I always have breakfast before leaving."
+  },
+  "a veces": {
+    "defEs": "En algunas ocasiones, no siempre.",
+    "defDe": "Bei manchen Gelegenheiten, nicht immer.",
+    "defEn": "On some occasions, not always.",
+    "exEs": "A veces cenamos en el jardín.",
+    "exDe": "Manchmal essen wir im Garten zu Abend.",
+    "exEn": "Sometimes we have dinner in the garden."
+  },
+  "todos los días": {
+    "defEs": "Cada día, sin faltar ninguno.",
+    "defDe": "Jeden Tag, ohne einen auszulassen.",
+    "defEn": "Every day, without missing one.",
+    "exEs": "Todos los días paseo con el perro.",
+    "exDe": "Jeden Tag gehe ich mit dem Hund spazieren.",
+    "exEn": "Every day I walk the dog."
+  },
+  "ocupado": {
+    "defEs": "Con mucho que hacer y poco tiempo libre.",
+    "defDe": "Mit viel zu tun und wenig freier Zeit.",
+    "defEn": "Having a lot to do and little free time.",
+    "exEs": "Esta semana estoy muy ocupado.",
+    "exDe": "Diese Woche bin ich sehr beschäftigt.",
+    "exEn": "This week I am very busy."
+  },
+  "cansado": {
+    "defEs": "Sin fuerzas, con ganas de descansar.",
+    "defDe": "Ohne Kraft, mit dem Wunsch auszuruhen.",
+    "defEn": "Without energy, wanting to rest.",
+    "exEs": "Llego a casa cansado del trabajo.",
+    "exDe": "Ich komme müde von der Arbeit nach Hause.",
+    "exEn": "I come home tired from work."
+  },
+  "cotidiano": {
+    "defEs": "Que ocurre cada día y es normal.",
+    "defDe": "Was jeden Tag geschieht und normal ist.",
+    "defEn": "Happening every day and considered normal.",
+    "exEs": "Cocinar es un gesto cotidiano para mí.",
+    "exDe": "Kochen ist für mich etwas Alltägliches.",
+    "exEn": "Cooking is an everyday thing for me."
+  },
+  "acostarse": {
+    "defEs": "Meterse en la cama para dormir.",
+    "defDe": "Ins Bett gehen, um zu schlafen.",
+    "defEn": "To get into bed in order to sleep.",
+    "exEs": "Los niños se acuestan a las ocho.",
+    "exDe": "Die Kinder gehen um acht ins Bett.",
+    "exEn": "The children go to bed at eight."
+  },
+  "madrugar": {
+    "defEs": "Levantarse muy pronto, casi de noche.",
+    "defDe": "Sehr früh aufstehen, fast noch nachts.",
+    "defEn": "To get up very early, almost at night.",
+    "exEs": "No me gusta madrugar los sábados.",
+    "exDe": "Ich stehe samstags nicht gern früh auf.",
+    "exEn": "I don't like getting up early on Saturdays."
+  },
+  "el quehacer": {
+    "defEs": "Trabajo pequeño de casa que hay que hacer.",
+    "defDe": "Kleine Hausarbeit, die erledigt werden muss.",
+    "defEn": "A small household job that must be done.",
+    "exEs": "Tengo muchos quehaceres esta mañana.",
+    "exDe": "Ich habe heute Morgen viele Hausarbeiten.",
+    "exEn": "I have a lot of chores this morning."
+  },
+  "el aseo personal": {
+    "defEs": "Cuidado del cuerpo para estar limpio.",
+    "defDe": "Körperpflege, um sauber zu sein.",
+    "defEn": "Taking care of your body to stay clean.",
+    "exEs": "El aseo personal me lleva quince minutos.",
+    "exDe": "Die Körperpflege dauert bei mir fünfzehn Minuten.",
+    "exEn": "My personal hygiene takes fifteen minutes."
+  }
+}

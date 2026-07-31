@@ -1,0 +1,346 @@
+{
+  "el deporte": {
+    "defEs": "Actividad física que se hace por salud o por diversión.",
+    "defDe": "Körperliche Aktivität für Gesundheit oder Spaß.",
+    "defEn": "A physical activity done for health or fun.",
+    "exEs": "Hago deporte tres veces por semana.",
+    "exDe": "Ich mache dreimal pro Woche Sport.",
+    "exEn": "I do sport three times a week."
+  },
+  "el fútbol": {
+    "defEs": "Deporte de once jugadores que meten el balón con el pie.",
+    "defDe": "Sport mit elf Spielern, die den Ball mit dem Fuß ins Tor bringen.",
+    "defEn": "A sport of eleven players who kick the ball into a goal.",
+    "exEs": "Mi hijo juega al fútbol los sábados.",
+    "exDe": "Mein Sohn spielt samstags Fußball.",
+    "exEn": "My son plays football on Saturdays."
+  },
+  "el baloncesto": {
+    "defEs": "Deporte en el que se lanza el balón a una canasta alta.",
+    "defDe": "Sport, bei dem man den Ball in einen hohen Korb wirft.",
+    "defEn": "A sport where you throw the ball into a high basket.",
+    "exEs": "En el baloncesto ayuda mucho ser alto.",
+    "exDe": "Beim Basketball hilft es sehr, groß zu sein.",
+    "exEn": "In basketball it helps a lot to be tall."
+  },
+  "el tenis": {
+    "defEs": "Deporte con raqueta y pelota sobre una pista con red.",
+    "defDe": "Sport mit Schläger und Ball auf einem Platz mit Netz.",
+    "defEn": "A sport with a racket and ball on a court with a net.",
+    "exEs": "Jugamos al tenis el domingo por la mañana.",
+    "exDe": "Wir spielen am Sonntagmorgen Tennis.",
+    "exEn": "We play tennis on Sunday morning."
+  },
+  "la natación": {
+    "defEs": "Deporte que consiste en moverse dentro del agua.",
+    "defDe": "Sport, bei dem man sich im Wasser fortbewegt.",
+    "defEn": "The sport of moving through water.",
+    "exEs": "La natación es buena para la espalda.",
+    "exDe": "Schwimmen ist gut für den Rücken.",
+    "exEn": "Swimming is good for your back."
+  },
+  "el ciclismo": {
+    "defEs": "Deporte que se practica sobre una bicicleta.",
+    "defDe": "Sport, den man auf dem Fahrrad betreibt.",
+    "defEn": "The sport practised on a bicycle.",
+    "exEs": "El ciclismo es muy popular en España.",
+    "exDe": "Radsport ist in Spanien sehr beliebt.",
+    "exEn": "Cycling is very popular in Spain."
+  },
+  "el atletismo": {
+    "defEs": "Conjunto de pruebas como correr, saltar y lanzar.",
+    "defDe": "Gesamtheit der Disziplinen wie Laufen, Springen und Werfen.",
+    "defEn": "The set of events such as running, jumping and throwing.",
+    "exEs": "Mi hermana entrena atletismo en el club.",
+    "exDe": "Meine Schwester trainiert Leichtathletik im Verein.",
+    "exEn": "My sister trains athletics at the club."
+  },
+  "el voleibol": {
+    "defEs": "Deporte de dos equipos que pasan la pelota por encima de la red.",
+    "defDe": "Sport zweier Mannschaften, die den Ball übers Netz spielen.",
+    "defEn": "A sport where two teams hit the ball over the net.",
+    "exEs": "En la playa jugamos al voleibol cada verano.",
+    "exDe": "Am Strand spielen wir jeden Sommer Volleyball.",
+    "exEn": "At the beach we play volleyball every summer."
+  },
+  "el boxeo": {
+    "defEs": "Deporte de lucha con guantes entre dos personas.",
+    "defDe": "Kampfsport mit Handschuhen zwischen zwei Personen.",
+    "defEn": "A fighting sport with gloves between two people.",
+    "exEs": "El boxeo exige mucha resistencia.",
+    "exDe": "Boxen verlangt viel Ausdauer.",
+    "exEn": "Boxing demands a lot of stamina."
+  },
+  "el esquí": {
+    "defEs": "Deporte de invierno que se practica sobre la nieve.",
+    "defDe": "Wintersport, den man auf Schnee betreibt.",
+    "defEn": "A winter sport practised on snow.",
+    "exEs": "Vamos a la montaña a practicar esquí.",
+    "exDe": "Wir fahren in die Berge zum Skifahren.",
+    "exEn": "We go to the mountains to ski."
+  },
+  "el equipo": {
+    "defEs": "Grupo de personas que juegan juntas contra otro grupo.",
+    "defDe": "Gruppe von Personen, die zusammen gegen eine andere spielt.",
+    "defEn": "A group of people playing together against another group.",
+    "exEs": "Nuestro equipo ganó la liga este año.",
+    "exDe": "Unsere Mannschaft hat dieses Jahr die Liga gewonnen.",
+    "exEn": "Our team won the league this year."
+  },
+  "el partido": {
+    "defEs": "Encuentro deportivo entre dos equipos o jugadores.",
+    "defDe": "Sportliche Begegnung zwischen zwei Teams oder Spielern.",
+    "defEn": "A sporting match between two teams or players.",
+    "exEs": "El partido empieza a las nueve.",
+    "exDe": "Das Spiel beginnt um neun.",
+    "exEn": "The match starts at nine."
+  },
+  "el jugador": {
+    "defEs": "Persona que participa en un juego o deporte.",
+    "defDe": "Person, die an einem Spiel oder Sport teilnimmt.",
+    "defEn": "A person who takes part in a game or sport.",
+    "exEs": "Ese jugador corre muy rápido.",
+    "exDe": "Dieser Spieler läuft sehr schnell.",
+    "exEn": "That player runs very fast."
+  },
+  "el gol": {
+    "defEs": "Punto que se consigue metiendo el balón en la portería.",
+    "defDe": "Punkt, den man erzielt, wenn der Ball ins Tor geht.",
+    "defEn": "A point scored by putting the ball into the goal.",
+    "exEs": "Marcó un gol en el último minuto.",
+    "exDe": "Er hat in der letzten Minute ein Tor geschossen.",
+    "exEn": "He scored a goal in the last minute."
+  },
+  "el balón": {
+    "defEs": "Pelota grande que se usa en fútbol o baloncesto.",
+    "defDe": "Großer Ball, den man beim Fußball oder Basketball benutzt.",
+    "defEn": "A large ball used in football or basketball.",
+    "exEs": "El balón salió fuera del campo.",
+    "exDe": "Der Ball ist ins Aus gegangen.",
+    "exEn": "The ball went out of the field."
+  },
+  "la pelota": {
+    "defEs": "Objeto redondo con el que se juega.",
+    "defDe": "Runder Gegenstand, mit dem gespielt wird.",
+    "defEn": "A round object used for playing.",
+    "exEs": "El perro corre detrás de la pelota.",
+    "exDe": "Der Hund rennt hinter dem Ball her.",
+    "exEn": "The dog runs after the ball."
+  },
+  "la raqueta": {
+    "defEs": "Objeto con mango y cuerdas para golpear la pelota.",
+    "defDe": "Gerät mit Griff und Saiten, um den Ball zu schlagen.",
+    "defEn": "An object with a handle and strings to hit the ball.",
+    "exEs": "Se me rompió una cuerda de la raqueta.",
+    "exDe": "Mir ist eine Saite am Schläger gerissen.",
+    "exEn": "A string on my racket broke."
+  },
+  "la red": {
+    "defEs": "Malla que separa los dos lados de una pista.",
+    "defDe": "Netz, das die beiden Spielfeldhälften trennt.",
+    "defEn": "The mesh that separates the two sides of a court.",
+    "exEs": "La pelota tocó la red y cayó dentro.",
+    "exDe": "Der Ball berührte das Netz und fiel hinein.",
+    "exEn": "The ball touched the net and fell in."
+  },
+  "el estadio": {
+    "defEs": "Edificio grande donde el público ve los partidos.",
+    "defDe": "Großes Gebäude, in dem das Publikum Spiele sieht.",
+    "defEn": "A large building where the public watches matches.",
+    "exEs": "El estadio estaba lleno de gente.",
+    "exDe": "Das Stadion war voller Menschen.",
+    "exEn": "The stadium was full of people."
+  },
+  "el gimnasio": {
+    "defEs": "Local con máquinas y pesas para entrenar.",
+    "defDe": "Raum mit Geräten und Gewichten zum Trainieren.",
+    "defEn": "A place with machines and weights for training.",
+    "exEs": "Voy al gimnasio antes del trabajo.",
+    "exDe": "Ich gehe vor der Arbeit ins Fitnessstudio.",
+    "exEn": "I go to the gym before work."
+  },
+  "la cancha": {
+    "defEs": "Terreno marcado donde se juega un deporte.",
+    "defDe": "Markierte Fläche, auf der ein Sport gespielt wird.",
+    "defEn": "A marked area where a sport is played.",
+    "exEs": "La cancha de tenis está al lado del parque.",
+    "exDe": "Der Tennisplatz liegt neben dem Park.",
+    "exEn": "The tennis court is next to the park."
+  },
+  "la portería": {
+    "defEs": "Sitio con red donde hay que meter el balón.",
+    "defDe": "Ort mit Netz, in den der Ball muss.",
+    "defEn": "The netted place where the ball must go.",
+    "exEs": "El balón pasó justo al lado de la portería.",
+    "exDe": "Der Ball ging knapp am Tor vorbei.",
+    "exEn": "The ball went just past the goal."
+  },
+  "el árbitro": {
+    "defEs": "Persona que controla que se cumplan las reglas.",
+    "defDe": "Person, die auf die Einhaltung der Regeln achtet.",
+    "defEn": "The person who makes sure the rules are followed.",
+    "exEs": "El árbitro no vio la falta.",
+    "exDe": "Der Schiedsrichter hat das Foul nicht gesehen.",
+    "exEn": "The referee did not see the foul."
+  },
+  "el entrenador": {
+    "defEs": "Persona que dirige y prepara a un equipo.",
+    "defDe": "Person, die eine Mannschaft leitet und vorbereitet.",
+    "defEn": "The person who leads and prepares a team.",
+    "exEs": "El entrenador cambió a dos jugadores.",
+    "exDe": "Der Trainer hat zwei Spieler ausgewechselt.",
+    "exEn": "The coach substituted two players."
+  },
+  "las zapatillas": {
+    "defEs": "Calzado ligero que se usa para hacer deporte.",
+    "defDe": "Leichte Schuhe, die man zum Sport trägt.",
+    "defEn": "Light shoes used for doing sport.",
+    "exEs": "Estas zapatillas son perfectas para correr.",
+    "exDe": "Diese Turnschuhe sind perfekt zum Laufen.",
+    "exEn": "These trainers are perfect for running."
+  },
+  "el casco": {
+    "defEs": "Objeto duro que protege la cabeza.",
+    "defDe": "Harter Gegenstand, der den Kopf schützt.",
+    "defEn": "A hard object that protects the head.",
+    "exEs": "En bicicleta siempre llevo casco.",
+    "exDe": "Auf dem Fahrrad trage ich immer einen Helm.",
+    "exEn": "On a bicycle I always wear a helmet."
+  },
+  "la medalla": {
+    "defEs": "Premio de metal que gana el mejor deportista.",
+    "defDe": "Preis aus Metall für die besten Sportler.",
+    "defEn": "A metal prize won by the best athletes.",
+    "exEs": "Ganó la medalla de oro en natación.",
+    "exDe": "Sie hat im Schwimmen die Goldmedaille gewonnen.",
+    "exEn": "She won the gold medal in swimming."
+  },
+  "el campeonato": {
+    "defEs": "Competición larga para saber quién es el mejor.",
+    "defDe": "Längerer Wettbewerb, um den Besten zu ermitteln.",
+    "defEn": "A long competition to find out who is best.",
+    "exEs": "El campeonato dura todo el mes.",
+    "exDe": "Die Meisterschaft dauert den ganzen Monat.",
+    "exEn": "The championship lasts the whole month."
+  },
+  "el entrenamiento": {
+    "defEs": "Sesión de práctica para mejorar en un deporte.",
+    "defDe": "Übungseinheit, um in einer Sportart besser zu werden.",
+    "defEn": "A practice session to improve at a sport.",
+    "exEs": "El entrenamiento empieza a las seis.",
+    "exDe": "Das Training beginnt um sechs.",
+    "exEn": "Training starts at six."
+  },
+  "correr": {
+    "defEs": "Moverse con los pies muy rápido.",
+    "defDe": "Sich mit den Füßen sehr schnell fortbewegen.",
+    "defEn": "To move on foot very fast.",
+    "exEs": "Corro media hora por el parque.",
+    "exDe": "Ich laufe eine halbe Stunde durch den Park.",
+    "exEn": "I run half an hour through the park."
+  },
+  "jugar": {
+    "defEs": "Participar en un juego o deporte por diversión.",
+    "defDe": "Zum Spaß an einem Spiel oder Sport teilnehmen.",
+    "defEn": "To take part in a game or sport for fun.",
+    "exEs": "Jugamos al baloncesto los martes.",
+    "exDe": "Wir spielen dienstags Basketball.",
+    "exEn": "We play basketball on Tuesdays."
+  },
+  "nadar": {
+    "defEs": "Moverse por el agua con brazos y piernas.",
+    "defDe": "Sich mit Armen und Beinen durchs Wasser bewegen.",
+    "defEn": "To move through water with arms and legs.",
+    "exEs": "Sé nadar desde los cinco años.",
+    "exDe": "Ich kann seit meinem fünften Lebensjahr schwimmen.",
+    "exEn": "I have been able to swim since I was five."
+  },
+  "saltar": {
+    "defEs": "Levantarse del suelo con impulso.",
+    "defDe": "Sich mit Schwung vom Boden abstoßen.",
+    "defEn": "To push yourself up off the ground.",
+    "exEs": "Saltó muy alto y cogió el balón.",
+    "exDe": "Er sprang sehr hoch und fing den Ball.",
+    "exEn": "He jumped very high and caught the ball."
+  },
+  "ganar": {
+    "defEs": "Terminar un partido con mejor resultado que el rival.",
+    "defDe": "Ein Spiel mit besserem Ergebnis als der Gegner beenden.",
+    "defEn": "To finish a match with a better result than the rival.",
+    "exEs": "Ganamos el partido por dos a uno.",
+    "exDe": "Wir haben das Spiel zwei zu eins gewonnen.",
+    "exEn": "We won the match two to one."
+  },
+  "perder": {
+    "defEs": "Terminar un partido con peor resultado que el rival.",
+    "defDe": "Ein Spiel mit schlechterem Ergebnis als der Gegner beenden.",
+    "defEn": "To finish a match with a worse result than the rival.",
+    "exEs": "Perdimos otra vez contra el mismo equipo.",
+    "exDe": "Wir haben wieder gegen dieselbe Mannschaft verloren.",
+    "exEn": "We lost again against the same team."
+  },
+  "entrenar": {
+    "defEs": "Practicar de forma regular para mejorar.",
+    "defDe": "Regelmäßig üben, um besser zu werden.",
+    "defEn": "To practise regularly in order to improve.",
+    "exEs": "Entreno cuatro días a la semana.",
+    "exDe": "Ich trainiere vier Tage die Woche.",
+    "exEn": "I train four days a week."
+  },
+  "marcar": {
+    "defEs": "Conseguir un punto o un gol.",
+    "defDe": "Einen Punkt oder ein Tor erzielen.",
+    "defEn": "To score a point or a goal.",
+    "exEs": "Ha marcado tres goles esta temporada.",
+    "exDe": "Er hat diese Saison drei Tore erzielt.",
+    "exEn": "He has scored three goals this season."
+  },
+  "lanzar": {
+    "defEs": "Echar algo con fuerza por el aire.",
+    "defDe": "Etwas mit Kraft durch die Luft werfen.",
+    "defEn": "To throw something forcefully through the air.",
+    "exEs": "Lanza la pelota hacia la canasta.",
+    "exDe": "Wirf den Ball Richtung Korb.",
+    "exEn": "Throw the ball towards the basket."
+  },
+  "patear": {
+    "defEs": "Dar con el pie a algo, sobre todo al balón.",
+    "defDe": "Etwas mit dem Fuß treten, vor allem den Ball.",
+    "defEn": "To kick something, above all the ball.",
+    "exEs": "El niño patea el balón contra la pared.",
+    "exDe": "Das Kind kickt den Ball gegen die Wand.",
+    "exEn": "The child kicks the ball against the wall."
+  },
+  "competir": {
+    "defEs": "Luchar contra otros por ganar.",
+    "defDe": "Gegen andere um den Sieg antreten.",
+    "defEn": "To take on others in order to win.",
+    "exEs": "Este año compite en el campeonato nacional.",
+    "exDe": "Dieses Jahr tritt sie bei der Landesmeisterschaft an.",
+    "exEn": "This year she competes in the national championship."
+  },
+  "empatar": {
+    "defEs": "Terminar un partido con el mismo resultado los dos equipos.",
+    "defDe": "Ein Spiel mit gleichem Ergebnis für beide Teams beenden.",
+    "defEn": "To end a match with both teams on the same score.",
+    "exEs": "Empatamos a cero en el último minuto.",
+    "exDe": "Wir haben in der letzten Minute null zu null gespielt.",
+    "exEn": "We drew nil nil in the last minute."
+  },
+  "rápido": {
+    "defEs": "Que se mueve o pasa en poco tiempo.",
+    "defDe": "Was sich in kurzer Zeit bewegt oder geschieht.",
+    "defEn": "Moving or happening in a short time.",
+    "exEs": "Es el jugador más rápido del equipo.",
+    "exDe": "Er ist der schnellste Spieler der Mannschaft.",
+    "exEn": "He is the fastest player in the team."
+  },
+  "fuerte": {
+    "defEs": "Que tiene mucha fuerza física.",
+    "defDe": "Wer viel körperliche Kraft hat.",
+    "defEn": "Having a lot of physical strength.",
+    "exEs": "Después de un año de gimnasio está muy fuerte.",
+    "exDe": "Nach einem Jahr Fitnessstudio ist er sehr stark.",
+    "exEn": "After a year at the gym he is very strong."
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "el tiempo": {
+    "defEs": "Cómo está el aire hoy, con sol, lluvia o frío.",
+    "defDe": "Wie die Luft heute ist, mit Sonne, Regen oder Kälte.",
+    "defEn": "How the air is today, with sun, rain or cold.",
+    "exEs": "Hoy hace muy buen tiempo en la costa.",
+    "exDe": "Heute ist an der Küste sehr schönes Wetter.",
+    "exEn": "The weather is very nice on the coast today."
+  },
+  "el clima": {
+    "defEs": "El tiempo normal de una zona durante muchos años.",
+    "defDe": "Das übliche Wetter einer Gegend über viele Jahre.",
+    "defEn": "The usual weather of an area over many years.",
+    "exEs": "El clima del sur es cálido y seco.",
+    "exDe": "Das Klima im Süden ist warm und trocken.",
+    "exEn": "The climate in the south is warm and dry."
+  },
+  "el sol": {
+    "defEs": "Estrella que da luz y calor a la Tierra.",
+    "defDe": "Der Stern, der der Erde Licht und Wärme gibt.",
+    "defEn": "The star that gives light and heat to the Earth.",
+    "exEs": "El sol entra por la ventana de la cocina.",
+    "exDe": "Die Sonne scheint durch das Küchenfenster.",
+    "exEn": "The sun comes in through the kitchen window."
+  },
+  "la lluvia": {
+    "defEs": "Agua que cae de las nubes.",
+    "defDe": "Wasser, das aus den Wolken fällt.",
+    "defEn": "Water that falls from the clouds.",
+    "exEs": "La lluvia no paró en todo el día.",
+    "exDe": "Der Regen hörte den ganzen Tag nicht auf.",
+    "exEn": "The rain did not stop all day."
+  },
+  "la nieve": {
+    "defEs": "Agua congelada y blanca que cae en invierno.",
+    "defDe": "Gefrorenes weißes Wasser, das im Winter fällt.",
+    "defEn": "Frozen white water that falls in winter.",
+    "exEs": "Los niños juegan en la nieve del jardín.",
+    "exDe": "Die Kinder spielen im Schnee im Garten.",
+    "exEn": "The children play in the snow in the garden."
+  },
+  "el viento": {
+    "defEs": "Aire que se mueve con fuerza.",
+    "defDe": "Luft, die sich kräftig bewegt.",
+    "defEn": "Air that moves with force.",
+    "exEs": "El viento cerró la puerta de golpe.",
+    "exDe": "Der Wind schlug die Tür zu.",
+    "exEn": "The wind slammed the door shut."
+  },
+  "la nube": {
+    "defEs": "Masa blanca o gris en el cielo con agua dentro.",
+    "defDe": "Eine weiße oder graue Masse am Himmel mit Wasser darin.",
+    "defEn": "A white or grey mass in the sky containing water.",
+    "exEs": "Solo hay una nube en todo el cielo.",
+    "exDe": "Es ist nur eine Wolke am ganzen Himmel.",
+    "exEn": "There is only one cloud in the whole sky."
+  },
+  "la tormenta": {
+    "defEs": "Tiempo malo con mucha lluvia, viento y ruido.",
+    "defDe": "Schlechtes Wetter mit viel Regen, Wind und Lärm.",
+    "defEn": "Bad weather with a lot of rain, wind and noise.",
+    "exEs": "La tormenta nos pilló en la playa.",
+    "exDe": "Das Gewitter überraschte uns am Strand.",
+    "exEn": "The storm caught us at the beach."
+  },
+  "la niebla": {
+    "defEs": "Aire con agua muy fina que no deja ver bien.",
+    "defDe": "Luft mit feinem Wasser, durch die man schlecht sieht.",
+    "defEn": "Air with fine water in it that makes seeing hard.",
+    "exEs": "Hay mucha niebla en la carretera.",
+    "exDe": "Auf der Straße ist starker Nebel.",
+    "exEn": "There is thick fog on the road."
+  },
+  "el calor": {
+    "defEs": "Sensación de temperatura alta.",
+    "defDe": "Das Gefühl hoher Temperatur.",
+    "defEn": "The feeling of high temperature.",
+    "exEs": "En agosto hace mucho calor aquí.",
+    "exDe": "Im August ist es hier sehr heiß.",
+    "exEn": "In August it is very hot here."
+  },
+  "el frío": {
+    "defEs": "Sensación de temperatura baja.",
+    "defDe": "Das Gefühl niedriger Temperatur.",
+    "defEn": "The feeling of low temperature.",
+    "exEs": "Tengo frío, cierra la ventana.",
+    "exDe": "Mir ist kalt, mach das Fenster zu.",
+    "exEn": "I am cold, close the window."
+  },
+  "la temperatura": {
+    "defEs": "Número que dice cuánto calor o frío hace.",
+    "defDe": "Die Zahl, die angibt, wie warm oder kalt es ist.",
+    "defEn": "The number that says how warm or cold it is.",
+    "exEs": "La temperatura baja mucho por la noche.",
+    "exDe": "Die Temperatur sinkt nachts stark.",
+    "exEn": "The temperature drops a lot at night."
+  },
+  "el grado": {
+    "defEs": "Unidad con la que se mide la temperatura.",
+    "defDe": "Die Einheit, mit der die Temperatur gemessen wird.",
+    "defEn": "The unit used to measure temperature.",
+    "exEs": "Hoy estamos a treinta grados.",
+    "exDe": "Heute haben wir dreißig Grad.",
+    "exEn": "Today it is thirty degrees."
+  },
+  "el cielo": {
+    "defEs": "Espacio grande y azul que vemos sobre nosotros.",
+    "defDe": "Der große blaue Raum, den wir über uns sehen.",
+    "defEn": "The big blue space we see above us.",
+    "exEs": "El cielo está azul y sin nubes.",
+    "exDe": "Der Himmel ist blau und wolkenlos.",
+    "exEn": "The sky is blue and cloudless."
+  },
+  "el relámpago": {
+    "defEs": "Luz fuerte y rápida en el cielo durante una tormenta.",
+    "defDe": "Ein starkes, schnelles Licht am Himmel während eines Gewitters.",
+    "defEn": "A strong quick light in the sky during a storm.",
+    "exEs": "Un relámpago iluminó toda la habitación.",
+    "exDe": "Ein Blitz erhellte das ganze Zimmer.",
+    "exEn": "A flash of lightning lit up the whole room."
+  },
+  "el trueno": {
+    "defEs": "Ruido fuerte que se oye después de un relámpago.",
+    "defDe": "Das laute Geräusch, das man nach einem Blitz hört.",
+    "defEn": "The loud noise you hear after lightning.",
+    "exEs": "El trueno asustó al perro.",
+    "exDe": "Der Donner erschreckte den Hund.",
+    "exEn": "The thunder scared the dog."
+  },
+  "el granizo": {
+    "defEs": "Bolitas de hielo que caen del cielo.",
+    "defDe": "Kleine Eiskugeln, die vom Himmel fallen.",
+    "defEn": "Small balls of ice that fall from the sky.",
+    "exEs": "El granizo rompió las plantas del jardín.",
+    "exDe": "Der Hagel zerstörte die Pflanzen im Garten.",
+    "exEn": "The hail broke the plants in the garden."
+  },
+  "la humedad": {
+    "defEs": "Cantidad de agua que hay en el aire.",
+    "defDe": "Die Menge Wasser, die in der Luft ist.",
+    "defEn": "The amount of water in the air.",
+    "exEs": "La humedad de la costa me cansa.",
+    "exDe": "Die Feuchtigkeit an der Küste macht mich müde.",
+    "exEn": "The humidity on the coast tires me out."
+  },
+  "soleado": {
+    "defEs": "Se dice del día con mucho sol.",
+    "defDe": "Sagt man von einem Tag mit viel Sonne.",
+    "defEn": "Said of a day with a lot of sun.",
+    "exEs": "Fue un domingo soleado y tranquilo.",
+    "exDe": "Es war ein sonniger, ruhiger Sonntag.",
+    "exEn": "It was a sunny, quiet Sunday."
+  },
+  "nublado": {
+    "defEs": "Se dice del cielo cubierto de nubes.",
+    "defDe": "Sagt man von einem Himmel voller Wolken.",
+    "defEn": "Said of a sky covered with clouds.",
+    "exEs": "Está nublado, quizá llueva luego.",
+    "exDe": "Es ist bewölkt, vielleicht regnet es später.",
+    "exEn": "It is cloudy, maybe it will rain later."
+  },
+  "despejado": {
+    "defEs": "Se dice del cielo limpio, sin nubes.",
+    "defDe": "Sagt man von einem klaren Himmel ohne Wolken.",
+    "defEn": "Said of a clear sky with no clouds.",
+    "exEs": "Por la tarde el cielo quedó despejado.",
+    "exDe": "Am Nachmittag wurde der Himmel klar.",
+    "exEn": "In the afternoon the sky became clear."
+  },
+  "llover": {
+    "defEs": "Caer agua desde las nubes.",
+    "defDe": "Wenn Wasser aus den Wolken fällt.",
+    "defEn": "When water falls from the clouds.",
+    "exEs": "Empezó a llover cuando salimos.",
+    "exDe": "Es fing an zu regnen, als wir hinausgingen.",
+    "exEn": "It started to rain when we went out."
+  },
+  "nevar": {
+    "defEs": "Caer nieve desde el cielo.",
+    "defDe": "Wenn Schnee vom Himmel fällt.",
+    "defEn": "When snow falls from the sky.",
+    "exEs": "En mi pueblo nieva cada enero.",
+    "exDe": "In meinem Dorf schneit es jeden Januar.",
+    "exEn": "In my village it snows every January."
+  },
+  "la estación": {
+    "defEs": "Cada una de las cuatro partes del año.",
+    "defDe": "Jeder der vier Abschnitte des Jahres.",
+    "defEn": "Each of the four parts of the year.",
+    "exEs": "Mi estación favorita es la primavera.",
+    "exDe": "Meine liebste Jahreszeit ist der Frühling.",
+    "exEn": "My favourite season is spring."
+  },
+  "la primavera": {
+    "defEs": "Estación entre el invierno y el verano, con flores.",
+    "defDe": "Die Jahreszeit zwischen Winter und Sommer, mit Blumen.",
+    "defEn": "The season between winter and summer, with flowers.",
+    "exEs": "En primavera el parque está muy verde.",
+    "exDe": "Im Frühling ist der Park sehr grün.",
+    "exEn": "In spring the park is very green."
+  },
+  "el verano": {
+    "defEs": "Estación más calurosa del año.",
+    "defDe": "Die wärmste Jahreszeit des Jahres.",
+    "defEn": "The hottest season of the year.",
+    "exEs": "Este verano vamos a la playa.",
+    "exDe": "Diesen Sommer fahren wir ans Meer.",
+    "exEn": "This summer we are going to the beach."
+  },
+  "el otoño": {
+    "defEs": "Estación en la que caen las hojas.",
+    "defDe": "Die Jahreszeit, in der die Blätter fallen.",
+    "defEn": "The season when the leaves fall.",
+    "exEs": "En otoño llueve mucho en el norte.",
+    "exDe": "Im Herbst regnet es im Norden viel.",
+    "exEn": "In autumn it rains a lot in the north."
+  },
+  "el invierno": {
+    "defEs": "Estación más fría del año.",
+    "defDe": "Die kälteste Jahreszeit des Jahres.",
+    "defEn": "The coldest season of the year.",
+    "exEs": "En invierno llevo abrigo y guantes.",
+    "exDe": "Im Winter trage ich Mantel und Handschuhe.",
+    "exEn": "In winter I wear a coat and gloves."
+  },
+  "el día": {
+    "defEs": "Periodo de veinticuatro horas.",
+    "defDe": "Ein Zeitraum von vierundzwanzig Stunden.",
+    "defEn": "A period of twenty four hours.",
+    "exEs": "Hoy ha sido un día muy largo.",
+    "exDe": "Heute war ein sehr langer Tag.",
+    "exEn": "Today has been a very long day."
+  },
+  "la mañana": {
+    "defEs": "Primera parte del día, después de levantarse.",
+    "defDe": "Der erste Teil des Tages, nach dem Aufstehen.",
+    "defEn": "The first part of the day, after getting up.",
+    "exEs": "Por la mañana tomo café con leche.",
+    "exDe": "Am Morgen trinke ich Milchkaffee.",
+    "exEn": "In the morning I drink coffee with milk."
+  },
+  "la tarde": {
+    "defEs": "Parte del día entre la comida y la noche.",
+    "defDe": "Der Teil des Tages zwischen Mittagessen und Abend.",
+    "defEn": "The part of the day between lunch and night.",
+    "exEs": "Nos vemos esta tarde en el parque.",
+    "exDe": "Wir sehen uns heute Nachmittag im Park.",
+    "exEn": "See you this afternoon in the park."
+  },
+  "la noche": {
+    "defEs": "Parte del día en que está oscuro.",
+    "defDe": "Der Teil des Tages, an dem es dunkel ist.",
+    "defEn": "The part of the day when it is dark.",
+    "exEs": "Por la noche leo un poco antes de dormir.",
+    "exDe": "Abends lese ich ein wenig vor dem Schlafen.",
+    "exEn": "At night I read a little before sleeping."
+  },
+  "el mediodía": {
+    "defEs": "Momento central del día, sobre las doce.",
+    "defDe": "Die Mitte des Tages, etwa um zwölf.",
+    "defEn": "The middle of the day, around twelve.",
+    "exEs": "Comemos al mediodía con la familia.",
+    "exDe": "Wir essen mittags mit der Familie.",
+    "exEn": "We eat at midday with the family."
+  },
+  "la medianoche": {
+    "defEs": "Las doce de la noche.",
+    "defDe": "Zwölf Uhr in der Nacht.",
+    "defEn": "Twelve o'clock at night.",
+    "exEs": "La fiesta terminó a medianoche.",
+    "exDe": "Die Feier endete um Mitternacht.",
+    "exEn": "The party ended at midnight."
+  },
+  "la madrugada": {
+    "defEs": "Horas muy tempranas, antes de que salga el sol.",
+    "defDe": "Die sehr frühen Stunden, bevor die Sonne aufgeht.",
+    "defEn": "The very early hours, before the sun comes up.",
+    "exEs": "Llegamos a casa de madrugada.",
+    "exDe": "Wir kamen im Morgengrauen nach Hause.",
+    "exEn": "We got home in the early hours."
+  },
+  "la hora": {
+    "defEs": "Periodo de sesenta minutos.",
+    "defDe": "Ein Zeitraum von sechzig Minuten.",
+    "defEn": "A period of sixty minutes.",
+    "exEs": "¿Tienes hora? Creo que llego tarde.",
+    "exDe": "Hast du die Uhrzeit? Ich glaube, ich komme zu spät.",
+    "exEn": "Do you have the time? I think I am late."
+  },
+  "el minuto": {
+    "defEs": "Periodo de sesenta segundos.",
+    "defDe": "Ein Zeitraum von sechzig Sekunden.",
+    "defEn": "A period of sixty seconds.",
+    "exEs": "Espera un minuto, ya salgo.",
+    "exDe": "Warte eine Minute, ich komme gleich.",
+    "exEn": "Wait a minute, I am coming."
+  },
+  "el reloj": {
+    "defEs": "Objeto que indica la hora.",
+    "defDe": "Ein Gegenstand, der die Uhrzeit anzeigt.",
+    "defEn": "An object that shows the time.",
+    "exEs": "Mi reloj se para cada dos días.",
+    "exDe": "Meine Uhr bleibt alle zwei Tage stehen.",
+    "exEn": "My watch stops every two days."
+  },
+  "el segundo": {
+    "defEs": "Unidad de tiempo muy corta.",
+    "defDe": "Eine sehr kurze Zeiteinheit.",
+    "defEn": "A very short unit of time.",
+    "exEs": "Tardó solo un segundo en responder.",
+    "exDe": "Er brauchte nur eine Sekunde zum Antworten.",
+    "exEn": "He took only a second to answer."
+  },
+  "la semana": {
+    "defEs": "Periodo de siete días.",
+    "defDe": "Ein Zeitraum von sieben Tagen.",
+    "defEn": "A period of seven days.",
+    "exEs": "La semana pasada estuve enfermo.",
+    "exDe": "Letzte Woche war ich krank.",
+    "exEn": "Last week I was ill."
+  },
+  "el mes": {
+    "defEs": "Cada una de las doce partes del año.",
+    "defDe": "Jeder der zwölf Abschnitte des Jahres.",
+    "defEn": "Each of the twelve parts of the year.",
+    "exEs": "El mes de mayo tiene treinta y un días.",
+    "exDe": "Der Monat Mai hat einunddreißig Tage.",
+    "exEn": "The month of May has thirty one days."
+  },
+  "el año": {
+    "defEs": "Periodo de doce meses.",
+    "defDe": "Ein Zeitraum von zwölf Monaten.",
+    "defEn": "A period of twelve months.",
+    "exEs": "El año que viene quiero estudiar francés.",
+    "exDe": "Nächstes Jahr möchte ich Französisch lernen.",
+    "exEn": "Next year I want to study French."
+  },
+  "el fin de semana": {
+    "defEs": "El sábado y el domingo.",
+    "defDe": "Der Samstag und der Sonntag.",
+    "defEn": "Saturday and Sunday.",
+    "exEs": "El fin de semana visitamos a mis padres.",
+    "exDe": "Am Wochenende besuchen wir meine Eltern.",
+    "exEn": "At the weekend we visit my parents."
+  },
+  "el amanecer": {
+    "defEs": "Momento en que sale el sol.",
+    "defDe": "Der Moment, in dem die Sonne aufgeht.",
+    "defEn": "The moment when the sun rises.",
+    "exEs": "Vimos el amanecer desde la montaña.",
+    "exDe": "Wir sahen den Sonnenaufgang vom Berg aus.",
+    "exEn": "We watched the sunrise from the mountain."
+  }
+}

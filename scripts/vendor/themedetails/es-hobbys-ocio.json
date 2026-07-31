@@ -1,0 +1,338 @@
+{
+  "el hobby": {
+    "defEs": "Actividad que haces por gusto en tu tiempo libre.",
+    "defDe": "Tätigkeit, die man zum Vergnügen in der Freizeit macht.",
+    "defEn": "Activity you do for pleasure in your free time.",
+    "exEs": "Mi hobby favorito es la fotografía.",
+    "exDe": "Mein Lieblingshobby ist die Fotografie.",
+    "exEn": "My favorite hobby is photography."
+  },
+  "el tiempo libre": {
+    "defEs": "Las horas en las que no trabajas ni estudias.",
+    "defDe": "Die Stunden, in denen man weder arbeitet noch lernt.",
+    "defEn": "The hours when you neither work nor study.",
+    "exEs": "En mi tiempo libre juego al tenis.",
+    "exDe": "In meiner Freizeit spiele ich Tennis.",
+    "exEn": "In my free time I play tennis."
+  },
+  "la música": {
+    "defEs": "Sonidos organizados que se escuchan o se tocan.",
+    "defDe": "Geordnete Klänge, die man hört oder spielt.",
+    "defEn": "Organized sounds that you listen to or play.",
+    "exEs": "Escucho música mientras cocino.",
+    "exDe": "Ich höre Musik, während ich koche.",
+    "exEn": "I listen to music while cooking."
+  },
+  "la película": {
+    "defEs": "Historia con imágenes que se ve en una pantalla.",
+    "defDe": "Geschichte mit Bildern, die man auf einem Bildschirm sieht.",
+    "defEn": "A story with images shown on a screen.",
+    "exEs": "Anoche vimos una película muy divertida.",
+    "exDe": "Gestern Abend sahen wir einen sehr lustigen Film.",
+    "exEn": "Last night we watched a very funny movie."
+  },
+  "el juego": {
+    "defEs": "Actividad con reglas que sirve para divertirse.",
+    "defDe": "Aktivität mit Regeln, die dem Vergnügen dient.",
+    "defEn": "An activity with rules meant for fun.",
+    "exEs": "Este juego de mesa es para cuatro personas.",
+    "exDe": "Dieses Brettspiel ist für vier Personen.",
+    "exEn": "This board game is for four people."
+  },
+  "el deporte": {
+    "defEs": "Actividad física con reglas, como el fútbol.",
+    "defDe": "Körperliche Aktivität mit Regeln, zum Beispiel Fußball.",
+    "defEn": "Physical activity with rules, such as football.",
+    "exEs": "Hago deporte tres veces por semana.",
+    "exDe": "Ich mache dreimal pro Woche Sport.",
+    "exEn": "I do sports three times a week."
+  },
+  "el libro": {
+    "defEs": "Conjunto de páginas escritas que se lee.",
+    "defDe": "Sammlung beschriebener Seiten, die man liest.",
+    "defEn": "A set of written pages that you read.",
+    "exEs": "Estoy leyendo un libro sobre viajes.",
+    "exDe": "Ich lese gerade ein Buch über Reisen.",
+    "exEn": "I am reading a book about travel."
+  },
+  "la fiesta": {
+    "defEs": "Reunión alegre con amigos, comida y música.",
+    "defDe": "Fröhliches Treffen mit Freunden, Essen und Musik.",
+    "defEn": "A cheerful gathering with friends, food and music.",
+    "exEs": "El sábado hay una fiesta en casa de Ana.",
+    "exDe": "Am Samstag gibt es eine Party bei Ana.",
+    "exEn": "On Saturday there is a party at Ana's house."
+  },
+  "el baile": {
+    "defEs": "Movimiento del cuerpo al ritmo de la música.",
+    "defDe": "Bewegung des Körpers im Rhythmus der Musik.",
+    "defEn": "Moving the body to the rhythm of music.",
+    "exEs": "El baile empieza después de la cena.",
+    "exDe": "Der Tanz beginnt nach dem Abendessen.",
+    "exEn": "The dancing starts after dinner."
+  },
+  "la canción": {
+    "defEs": "Pieza de música corta con letra para cantar.",
+    "defDe": "Kurzes Musikstück mit Text zum Singen.",
+    "defEn": "A short piece of music with words to sing.",
+    "exEs": "Esta canción me recuerda a mi infancia.",
+    "exDe": "Dieses Lied erinnert mich an meine Kindheit.",
+    "exEn": "This song reminds me of my childhood."
+  },
+  "la guitarra": {
+    "defEs": "Instrumento de madera con seis cuerdas.",
+    "defDe": "Holzinstrument mit sechs Saiten.",
+    "defEn": "A wooden instrument with six strings.",
+    "exEs": "Mi hermano toca la guitarra muy bien.",
+    "exDe": "Mein Bruder spielt sehr gut Gitarre.",
+    "exEn": "My brother plays the guitar very well."
+  },
+  "el piano": {
+    "defEs": "Instrumento grande con teclas blancas y negras.",
+    "defDe": "Großes Instrument mit weißen und schwarzen Tasten.",
+    "defEn": "A large instrument with white and black keys.",
+    "exEs": "Aprendo piano desde los ocho años.",
+    "exDe": "Ich lerne seit meinem achten Lebensjahr Klavier.",
+    "exEn": "I have been learning piano since I was eight."
+  },
+  "el concierto": {
+    "defEs": "Espectáculo en el que músicos tocan en directo.",
+    "defDe": "Veranstaltung, bei der Musiker live spielen.",
+    "defEn": "An event where musicians play live.",
+    "exEs": "Vamos a un concierto de rock esta noche.",
+    "exDe": "Wir gehen heute Abend zu einem Rockkonzert.",
+    "exEn": "We are going to a rock concert tonight."
+  },
+  "el cine": {
+    "defEs": "Lugar donde se ven películas en pantalla grande.",
+    "defDe": "Ort, an dem man Filme auf großer Leinwand sieht.",
+    "defEn": "Place where you watch films on a big screen.",
+    "exEs": "Los martes el cine cuesta menos.",
+    "exDe": "Dienstags kostet das Kino weniger.",
+    "exEn": "On Tuesdays the cinema costs less."
+  },
+  "el teatro": {
+    "defEs": "Lugar donde los actores representan obras en vivo.",
+    "defDe": "Ort, an dem Schauspieler Stücke live aufführen.",
+    "defEn": "Place where actors perform plays live.",
+    "exEs": "Compramos entradas para el teatro del viernes.",
+    "exDe": "Wir kauften Karten für das Theater am Freitag.",
+    "exEn": "We bought tickets for Friday's theater show."
+  },
+  "el museo": {
+    "defEs": "Edificio donde se exponen obras y objetos antiguos.",
+    "defDe": "Gebäude, in dem Werke und alte Objekte gezeigt werden.",
+    "defEn": "Building where artworks and old objects are shown.",
+    "exEs": "El museo abre los domingos por la mañana.",
+    "exDe": "Das Museum öffnet sonntagvormittags.",
+    "exEn": "The museum opens on Sunday mornings."
+  },
+  "la pintura": {
+    "defEs": "Arte de crear imágenes con colores sobre una superficie.",
+    "defDe": "Kunst, mit Farben Bilder auf einer Fläche zu schaffen.",
+    "defEn": "The art of creating images with colors on a surface.",
+    "exEs": "Ella estudia pintura en la escuela de arte.",
+    "exDe": "Sie studiert Malerei an der Kunstschule.",
+    "exEn": "She studies painting at the art school."
+  },
+  "el dibujo": {
+    "defEs": "Imagen hecha con lápiz o bolígrafo sobre papel.",
+    "defDe": "Bild, das mit Bleistift oder Kugelschreiber auf Papier entsteht.",
+    "defEn": "An image made with pencil or pen on paper.",
+    "exEs": "Su dibujo del gato quedó precioso.",
+    "exDe": "Ihre Zeichnung der Katze wurde wunderschön.",
+    "exEn": "Her drawing of the cat turned out lovely."
+  },
+  "la foto": {
+    "defEs": "Imagen tomada con una cámara o un móvil.",
+    "defDe": "Bild, das mit einer Kamera oder einem Handy gemacht wird.",
+    "defEn": "An image taken with a camera or a phone.",
+    "exEs": "Te mando una foto de la playa.",
+    "exDe": "Ich schicke dir ein Foto vom Strand.",
+    "exEn": "I am sending you a photo of the beach."
+  },
+  "la carta": {
+    "defEs": "Cada pieza de la baraja con la que se juega.",
+    "defDe": "Jedes einzelne Blatt eines Kartenspiels.",
+    "defEn": "Each piece of a deck used for playing.",
+    "exEs": "Jugamos a las cartas después de comer.",
+    "exDe": "Wir spielen nach dem Essen Karten.",
+    "exEn": "We play cards after lunch."
+  },
+  "el ajedrez": {
+    "defEs": "Juego de mesa con reyes, torres y caballos.",
+    "defDe": "Brettspiel mit Königen, Türmen und Springern.",
+    "defEn": "A board game with kings, rooks and knights.",
+    "exEs": "Mi abuelo me enseñó a jugar al ajedrez.",
+    "exDe": "Mein Großvater brachte mir Schach bei.",
+    "exEn": "My grandfather taught me to play chess."
+  },
+  "el videojuego": {
+    "defEs": "Juego electrónico que se juega en pantalla.",
+    "defDe": "Elektronisches Spiel, das man am Bildschirm spielt.",
+    "defEn": "An electronic game played on a screen.",
+    "exEs": "Este videojuego tiene gráficos increíbles.",
+    "exDe": "Dieses Videospiel hat unglaubliche Grafik.",
+    "exEn": "This video game has incredible graphics."
+  },
+  "el pasatiempo": {
+    "defEs": "Algo entretenido que se hace para pasar el rato.",
+    "defDe": "Etwas Unterhaltsames, das man zum Zeitvertreib macht.",
+    "defEn": "Something entertaining you do to pass the time.",
+    "exEs": "Los crucigramas son su pasatiempo preferido.",
+    "exDe": "Kreuzworträtsel sind sein liebster Zeitvertreib.",
+    "exEn": "Crosswords are his favorite pastime."
+  },
+  "el ocio": {
+    "defEs": "Tiempo de descanso dedicado a actividades agradables.",
+    "defDe": "Ruhezeit, die angenehmen Aktivitäten gewidmet ist.",
+    "defEn": "Rest time devoted to pleasant activities.",
+    "exEs": "La ciudad ofrece mucho ocio para jóvenes.",
+    "exDe": "Die Stadt bietet viel Freizeitangebot für Jugendliche.",
+    "exEn": "The city offers plenty of leisure for young people."
+  },
+  "la afición": {
+    "defEs": "Gusto fuerte por una actividad que se practica a menudo.",
+    "defDe": "Starke Vorliebe für eine oft ausgeübte Tätigkeit.",
+    "defEn": "A strong liking for an activity done often.",
+    "exEs": "Tiene una gran afición por la cocina.",
+    "exDe": "Er hat eine große Leidenschaft fürs Kochen.",
+    "exEn": "He has a great passion for cooking."
+  },
+  "el espectáculo": {
+    "defEs": "Función pública con música, baile o teatro.",
+    "defDe": "Öffentliche Vorstellung mit Musik, Tanz oder Theater.",
+    "defEn": "A public show with music, dance or theater.",
+    "exEs": "El espectáculo empieza a las nueve.",
+    "exDe": "Die Vorstellung beginnt um neun.",
+    "exEn": "The show starts at nine."
+  },
+  "la exposición": {
+    "defEs": "Muestra pública de cuadros u otros objetos.",
+    "defDe": "Öffentliche Schau von Bildern oder anderen Objekten.",
+    "defEn": "A public display of paintings or other objects.",
+    "exEs": "Hay una exposición de fotos en el centro.",
+    "exDe": "Im Zentrum gibt es eine Fotoausstellung.",
+    "exEn": "There is a photo exhibition downtown."
+  },
+  "el senderismo": {
+    "defEs": "Actividad de caminar por el campo o la montaña.",
+    "defDe": "Aktivität, durch Feld oder Berge zu wandern.",
+    "defEn": "The activity of walking in the countryside or mountains.",
+    "exEs": "El domingo hacemos senderismo en la sierra.",
+    "exDe": "Am Sonntag wandern wir im Gebirge.",
+    "exEn": "On Sunday we go hiking in the mountains."
+  },
+  "el aficionado": {
+    "defEs": "Persona que sigue algo con mucho interés.",
+    "defDe": "Person, die etwas mit großem Interesse verfolgt.",
+    "defEn": "A person who follows something with great interest.",
+    "exEs": "Es un aficionado al cine antiguo.",
+    "exDe": "Er ist ein Liebhaber alter Filme.",
+    "exEn": "He is a fan of old films."
+  },
+  "jugar": {
+    "defEs": "Participar en un juego o un deporte por diversión.",
+    "defDe": "An einem Spiel oder Sport zum Vergnügen teilnehmen.",
+    "defEn": "To take part in a game or sport for fun.",
+    "exEs": "Los niños juegan en el parque.",
+    "exDe": "Die Kinder spielen im Park.",
+    "exEn": "The children play in the park."
+  },
+  "cantar": {
+    "defEs": "Producir música con la voz.",
+    "defDe": "Mit der Stimme Musik hervorbringen.",
+    "defEn": "To make music with your voice.",
+    "exEs": "Mi madre canta en la ducha.",
+    "exDe": "Meine Mutter singt unter der Dusche.",
+    "exEn": "My mother sings in the shower."
+  },
+  "bailar": {
+    "defEs": "Mover el cuerpo siguiendo la música.",
+    "defDe": "Den Körper zur Musik bewegen.",
+    "defEn": "To move your body along with music.",
+    "exEs": "Nos gusta bailar salsa los viernes.",
+    "exDe": "Wir tanzen freitags gern Salsa.",
+    "exEn": "We like dancing salsa on Fridays."
+  },
+  "leer": {
+    "defEs": "Mirar un texto y entender lo que dice.",
+    "defDe": "Einen Text ansehen und verstehen, was er sagt.",
+    "defEn": "To look at a text and understand it.",
+    "exEs": "Leo un poco antes de dormir.",
+    "exDe": "Ich lese ein wenig vor dem Schlafen.",
+    "exEn": "I read a little before sleeping."
+  },
+  "escuchar": {
+    "defEs": "Prestar atención a un sonido o a alguien.",
+    "defDe": "Einem Geräusch oder jemandem aufmerksam zuhören.",
+    "defEn": "To pay attention to a sound or someone.",
+    "exEs": "Me gusta escuchar podcasts en el tren.",
+    "exDe": "Ich höre gern Podcasts im Zug.",
+    "exEn": "I like listening to podcasts on the train."
+  },
+  "pintar": {
+    "defEs": "Hacer imágenes usando colores y un pincel.",
+    "defDe": "Mit Farben und Pinsel Bilder machen.",
+    "defEn": "To make images using colors and a brush.",
+    "exEs": "Los sábados pinto paisajes en casa.",
+    "exDe": "Samstags male ich zu Hause Landschaften.",
+    "exEn": "On Saturdays I paint landscapes at home."
+  },
+  "dibujar": {
+    "defEs": "Hacer líneas y formas con lápiz sobre papel.",
+    "defDe": "Mit Bleistift Linien und Formen auf Papier machen.",
+    "defEn": "To make lines and shapes with a pencil on paper.",
+    "exEs": "Mi hija dibuja animales muy bien.",
+    "exDe": "Meine Tochter zeichnet Tiere sehr gut.",
+    "exEn": "My daughter draws animals very well."
+  },
+  "tocar": {
+    "defEs": "Hacer sonar un instrumento musical.",
+    "defDe": "Ein Musikinstrument zum Klingen bringen.",
+    "defEn": "To play a musical instrument.",
+    "exEs": "Quiero aprender a tocar el violín.",
+    "exDe": "Ich will Geige spielen lernen.",
+    "exEn": "I want to learn to play the violin."
+  },
+  "salir": {
+    "defEs": "Irse de casa para divertirse fuera.",
+    "defDe": "Das Haus verlassen, um draußen Spaß zu haben.",
+    "defEn": "To leave home to have fun outside.",
+    "exEs": "Esta noche salimos con los amigos.",
+    "exDe": "Heute Abend gehen wir mit Freunden aus.",
+    "exEn": "Tonight we are going out with friends."
+  },
+  "coleccionar": {
+    "defEs": "Reunir objetos del mismo tipo por gusto.",
+    "defDe": "Gegenstände derselben Art aus Freude sammeln.",
+    "defEn": "To gather objects of the same kind for pleasure.",
+    "exEs": "Mi tío colecciona monedas antiguas.",
+    "exDe": "Mein Onkel sammelt alte Münzen.",
+    "exEn": "My uncle collects old coins."
+  },
+  "divertirse": {
+    "defEs": "Pasar un rato alegre y agradable.",
+    "defDe": "Eine fröhliche und angenehme Zeit verbringen.",
+    "defEn": "To have a cheerful and pleasant time.",
+    "exEs": "Los niños se divierten mucho en la piscina.",
+    "exDe": "Die Kinder haben viel Spaß im Schwimmbad.",
+    "exEn": "The children have a lot of fun at the pool."
+  },
+  "entretenido": {
+    "defEs": "Que resulta agradable y no aburre.",
+    "defDe": "Was angenehm ist und nicht langweilt.",
+    "defEn": "Pleasant and not boring.",
+    "exEs": "El documental fue muy entretenido.",
+    "exDe": "Die Dokumentation war sehr unterhaltsam.",
+    "exEn": "The documentary was very entertaining."
+  },
+  "pasarlo bien": {
+    "defEs": "Disfrutar de un momento agradable.",
+    "defDe": "Einen angenehmen Moment genießen.",
+    "defEn": "To enjoy a pleasant time.",
+    "exEs": "Ayer lo pasamos muy bien en la playa.",
+    "exDe": "Gestern hatten wir am Strand viel Spaß.",
+    "exEn": "Yesterday we had a great time at the beach."
+  }
+}

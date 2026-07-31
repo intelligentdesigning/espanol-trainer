@@ -1,0 +1,346 @@
+{
+  "la fiesta": {
+    "defEs": "Reunión alegre para celebrar algo con otras personas.",
+    "defDe": "Fröhliches Treffen, um etwas mit anderen zu feiern.",
+    "defEn": "A cheerful gathering to celebrate something with others.",
+    "exEs": "La fiesta empieza a las ocho de la tarde.",
+    "exDe": "Die Feier beginnt um acht Uhr abends.",
+    "exEn": "The party starts at eight in the evening."
+  },
+  "el cumpleaños": {
+    "defEs": "Día en que alguien celebra el año de su nacimiento.",
+    "defDe": "Tag, an dem jemand seinen Geburtstag feiert.",
+    "defEn": "The day someone celebrates the year of their birth.",
+    "exEs": "Mi cumpleaños es el doce de mayo.",
+    "exDe": "Mein Geburtstag ist am zwölften Mai.",
+    "exEn": "My birthday is on the twelfth of May."
+  },
+  "el regalo": {
+    "defEs": "Cosa que se da a alguien sin pedir nada a cambio.",
+    "defDe": "Sache, die man jemandem ohne Gegenleistung gibt.",
+    "defEn": "Something given to someone without asking anything back.",
+    "exEs": "Le compré un regalo pequeño a mi hermana.",
+    "exDe": "Ich kaufte meiner Schwester ein kleines Geschenk.",
+    "exEn": "I bought my sister a small gift."
+  },
+  "la tarta": {
+    "defEs": "Dulce redondo que se come en las celebraciones.",
+    "defDe": "Runde Süßspeise, die man bei Feiern isst.",
+    "defEn": "A round sweet eaten at celebrations.",
+    "exEs": "La tarta de chocolate estaba buenísima.",
+    "exDe": "Die Schokoladentorte war ausgezeichnet.",
+    "exEn": "The chocolate cake was delicious."
+  },
+  "el pastel": {
+    "defEs": "Dulce de horno hecho con harina, huevos y azúcar.",
+    "defDe": "Backwerk aus Mehl, Eiern und Zucker.",
+    "defEn": "A baked sweet made with flour, eggs and sugar.",
+    "exEs": "Corté el pastel en ocho trozos.",
+    "exDe": "Ich schnitt den Kuchen in acht Stücke.",
+    "exEn": "I cut the cake into eight pieces."
+  },
+  "la vela": {
+    "defEs": "Objeto de cera con una mecha que da luz.",
+    "defDe": "Gegenstand aus Wachs mit Docht, der Licht gibt.",
+    "defEn": "A wax object with a wick that gives light.",
+    "exEs": "Sopla las velas y pide un deseo.",
+    "exDe": "Puste die Kerzen aus und wünsch dir etwas.",
+    "exEn": "Blow out the candles and make a wish."
+  },
+  "el globo": {
+    "defEs": "Bolsa de goma que se llena de aire para decorar.",
+    "defDe": "Gummihülle, die man zum Schmücken mit Luft füllt.",
+    "defEn": "A rubber bag filled with air used for decoration.",
+    "exEs": "Los niños pintaron cada globo de un color.",
+    "exDe": "Die Kinder bemalten jeden Ballon in einer Farbe.",
+    "exEn": "The children painted each balloon a different color."
+  },
+  "la música": {
+    "defEs": "Sonidos organizados que acompañan una celebración.",
+    "defDe": "Geordnete Klänge, die eine Feier begleiten.",
+    "defEn": "Organized sounds that accompany a celebration.",
+    "exEs": "Pon música alegre para la fiesta.",
+    "exDe": "Leg fröhliche Musik für die Feier auf.",
+    "exEn": "Put on cheerful music for the party."
+  },
+  "bailar": {
+    "defEs": "Mover el cuerpo al ritmo de la música.",
+    "defDe": "Den Körper im Rhythmus der Musik bewegen.",
+    "defEn": "To move your body to the rhythm of music.",
+    "exEs": "Bailamos hasta las dos de la mañana.",
+    "exDe": "Wir tanzten bis zwei Uhr morgens.",
+    "exEn": "We danced until two in the morning."
+  },
+  "cantar": {
+    "defEs": "Hacer música con la voz.",
+    "defDe": "Mit der Stimme Musik machen.",
+    "defEn": "To make music with your voice.",
+    "exEs": "Todos cantaron el cumpleaños feliz.",
+    "exDe": "Alle sangen das Geburtstagslied.",
+    "exEn": "Everyone sang the happy birthday song."
+  },
+  "celebrar": {
+    "defEs": "Festejar un día o un logro importante.",
+    "defDe": "Einen Tag oder Erfolg festlich begehen.",
+    "defEn": "To mark an important day or achievement festively.",
+    "exEs": "Vamos a celebrar tu ascenso el sábado.",
+    "exDe": "Wir feiern deine Beförderung am Samstag.",
+    "exEn": "We will celebrate your promotion on Saturday."
+  },
+  "la Navidad": {
+    "defEs": "Fiesta cristiana del veinticinco de diciembre.",
+    "defDe": "Christliches Fest am fünfundzwanzigsten Dezember.",
+    "defEn": "The Christian holiday on the twenty fifth of December.",
+    "exEs": "En Navidad comemos todos en casa de mis padres.",
+    "exDe": "An Weihnachten essen wir alle bei meinen Eltern.",
+    "exEn": "At Christmas we all eat at my parents' house."
+  },
+  "el Año Nuevo": {
+    "defEs": "Primer día del año que empieza.",
+    "defDe": "Erster Tag des beginnenden Jahres.",
+    "defEn": "The first day of the year that begins.",
+    "exEs": "El Año Nuevo lo pasamos en la montaña.",
+    "exDe": "Neujahr verbrachten wir in den Bergen.",
+    "exEn": "We spent New Year's Day in the mountains."
+  },
+  "la Nochevieja": {
+    "defEs": "Última noche del año, el treinta y uno de diciembre.",
+    "defDe": "Letzte Nacht des Jahres, am einunddreißigsten Dezember.",
+    "defEn": "The last night of the year, December thirty first.",
+    "exEs": "En Nochevieja comemos doce uvas.",
+    "exDe": "An Silvester essen wir zwölf Weintrauben.",
+    "exEn": "On New Year's Eve we eat twelve grapes."
+  },
+  "la Nochebuena": {
+    "defEs": "Noche del veinticuatro de diciembre, antes de Navidad.",
+    "defDe": "Nacht des vierundzwanzigsten Dezember, vor Weihnachten.",
+    "defEn": "The night of December twenty fourth, before Christmas.",
+    "exEs": "Cenamos en familia la Nochebuena.",
+    "exDe": "An Heiligabend essen wir mit der Familie.",
+    "exEn": "We have dinner with family on Christmas Eve."
+  },
+  "la Pascua": {
+    "defEs": "Fiesta cristiana de primavera con huevos y dulces.",
+    "defDe": "Christliches Frühlingsfest mit Eiern und Süßigkeiten.",
+    "defEn": "A Christian spring holiday with eggs and sweets.",
+    "exEs": "En Pascua visitamos a los abuelos.",
+    "exDe": "An Ostern besuchen wir die Großeltern.",
+    "exEn": "At Easter we visit our grandparents."
+  },
+  "los Reyes Magos": {
+    "defEs": "Los tres reyes que traen regalos el seis de enero.",
+    "defDe": "Die drei Könige, die am sechsten Januar Geschenke bringen.",
+    "defEn": "The three kings who bring gifts on January sixth.",
+    "exEs": "Los Reyes Magos dejaron regalos en el balcón.",
+    "exDe": "Die Heiligen Drei Könige ließen Geschenke auf dem Balkon.",
+    "exEn": "The Three Kings left gifts on the balcony."
+  },
+  "el villancico": {
+    "defEs": "Canción tradicional que se canta en Navidad.",
+    "defDe": "Traditionelles Lied, das man zu Weihnachten singt.",
+    "defEn": "A traditional song sung at Christmas.",
+    "exEs": "Los niños cantaron un villancico muy bonito.",
+    "exDe": "Die Kinder sangen ein sehr schönes Weihnachtslied.",
+    "exEn": "The children sang a very pretty Christmas carol."
+  },
+  "el brindis": {
+    "defEs": "Palabras y copas levantadas para desear algo bueno.",
+    "defDe": "Worte und erhobene Gläser, um Gutes zu wünschen.",
+    "defEn": "Words and raised glasses to wish something good.",
+    "exEs": "Mi padre hizo un brindis por los novios.",
+    "exDe": "Mein Vater brachte einen Trinkspruch auf das Brautpaar aus.",
+    "exEn": "My father made a toast to the newlyweds."
+  },
+  "brindar": {
+    "defEs": "Levantar la copa para desear algo bueno.",
+    "defDe": "Das Glas heben, um Gutes zu wünschen.",
+    "defEn": "To raise your glass to wish something good.",
+    "exEs": "Brindemos por la familia y la salud.",
+    "exDe": "Stoßen wir auf Familie und Gesundheit an.",
+    "exEn": "Let's toast to family and health."
+  },
+  "el fuego artificial": {
+    "defEs": "Luz de colores que explota en el cielo de noche.",
+    "defDe": "Farbiges Licht, das nachts am Himmel explodiert.",
+    "defEn": "Colored light that explodes in the night sky.",
+    "exEs": "Vimos los fuegos artificiales desde el puente.",
+    "exDe": "Wir sahen das Feuerwerk von der Brücke aus.",
+    "exEn": "We watched the fireworks from the bridge."
+  },
+  "el desfile": {
+    "defEs": "Grupo de personas que camina por la calle en fiesta.",
+    "defDe": "Gruppe von Menschen, die festlich durch die Straße zieht.",
+    "defEn": "A group of people walking through the street festively.",
+    "exEs": "El desfile pasa por la calle mayor.",
+    "exDe": "Der Umzug führt durch die Hauptstraße.",
+    "exEn": "The parade goes along the main street."
+  },
+  "el disfraz": {
+    "defEs": "Ropa especial para parecer otra persona o un personaje.",
+    "defDe": "Besondere Kleidung, um wie jemand anderes auszusehen.",
+    "defEn": "Special clothing to look like someone or something else.",
+    "exEs": "Su disfraz de pirata fue el mejor.",
+    "exDe": "Sein Piratenkostüm war das beste.",
+    "exEn": "His pirate costume was the best."
+  },
+  "disfrazarse": {
+    "defEs": "Ponerse ropa para parecer otro personaje.",
+    "defDe": "Kleidung anziehen, um wie eine andere Figur auszusehen.",
+    "defEn": "To put on clothes to look like another character.",
+    "exEs": "Los niños se disfrazan de superhéroes.",
+    "exDe": "Die Kinder verkleiden sich als Superhelden.",
+    "exEn": "The children dress up as superheroes."
+  },
+  "el Carnaval": {
+    "defEs": "Fiesta de invierno con disfraces, música y desfiles.",
+    "defDe": "Winterfest mit Kostümen, Musik und Umzügen.",
+    "defEn": "A winter festival with costumes, music and parades.",
+    "exEs": "El Carnaval de Cádiz es muy famoso.",
+    "exDe": "Der Karneval von Cádiz ist sehr berühmt.",
+    "exEn": "The Carnival of Cádiz is very famous."
+  },
+  "la feria": {
+    "defEs": "Fiesta popular con casetas, música y atracciones.",
+    "defDe": "Volksfest mit Ständen, Musik und Fahrgeschäften.",
+    "defEn": "A popular festival with stalls, music and rides.",
+    "exEs": "En abril vamos a la feria de Sevilla.",
+    "exDe": "Im April gehen wir zur Feria in Sevilla.",
+    "exEn": "In April we go to the Seville fair."
+  },
+  "la procesión": {
+    "defEs": "Marcha religiosa por la calle con imágenes.",
+    "defDe": "Religiöser Zug durch die Straße mit Figuren.",
+    "defEn": "A religious march through the street with statues.",
+    "exEs": "La procesión sale de la iglesia a las siete.",
+    "exDe": "Die Prozession startet um sieben an der Kirche.",
+    "exEn": "The procession leaves the church at seven."
+  },
+  "la tradición": {
+    "defEs": "Costumbre que pasa de padres a hijos durante años.",
+    "defDe": "Brauch, der über Jahre von Eltern zu Kindern weitergeht.",
+    "defEn": "A custom passed from parents to children over years.",
+    "exEs": "Esta tradición tiene más de cien años.",
+    "exDe": "Diese Tradition ist über hundert Jahre alt.",
+    "exEn": "This tradition is more than a hundred years old."
+  },
+  "la costumbre": {
+    "defEs": "Cosa que se hace siempre igual por hábito.",
+    "defDe": "Etwas, das man aus Gewohnheit immer gleich macht.",
+    "defEn": "Something always done the same way out of habit.",
+    "exEs": "Aquí es costumbre cenar muy tarde.",
+    "exDe": "Hier ist es üblich, sehr spät zu essen.",
+    "exEn": "Here it is customary to have dinner very late."
+  },
+  "el festejo": {
+    "defEs": "Acto alegre organizado para celebrar algo.",
+    "defDe": "Fröhliche Veranstaltung, um etwas zu feiern.",
+    "defEn": "A joyful event organized to celebrate something.",
+    "exEs": "El festejo duró toda la noche.",
+    "exDe": "Die Festlichkeit dauerte die ganze Nacht.",
+    "exEn": "The celebration lasted all night."
+  },
+  "el invitado": {
+    "defEs": "Persona que viene a una fiesta porque la llamaron.",
+    "defDe": "Person, die zu einer Feier eingeladen wurde.",
+    "defEn": "A person who comes to a party because they were asked.",
+    "exEs": "Vinieron cuarenta invitados a la boda.",
+    "exDe": "Vierzig Gäste kamen zur Hochzeit.",
+    "exEn": "Forty guests came to the wedding."
+  },
+  "invitar": {
+    "defEs": "Pedir a alguien que venga a una fiesta o comida.",
+    "defDe": "Jemanden bitten, zu einer Feier oder zum Essen zu kommen.",
+    "defEn": "To ask someone to come to a party or meal.",
+    "exEs": "Te invito a cenar el viernes.",
+    "exDe": "Ich lade dich am Freitag zum Essen ein.",
+    "exEn": "I invite you to dinner on Friday."
+  },
+  "la invitación": {
+    "defEs": "Tarjeta o mensaje que pide venir a una fiesta.",
+    "defDe": "Karte oder Nachricht, die zu einer Feier bittet.",
+    "defEn": "A card or message asking someone to a party.",
+    "exEs": "Recibí la invitación por correo.",
+    "exDe": "Ich erhielt die Einladung per Post.",
+    "exEn": "I received the invitation by mail."
+  },
+  "el banquete": {
+    "defEs": "Comida grande y elegante para muchos invitados.",
+    "defDe": "Großes, festliches Essen für viele Gäste.",
+    "defEn": "A large elegant meal for many guests.",
+    "exEs": "El banquete se sirvió en el jardín.",
+    "exDe": "Das Festmahl wurde im Garten serviert.",
+    "exEn": "The banquet was served in the garden."
+  },
+  "la boda": {
+    "defEs": "Ceremonia en la que dos personas se casan.",
+    "defDe": "Zeremonie, bei der zwei Menschen heiraten.",
+    "defEn": "A ceremony where two people get married.",
+    "exEs": "Su boda fue en un pueblo pequeño.",
+    "exDe": "Ihre Hochzeit war in einem kleinen Dorf.",
+    "exEn": "Their wedding was in a small village."
+  },
+  "el aniversario": {
+    "defEs": "Día que recuerda algo importante cada año.",
+    "defDe": "Tag, der jedes Jahr an etwas Wichtiges erinnert.",
+    "defEn": "A day that recalls something important each year.",
+    "exEs": "Celebran su décimo aniversario de casados.",
+    "exDe": "Sie feiern ihren zehnten Hochzeitstag.",
+    "exEn": "They are celebrating their tenth wedding anniversary."
+  },
+  "el santo": {
+    "defEs": "Día del año dedicado al nombre de una persona.",
+    "defDe": "Tag im Jahr, der dem Namen einer Person gewidmet ist.",
+    "defEn": "The day of the year linked to a person's name.",
+    "exEs": "Mañana es el santo de mi abuela.",
+    "exDe": "Morgen ist der Namenstag meiner Großmutter.",
+    "exEn": "Tomorrow is my grandmother's name day."
+  },
+  "el confeti": {
+    "defEs": "Papelitos de colores que se tiran en las fiestas.",
+    "defDe": "Bunte Papierschnipsel, die man bei Feiern wirft.",
+    "defEn": "Small colored papers thrown at parties.",
+    "exEs": "Había confeti por todo el suelo.",
+    "exDe": "Überall auf dem Boden lag Konfetti.",
+    "exEn": "There was confetti all over the floor."
+  },
+  "el adorno": {
+    "defEs": "Objeto que se pone para que algo quede bonito.",
+    "defDe": "Gegenstand, den man anbringt, damit etwas schön aussieht.",
+    "defEn": "An object placed to make something look pretty.",
+    "exEs": "Guardamos los adornos del árbol en una caja.",
+    "exDe": "Wir bewahren den Baumschmuck in einer Kiste auf.",
+    "exEn": "We keep the tree decorations in a box."
+  },
+  "decorar": {
+    "defEs": "Poner adornos para que un lugar quede bonito.",
+    "defDe": "Schmuck anbringen, damit ein Ort schön aussieht.",
+    "defEn": "To put up decorations so a place looks nice.",
+    "exEs": "Vamos a decorar el salón con luces.",
+    "exDe": "Wir schmücken das Wohnzimmer mit Lichtern.",
+    "exEn": "We are going to decorate the living room with lights."
+  },
+  "felicitar": {
+    "defEs": "Decir palabras alegres a alguien por una buena noticia.",
+    "defDe": "Jemandem zu einer guten Nachricht Freude aussprechen.",
+    "defEn": "To say cheerful words to someone about good news.",
+    "exEs": "Quiero felicitar a Laura por su examen.",
+    "exDe": "Ich möchte Laura zu ihrer Prüfung gratulieren.",
+    "exEn": "I want to congratulate Laura on her exam."
+  },
+  "¡Feliz cumpleaños!": {
+    "defEs": "Frase que se dice a alguien el día de su cumpleaños.",
+    "defDe": "Satz, den man jemandem an seinem Geburtstag sagt.",
+    "defEn": "A phrase said to someone on their birthday.",
+    "exEs": "¡Feliz cumpleaños, que cumplas muchos más!",
+    "exDe": "Herzlichen Glückwunsch, auf viele weitere Jahre!",
+    "exEn": "Happy birthday, may you have many more!"
+  },
+  "el petardo": {
+    "defEs": "Pequeño explosivo que hace mucho ruido en las fiestas.",
+    "defDe": "Kleiner Knallkörper, der bei Festen laut knallt.",
+    "defEn": "A small firecracker that makes a loud noise at festivals.",
+    "exEs": "Un petardo asustó al perro del vecino.",
+    "exDe": "Ein Böller erschreckte den Hund des Nachbarn.",
+    "exEn": "A firecracker frightened the neighbor's dog."
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "el color": {
+    "defEs": "Lo que ven los ojos en la luz, como rojo o azul.",
+    "defDe": "Das, was die Augen im Licht sehen, etwa Rot oder Blau.",
+    "defEn": "What the eyes see in light, such as red or blue.",
+    "exEs": "¿De qué color es tu coche nuevo?",
+    "exDe": "Welche Farbe hat dein neues Auto?",
+    "exEn": "What colour is your new car?"
+  },
+  "rojo": {
+    "defEs": "Del color de la sangre o del tomate.",
+    "defDe": "In der Farbe von Blut oder Tomaten.",
+    "defEn": "The colour of blood or tomatoes.",
+    "exEs": "Lleva un abrigo rojo muy bonito.",
+    "exDe": "Sie trägt einen sehr schönen roten Mantel.",
+    "exEn": "She is wearing a very nice red coat."
+  },
+  "azul": {
+    "defEs": "Del color del cielo sin nubes.",
+    "defDe": "In der Farbe des wolkenlosen Himmels.",
+    "defEn": "The colour of a cloudless sky.",
+    "exEs": "El mar está muy azul hoy.",
+    "exDe": "Das Meer ist heute sehr blau.",
+    "exEn": "The sea is very blue today."
+  },
+  "verde": {
+    "defEs": "Del color de la hierba y las hojas.",
+    "defDe": "In der Farbe von Gras und Blättern.",
+    "defEn": "The colour of grass and leaves.",
+    "exEs": "Tiene los ojos verdes como su madre.",
+    "exDe": "Sie hat grüne Augen wie ihre Mutter.",
+    "exEn": "She has green eyes like her mother."
+  },
+  "amarillo": {
+    "defEs": "Del color del sol o del limón.",
+    "defDe": "In der Farbe der Sonne oder einer Zitrone.",
+    "defEn": "The colour of the sun or a lemon.",
+    "exEs": "El taxi amarillo espera en la esquina.",
+    "exDe": "Das gelbe Taxi wartet an der Ecke.",
+    "exEn": "The yellow taxi is waiting at the corner."
+  },
+  "negro": {
+    "defEs": "Del color más oscuro, sin luz.",
+    "defDe": "Die dunkelste Farbe, ohne Licht.",
+    "defEn": "The darkest colour, without light.",
+    "exEs": "Siempre lleva zapatos negros.",
+    "exDe": "Er trägt immer schwarze Schuhe.",
+    "exEn": "He always wears black shoes."
+  },
+  "blanco": {
+    "defEs": "Del color de la nieve o la leche.",
+    "defDe": "In der Farbe von Schnee oder Milch.",
+    "defEn": "The colour of snow or milk.",
+    "exEs": "Las paredes son blancas y limpias.",
+    "exDe": "Die Wände sind weiß und sauber.",
+    "exEn": "The walls are white and clean."
+  },
+  "naranja": {
+    "defEs": "Mezcla de rojo y amarillo, como la fruta.",
+    "defDe": "Mischung aus Rot und Gelb, wie die Frucht.",
+    "defEn": "A mix of red and yellow, like the fruit.",
+    "exEs": "Me gusta esa camiseta naranja.",
+    "exDe": "Mir gefällt dieses orange T-Shirt.",
+    "exEn": "I like that orange T-shirt."
+  },
+  "marrón": {
+    "defEs": "Del color de la tierra o el chocolate.",
+    "defDe": "In der Farbe von Erde oder Schokolade.",
+    "defEn": "The colour of earth or chocolate.",
+    "exEs": "Compró una mesa marrón de madera.",
+    "exDe": "Er kaufte einen braunen Holztisch.",
+    "exEn": "He bought a brown wooden table."
+  },
+  "rosa": {
+    "defEs": "Mezcla suave de rojo y blanco.",
+    "defDe": "Sanfte Mischung aus Rot und Weiß.",
+    "defEn": "A soft mix of red and white.",
+    "exEs": "La niña lleva un vestido rosa.",
+    "exDe": "Das Mädchen trägt ein rosa Kleid.",
+    "exEn": "The girl is wearing a pink dress."
+  },
+  "gris": {
+    "defEs": "Entre blanco y negro, como un día nublado.",
+    "defDe": "Zwischen Weiß und Schwarz, wie ein bewölkter Tag.",
+    "defEn": "Between white and black, like a cloudy day.",
+    "exEs": "El cielo está gris desde ayer.",
+    "exDe": "Der Himmel ist seit gestern grau.",
+    "exEn": "The sky has been grey since yesterday."
+  },
+  "morado": {
+    "defEs": "Mezcla de rojo y azul, bastante oscura.",
+    "defDe": "Mischung aus Rot und Blau, ziemlich dunkel.",
+    "defEn": "A mix of red and blue, fairly dark.",
+    "exEs": "Pintó la puerta de color morado.",
+    "exDe": "Sie strich die Tür lila an.",
+    "exEn": "She painted the door purple."
+  },
+  "violeta": {
+    "defEs": "Tono claro entre azul y rojo, como la flor.",
+    "defDe": "Heller Ton zwischen Blau und Rot, wie die Blume.",
+    "defEn": "A light tone between blue and red, like the flower.",
+    "exEs": "Llevaba una bufanda violeta muy suave.",
+    "exDe": "Sie trug einen sehr weichen violetten Schal.",
+    "exEn": "She wore a very soft violet scarf."
+  },
+  "claro": {
+    "defEs": "Con mucha luz, cerca del blanco.",
+    "defDe": "Mit viel Licht, nahe am Weiß.",
+    "defEn": "With a lot of light, close to white.",
+    "exEs": "Prefiero un azul más claro.",
+    "exDe": "Ich bevorzuge ein helleres Blau.",
+    "exEn": "I prefer a lighter blue."
+  },
+  "oscuro": {
+    "defEs": "Con poca luz, cerca del negro.",
+    "defDe": "Mit wenig Licht, nahe am Schwarz.",
+    "defEn": "With little light, close to black.",
+    "exEs": "El salón es demasiado oscuro.",
+    "exDe": "Das Wohnzimmer ist zu dunkel.",
+    "exEn": "The living room is too dark."
+  },
+  "el tono": {
+    "defEs": "Variante de un color, más clara o más fuerte.",
+    "defDe": "Variante einer Farbe, heller oder kräftiger.",
+    "defEn": "A variant of a colour, lighter or stronger.",
+    "exEs": "Busco un tono más suave de verde.",
+    "exDe": "Ich suche einen sanfteren Grünton.",
+    "exEn": "I am looking for a softer shade of green."
+  },
+  "brillante": {
+    "defEs": "Que da mucha luz o refleja mucho.",
+    "defDe": "Was viel Licht gibt oder stark spiegelt.",
+    "defEn": "Giving off a lot of light or reflecting strongly.",
+    "exEs": "El coche tiene una pintura brillante.",
+    "exDe": "Das Auto hat einen glänzenden Lack.",
+    "exEn": "The car has a shiny paint finish."
+  },
+  "dorado": {
+    "defEs": "Del color del oro.",
+    "defDe": "In der Farbe von Gold.",
+    "defEn": "The colour of gold.",
+    "exEs": "Lleva un anillo dorado en la mano.",
+    "exDe": "Sie trägt einen goldenen Ring an der Hand.",
+    "exEn": "She wears a golden ring on her hand."
+  },
+  "plateado": {
+    "defEs": "Del color de la plata.",
+    "defDe": "In der Farbe von Silber.",
+    "defEn": "The colour of silver.",
+    "exEs": "Su portátil es plateado y muy fino.",
+    "exDe": "Ihr Laptop ist silbern und sehr dünn.",
+    "exEn": "Her laptop is silver and very thin."
+  },
+  "beige": {
+    "defEs": "Marrón muy claro, casi arena.",
+    "defDe": "Sehr helles Braun, fast sandfarben.",
+    "defEn": "A very light brown, almost sand coloured.",
+    "exEs": "El sofá beige combina con todo.",
+    "exDe": "Das beige Sofa passt zu allem.",
+    "exEn": "The beige sofa goes with everything."
+  },
+  "celeste": {
+    "defEs": "Azul muy claro, como el cielo de día.",
+    "defDe": "Sehr helles Blau, wie der Himmel am Tag.",
+    "defEn": "A very light blue, like the daytime sky.",
+    "exEs": "Pintamos la habitación de celeste.",
+    "exDe": "Wir strichen das Zimmer himmelblau.",
+    "exEn": "We painted the room sky blue."
+  },
+  "azul marino": {
+    "defEs": "Azul muy oscuro, casi negro.",
+    "defDe": "Sehr dunkles Blau, fast schwarz.",
+    "defEn": "A very dark blue, almost black.",
+    "exEs": "Lleva un traje azul marino.",
+    "exDe": "Er trägt einen marineblauen Anzug.",
+    "exEn": "He is wearing a navy blue suit."
+  },
+  "azul claro": {
+    "defEs": "Azul con mucho blanco, suave a la vista.",
+    "defDe": "Blau mit viel Weiß, sanft für das Auge.",
+    "defEn": "Blue with a lot of white, soft on the eye.",
+    "exEs": "Su camisa azul claro es preciosa.",
+    "exDe": "Sein hellblaues Hemd ist wunderschön.",
+    "exEn": "His light blue shirt is lovely."
+  },
+  "verde oscuro": {
+    "defEs": "Verde profundo, como un bosque cerrado.",
+    "defDe": "Tiefes Grün, wie ein dichter Wald.",
+    "defEn": "A deep green, like a dense forest.",
+    "exEs": "Las cortinas son verde oscuro.",
+    "exDe": "Die Vorhänge sind dunkelgrün.",
+    "exEn": "The curtains are dark green."
+  },
+  "colorido": {
+    "defEs": "Que tiene muchos colores distintos.",
+    "defDe": "Was viele verschiedene Farben hat.",
+    "defEn": "Having many different colours.",
+    "exEs": "El mercado es muy colorido por la mañana.",
+    "exDe": "Der Markt ist morgens sehr farbenfroh.",
+    "exEn": "The market is very colourful in the morning."
+  },
+  "pálido": {
+    "defEs": "Con poco color, casi sin fuerza.",
+    "defDe": "Mit wenig Farbe, kaum kräftig.",
+    "defEn": "With little colour, barely strong.",
+    "exEs": "Ese amarillo pálido casi no se ve.",
+    "exDe": "Dieses blasse Gelb sieht man kaum.",
+    "exEn": "That pale yellow is hardly visible."
+  },
+  "el matiz": {
+    "defEs": "Diferencia muy pequeña entre dos colores.",
+    "defDe": "Sehr kleiner Unterschied zwischen zwei Farben.",
+    "defEn": "A very small difference between two colours.",
+    "exEs": "Hay un matiz gris en ese azul.",
+    "exDe": "In diesem Blau steckt ein grauer Hauch.",
+    "exEn": "There is a grey nuance in that blue."
+  },
+  "la tonalidad": {
+    "defEs": "Conjunto de tonos que tiene una imagen.",
+    "defDe": "Gesamtheit der Töne, die ein Bild hat.",
+    "defEn": "The overall set of tones an image has.",
+    "exEs": "La foto tiene una tonalidad cálida.",
+    "exDe": "Das Foto hat eine warme Tonalität.",
+    "exEn": "The photo has a warm tonality."
+  },
+  "vivo": {
+    "defEs": "Color fuerte que llama la atención.",
+    "defDe": "Kräftige Farbe, die auffällt.",
+    "defEn": "A strong colour that catches the eye.",
+    "exEs": "Prefiero colores vivos en verano.",
+    "exDe": "Im Sommer mag ich lebhafte Farben.",
+    "exEn": "I prefer bright colours in summer."
+  },
+  "apagado": {
+    "defEs": "Color sin brillo ni fuerza.",
+    "defDe": "Farbe ohne Glanz und Kraft.",
+    "defEn": "A colour without shine or strength.",
+    "exEs": "El rojo del sofá está apagado.",
+    "exDe": "Das Rot des Sofas wirkt matt.",
+    "exEn": "The red of the sofa looks dull."
+  },
+  "intenso": {
+    "defEs": "Muy fuerte y concentrado.",
+    "defDe": "Sehr stark und kräftig.",
+    "defEn": "Very strong and concentrated.",
+    "exEs": "Ese verde intenso me encanta.",
+    "exDe": "Dieses intensive Grün gefällt mir sehr.",
+    "exEn": "I love that intense green."
+  },
+  "turquesa": {
+    "defEs": "Entre azul y verde, como el agua tropical.",
+    "defDe": "Zwischen Blau und Grün, wie tropisches Wasser.",
+    "defEn": "Between blue and green, like tropical water.",
+    "exEs": "El agua de la playa era turquesa.",
+    "exDe": "Das Wasser am Strand war türkis.",
+    "exEn": "The water at the beach was turquoise."
+  },
+  "fucsia": {
+    "defEs": "Rosa muy fuerte, casi morado.",
+    "defDe": "Sehr kräftiges Rosa, fast violett.",
+    "defEn": "A very strong pink, almost purple.",
+    "exEs": "Se compró unas zapatillas fucsia.",
+    "exDe": "Sie kaufte sich pinkfarbene Turnschuhe.",
+    "exEn": "She bought fuchsia trainers."
+  },
+  "teñir": {
+    "defEs": "Cambiar el color de una cosa con un producto.",
+    "defDe": "Die Farbe einer Sache mit einem Mittel ändern.",
+    "defEn": "To change the colour of something with a product.",
+    "exEs": "Quiere teñirse el pelo de negro.",
+    "exDe": "Sie will sich die Haare schwarz färben.",
+    "exEn": "She wants to dye her hair black."
+  },
+  "colorear": {
+    "defEs": "Poner colores en un dibujo.",
+    "defDe": "Farben in eine Zeichnung bringen.",
+    "defEn": "To put colours into a drawing.",
+    "exEs": "Los niños colorean el dibujo del árbol.",
+    "exDe": "Die Kinder malen die Zeichnung vom Baum aus.",
+    "exEn": "The children colour in the drawing of the tree."
+  },
+  "el tinte": {
+    "defEs": "Producto líquido que da color a algo.",
+    "defDe": "Flüssiges Mittel, das etwas Farbe gibt.",
+    "defEn": "A liquid product that gives colour to something.",
+    "exEs": "Compré un tinte para la camiseta.",
+    "exDe": "Ich kaufte Färbemittel für das T-Shirt.",
+    "exEn": "I bought a dye for the T-shirt."
+  },
+  "chillón": {
+    "defEs": "Color demasiado fuerte y poco agradable.",
+    "defDe": "Farbe, die zu grell und wenig angenehm ist.",
+    "defEn": "A colour that is too strong and not pleasant.",
+    "exEs": "Ese verde chillón cansa la vista.",
+    "exDe": "Dieses grelle Grün ermüdet die Augen.",
+    "exEn": "That garish green tires the eyes."
+  },
+  "el degradado": {
+    "defEs": "Paso suave de un color a otro.",
+    "defDe": "Sanfter Übergang von einer Farbe zur anderen.",
+    "defEn": "A soft transition from one colour to another.",
+    "exEs": "La pared tiene un degradado azul.",
+    "exDe": "Die Wand hat einen blauen Farbverlauf.",
+    "exEn": "The wall has a blue gradient."
+  },
+  "translúcido": {
+    "defEs": "Que deja pasar la luz sin verse bien a través.",
+    "defDe": "Was Licht durchlässt, aber keinen klaren Blick erlaubt.",
+    "defEn": "Letting light through without a clear view.",
+    "exEs": "El cristal del baño es translúcido.",
+    "exDe": "Das Badezimmerglas ist lichtdurchlässig.",
+    "exEn": "The bathroom glass is translucent."
+  },
+  "ocre": {
+    "defEs": "Amarillo terroso, algo apagado.",
+    "defDe": "Erdiges Gelb, etwas gedämpft.",
+    "defEn": "An earthy yellow, somewhat muted.",
+    "exEs": "Las casas del pueblo son de color ocre.",
+    "exDe": "Die Häuser des Dorfes sind ockerfarben.",
+    "exEn": "The village houses are ochre coloured."
+  },
+  "carmesí": {
+    "defEs": "Rojo muy intenso y algo oscuro.",
+    "defDe": "Sehr kräftiges, etwas dunkles Rot.",
+    "defEn": "A very intense, slightly dark red.",
+    "exEs": "El vestido carmesí llamaba la atención.",
+    "exDe": "Das karmesinrote Kleid fiel auf.",
+    "exEn": "The crimson dress stood out."
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "Hallo": {
+    "defEs": "Lockerer Gruß für Freunde und bekannte Menschen.",
+    "defDe": "Lockerer Gruß für Freunde und bekannte Menschen.",
+    "defEn": "A casual greeting for friends and people you know.",
+    "exEs": "Hallo, schön dich wiederzusehen!",
+    "exDe": "Hallo, schön dich wiederzusehen!",
+    "exEn": "Hi, nice to see you again!"
+  },
+  "Guten Morgen": {
+    "defEs": "Gruß in den ersten Stunden des Tages.",
+    "defDe": "Gruß in den ersten Stunden des Tages.",
+    "defEn": "A greeting used in the early hours of the day.",
+    "exEs": "Guten Morgen, hast du gut geschlafen?",
+    "exDe": "Guten Morgen, hast du gut geschlafen?",
+    "exEn": "Good morning, did you sleep well?"
+  },
+  "Guten Tag": {
+    "defEs": "Höflicher Gruß tagsüber, oft zu Fremden.",
+    "defDe": "Höflicher Gruß tagsüber, oft zu Fremden.",
+    "defEn": "A polite daytime greeting, often to strangers.",
+    "exEs": "Guten Tag, ich habe einen Termin um drei.",
+    "exDe": "Guten Tag, ich habe einen Termin um drei.",
+    "exEn": "Good day, I have an appointment at three."
+  },
+  "Guten Abend": {
+    "defEs": "Gruß nach dem Ende des Arbeitstages.",
+    "defDe": "Gruß nach dem Ende des Arbeitstages.",
+    "defEn": "A greeting used after the working day ends.",
+    "exEs": "Guten Abend, ein Tisch für zwei bitte.",
+    "exDe": "Guten Abend, ein Tisch für zwei bitte.",
+    "exEn": "Good evening, a table for two please."
+  },
+  "Gute Nacht": {
+    "defEs": "Wunsch, den man vor dem Schlafen sagt.",
+    "defDe": "Wunsch, den man vor dem Schlafen sagt.",
+    "defEn": "A wish said before going to sleep.",
+    "exEs": "Gute Nacht, bis morgen früh!",
+    "exDe": "Gute Nacht, bis morgen früh!",
+    "exEn": "Good night, see you tomorrow morning!"
+  },
+  "Tschüss": {
+    "defEs": "Lockeres Wort beim Weggehen.",
+    "defDe": "Lockeres Wort beim Weggehen.",
+    "defEn": "A casual word said when leaving.",
+    "exEs": "Tschüss, wir sehen uns nächste Woche.",
+    "exDe": "Tschüss, wir sehen uns nächste Woche.",
+    "exEn": "Bye, we'll see each other next week."
+  },
+  "Auf Wiedersehen": {
+    "defEs": "Höfliche Formel zum Abschied.",
+    "defDe": "Höfliche Formel zum Abschied.",
+    "defEn": "A polite formula for saying farewell.",
+    "exEs": "Auf Wiedersehen und vielen Dank!",
+    "exDe": "Auf Wiedersehen und vielen Dank!",
+    "exEn": "Goodbye and thank you very much!"
+  },
+  "Bis bald": {
+    "defEs": "Abschied ohne festen Termin, aber mit Wiedersehen.",
+    "defDe": "Abschied ohne festen Termin, aber mit Wiedersehen.",
+    "defEn": "A farewell with no fixed date but expecting to meet again.",
+    "exEs": "Bis bald, melde dich mal wieder!",
+    "exDe": "Bis bald, melde dich mal wieder!",
+    "exEn": "See you soon, get in touch again!"
+  },
+  "Bis später": {
+    "defEs": "Abschied, wenn man sich am selben Tag wiedersieht.",
+    "defDe": "Abschied, wenn man sich am selben Tag wiedersieht.",
+    "defEn": "A farewell when you meet again the same day.",
+    "exEs": "Bis später, ich hole nur schnell Brot.",
+    "exDe": "Bis später, ich hole nur schnell Brot.",
+    "exEn": "See you later, I'm just getting bread."
+  },
+  "Bis morgen": {
+    "defEs": "Abschied, wenn das Treffen am nächsten Tag ist.",
+    "defDe": "Abschied, wenn das Treffen am nächsten Tag ist.",
+    "defEn": "A farewell when the next meeting is the following day.",
+    "exEs": "Bis morgen, schlaf gut!",
+    "exDe": "Bis morgen, schlaf gut!",
+    "exEn": "See you tomorrow, sleep well!"
+  },
+  "Willkommen": {
+    "defEs": "Freundlicher Gruß an einen Gast, der ankommt.",
+    "defDe": "Freundlicher Gruß an einen Gast, der ankommt.",
+    "defEn": "A friendly greeting to a guest who arrives.",
+    "exEs": "Herzlich willkommen in unserem Haus!",
+    "exDe": "Herzlich willkommen in unserem Haus!",
+    "exEn": "A warm welcome to our house!"
+  },
+  "Freut mich": {
+    "defEs": "Kurzer Satz beim ersten Treffen mit jemandem.",
+    "defDe": "Kurzer Satz beim ersten Treffen mit jemandem.",
+    "defEn": "A short phrase used when meeting someone for the first time.",
+    "exEs": "Freut mich, ich bin Ana.",
+    "exDe": "Freut mich, ich bin Ana.",
+    "exEn": "Nice to meet you, I'm Ana."
+  },
+  "Wie geht es dir?": {
+    "defEs": "Frage nach dem Befinden einer vertrauten Person.",
+    "defDe": "Frage nach dem Befinden einer vertrauten Person.",
+    "defEn": "A question about how a familiar person is doing.",
+    "exEs": "Hallo Tom, wie geht es dir heute?",
+    "exDe": "Hallo Tom, wie geht es dir heute?",
+    "exEn": "Hello Tom, how are you today?"
+  },
+  "Wie heißt du?": {
+    "defEs": "Frage nach dem Namen einer Person.",
+    "defDe": "Frage nach dem Namen einer Person.",
+    "defEn": "A question asking for a person's name.",
+    "exEs": "Wie heißt du, wenn ich fragen darf?",
+    "exDe": "Wie heißt du, wenn ich fragen darf?",
+    "exEn": "What's your name, if I may ask?"
+  },
+  "Es tut mir leid": {
+    "defEs": "Satz, mit dem man Mitgefühl oder Bedauern zeigt.",
+    "defDe": "Satz, mit dem man Mitgefühl oder Bedauern zeigt.",
+    "defEn": "A phrase showing sympathy or regret.",
+    "exEs": "Es tut mir leid, ich habe mich verspätet.",
+    "exDe": "Es tut mir leid, ich habe mich verspätet.",
+    "exEn": "I'm sorry, I was late."
+  },
+  "danke": {
+    "defEs": "Wort, mit dem man sich für etwas bedankt.",
+    "defDe": "Wort, mit dem man sich für etwas bedankt.",
+    "defEn": "A word used to express gratitude.",
+    "exEs": "Danke für deine schnelle Hilfe.",
+    "exDe": "Danke für deine schnelle Hilfe.",
+    "exEn": "Thanks for your quick help."
+  },
+  "bitte": {
+    "defEs": "Höfliches Wort bei einer Frage oder Bitte.",
+    "defDe": "Höfliches Wort bei einer Frage oder Bitte.",
+    "defEn": "A polite word used with a question or request.",
+    "exEs": "Ein Glas Wasser, bitte.",
+    "exDe": "Ein Glas Wasser, bitte.",
+    "exEn": "A glass of water, please."
+  },
+  "Bitte schön": {
+    "defEs": "Antwort, wenn jemand sich bedankt hat.",
+    "defDe": "Antwort, wenn jemand sich bedankt hat.",
+    "defEn": "A reply after someone has said thank you.",
+    "exEs": "Bitte schön, gern geschehen.",
+    "exDe": "Bitte schön, gern geschehen.",
+    "exEn": "You're welcome, my pleasure."
+  },
+  "die Entschuldigung": {
+    "defEs": "Worte, mit denen man um Verzeihung bittet.",
+    "defDe": "Worte, mit denen man um Verzeihung bittet.",
+    "defEn": "Words used to ask for forgiveness.",
+    "exEs": "Er schickte eine kurze Entschuldigung per Nachricht.",
+    "exDe": "Er schickte eine kurze Entschuldigung per Nachricht.",
+    "exEn": "He sent a short apology by message."
+  },
+  "der Name": {
+    "defEs": "Wort, mit dem man eine Person ruft.",
+    "defDe": "Wort, mit dem man eine Person ruft.",
+    "defEn": "The word used to call a person.",
+    "exEs": "Ihr Name steht auf dem Formular.",
+    "exDe": "Ihr Name steht auf dem Formular.",
+    "exEn": "Her name is on the form."
+  },
+  "der Vorname": {
+    "defEs": "Teil des Namens, den die Eltern aussuchen.",
+    "defDe": "Teil des Namens, den die Eltern aussuchen.",
+    "defEn": "The part of the name chosen by the parents.",
+    "exEs": "Mein Vorname ist Lukas.",
+    "exDe": "Mein Vorname ist Lukas.",
+    "exEn": "My first name is Lukas."
+  },
+  "der Nachname": {
+    "defEs": "Teil des Namens, den die Familie gemeinsam trägt.",
+    "defDe": "Teil des Namens, den die Familie gemeinsam trägt.",
+    "defEn": "The part of the name shared by the family.",
+    "exEs": "Wie schreibt man Ihren Nachnamen?",
+    "exDe": "Wie schreibt man Ihren Nachnamen?",
+    "exEn": "How do you spell your surname?"
+  },
+  "die Frau": {
+    "defEs": "Erwachsene weibliche Person, auch höfliche Anrede.",
+    "defDe": "Erwachsene weibliche Person, auch höfliche Anrede.",
+    "defEn": "An adult female person, also a polite form of address.",
+    "exEs": "Guten Tag, Frau Meier!",
+    "exDe": "Guten Tag, Frau Meier!",
+    "exEn": "Good day, Mrs Meier!"
+  },
+  "der Herr": {
+    "defEs": "Erwachsene männliche Person, auch höfliche Anrede.",
+    "defDe": "Erwachsene männliche Person, auch höfliche Anrede.",
+    "defEn": "An adult male person, also a polite form of address.",
+    "exEs": "Herr Weber wartet schon im Büro.",
+    "exDe": "Herr Weber wartet schon im Büro.",
+    "exEn": "Mr Weber is already waiting in the office."
+  },
+  "die Person": {
+    "defEs": "Ein einzelner Mensch, ohne nähere Angabe.",
+    "defDe": "Ein einzelner Mensch, ohne nähere Angabe.",
+    "defEn": "A single human being, without further detail.",
+    "exEs": "An der Tür stand eine fremde Person.",
+    "exDe": "An der Tür stand eine fremde Person.",
+    "exEn": "A stranger was standing at the door."
+  },
+  "das Land": {
+    "defEs": "Gebiet mit eigener Regierung und Grenze.",
+    "defDe": "Gebiet mit eigener Regierung und Grenze.",
+    "defEn": "An area with its own government and border.",
+    "exEs": "Aus welchem Land kommst du?",
+    "exDe": "Aus welchem Land kommst du?",
+    "exEn": "Which country do you come from?"
+  },
+  "die Sprache": {
+    "defEs": "System aus Wörtern, mit dem Menschen sich verständigen.",
+    "defDe": "System aus Wörtern, mit dem Menschen sich verständigen.",
+    "defEn": "A system of words people use to understand each other.",
+    "exEs": "Ich lerne gerade eine neue Sprache.",
+    "exDe": "Ich lerne gerade eine neue Sprache.",
+    "exEn": "I am currently learning a new language."
+  },
+  "die Telefonnummer": {
+    "defEs": "Zahlenreihe, mit der man jemanden anruft.",
+    "defDe": "Zahlenreihe, mit der man jemanden anruft.",
+    "defEn": "A series of digits used to call someone.",
+    "exEs": "Gibst du mir deine Telefonnummer?",
+    "exDe": "Gibst du mir deine Telefonnummer?",
+    "exEn": "Will you give me your phone number?"
+  },
+  "der Gruß": {
+    "defEs": "Freundliches Wort beim Treffen oder Abschied.",
+    "defDe": "Freundliches Wort beim Treffen oder Abschied.",
+    "defEn": "A friendly word said when meeting or parting.",
+    "exEs": "Sie schickt dir einen lieben Gruß.",
+    "exDe": "Sie schickt dir einen lieben Gruß.",
+    "exEn": "She sends you warm greetings."
+  },
+  "die Herkunft": {
+    "defEs": "Ort oder Land, aus dem jemand stammt.",
+    "defDe": "Ort oder Land, aus dem jemand stammt.",
+    "defEn": "The place or country a person comes from.",
+    "exEs": "Über seine Herkunft spricht er selten.",
+    "exDe": "Über seine Herkunft spricht er selten.",
+    "exEn": "He rarely talks about his origin."
+  },
+  "heißen": {
+    "defEs": "Einen bestimmten Namen tragen.",
+    "defDe": "Einen bestimmten Namen tragen.",
+    "defEn": "To carry a certain name.",
+    "exEs": "Ich heiße Marta und wohne hier.",
+    "exDe": "Ich heiße Marta und wohne hier.",
+    "exEn": "My name is Marta and I live here."
+  },
+  "sein": {
+    "defEs": "Ausdrücken, wer oder wie jemand ist.",
+    "defDe": "Ausdrücken, wer oder wie jemand ist.",
+    "defEn": "To express who or how someone is.",
+    "exEs": "Ich bin heute ziemlich müde.",
+    "exDe": "Ich bin heute ziemlich müde.",
+    "exEn": "I am quite tired today."
+  },
+  "kommen": {
+    "defEs": "Sich zu einem Ort hin bewegen.",
+    "defDe": "Sich zu einem Ort hin bewegen.",
+    "defEn": "To move towards a place.",
+    "exEs": "Ich komme aus Spanien.",
+    "exDe": "Ich komme aus Spanien.",
+    "exEn": "I come from Spain."
+  },
+  "sprechen": {
+    "defEs": "Mit Worten etwas sagen.",
+    "defDe": "Mit Worten etwas sagen.",
+    "defEn": "To say something with words.",
+    "exEs": "Sprichst du ein bisschen Deutsch?",
+    "exDe": "Sprichst du ein bisschen Deutsch?",
+    "exEn": "Do you speak a little German?"
+  },
+  "buchstabieren": {
+    "defEs": "Ein Wort Buchstabe für Buchstabe sagen.",
+    "defDe": "Ein Wort Buchstabe für Buchstabe sagen.",
+    "defEn": "To say a word letter by letter.",
+    "exEs": "Können Sie Ihren Namen bitte buchstabieren?",
+    "exDe": "Können Sie Ihren Namen bitte buchstabieren?",
+    "exEn": "Could you spell your name, please?"
+  },
+  "verstehen": {
+    "defEs": "Den Sinn von etwas erfassen.",
+    "defDe": "Den Sinn von etwas erfassen.",
+    "defEn": "To grasp the meaning of something.",
+    "exEs": "Ich verstehe leider kein Wort.",
+    "exDe": "Ich verstehe leider kein Wort.",
+    "exEn": "Unfortunately I do not understand a word."
+  },
+  "wiederholen": {
+    "defEs": "Etwas noch einmal sagen oder machen.",
+    "defDe": "Etwas noch einmal sagen oder machen.",
+    "defEn": "To say or do something again.",
+    "exEs": "Können Sie das bitte wiederholen?",
+    "exDe": "Können Sie das bitte wiederholen?",
+    "exEn": "Could you repeat that, please?"
+  },
+  "sich vorstellen": {
+    "defEs": "Anderen den eigenen Namen nennen.",
+    "defDe": "Anderen den eigenen Namen nennen.",
+    "defEn": "To tell others your own name.",
+    "exEs": "Darf ich mich kurz vorstellen?",
+    "exDe": "Darf ich mich kurz vorstellen?",
+    "exEn": "May I introduce myself briefly?"
+  },
+  "kennenlernen": {
+    "defEs": "Eine neue Person zum ersten Mal treffen.",
+    "defDe": "Eine neue Person zum ersten Mal treffen.",
+    "defEn": "To meet a new person for the first time.",
+    "exEs": "Ich möchte deine Freunde gern kennenlernen.",
+    "exDe": "Ich möchte deine Freunde gern kennenlernen.",
+    "exEn": "I would like to get to know your friends."
+  },
+  "grüßen": {
+    "defEs": "Jemanden freundlich mit Worten begrüßen.",
+    "defDe": "Jemanden freundlich mit Worten begrüßen.",
+    "defEn": "To greet someone in a friendly way.",
+    "exEs": "Grüß bitte deine Familie von mir.",
+    "exDe": "Grüß bitte deine Familie von mir.",
+    "exEn": "Please say hello to your family from me."
+  },
+  "nett": {
+    "defEs": "Angenehm im Umgang mit anderen.",
+    "defDe": "Angenehm im Umgang mit anderen.",
+    "defEn": "Pleasant in dealing with other people.",
+    "exEs": "Deine Nachbarin ist wirklich nett.",
+    "exDe": "Deine Nachbarin ist wirklich nett.",
+    "exEn": "Your neighbour is really nice."
+  },
+  "freundlich": {
+    "defEs": "Offen und warm zu anderen Menschen.",
+    "defDe": "Offen und warm zu anderen Menschen.",
+    "defEn": "Open and warm towards other people.",
+    "exEs": "Der Kellner war sehr freundlich zu uns.",
+    "exDe": "Der Kellner war sehr freundlich zu uns.",
+    "exEn": "The waiter was very friendly to us."
+  },
+  "höflich": {
+    "defEs": "Mit guten Manieren und Respekt.",
+    "defDe": "Mit guten Manieren und Respekt.",
+    "defEn": "With good manners and respect.",
+    "exEs": "Sie hat höflich nach dem Weg gefragt.",
+    "exDe": "Sie hat höflich nach dem Weg gefragt.",
+    "exEn": "She politely asked for directions."
+  },
+  "woher": {
+    "defEs": "Fragewort nach dem Ort der Herkunft.",
+    "defDe": "Fragewort nach dem Ort der Herkunft.",
+    "defEn": "A question word asking about the place of origin.",
+    "exEs": "Woher kommst du eigentlich?",
+    "exDe": "Woher kommst du eigentlich?",
+    "exEn": "Where do you actually come from?"
+  }
+}

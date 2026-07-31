@@ -258,6 +258,7 @@ export const ui = {
     "sync.download": "Zusätzliche Sicherung als Datei (optional)",
 
     "tts.play": "Aussprechen",
+    "tts.blocked": "Dein Browser lässt die Aussprache nicht zu. In Brave: Schutzschilde für diese Seite senken.",
 
     "pos.noun": "Substantiv",
     "pos.verb": "Verb",
@@ -574,6 +575,7 @@ export const ui = {
     "sync.download": "Extra backup as a file (optional)",
 
     "tts.play": "Pronounce",
+    "tts.blocked": "Your browser is blocking speech. In Brave: lower the Shields for this site.",
 
     "pos.noun": "Noun",
     "pos.verb": "Verb",
@@ -877,6 +879,7 @@ export const ui = {
     "sync.now": "სინქრონიზაცია ახლა",
     "sync.download": "დამატებითი ასლი ფაილად (სურვილისამებრ)",
     "tts.play": "მოსმენა",
+    "tts.blocked": "შენი ბრაუზერი ხმოვან წაკითხვას ბლოკავს. Brave-ში: ამ საიტისთვის დაწიე ფარები.",
     "pos.noun": "არსებითი სახელი",
     "pos.verb": "ზმნა",
     "pos.adj": "ზედსართავი სახელი",

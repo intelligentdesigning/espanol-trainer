@@ -5,6 +5,7 @@ import { getActiveLang } from "@/lib/lang";
 let vocabPromise: Promise<VocabItem[]> | null = null;
 let themesPromise: Promise<ThemesData> | null = null;
 let deGrammarPromise: Promise<DeLesson[]> | null = null;
+let themeDetailsPromise: Promise<BuchDetails> | null = null;
 let verbsPromise: Promise<VerbItem[]> | null = null;
 let indexPromise: Promise<VocabIndex> | null = null;
 let buchPromise: Promise<BuchData> | null = null;
@@ -35,6 +36,13 @@ export function loadBuch(): Promise<BuchData> {
 export function loadThemes(): Promise<ThemesData> {
   const file = getActiveLang() === "de" ? "de/themes.json" : "themes.json";
   return (themesPromise ??= load<ThemesData>(file));
+}
+
+/** Definitions + example sentences for the topic words (per learned language,
+ *  keyed by accent-stripped word). Tolerates a missing file. */
+export function loadThemeDetails(): Promise<BuchDetails> {
+  const file = getActiveLang() === "de" ? "de/theme-details.json" : "theme-details.json";
+  return (themeDetailsPromise ??= load<BuchDetails>(file).catch(() => ({} as BuchDetails)));
 }
 
 /** German A1 grammar lessons (rules + practice). Empty when not in German mode. */

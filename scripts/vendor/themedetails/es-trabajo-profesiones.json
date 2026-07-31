@@ -1,0 +1,322 @@
+{
+  "el trabajo": {
+    "defEs": "Actividad que haces para ganar dinero.",
+    "defDe": "Die Tätigkeit, die man macht, um Geld zu verdienen.",
+    "defEn": "The activity you do to earn money.",
+    "exEs": "Mi trabajo empieza a las nueve.",
+    "exDe": "Meine Arbeit beginnt um neun.",
+    "exEn": "My job starts at nine."
+  },
+  "la profesión": {
+    "defEs": "Tipo de trabajo para el que te has formado.",
+    "defDe": "Die Art von Arbeit, für die man ausgebildet ist.",
+    "defEn": "The kind of work you have been trained for.",
+    "exEs": "¿Cuál es tu profesión? Soy enfermera.",
+    "exDe": "Was ist dein Beruf? Ich bin Krankenschwester.",
+    "exEn": "What is your profession? I am a nurse."
+  },
+  "el trabajador": {
+    "defEs": "Persona que trabaja en una empresa.",
+    "defDe": "Eine Person, die in einem Betrieb arbeitet.",
+    "defEn": "A person who works in a company.",
+    "exEs": "Cada trabajador tiene su propia mesa.",
+    "exDe": "Jeder Arbeiter hat seinen eigenen Tisch.",
+    "exEn": "Each worker has their own desk."
+  },
+  "el jefe": {
+    "defEs": "Persona que manda en un grupo de trabajo.",
+    "defDe": "Die Person, die in einer Arbeitsgruppe das Sagen hat.",
+    "defEn": "The person in charge of a work group.",
+    "exEs": "Mi jefe es muy simpático.",
+    "exDe": "Mein Chef ist sehr nett.",
+    "exEn": "My boss is very nice."
+  },
+  "la empresa": {
+    "defEs": "Organización que vende productos o servicios.",
+    "defDe": "Eine Organisation, die Produkte oder Dienste verkauft.",
+    "defEn": "An organisation that sells products or services.",
+    "exEs": "La empresa tiene cincuenta empleados.",
+    "exDe": "Die Firma hat fünfzig Angestellte.",
+    "exEn": "The company has fifty employees."
+  },
+  "la oficina": {
+    "defEs": "Sala con mesas donde se trabaja con papeles y ordenadores.",
+    "defDe": "Ein Raum mit Tischen, wo man mit Papieren und Computern arbeitet.",
+    "defEn": "A room with desks where people work with papers and computers.",
+    "exEs": "La oficina está en el segundo piso.",
+    "exDe": "Das Büro ist im zweiten Stock.",
+    "exEn": "The office is on the second floor."
+  },
+  "el sueldo": {
+    "defEs": "Dinero que recibes cada mes por tu trabajo.",
+    "defDe": "Das Geld, das man jeden Monat für seine Arbeit bekommt.",
+    "defEn": "The money you receive each month for your work.",
+    "exEs": "Cobro el sueldo el día treinta.",
+    "exDe": "Ich bekomme das Gehalt am dreißigsten.",
+    "exEn": "I get my salary on the thirtieth."
+  },
+  "el horario": {
+    "defEs": "Las horas en las que tienes que trabajar.",
+    "defDe": "Die Stunden, in denen man arbeiten muss.",
+    "defEn": "The hours during which you have to work.",
+    "exEs": "Tengo un horario de ocho a cuatro.",
+    "exDe": "Ich habe Arbeitszeiten von acht bis vier.",
+    "exEn": "I have working hours from eight to four."
+  },
+  "la reunión": {
+    "defEs": "Encuentro de varias personas para hablar de un tema.",
+    "defDe": "Ein Treffen mehrerer Personen, um über ein Thema zu sprechen.",
+    "defEn": "A meeting of several people to talk about a topic.",
+    "exEs": "La reunión de mañana dura una hora.",
+    "exDe": "Die Besprechung morgen dauert eine Stunde.",
+    "exEn": "Tomorrow's meeting lasts one hour."
+  },
+  "el contrato": {
+    "defEs": "Papel firmado con las condiciones del trabajo.",
+    "defDe": "Ein unterschriebenes Papier mit den Arbeitsbedingungen.",
+    "defEn": "A signed paper with the conditions of the job.",
+    "exEs": "Firmé el contrato el lunes pasado.",
+    "exDe": "Ich habe den Vertrag letzten Montag unterschrieben.",
+    "exEn": "I signed the contract last Monday."
+  },
+  "el ordenador": {
+    "defEs": "Máquina con pantalla para escribir y buscar cosas.",
+    "defDe": "Eine Maschine mit Bildschirm zum Schreiben und Suchen.",
+    "defEn": "A machine with a screen for writing and searching.",
+    "exEs": "Mi ordenador va muy lento hoy.",
+    "exDe": "Mein Computer ist heute sehr langsam.",
+    "exEn": "My computer is very slow today."
+  },
+  "el correo electrónico": {
+    "defEs": "Mensaje escrito que se envía por internet.",
+    "defDe": "Eine geschriebene Nachricht, die über das Internet verschickt wird.",
+    "defEn": "A written message sent over the internet.",
+    "exEs": "Te mando un correo electrónico esta tarde.",
+    "exDe": "Ich schicke dir heute Nachmittag eine E-Mail.",
+    "exEn": "I will send you an email this afternoon."
+  },
+  "el proyecto": {
+    "defEs": "Trabajo con un objetivo claro y un plazo.",
+    "defDe": "Eine Arbeit mit klarem Ziel und einer Frist.",
+    "defEn": "A piece of work with a clear goal and a deadline.",
+    "exEs": "El proyecto termina en septiembre.",
+    "exDe": "Das Projekt endet im September.",
+    "exEn": "The project finishes in September."
+  },
+  "el cliente": {
+    "defEs": "Persona que compra algo o paga un servicio.",
+    "defDe": "Eine Person, die etwas kauft oder für einen Dienst zahlt.",
+    "defEn": "A person who buys something or pays for a service.",
+    "exEs": "El cliente quiere hablar contigo.",
+    "exDe": "Der Kunde möchte mit dir sprechen.",
+    "exEn": "The client wants to talk to you."
+  },
+  "la entrevista": {
+    "defEs": "Conversación para saber si eres bueno para un puesto.",
+    "defDe": "Ein Gespräch, um zu prüfen, ob man zu einer Stelle passt.",
+    "defEn": "A conversation to see if you suit a position.",
+    "exEs": "Tengo una entrevista el jueves por la mañana.",
+    "exDe": "Ich habe am Donnerstagmorgen ein Vorstellungsgespräch.",
+    "exEn": "I have an interview on Thursday morning."
+  },
+  "el currículum": {
+    "defEs": "Documento con tus estudios y tu experiencia.",
+    "defDe": "Ein Dokument mit der eigenen Ausbildung und Erfahrung.",
+    "defEn": "A document with your studies and experience.",
+    "exEs": "Envié mi currículum a tres empresas.",
+    "exDe": "Ich habe meinen Lebenslauf an drei Firmen geschickt.",
+    "exEn": "I sent my CV to three companies."
+  },
+  "el paro": {
+    "defEs": "Situación de quien no tiene trabajo.",
+    "defDe": "Die Lage von jemandem ohne Arbeit.",
+    "defEn": "The situation of someone without a job.",
+    "exEs": "Mi primo está en el paro desde marzo.",
+    "exDe": "Mein Cousin ist seit März arbeitslos.",
+    "exEn": "My cousin has been unemployed since March."
+  },
+  "el ascenso": {
+    "defEs": "Subida a un puesto mejor dentro del trabajo.",
+    "defDe": "Der Aufstieg auf eine bessere Stelle im Betrieb.",
+    "defEn": "A move up to a better position at work.",
+    "exEs": "Le dieron un ascenso después de dos años.",
+    "exDe": "Nach zwei Jahren bekam er eine Beförderung.",
+    "exEn": "They gave him a promotion after two years."
+  },
+  "el médico": {
+    "defEs": "Persona que cura a los enfermos.",
+    "defDe": "Eine Person, die Kranke behandelt.",
+    "defEn": "A person who treats sick people.",
+    "exEs": "El médico me dio unas pastillas.",
+    "exDe": "Der Arzt gab mir Tabletten.",
+    "exEn": "The doctor gave me some pills."
+  },
+  "el profesor": {
+    "defEs": "Persona que enseña en una escuela o universidad.",
+    "defDe": "Eine Person, die an einer Schule oder Universität unterrichtet.",
+    "defEn": "A person who teaches at a school or university.",
+    "exEs": "El profesor explica muy despacio.",
+    "exDe": "Der Lehrer erklärt sehr langsam.",
+    "exEn": "The teacher explains very slowly."
+  },
+  "el camarero": {
+    "defEs": "Persona que sirve comida y bebida en un bar.",
+    "defDe": "Eine Person, die in einem Lokal Essen und Getränke serviert.",
+    "defEn": "A person who serves food and drinks in a bar.",
+    "exEs": "El camarero nos trajo la carta.",
+    "exDe": "Der Kellner brachte uns die Karte.",
+    "exEn": "The waiter brought us the menu."
+  },
+  "el cocinero": {
+    "defEs": "Persona que prepara la comida en un restaurante.",
+    "defDe": "Eine Person, die im Restaurant das Essen zubereitet.",
+    "defEn": "A person who prepares the food in a restaurant.",
+    "exEs": "El cocinero prepara un pescado excelente.",
+    "exDe": "Der Koch bereitet einen ausgezeichneten Fisch zu.",
+    "exEn": "The cook makes excellent fish."
+  },
+  "el enfermero": {
+    "defEs": "Persona que cuida a los enfermos en el hospital.",
+    "defDe": "Eine Person, die im Krankenhaus Kranke pflegt.",
+    "defEn": "A person who looks after sick people in hospital.",
+    "exEs": "El enfermero me tomó la tensión.",
+    "exDe": "Der Pfleger maß meinen Blutdruck.",
+    "exEn": "The nurse took my blood pressure."
+  },
+  "el abogado": {
+    "defEs": "Persona que ayuda a otros con temas de leyes.",
+    "defDe": "Eine Person, die anderen bei Rechtsfragen hilft.",
+    "defEn": "A person who helps others with legal matters.",
+    "exEs": "Mi abogado revisó el contrato.",
+    "exDe": "Mein Anwalt prüfte den Vertrag.",
+    "exEn": "My lawyer checked the contract."
+  },
+  "el ingeniero": {
+    "defEs": "Persona que diseña máquinas, puentes o sistemas.",
+    "defDe": "Eine Person, die Maschinen, Brücken oder Systeme entwirft.",
+    "defEn": "A person who designs machines, bridges or systems.",
+    "exEs": "Mi hermana es ingeniera de caminos.",
+    "exDe": "Meine Schwester ist Bauingenieurin.",
+    "exEn": "My sister is a civil engineer."
+  },
+  "el policía": {
+    "defEs": "Persona que cuida el orden en la calle.",
+    "defDe": "Eine Person, die auf der Straße für Ordnung sorgt.",
+    "defEn": "A person who keeps order in the street.",
+    "exEs": "Un policía nos indicó el camino.",
+    "exDe": "Ein Polizist zeigte uns den Weg.",
+    "exEn": "A police officer showed us the way."
+  },
+  "el bombero": {
+    "defEs": "Persona que apaga los fuegos.",
+    "defDe": "Eine Person, die Brände löscht.",
+    "defEn": "A person who puts out fires.",
+    "exEs": "Los bomberos llegaron en cinco minutos.",
+    "exDe": "Die Feuerwehrleute kamen in fünf Minuten.",
+    "exEn": "The firefighters arrived in five minutes."
+  },
+  "el dependiente": {
+    "defEs": "Persona que atiende a la gente en una tienda.",
+    "defDe": "Eine Person, die in einem Laden die Kunden bedient.",
+    "defEn": "A person who serves people in a shop.",
+    "exEs": "El dependiente me buscó otra talla.",
+    "exDe": "Der Verkäufer suchte mir eine andere Größe.",
+    "exEn": "The shop assistant found me another size."
+  },
+  "el conductor": {
+    "defEs": "Persona que lleva un vehículo.",
+    "defDe": "Eine Person, die ein Fahrzeug lenkt.",
+    "defEn": "A person who drives a vehicle.",
+    "exEs": "El conductor del camión paró a descansar.",
+    "exDe": "Der Fahrer des Lastwagens hielt zum Ausruhen an.",
+    "exEn": "The truck driver stopped to rest."
+  },
+  "el peluquero": {
+    "defEs": "Persona que corta el pelo.",
+    "defDe": "Eine Person, die Haare schneidet.",
+    "defEn": "A person who cuts hair.",
+    "exEs": "Mi peluquero trabaja también los sábados.",
+    "exDe": "Mein Friseur arbeitet auch samstags.",
+    "exEn": "My hairdresser also works on Saturdays."
+  },
+  "el fontanero": {
+    "defEs": "Persona que arregla tubos y grifos.",
+    "defDe": "Eine Person, die Rohre und Wasserhähne repariert.",
+    "defEn": "A person who repairs pipes and taps.",
+    "exEs": "El fontanero viene mañana por la mañana.",
+    "exDe": "Der Klempner kommt morgen früh.",
+    "exEn": "The plumber is coming tomorrow morning."
+  },
+  "el periodista": {
+    "defEs": "Persona que escribe noticias para el público.",
+    "defDe": "Eine Person, die Nachrichten für das Publikum schreibt.",
+    "defEn": "A person who writes news for the public.",
+    "exEs": "Una periodista entrevistó al alcalde.",
+    "exDe": "Eine Journalistin interviewte den Bürgermeister.",
+    "exEn": "A journalist interviewed the mayor."
+  },
+  "el empresario": {
+    "defEs": "Persona que tiene o dirige una empresa.",
+    "defDe": "Eine Person, die eine Firma besitzt oder leitet.",
+    "defEn": "A person who owns or runs a company.",
+    "exEs": "Ese empresario abrió dos tiendas nuevas.",
+    "exDe": "Dieser Unternehmer eröffnete zwei neue Läden.",
+    "exEn": "That businessman opened two new shops."
+  },
+  "el funcionario": {
+    "defEs": "Persona que trabaja para el Estado.",
+    "defDe": "Eine Person, die für den Staat arbeitet.",
+    "defEn": "A person who works for the state.",
+    "exEs": "Mi tía es funcionaria en el ayuntamiento.",
+    "exDe": "Meine Tante ist Beamtin im Rathaus.",
+    "exEn": "My aunt is a civil servant at the town hall."
+  },
+  "trabajar": {
+    "defEs": "Hacer una actividad, normalmente por dinero.",
+    "defDe": "Eine Tätigkeit ausüben, meist gegen Geld.",
+    "defEn": "To do an activity, usually for money.",
+    "exEs": "Trabajo en una tienda de ropa.",
+    "exDe": "Ich arbeite in einem Kleidergeschäft.",
+    "exEn": "I work in a clothes shop."
+  },
+  "ganar": {
+    "defEs": "Recibir dinero por algo que haces.",
+    "defDe": "Geld für etwas bekommen, das man tut.",
+    "defEn": "To receive money for something you do.",
+    "exEs": "Gana bastante bien en su nuevo puesto.",
+    "exDe": "Er verdient in seiner neuen Stelle recht gut.",
+    "exEn": "He earns quite well in his new position."
+  },
+  "contratar": {
+    "defEs": "Dar trabajo a una persona.",
+    "defDe": "Einer Person Arbeit geben.",
+    "defEn": "To give a person a job.",
+    "exEs": "La empresa quiere contratar a dos personas.",
+    "exDe": "Die Firma will zwei Leute einstellen.",
+    "exEn": "The company wants to hire two people."
+  },
+  "despedir": {
+    "defEs": "Quitarle el trabajo a alguien.",
+    "defDe": "Jemandem die Arbeit wegnehmen.",
+    "defEn": "To take someone's job away.",
+    "exEs": "No quieren despedir a nadie este año.",
+    "exDe": "Sie wollen dieses Jahr niemanden entlassen.",
+    "exEn": "They do not want to fire anyone this year."
+  },
+  "jubilarse": {
+    "defEs": "Dejar de trabajar por la edad.",
+    "defDe": "Wegen des Alters aufhören zu arbeiten.",
+    "defEn": "To stop working because of age.",
+    "exEs": "Mi padre se jubila el año próximo.",
+    "exDe": "Mein Vater geht nächstes Jahr in Rente.",
+    "exEn": "My father retires next year."
+  },
+  "ocupado": {
+    "defEs": "Se dice de quien tiene mucho que hacer.",
+    "defDe": "Sagt man von jemandem, der viel zu tun hat.",
+    "defEn": "Said of someone who has a lot to do.",
+    "exEs": "Hoy estoy muy ocupado en la oficina.",
+    "exDe": "Heute bin ich im Büro sehr beschäftigt.",
+    "exEn": "Today I am very busy at the office."
+  }
+}

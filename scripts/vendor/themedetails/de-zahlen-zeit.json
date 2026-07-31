@@ -1,0 +1,354 @@
+{
+  "die Zeit": {
+    "defEs": "Das, was man in Stunden und Minuten misst.",
+    "defDe": "Das, was man in Stunden und Minuten misst.",
+    "defEn": "What we measure in hours and minutes.",
+    "exEs": "Ich habe heute leider wenig Zeit.",
+    "exDe": "Ich habe heute leider wenig Zeit.",
+    "exEn": "Unfortunately I have little time today."
+  },
+  "die Uhr": {
+    "defEs": "Gerät, das die Stunden und Minuten anzeigt.",
+    "defDe": "Gerät, das die Stunden und Minuten anzeigt.",
+    "defEn": "A device that shows hours and minutes.",
+    "exEs": "Meine Uhr geht zwei Minuten vor.",
+    "exDe": "Meine Uhr geht zwei Minuten vor.",
+    "exEn": "My watch is two minutes fast."
+  },
+  "die Stunde": {
+    "defEs": "Abschnitt von sechzig Minuten.",
+    "defDe": "Abschnitt von sechzig Minuten.",
+    "defEn": "A period of sixty minutes.",
+    "exEs": "Der Film dauert etwa zwei Stunden.",
+    "exDe": "Der Film dauert etwa zwei Stunden.",
+    "exEn": "The film lasts about two hours."
+  },
+  "die Minute": {
+    "defEs": "Kurzer Abschnitt von sechzig Sekunden.",
+    "defDe": "Kurzer Abschnitt von sechzig Sekunden.",
+    "defEn": "A short period of sixty seconds.",
+    "exEs": "Warte bitte eine Minute auf mich.",
+    "exDe": "Warte bitte eine Minute auf mich.",
+    "exEn": "Please wait a minute for me."
+  },
+  "der Tag": {
+    "defEs": "Zeitraum von vierundzwanzig Stunden.",
+    "defDe": "Zeitraum von vierundzwanzig Stunden.",
+    "defEn": "A period of twenty four hours.",
+    "exEs": "Der Tag war lang, aber schön.",
+    "exDe": "Der Tag war lang, aber schön.",
+    "exEn": "The day was long but nice."
+  },
+  "die Woche": {
+    "defEs": "Zeitraum von sieben Tagen.",
+    "defDe": "Zeitraum von sieben Tagen.",
+    "defEn": "A period of seven days.",
+    "exEs": "Nächste Woche fahren wir ans Meer.",
+    "exDe": "Nächste Woche fahren wir ans Meer.",
+    "exEn": "Next week we are going to the sea."
+  },
+  "der Monat": {
+    "defEs": "Einer der zwölf Teile eines Jahres.",
+    "defDe": "Einer der zwölf Teile eines Jahres.",
+    "defEn": "One of the twelve parts of a year.",
+    "exEs": "Die Miete zahle ich jeden Monat.",
+    "exDe": "Die Miete zahle ich jeden Monat.",
+    "exEn": "I pay the rent every month."
+  },
+  "das Jahr": {
+    "defEs": "Zeitraum von zwölf Monaten.",
+    "defDe": "Zeitraum von zwölf Monaten.",
+    "defEn": "A period of twelve months.",
+    "exEs": "Letztes Jahr war ich in Italien.",
+    "exDe": "Letztes Jahr war ich in Italien.",
+    "exEn": "Last year I was in Italy."
+  },
+  "das Datum": {
+    "defEs": "Angabe von Tag, Monat und Jahr.",
+    "defDe": "Angabe von Tag, Monat und Jahr.",
+    "defEn": "The statement of day, month and year.",
+    "exEs": "Welches Datum haben wir heute?",
+    "exDe": "Welches Datum haben wir heute?",
+    "exEn": "What is today's date?"
+  },
+  "der Morgen": {
+    "defEs": "Erste Zeit des Tages nach dem Aufstehen.",
+    "defDe": "Erste Zeit des Tages nach dem Aufstehen.",
+    "defEn": "The first part of the day after getting up.",
+    "exEs": "Am Morgen trinke ich immer Kaffee.",
+    "exDe": "Am Morgen trinke ich immer Kaffee.",
+    "exEn": "In the morning I always drink coffee."
+  },
+  "der Mittag": {
+    "defEs": "Zeit um zwölf Uhr am Tag.",
+    "defDe": "Zeit um zwölf Uhr am Tag.",
+    "defEn": "The time around twelve o'clock in the day.",
+    "exEs": "Wir essen um Mittag in der Kantine.",
+    "exDe": "Wir essen um Mittag in der Kantine.",
+    "exEn": "We eat at noon in the canteen."
+  },
+  "der Nachmittag": {
+    "defEs": "Zeit zwischen Mittag und Abend.",
+    "defDe": "Zeit zwischen Mittag und Abend.",
+    "defEn": "The time between noon and evening.",
+    "exEs": "Am Nachmittag gehe ich zum Sport.",
+    "exDe": "Am Nachmittag gehe ich zum Sport.",
+    "exEn": "In the afternoon I go to sports."
+  },
+  "der Abend": {
+    "defEs": "Letzte Zeit des Tages vor der Nacht.",
+    "defDe": "Letzte Zeit des Tages vor der Nacht.",
+    "defEn": "The last part of the day before night.",
+    "exEs": "Am Abend lese ich gern ein Buch.",
+    "exDe": "Am Abend lese ich gern ein Buch.",
+    "exEn": "In the evening I like reading a book."
+  },
+  "die Nacht": {
+    "defEs": "Dunkle Zeit, in der die meisten schlafen.",
+    "defDe": "Dunkle Zeit, in der die meisten schlafen.",
+    "defEn": "The dark time when most people sleep.",
+    "exEs": "In der Nacht war es sehr still.",
+    "exDe": "In der Nacht war es sehr still.",
+    "exEn": "At night it was very quiet."
+  },
+  "das Wochenende": {
+    "defEs": "Samstag und Sonntag, meist frei von Arbeit.",
+    "defDe": "Samstag und Sonntag, meist frei von Arbeit.",
+    "defEn": "Saturday and Sunday, usually free from work.",
+    "exEs": "Am Wochenende schlafen wir länger.",
+    "exDe": "Am Wochenende schlafen wir länger.",
+    "exEn": "At the weekend we sleep longer."
+  },
+  "der Montag": {
+    "defEs": "Erster Tag der Arbeitswoche.",
+    "defDe": "Erster Tag der Arbeitswoche.",
+    "defEn": "The first day of the working week.",
+    "exEs": "Am Montag beginnt der Kurs.",
+    "exDe": "Am Montag beginnt der Kurs.",
+    "exEn": "The course starts on Monday."
+  },
+  "der Dienstag": {
+    "defEs": "Zweiter Tag der Woche.",
+    "defDe": "Zweiter Tag der Woche.",
+    "defEn": "The second day of the week.",
+    "exEs": "Dienstag habe ich einen Arzttermin.",
+    "exDe": "Dienstag habe ich einen Arzttermin.",
+    "exEn": "On Tuesday I have a doctor's appointment."
+  },
+  "der Mittwoch": {
+    "defEs": "Dritter Tag der Woche, in der Mitte.",
+    "defDe": "Dritter Tag der Woche, in der Mitte.",
+    "defEn": "The third day of the week, in the middle.",
+    "exEs": "Mittwoch treffen wir uns im Café.",
+    "exDe": "Mittwoch treffen wir uns im Café.",
+    "exEn": "On Wednesday we meet at the café."
+  },
+  "der Donnerstag": {
+    "defEs": "Vierter Tag der Woche.",
+    "defDe": "Vierter Tag der Woche.",
+    "defEn": "The fourth day of the week.",
+    "exEs": "Am Donnerstag kommt der Handwerker.",
+    "exDe": "Am Donnerstag kommt der Handwerker.",
+    "exEn": "The repairman is coming on Thursday."
+  },
+  "der Freitag": {
+    "defEs": "Letzter Tag der normalen Arbeitswoche.",
+    "defDe": "Letzter Tag der normalen Arbeitswoche.",
+    "defEn": "The last day of the normal working week.",
+    "exEs": "Freitag gehen wir immer ins Kino.",
+    "exDe": "Freitag gehen wir immer ins Kino.",
+    "exEn": "On Friday we always go to the cinema."
+  },
+  "der Samstag": {
+    "defEs": "Erster Tag des Wochenendes.",
+    "defDe": "Erster Tag des Wochenendes.",
+    "defEn": "The first day of the weekend.",
+    "exEs": "Am Samstag kaufe ich auf dem Markt ein.",
+    "exDe": "Am Samstag kaufe ich auf dem Markt ein.",
+    "exEn": "On Saturday I shop at the market."
+  },
+  "der Sonntag": {
+    "defEs": "Ruhiger letzter Tag der Woche.",
+    "defDe": "Ruhiger letzter Tag der Woche.",
+    "defEn": "The quiet last day of the week.",
+    "exEs": "Sonntag bleiben die Geschäfte geschlossen.",
+    "exDe": "Sonntag bleiben die Geschäfte geschlossen.",
+    "exEn": "On Sunday the shops stay closed."
+  },
+  "der Januar": {
+    "defEs": "Erster Monat des Jahres.",
+    "defDe": "Erster Monat des Jahres.",
+    "defEn": "The first month of the year.",
+    "exEs": "Im Januar liegt oft Schnee.",
+    "exDe": "Im Januar liegt oft Schnee.",
+    "exEn": "In January there is often snow."
+  },
+  "der Februar": {
+    "defEs": "Zweiter und kürzester Monat des Jahres.",
+    "defDe": "Zweiter und kürzester Monat des Jahres.",
+    "defEn": "The second and shortest month of the year.",
+    "exEs": "Mein Geburtstag ist im Februar.",
+    "exDe": "Mein Geburtstag ist im Februar.",
+    "exEn": "My birthday is in February."
+  },
+  "der März": {
+    "defEs": "Dritter Monat, Beginn des Frühlings.",
+    "defDe": "Dritter Monat, Beginn des Frühlings.",
+    "defEn": "The third month, the start of spring.",
+    "exEs": "Im März werden die Tage länger.",
+    "exDe": "Im März werden die Tage länger.",
+    "exEn": "In March the days get longer."
+  },
+  "der April": {
+    "defEs": "Vierter Monat mit oft wechselndem Wetter.",
+    "defDe": "Vierter Monat mit oft wechselndem Wetter.",
+    "defEn": "The fourth month, often with changing weather.",
+    "exEs": "Im April regnet es ziemlich viel.",
+    "exDe": "Im April regnet es ziemlich viel.",
+    "exEn": "In April it rains quite a lot."
+  },
+  "der Mai": {
+    "defEs": "Fünfter Monat, wenn alles blüht.",
+    "defDe": "Fünfter Monat, wenn alles blüht.",
+    "defEn": "The fifth month, when everything blossoms.",
+    "exEs": "Im Mai fahren wir aufs Land.",
+    "exDe": "Im Mai fahren wir aufs Land.",
+    "exEn": "In May we go to the countryside."
+  },
+  "der Juni": {
+    "defEs": "Sechster Monat, Anfang des Sommers.",
+    "defDe": "Sechster Monat, Anfang des Sommers.",
+    "defEn": "The sixth month, the beginning of summer.",
+    "exEs": "Im Juni beginnen die Prüfungen.",
+    "exDe": "Im Juni beginnen die Prüfungen.",
+    "exEn": "The exams start in June."
+  },
+  "der Juli": {
+    "defEs": "Siebter Monat, meist sehr warm.",
+    "defDe": "Siebter Monat, meist sehr warm.",
+    "defEn": "The seventh month, usually very warm.",
+    "exEs": "Im Juli haben die Kinder Ferien.",
+    "exDe": "Im Juli haben die Kinder Ferien.",
+    "exEn": "In July the children have holidays."
+  },
+  "der August": {
+    "defEs": "Achter Monat, oft die Urlaubszeit.",
+    "defDe": "Achter Monat, oft die Urlaubszeit.",
+    "defEn": "The eighth month, often the holiday season.",
+    "exEs": "Im August ist die Stadt leer.",
+    "exDe": "Im August ist die Stadt leer.",
+    "exEn": "In August the city is empty."
+  },
+  "der September": {
+    "defEs": "Neunter Monat, Beginn des Herbstes.",
+    "defDe": "Neunter Monat, Beginn des Herbstes.",
+    "defEn": "The ninth month, the start of autumn.",
+    "exEs": "Im September fängt die Schule wieder an.",
+    "exDe": "Im September fängt die Schule wieder an.",
+    "exEn": "In September school starts again."
+  },
+  "der Oktober": {
+    "defEs": "Zehnter Monat mit bunten Blättern.",
+    "defDe": "Zehnter Monat mit bunten Blättern.",
+    "defEn": "The tenth month with colourful leaves.",
+    "exEs": "Im Oktober wird es abends früh dunkel.",
+    "exDe": "Im Oktober wird es abends früh dunkel.",
+    "exEn": "In October it gets dark early in the evening."
+  },
+  "der November": {
+    "defEs": "Elfter Monat, oft grau und kalt.",
+    "defDe": "Elfter Monat, oft grau und kalt.",
+    "defEn": "The eleventh month, often grey and cold.",
+    "exEs": "Der November ist mir zu neblig.",
+    "exDe": "Der November ist mir zu neblig.",
+    "exEn": "November is too foggy for me."
+  },
+  "der Dezember": {
+    "defEs": "Letzter Monat des Jahres.",
+    "defDe": "Letzter Monat des Jahres.",
+    "defEn": "The last month of the year.",
+    "exEs": "Im Dezember feiern wir Weihnachten.",
+    "exDe": "Im Dezember feiern wir Weihnachten.",
+    "exEn": "In December we celebrate Christmas."
+  },
+  "die Jahreszeit": {
+    "defEs": "Einer der vier Abschnitte des Jahres.",
+    "defDe": "Einer der vier Abschnitte des Jahres.",
+    "defEn": "One of the four parts of the year.",
+    "exEs": "Welche Jahreszeit magst du am liebsten?",
+    "exDe": "Welche Jahreszeit magst du am liebsten?",
+    "exEn": "Which season do you like best?"
+  },
+  "der Frühling": {
+    "defEs": "Jahreszeit, in der die Pflanzen wachsen.",
+    "defDe": "Jahreszeit, in der die Pflanzen wachsen.",
+    "defEn": "The season when plants start growing.",
+    "exEs": "Im Frühling blühen die Bäume.",
+    "exDe": "Im Frühling blühen die Bäume.",
+    "exEn": "In spring the trees are in blossom."
+  },
+  "der Sommer": {
+    "defEs": "Wärmste Jahreszeit mit langen Tagen.",
+    "defDe": "Wärmste Jahreszeit mit langen Tagen.",
+    "defEn": "The warmest season with long days.",
+    "exEs": "Im Sommer schwimmen wir jeden Tag.",
+    "exDe": "Im Sommer schwimmen wir jeden Tag.",
+    "exEn": "In summer we swim every day."
+  },
+  "der Herbst": {
+    "defEs": "Jahreszeit, in der die Blätter fallen.",
+    "defDe": "Jahreszeit, in der die Blätter fallen.",
+    "defEn": "The season when the leaves fall.",
+    "exEs": "Im Herbst ist es oft windig.",
+    "exDe": "Im Herbst ist es oft windig.",
+    "exEn": "In autumn it is often windy."
+  },
+  "der Winter": {
+    "defEs": "Kälteste Jahreszeit mit kurzen Tagen.",
+    "defDe": "Kälteste Jahreszeit mit kurzen Tagen.",
+    "defEn": "The coldest season with short days.",
+    "exEs": "Im Winter trage ich eine dicke Jacke.",
+    "exDe": "Im Winter trage ich eine dicke Jacke.",
+    "exEn": "In winter I wear a thick jacket."
+  },
+  "heute": {
+    "defEs": "An dem Tag, an dem wir gerade sind.",
+    "defDe": "An dem Tag, an dem wir gerade sind.",
+    "defEn": "On the day we are currently in.",
+    "exEs": "Heute habe ich viel zu tun.",
+    "exDe": "Heute habe ich viel zu tun.",
+    "exEn": "Today I have a lot to do."
+  },
+  "gestern": {
+    "defEs": "An dem Tag vor dem heutigen.",
+    "defDe": "An dem Tag vor dem heutigen.",
+    "defEn": "On the day before today.",
+    "exEs": "Gestern war ich im Schwimmbad.",
+    "exDe": "Gestern war ich im Schwimmbad.",
+    "exEn": "Yesterday I was at the swimming pool."
+  },
+  "jetzt": {
+    "defEs": "In diesem Moment.",
+    "defDe": "In diesem Moment.",
+    "defEn": "At this moment.",
+    "exEs": "Wir müssen jetzt wirklich los.",
+    "exDe": "Wir müssen jetzt wirklich los.",
+    "exEn": "We really have to go now."
+  },
+  "früh": {
+    "defEs": "Vor der üblichen Zeit.",
+    "defDe": "Vor der üblichen Zeit.",
+    "defEn": "Before the usual time.",
+    "exEs": "Ich stehe morgens sehr früh auf.",
+    "exDe": "Ich stehe morgens sehr früh auf.",
+    "exEn": "I get up very early in the morning."
+  },
+  "spät": {
+    "defEs": "Nach der üblichen Zeit.",
+    "defDe": "Nach der üblichen Zeit.",
+    "defEn": "After the usual time.",
+    "exEs": "Der Zug kommt heute spät an.",
+    "exDe": "Der Zug kommt heute spät an.",
+    "exEn": "The train arrives late today."
+  }
+}

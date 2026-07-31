@@ -1,0 +1,338 @@
+{
+  "das Restaurant": {
+    "defEs": "Ein Lokal, in dem man essen und trinken kann.",
+    "defDe": "Ein Lokal, in dem man essen und trinken kann.",
+    "defEn": "A place where you can eat and drink.",
+    "exEs": "Heute Abend gehen wir in ein italienisches Restaurant.",
+    "exDe": "Heute Abend gehen wir in ein italienisches Restaurant.",
+    "exEn": "Tonight we are going to an Italian restaurant."
+  },
+  "das Café": {
+    "defEs": "Ein kleines Lokal für Kaffee, Kuchen und Gespräche.",
+    "defDe": "Ein kleines Lokal für Kaffee, Kuchen und Gespräche.",
+    "defEn": "A small place for coffee, cake and conversation.",
+    "exEs": "Wir treffen uns um drei im Café.",
+    "exDe": "Wir treffen uns um drei im Café.",
+    "exEn": "We are meeting at three at the café."
+  },
+  "die Speisekarte": {
+    "defEs": "Eine Liste mit allen Gerichten und Getränken im Lokal.",
+    "defDe": "Eine Liste mit allen Gerichten und Getränken im Lokal.",
+    "defEn": "A list of all dishes and drinks in a restaurant.",
+    "exEs": "Können Sie mir bitte die Speisekarte bringen?",
+    "exDe": "Können Sie mir bitte die Speisekarte bringen?",
+    "exEn": "Could you bring me the menu, please?"
+  },
+  "die Rechnung": {
+    "defEs": "Ein Zettel, der zeigt, wie viel man zahlen muss.",
+    "defDe": "Ein Zettel, der zeigt, wie viel man zahlen muss.",
+    "defEn": "A slip showing how much you have to pay.",
+    "exEs": "Die Rechnung war höher als gedacht.",
+    "exDe": "Die Rechnung war höher als gedacht.",
+    "exEn": "The bill was higher than expected."
+  },
+  "der Tisch": {
+    "defEs": "Ein Möbelstück mit Platte und Beinen zum Essen.",
+    "defDe": "Ein Möbelstück mit Platte und Beinen zum Essen.",
+    "defEn": "A piece of furniture with a top and legs for eating.",
+    "exEs": "Der Tisch am Fenster ist noch frei.",
+    "exDe": "Der Tisch am Fenster ist noch frei.",
+    "exEn": "The table by the window is still free."
+  },
+  "der Stuhl": {
+    "defEs": "Ein Möbelstück mit Lehne, auf dem eine Person sitzt.",
+    "defDe": "Ein Möbelstück mit Lehne, auf dem eine Person sitzt.",
+    "defEn": "A piece of furniture with a back for one person to sit on.",
+    "exEs": "Bitte nimm dir noch einen Stuhl dazu.",
+    "exDe": "Bitte nimm dir noch einen Stuhl dazu.",
+    "exEn": "Please pull up another chair."
+  },
+  "der Platz": {
+    "defEs": "Die Stelle, an der jemand sitzen kann.",
+    "defDe": "Die Stelle, an der jemand sitzen kann.",
+    "defEn": "The spot where someone can sit.",
+    "exEs": "Ist dieser Platz noch frei?",
+    "exDe": "Ist dieser Platz noch frei?",
+    "exEn": "Is this seat still free?"
+  },
+  "der Kellner": {
+    "defEs": "Ein Mann, der im Lokal Essen und Getränke bringt.",
+    "defDe": "Ein Mann, der im Lokal Essen und Getränke bringt.",
+    "defEn": "A man who brings food and drinks in a restaurant.",
+    "exEs": "Der Kellner bringt uns gleich das Wasser.",
+    "exDe": "Der Kellner bringt uns gleich das Wasser.",
+    "exEn": "The waiter will bring us the water shortly."
+  },
+  "die Kellnerin": {
+    "defEs": "Eine Frau, die im Lokal Essen und Getränke bringt.",
+    "defDe": "Eine Frau, die im Lokal Essen und Getränke bringt.",
+    "defEn": "A woman who brings food and drinks in a restaurant.",
+    "exEs": "Die Kellnerin war heute sehr freundlich.",
+    "exDe": "Die Kellnerin war heute sehr freundlich.",
+    "exEn": "The waitress was very friendly today."
+  },
+  "der Gast": {
+    "defEs": "Eine Person, die im Lokal isst oder eingeladen ist.",
+    "defDe": "Eine Person, die im Lokal isst oder eingeladen ist.",
+    "defEn": "A person who eats at a restaurant or is invited.",
+    "exEs": "Am Samstag ist jeder Gast willkommen.",
+    "exDe": "Am Samstag ist jeder Gast willkommen.",
+    "exEn": "On Saturday every guest is welcome."
+  },
+  "das Glas": {
+    "defEs": "Ein Gefäß ohne Henkel für kalte Getränke.",
+    "defDe": "Ein Gefäß ohne Henkel für kalte Getränke.",
+    "defEn": "A vessel without a handle for cold drinks.",
+    "exEs": "Ich trinke ein Glas Wasser zum Essen.",
+    "exDe": "Ich trinke ein Glas Wasser zum Essen.",
+    "exEn": "I drink a glass of water with my meal."
+  },
+  "die Tasse": {
+    "defEs": "Ein kleines Gefäß mit Henkel für warme Getränke.",
+    "defDe": "Ein kleines Gefäß mit Henkel für warme Getränke.",
+    "defEn": "A small vessel with a handle for hot drinks.",
+    "exEs": "Morgens brauche ich eine Tasse Kaffee.",
+    "exDe": "Morgens brauche ich eine Tasse Kaffee.",
+    "exEn": "In the morning I need a cup of coffee."
+  },
+  "die Flasche": {
+    "defEs": "Ein hohes Gefäß mit engem Hals für Getränke.",
+    "defDe": "Ein hohes Gefäß mit engem Hals für Getränke.",
+    "defEn": "A tall container with a narrow neck for drinks.",
+    "exEs": "Wir bestellen eine Flasche Mineralwasser.",
+    "exDe": "Wir bestellen eine Flasche Mineralwasser.",
+    "exEn": "We are ordering a bottle of mineral water."
+  },
+  "der Teller": {
+    "defEs": "Ein flaches Geschirrteil, auf das man Essen legt.",
+    "defDe": "Ein flaches Geschirrteil, auf das man Essen legt.",
+    "defEn": "A flat piece of tableware you put food on.",
+    "exEs": "Mein Teller ist schon wieder leer.",
+    "exDe": "Mein Teller ist schon wieder leer.",
+    "exEn": "My plate is already empty again."
+  },
+  "die Gabel": {
+    "defEs": "Ein Besteck mit Zinken zum Aufspießen von Essen.",
+    "defDe": "Ein Besteck mit Zinken zum Aufspießen von Essen.",
+    "defEn": "A utensil with prongs for picking up food.",
+    "exEs": "Auf dem Tisch fehlt noch eine Gabel.",
+    "exDe": "Auf dem Tisch fehlt noch eine Gabel.",
+    "exEn": "There is still a fork missing on the table."
+  },
+  "das Messer": {
+    "defEs": "Ein Besteck mit Klinge zum Schneiden.",
+    "defDe": "Ein Besteck mit Klinge zum Schneiden.",
+    "defEn": "A utensil with a blade for cutting.",
+    "exEs": "Mit dem Messer schneide ich das Fleisch.",
+    "exDe": "Mit dem Messer schneide ich das Fleisch.",
+    "exEn": "I cut the meat with the knife."
+  },
+  "der Löffel": {
+    "defEs": "Ein Besteck mit runder Mulde für Suppe oder Zucker.",
+    "defDe": "Ein Besteck mit runder Mulde für Suppe oder Zucker.",
+    "defEn": "A utensil with a round bowl for soup or sugar.",
+    "exEs": "Für die Suppe brauchst du einen Löffel.",
+    "exDe": "Für die Suppe brauchst du einen Löffel.",
+    "exEn": "You need a spoon for the soup."
+  },
+  "das Trinkgeld": {
+    "defEs": "Extra Geld für guten Service im Lokal.",
+    "defDe": "Extra Geld für guten Service im Lokal.",
+    "defEn": "Extra money given for good service.",
+    "exEs": "Wir geben zehn Prozent Trinkgeld.",
+    "exDe": "Wir geben zehn Prozent Trinkgeld.",
+    "exEn": "We give a ten percent tip."
+  },
+  "der Preis": {
+    "defEs": "Der Betrag, den etwas kostet.",
+    "defDe": "Der Betrag, den etwas kostet.",
+    "defEn": "The amount something costs.",
+    "exEs": "Der Preis steht neben dem Gericht.",
+    "exDe": "Der Preis steht neben dem Gericht.",
+    "exEn": "The price is next to the dish."
+  },
+  "die Toilette": {
+    "defEs": "Ein Raum, in dem man sein Geschäft erledigt.",
+    "defDe": "Ein Raum, in dem man sein Geschäft erledigt.",
+    "defEn": "A room where you use the restroom.",
+    "exEs": "Wo ist bitte die Toilette?",
+    "exDe": "Wo ist bitte die Toilette?",
+    "exEn": "Where is the toilet, please?"
+  },
+  "das Hauptgericht": {
+    "defEs": "Das größte Gericht in der Mitte einer Mahlzeit.",
+    "defDe": "Das größte Gericht in der Mitte einer Mahlzeit.",
+    "defEn": "The biggest dish in the middle of a meal.",
+    "exEs": "Als Hauptgericht nehme ich Fisch mit Gemüse.",
+    "exDe": "Als Hauptgericht nehme ich Fisch mit Gemüse.",
+    "exEn": "For the main course I will have fish with vegetables."
+  },
+  "der Nachtisch": {
+    "defEs": "Etwas Süßes am Ende der Mahlzeit.",
+    "defDe": "Etwas Süßes am Ende der Mahlzeit.",
+    "defEn": "Something sweet at the end of a meal.",
+    "exEs": "Zum Nachtisch gibt es Eis mit Früchten.",
+    "exDe": "Zum Nachtisch gibt es Eis mit Früchten.",
+    "exEn": "For dessert there is ice cream with fruit."
+  },
+  "bestellen": {
+    "defEs": "Dem Personal sagen, was man haben möchte.",
+    "defDe": "Dem Personal sagen, was man haben möchte.",
+    "defEn": "To tell the staff what you would like to have.",
+    "exEs": "Wir bestellen zwei Suppen und einen Salat.",
+    "exDe": "Wir bestellen zwei Suppen und einen Salat.",
+    "exEn": "We are ordering two soups and a salad."
+  },
+  "bezahlen": {
+    "defEs": "Geld für etwas geben, das man bekommen hat.",
+    "defDe": "Geld für etwas geben, das man bekommen hat.",
+    "defEn": "To give money for something you received.",
+    "exEs": "Ich möchte mit Karte bezahlen.",
+    "exDe": "Ich möchte mit Karte bezahlen.",
+    "exEn": "I would like to pay by card."
+  },
+  "bringen": {
+    "defEs": "Etwas zu einer Person an den Ort tragen.",
+    "defDe": "Etwas zu einer Person an den Ort tragen.",
+    "defEn": "To carry something to a person or place.",
+    "exEs": "Bringen Sie uns bitte noch Brot.",
+    "exDe": "Bringen Sie uns bitte noch Brot.",
+    "exEn": "Please bring us some more bread."
+  },
+  "nehmen": {
+    "defEs": "Sich für etwas entscheiden oder es in die Hand tun.",
+    "defDe": "Sich für etwas entscheiden oder es in die Hand tun.",
+    "defEn": "To choose something or take it in your hand.",
+    "exEs": "Ich nehme heute nur eine Vorspeise.",
+    "exDe": "Ich nehme heute nur eine Vorspeise.",
+    "exEn": "I will only have a starter today."
+  },
+  "warten": {
+    "defEs": "Bleiben, bis etwas passiert oder jemand kommt.",
+    "defDe": "Bleiben, bis etwas passiert oder jemand kommt.",
+    "defEn": "To stay until something happens or someone comes.",
+    "exEs": "Wir warten schon zwanzig Minuten auf das Essen.",
+    "exDe": "Wir warten schon zwanzig Minuten auf das Essen.",
+    "exEn": "We have been waiting twenty minutes for the food."
+  },
+  "reservieren": {
+    "defEs": "Vorher fest anmelden, damit etwas frei bleibt.",
+    "defDe": "Vorher fest anmelden, damit etwas frei bleibt.",
+    "defEn": "To book in advance so something stays available.",
+    "exEs": "Ich möchte einen Tisch für vier Personen reservieren.",
+    "exDe": "Ich möchte einen Tisch für vier Personen reservieren.",
+    "exEn": "I would like to reserve a table for four people."
+  },
+  "empfehlen": {
+    "defEs": "Jemandem sagen, was gut ist und passt.",
+    "defDe": "Jemandem sagen, was gut ist und passt.",
+    "defEn": "To tell someone what is good and suitable.",
+    "exEs": "Was können Sie uns heute empfehlen?",
+    "exDe": "Was können Sie uns heute empfehlen?",
+    "exEn": "What can you recommend to us today?"
+  },
+  "frei": {
+    "defEs": "Von niemandem benutzt, also verfügbar.",
+    "defDe": "Von niemandem benutzt, also verfügbar.",
+    "defEn": "Not used by anyone, so available.",
+    "exEs": "Hinten ist noch ein Tisch frei.",
+    "exDe": "Hinten ist noch ein Tisch frei.",
+    "exEn": "There is still a table free at the back."
+  },
+  "teuer": {
+    "defEs": "So, dass man viel Geld dafür zahlt.",
+    "defDe": "So, dass man viel Geld dafür zahlt.",
+    "defEn": "Costing a lot of money.",
+    "exEs": "Der Wein hier ist ziemlich teuer.",
+    "exDe": "Der Wein hier ist ziemlich teuer.",
+    "exEn": "The wine here is quite expensive."
+  },
+  "billig": {
+    "defEs": "So, dass man wenig Geld dafür zahlt.",
+    "defDe": "So, dass man wenig Geld dafür zahlt.",
+    "defEn": "Costing little money.",
+    "exEs": "Das Mittagsmenü ist überraschend billig.",
+    "exDe": "Das Mittagsmenü ist überraschend billig.",
+    "exEn": "The lunch menu is surprisingly cheap."
+  },
+  "besetzt": {
+    "defEs": "Schon von jemandem benutzt, nicht mehr frei.",
+    "defDe": "Schon von jemandem benutzt, nicht mehr frei.",
+    "defEn": "Already used by someone, no longer free.",
+    "exEs": "Alle Tische sind heute Abend besetzt.",
+    "exDe": "Alle Tische sind heute Abend besetzt.",
+    "exEn": "All the tables are taken this evening."
+  },
+  "zusammen": {
+    "defEs": "Gemeinsam, in einer Summe für alle.",
+    "defDe": "Gemeinsam, in einer Summe für alle.",
+    "defEn": "Together, as one sum for everyone.",
+    "exEs": "Wir zahlen zusammen, nicht einzeln.",
+    "exDe": "Wir zahlen zusammen, nicht einzeln.",
+    "exEn": "We are paying together, not separately."
+  },
+  "getrennt": {
+    "defEs": "Jede Person zahlt für sich allein.",
+    "defDe": "Jede Person zahlt für sich allein.",
+    "defEn": "Each person pays for themselves.",
+    "exEs": "Wir möchten bitte getrennt bezahlen.",
+    "exDe": "Wir möchten bitte getrennt bezahlen.",
+    "exEn": "We would like to pay separately, please."
+  },
+  "Ich hätte gern ...": {
+    "defEs": "Ein höflicher Satz, um einen Wunsch zu nennen.",
+    "defDe": "Ein höflicher Satz, um einen Wunsch zu nennen.",
+    "defEn": "A polite phrase for saying what you want.",
+    "exEs": "Ich hätte gern einen Kaffee und ein Wasser.",
+    "exDe": "Ich hätte gern einen Kaffee und ein Wasser.",
+    "exEn": "I would like a coffee and a water."
+  },
+  "Ich möchte bestellen.": {
+    "defEs": "Man sagt dem Personal, dass man jetzt wählen will.",
+    "defDe": "Man sagt dem Personal, dass man jetzt wählen will.",
+    "defEn": "You tell the staff you are ready to choose.",
+    "exEs": "Entschuldigung, ich möchte bestellen.",
+    "exDe": "Entschuldigung, ich möchte bestellen.",
+    "exEn": "Excuse me, I would like to order."
+  },
+  "Die Rechnung, bitte.": {
+    "defEs": "Man bittet höflich darum, zahlen zu dürfen.",
+    "defDe": "Man bittet höflich darum, zahlen zu dürfen.",
+    "defEn": "A polite way to ask to pay.",
+    "exEs": "Wir sind fertig, die Rechnung, bitte.",
+    "exDe": "Wir sind fertig, die Rechnung, bitte.",
+    "exEn": "We are finished, the bill, please."
+  },
+  "Zahlen, bitte!": {
+    "defEs": "Ein kurzer Ruf, wenn man zahlen möchte.",
+    "defDe": "Ein kurzer Ruf, wenn man zahlen möchte.",
+    "defEn": "A short call when you want to pay.",
+    "exEs": "Zahlen, bitte! Wir müssen zum Zug.",
+    "exDe": "Zahlen, bitte! Wir müssen zum Zug.",
+    "exEn": "The check, please! We have to catch our train."
+  },
+  "Entschuldigung!": {
+    "defEs": "Ein Wort, um jemanden anzusprechen oder sich zu entschuldigen.",
+    "defDe": "Ein Wort, um jemanden anzusprechen oder sich zu entschuldigen.",
+    "defEn": "A word to get attention or to apologise.",
+    "exEs": "Entschuldigung! Könnten Sie kurz kommen?",
+    "exDe": "Entschuldigung! Könnten Sie kurz kommen?",
+    "exEn": "Excuse me! Could you come over for a moment?"
+  },
+  "Danke schön!": {
+    "defEs": "Ein freundlicher Ausdruck für Dank.",
+    "defDe": "Ein freundlicher Ausdruck für Dank.",
+    "defEn": "A friendly way to say thank you.",
+    "exEs": "Das Essen war super, danke schön!",
+    "exDe": "Das Essen war super, danke schön!",
+    "exEn": "The food was great, thank you very much!"
+  },
+  "Bitte schön!": {
+    "defEs": "Die freundliche Antwort auf einen Dank.",
+    "defDe": "Die freundliche Antwort auf einen Dank.",
+    "defEn": "The friendly answer to a thank you.",
+    "exEs": "Bitte schön, hier ist Ihr Wechselgeld.",
+    "exDe": "Bitte schön, hier ist Ihr Wechselgeld.",
+    "exEn": "Here you are, this is your change."
+  }
+}

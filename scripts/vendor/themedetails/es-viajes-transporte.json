@@ -1,0 +1,346 @@
+{
+  "el viaje": {
+    "defEs": "Recorrido de un lugar a otro, normalmente lejos.",
+    "defDe": "Weg von einem Ort zum anderen, meist weit weg.",
+    "defEn": "A trip from one place to another, usually far away.",
+    "exEs": "El viaje a Sevilla dura cinco horas.",
+    "exDe": "Die Reise nach Sevilla dauert fünf Stunden.",
+    "exEn": "The trip to Seville takes five hours."
+  },
+  "el tren": {
+    "defEs": "Vehículo largo que va sobre raíles.",
+    "defDe": "Langes Fahrzeug, das auf Schienen fährt.",
+    "defEn": "A long vehicle that runs on rails.",
+    "exEs": "El tren sale del andén tres.",
+    "exDe": "Der Zug fährt von Gleis drei ab.",
+    "exEn": "The train leaves from platform three."
+  },
+  "el autobús": {
+    "defEs": "Vehículo grande que lleva a mucha gente por la ciudad.",
+    "defDe": "Großes Fahrzeug, das viele Leute durch die Stadt bringt.",
+    "defEn": "A large vehicle that carries many people around the city.",
+    "exEs": "Cojo el autobús para ir al trabajo.",
+    "exDe": "Ich nehme den Bus zur Arbeit.",
+    "exEn": "I take the bus to work."
+  },
+  "el coche": {
+    "defEs": "Vehículo pequeño con cuatro ruedas para pocas personas.",
+    "defDe": "Kleines Fahrzeug mit vier Rädern für wenige Personen.",
+    "defEn": "A small four wheeled vehicle for a few people.",
+    "exEs": "Vamos en coche hasta la playa.",
+    "exDe": "Wir fahren mit dem Auto zum Strand.",
+    "exEn": "We are driving to the beach."
+  },
+  "el avión": {
+    "defEs": "Vehículo que vuela por el aire con alas.",
+    "defDe": "Fahrzeug mit Flügeln, das durch die Luft fliegt.",
+    "defEn": "A vehicle with wings that flies through the air.",
+    "exEs": "El avión aterriza a las nueve.",
+    "exDe": "Das Flugzeug landet um neun.",
+    "exEn": "The plane lands at nine."
+  },
+  "el barco": {
+    "defEs": "Vehículo que se mueve por el agua.",
+    "defDe": "Fahrzeug, das sich auf dem Wasser bewegt.",
+    "defEn": "A vehicle that moves on water.",
+    "exEs": "Fuimos a la isla en barco.",
+    "exDe": "Wir sind mit dem Schiff zur Insel gefahren.",
+    "exEn": "We went to the island by boat."
+  },
+  "la bicicleta": {
+    "defEs": "Vehículo de dos ruedas que se mueve con los pies.",
+    "defDe": "Fahrzeug mit zwei Rädern, das man mit den Füßen antreibt.",
+    "defEn": "A two wheeled vehicle you move with your feet.",
+    "exEs": "Voy a clase en bicicleta cada día.",
+    "exDe": "Ich fahre jeden Tag mit dem Rad zum Unterricht.",
+    "exEn": "I ride my bike to class every day."
+  },
+  "el taxi": {
+    "defEs": "Coche con conductor que se paga por el trayecto.",
+    "defDe": "Auto mit Fahrer, das man pro Fahrt bezahlt.",
+    "defEn": "A car with a driver that you pay for the ride.",
+    "exEs": "Cogimos un taxi porque llovía mucho.",
+    "exDe": "Wir haben ein Taxi genommen, weil es stark regnete.",
+    "exEn": "We took a taxi because it was raining hard."
+  },
+  "el metro": {
+    "defEs": "Tren rápido que va casi siempre bajo tierra.",
+    "defDe": "Schneller Zug, der meist unter der Erde fährt.",
+    "defEn": "A fast train that mostly runs underground.",
+    "exEs": "El metro pasa cada cinco minutos.",
+    "exDe": "Die U-Bahn fährt alle fünf Minuten.",
+    "exEn": "The metro comes every five minutes."
+  },
+  "la estación": {
+    "defEs": "Lugar donde salen y llegan los trenes.",
+    "defDe": "Ort, an dem Züge abfahren und ankommen.",
+    "defEn": "The place where trains leave and arrive.",
+    "exEs": "Te espero en la estación a las ocho.",
+    "exDe": "Ich warte um acht am Bahnhof auf dich.",
+    "exEn": "I will wait for you at the station at eight."
+  },
+  "el aeropuerto": {
+    "defEs": "Lugar desde donde salen y llegan los aviones.",
+    "defDe": "Ort, von dem Flugzeuge starten und landen.",
+    "defEn": "The place where planes take off and land.",
+    "exEs": "Llegamos al aeropuerto dos horas antes.",
+    "exDe": "Wir kommen zwei Stunden vorher am Flughafen an.",
+    "exEn": "We arrive at the airport two hours earlier."
+  },
+  "el billete": {
+    "defEs": "Papel que da derecho a viajar en un transporte.",
+    "defDe": "Papier, das zum Mitfahren berechtigt.",
+    "defEn": "The paper that gives you the right to travel.",
+    "exEs": "Un billete para Valencia, por favor.",
+    "exDe": "Eine Fahrkarte nach Valencia, bitte.",
+    "exEn": "One ticket to Valencia, please."
+  },
+  "el pasaporte": {
+    "defEs": "Documento oficial para viajar a otros países.",
+    "defDe": "Amtliches Dokument für Reisen in andere Länder.",
+    "defEn": "An official document for travelling to other countries.",
+    "exEs": "Mi pasaporte caduca el año que viene.",
+    "exDe": "Mein Reisepass läuft nächstes Jahr ab.",
+    "exEn": "My passport expires next year."
+  },
+  "la maleta": {
+    "defEs": "Caja con asa donde se lleva la ropa de viaje.",
+    "defDe": "Behälter mit Griff für die Reisekleidung.",
+    "defEn": "A case with a handle for carrying travel clothes.",
+    "exEs": "Mi maleta pesa demasiado.",
+    "exDe": "Mein Koffer ist zu schwer.",
+    "exEn": "My suitcase is too heavy."
+  },
+  "el equipaje": {
+    "defEs": "Todas las maletas y bolsas que se llevan de viaje.",
+    "defDe": "Alle Koffer und Taschen, die man auf Reisen mitnimmt.",
+    "defEn": "All the cases and bags taken on a trip.",
+    "exEs": "Recogemos el equipaje en la cinta dos.",
+    "exDe": "Wir holen das Gepäck am Band zwei ab.",
+    "exEn": "We collect the luggage at belt two."
+  },
+  "el hotel": {
+    "defEs": "Edificio donde se paga por dormir unas noches.",
+    "defDe": "Gebäude, in dem man für einige Nächte bezahlt.",
+    "defEn": "A building where you pay to sleep for some nights.",
+    "exEs": "El hotel está cerca del centro.",
+    "exDe": "Das Hotel liegt in der Nähe des Zentrums.",
+    "exEn": "The hotel is near the centre."
+  },
+  "la habitación": {
+    "defEs": "Cuarto de un hotel o de una casa para dormir.",
+    "defDe": "Zimmer in einem Hotel oder Haus zum Schlafen.",
+    "defEn": "A room in a hotel or house for sleeping.",
+    "exEs": "La habitación tiene vistas al mar.",
+    "exDe": "Das Zimmer hat Meerblick.",
+    "exEn": "The room has a sea view."
+  },
+  "la llave": {
+    "defEs": "Objeto pequeño que abre y cierra una puerta.",
+    "defDe": "Kleiner Gegenstand, der eine Tür öffnet und schließt.",
+    "defEn": "A small object that opens and closes a door.",
+    "exEs": "Deja la llave en recepción al salir.",
+    "exDe": "Gib den Schlüssel beim Gehen an der Rezeption ab.",
+    "exEn": "Leave the key at reception when you go out."
+  },
+  "la recepción": {
+    "defEs": "Sitio de la entrada del hotel donde atienden a los clientes.",
+    "defDe": "Bereich am Hoteleingang, wo Gäste betreut werden.",
+    "defEn": "The area at the hotel entrance where guests are served.",
+    "exEs": "Pregunta en recepción por el desayuno.",
+    "exDe": "Frag an der Rezeption nach dem Frühstück.",
+    "exEn": "Ask at reception about breakfast."
+  },
+  "la reserva": {
+    "defEs": "Sitio guardado con antelación en un hotel o transporte.",
+    "defDe": "Im Voraus gesicherter Platz in Hotel oder Verkehrsmittel.",
+    "defEn": "A place booked in advance in a hotel or transport.",
+    "exEs": "Tengo una reserva a nombre de García.",
+    "exDe": "Ich habe eine Buchung auf den Namen García.",
+    "exEn": "I have a booking under the name García."
+  },
+  "el mapa": {
+    "defEs": "Dibujo que muestra calles, ciudades o países.",
+    "defDe": "Zeichnung, die Straßen, Städte oder Länder zeigt.",
+    "defEn": "A drawing that shows streets, cities or countries.",
+    "exEs": "Buscamos el museo en el mapa.",
+    "exDe": "Wir suchen das Museum auf der Karte.",
+    "exEn": "We look for the museum on the map."
+  },
+  "la calle": {
+    "defEs": "Camino de una ciudad con casas a los lados.",
+    "defDe": "Weg in einer Stadt mit Häusern an den Seiten.",
+    "defEn": "A road in a city with houses on both sides.",
+    "exEs": "El hotel está en la calle Mayor.",
+    "exDe": "Das Hotel liegt in der Calle Mayor.",
+    "exEn": "The hotel is on Calle Mayor."
+  },
+  "el vuelo": {
+    "defEs": "Viaje que se hace en avión.",
+    "defDe": "Reise, die man mit dem Flugzeug macht.",
+    "defEn": "A journey made by plane.",
+    "exEs": "Nuestro vuelo sale a las siete y media.",
+    "exDe": "Unser Flug geht um halb acht.",
+    "exEn": "Our flight leaves at half past seven."
+  },
+  "la parada": {
+    "defEs": "Punto donde el autobús recoge y deja pasajeros.",
+    "defDe": "Punkt, an dem der Bus Fahrgäste aufnimmt und aussteigen lässt.",
+    "defEn": "The point where the bus picks up and drops passengers.",
+    "exEs": "Bájate en la próxima parada.",
+    "exDe": "Steig an der nächsten Haltestelle aus.",
+    "exEn": "Get off at the next stop."
+  },
+  "la salida": {
+    "defEs": "Momento en que un transporte empieza el viaje.",
+    "defDe": "Zeitpunkt, zu dem ein Verkehrsmittel losfährt.",
+    "defEn": "The moment a service starts its journey.",
+    "exEs": "La salida del tren es a las diez.",
+    "exDe": "Die Abfahrt des Zuges ist um zehn.",
+    "exEn": "The train's departure is at ten."
+  },
+  "la llegada": {
+    "defEs": "Momento en que un transporte termina el viaje.",
+    "defDe": "Zeitpunkt, zu dem ein Verkehrsmittel ankommt.",
+    "defEn": "The moment a service finishes its journey.",
+    "exEs": "La llegada está prevista para las seis.",
+    "exDe": "Die Ankunft ist für sechs Uhr geplant.",
+    "exEn": "Arrival is scheduled for six o'clock."
+  },
+  "el retraso": {
+    "defEs": "Tiempo de más que tarda un transporte.",
+    "defDe": "Zusätzliche Zeit, die ein Verkehrsmittel braucht.",
+    "defEn": "The extra time a service takes.",
+    "exEs": "El vuelo lleva dos horas de retraso.",
+    "exDe": "Der Flug hat zwei Stunden Verspätung.",
+    "exEn": "The flight has a two hour delay."
+  },
+  "el andén": {
+    "defEs": "Zona de la estación donde se espera el tren.",
+    "defDe": "Bereich im Bahnhof, wo man auf den Zug wartet.",
+    "defEn": "The area in a station where you wait for the train.",
+    "exEs": "El tren llega al andén cuatro.",
+    "exDe": "Der Zug kommt an Gleis vier an.",
+    "exEn": "The train arrives at platform four."
+  },
+  "la aduana": {
+    "defEs": "Control donde revisan el equipaje al cambiar de país.",
+    "defDe": "Kontrolle, bei der beim Länderwechsel das Gepäck geprüft wird.",
+    "defEn": "The check where luggage is inspected between countries.",
+    "exEs": "En la aduana nos pidieron el pasaporte.",
+    "exDe": "Am Zoll haben sie unseren Pass verlangt.",
+    "exEn": "At customs they asked for our passport."
+  },
+  "la frontera": {
+    "defEs": "Línea que separa dos países.",
+    "defDe": "Linie, die zwei Länder trennt.",
+    "defEn": "The line separating two countries.",
+    "exEs": "Cruzamos la frontera por la mañana.",
+    "exDe": "Wir haben am Morgen die Grenze überquert.",
+    "exEn": "We crossed the border in the morning."
+  },
+  "el conductor": {
+    "defEs": "Persona que lleva un coche, un autobús o un tren.",
+    "defDe": "Person, die ein Auto, einen Bus oder Zug führt.",
+    "defEn": "The person who drives a car, bus or train.",
+    "exEs": "El conductor del autobús es muy amable.",
+    "exDe": "Der Busfahrer ist sehr freundlich.",
+    "exEn": "The bus driver is very friendly."
+  },
+  "la carretera": {
+    "defEs": "Camino ancho entre ciudades para coches.",
+    "defDe": "Breiter Weg zwischen Städten für Autos.",
+    "defEn": "A wide road between towns for cars.",
+    "exEs": "Hay mucho tráfico en la carretera.",
+    "exDe": "Auf der Landstraße ist viel Verkehr.",
+    "exEn": "There is a lot of traffic on the road."
+  },
+  "el peaje": {
+    "defEs": "Dinero que se paga por usar una carretera.",
+    "defDe": "Geld, das man für die Nutzung einer Straße zahlt.",
+    "defEn": "Money paid for using a road.",
+    "exEs": "El peaje de la autopista cuesta ocho euros.",
+    "exDe": "Die Maut auf der Autobahn kostet acht Euro.",
+    "exEn": "The motorway toll costs eight euros."
+  },
+  "la escala": {
+    "defEs": "Parada de un vuelo entre el origen y el destino.",
+    "defDe": "Zwischenstopp eines Fluges zwischen Start und Ziel.",
+    "defEn": "A stop on a flight between origin and destination.",
+    "exEs": "El vuelo tiene una escala en París.",
+    "exDe": "Der Flug hat einen Zwischenstopp in Paris.",
+    "exEn": "The flight has a stopover in Paris."
+  },
+  "viajar": {
+    "defEs": "Ir de un lugar a otro, casi siempre lejos.",
+    "defDe": "Von einem Ort zum anderen fahren, meist weit.",
+    "defEn": "To go from one place to another, usually far.",
+    "exEs": "Me gusta viajar en verano.",
+    "exDe": "Ich reise gern im Sommer.",
+    "exEn": "I like travelling in summer."
+  },
+  "volar": {
+    "defEs": "Moverse por el aire, normalmente en avión.",
+    "defDe": "Sich durch die Luft bewegen, meist im Flugzeug.",
+    "defEn": "To move through the air, usually by plane.",
+    "exEs": "Volamos a Roma el viernes.",
+    "exDe": "Wir fliegen am Freitag nach Rom.",
+    "exEn": "We fly to Rome on Friday."
+  },
+  "llegar": {
+    "defEs": "Alcanzar el lugar de destino.",
+    "defDe": "Den Zielort erreichen.",
+    "defEn": "To reach the destination.",
+    "exEs": "Llegamos al hotel muy cansados.",
+    "exDe": "Wir kommen sehr müde im Hotel an.",
+    "exEn": "We arrive at the hotel very tired."
+  },
+  "salir": {
+    "defEs": "Empezar un viaje o marcharse de un sitio.",
+    "defDe": "Eine Reise beginnen oder einen Ort verlassen.",
+    "defEn": "To start a journey or leave a place.",
+    "exEs": "Salimos de casa a las cinco.",
+    "exDe": "Wir gehen um fünf aus dem Haus.",
+    "exEn": "We leave home at five."
+  },
+  "reservar": {
+    "defEs": "Guardar un sitio con antelación.",
+    "defDe": "Einen Platz im Voraus sichern.",
+    "defEn": "To book a place in advance.",
+    "exEs": "Voy a reservar dos noches de hotel.",
+    "exDe": "Ich buche zwei Nächte im Hotel.",
+    "exEn": "I am going to book two nights at the hotel."
+  },
+  "facturar": {
+    "defEs": "Entregar el equipaje antes de subir al avión.",
+    "defDe": "Das Gepäck vor dem Flug abgeben.",
+    "defEn": "To check in your luggage before a flight.",
+    "exEs": "Hay que facturar la maleta grande.",
+    "exDe": "Man muss den großen Koffer aufgeben.",
+    "exEn": "You have to check in the big suitcase."
+  },
+  "aparcar": {
+    "defEs": "Dejar el coche parado en un sitio.",
+    "defDe": "Das Auto an einer Stelle abstellen.",
+    "defEn": "To leave the car standing in a place.",
+    "exEs": "Es difícil aparcar en el centro.",
+    "exDe": "Im Zentrum ist es schwierig zu parken.",
+    "exEn": "It is hard to park in the centre."
+  },
+  "perder el tren": {
+    "defEs": "Llegar tarde y no poder subir al tren.",
+    "defDe": "Zu spät kommen und den Zug nicht mehr erreichen.",
+    "defEn": "To arrive late and not get on the train.",
+    "exEs": "Por el atasco perdimos el tren.",
+    "exDe": "Wegen des Staus haben wir den Zug verpasst.",
+    "exEn": "Because of the traffic jam we missed the train."
+  },
+  "ida y vuelta": {
+    "defEs": "Viaje que incluye el camino de vuelta.",
+    "defDe": "Reise, die den Rückweg einschließt.",
+    "defEn": "A trip that includes the return journey.",
+    "exEs": "Quiero un billete de ida y vuelta.",
+    "exDe": "Ich möchte eine Hin- und Rückfahrkarte.",
+    "exEn": "I would like a return ticket."
+  }
+}

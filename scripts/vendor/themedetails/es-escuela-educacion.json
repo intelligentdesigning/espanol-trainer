@@ -1,0 +1,354 @@
+{
+  "la escuela": {
+    "defEs": "Lugar donde los niños aprenden con un profesor.",
+    "defDe": "Ort, an dem Kinder mit einem Lehrer lernen.",
+    "defEn": "A place where children learn with a teacher.",
+    "exEs": "Mi hermana va a la escuela en bici.",
+    "exDe": "Meine Schwester fährt mit dem Rad zur Schule.",
+    "exEn": "My sister goes to school by bike."
+  },
+  "el colegio": {
+    "defEs": "Centro donde se estudia de pequeño y de joven.",
+    "defDe": "Einrichtung, in der man als Kind und Jugendlicher lernt.",
+    "defEn": "A center where you study as a child and teenager.",
+    "exEs": "El colegio empieza a las ocho.",
+    "exDe": "Die Schule beginnt um acht.",
+    "exEn": "School starts at eight."
+  },
+  "la clase": {
+    "defEs": "Tiempo en que un profesor enseña algo a un grupo.",
+    "defDe": "Zeit, in der ein Lehrer einer Gruppe etwas beibringt.",
+    "defEn": "The time when a teacher teaches something to a group.",
+    "exEs": "La clase de inglés dura una hora.",
+    "exDe": "Die Englischstunde dauert eine Stunde.",
+    "exEn": "The English class lasts an hour."
+  },
+  "el profesor": {
+    "defEs": "Hombre que enseña a los alumnos.",
+    "defDe": "Mann, der die Schüler unterrichtet.",
+    "defEn": "A man who teaches students.",
+    "exEs": "El profesor explica la lección con calma.",
+    "exDe": "Der Lehrer erklärt die Lektion in Ruhe.",
+    "exEn": "The teacher explains the lesson calmly."
+  },
+  "la profesora": {
+    "defEs": "Mujer que enseña a los alumnos.",
+    "defDe": "Frau, die die Schüler unterrichtet.",
+    "defEn": "A woman who teaches students.",
+    "exEs": "La profesora nos dio muchos ejemplos.",
+    "exDe": "Die Lehrerin gab uns viele Beispiele.",
+    "exEn": "The teacher gave us many examples."
+  },
+  "el alumno": {
+    "defEs": "Niño o joven que va a clase para aprender.",
+    "defDe": "Kind oder Jugendlicher, der zum Lernen in den Unterricht geht.",
+    "defEn": "A child or teenager who attends class to learn.",
+    "exEs": "Cada alumno tiene su propia mesa.",
+    "exDe": "Jeder Schüler hat seinen eigenen Tisch.",
+    "exEn": "Each pupil has their own desk."
+  },
+  "el estudiante": {
+    "defEs": "Persona que estudia, sobre todo en la universidad.",
+    "defDe": "Person, die lernt, vor allem an der Universität.",
+    "defEn": "A person who studies, especially at university.",
+    "exEs": "Soy estudiante de medicina en Madrid.",
+    "exDe": "Ich bin Medizinstudent in Madrid.",
+    "exEn": "I am a medical student in Madrid."
+  },
+  "el libro": {
+    "defEs": "Conjunto de hojas con texto para leer.",
+    "defDe": "Sammlung von Blättern mit Text zum Lesen.",
+    "defEn": "A set of pages with text to read.",
+    "exEs": "Este libro me gustó muchísimo.",
+    "exDe": "Dieses Buch hat mir sehr gefallen.",
+    "exEn": "I liked this book a lot."
+  },
+  "el cuaderno": {
+    "defEs": "Libreta con hojas en blanco para escribir.",
+    "defDe": "Heft mit leeren Blättern zum Schreiben.",
+    "defEn": "A notebook with blank pages for writing.",
+    "exEs": "Apunto los verbos nuevos en mi cuaderno.",
+    "exDe": "Ich schreibe die neuen Verben in mein Heft.",
+    "exEn": "I write the new verbs in my notebook."
+  },
+  "el lápiz": {
+    "defEs": "Objeto de madera para escribir y borrar después.",
+    "defDe": "Gegenstand aus Holz zum Schreiben und späteren Radieren.",
+    "defEn": "A wooden object for writing that can be erased.",
+    "exEs": "Dibuja el mapa con lápiz, por favor.",
+    "exDe": "Zeichne die Karte bitte mit Bleistift.",
+    "exEn": "Draw the map with a pencil, please."
+  },
+  "el bolígrafo": {
+    "defEs": "Objeto con tinta azul o negra para escribir.",
+    "defDe": "Gegenstand mit blauer oder schwarzer Tinte zum Schreiben.",
+    "defEn": "An object with blue or black ink for writing.",
+    "exEs": "Se me acabó el bolígrafo en el examen.",
+    "exDe": "Mein Kugelschreiber ging in der Prüfung aus.",
+    "exEn": "My pen ran out during the exam."
+  },
+  "la mesa": {
+    "defEs": "Mueble plano donde pones libros o comida.",
+    "defDe": "Flaches Möbelstück, auf das man Bücher oder Essen legt.",
+    "defEn": "A flat piece of furniture where you put books or food.",
+    "exEs": "Deja la mochila debajo de la mesa.",
+    "exDe": "Leg den Rucksack unter den Tisch.",
+    "exEn": "Leave the backpack under the table."
+  },
+  "la silla": {
+    "defEs": "Mueble con patas para sentarse.",
+    "defDe": "Möbelstück mit Beinen zum Sitzen.",
+    "defEn": "A piece of furniture with legs for sitting.",
+    "exEs": "Esta silla es muy incómoda.",
+    "exDe": "Dieser Stuhl ist sehr unbequem.",
+    "exEn": "This chair is very uncomfortable."
+  },
+  "la pizarra": {
+    "defEs": "Superficie grande de la clase donde escribe el profesor.",
+    "defDe": "Große Fläche im Klassenzimmer, auf die der Lehrer schreibt.",
+    "defEn": "The large surface in class where the teacher writes.",
+    "exEs": "Copiad las palabras de la pizarra.",
+    "exDe": "Schreibt die Wörter von der Tafel ab.",
+    "exEn": "Copy the words from the board."
+  },
+  "la mochila": {
+    "defEs": "Bolsa que se lleva a la espalda.",
+    "defDe": "Tasche, die man auf dem Rücken trägt.",
+    "defEn": "A bag carried on your back.",
+    "exEs": "Mi mochila pesa demasiado hoy.",
+    "exDe": "Mein Rucksack ist heute zu schwer.",
+    "exEn": "My backpack is too heavy today."
+  },
+  "estudiar": {
+    "defEs": "Trabajar con libros para saber más.",
+    "defDe": "Mit Büchern arbeiten, um mehr zu wissen.",
+    "defEn": "To work with books in order to know more.",
+    "exEs": "Estudio dos horas cada tarde.",
+    "exDe": "Ich lerne jeden Nachmittag zwei Stunden.",
+    "exEn": "I study two hours every afternoon."
+  },
+  "aprender": {
+    "defEs": "Llegar a saber algo nuevo.",
+    "defDe": "Etwas Neues zu wissen bekommen.",
+    "defEn": "To come to know something new.",
+    "exEs": "Quiero aprender a cocinar mejor.",
+    "exDe": "Ich möchte besser kochen lernen.",
+    "exEn": "I want to learn to cook better."
+  },
+  "enseñar": {
+    "defEs": "Dar conocimientos a otra persona.",
+    "defDe": "Einer anderen Person Wissen vermitteln.",
+    "defEn": "To give knowledge to another person.",
+    "exEs": "Mi tío enseña historia en un instituto.",
+    "exDe": "Mein Onkel unterrichtet Geschichte an einer Schule.",
+    "exEn": "My uncle teaches history at a high school."
+  },
+  "escribir": {
+    "defEs": "Poner letras o palabras en papel o pantalla.",
+    "defDe": "Buchstaben oder Wörter auf Papier oder Bildschirm setzen.",
+    "defEn": "To put letters or words on paper or screen.",
+    "exEs": "Tengo que escribir una carta hoy.",
+    "exDe": "Ich muss heute einen Brief schreiben.",
+    "exEn": "I have to write a letter today."
+  },
+  "leer": {
+    "defEs": "Mirar un texto y entender lo que dice.",
+    "defDe": "Einen Text ansehen und verstehen, was er sagt.",
+    "defEn": "To look at a text and understand what it says.",
+    "exEs": "Leo el periódico durante el desayuno.",
+    "exDe": "Ich lese beim Frühstück die Zeitung.",
+    "exEn": "I read the newspaper during breakfast."
+  },
+  "la asignatura": {
+    "defEs": "Materia que se estudia en la escuela.",
+    "defDe": "Fach, das man in der Schule lernt.",
+    "defEn": "A subject studied at school.",
+    "exEs": "Mi asignatura favorita es la geografía.",
+    "exDe": "Mein Lieblingsfach ist Erdkunde.",
+    "exEn": "My favorite subject is geography."
+  },
+  "las matemáticas": {
+    "defEs": "Ciencia de los números y las formas.",
+    "defDe": "Wissenschaft der Zahlen und Formen.",
+    "defEn": "The science of numbers and shapes.",
+    "exEs": "Las matemáticas me resultan difíciles.",
+    "exDe": "Mathematik fällt mir schwer.",
+    "exEn": "Math is difficult for me."
+  },
+  "la historia": {
+    "defEs": "Estudio de lo que pasó en el pasado.",
+    "defDe": "Studium dessen, was in der Vergangenheit geschah.",
+    "defEn": "The study of what happened in the past.",
+    "exEs": "En historia hablamos de la Edad Media.",
+    "exDe": "In Geschichte sprechen wir über das Mittelalter.",
+    "exEn": "In history we talk about the Middle Ages."
+  },
+  "la ciencia": {
+    "defEs": "Conocimiento ordenado sobre la naturaleza.",
+    "defDe": "Geordnetes Wissen über die Natur.",
+    "defEn": "Ordered knowledge about nature.",
+    "exEs": "La ciencia avanza gracias a las preguntas.",
+    "exDe": "Die Wissenschaft schreitet dank Fragen voran.",
+    "exEn": "Science advances thanks to questions."
+  },
+  "el idioma": {
+    "defEs": "Lengua que habla un pueblo o un país.",
+    "defDe": "Sprache, die ein Volk oder Land spricht.",
+    "defEn": "The language spoken by a people or country.",
+    "exEs": "Hablo tres idiomas con mis amigos.",
+    "exDe": "Ich spreche mit meinen Freunden drei Sprachen.",
+    "exEn": "I speak three languages with my friends."
+  },
+  "el examen": {
+    "defEs": "Prueba para ver cuánto sabe alguien.",
+    "defDe": "Prüfung, um zu sehen, wie viel jemand weiß.",
+    "defEn": "A test to see how much someone knows.",
+    "exEs": "El examen de mañana me pone nervioso.",
+    "exDe": "Die Prüfung morgen macht mich nervös.",
+    "exEn": "Tomorrow's exam makes me nervous."
+  },
+  "la nota": {
+    "defEs": "Número o letra que muestra el resultado de una prueba.",
+    "defDe": "Zahl oder Buchstabe, die das Ergebnis einer Prüfung zeigt.",
+    "defEn": "A number or letter showing the result of a test.",
+    "exEs": "Saqué una buena nota en química.",
+    "exDe": "Ich habe in Chemie eine gute Note bekommen.",
+    "exEn": "I got a good grade in chemistry."
+  },
+  "los deberes": {
+    "defEs": "Trabajo escolar que se hace en casa.",
+    "defDe": "Schularbeit, die man zu Hause macht.",
+    "defEn": "School work done at home.",
+    "exEs": "Hago los deberes antes de cenar.",
+    "exDe": "Ich mache die Hausaufgaben vor dem Abendessen.",
+    "exEn": "I do my homework before dinner."
+  },
+  "el recreo": {
+    "defEs": "Pausa entre clases para descansar y jugar.",
+    "defDe": "Pause zwischen den Stunden zum Ausruhen und Spielen.",
+    "defEn": "A break between classes to rest and play.",
+    "exEs": "En el recreo jugamos al fútbol.",
+    "exDe": "In der Pause spielen wir Fußball.",
+    "exEn": "At break we play soccer."
+  },
+  "el aula": {
+    "defEs": "Sala donde se dan las clases.",
+    "defDe": "Raum, in dem der Unterricht stattfindet.",
+    "defEn": "The room where classes take place.",
+    "exEs": "El aula está en el segundo piso.",
+    "exDe": "Der Klassenraum ist im zweiten Stock.",
+    "exEn": "The classroom is on the second floor."
+  },
+  "la universidad": {
+    "defEs": "Centro donde se estudia después del colegio.",
+    "defDe": "Einrichtung, an der man nach der Schule studiert.",
+    "defEn": "An institution where you study after school.",
+    "exEs": "Mi hermano empieza la universidad en otoño.",
+    "exDe": "Mein Bruder beginnt im Herbst die Universität.",
+    "exEn": "My brother starts university in the fall."
+  },
+  "aprobar": {
+    "defEs": "Pasar un examen con buen resultado.",
+    "defDe": "Eine Prüfung mit gutem Ergebnis bestehen.",
+    "defEn": "To pass an exam with a good result.",
+    "exEs": "Espero aprobar el examen de física.",
+    "exDe": "Ich hoffe, die Physikprüfung zu bestehen.",
+    "exEn": "I hope to pass the physics exam."
+  },
+  "suspender": {
+    "defEs": "No pasar un examen.",
+    "defDe": "Eine Prüfung nicht bestehen.",
+    "defEn": "To fail an exam.",
+    "exEs": "Suspendí el examen y lo repito en junio.",
+    "exDe": "Ich bin durch die Prüfung gefallen und wiederhole sie im Juni.",
+    "exEn": "I failed the exam and will retake it in June."
+  },
+  "la nota media": {
+    "defEs": "Resultado que sale de sumar todas las notas.",
+    "defDe": "Ergebnis, das sich aus allen Noten ergibt.",
+    "defEn": "The result obtained from all the grades together.",
+    "exEs": "Necesito una nota media alta para la beca.",
+    "exDe": "Ich brauche einen hohen Notendurchschnitt für das Stipendium.",
+    "exEn": "I need a high grade average for the scholarship."
+  },
+  "la carrera": {
+    "defEs": "Estudios largos en la universidad sobre un tema.",
+    "defDe": "Langes Universitätsstudium zu einem Fach.",
+    "defEn": "A long university course of study in one field.",
+    "exEs": "Terminó la carrera de derecho el año pasado.",
+    "exDe": "Er hat letztes Jahr sein Jurastudium beendet.",
+    "exEn": "He finished his law degree last year."
+  },
+  "la beca": {
+    "defEs": "Ayuda de dinero para poder estudiar.",
+    "defDe": "Geldhilfe, um studieren zu können.",
+    "defEn": "Financial help that lets you study.",
+    "exEs": "Pedí una beca para estudiar en Chile.",
+    "exDe": "Ich habe ein Stipendium beantragt, um in Chile zu studieren.",
+    "exEn": "I applied for a scholarship to study in Chile."
+  },
+  "el aprendizaje": {
+    "defEs": "Proceso de llegar a saber algo.",
+    "defDe": "Prozess, etwas zu erlernen.",
+    "defEn": "The process of coming to know something.",
+    "exEs": "El aprendizaje de un idioma necesita tiempo.",
+    "exDe": "Das Lernen einer Sprache braucht Zeit.",
+    "exEn": "Learning a language takes time."
+  },
+  "el conocimiento": {
+    "defEs": "Todo lo que una persona sabe sobre algo.",
+    "defDe": "Alles, was eine Person über etwas weiß.",
+    "defEn": "Everything a person knows about something.",
+    "exEs": "Tiene un gran conocimiento de la música.",
+    "exDe": "Er hat ein großes Wissen über Musik.",
+    "exEn": "He has great knowledge of music."
+  },
+  "la matrícula": {
+    "defEs": "Inscripción y pago para entrar en un curso.",
+    "defDe": "Einschreibung und Zahlung für einen Kurs.",
+    "defEn": "The registration and fee for joining a course.",
+    "exEs": "La matrícula cuesta mucho este año.",
+    "exDe": "Die Studiengebühr ist dieses Jahr sehr hoch.",
+    "exEn": "The tuition costs a lot this year."
+  },
+  "matricularse": {
+    "defEs": "Apuntarse de forma oficial a un curso.",
+    "defDe": "Sich offiziell für einen Kurs anmelden.",
+    "defEn": "To officially sign up for a course.",
+    "exEs": "Me voy a matricular en un curso de alemán.",
+    "exDe": "Ich schreibe mich für einen Deutschkurs ein.",
+    "exEn": "I am going to enroll in a German course."
+  },
+  "la licenciatura": {
+    "defEs": "Título que se recibe al terminar la carrera.",
+    "defDe": "Abschluss, den man am Ende des Studiums erhält.",
+    "defEn": "The degree received when finishing university studies.",
+    "exEs": "Tiene una licenciatura en biología.",
+    "exDe": "Sie hat einen Abschluss in Biologie.",
+    "exEn": "She has a degree in biology."
+  },
+  "la tesis": {
+    "defEs": "Trabajo largo de investigación al final de los estudios.",
+    "defDe": "Lange Forschungsarbeit am Ende des Studiums.",
+    "defEn": "A long research paper at the end of studies.",
+    "exEs": "Escribe su tesis sobre el cambio climático.",
+    "exDe": "Sie schreibt ihre Arbeit über den Klimawandel.",
+    "exEn": "She is writing her thesis on climate change."
+  },
+  "el profesorado": {
+    "defEs": "Conjunto de profesores de un centro.",
+    "defDe": "Gesamtheit der Lehrkräfte einer Einrichtung.",
+    "defEn": "All the teachers of an institution together.",
+    "exEs": "El profesorado se reúne los lunes.",
+    "exDe": "Das Lehrerkollegium trifft sich montags.",
+    "exEn": "The teaching staff meets on Mondays."
+  },
+  "la investigación": {
+    "defEs": "Trabajo de buscar respuestas con método.",
+    "defDe": "Arbeit, mit Methode nach Antworten zu suchen.",
+    "defEn": "The work of looking for answers with a method.",
+    "exEs": "Su investigación duró casi tres años.",
+    "exDe": "Seine Forschung dauerte fast drei Jahre.",
+    "exEn": "His research lasted almost three years."
+  }
+}

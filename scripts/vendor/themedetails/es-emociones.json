@@ -1,0 +1,362 @@
+{
+  "la emoción": {
+    "defEs": "Reacción fuerte del ánimo ante algo que pasa.",
+    "defDe": "Starke Gemütsreaktion auf etwas, das geschieht.",
+    "defEn": "A strong reaction of the mind to something that happens.",
+    "exEs": "No pudo esconder su emoción al verla.",
+    "exDe": "Er konnte seine Rührung beim Anblick nicht verbergen.",
+    "exEn": "He could not hide his emotion when he saw her."
+  },
+  "el sentimiento": {
+    "defEs": "Lo que una persona nota por dentro.",
+    "defDe": "Das, was eine Person in sich spürt.",
+    "defEn": "What a person feels inside.",
+    "exEs": "Tengo un sentimiento raro sobre este viaje.",
+    "exDe": "Ich habe ein komisches Gefühl bei dieser Reise.",
+    "exEn": "I have a strange feeling about this trip."
+  },
+  "el carácter": {
+    "defEs": "Manera de ser de una persona.",
+    "defDe": "Art, wie ein Mensch ist.",
+    "defEn": "The way a person is.",
+    "exEs": "Mi abuela tiene un carácter muy fuerte.",
+    "exDe": "Meine Oma hat einen sehr starken Charakter.",
+    "exEn": "My grandmother has a very strong character."
+  },
+  "el humor": {
+    "defEs": "Estado de ánimo de alguien en un momento.",
+    "defDe": "Stimmung, in der jemand gerade ist.",
+    "defEn": "The mood someone is in at a moment.",
+    "exEs": "Hoy está de muy buen humor.",
+    "exDe": "Er ist heute sehr guter Laune.",
+    "exEn": "He is in a very good mood today."
+  },
+  "la alegría": {
+    "defEs": "Sensación agradable cuando algo sale bien.",
+    "defDe": "Angenehmes Gefühl, wenn etwas gut läuft.",
+    "defEn": "A pleasant feeling when something goes well.",
+    "exEs": "Sentí mucha alegría con la noticia.",
+    "exDe": "Ich habe mich über die Nachricht sehr gefreut.",
+    "exEn": "I felt great joy at the news."
+  },
+  "la tristeza": {
+    "defEs": "Sensación de pena cuando algo va mal.",
+    "defDe": "Gefühl von Kummer, wenn etwas schlecht läuft.",
+    "defEn": "A feeling of sorrow when something goes badly.",
+    "exEs": "La tristeza pasa con el tiempo.",
+    "exDe": "Die Traurigkeit vergeht mit der Zeit.",
+    "exEn": "Sadness passes with time."
+  },
+  "el miedo": {
+    "defEs": "Sensación ante un peligro real o imaginado.",
+    "defDe": "Gefühl angesichts einer echten oder gedachten Gefahr.",
+    "defEn": "The feeling caused by a real or imagined danger.",
+    "exEs": "Tengo miedo de volar en avión.",
+    "exDe": "Ich habe Angst vorm Fliegen.",
+    "exEn": "I am afraid of flying."
+  },
+  "el amor": {
+    "defEs": "Cariño muy grande por alguien.",
+    "defDe": "Sehr große Zuneigung zu jemandem.",
+    "defEn": "A very deep affection for someone.",
+    "exEs": "El amor de mis padres es tranquilo.",
+    "exDe": "Die Liebe meiner Eltern ist ruhig.",
+    "exEn": "My parents' love is calm."
+  },
+  "la sorpresa": {
+    "defEs": "Reacción ante algo que no esperabas.",
+    "defDe": "Reaktion auf etwas, das man nicht erwartet hat.",
+    "defEn": "A reaction to something you did not expect.",
+    "exEs": "Su visita fue una gran sorpresa.",
+    "exDe": "Sein Besuch war eine große Überraschung.",
+    "exEn": "His visit was a big surprise."
+  },
+  "los celos": {
+    "defEs": "Malestar por miedo a perder a alguien.",
+    "defDe": "Unbehagen aus Angst, jemanden zu verlieren.",
+    "defEn": "Discomfort from fear of losing someone.",
+    "exEs": "Los celos estropean muchas amistades.",
+    "exDe": "Eifersucht zerstört viele Freundschaften.",
+    "exEn": "Jealousy ruins many friendships."
+  },
+  "la vergüenza": {
+    "defEs": "Malestar cuando otros te miran o te juzgan.",
+    "defDe": "Unbehagen, wenn andere einen ansehen oder beurteilen.",
+    "defEn": "Discomfort when others look at or judge you.",
+    "exEs": "Me da vergüenza cantar en público.",
+    "exDe": "Es ist mir peinlich, öffentlich zu singen.",
+    "exEn": "I am embarrassed to sing in public."
+  },
+  "la ira": {
+    "defEs": "Enfado muy fuerte y repentino.",
+    "defDe": "Sehr starker und plötzlicher Zorn.",
+    "defEn": "A very strong and sudden anger.",
+    "exEs": "Habló con ira y luego se calmó.",
+    "exDe": "Er sprach voller Zorn und beruhigte sich dann.",
+    "exEn": "He spoke with rage and then calmed down."
+  },
+  "la felicidad": {
+    "defEs": "Estado de estar bien y contento con la vida.",
+    "defDe": "Zustand, sich wohl und zufrieden mit dem Leben zu fühlen.",
+    "defEn": "The state of feeling well and content with life.",
+    "exEs": "La felicidad está en las cosas pequeñas.",
+    "exDe": "Das Glück liegt in den kleinen Dingen.",
+    "exEn": "Happiness lies in the small things."
+  },
+  "el orgullo": {
+    "defEs": "Satisfacción por algo propio o de los tuyos.",
+    "defDe": "Zufriedenheit über etwas Eigenes oder das der Seinen.",
+    "defEn": "Satisfaction about something of your own or your people's.",
+    "exEs": "Habla de su hija con mucho orgullo.",
+    "exDe": "Er spricht sehr stolz von seiner Tochter.",
+    "exEn": "He speaks about his daughter with great pride."
+  },
+  "feliz": {
+    "defEs": "Que se siente muy bien y contento.",
+    "defDe": "Wer sich sehr wohl und zufrieden fühlt.",
+    "defEn": "Feeling very good and content.",
+    "exEs": "Estoy feliz con mi trabajo nuevo.",
+    "exDe": "Ich bin glücklich mit meiner neuen Arbeit.",
+    "exEn": "I am happy with my new job."
+  },
+  "contento": {
+    "defEs": "Que está a gusto con una situación.",
+    "defDe": "Wer mit einer Situation zufrieden ist.",
+    "defEn": "Pleased with a situation.",
+    "exEs": "Está contento con su nota del examen.",
+    "exDe": "Er ist mit seiner Prüfungsnote zufrieden.",
+    "exEn": "He is pleased with his exam grade."
+  },
+  "triste": {
+    "defEs": "Que siente pena por algo.",
+    "defDe": "Wer wegen etwas Kummer empfindet.",
+    "defEn": "Feeling sorrow about something.",
+    "exEs": "Estoy triste porque mi amigo se muda.",
+    "exDe": "Ich bin traurig, weil mein Freund umzieht.",
+    "exEn": "I am sad because my friend is moving away."
+  },
+  "enfadado": {
+    "defEs": "Que siente enfado contra alguien o algo.",
+    "defDe": "Wer über jemanden oder etwas verärgert ist.",
+    "defEn": "Feeling anger toward someone or something.",
+    "exEs": "Mi jefe está enfadado por el retraso.",
+    "exDe": "Mein Chef ist wegen der Verspätung verärgert.",
+    "exEn": "My boss is angry about the delay."
+  },
+  "enojado": {
+    "defEs": "Palabra de América Latina para enfadado.",
+    "defDe": "Lateinamerikanisches Wort für verärgert.",
+    "defEn": "Latin American word for angry.",
+    "exEs": "Está enojado con su hermano menor.",
+    "exDe": "Er ist wütend auf seinen kleinen Bruder.",
+    "exEn": "He is angry with his younger brother."
+  },
+  "cansado": {
+    "defEs": "Que necesita descansar o dormir.",
+    "defDe": "Wer sich ausruhen oder schlafen muss.",
+    "defEn": "Needing rest or sleep.",
+    "exEs": "Estoy muy cansado después del viaje.",
+    "exDe": "Ich bin nach der Reise sehr müde.",
+    "exEn": "I am very tired after the trip."
+  },
+  "nervioso": {
+    "defEs": "Que no está tranquilo antes de algo importante.",
+    "defDe": "Wer vor etwas Wichtigem nicht ruhig ist.",
+    "defEn": "Not calm before something important.",
+    "exEs": "Me pongo nervioso antes de hablar.",
+    "exDe": "Ich werde nervös, bevor ich spreche.",
+    "exEn": "I get nervous before speaking."
+  },
+  "tranquilo": {
+    "defEs": "Que está en calma, sin prisa ni miedo.",
+    "defDe": "Wer ruhig ist, ohne Eile und Angst.",
+    "defEn": "Calm, without hurry or fear.",
+    "exEs": "Quédate tranquilo, todo va bien.",
+    "exDe": "Bleib ruhig, alles läuft gut.",
+    "exEn": "Stay calm, everything is fine."
+  },
+  "asustado": {
+    "defEs": "Que ha sentido miedo de repente.",
+    "defDe": "Wer plötzlich Angst bekommen hat.",
+    "defEn": "Suddenly frightened.",
+    "exEs": "El perro está asustado por la tormenta.",
+    "exDe": "Der Hund hat wegen des Gewitters Angst.",
+    "exEn": "The dog is scared because of the storm."
+  },
+  "preocupado": {
+    "defEs": "Que piensa mucho en un posible problema.",
+    "defDe": "Wer viel an ein mögliches Problem denkt.",
+    "defEn": "Thinking a lot about a possible problem.",
+    "exEs": "Estoy preocupado por la salud de mi padre.",
+    "exDe": "Ich mache mir Sorgen um die Gesundheit meines Vaters.",
+    "exEn": "I am worried about my father's health."
+  },
+  "aburrido": {
+    "defEs": "Que no tiene nada interesante que hacer.",
+    "defDe": "Wer nichts Interessantes zu tun hat.",
+    "defEn": "Having nothing interesting to do.",
+    "exEs": "Los domingos me siento un poco aburrido.",
+    "exDe": "Sonntags fühle ich mich etwas gelangweilt.",
+    "exEn": "On Sundays I feel a bit bored."
+  },
+  "sorprendido": {
+    "defEs": "Que reacciona ante algo inesperado.",
+    "defDe": "Wer auf etwas Unerwartetes reagiert.",
+    "defEn": "Reacting to something unexpected.",
+    "exEs": "Se quedó sorprendido con el regalo.",
+    "exDe": "Er war über das Geschenk überrascht.",
+    "exEn": "He was surprised by the gift."
+  },
+  "orgulloso": {
+    "defEs": "Que siente satisfacción por un logro.",
+    "defDe": "Wer Zufriedenheit über einen Erfolg empfindet.",
+    "defEn": "Feeling satisfaction about an achievement.",
+    "exEs": "Estoy orgulloso de mi equipo.",
+    "exDe": "Ich bin stolz auf mein Team.",
+    "exEn": "I am proud of my team."
+  },
+  "avergonzado": {
+    "defEs": "Que siente vergüenza por algo que hizo.",
+    "defDe": "Wer sich für etwas Getanes schämt.",
+    "defEn": "Feeling shame about something done.",
+    "exEs": "Se sintió avergonzado por su error.",
+    "exDe": "Er schämte sich für seinen Fehler.",
+    "exEn": "He felt ashamed of his mistake."
+  },
+  "celoso": {
+    "defEs": "Que teme perder el cariño de alguien.",
+    "defDe": "Wer fürchtet, die Zuneigung eines Menschen zu verlieren.",
+    "defEn": "Afraid of losing someone's affection.",
+    "exEs": "El niño está celoso de su hermanita.",
+    "exDe": "Der Junge ist eifersüchtig auf seine kleine Schwester.",
+    "exEn": "The boy is jealous of his baby sister."
+  },
+  "amable": {
+    "defEs": "Que trata bien a los demás.",
+    "defDe": "Wer andere gut behandelt.",
+    "defEn": "Treating others well.",
+    "exEs": "La camarera fue muy amable con nosotros.",
+    "exDe": "Die Kellnerin war sehr freundlich zu uns.",
+    "exEn": "The waitress was very kind to us."
+  },
+  "simpático": {
+    "defEs": "Que cae bien y es agradable.",
+    "defDe": "Wer sympathisch und angenehm ist.",
+    "defEn": "Likeable and pleasant.",
+    "exEs": "Tu primo me parece muy simpático.",
+    "exDe": "Dein Cousin wirkt sehr nett auf mich.",
+    "exEn": "Your cousin seems very nice to me."
+  },
+  "antipático": {
+    "defEs": "Que resulta poco agradable con los demás.",
+    "defDe": "Wer im Umgang mit anderen unangenehm wirkt.",
+    "defEn": "Unpleasant toward others.",
+    "exEs": "El vecino nuevo es un poco antipático.",
+    "exDe": "Der neue Nachbar ist etwas unfreundlich.",
+    "exEn": "The new neighbor is a bit unfriendly."
+  },
+  "generoso": {
+    "defEs": "Que da con gusto lo que tiene.",
+    "defDe": "Wer gern gibt, was er hat.",
+    "defEn": "Gladly giving what one has.",
+    "exEs": "Mi tía es muy generosa con todos.",
+    "exDe": "Meine Tante ist sehr großzügig zu allen.",
+    "exEn": "My aunt is very generous with everyone."
+  },
+  "egoísta": {
+    "defEs": "Que piensa solo en sí mismo.",
+    "defDe": "Wer nur an sich selbst denkt.",
+    "defEn": "Thinking only of oneself.",
+    "exEs": "No seas egoísta y comparte el postre.",
+    "exDe": "Sei nicht egoistisch und teile den Nachtisch.",
+    "exEn": "Do not be selfish and share the dessert."
+  },
+  "tímido": {
+    "defEs": "Que habla poco con gente nueva.",
+    "defDe": "Wer mit neuen Leuten wenig spricht.",
+    "defEn": "Speaking little with new people.",
+    "exEs": "De niño era muy tímido en clase.",
+    "exDe": "Als Kind war ich im Unterricht sehr schüchtern.",
+    "exEn": "As a child I was very shy in class."
+  },
+  "valiente": {
+    "defEs": "Que actúa aunque tenga miedo.",
+    "defDe": "Wer handelt, auch wenn er Angst hat.",
+    "defEn": "Acting even when afraid.",
+    "exEs": "Fue muy valiente al decir la verdad.",
+    "exDe": "Er war sehr mutig, die Wahrheit zu sagen.",
+    "exEn": "He was very brave to tell the truth."
+  },
+  "honesto": {
+    "defEs": "Que dice la verdad y no engaña.",
+    "defDe": "Wer die Wahrheit sagt und nicht täuscht.",
+    "defEn": "Telling the truth and not deceiving.",
+    "exEs": "Prefiero un amigo honesto y directo.",
+    "exDe": "Ich bevorzuge einen ehrlichen, direkten Freund.",
+    "exEn": "I prefer an honest and direct friend."
+  },
+  "perezoso": {
+    "defEs": "Que evita el trabajo y el esfuerzo.",
+    "defDe": "Wer Arbeit und Anstrengung meidet.",
+    "defEn": "Avoiding work and effort.",
+    "exEs": "Los sábados me pongo un poco perezoso.",
+    "exDe": "Samstags werde ich etwas faul.",
+    "exEn": "On Saturdays I get a bit lazy."
+  },
+  "trabajador": {
+    "defEs": "Que hace su trabajo con constancia.",
+    "defDe": "Wer seine Arbeit beständig erledigt.",
+    "defEn": "Doing one's work steadily.",
+    "exEs": "Es un chico muy trabajador y serio.",
+    "exDe": "Er ist ein sehr fleißiger und ernsthafter Junge.",
+    "exEn": "He is a very hardworking and serious guy."
+  },
+  "inteligente": {
+    "defEs": "Que entiende y aprende con facilidad.",
+    "defDe": "Wer leicht versteht und lernt.",
+    "defEn": "Understanding and learning easily.",
+    "exEs": "Tu respuesta fue muy inteligente.",
+    "exDe": "Deine Antwort war sehr klug.",
+    "exEn": "Your answer was very intelligent."
+  },
+  "sentir": {
+    "defEs": "Notar algo por dentro o en el cuerpo.",
+    "defDe": "Etwas innerlich oder im Körper wahrnehmen.",
+    "defEn": "To notice something inside or in the body.",
+    "exEs": "Siento frío en las manos.",
+    "exDe": "Ich fühle Kälte in den Händen.",
+    "exEn": "I feel cold in my hands."
+  },
+  "alegrarse": {
+    "defEs": "Ponerse contento por una buena noticia.",
+    "defDe": "Sich über eine gute Nachricht freuen.",
+    "defEn": "To become happy about good news.",
+    "exEs": "Me alegro mucho de verte aquí.",
+    "exDe": "Ich freue mich sehr, dich hier zu sehen.",
+    "exEn": "I am very glad to see you here."
+  },
+  "enfadarse": {
+    "defEs": "Ponerse de mal humor con alguien.",
+    "defDe": "Über jemanden ärgerlich werden.",
+    "defEn": "To become angry with someone.",
+    "exEs": "No te enfades por una tontería.",
+    "exDe": "Ärgere dich nicht wegen einer Kleinigkeit.",
+    "exEn": "Do not get angry over a silly thing."
+  },
+  "reír": {
+    "defEs": "Mostrar alegría con la voz y la cara.",
+    "defDe": "Freude mit Stimme und Gesicht zeigen.",
+    "defEn": "To show joy with voice and face.",
+    "exEs": "Nos hizo reír toda la tarde.",
+    "exDe": "Er brachte uns den ganzen Nachmittag zum Lachen.",
+    "exEn": "He made us laugh all afternoon."
+  },
+  "llorar": {
+    "defEs": "Echar lágrimas por pena o emoción.",
+    "defDe": "Aus Kummer oder Rührung Tränen vergießen.",
+    "defEn": "To shed tears from sorrow or emotion.",
+    "exEs": "El bebé llora cuando tiene hambre.",
+    "exDe": "Das Baby weint, wenn es Hunger hat.",
+    "exEn": "The baby cries when it is hungry."
+  }
+}

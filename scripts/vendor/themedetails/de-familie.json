@@ -1,0 +1,346 @@
+{
+  "die Familie": {
+    "defEs": "Gruppe von Menschen, die eng verwandt sind.",
+    "defDe": "Gruppe von Menschen, die eng verwandt sind.",
+    "defEn": "A group of people who are closely related.",
+    "exEs": "Am Sonntag isst die ganze Familie zusammen.",
+    "exDe": "Am Sonntag isst die ganze Familie zusammen.",
+    "exEn": "On Sunday the whole family eats together."
+  },
+  "die Eltern": {
+    "defEs": "Vater und Mutter eines Kindes.",
+    "defDe": "Vater und Mutter eines Kindes.",
+    "defEn": "The father and mother of a child.",
+    "exEs": "Meine Eltern wohnen auf dem Land.",
+    "exDe": "Meine Eltern wohnen auf dem Land.",
+    "exEn": "My parents live in the countryside."
+  },
+  "der Vater": {
+    "defEs": "Männlicher Elternteil eines Kindes.",
+    "defDe": "Männlicher Elternteil eines Kindes.",
+    "defEn": "The male parent of a child.",
+    "exEs": "Mein Vater kocht am Wochenende gern.",
+    "exDe": "Mein Vater kocht am Wochenende gern.",
+    "exEn": "My father likes cooking at the weekend."
+  },
+  "die Mutter": {
+    "defEs": "Weiblicher Elternteil eines Kindes.",
+    "defDe": "Weiblicher Elternteil eines Kindes.",
+    "defEn": "The female parent of a child.",
+    "exEs": "Meine Mutter ruft jeden Abend an.",
+    "exDe": "Meine Mutter ruft jeden Abend an.",
+    "exEn": "My mother calls every evening."
+  },
+  "das Kind": {
+    "defEs": "Junger Mensch, noch nicht erwachsen.",
+    "defDe": "Junger Mensch, noch nicht erwachsen.",
+    "defEn": "A young person who is not yet an adult.",
+    "exEs": "Das Kind spielt im Garten.",
+    "exDe": "Das Kind spielt im Garten.",
+    "exEn": "The child is playing in the garden."
+  },
+  "der Sohn": {
+    "defEs": "Männliches Kind von Eltern.",
+    "defDe": "Männliches Kind von Eltern.",
+    "defEn": "The male child of parents.",
+    "exEs": "Ihr Sohn studiert in Berlin.",
+    "exDe": "Ihr Sohn studiert in Berlin.",
+    "exEn": "Her son studies in Berlin."
+  },
+  "die Tochter": {
+    "defEs": "Weibliches Kind von Eltern.",
+    "defDe": "Weibliches Kind von Eltern.",
+    "defEn": "The female child of parents.",
+    "exEs": "Seine Tochter lernt gerade Klavier.",
+    "exDe": "Seine Tochter lernt gerade Klavier.",
+    "exEn": "His daughter is currently learning piano."
+  },
+  "der Bruder": {
+    "defEs": "Männliches Kind derselben Eltern.",
+    "defDe": "Männliches Kind derselben Eltern.",
+    "defEn": "A male child of the same parents.",
+    "exEs": "Mein Bruder ist zwei Jahre älter.",
+    "exDe": "Mein Bruder ist zwei Jahre älter.",
+    "exEn": "My brother is two years older."
+  },
+  "die Schwester": {
+    "defEs": "Weibliches Kind derselben Eltern.",
+    "defDe": "Weibliches Kind derselben Eltern.",
+    "defEn": "A female child of the same parents.",
+    "exEs": "Meine Schwester wohnt in Wien.",
+    "exDe": "Meine Schwester wohnt in Wien.",
+    "exEn": "My sister lives in Vienna."
+  },
+  "die Geschwister": {
+    "defEs": "Alle Brüder und Schwestern zusammen.",
+    "defDe": "Alle Brüder und Schwestern zusammen.",
+    "defEn": "All brothers and sisters together.",
+    "exEs": "Hast du Geschwister oder bist du allein?",
+    "exDe": "Hast du Geschwister oder bist du allein?",
+    "exEn": "Do you have siblings or are you an only child?"
+  },
+  "die Großeltern": {
+    "defEs": "Die Eltern der eigenen Eltern.",
+    "defDe": "Die Eltern der eigenen Eltern.",
+    "defEn": "The parents of your own parents.",
+    "exEs": "Wir besuchen die Großeltern im Sommer.",
+    "exDe": "Wir besuchen die Großeltern im Sommer.",
+    "exEn": "We visit our grandparents in summer."
+  },
+  "der Großvater": {
+    "defEs": "Vater von Mutter oder Vater.",
+    "defDe": "Vater von Mutter oder Vater.",
+    "defEn": "The father of your mother or father.",
+    "exEs": "Mein Großvater erzählt gern alte Geschichten.",
+    "exDe": "Mein Großvater erzählt gern alte Geschichten.",
+    "exEn": "My grandfather likes telling old stories."
+  },
+  "die Großmutter": {
+    "defEs": "Mutter von Mutter oder Vater.",
+    "defDe": "Mutter von Mutter oder Vater.",
+    "defEn": "The mother of your mother or father.",
+    "exEs": "Die Großmutter backt den besten Kuchen.",
+    "exDe": "Die Großmutter backt den besten Kuchen.",
+    "exEn": "Grandmother bakes the best cake."
+  },
+  "der Opa": {
+    "defEs": "Liebevolles Wort für den Großvater.",
+    "defDe": "Liebevolles Wort für den Großvater.",
+    "defEn": "An affectionate word for grandfather.",
+    "exEs": "Opa holt mich von der Schule ab.",
+    "exDe": "Opa holt mich von der Schule ab.",
+    "exEn": "Grandpa picks me up from school."
+  },
+  "die Oma": {
+    "defEs": "Liebevolles Wort für die Großmutter.",
+    "defDe": "Liebevolles Wort für die Großmutter.",
+    "defEn": "An affectionate word for grandmother.",
+    "exEs": "Oma strickt einen warmen Pullover.",
+    "exDe": "Oma strickt einen warmen Pullover.",
+    "exEn": "Grandma is knitting a warm sweater."
+  },
+  "der Onkel": {
+    "defEs": "Bruder von Mutter oder Vater.",
+    "defDe": "Bruder von Mutter oder Vater.",
+    "defEn": "The brother of your mother or father.",
+    "exEs": "Mein Onkel arbeitet als Bäcker.",
+    "exDe": "Mein Onkel arbeitet als Bäcker.",
+    "exEn": "My uncle works as a baker."
+  },
+  "die Tante": {
+    "defEs": "Schwester von Mutter oder Vater.",
+    "defDe": "Schwester von Mutter oder Vater.",
+    "defEn": "The sister of your mother or father.",
+    "exEs": "Meine Tante kommt heute zu Besuch.",
+    "exDe": "Meine Tante kommt heute zu Besuch.",
+    "exEn": "My aunt is coming to visit today."
+  },
+  "der Cousin": {
+    "defEs": "Sohn von Onkel oder Tante.",
+    "defDe": "Sohn von Onkel oder Tante.",
+    "defEn": "The son of your uncle or aunt.",
+    "exEs": "Mein Cousin spielt in einer Band.",
+    "exDe": "Mein Cousin spielt in einer Band.",
+    "exEn": "My cousin plays in a band."
+  },
+  "die Cousine": {
+    "defEs": "Tochter von Onkel oder Tante.",
+    "defDe": "Tochter von Onkel oder Tante.",
+    "defEn": "The daughter of your uncle or aunt.",
+    "exEs": "Meine Cousine heiratet im Mai.",
+    "exDe": "Meine Cousine heiratet im Mai.",
+    "exEn": "My cousin is getting married in May."
+  },
+  "der Neffe": {
+    "defEs": "Sohn von Bruder oder Schwester.",
+    "defDe": "Sohn von Bruder oder Schwester.",
+    "defEn": "The son of your brother or sister.",
+    "exEs": "Mein Neffe wird morgen fünf Jahre alt.",
+    "exDe": "Mein Neffe wird morgen fünf Jahre alt.",
+    "exEn": "My nephew turns five tomorrow."
+  },
+  "die Nichte": {
+    "defEs": "Tochter von Bruder oder Schwester.",
+    "defDe": "Tochter von Bruder oder Schwester.",
+    "defEn": "The daughter of your brother or sister.",
+    "exEs": "Ich kaufe meiner Nichte ein Buch.",
+    "exDe": "Ich kaufe meiner Nichte ein Buch.",
+    "exEn": "I am buying my niece a book."
+  },
+  "der Enkel": {
+    "defEs": "Sohn des eigenen Kindes.",
+    "defDe": "Sohn des eigenen Kindes.",
+    "defEn": "The son of your own child.",
+    "exEs": "Der Enkel besucht seine Oma jeden Freitag.",
+    "exDe": "Der Enkel besucht seine Oma jeden Freitag.",
+    "exEn": "The grandson visits his grandma every Friday."
+  },
+  "die Enkelin": {
+    "defEs": "Tochter des eigenen Kindes.",
+    "defDe": "Tochter des eigenen Kindes.",
+    "defEn": "The daughter of your own child.",
+    "exEs": "Seine Enkelin lernt schon lesen.",
+    "exDe": "Seine Enkelin lernt schon lesen.",
+    "exEn": "His granddaughter is already learning to read."
+  },
+  "der Ehemann": {
+    "defEs": "Mann, der mit jemandem verheiratet ist.",
+    "defDe": "Mann, der mit jemandem verheiratet ist.",
+    "defEn": "A man who is married to someone.",
+    "exEs": "Ihr Ehemann arbeitet im Krankenhaus.",
+    "exDe": "Ihr Ehemann arbeitet im Krankenhaus.",
+    "exEn": "Her husband works at the hospital."
+  },
+  "die Ehefrau": {
+    "defEs": "Frau, die mit jemandem verheiratet ist.",
+    "defDe": "Frau, die mit jemandem verheiratet ist.",
+    "defEn": "A woman who is married to someone.",
+    "exEs": "Seine Ehefrau kommt aus Portugal.",
+    "exDe": "Seine Ehefrau kommt aus Portugal.",
+    "exEn": "His wife comes from Portugal."
+  },
+  "der Partner": {
+    "defEs": "Mann, mit dem jemand fest zusammenlebt.",
+    "defDe": "Mann, mit dem jemand fest zusammenlebt.",
+    "defEn": "A man someone lives with in a steady relationship.",
+    "exEs": "Ihr Partner kocht heute Abend.",
+    "exDe": "Ihr Partner kocht heute Abend.",
+    "exEn": "Her partner is cooking tonight."
+  },
+  "die Partnerin": {
+    "defEs": "Frau, mit der jemand fest zusammenlebt.",
+    "defDe": "Frau, mit der jemand fest zusammenlebt.",
+    "defEn": "A woman someone lives with in a steady relationship.",
+    "exEs": "Seine Partnerin studiert Medizin.",
+    "exDe": "Seine Partnerin studiert Medizin.",
+    "exEn": "His partner studies medicine."
+  },
+  "das Baby": {
+    "defEs": "Sehr kleines Kind im ersten Lebensjahr.",
+    "defDe": "Sehr kleines Kind im ersten Lebensjahr.",
+    "defEn": "A very small child in its first year of life.",
+    "exEs": "Das Baby schläft endlich ruhig.",
+    "exDe": "Das Baby schläft endlich ruhig.",
+    "exEn": "The baby is finally sleeping calmly."
+  },
+  "der Junge": {
+    "defEs": "Männliches Kind.",
+    "defDe": "Männliches Kind.",
+    "defEn": "A male child.",
+    "exEs": "Der Junge fährt gern Fahrrad.",
+    "exDe": "Der Junge fährt gern Fahrrad.",
+    "exEn": "The boy likes riding his bike."
+  },
+  "das Mädchen": {
+    "defEs": "Weibliches Kind.",
+    "defDe": "Weibliches Kind.",
+    "defEn": "A female child.",
+    "exEs": "Das Mädchen malt ein buntes Bild.",
+    "exDe": "Das Mädchen malt ein buntes Bild.",
+    "exEn": "The girl is painting a colourful picture."
+  },
+  "der Mensch": {
+    "defEs": "Lebewesen, das denkt und spricht.",
+    "defDe": "Lebewesen, das denkt und spricht.",
+    "defEn": "A living being that thinks and speaks.",
+    "exEs": "Er ist ein sehr geduldiger Mensch.",
+    "exDe": "Er ist ein sehr geduldiger Mensch.",
+    "exEn": "He is a very patient person."
+  },
+  "der Verwandte": {
+    "defEs": "Person aus der eigenen Familie.",
+    "defDe": "Person aus der eigenen Familie.",
+    "defEn": "A person from your own family.",
+    "exEs": "Ein Verwandter aus Köln hat angerufen.",
+    "exDe": "Ein Verwandter aus Köln hat angerufen.",
+    "exEn": "A relative from Cologne called."
+  },
+  "der Familienstand": {
+    "defEs": "Angabe, ob jemand verheiratet ist oder nicht.",
+    "defDe": "Angabe, ob jemand verheiratet ist oder nicht.",
+    "defEn": "Information about whether someone is married or not.",
+    "exEs": "Bitte tragen Sie Ihren Familienstand ein.",
+    "exDe": "Bitte tragen Sie Ihren Familienstand ein.",
+    "exEn": "Please enter your marital status."
+  },
+  "heiraten": {
+    "defEs": "Eine Ehe mit jemandem schließen.",
+    "defDe": "Eine Ehe mit jemandem schließen.",
+    "defEn": "To enter into a marriage with someone.",
+    "exEs": "Sie heiraten nächsten Sommer.",
+    "exDe": "Sie heiraten nächsten Sommer.",
+    "exEn": "They are getting married next summer."
+  },
+  "leben": {
+    "defEs": "Am Leben sein oder irgendwo wohnen.",
+    "defDe": "Am Leben sein oder irgendwo wohnen.",
+    "defEn": "To be alive or to reside somewhere.",
+    "exEs": "Wir leben seit zehn Jahren hier.",
+    "exDe": "Wir leben seit zehn Jahren hier.",
+    "exEn": "We have lived here for ten years."
+  },
+  "lieben": {
+    "defEs": "Sehr starke Zuneigung für jemanden fühlen.",
+    "defDe": "Sehr starke Zuneigung für jemanden fühlen.",
+    "defEn": "To feel very strong affection for someone.",
+    "exEs": "Ich liebe meine Familie sehr.",
+    "exDe": "Ich liebe meine Familie sehr.",
+    "exEn": "I love my family very much."
+  },
+  "besuchen": {
+    "defEs": "Zu jemandem gehen, um Zeit zu verbringen.",
+    "defDe": "Zu jemandem gehen, um Zeit zu verbringen.",
+    "defEn": "To go to someone in order to spend time together.",
+    "exEs": "Wir besuchen am Sonntag meine Tante.",
+    "exDe": "Wir besuchen am Sonntag meine Tante.",
+    "exEn": "We are visiting my aunt on Sunday."
+  },
+  "verheiratet": {
+    "defEs": "In einer Ehe lebend.",
+    "defDe": "In einer Ehe lebend.",
+    "defEn": "Living in a marriage.",
+    "exEs": "Sie sind seit fünf Jahren verheiratet.",
+    "exDe": "Sie sind seit fünf Jahren verheiratet.",
+    "exEn": "They have been married for five years."
+  },
+  "ledig": {
+    "defEs": "Noch nie eine Ehe geschlossen habend.",
+    "defDe": "Noch nie eine Ehe geschlossen habend.",
+    "defEn": "Never having been married.",
+    "exEs": "Mein Bruder ist noch ledig.",
+    "exDe": "Mein Bruder ist noch ledig.",
+    "exEn": "My brother is still single."
+  },
+  "geschieden": {
+    "defEs": "Die Ehe rechtlich beendet habend.",
+    "defDe": "Die Ehe rechtlich beendet habend.",
+    "defEn": "Having legally ended a marriage.",
+    "exEs": "Ihre Eltern sind seit Jahren geschieden.",
+    "exDe": "Ihre Eltern sind seit Jahren geschieden.",
+    "exEn": "Her parents have been divorced for years."
+  },
+  "alt": {
+    "defEs": "Schon viele Jahre auf der Welt.",
+    "defDe": "Schon viele Jahre auf der Welt.",
+    "defEn": "Having been in the world for many years.",
+    "exEs": "Mein Opa ist schon sehr alt.",
+    "exDe": "Mein Opa ist schon sehr alt.",
+    "exEn": "My grandpa is already very old."
+  },
+  "jung": {
+    "defEs": "Erst wenige Jahre alt.",
+    "defDe": "Erst wenige Jahre alt.",
+    "defEn": "Only a few years old.",
+    "exEs": "Die Nachbarn sind noch ziemlich jung.",
+    "exDe": "Die Nachbarn sind noch ziemlich jung.",
+    "exEn": "The neighbours are still quite young."
+  },
+  "zusammen": {
+    "defEs": "Gemeinsam mit anderen, nicht allein.",
+    "defDe": "Gemeinsam mit anderen, nicht allein.",
+    "defEn": "Together with others, not alone.",
+    "exEs": "Wir frühstücken jeden Morgen zusammen.",
+    "exDe": "Wir frühstücken jeden Morgen zusammen.",
+    "exEn": "We have breakfast together every morning."
+  }
+}
