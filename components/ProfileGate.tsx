@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
 import { getProfiles, setActiveId, addProfile, hasPickedProfile, type Profile } from "@/lib/storage/profile";
+import { pullProfiles } from "@/lib/storage/sync";
 import { IconUser, IconPlus } from "@/components/icons";
 
 /** First visit on a device: ask who is learning, so nobody writes into someone
@@ -12,6 +13,7 @@ export function ProfileGate() {
   const { t } = useI18n();
   const [needsPick, setNeedsPick] = useState(false);
   const [profiles, setProfiles] = useState<Profile[]>([]);
+  const [loading, setLoading] = useState(true);
   const [name, setName] = useState("");
   const [creating, setCreating] = useState(false);
 
@@ -19,6 +21,15 @@ export function ProfileGate() {
     if (hasPickedProfile()) return;
     setProfiles(getProfiles());
     setNeedsPick(true);
+    // Local storage only knows profiles this device has seen, so a new device
+    // would show none of the existing ones. Ask the cloud before offering
+    // "create a profile".
+    let alive = true;
+    pullProfiles()
+      .then((list) => { if (alive) setProfiles(list); })
+      .catch(() => {})            // offline: fall back to the local list
+      .finally(() => { if (alive) setLoading(false); });
+    return () => { alive = false; };
   }, []);
 
   if (!needsPick) return null;
@@ -41,16 +52,20 @@ export function ProfileGate() {
         <p className="mt-1 text-sm text-muted">{t("profileGate.desc")}</p>
 
         <div className="mt-5 space-y-2">
-          {profiles.map((p) => (
-            <button key={p.id} onClick={() => choose(p.id)}
-              className="btn btn-secondary w-full justify-start gap-2.5">
-              <IconUser className="h-4 w-4 shrink-0 text-muted" />
-              <span className="font-semibold">{p.name}</span>
-            </button>
-          ))}
+          {loading
+            ? [0, 1].map((i) => <div key={i} className="skeleton h-10 w-full rounded-lg" />)
+            : profiles.map((p) => (
+                <button key={p.id} onClick={() => choose(p.id)}
+                  className="btn btn-secondary w-full justify-start gap-2.5">
+                  <IconUser className="h-4 w-4 shrink-0 text-muted" />
+                  <span className="font-semibold">{p.name}</span>
+                </button>
+              ))}
         </div>
 
-        {creating ? (
+        {loading ? (
+          <p className="mt-3 text-center text-xs text-muted">{t("common.loading")}</p>
+        ) : creating ? (
           <div className="mt-3 flex gap-2">
             <input autoFocus value={name} onChange={(e) => setName(e.target.value)}
               onKeyDown={(e) => { if (e.key === "Enter") create(); }}

@@ -7,7 +7,7 @@
 // state — and a device whose local storage was evicted is auto-restored.
 
 import { getBundle, putBundle, onDbChange, type SyncBundle } from "./db";
-import { getActiveId, getProfilesRaw, mergeProfiles } from "./profile";
+import { getActiveId, getProfilesRaw, mergeProfiles, type Profile } from "./profile";
 import { getActiveLang } from "@/lib/lang";
 
 const ENDPOINT = "/api/sync";
@@ -105,6 +105,18 @@ export async function syncNow(): Promise<void> {
     emit();
     if (queued) { queued = false; scheduleSync(300); }
   }
+}
+
+/** Read the cloud profile list and merge it into this device, *without* touching
+ *  learning data. A brand new device knows no profiles yet, so the first-visit
+ *  gate calls this before offering "create a profile" — otherwise a returning
+ *  learner would build a duplicate instead of picking their own. */
+export async function pullProfiles(): Promise<Profile[]> {
+  const res = await fetch(ENDPOINT, { cache: "no-store" });
+  if (!res.ok) throw new Error(`profiles ${res.status}`);
+  const data = (await res.json()) as { profiles?: unknown };
+  if (!Array.isArray(data.profiles)) throw new Error("no profile list");
+  return mergeProfiles(data.profiles as Profile[]);
 }
 
 /** Debounced push (called after every local change). */
