@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useI18n } from "@/lib/i18n/locale";
 import { useLang, clearLang } from "@/lib/lang";
 import { ProfileSwitcher } from "@/components/ProfileSwitcher";
+import { IconChevronDown } from "@/components/icons";
 import type { UIKey } from "@/lib/i18n/strings";
 
 const isUnder = (pathname: string, href: string) =>
@@ -12,7 +13,7 @@ const isUnder = (pathname: string, href: string) =>
 
 export function Nav() {
   const { t, locale, toggle } = useI18n();
-  const { lang, picked } = useLang();
+  const { lang } = useLang();
   const pathname = usePathname();
 
   // Flat bar — every section visible at once (no dropdowns, no sliding).
@@ -29,25 +30,6 @@ export function Nav() {
     { href: "/vokabelheft", key: "nav.notebook" },
     { href: "/stats", key: "nav.stats" },
   ];
-
-  // Before a language is chosen the bar is just the wordmark (picker is the page).
-  if (!picked) {
-    return (
-      <header className="sticky top-0 z-10 border-b border-border bg-background/85 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center gap-2 px-4 py-3 sm:px-6">
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-brand" />
-            <span className="font-display text-lg font-semibold tracking-tight">Lengua</span>
-          </span>
-          <div className="flex-1" />
-          <button onClick={toggle} aria-label={t("lang.label")} className="btn btn-secondary btn-sm shrink-0">
-            {locale === "de" ? "EN" : "DE"}
-          </button>
-          <ProfileSwitcher />
-        </div>
-      </header>
-    );
-  }
 
   return (
     <header className="sticky top-0 z-10 border-b border-border bg-background/85 backdrop-blur">
@@ -73,13 +55,16 @@ export function Nav() {
             </Link>
           ))}
         </nav>
+        {/* which language you're learning + one click to switch */}
         <button
           onClick={clearLang}
           title={t("lang.switchLearn")}
           aria-label={t("lang.switchLearn")}
-          className="btn btn-secondary btn-sm shrink-0"
+          className="btn btn-secondary btn-sm shrink-0 gap-1"
         >
-          {lang === "de" ? "🇩🇪" : "🇪🇸"}
+          <span>{lang === "de" ? "🇩🇪" : "🇪🇸"}</span>
+          <span className="hidden sm:inline">{lang === "de" ? "DE" : "ES"}</span>
+          <IconChevronDown className="h-3 w-3 opacity-60" />
         </button>
         <button
           onClick={toggle}
