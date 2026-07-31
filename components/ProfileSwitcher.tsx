@@ -7,6 +7,7 @@ import {
   deleteProfile,
   getActiveId,
   getProfiles,
+  hasPickedProfile,
   renameProfile,
   setActiveId,
   type Profile,
@@ -33,7 +34,10 @@ export function ProfileSwitcher() {
     // Ask the browser to keep our data permanently (stops Safari's 7-day wipe).
     requestPersist();
     // Start automatic cloud sync; refresh the list when other devices sync in.
-    initSync();
+    // Not before someone picked a profile, though: a fresh device would
+    // otherwise download the first profile's progress while the gate is still
+    // asking who is learning.
+    if (hasPickedProfile()) initSync();
     const onSynced = () => { setProfiles(getProfiles()); setActive(getActiveId()); };
     window.addEventListener("espanol-synced", onSynced);
     return () => window.removeEventListener("espanol-synced", onSynced);
