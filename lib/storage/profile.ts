@@ -74,6 +74,14 @@ export function setActiveId(id: string): void {
   } catch {}
 }
 
+/** Has someone actively picked a profile on THIS device? If not, we ask first —
+ *  otherwise a colleague opening the app would silently write into the owner's
+ *  progress. */
+export function hasPickedProfile(): boolean {
+  if (typeof localStorage === "undefined") return true;
+  return localStorage.getItem(ACTIVE_KEY) !== null;
+}
+
 function newId(): string {
   try {
     if (typeof crypto !== "undefined" && crypto.randomUUID) return crypto.randomUUID();

@@ -8,14 +8,44 @@
 
 import { getBundle, putBundle, onDbChange, type SyncBundle } from "./db";
 import { getActiveId, getProfilesRaw, mergeProfiles } from "./profile";
+import { getActiveLang } from "@/lib/lang";
 
 const ENDPOINT = "/api/sync";
 const PUSH_DELAY = 1500;
 const POLL_MS = 45000;
 
+/** Cloud key for the active profile *and* language. The local database is split
+ *  per language, so the remote copy must be too — otherwise Spanish and German
+ *  progress would merge into one blob and flow back mixed. Spanish keeps the
+ *  historic key (plain profile id) so existing cloud data stays valid. */
+function syncKey(): string {
+  const id = getActiveId();
+  const lang = getActiveLang();
+  return lang === "es" ? id : `${id}--${lang}`;
+}
+
 export type SyncState = "idle" | "syncing" | "ok" | "offline" | "error";
 let state: SyncState = "idle";
+
+// Remembered across reloads so we can warn when the cloud backup has been
+// failing for days (offline, function down) — before anything is at risk.
+const OK_KEY = "sync-last-ok";
+const readLastOk = (): number => {
+  if (typeof window === "undefined") return 0;
+  return Number(window.localStorage.getItem(`${OK_KEY}:${syncKey()}`) || 0);
+};
+const writeLastOk = (ts: number) => {
+  try { window.localStorage.setItem(`${OK_KEY}:${syncKey()}`, String(ts)); } catch {}
+};
 let lastSyncAt = 0;
+
+/** Days since the last successful cloud backup of this profile+language
+ *  (0 if it synced today, null if it never synced on this device). */
+export function daysSinceBackup(): number | null {
+  const ts = lastSyncAt || readLastOk();
+  if (!ts) return null;
+  return Math.floor((Date.now() - ts) / 86400000);
+}
 
 const listeners = new Set<(s: { state: SyncState; lastSyncAt: number }) => void>();
 function emit() {
@@ -55,13 +85,14 @@ export async function syncNow(): Promise<void> {
   state = "syncing";
   emit();
   try {
-    const profile = getActiveId();
+    const profile = syncKey();
     const bundle = await getBundle();
     const data = await post({ profiles: getProfilesRaw(), profile, bundle });
     if (data) {
       if (Array.isArray(data.profiles)) mergeProfiles(data.profiles as never);
       if (data.bundle) await putBundle(data.bundle);
       lastSyncAt = Date.now();
+      writeLastOk(lastSyncAt);
       state = "ok";
       window.dispatchEvent(new CustomEvent("espanol-synced"));
     } else {
@@ -86,7 +117,7 @@ export function scheduleSync(delay = PUSH_DELAY): void {
 /** Authoritatively clear the active profile's data on the server (for reset). */
 export async function wipeRemote(): Promise<void> {
   try {
-    await post({ profile: getActiveId(), replace: true, bundle: { progress: [], sessions: [], daily: [], notebook: [] } });
+    await post({ profile: syncKey(), replace: true, bundle: { progress: [], sessions: [], daily: [], notebook: [] } });
   } catch {}
 }
 
