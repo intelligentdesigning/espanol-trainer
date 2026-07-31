@@ -1,5 +1,5 @@
-// Pure merge helpers for the sync function — no Netlify deps, so they can be
-// unit-tested with plain node. Files prefixed "_" are not deployed as routes.
+// Pure merge helpers for the sync endpoint — no host-specific deps, so they run
+// unchanged on Cloudflare Pages Functions and can be unit-tested with plain node.
 
 export const EMPTY = { progress: [], sessions: [], daily: [], notebook: [] };
 

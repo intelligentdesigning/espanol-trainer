@@ -1,0 +1,14 @@
+{
+  // Cloudflare Pages config. The static export in out/ is served directly, and
+  // functions/api/sync.js handles /api/sync against the D1 database below.
+  "name": "lenguatool",
+  "pages_build_output_dir": "out",
+  "compatibility_date": "2026-07-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lenguatool-sync",
+      "database_id": "5197367b-7ea0-4b07-9e94-1390207ccc6c"
+    }
+  ]
+}

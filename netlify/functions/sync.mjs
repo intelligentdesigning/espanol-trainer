@@ -11,7 +11,7 @@
 // Access model: OPEN (no code) — chosen by the user for zero-friction sync.
 
 import { getStore } from "@netlify/blobs";
-import { EMPTY, mergeBundle, mergeProfiles, visible } from "./_merge.mjs";
+import { EMPTY, mergeBundle, mergeProfiles, visible } from "../../shared/sync-merge.mjs";
 
 const STORE = "espanol-sync";
 const PROFILES_KEY = "profiles";
