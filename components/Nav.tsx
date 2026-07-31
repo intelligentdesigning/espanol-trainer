@@ -23,6 +23,7 @@ export function Nav() {
     { href: "/", key: "nav.home" },
     ...(lang === "es" ? [{ href: "/vokabular", key: "nav.vocab" as UIKey }] : []),
     { href: "/themen", key: "nav.themen" },
+    { href: "/satzbau", key: "nav.sentence" },
     ...(lang === "de" ? [{ href: "/vokabular/artikel", key: "nav.articles" as UIKey }] : []),
     { href: "/zahlen", key: "nav.numbers" },
     { href: "/konjugation", key: "nav.conj" },
