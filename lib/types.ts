@@ -100,9 +100,21 @@ export type BuchDetails = Record<string, VocabDetail>;  // keyed by accent-strip
 /** public/data/articles.json — gender training: noun → definite article. */
 export interface NounArticle {
   es: string;
-  article: "el" | "la";
+  article: "el" | "la" | "der" | "die" | "das";  // Spanish or German mode
   irregular: boolean;      // gender not predictable from the word's form
   note?: LocalizedText;    // hint shown for irregulars
+  en?: string;             // meaning (German mode)
+  cefr?: Cefr;
+}
+
+/** public/data/de/grammar.json — a German A1 grammar lesson. */
+export interface DeLesson {
+  id: string;
+  name: LocalizedText;
+  summary: LocalizedText;
+  cefr?: Cefr;
+  rules: GrammarRule[];
+  practice: PracticeItem[];
 }
 
 export interface VocabIndex {

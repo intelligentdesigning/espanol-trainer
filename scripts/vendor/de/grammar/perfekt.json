@@ -1,0 +1,549 @@
+{
+  "id": "perfekt",
+  "name": {
+    "de": "Perfekt (Vergangenheit)",
+    "en": "Perfect Tense (Past)"
+  },
+  "summary": {
+    "de": "Das Perfekt ist die normale Vergangenheit im Gespräch und besteht aus haben oder sein plus Partizip II.",
+    "en": "The perfect tense is the everyday spoken past in German and consists of haben or sein plus a past participle."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "perfekt-rahmen",
+      "title": {
+        "de": "Der Bau: haben oder sein plus Partizip II",
+        "en": "The structure: haben or sein plus past participle"
+      },
+      "body": {
+        "de": "Das Perfekt hat immer zwei Teile. Das Hilfsverb haben oder sein wird konjugiert und steht an Position 2 im Satz. Das Partizip II steht ganz am Satzende und ändert sich nie.",
+        "en": "The perfect tense always has two parts. The auxiliary haben or sein is conjugated and stands in position 2 of the sentence. The past participle goes to the very end and never changes its form."
+      },
+      "examples": [
+        {
+          "de": "Ich habe einen Kaffee getrunken.",
+          "gloss": {
+            "de": "Das Trinken ist vorbei, es liegt in der Vergangenheit.",
+            "en": "I drank a coffee."
+          },
+          "note": {
+            "de": "habe steht an Position 2, getrunken ganz am Ende.",
+            "en": "habe stands in position 2, getrunken right at the end."
+          }
+        },
+        {
+          "de": "Gestern haben wir Deutsch gelernt.",
+          "gloss": {
+            "de": "Das Lernen war gestern und ist abgeschlossen.",
+            "en": "Yesterday we studied German."
+          },
+          "note": {
+            "de": "Auch nach einer Zeitangabe bleibt das Hilfsverb an Position 2.",
+            "en": "Even after a time expression the auxiliary stays in position 2."
+          }
+        },
+        {
+          "de": "Hast du gut geschlafen?",
+          "gloss": {
+            "de": "Frage nach der vergangenen Nacht.",
+            "en": "Did you sleep well?"
+          },
+          "note": {
+            "de": "In der Ja/Nein-Frage steht das Hilfsverb vorne, das Partizip bleibt hinten.",
+            "en": "In a yes/no question the auxiliary comes first, the participle still stays at the end."
+          }
+        }
+      ]
+    },
+    {
+      "id": "partizip-schwach",
+      "title": {
+        "de": "Schwache Verben: ge...t",
+        "en": "Weak verbs: ge...t"
+      },
+      "body": {
+        "de": "Die meisten deutschen Verben sind schwach. Man nimmt den Verbstamm, setzt ge- davor und -t dahinter. Endet der Stamm auf d oder t, spricht man ein e mit und schreibt -et.",
+        "en": "Most German verbs are weak. You take the verb stem, add ge- in front and -t at the end. If the stem ends in d or t, an extra e is added and you write -et."
+      },
+      "examples": [
+        {
+          "de": "Ich habe ein Auto gekauft.",
+          "gloss": {
+            "de": "kaufen wird im Partizip zu gekauft.",
+            "en": "I bought a car."
+          },
+          "note": {
+            "de": "Stamm kauf plus ge und t.",
+            "en": "Stem kauf plus ge and t."
+          }
+        },
+        {
+          "de": "Wir haben Tennis gespielt.",
+          "gloss": {
+            "de": "spielen wird im Partizip zu gespielt.",
+            "en": "We played tennis."
+          },
+          "note": {
+            "de": "Der Vokal im Stamm bleibt gleich.",
+            "en": "The vowel in the stem stays the same."
+          }
+        },
+        {
+          "de": "Sie hat den ganzen Tag gearbeitet.",
+          "gloss": {
+            "de": "arbeiten wird im Partizip zu gearbeitet.",
+            "en": "She worked all day."
+          },
+          "note": {
+            "de": "Der Stamm arbeit endet auf t, darum heißt die Endung -et.",
+            "en": "The stem arbeit ends in t, so the ending is -et."
+          }
+        }
+      ]
+    },
+    {
+      "id": "partizip-stark",
+      "title": {
+        "de": "Starke Verben: ge...en",
+        "en": "Strong verbs: ge...en"
+      },
+      "body": {
+        "de": "Starke Verben bilden das Partizip mit ge- und -en. Sehr oft ändert sich dabei der Vokal im Stamm. Diese Formen kann man nicht ausrechnen, man lernt sie als Wortpaare.",
+        "en": "Strong verbs build the participle with ge- and -en. Very often the vowel inside the stem changes. You cannot calculate these forms, you learn them as word pairs."
+      },
+      "examples": [
+        {
+          "de": "Er hat viel Wasser getrunken.",
+          "gloss": {
+            "de": "trinken wird im Partizip zu getrunken.",
+            "en": "He drank a lot of water."
+          },
+          "note": {
+            "de": "Aus i wird u, die Endung ist -en.",
+            "en": "The i turns into u, the ending is -en."
+          }
+        },
+        {
+          "de": "Wir haben den Film gesehen.",
+          "gloss": {
+            "de": "sehen wird im Partizip zu gesehen.",
+            "en": "We saw the film."
+          },
+          "note": {
+            "de": "Hier bleibt der Vokal gleich, aber die Endung ist trotzdem -en.",
+            "en": "Here the vowel stays the same, but the ending is still -en."
+          }
+        },
+        {
+          "de": "Ich habe einen Brief geschrieben.",
+          "gloss": {
+            "de": "schreiben wird im Partizip zu geschrieben.",
+            "en": "I wrote a letter."
+          },
+          "note": {
+            "de": "Aus ei wird ie, niemals -t am Ende.",
+            "en": "The ei turns into ie, never a -t at the end."
+          }
+        }
+      ]
+    },
+    {
+      "id": "haben-oder-sein",
+      "title": {
+        "de": "haben oder sein?",
+        "en": "haben or sein?"
+      },
+      "body": {
+        "de": "Die meisten Verben nehmen haben. Verben der Bewegung von einem Ort zum anderen nehmen sein, zum Beispiel gehen, fahren, fliegen, kommen, laufen. Auch bleiben, sein und werden nehmen sein.",
+        "en": "Most verbs take haben. Verbs of movement from one place to another take sein, for example gehen, fahren, fliegen, kommen, laufen. The verbs bleiben, sein and werden also take sein."
+      },
+      "examples": [
+        {
+          "de": "Ich bin nach Hause gegangen.",
+          "gloss": {
+            "de": "gehen ist eine Bewegung, darum sein.",
+            "en": "I went home."
+          },
+          "note": {
+            "de": "Bewegung von A nach B, also bin und nicht habe.",
+            "en": "Movement from A to B, so bin and not habe."
+          }
+        },
+        {
+          "de": "Er hat einen Apfel gegessen.",
+          "gloss": {
+            "de": "essen ist keine Bewegung, darum haben.",
+            "en": "He ate an apple."
+          },
+          "note": {
+            "de": "Verben mit Objekt nehmen fast immer haben.",
+            "en": "Verbs with an object almost always take haben."
+          }
+        },
+        {
+          "de": "Wir sind zu Hause geblieben.",
+          "gloss": {
+            "de": "bleiben nimmt sein, obwohl niemand sich bewegt.",
+            "en": "We stayed at home."
+          },
+          "note": {
+            "de": "bleiben, sein und werden sind feste Ausnahmen mit sein.",
+            "en": "bleiben, sein and werden are fixed exceptions that take sein."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ohne-ge",
+      "title": {
+        "de": "Partizip ohne ge-",
+        "en": "Participle without ge-"
+      },
+      "body": {
+        "de": "Verben auf -ieren bekommen nie ein ge-. Auch Verben mit den festen Vorsilben be-, ver-, er-, ent- und ge- bleiben ohne ge-. Die Endung ist dann trotzdem -t oder -en.",
+        "en": "Verbs ending in -ieren never take a ge-. Verbs with the fixed prefixes be-, ver-, er-, ent- and ge- also stay without ge-. The ending is still -t or -en."
+      },
+      "examples": [
+        {
+          "de": "Ich habe zwei Stunden telefoniert.",
+          "gloss": {
+            "de": "telefonieren wird im Partizip zu telefoniert.",
+            "en": "I was on the phone for two hours."
+          },
+          "note": {
+            "de": "Kein ge-, weil das Verb auf -ieren endet.",
+            "en": "No ge-, because the verb ends in -ieren."
+          }
+        },
+        {
+          "de": "Wir haben das Essen bezahlt.",
+          "gloss": {
+            "de": "bezahlen wird im Partizip zu bezahlt.",
+            "en": "We paid for the food."
+          },
+          "note": {
+            "de": "Die Vorsilbe be- ist fest, darum kein ge-.",
+            "en": "The prefix be- is fixed, so there is no ge-."
+          }
+        },
+        {
+          "de": "Sie hat ihren Schlüssel verloren.",
+          "gloss": {
+            "de": "verlieren wird im Partizip zu verloren.",
+            "en": "She lost her key."
+          },
+          "note": {
+            "de": "Kein ge-, aber die starke Endung -en bleibt.",
+            "en": "No ge-, but the strong ending -en remains."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trennbare-verben",
+      "title": {
+        "de": "Trennbare Verben: ge- in der Mitte",
+        "en": "Separable verbs: ge- in the middle"
+      },
+      "body": {
+        "de": "Bei trennbaren Verben rutscht das ge- zwischen die Vorsilbe und das Verb. Die Vorsilbe bleibt also vorne stehen. Das Partizip bleibt ein einziges Wort.",
+        "en": "With separable verbs the ge- slides in between the prefix and the verb. The prefix therefore stays at the front. The participle is still written as one single word."
+      },
+      "examples": [
+        {
+          "de": "Ich habe meine Freundin angerufen.",
+          "gloss": {
+            "de": "anrufen wird im Partizip zu angerufen.",
+            "en": "I called my girlfriend."
+          },
+          "note": {
+            "de": "an plus ge plus rufen, alles zusammengeschrieben.",
+            "en": "an plus ge plus rufen, all written together."
+          }
+        },
+        {
+          "de": "Wir haben im Supermarkt eingekauft.",
+          "gloss": {
+            "de": "einkaufen wird im Partizip zu eingekauft.",
+            "en": "We did the shopping at the supermarket."
+          },
+          "note": {
+            "de": "Schwaches Verb, darum ein und ge und die Endung -t.",
+            "en": "A weak verb, so ein and ge and the ending -t."
+          }
+        },
+        {
+          "de": "Er ist heute früh aufgestanden.",
+          "gloss": {
+            "de": "aufstehen wird im Partizip zu aufgestanden.",
+            "en": "He got up early today."
+          },
+          "note": {
+            "de": "Trennbar und mit sein, weil aufstehen eine Veränderung ist.",
+            "en": "Separable and with sein, because aufstehen is a change of state."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "Am Montag ___ wir ein Buch gelesen.",
+      "promptGloss": {
+        "de": "Am Montag haben wir ein Buch gelesen.",
+        "en": "On Monday we read a book."
+      },
+      "options": ["haben", "habt", "hat"],
+      "answer": "haben",
+      "explain": {
+        "de": "Das Hilfsverb steht an Position 2 und passt zu wir, also haben.",
+        "en": "The auxiliary stands in position 2 and matches wir, so haben."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Was ___ du am Wochenende gemacht?",
+      "promptGloss": {
+        "de": "Was hast du am Wochenende gemacht?",
+        "en": "What did you do at the weekend?"
+      },
+      "answer": "hast",
+      "explain": {
+        "de": "In der Frage steht das Hilfsverb direkt nach dem Fragewort und passt zu du.",
+        "en": "In a question the auxiliary comes right after the question word and matches du."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir haben am Samstag Fußball ___.",
+      "promptGloss": {
+        "de": "Wir haben am Samstag Fußball gespielt.",
+        "en": "We played football on Saturday."
+      },
+      "answer": "gespielt",
+      "explain": {
+        "de": "spielen ist schwach: ge plus Stamm spiel plus t.",
+        "en": "spielen is weak: ge plus the stem spiel plus t."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Sie hat gestern acht Stunden ___.",
+      "promptGloss": {
+        "de": "Sie hat gestern acht Stunden gearbeitet.",
+        "en": "She worked for eight hours yesterday."
+      },
+      "options": ["gearbeitet", "gearbeitt", "gearbeit"],
+      "answer": "gearbeitet",
+      "explain": {
+        "de": "Der Stamm arbeit endet auf t, darum lautet die Endung -et.",
+        "en": "The stem arbeit ends in t, so the ending is -et."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich habe mir ein neues Handy ___.",
+      "promptGloss": {
+        "de": "Ich habe mir ein neues Handy gekauft.",
+        "en": "I bought myself a new mobile phone."
+      },
+      "options": ["gekauft", "gekaufen", "kaufen"],
+      "answer": "gekauft",
+      "explain": {
+        "de": "kaufen ist schwach und regelmäßig: gekauft mit t am Ende.",
+        "en": "kaufen is weak and regular: gekauft with a t at the end."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich hatte großen Durst und habe viel Wasser ___.",
+      "promptGloss": {
+        "de": "Ich hatte großen Durst und habe viel Wasser getrunken.",
+        "en": "I was very thirsty and drank a lot of water."
+      },
+      "answer": "getrunken",
+      "explain": {
+        "de": "trinken ist stark: der Vokal wird zu u und die Endung ist -en.",
+        "en": "trinken is strong: the vowel becomes u and the ending is -en."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir haben den neuen Film gestern im Kino ___.",
+      "promptGloss": {
+        "de": "Wir haben den neuen Film gestern im Kino gesehen.",
+        "en": "We saw the new film at the cinema yesterday."
+      },
+      "answer": "gesehen",
+      "explain": {
+        "de": "sehen ist stark und endet im Partizip auf -en.",
+        "en": "sehen is strong and its participle ends in -en."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich habe meiner Oma einen langen Brief ___.",
+      "promptGloss": {
+        "de": "Ich habe meiner Oma einen langen Brief geschrieben.",
+        "en": "I wrote my grandma a long letter."
+      },
+      "options": ["geschrieben", "geschreibt", "geschriebt"],
+      "answer": "geschrieben",
+      "explain": {
+        "de": "schreiben ist stark: aus ei wird ie und die Endung ist -en.",
+        "en": "schreiben is strong: ei becomes ie and the ending is -en."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir ___ letztes Jahr nach Spanien geflogen.",
+      "promptGloss": {
+        "de": "Wir sind letztes Jahr nach Spanien geflogen.",
+        "en": "We flew to Spain last year."
+      },
+      "options": ["sind", "haben", "seid"],
+      "answer": "sind",
+      "explain": {
+        "de": "fliegen ist eine Bewegung von A nach B, darum sein: wir sind.",
+        "en": "fliegen is movement from A to B, so it takes sein: wir sind."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich ___ heute schon um sechs Uhr aufgestanden.",
+      "promptGloss": {
+        "de": "Ich bin heute schon um sechs Uhr aufgestanden.",
+        "en": "I got up at six o'clock today already."
+      },
+      "answer": "bin",
+      "explain": {
+        "de": "aufstehen zeigt eine Veränderung und nimmt darum sein.",
+        "en": "aufstehen shows a change of state and therefore takes sein."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Am Sonntag ___ er den ganzen Tag zu Hause geblieben.",
+      "promptGloss": {
+        "de": "Am Sonntag ist er den ganzen Tag zu Hause geblieben.",
+        "en": "On Sunday he stayed at home all day."
+      },
+      "answer": "ist",
+      "explain": {
+        "de": "bleiben nimmt immer sein, in der er-Form also ist.",
+        "en": "bleiben always takes sein, which in the er form is ist."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Du ___ das ganze Buch in einer Nacht gelesen.",
+      "promptGloss": {
+        "de": "Du hast das ganze Buch in einer Nacht gelesen.",
+        "en": "You read the whole book in one night."
+      },
+      "options": ["hast", "bist", "habt"],
+      "answer": "hast",
+      "explain": {
+        "de": "lesen ist keine Bewegung und hat ein Objekt, darum haben: du hast.",
+        "en": "lesen is not movement and has an object, so it takes haben: du hast."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Gestern Abend habe ich lange mit meiner Schwester ___.",
+      "promptGloss": {
+        "de": "Gestern Abend habe ich lange mit meiner Schwester telefoniert.",
+        "en": "Yesterday evening I talked on the phone with my sister for a long time."
+      },
+      "options": ["telefoniert", "getelefoniert", "telefonieren"],
+      "answer": "telefoniert",
+      "explain": {
+        "de": "Verben auf -ieren bilden das Partizip ohne ge-.",
+        "en": "Verbs ending in -ieren form the participle without ge-."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Meine Schwester hat in Berlin Medizin ___.",
+      "promptGloss": {
+        "de": "Meine Schwester hat in Berlin Medizin studiert.",
+        "en": "My sister studied medicine in Berlin."
+      },
+      "answer": "studiert",
+      "explain": {
+        "de": "studieren endet auf -ieren, das Partizip heißt darum studiert ohne ge-.",
+        "en": "studieren ends in -ieren, so the participle is studiert without ge-."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Die Rechnung war teuer, aber ich habe alles ___.",
+      "promptGloss": {
+        "de": "Die Rechnung war teuer, aber ich habe alles bezahlt.",
+        "en": "The bill was expensive, but I paid for everything."
+      },
+      "answer": "bezahlt",
+      "explain": {
+        "de": "Die feste Vorsilbe be- verhindert das ge-, es bleibt bezahlt.",
+        "en": "The fixed prefix be- blocks the ge-, so it stays bezahlt."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Es tut mir leid, ich habe deinen Geburtstag ___.",
+      "promptGloss": {
+        "de": "Es tut mir leid, ich habe deinen Geburtstag vergessen.",
+        "en": "I am sorry, I forgot your birthday."
+      },
+      "options": ["vergessen", "gevergessen", "vergesst"],
+      "answer": "vergessen",
+      "explain": {
+        "de": "Die feste Vorsilbe ver- steht schon vorne, darum kommt kein ge- dazu.",
+        "en": "The fixed prefix ver- is already at the front, so no ge- is added."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Meine Freundin hat mich gestern Abend ___.",
+      "promptGloss": {
+        "de": "Meine Freundin hat mich gestern Abend angerufen.",
+        "en": "My girlfriend called me yesterday evening."
+      },
+      "options": ["angerufen", "geanrufen", "anrufen"],
+      "answer": "angerufen",
+      "explain": {
+        "de": "anrufen ist trennbar, das ge- steht zwischen an und rufen.",
+        "en": "anrufen is separable, the ge- goes between an and rufen."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Am Samstag haben wir im Supermarkt ___.",
+      "promptGloss": {
+        "de": "Am Samstag haben wir im Supermarkt eingekauft.",
+        "en": "On Saturday we did the shopping at the supermarket."
+      },
+      "answer": "eingekauft",
+      "explain": {
+        "de": "einkaufen ist trennbar: ein plus ge plus kauf plus t.",
+        "en": "einkaufen is separable: ein plus ge plus kauf plus t."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich habe meinen Freunden einen Kuchen ___.",
+      "promptGloss": {
+        "de": "Ich habe meinen Freunden einen Kuchen mitgebracht.",
+        "en": "I brought my friends a cake."
+      },
+      "options": ["mitgebracht", "gemitbringt", "mitbringen"],
+      "answer": "mitgebracht",
+      "explain": {
+        "de": "mitbringen ist trennbar, das ge- steht in der Mitte: mitgebracht.",
+        "en": "mitbringen is separable, the ge- sits in the middle: mitgebracht."
+      }
+    }
+  ]
+}

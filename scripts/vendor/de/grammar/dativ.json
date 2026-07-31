@@ -1,0 +1,549 @@
+{
+  "id": "dativ",
+  "name": {
+    "de": "Dativ",
+    "en": "The Dative Case"
+  },
+  "summary": {
+    "de": "Wann und wie du den Dativ benutzt: dem, der, dem, den, Verben wie helfen, danken und gefallen sowie die Pronomen mir, dir und ihm.",
+    "en": "How and when to use the dative: dem, der, dem, den, verbs like helfen, danken and gefallen, plus the pronouns mir, dir and ihm."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "dativ-indirektes-objekt",
+      "title": {
+        "de": "Der Dativ ist das indirekte Objekt",
+        "en": "The dative is the indirect object"
+      },
+      "body": {
+        "de": "Der Dativ ist der Fall für das indirekte Objekt, also für die Person, die etwas bekommt. Du findest ihn mit der Frage „Wem?“. Bei Verben wie geben, schenken, zeigen oder bringen steht die Person im Dativ und die Sache im Akkusativ.",
+        "en": "The dative is the case for the indirect object, that is the person who receives something. You find it by asking 'Wem?' (to whom). With verbs like geben, schenken, zeigen or bringen the person is dative and the thing is accusative."
+      },
+      "examples": [
+        {
+          "de": "Ich gebe dem Kind einen Apfel.",
+          "gloss": {
+            "de": "Wem gebe ich einen Apfel? Dem Kind.",
+            "en": "I give the child an apple."
+          },
+          "note": {
+            "de": "Person im Dativ, Sache im Akkusativ.",
+            "en": "The person is dative, the thing is accusative."
+          }
+        },
+        {
+          "de": "Sie zeigt dem Gast das Zimmer.",
+          "gloss": {
+            "de": "Wem zeigt sie das Zimmer? Dem Gast.",
+            "en": "She shows the guest the room."
+          },
+          "note": {
+            "de": "Die Person steht meistens vor der Sache.",
+            "en": "The person usually comes before the thing."
+          }
+        },
+        {
+          "de": "Wir schenken den Eltern Blumen.",
+          "gloss": {
+            "de": "Wem schenken wir Blumen? Den Eltern.",
+            "en": "We give our parents flowers."
+          },
+          "note": {
+            "de": "Im Plural heißt der Dativartikel „den“.",
+            "en": "In the plural the dative article is 'den'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dativ-bestimmter-artikel",
+      "title": {
+        "de": "dem, der, dem, den",
+        "en": "dem, der, dem, den"
+      },
+      "body": {
+        "de": "Im Dativ heißen die bestimmten Artikel dem (maskulin), der (feminin), dem (neutral) und den (Plural). Maskulin und neutral sind also gleich. Im Plural bekommt das Nomen zusätzlich ein n am Ende, zum Beispiel den Kindern.",
+        "en": "The definite articles in the dative are dem (masculine), der (feminine), dem (neuter) and den (plural). Masculine and neuter share the same form. In the plural the noun also adds an n, for example den Kindern."
+      },
+      "examples": [
+        {
+          "de": "Ich helfe dem Mann.",
+          "gloss": {
+            "de": "Ich unterstütze den Mann.",
+            "en": "I am helping the man."
+          },
+          "note": {
+            "de": "Maskulin: aus „der“ wird „dem“.",
+            "en": "Masculine: 'der' becomes 'dem'."
+          }
+        },
+        {
+          "de": "Das Buch gehört der Lehrerin.",
+          "gloss": {
+            "de": "Die Lehrerin ist die Besitzerin des Buches.",
+            "en": "The book belongs to the teacher."
+          },
+          "note": {
+            "de": "Feminin: aus „die“ wird „der“.",
+            "en": "Feminine: 'die' becomes 'der'."
+          }
+        },
+        {
+          "de": "Er erzählt den Kindern eine Geschichte.",
+          "gloss": {
+            "de": "Die Kinder hören eine Geschichte von ihm.",
+            "en": "He tells the children a story."
+          },
+          "note": {
+            "de": "Plural: „den“ plus Nomen mit n am Ende.",
+            "en": "Plural: 'den' plus a noun ending in n."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dativ-unbestimmter-artikel",
+      "title": {
+        "de": "einem, einer, einem",
+        "en": "einem, einer, einem"
+      },
+      "body": {
+        "de": "Der unbestimmte Artikel im Dativ heißt einem (maskulin), einer (feminin) und einem (neutral). Kein und die Possessivartikel bekommen dieselben Endungen: keinem, keiner oder meinem, meiner. Die Endung zeigt dir immer den Fall.",
+        "en": "The indefinite article in the dative is einem (masculine), einer (feminine) and einem (neuter). The negative article and the possessives take the same endings: keinem, keiner or meinem, meiner. The ending is what marks the case."
+      },
+      "examples": [
+        {
+          "de": "Ich schreibe einem Freund eine E-Mail.",
+          "gloss": {
+            "de": "Ein Freund bekommt eine E-Mail von mir.",
+            "en": "I am writing an email to a friend."
+          },
+          "note": {
+            "de": "Maskulin bekommt die Endung em.",
+            "en": "The masculine form takes the ending em."
+          }
+        },
+        {
+          "de": "Sie hilft einer Kollegin.",
+          "gloss": {
+            "de": "Sie unterstützt eine Kollegin.",
+            "en": "She is helping a colleague."
+          },
+          "note": {
+            "de": "Feminin bekommt die Endung er.",
+            "en": "The feminine form takes the ending er."
+          }
+        },
+        {
+          "de": "Ich spreche mit meinem Bruder.",
+          "gloss": {
+            "de": "Mein Bruder und ich reden miteinander.",
+            "en": "I am talking to my brother."
+          },
+          "note": {
+            "de": "Possessivartikel haben dieselben Endungen.",
+            "en": "Possessives use the same endings."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dativverben",
+      "title": {
+        "de": "Verben mit Dativ: helfen, danken, gefallen",
+        "en": "Verbs with the dative: helfen, danken, gefallen"
+      },
+      "body": {
+        "de": "Manche Verben verlangen immer den Dativ, auch wenn es gar kein zweites Objekt gibt. Die wichtigsten sind helfen, danken, gefallen, gehören, schmecken und antworten. Bei gefallen und schmecken ist die Person im Dativ und die Sache ist das Subjekt.",
+        "en": "Some verbs always take the dative, even when there is no second object at all. The most important ones are helfen, danken, gefallen, gehören, schmecken and antworten. With gefallen and schmecken the person is in the dative and the thing is the subject."
+      },
+      "examples": [
+        {
+          "de": "Wir danken dem Lehrer.",
+          "gloss": {
+            "de": "Wir sagen dem Lehrer Danke.",
+            "en": "We thank the teacher."
+          },
+          "note": {
+            "de": "danken steht immer mit Dativ.",
+            "en": "danken is always used with the dative."
+          }
+        },
+        {
+          "de": "Das Kleid gefällt der Frau.",
+          "gloss": {
+            "de": "Die Frau findet das Kleid schön.",
+            "en": "The woman likes the dress."
+          },
+          "note": {
+            "de": "Bei gefallen ist die Sache das Subjekt.",
+            "en": "With gefallen the thing is the subject."
+          }
+        },
+        {
+          "de": "Die Suppe schmeckt den Gästen.",
+          "gloss": {
+            "de": "Die Gäste finden die Suppe lecker.",
+            "en": "The guests like the soup."
+          },
+          "note": {
+            "de": "schmecken funktioniert wie gefallen.",
+            "en": "schmecken works exactly like gefallen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dativ-pronomen",
+      "title": {
+        "de": "mir, dir, ihm, ihr, uns",
+        "en": "mir, dir, ihm, ihr, uns"
+      },
+      "body": {
+        "de": "Die Personalpronomen im Dativ sind mir, dir, ihm, ihr, ihm, uns, euch und ihnen. Aus „ich“ wird „mir“, aus „du“ wird „dir“, aus „er“ und „es“ wird „ihm“ und aus „sie“ wird „ihr“. Nach Dativverben stehen genau diese Formen.",
+        "en": "The personal pronouns in the dative are mir, dir, ihm, ihr, ihm, uns, euch and ihnen. 'ich' becomes 'mir', 'du' becomes 'dir', 'er' and 'es' become 'ihm', and 'sie' becomes 'ihr'. These are the forms you use after dative verbs."
+      },
+      "examples": [
+        {
+          "de": "Kannst du mir helfen?",
+          "gloss": {
+            "de": "Ich brauche deine Hilfe.",
+            "en": "Can you help me?"
+          },
+          "note": {
+            "de": "helfen steht mit Dativ, also „mir“.",
+            "en": "helfen takes the dative, hence 'mir'."
+          }
+        },
+        {
+          "de": "Ich danke dir für alles.",
+          "gloss": {
+            "de": "Danke für alles.",
+            "en": "Thank you for everything."
+          },
+          "note": {
+            "de": "„du“ wird im Dativ zu „dir“.",
+            "en": "'du' becomes 'dir' in the dative."
+          }
+        },
+        {
+          "de": "Der Film gefällt uns nicht.",
+          "gloss": {
+            "de": "Wir finden den Film nicht gut.",
+            "en": "We do not like the film."
+          },
+          "note": {
+            "de": "„wir“ wird im Dativ zu „uns“.",
+            "en": "'wir' becomes 'uns' in the dative."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dativ-praepositionen",
+      "title": {
+        "de": "Präpositionen mit Dativ",
+        "en": "Prepositions with the dative"
+      },
+      "body": {
+        "de": "Nach den Präpositionen mit, bei, von, zu, aus, nach und seit steht immer der Dativ. Diese kleine Gruppe lernst du am besten auswendig. Sie kommt im Alltag ständig vor, zum Beispiel bei Wegbeschreibungen und Zeitangaben.",
+        "en": "The prepositions mit, bei, von, zu, aus, nach and seit are always followed by the dative. This small group is best learned by heart. It comes up constantly in everyday German, for example with directions and time expressions."
+      },
+      "examples": [
+        {
+          "de": "Ich fahre mit dem Bus.",
+          "gloss": {
+            "de": "Ich nehme den Bus.",
+            "en": "I go by bus."
+          },
+          "note": {
+            "de": "mit steht immer mit Dativ.",
+            "en": "mit is always followed by the dative."
+          }
+        },
+        {
+          "de": "Nach der Arbeit gehe ich einkaufen.",
+          "gloss": {
+            "de": "Wenn die Arbeit vorbei ist, gehe ich einkaufen.",
+            "en": "After work I go shopping."
+          },
+          "note": {
+            "de": "nach verlangt den Dativ.",
+            "en": "nach requires the dative."
+          }
+        },
+        {
+          "de": "Sie kommt aus der Schweiz.",
+          "gloss": {
+            "de": "Ihre Heimat ist die Schweiz.",
+            "en": "She is from Switzerland."
+          },
+          "note": {
+            "de": "aus verlangt den Dativ.",
+            "en": "aus requires the dative."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "Ich gebe ___ Kind einen Apfel.",
+      "promptGloss": {
+        "de": "Das Kind bekommt einen Apfel von mir.",
+        "en": "I give the child an apple."
+      },
+      "options": ["dem", "das", "den"],
+      "answer": "dem",
+      "explain": {
+        "de": "Das Kind bekommt etwas, es ist das indirekte Objekt im Dativ.",
+        "en": "The child is the receiver, so it is the indirect object in the dative."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Der Kellner bringt ___ Gast die Rechnung.",
+      "promptGloss": {
+        "de": "Der Gast bekommt die Rechnung.",
+        "en": "The waiter brings the guest the bill."
+      },
+      "options": ["dem", "den", "der"],
+      "answer": "dem",
+      "explain": {
+        "de": "„Gast“ ist maskulin und hier das indirekte Objekt, also „dem“.",
+        "en": "'Gast' is masculine and the indirect object here, so it takes 'dem'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich schenke ___ Lehrerin Blumen.",
+      "promptGloss": {
+        "de": "Die Lehrerin bekommt Blumen von mir.",
+        "en": "I give the teacher flowers."
+      },
+      "options": ["der", "die", "dem"],
+      "answer": "der",
+      "explain": {
+        "de": "„Lehrerin“ ist feminin, im Dativ wird „die“ zu „der“.",
+        "en": "'Lehrerin' is feminine, and in the dative 'die' becomes 'der'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Er erzählt ___ Kindern eine Geschichte.",
+      "promptGloss": {
+        "de": "Die Kinder hören eine Geschichte.",
+        "en": "He tells the children a story."
+      },
+      "options": ["den", "die", "dem"],
+      "answer": "den",
+      "explain": {
+        "de": "Im Plural heißt der Dativartikel „den“, das Nomen endet auf n.",
+        "en": "In the plural the dative article is 'den' and the noun ends in n."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich schreibe ___ Freund eine E-Mail.",
+      "promptGloss": {
+        "de": "Ein Freund bekommt eine E-Mail von mir.",
+        "en": "I am writing an email to a friend."
+      },
+      "options": ["einem", "einen", "ein"],
+      "answer": "einem",
+      "explain": {
+        "de": "Maskulin im Dativ bekommt die Endung em: „einem“.",
+        "en": "The masculine dative takes the ending em: 'einem'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich helfe ___ Freundin bei den Hausaufgaben.",
+      "promptGloss": {
+        "de": "Eine Freundin bekommt Hilfe bei den Hausaufgaben.",
+        "en": "I am helping a friend with her homework."
+      },
+      "options": ["einer", "eine", "einem"],
+      "answer": "einer",
+      "explain": {
+        "de": "Feminin im Dativ bekommt die Endung er: „einer“.",
+        "en": "The feminine dative takes the ending er: 'einer'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich helfe ___ alten Mann über die Straße.",
+      "promptGloss": {
+        "de": "Der alte Mann kommt mit meiner Hilfe über die Straße.",
+        "en": "I help the old man across the street."
+      },
+      "options": ["dem", "den", "der"],
+      "answer": "dem",
+      "explain": {
+        "de": "helfen ist ein Dativverb, maskulin also „dem“.",
+        "en": "helfen is a dative verb, so the masculine form is 'dem'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir danken ___ Ärztin für ihre Hilfe.",
+      "promptGloss": {
+        "de": "Wir sagen der Ärztin Danke.",
+        "en": "We thank the doctor for her help."
+      },
+      "options": ["der", "die", "den"],
+      "answer": "der",
+      "explain": {
+        "de": "danken steht mit Dativ, feminin also „der“.",
+        "en": "danken takes the dative, so the feminine form is 'der'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Die Musik gefällt ___ Gästen sehr.",
+      "promptGloss": {
+        "de": "Die Gäste finden die Musik sehr schön.",
+        "en": "The guests really like the music."
+      },
+      "options": ["den", "die", "der"],
+      "answer": "den",
+      "explain": {
+        "de": "gefallen steht mit Dativ, im Plural also „den“.",
+        "en": "gefallen takes the dative, so the plural form is 'den'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich finde den Schlüssel nicht, kannst du ___ helfen?",
+      "promptGloss": {
+        "de": "Ich brauche Hilfe beim Suchen des Schlüssels.",
+        "en": "I cannot find the key, can you help me?"
+      },
+      "answer": "mir",
+      "explain": {
+        "de": "helfen steht mit Dativ, „ich“ wird zu „mir“.",
+        "en": "helfen takes the dative, so 'ich' becomes 'mir'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Du bist so nett, ich danke ___ für das Geschenk.",
+      "promptGloss": {
+        "de": "Danke für das Geschenk.",
+        "en": "You are so kind, thank you for the present."
+      },
+      "answer": "dir",
+      "explain": {
+        "de": "danken steht mit Dativ, „du“ wird zu „dir“.",
+        "en": "danken takes the dative, so 'du' becomes 'dir'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Mein Bruder ist traurig, ich helfe ___ gern.",
+      "promptGloss": {
+        "de": "Ich helfe meinem Bruder gern.",
+        "en": "My brother is sad, I am happy to help him."
+      },
+      "answer": "ihm",
+      "explain": {
+        "de": "„er“ wird im Dativ zu „ihm“.",
+        "en": "'er' becomes 'ihm' in the dative."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Meine Mutter hat Geburtstag, ich schenke ___ Blumen.",
+      "promptGloss": {
+        "de": "Meine Mutter bekommt Blumen von mir.",
+        "en": "It is my mother's birthday, I give her flowers."
+      },
+      "answer": "ihr",
+      "explain": {
+        "de": "„sie“ wird im Dativ zu „ihr“.",
+        "en": "'sie' becomes 'ihr' in the dative."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ihr seid neu hier, ich zeige ___ die Stadt.",
+      "promptGloss": {
+        "de": "Ich zeige euch die Stadt.",
+        "en": "You are new here, I will show you the city."
+      },
+      "answer": "euch",
+      "explain": {
+        "de": "„ihr“ wird im Dativ zu „euch“.",
+        "en": "'ihr' becomes 'euch' in the dative."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Der Film gefällt ___ nicht, wir gehen nach Hause.",
+      "promptGloss": {
+        "de": "Wir finden den Film nicht gut.",
+        "en": "We do not like the film, we are going home."
+      },
+      "answer": "uns",
+      "explain": {
+        "de": "gefallen steht mit Dativ, „wir“ wird zu „uns“.",
+        "en": "gefallen takes the dative, so 'wir' becomes 'uns'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Meine Freunde haben Hunger, ich koche ___ etwas.",
+      "promptGloss": {
+        "de": "Ich koche etwas für meine Freunde.",
+        "en": "My friends are hungry, I am cooking them something."
+      },
+      "answer": "ihnen",
+      "explain": {
+        "de": "Im Plural wird „sie“ im Dativ zu „ihnen“.",
+        "en": "In the plural 'sie' becomes 'ihnen' in the dative."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich fahre jeden Tag mit ___ Fahrrad zur Arbeit.",
+      "promptGloss": {
+        "de": "Ich nehme täglich das Fahrrad zur Arbeit.",
+        "en": "I ride my bike to work every day."
+      },
+      "answer": "dem",
+      "explain": {
+        "de": "Nach „mit“ steht der Dativ, neutral also „dem“.",
+        "en": "'mit' takes the dative, so the neuter form is 'dem'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Nach ___ Arbeit gehe ich ins Fitnessstudio.",
+      "promptGloss": {
+        "de": "Wenn die Arbeit vorbei ist, gehe ich ins Fitnessstudio.",
+        "en": "After work I go to the gym."
+      },
+      "answer": "der",
+      "explain": {
+        "de": "Nach „nach“ steht der Dativ, feminin also „der“.",
+        "en": "'nach' takes the dative, so the feminine form is 'der'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir treffen uns bei ___ Bäckerei am Markt.",
+      "promptGloss": {
+        "de": "Unser Treffpunkt ist die Bäckerei am Markt.",
+        "en": "We are meeting at the bakery on the market square."
+      },
+      "options": ["der", "die", "dem"],
+      "answer": "der",
+      "explain": {
+        "de": "Nach „bei“ steht der Dativ, feminin also „der“.",
+        "en": "'bei' takes the dative, so the feminine form is 'der'."
+      }
+    }
+  ]
+}

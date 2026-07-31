@@ -1,0 +1,373 @@
+{
+  "id": "praesens-unregelmaessig",
+  "name": { "de": "Präsens: unregelmäßige Verben", "en": "Present tense: stem-changing verbs" },
+  "summary": {
+    "de": "Einige Verben ändern im Präsens ihren Stammvokal, aber nur in der du-Form und in der er/sie/es-Form.",
+    "en": "Some verbs change their stem vowel in the present tense, but only in the du form and the er/sie/es form."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "wechsel-nur-du-er",
+      "title": { "de": "Der Wechsel trifft nur du und er/sie/es", "en": "The change affects only du and er/sie/es" },
+      "body": {
+        "de": "Bei diesen Verben ändert sich der Vokal im Stamm nur in zwei Formen: bei 'du' und bei 'er/sie/es'. Die Formen für ich, wir, ihr und sie/Sie behalten den Vokal des Infinitivs. Merke dir also immer das Paar du/er.",
+        "en": "With these verbs the stem vowel changes in two forms only: with 'du' and with 'er/sie/es'. The forms for ich, wir, ihr and sie/Sie keep the vowel of the infinitive. So always memorise the du/er pair."
+      },
+      "examples": [
+        {
+          "de": "Ich fahre nach Köln, du fährst nach Bonn.",
+          "gloss": { "de": "Zwei Personen fahren in verschiedene Städte.", "en": "I go to Cologne, you go to Bonn." },
+          "note": { "de": "ich ohne Wechsel, du mit ä", "en": "no change with ich, ä with du" }
+        },
+        {
+          "de": "Wir sprechen Deutsch, er spricht Englisch.",
+          "gloss": { "de": "Die Gruppe und er nutzen verschiedene Sprachen.", "en": "We speak German, he speaks English." },
+          "note": { "de": "wir behält e, er bekommt i", "en": "wir keeps e, er changes to i" }
+        },
+        {
+          "de": "Ihr lest viel, aber sie liest wenig.",
+          "gloss": { "de": "Die Gruppe liest mehr als sie.", "en": "You read a lot, but she reads little." },
+          "note": { "de": "ihr behält e, sie bekommt ie", "en": "ihr keeps e, sie changes to ie" }
+        }
+      ]
+    },
+    {
+      "id": "a-zu-ae",
+      "title": { "de": "a wird zu ä", "en": "a becomes ä" },
+      "body": {
+        "de": "Verben mit 'a' im Stamm bekommen bei du und er/sie/es ein 'ä': fahren, schlafen, tragen, fallen. Die Endungen bleiben ganz normal -st und -t.",
+        "en": "Verbs with 'a' in the stem take 'ä' with du and er/sie/es: fahren, schlafen, tragen, fallen. The endings stay perfectly regular, -st and -t."
+      },
+      "examples": [
+        {
+          "de": "Du fährst sehr schnell.",
+          "gloss": { "de": "Deine Geschwindigkeit ist hoch.", "en": "You drive very fast." },
+          "note": { "de": "fahren wird zu du fährst", "en": "fahren becomes du fährst" }
+        },
+        {
+          "de": "Er schläft bis zehn Uhr.",
+          "gloss": { "de": "Sein Schlaf dauert bis zehn.", "en": "He sleeps until ten." },
+          "note": { "de": "schlafen wird zu er schläft", "en": "schlafen becomes er schläft" }
+        },
+        {
+          "de": "Sie trägt den Koffer.",
+          "gloss": { "de": "Der Koffer ist in ihrer Hand.", "en": "She carries the suitcase." },
+          "note": { "de": "tragen wird zu sie trägt", "en": "tragen becomes sie trägt" }
+        }
+      ]
+    },
+    {
+      "id": "e-zu-i",
+      "title": { "de": "e wird zu i", "en": "e becomes i" },
+      "body": {
+        "de": "Viele Verben mit kurzem 'e' im Stamm bekommen bei du und er/sie/es ein 'i': sprechen, helfen, geben, treffen. Der Rest der Konjugation bleibt unverändert.",
+        "en": "Many verbs with a short 'e' in the stem take 'i' with du and er/sie/es: sprechen, helfen, geben, treffen. The rest of the conjugation stays unchanged."
+      },
+      "examples": [
+        {
+          "de": "Du sprichst sehr gut Deutsch.",
+          "gloss": { "de": "Dein Deutsch ist sehr gut.", "en": "You speak German very well." },
+          "note": { "de": "sprechen wird zu du sprichst", "en": "sprechen becomes du sprichst" }
+        },
+        {
+          "de": "Er hilft seiner Schwester.",
+          "gloss": { "de": "Seine Schwester bekommt Hilfe von ihm.", "en": "He helps his sister." },
+          "note": { "de": "helfen wird zu er hilft", "en": "helfen becomes er hilft" }
+        },
+        {
+          "de": "Sie gibt mir das Buch.",
+          "gloss": { "de": "Das Buch kommt von ihr zu mir.", "en": "She gives me the book." },
+          "note": { "de": "geben wird zu sie gibt", "en": "geben becomes sie gibt" }
+        }
+      ]
+    },
+    {
+      "id": "e-zu-ie",
+      "title": { "de": "e wird zu ie", "en": "e becomes ie" },
+      "body": {
+        "de": "Verben mit langem 'e' im Stamm bekommen bei du und er/sie/es ein 'ie': lesen, sehen. Man hört den Unterschied gut, denn das ie ist lang.",
+        "en": "Verbs with a long 'e' in the stem take 'ie' with du and er/sie/es: lesen, sehen. You can hear the difference clearly, because the ie is long."
+      },
+      "examples": [
+        {
+          "de": "Du liest ein Buch.",
+          "gloss": { "de": "Ein Buch liegt vor dir.", "en": "You are reading a book." },
+          "note": { "de": "lesen wird zu du liest", "en": "lesen becomes du liest" }
+        },
+        {
+          "de": "Er sieht einen Film.",
+          "gloss": { "de": "Er schaut sich einen Film an.", "en": "He is watching a film." },
+          "note": { "de": "sehen wird zu er sieht", "en": "sehen becomes er sieht" }
+        },
+        {
+          "de": "Meine Mutter liest die Zeitung.",
+          "gloss": { "de": "Die Zeitung liegt bei meiner Mutter.", "en": "My mother reads the newspaper." },
+          "note": { "de": "3. Person Singular: liest", "en": "3rd person singular: liest" }
+        }
+      ]
+    },
+    {
+      "id": "au-zu-aeu",
+      "title": { "de": "au wird zu äu", "en": "au becomes äu" },
+      "body": {
+        "de": "Das Verb 'laufen' ändert 'au' zu 'äu': du läufst, er/sie/es läuft. Auch hier bleiben ich, wir, ihr und sie/Sie ohne Wechsel.",
+        "en": "The verb 'laufen' changes 'au' to 'äu': du läufst, er/sie/es läuft. Here too, ich, wir, ihr and sie/Sie stay unchanged."
+      },
+      "examples": [
+        {
+          "de": "Du läufst jeden Morgen.",
+          "gloss": { "de": "Jeden Morgen gehst du joggen.", "en": "You run every morning." },
+          "note": { "de": "laufen wird zu du läufst", "en": "laufen becomes du läufst" }
+        },
+        {
+          "de": "Er läuft zum Bus.",
+          "gloss": { "de": "Er rennt schnell zur Haltestelle.", "en": "He runs to the bus." },
+          "note": { "de": "laufen wird zu er läuft", "en": "laufen becomes er läuft" }
+        },
+        {
+          "de": "Wir laufen im Park.",
+          "gloss": { "de": "Unsere Runde führt durch den Park.", "en": "We run in the park." },
+          "note": { "de": "wir bleibt ohne Umlaut", "en": "wir keeps the plain vowel" }
+        }
+      ]
+    },
+    {
+      "id": "sonderformen",
+      "title": { "de": "Sonderformen: nehmen, essen, halten", "en": "Special forms: nehmen, essen, halten" },
+      "body": {
+        "de": "Einige Verben ändern mehr als nur den Vokal: 'nehmen' wird zu du nimmst und er nimmt. Endet der Stamm auf s oder ss, fällt das s der Endung weg: essen wird zu du isst, lesen zu du liest. Bei 'halten' heißt es du hältst und er hält.",
+        "en": "Some verbs change more than the vowel: 'nehmen' becomes du nimmst and er nimmt. If the stem ends in s or ss, the s of the ending drops out: essen becomes du isst, lesen becomes du liest. For 'halten' it is du hältst and er hält."
+      },
+      "examples": [
+        {
+          "de": "Du nimmst den Bus.",
+          "gloss": { "de": "Du fährst mit dem Bus.", "en": "You take the bus." },
+          "note": { "de": "nehmen wird zu nimmst, mit Doppel-m", "en": "nehmen becomes nimmst, with a double m" }
+        },
+        {
+          "de": "Er isst gern Pizza.",
+          "gloss": { "de": "Pizza schmeckt ihm gut.", "en": "He likes eating pizza." },
+          "note": { "de": "essen wird zu isst, nur ein s der Endung", "en": "essen becomes isst, the ending keeps just one s" }
+        },
+        {
+          "de": "Du hältst den Ball.",
+          "gloss": { "de": "Der Ball bleibt in deiner Hand.", "en": "You are holding the ball." },
+          "note": { "de": "halten wird zu du hältst", "en": "halten becomes du hältst" }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "fill",
+      "prompt": "Ich fahre mit dem Bus, und du ___ mit dem Rad.",
+      "promptGloss": { "de": "Ich nehme den Bus, du nimmst das Fahrrad.", "en": "I go by bus, and you go by bike." },
+      "answer": "fährst",
+      "explain": {
+        "de": "fahren wechselt bei 'du' von a zu ä: du fährst.",
+        "en": "fahren changes a to ä with 'du': du fährst."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Meine Mutter ___ am Wochenende nach Berlin.",
+      "promptGloss": { "de": "Am Wochenende reist meine Mutter nach Berlin.", "en": "My mother travels to Berlin at the weekend." },
+      "options": ["fährt", "fahrt", "fährst"],
+      "answer": "fährt",
+      "explain": {
+        "de": "3. Person Singular bekommt den Umlaut: fährt, nicht fahrt oder fährst.",
+        "en": "The 3rd person singular takes the umlaut: fährt, not fahrt or fährst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir schlafen lange, aber er ___ nur kurz.",
+      "promptGloss": { "de": "Unser Schlaf ist lang, seiner ist kurz.", "en": "We sleep for a long time, but he sleeps only briefly." },
+      "answer": "schläft",
+      "explain": {
+        "de": "schlafen wechselt bei 'er' von a zu ä: er schläft.",
+        "en": "schlafen changes a to ä with 'er': er schläft."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Du ___ den schweren Koffer.",
+      "promptGloss": { "de": "Der schwere Koffer ist in deiner Hand.", "en": "You are carrying the heavy suitcase." },
+      "options": ["trägst", "tragst", "trägt"],
+      "answer": "trägst",
+      "explain": {
+        "de": "tragen braucht bei 'du' Umlaut und Endung -st: trägst.",
+        "en": "tragen needs the umlaut plus the ending -st with 'du': trägst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir sprechen Deutsch, und du ___ Spanisch.",
+      "promptGloss": { "de": "Unsere Sprache ist Deutsch, deine ist Spanisch.", "en": "We speak German, and you speak Spanish." },
+      "answer": "sprichst",
+      "explain": {
+        "de": "sprechen wechselt bei 'du' von e zu i: du sprichst.",
+        "en": "sprechen changes e to i with 'du': du sprichst."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Mein Bruder ___ drei Sprachen.",
+      "promptGloss": { "de": "Mein Bruder kann drei Sprachen.", "en": "My brother speaks three languages." },
+      "options": ["spricht", "sprecht", "sprichst"],
+      "answer": "spricht",
+      "explain": {
+        "de": "3. Person Singular wechselt zu i: spricht, nicht sprecht oder sprichst.",
+        "en": "The 3rd person singular changes to i: spricht, not sprecht or sprichst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir helfen gern, und er ___ auch.",
+      "promptGloss": { "de": "Alle helfen gern, er ebenso.", "en": "We like helping, and he helps too." },
+      "answer": "hilft",
+      "explain": {
+        "de": "helfen wechselt bei 'er' von e zu i: er hilft.",
+        "en": "helfen changes e to i with 'er': er hilft."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Du ___ mir immer gute Tipps.",
+      "promptGloss": { "de": "Von dir kommen immer gute Tipps.", "en": "You always give me good tips." },
+      "options": ["gibst", "gebst", "gibt"],
+      "answer": "gibst",
+      "explain": {
+        "de": "geben wechselt bei 'du' zu i und endet auf -st: gibst.",
+        "en": "geben changes to i with 'du' and ends in -st: gibst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir lesen viel, und meine Tochter ___ jeden Abend.",
+      "promptGloss": { "de": "In unserer Familie wird viel gelesen, sie jeden Abend.", "en": "We read a lot, and my daughter reads every evening." },
+      "answer": "liest",
+      "explain": {
+        "de": "lesen wechselt in der 3. Person von e zu ie: sie liest.",
+        "en": "lesen changes e to ie in the 3rd person: sie liest."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Du ___ heute einen guten Film.",
+      "promptGloss": { "de": "Heute schaust du einen guten Film.", "en": "You are watching a good film today." },
+      "options": ["siehst", "sehst", "sieht"],
+      "answer": "siehst",
+      "explain": {
+        "de": "sehen wechselt bei 'du' von e zu ie: du siehst.",
+        "en": "sehen changes e to ie with 'du': du siehst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir laufen langsam, aber der Junge ___ schnell.",
+      "promptGloss": { "de": "Unser Tempo ist langsam, seines ist schnell.", "en": "We run slowly, but the boy runs fast." },
+      "answer": "läuft",
+      "explain": {
+        "de": "laufen wechselt in der 3. Person von au zu äu: er läuft.",
+        "en": "laufen changes au to äu in the 3rd person: er läuft."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Du ___ jeden Morgen zum Bus.",
+      "promptGloss": { "de": "Jeden Morgen rennst du zur Haltestelle.", "en": "You run to the bus every morning." },
+      "options": ["läufst", "laufst", "läuft"],
+      "answer": "läufst",
+      "explain": {
+        "de": "laufen braucht bei 'du' äu und die Endung -st: läufst.",
+        "en": "laufen needs äu plus the ending -st with 'du': läufst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich nehme den Zug, und du ___ den Bus.",
+      "promptGloss": { "de": "Ich fahre mit dem Zug, du mit dem Bus.", "en": "I take the train, and you take the bus." },
+      "answer": "nimmst",
+      "explain": {
+        "de": "nehmen hat bei 'du' die Sonderform nimmst mit Doppel-m.",
+        "en": "nehmen has the special form nimmst with a double m for 'du'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Mein Vater ___ immer den Zug.",
+      "promptGloss": { "de": "Mein Vater fährt immer mit dem Zug.", "en": "My father always takes the train." },
+      "options": ["nimmt", "nehmt", "nimmst"],
+      "answer": "nimmt",
+      "explain": {
+        "de": "3. Person Singular von nehmen ist nimmt, nicht nehmt oder nimmst.",
+        "en": "The 3rd person singular of nehmen is nimmt, not nehmt or nimmst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir essen um sechs, und du ___ um sieben.",
+      "promptGloss": { "de": "Unser Essen ist um sechs, deines um sieben.", "en": "We eat at six, and you eat at seven." },
+      "answer": "isst",
+      "explain": {
+        "de": "essen wird zu isst, weil der Stamm auf ss endet und das s der Endung wegfällt.",
+        "en": "essen becomes isst, because the stem ends in ss and the s of the ending drops out."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das Kind ___ kein Gemüse.",
+      "promptGloss": { "de": "Gemüse mag das Kind nicht.", "en": "The child does not eat vegetables." },
+      "options": ["isst", "esst", "essen"],
+      "answer": "isst",
+      "explain": {
+        "de": "'Das Kind' ist 3. Person Singular, also isst, nicht esst oder essen.",
+        "en": "'Das Kind' is 3rd person singular, so it is isst, not esst or essen."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Er fährt nach Hamburg, und wir ___ nach Bremen.",
+      "promptGloss": { "de": "Sein Ziel ist Hamburg, unseres ist Bremen.", "en": "He goes to Hamburg, and we go to Bremen." },
+      "answer": "fahren",
+      "explain": {
+        "de": "Bei 'wir' gibt es keinen Vokalwechsel, der Stamm bleibt wie im Infinitiv.",
+        "en": "There is no vowel change with 'wir', the stem stays as in the infinitive."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ihr ___ sehr leise.",
+      "promptGloss": { "de": "Eure Stimmen sind sehr leise.", "en": "You (plural) speak very quietly." },
+      "options": ["sprecht", "sprichst", "spricht"],
+      "answer": "sprecht",
+      "explain": {
+        "de": "Die ihr-Form behält das e: sprecht, denn der Wechsel gilt nur für du und er/sie/es.",
+        "en": "The ihr form keeps the e: sprecht, since the change applies only to du and er/sie/es."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Du liest die Zeitung, und ich ___ ein Buch.",
+      "promptGloss": { "de": "Deine Lektüre ist die Zeitung, meine ein Buch.", "en": "You read the newspaper, and I read a book." },
+      "answer": "lese",
+      "explain": {
+        "de": "Die ich-Form hat keinen Wechsel: lese, nicht liese.",
+        "en": "The ich form has no change: lese, not liese."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Du ___ den Ball fest in der Hand.",
+      "promptGloss": { "de": "Der Ball bleibt fest in deiner Hand.", "en": "You hold the ball firmly in your hand." },
+      "options": ["hältst", "haltst", "hält"],
+      "answer": "hältst",
+      "explain": {
+        "de": "halten bekommt bei 'du' Umlaut und Endung: hältst.",
+        "en": "halten takes the umlaut plus the ending with 'du': hältst."
+      }
+    }
+  ]
+}

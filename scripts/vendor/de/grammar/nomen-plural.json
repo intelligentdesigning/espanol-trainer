@@ -1,0 +1,561 @@
+{
+  "id": "nomen-plural",
+  "name": {
+    "de": "Nomen & Plural",
+    "en": "Nouns & Plural"
+  },
+  "summary": {
+    "de": "Nomen schreibt man immer groß, und der Plural entsteht mit den Endungen e, n, er, s und oft mit einem Umlaut.",
+    "en": "Nouns are always capitalised, and plurals are formed with the endings e, n, er, s and often with an umlaut."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "grossschreibung",
+      "title": {
+        "de": "Nomen schreibt man groß",
+        "en": "Nouns are always capitalised"
+      },
+      "body": {
+        "de": "Im Deutschen beginnt jedes Nomen mit einem großen Buchstaben, auch mitten im Satz. Das gilt für Personen, Dinge und abstrakte Wörter. Verben und Adjektive bleiben dagegen klein.",
+        "en": "In German every noun starts with a capital letter, also in the middle of a sentence. This is true for people, things and abstract words. Verbs and adjectives stay lower case."
+      },
+      "examples": [
+        {
+          "de": "Der Baum steht im Garten.",
+          "gloss": {
+            "de": "Im Garten steht ein Baum.",
+            "en": "The tree stands in the garden."
+          },
+          "note": {
+            "de": "Baum und Garten sind Nomen, also groß.",
+            "en": "Baum and Garten are nouns, so capitalised."
+          }
+        },
+        {
+          "de": "Am Abend lese ich ein Buch.",
+          "gloss": {
+            "de": "Abends lese ich ein Buch.",
+            "en": "In the evening I read a book."
+          },
+          "note": {
+            "de": "lese bleibt klein, Abend und Buch sind groß.",
+            "en": "lese stays small, Abend and Buch are capitalised."
+          }
+        },
+        {
+          "de": "Meine Schwester trinkt Milch.",
+          "gloss": {
+            "de": "Meine Schwester trinkt gerade Milch.",
+            "en": "My sister is drinking milk."
+          },
+          "note": {
+            "de": "Auch nach meine wird das Nomen groß geschrieben.",
+            "en": "The noun is capitalised even after meine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "plural-e",
+      "title": {
+        "de": "Plural mit e",
+        "en": "Plural with e"
+      },
+      "body": {
+        "de": "Viele Nomen bilden den Plural mit der Endung e. Das betrifft besonders oft maskuline Nomen wie der Hund oder der Tag. Im Plural steht dann der Artikel die.",
+        "en": "Many nouns form their plural with the ending e. This happens especially often with masculine nouns like der Hund or der Tag. In the plural the article is die."
+      },
+      "examples": [
+        {
+          "de": "Ein Hund bellt, aber zwei Hunde sind laut.",
+          "gloss": {
+            "de": "Zwei Hunde machen mehr Lärm als einer.",
+            "en": "One dog barks, but two dogs are loud."
+          },
+          "note": {
+            "de": "der Hund wird zu die Hunde.",
+            "en": "der Hund becomes die Hunde."
+          }
+        },
+        {
+          "de": "Die Woche hat sieben Tage.",
+          "gloss": {
+            "de": "Eine Woche besteht aus sieben Tagen.",
+            "en": "A week has seven days."
+          },
+          "note": {
+            "de": "der Tag wird zu die Tage.",
+            "en": "der Tag becomes die Tage."
+          }
+        },
+        {
+          "de": "Im Büro stehen drei Tische.",
+          "gloss": {
+            "de": "Das Büro hat drei Tische.",
+            "en": "There are three tables in the office."
+          },
+          "note": {
+            "de": "der Tisch wird zu die Tische.",
+            "en": "der Tisch becomes die Tische."
+          }
+        }
+      ]
+    },
+    {
+      "id": "plural-n-en",
+      "title": {
+        "de": "Plural mit n oder en",
+        "en": "Plural with n or en"
+      },
+      "body": {
+        "de": "Sehr viele feminine Nomen bilden den Plural mit n oder en. Endet das Nomen schon auf e, kommt nur ein n dazu, sonst en. Diese Gruppe ist die größte im Deutschen.",
+        "en": "Very many feminine nouns form their plural with n or en. If the noun already ends in e, only an n is added, otherwise en. This is the largest group in German."
+      },
+      "examples": [
+        {
+          "de": "Im Garten wachsen viele Blumen.",
+          "gloss": {
+            "de": "Der Garten ist voll mit Blumen.",
+            "en": "Many flowers grow in the garden."
+          },
+          "note": {
+            "de": "die Blume endet auf e, also nur ein n dazu.",
+            "en": "die Blume ends in e, so only n is added."
+          }
+        },
+        {
+          "de": "Zwei Frauen warten vor der Tür.",
+          "gloss": {
+            "de": "Vor der Tür stehen zwei Frauen.",
+            "en": "Two women are waiting at the door."
+          },
+          "note": {
+            "de": "die Frau wird zu die Frauen.",
+            "en": "die Frau becomes die Frauen."
+          }
+        },
+        {
+          "de": "Anna hat zwei Schwestern.",
+          "gloss": {
+            "de": "Anna hat insgesamt zwei Schwestern.",
+            "en": "Anna has two sisters."
+          },
+          "note": {
+            "de": "die Schwester bekommt nur ein n.",
+            "en": "die Schwester only adds an n."
+          }
+        }
+      ]
+    },
+    {
+      "id": "plural-er",
+      "title": {
+        "de": "Plural mit er",
+        "en": "Plural with er"
+      },
+      "body": {
+        "de": "Eine kleinere Gruppe bildet den Plural mit der Endung er. Das sind oft kurze neutrale Nomen wie das Kind oder das Bild. Manchmal kommt zusätzlich ein Umlaut dazu, zum Beispiel bei das Buch.",
+        "en": "A smaller group forms the plural with the ending er. These are often short neuter nouns like das Kind or das Bild. Sometimes an umlaut is added as well, for example with das Buch."
+      },
+      "examples": [
+        {
+          "de": "Drei Kinder spielen draußen.",
+          "gloss": {
+            "de": "Draußen spielen drei Kinder.",
+            "en": "Three children are playing outside."
+          },
+          "note": {
+            "de": "das Kind wird zu die Kinder.",
+            "en": "das Kind becomes die Kinder."
+          }
+        },
+        {
+          "de": "An der Wand hängen zwei Bilder.",
+          "gloss": {
+            "de": "Zwei Bilder hängen an der Wand.",
+            "en": "Two pictures hang on the wall."
+          },
+          "note": {
+            "de": "das Bild wird zu die Bilder.",
+            "en": "das Bild becomes die Bilder."
+          }
+        },
+        {
+          "de": "Sie liest drei Bücher pro Monat.",
+          "gloss": {
+            "de": "Pro Monat schafft sie drei Bücher.",
+            "en": "She reads three books a month."
+          },
+          "note": {
+            "de": "das Buch bekommt er und einen Umlaut.",
+            "en": "das Buch adds er plus an umlaut."
+          }
+        }
+      ]
+    },
+    {
+      "id": "plural-s",
+      "title": {
+        "de": "Plural mit s",
+        "en": "Plural with s"
+      },
+      "body": {
+        "de": "Wörter aus anderen Sprachen und viele Nomen auf o bilden den Plural mit s. Typisch sind das Auto, das Foto und das Hotel. Diese Form ist leicht, weil das Wort sonst gleich bleibt.",
+        "en": "Words from other languages and many nouns ending in o form their plural with s. Typical cases are das Auto, das Foto and das Hotel. This form is easy because the word itself does not change."
+      },
+      "examples": [
+        {
+          "de": "Vor dem Haus stehen fünf Autos.",
+          "gloss": {
+            "de": "Fünf Autos parken vor dem Haus.",
+            "en": "Five cars are parked in front of the house."
+          },
+          "note": {
+            "de": "das Auto wird zu die Autos.",
+            "en": "das Auto becomes die Autos."
+          }
+        },
+        {
+          "de": "Ich zeige dir meine Fotos.",
+          "gloss": {
+            "de": "Ich habe Fotos dabei und zeige sie dir.",
+            "en": "I will show you my photos."
+          },
+          "note": {
+            "de": "das Foto wird zu die Fotos.",
+            "en": "das Foto becomes die Fotos."
+          }
+        },
+        {
+          "de": "Am Meer gibt es viele Hotels.",
+          "gloss": {
+            "de": "Es gibt dort sehr viele Hotels.",
+            "en": "There are many hotels by the sea."
+          },
+          "note": {
+            "de": "das Hotel wird zu die Hotels.",
+            "en": "das Hotel becomes die Hotels."
+          }
+        }
+      ]
+    },
+    {
+      "id": "plural-umlaut",
+      "title": {
+        "de": "Plural mit Umlaut",
+        "en": "Plural with umlaut"
+      },
+      "body": {
+        "de": "Viele Nomen ändern im Plural den Vokal: a wird zu ä, o wird zu ö, u wird zu ü. Oft kommt zusätzlich die Endung e oder er dazu, manchmal auch gar keine Endung. Den Umlaut muss man einfach mitlernen.",
+        "en": "Many nouns change their vowel in the plural: a becomes ä, o becomes ö, u becomes ü. Often the ending e or er is added as well, sometimes no ending at all. The umlaut simply has to be learned with the word."
+      },
+      "examples": [
+        {
+          "de": "Anna hat drei Brüder.",
+          "gloss": {
+            "de": "Anna hat insgesamt drei Brüder.",
+            "en": "Anna has three brothers."
+          },
+          "note": {
+            "de": "der Bruder wird zu die Brüder, ohne Endung.",
+            "en": "der Bruder becomes die Brüder, with no ending."
+          }
+        },
+        {
+          "de": "Am Tisch stehen vier Stühle.",
+          "gloss": {
+            "de": "Um den Tisch stehen vier Stühle.",
+            "en": "There are four chairs at the table."
+          },
+          "note": {
+            "de": "der Stuhl bekommt Umlaut und e.",
+            "en": "der Stuhl takes an umlaut plus e."
+          }
+        },
+        {
+          "de": "Im Park stehen alte Bäume.",
+          "gloss": {
+            "de": "Der Park hat alte Bäume.",
+            "en": "There are old trees in the park."
+          },
+          "note": {
+            "de": "der Baum wird zu die Bäume.",
+            "en": "der Baum becomes die Bäume."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "Auf dem Tisch liegt ein ___.",
+      "promptGloss": {
+        "de": "Auf dem Tisch liegt ein Buch.",
+        "en": "There is a book on the table."
+      },
+      "options": ["Buch", "buch"],
+      "answer": "Buch",
+      "explain": {
+        "de": "Buch ist ein Nomen und wird groß geschrieben.",
+        "en": "Buch is a noun, so it is capitalised."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Jeden Morgen trinke ich ___.",
+      "promptGloss": {
+        "de": "Jeden Morgen trinke ich Kaffee.",
+        "en": "Every morning I drink coffee."
+      },
+      "options": ["Kaffee", "kaffee"],
+      "answer": "Kaffee",
+      "explain": {
+        "de": "Auch mitten im Satz bleibt das Nomen groß.",
+        "en": "The noun stays capitalised in the middle of the sentence too."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Meine ___ heißt Anna.",
+      "promptGloss": {
+        "de": "Meine Schwester heißt Anna.",
+        "en": "My sister is called Anna."
+      },
+      "options": ["Schwester", "schwester"],
+      "answer": "Schwester",
+      "explain": {
+        "de": "Nach meine folgt ein Nomen, also groß.",
+        "en": "A noun follows meine, so it is capitalised."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Zwei Kinder spielen dort, ein ___ spielt hier.",
+      "promptGloss": {
+        "de": "Zwei Kinder spielen dort, ein Kind spielt hier.",
+        "en": "Two children play over there, one child plays here."
+      },
+      "answer": "Kind",
+      "explain": {
+        "de": "Der Singular von Kinder ist Kind und wird groß geschrieben.",
+        "en": "The singular of Kinder is Kind and is capitalised."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ein Hund schläft, aber zwei ___ spielen.",
+      "promptGloss": {
+        "de": "Ein Hund schläft, aber zwei Hunde spielen.",
+        "en": "One dog is sleeping but two dogs are playing."
+      },
+      "answer": "Hunde",
+      "explain": {
+        "de": "der Hund bildet den Plural mit e.",
+        "en": "der Hund forms its plural with e."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Die Woche hat sieben ___.",
+      "promptGloss": {
+        "de": "Eine Woche hat sieben Tage.",
+        "en": "A week has seven days."
+      },
+      "options": ["Tage", "Tagen", "Tags"],
+      "answer": "Tage",
+      "explain": {
+        "de": "Der Plural von Tag heißt Tage.",
+        "en": "The plural of Tag is Tage."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Im Zimmer steht ein Tisch, im Büro stehen drei ___.",
+      "promptGloss": {
+        "de": "Im Zimmer steht ein Tisch, im Büro stehen drei Tische.",
+        "en": "There is one table in the room and three tables in the office."
+      },
+      "answer": "Tische",
+      "explain": {
+        "de": "der Tisch bekommt im Plural die Endung e.",
+        "en": "der Tisch takes the plural ending e."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Eine Frau wartet hier, dort warten viele ___.",
+      "promptGloss": {
+        "de": "Eine Frau wartet hier, dort warten viele Frauen.",
+        "en": "One woman is waiting here, many women are waiting over there."
+      },
+      "answer": "Frauen",
+      "explain": {
+        "de": "die Frau bildet den Plural mit en.",
+        "en": "die Frau forms its plural with en."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Im Garten wachsen viele ___.",
+      "promptGloss": {
+        "de": "Im Garten wachsen viele Blumen.",
+        "en": "Many flowers grow in the garden."
+      },
+      "options": ["Blumen", "Blume", "Blumes"],
+      "answer": "Blumen",
+      "explain": {
+        "de": "Blume endet auf e, im Plural kommt nur n dazu.",
+        "en": "Blume ends in e, so the plural only adds n."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich habe eine Schwester, Anna hat zwei ___.",
+      "promptGloss": {
+        "de": "Ich habe eine Schwester, Anna hat zwei Schwestern.",
+        "en": "I have one sister, Anna has two sisters."
+      },
+      "answer": "Schwestern",
+      "explain": {
+        "de": "die Schwester bekommt im Plural ein n.",
+        "en": "die Schwester adds n in the plural."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ein Kind spielt hier, drei ___ spielen dort.",
+      "promptGloss": {
+        "de": "Ein Kind spielt hier, drei Kinder spielen dort.",
+        "en": "One child plays here, three children play over there."
+      },
+      "answer": "Kinder",
+      "explain": {
+        "de": "das Kind bildet den Plural mit er.",
+        "en": "das Kind forms its plural with er."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "An der Wand hängen zwei ___.",
+      "promptGloss": {
+        "de": "An der Wand hängen zwei Bilder.",
+        "en": "Two pictures hang on the wall."
+      },
+      "options": ["Bilder", "Bilde", "Bilds"],
+      "answer": "Bilder",
+      "explain": {
+        "de": "Der Plural von Bild heißt Bilder.",
+        "en": "The plural of Bild is Bilder."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich lese ein Buch, meine Freundin liest drei ___.",
+      "promptGloss": {
+        "de": "Ich lese ein Buch, meine Freundin liest drei Bücher.",
+        "en": "I read one book, my friend reads three books."
+      },
+      "answer": "Bücher",
+      "explain": {
+        "de": "das Buch bekommt er und dazu einen Umlaut.",
+        "en": "das Buch takes er plus an umlaut."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Hier steht ein Auto, dort stehen fünf ___.",
+      "promptGloss": {
+        "de": "Hier steht ein Auto, dort stehen fünf Autos.",
+        "en": "There is one car here and five cars over there."
+      },
+      "answer": "Autos",
+      "explain": {
+        "de": "das Auto bildet den Plural mit s.",
+        "en": "das Auto forms its plural with s."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Von der Reise habe ich viele ___.",
+      "promptGloss": {
+        "de": "Von der Reise habe ich viele Fotos.",
+        "en": "I have many photos from the trip."
+      },
+      "options": ["Fotos", "Foten", "Fotoe"],
+      "answer": "Fotos",
+      "explain": {
+        "de": "Nomen auf o bekommen im Plural ein s.",
+        "en": "Nouns ending in o take an s in the plural."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "In der Stadt gibt es ein Hotel, am Meer gibt es viele ___.",
+      "promptGloss": {
+        "de": "In der Stadt gibt es ein Hotel, am Meer gibt es viele Hotels.",
+        "en": "There is one hotel in town and many hotels by the sea."
+      },
+      "answer": "Hotels",
+      "explain": {
+        "de": "Hotel kommt aus einer anderen Sprache und bekommt s.",
+        "en": "Hotel comes from another language and takes s."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich habe einen Bruder, Anna hat drei ___.",
+      "promptGloss": {
+        "de": "Ich habe einen Bruder, Anna hat drei Brüder.",
+        "en": "I have one brother, Anna has three brothers."
+      },
+      "answer": "Brüder",
+      "explain": {
+        "de": "Bruder bekommt im Plural nur einen Umlaut.",
+        "en": "Bruder only takes an umlaut in the plural."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Am Tisch stehen vier ___.",
+      "promptGloss": {
+        "de": "Am Tisch stehen vier Stühle.",
+        "en": "There are four chairs at the table."
+      },
+      "options": ["Stühle", "Stuhle", "Stuhlen"],
+      "answer": "Stühle",
+      "explain": {
+        "de": "Stuhl bekommt im Plural Umlaut und e.",
+        "en": "Stuhl takes an umlaut plus e in the plural."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Eine Mutter wartet vorne, die anderen ___ warten draußen.",
+      "promptGloss": {
+        "de": "Eine Mutter wartet vorne, die anderen Mütter warten draußen.",
+        "en": "One mother waits at the front, the other mothers wait outside."
+      },
+      "answer": "Mütter",
+      "explain": {
+        "de": "Mutter bekommt im Plural nur einen Umlaut.",
+        "en": "Mutter only takes an umlaut in the plural."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Im Park stehen viele alte ___.",
+      "promptGloss": {
+        "de": "Im Park stehen viele alte Bäume.",
+        "en": "There are many old trees in the park."
+      },
+      "options": ["Bäume", "Baume", "Baums"],
+      "answer": "Bäume",
+      "explain": {
+        "de": "Baum bekommt im Plural Umlaut und e.",
+        "en": "Baum takes an umlaut plus e in the plural."
+      }
+    }
+  ]
+}

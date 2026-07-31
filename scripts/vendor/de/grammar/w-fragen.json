@@ -1,0 +1,523 @@
+{
+  "id": "w-fragen",
+  "name": {
+    "de": "W-Fragen",
+    "en": "W-questions (open questions)"
+  },
+  "summary": {
+    "de": "W-Fragen beginnen mit einem Fragewort wie wer, was, wo, wann, wie oder warum und verlangen eine echte Antwort, kein Ja oder Nein.",
+    "en": "W-questions start with a question word such as wer, was, wo, wann, wie or warum and ask for real information, not yes or no."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "satzbau",
+      "title": {
+        "de": "Satzbau: W-Wort, Verb, Subjekt",
+        "en": "Word order: question word, verb, subject"
+      },
+      "body": {
+        "de": "Das W-Wort steht auf Position 1. Direkt danach kommt das konjugierte Verb auf Position 2, erst dann folgt das Subjekt. Bei trennbaren Verben steht die Vorsilbe am Satzende.",
+        "en": "The question word takes position 1. The conjugated verb follows immediately in position 2, and only then comes the subject. With separable verbs the prefix goes to the end."
+      },
+      "examples": [
+        {
+          "de": "Wo wohnst du?",
+          "gloss": {
+            "de": "Frage nach dem Ort, an dem jemand wohnt.",
+            "en": "Where do you live?"
+          },
+          "note": {
+            "de": "Verb „wohnst“ auf Position 2, Subjekt „du“ danach.",
+            "en": "Verb „wohnst“ in position 2, subject „du“ after it."
+          }
+        },
+        {
+          "de": "Was macht ihr am Samstag?",
+          "gloss": {
+            "de": "Frage nach der Tätigkeit am Samstag.",
+            "en": "What are you doing on Saturday?"
+          },
+          "note": {
+            "de": "Nicht „Was ihr macht“, das Subjekt steht nach dem Verb.",
+            "en": "Not „Was ihr macht“, the subject comes after the verb."
+          }
+        },
+        {
+          "de": "Wann fängt der Film an?",
+          "gloss": {
+            "de": "Frage nach der Anfangszeit des Films.",
+            "en": "When does the film start?"
+          },
+          "note": {
+            "de": "Trennbares Verb: „an“ steht ganz am Ende.",
+            "en": "Separable verb: „an“ goes right to the end."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wer-was",
+      "title": {
+        "de": "wer und was",
+        "en": "wer and was"
+      },
+      "body": {
+        "de": "„Wer“ fragt nach Personen, „was“ fragt nach Sachen und Tätigkeiten. Nach „wer“ steht das Verb immer im Singular.",
+        "en": "„Wer“ asks about people, „was“ asks about things and activities. After „wer“ the verb is always singular."
+      },
+      "examples": [
+        {
+          "de": "Wer ist das?",
+          "gloss": {
+            "de": "Frage nach einer Person.",
+            "en": "Who is that?"
+          },
+          "note": {
+            "de": "Antwort: eine Person, zum Beispiel „Das ist Anna.“",
+            "en": "Answer: a person, for example „Das ist Anna.“"
+          }
+        },
+        {
+          "de": "Was ist das?",
+          "gloss": {
+            "de": "Frage nach einer Sache.",
+            "en": "What is that?"
+          },
+          "note": {
+            "de": "Antwort: eine Sache, zum Beispiel „Das ist ein Handy.“",
+            "en": "Answer: a thing, for example „Das ist ein Handy.“"
+          }
+        },
+        {
+          "de": "Wer kommt heute Abend?",
+          "gloss": {
+            "de": "Frage nach den Personen, die kommen.",
+            "en": "Who is coming tonight?"
+          },
+          "note": {
+            "de": "Nach „wer“ steht „kommt“, nie „kommen“.",
+            "en": "After „wer“ the verb is „kommt“, never „kommen“."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wo-woher-wohin",
+      "title": {
+        "de": "wo, woher, wohin",
+        "en": "wo, woher, wohin"
+      },
+      "body": {
+        "de": "„Wo“ fragt nach dem Ort ohne Bewegung. „Woher“ fragt nach der Herkunft, die Antwort hat meist „aus“ oder „von“. „Wohin“ fragt nach der Richtung, die Antwort hat meist „nach“, „zu“ oder „in“.",
+        "en": "„Wo“ asks about a place without movement. „Woher“ asks about origin and is usually answered with „aus“ or „von“. „Wohin“ asks about direction and is usually answered with „nach“, „zu“ or „in“."
+      },
+      "examples": [
+        {
+          "de": "Wo ist der Bahnhof?",
+          "gloss": {
+            "de": "Frage nach der Position von etwas.",
+            "en": "Where is the station?"
+          },
+          "note": {
+            "de": "Keine Bewegung, nur der Ort.",
+            "en": "No movement, just the location."
+          }
+        },
+        {
+          "de": "Woher kommst du?",
+          "gloss": {
+            "de": "Frage nach dem Herkunftsland oder der Herkunftsstadt.",
+            "en": "Where do you come from?"
+          },
+          "note": {
+            "de": "Antwort: „Ich komme aus Italien.“",
+            "en": "Answer: „Ich komme aus Italien.“"
+          }
+        },
+        {
+          "de": "Wohin gehst du?",
+          "gloss": {
+            "de": "Frage nach dem Ziel einer Bewegung.",
+            "en": "Where are you going?"
+          },
+          "note": {
+            "de": "Antwort: „Ich gehe nach Hause.“",
+            "en": "Answer: „Ich gehe nach Hause.“"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wann",
+      "title": {
+        "de": "wann",
+        "en": "wann"
+      },
+      "body": {
+        "de": "„Wann“ fragt nach der Zeit. Die Antwort ist eine Uhrzeit, ein Tag oder ein Datum. Sie beginnt oft mit „um“, „am“ oder „im“.",
+        "en": "„Wann“ asks about time. The answer is a clock time, a day or a date, and it often starts with „um“, „am“ or „im“."
+      },
+      "examples": [
+        {
+          "de": "Wann beginnt der Kurs?",
+          "gloss": {
+            "de": "Frage nach der Anfangszeit des Kurses.",
+            "en": "When does the course start?"
+          },
+          "note": {
+            "de": "Antwort: „Um neun Uhr.“",
+            "en": "Answer: „Um neun Uhr.“"
+          }
+        },
+        {
+          "de": "Wann hast du Geburtstag?",
+          "gloss": {
+            "de": "Frage nach dem Datum des Geburtstags.",
+            "en": "When is your birthday?"
+          },
+          "note": {
+            "de": "Antwort: „Am zwölften Mai.“",
+            "en": "Answer: „Am zwölften Mai.“"
+          }
+        },
+        {
+          "de": "Wann kommt der nächste Bus?",
+          "gloss": {
+            "de": "Frage nach dem Zeitpunkt der Abfahrt.",
+            "en": "When does the next bus come?"
+          },
+          "note": {
+            "de": "Antwort: „In zehn Minuten.“",
+            "en": "Answer: „In zehn Minuten.“"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wie",
+      "title": {
+        "de": "wie und Kombinationen",
+        "en": "wie and its combinations"
+      },
+      "body": {
+        "de": "„Wie“ fragt nach der Art und Weise. Sehr oft steht ein Wort direkt dahinter: „wie alt“, „wie viel“, „wie lange“, „wie oft“. Die zwei Wörter bleiben zusammen am Satzanfang.",
+        "en": "„Wie“ asks how something is or is done. Very often another word follows directly: „wie alt“, „wie viel“, „wie lange“, „wie oft“. The two words stay together at the start."
+      },
+      "examples": [
+        {
+          "de": "Wie geht es dir?",
+          "gloss": {
+            "de": "Frage nach dem Befinden einer Person.",
+            "en": "How are you?"
+          },
+          "note": {
+            "de": "Sehr häufige Begrüßungsfrage.",
+            "en": "A very common greeting question."
+          }
+        },
+        {
+          "de": "Wie alt bist du?",
+          "gloss": {
+            "de": "Frage nach dem Alter.",
+            "en": "How old are you?"
+          },
+          "note": {
+            "de": "„wie“ plus Adjektiv „alt“.",
+            "en": "„wie“ plus the adjective „alt“."
+          }
+        },
+        {
+          "de": "Wie viel kostet das Buch?",
+          "gloss": {
+            "de": "Frage nach dem Preis.",
+            "en": "How much does the book cost?"
+          },
+          "note": {
+            "de": "„wie viel“ fragt nach Preis oder Menge.",
+            "en": "„wie viel“ asks about price or quantity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "warum",
+      "title": {
+        "de": "warum",
+        "en": "warum"
+      },
+      "body": {
+        "de": "„Warum“ fragt nach dem Grund. Die Antwort beginnt oft mit „weil“ oder „denn“. Statt „warum“ kann man auch „wieso“ sagen.",
+        "en": "„Warum“ asks for a reason. The answer often starts with „weil“ or „denn“. You can also say „wieso“ instead of „warum“."
+      },
+      "examples": [
+        {
+          "de": "Warum lernst du Deutsch?",
+          "gloss": {
+            "de": "Frage nach dem Grund für das Deutschlernen.",
+            "en": "Why are you learning German?"
+          },
+          "note": {
+            "de": "Antwort: „Weil ich in Berlin arbeite.“",
+            "en": "Answer: „Weil ich in Berlin arbeite.“"
+          }
+        },
+        {
+          "de": "Warum bist du so müde?",
+          "gloss": {
+            "de": "Frage nach dem Grund für die Müdigkeit.",
+            "en": "Why are you so tired?"
+          },
+          "note": {
+            "de": "Antwort: „Weil ich wenig geschlafen habe.“",
+            "en": "Answer: „Weil ich wenig geschlafen habe.“"
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "___ ihr am Samstag?",
+      "promptGloss": {
+        "de": "Was macht ihr am Samstag?",
+        "en": "What are you doing on Saturday?"
+      },
+      "options": ["Was macht", "Was ihr macht", "Ihr was macht"],
+      "answer": "Was macht",
+      "explain": {
+        "de": "Nach dem W-Wort steht sofort das Verb, das Subjekt „ihr“ folgt danach.",
+        "en": "The verb comes straight after the question word, and the subject „ihr“ follows it."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wann ___ der Film an?",
+      "promptGloss": {
+        "de": "Wann fängt der Film an?",
+        "en": "When does the film start?"
+      },
+      "answer": "fängt",
+      "explain": {
+        "de": "Das konjugierte Verb steht direkt nach „wann“, die Vorsilbe „an“ bleibt am Satzende.",
+        "en": "The conjugated verb goes right after „wann“, while the prefix „an“ stays at the end."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ dein Freund?",
+      "promptGloss": {
+        "de": "Wie heißt dein Freund?",
+        "en": "What is your friend's name?"
+      },
+      "options": ["Wie heißt", "Wie er heißt", "Wie heißt er"],
+      "answer": "Wie heißt",
+      "explain": {
+        "de": "Auf Position 1 steht das W-Wort, auf Position 2 das Verb, dann kommt das Subjekt „dein Freund“.",
+        "en": "Position 1 holds the question word, position 2 the verb, then comes the subject „dein Freund“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ ist der Mann dort, dein Vater?",
+      "promptGloss": {
+        "de": "Wer ist der Mann dort, dein Vater?",
+        "en": "Who is the man over there, your father?"
+      },
+      "answer": "Wer",
+      "explain": {
+        "de": "Es geht um eine Person, deshalb „wer“.",
+        "en": "The question is about a person, so „wer“ is used."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ kochst du heute Abend?",
+      "promptGloss": {
+        "de": "Was kochst du heute Abend?",
+        "en": "What are you cooking tonight?"
+      },
+      "options": ["Was", "Wer", "Wo"],
+      "answer": "Was",
+      "explain": {
+        "de": "Gefragt ist das Essen, also eine Sache, deshalb „was“.",
+        "en": "The question asks about food, a thing, so „was“ is correct."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ kommt heute Abend zur Party, Anna oder Ben?",
+      "promptGloss": {
+        "de": "Wer kommt heute Abend zur Party, Anna oder Ben?",
+        "en": "Who is coming to the party tonight, Anna or Ben?"
+      },
+      "answer": "Wer",
+      "explain": {
+        "de": "Anna und Ben sind Personen, deshalb fragt man mit „wer“.",
+        "en": "Anna and Ben are people, so the question word is „wer“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ wohnst du?",
+      "promptGloss": {
+        "de": "Wo wohnst du?",
+        "en": "Where do you live?"
+      },
+      "answer": "Wo",
+      "explain": {
+        "de": "„Wohnen“ nennt einen Ort ohne Bewegung, deshalb „wo“.",
+        "en": "„Wohnen“ describes a place without movement, so „wo“ is used."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ kommst du, aus Italien oder aus Spanien?",
+      "promptGloss": {
+        "de": "Woher kommst du, aus Italien oder aus Spanien?",
+        "en": "Where do you come from, from Italy or from Spain?"
+      },
+      "options": ["Woher", "Wohin", "Wo"],
+      "answer": "Woher",
+      "explain": {
+        "de": "Die Antwort mit „aus“ zeigt die Herkunft, deshalb „woher“.",
+        "en": "The answer with „aus“ shows origin, so „woher“ is correct."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ gehst du heute Abend?",
+      "promptGloss": {
+        "de": "Wohin gehst du heute Abend?",
+        "en": "Where are you going tonight?"
+      },
+      "answer": "Wohin",
+      "explain": {
+        "de": "„Gehen“ ist eine Bewegung mit Ziel, deshalb „wohin“.",
+        "en": "„Gehen“ is movement towards a goal, so „wohin“ is used."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ ist die Toilette?",
+      "promptGloss": {
+        "de": "Wo ist die Toilette?",
+        "en": "Where is the toilet?"
+      },
+      "options": ["Wo", "Wohin", "Woher"],
+      "answer": "Wo",
+      "explain": {
+        "de": "Gefragt ist die Position, nicht eine Richtung, deshalb „wo“.",
+        "en": "The question is about position, not direction, so „wo“ is right."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ beginnt der Kurs, um acht oder um neun?",
+      "promptGloss": {
+        "de": "Wann beginnt der Kurs, um acht oder um neun?",
+        "en": "When does the course start, at eight or at nine?"
+      },
+      "answer": "Wann",
+      "explain": {
+        "de": "Die Antwort ist eine Uhrzeit, deshalb „wann“.",
+        "en": "The answer is a clock time, so „wann“ is used."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ hast du Geburtstag?",
+      "promptGloss": {
+        "de": "Wann hast du Geburtstag?",
+        "en": "When is your birthday?"
+      },
+      "options": ["Wann", "Wo", "Wie"],
+      "answer": "Wann",
+      "explain": {
+        "de": "Ein Geburtstag ist ein Datum, also fragt man nach der Zeit mit „wann“.",
+        "en": "A birthday is a date, so you ask about time with „wann“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ fährt der nächste Zug nach Köln?",
+      "promptGloss": {
+        "de": "Wann fährt der nächste Zug nach Köln?",
+        "en": "When does the next train to Cologne leave?"
+      },
+      "answer": "Wann",
+      "explain": {
+        "de": "Das Ziel Köln steht schon im Satz, gefragt ist der Zeitpunkt.",
+        "en": "The destination Cologne is already given, so the question is about time."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ geht es dir?",
+      "promptGloss": {
+        "de": "Wie geht es dir?",
+        "en": "How are you?"
+      },
+      "answer": "Wie",
+      "explain": {
+        "de": "Gefragt ist das Befinden, also die Art und Weise mit „wie“.",
+        "en": "The question is about how someone feels, so „wie“ is used."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ alt bist du?",
+      "promptGloss": {
+        "de": "Wie alt bist du?",
+        "en": "How old are you?"
+      },
+      "options": ["Wie", "Was", "Wann"],
+      "answer": "Wie",
+      "explain": {
+        "de": "Vor einem Adjektiv wie „alt“ steht „wie“.",
+        "en": "Before an adjective such as „alt“ you use „wie“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ viel kostet das Buch?",
+      "promptGloss": {
+        "de": "Wie viel kostet das Buch?",
+        "en": "How much does the book cost?"
+      },
+      "answer": "Wie",
+      "explain": {
+        "de": "Nach dem Preis fragt man mit der Kombination „wie viel“.",
+        "en": "You ask about a price with the combination „wie viel“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ kommst du zu spät?",
+      "promptGloss": {
+        "de": "Warum kommst du zu spät?",
+        "en": "Why are you late?"
+      },
+      "answer": "Warum",
+      "explain": {
+        "de": "Gefragt ist der Grund für die Verspätung, deshalb „warum“.",
+        "en": "The question asks for the reason for being late, so „warum“ is used."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ bist du so müde?",
+      "promptGloss": {
+        "de": "Warum bist du so müde?",
+        "en": "Why are you so tired?"
+      },
+      "options": ["Warum", "Wohin", "Wann"],
+      "answer": "Warum",
+      "explain": {
+        "de": "Die Antwort nennt einen Grund mit „weil“, deshalb „warum“.",
+        "en": "The answer gives a reason with „weil“, so „warum“ is correct."
+      }
+    }
+  ]
+}

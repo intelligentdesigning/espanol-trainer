@@ -1,0 +1,502 @@
+{
+  "id": "personalpronomen",
+  "name": {
+    "de": "Personalpronomen",
+    "en": "Personal pronouns"
+  },
+  "summary": {
+    "de": "Die Personalpronomen ich, du, er, sie, es, wir, ihr, sie und Sie stehen für Personen und Dinge und bestimmen die Form des Verbs.",
+    "en": "The personal pronouns ich, du, er, sie, es, wir, ihr, sie and Sie stand for people and things, and they decide which verb form you use."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "grundformen",
+      "title": {
+        "de": "Die neun Grundformen",
+        "en": "The nine basic forms"
+      },
+      "body": {
+        "de": "Im Deutschen gibt es drei Personen im Singular (ich, du, er/sie/es) und drei im Plural (wir, ihr, sie). Dazu kommt die Höflichkeitsform Sie. Jedes Pronomen verlangt eine eigene Verbform, deshalb lernt man Pronomen und Verb immer zusammen.",
+        "en": "German has three persons in the singular (ich, du, er/sie/es) and three in the plural (wir, ihr, sie). On top of that comes the polite form Sie. Every pronoun asks for its own verb form, so always learn the pronoun together with the verb."
+      },
+      "examples": [
+        {
+          "de": "Ich bin Anna.",
+          "gloss": {
+            "de": "Die sprechende Person redet über sich selbst.",
+            "en": "I am Anna."
+          },
+          "note": {
+            "de": "ich steht für die Person, die spricht.",
+            "en": "ich stands for the person who is speaking."
+          }
+        },
+        {
+          "de": "Du hast einen Hund.",
+          "gloss": {
+            "de": "Aussage über die Person, mit der man spricht.",
+            "en": "You have a dog."
+          },
+          "note": {
+            "de": "du steht für eine Person, mit der man direkt spricht.",
+            "en": "du stands for one person you are speaking to directly."
+          }
+        },
+        {
+          "de": "Wir wohnen in Köln.",
+          "gloss": {
+            "de": "Mehrere Personen, und die sprechende Person gehört dazu.",
+            "en": "We live in Cologne."
+          },
+          "note": {
+            "de": "wir bedeutet: ich und mindestens eine weitere Person.",
+            "en": "wir means: I plus at least one other person."
+          }
+        }
+      ]
+    },
+    {
+      "id": "du-ihr-sie-anrede",
+      "title": {
+        "de": "du, ihr oder Sie?",
+        "en": "du, ihr or Sie?"
+      },
+      "body": {
+        "de": "Für das englische you gibt es im Deutschen drei Wörter. du sagt man zu einer vertrauten Person, ihr zu mehreren vertrauten Personen. Sie ist die höfliche Anrede für eine oder mehrere fremde Personen und wird immer großgeschrieben.",
+        "en": "German has three words for English you. Use du for one person you know well, and ihr for several such people. Sie is the polite address for one or more people you do not know, and it is always written with a capital letter."
+      },
+      "examples": [
+        {
+          "de": "Papa, kommst du mit?",
+          "gloss": {
+            "de": "Frage an eine einzelne vertraute Person.",
+            "en": "Dad, are you coming along?"
+          },
+          "note": {
+            "de": "du passt in der Familie und unter Freunden.",
+            "en": "Use du in the family and among friends."
+          }
+        },
+        {
+          "de": "Kinder, seid ihr fertig?",
+          "gloss": {
+            "de": "Frage an mehrere vertraute Personen.",
+            "en": "Children, are you finished?"
+          },
+          "note": {
+            "de": "ihr ist der Plural von du.",
+            "en": "ihr is the plural of du."
+          }
+        },
+        {
+          "de": "Frau Berg, haben Sie Zeit?",
+          "gloss": {
+            "de": "Höfliche Frage an eine fremde Person.",
+            "en": "Mrs Berg, do you have time?"
+          },
+          "note": {
+            "de": "Sie schreibt man immer mit großem S.",
+            "en": "Sie always takes a capital S."
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-sie-es-genus",
+      "title": {
+        "de": "er, sie und es richten sich nach dem Artikel",
+        "en": "er, sie and es follow the article"
+      },
+      "body": {
+        "de": "Für Dinge sagt man nicht immer es. Das Pronomen richtet sich nach dem Artikel des Nomens: der wird zu er, die wird zu sie, das wird zu es. Wer den Artikel kennt, findet das richtige Pronomen sofort.",
+        "en": "You do not always say es for things. The pronoun follows the article of the noun: der becomes er, die becomes sie, das becomes es. Once you know the article, the right pronoun is easy to find."
+      },
+      "examples": [
+        {
+          "de": "Der Tisch ist neu, und er ist sehr groß.",
+          "gloss": {
+            "de": "der Tisch wird im zweiten Satzteil zu er.",
+            "en": "The table is new and it is very big."
+          },
+          "note": {
+            "de": "Nomen mit der werden zu er.",
+            "en": "Nouns with der become er."
+          }
+        },
+        {
+          "de": "Die Lampe ist alt, aber sie ist schön.",
+          "gloss": {
+            "de": "die Lampe wird zu sie.",
+            "en": "The lamp is old but it is beautiful."
+          },
+          "note": {
+            "de": "Nomen mit die werden zu sie.",
+            "en": "Nouns with die become sie."
+          }
+        },
+        {
+          "de": "Das Auto steht draußen, und es ist blau.",
+          "gloss": {
+            "de": "das Auto wird zu es.",
+            "en": "The car is outside and it is blue."
+          },
+          "note": {
+            "de": "Nomen mit das werden zu es.",
+            "en": "Nouns with das become es."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sie-sie-hoeflich",
+      "title": {
+        "de": "Drei Wörter klingen gleich: sie, sie, Sie",
+        "en": "Three words sound the same: sie, sie, Sie"
+      },
+      "body": {
+        "de": "sie kann eine weibliche Person meinen (sie kommt) oder mehrere Personen (sie kommen). Die höfliche Anrede Sie hat immer ein großes S. Die Endung des Verbs und die Großschreibung zeigen, welche Bedeutung gemeint ist.",
+        "en": "sie can mean one female person (sie kommt) or several people (sie kommen). The polite address Sie always has a capital S. The verb ending and the capital letter show you which meaning applies."
+      },
+      "examples": [
+        {
+          "de": "Maria kocht gern, und sie backt auch gern.",
+          "gloss": {
+            "de": "sie meint hier eine einzelne Frau.",
+            "en": "Maria likes cooking and she also likes baking."
+          },
+          "note": {
+            "de": "Eine Person: das Verb endet auf t.",
+            "en": "One person: the verb ends in t."
+          }
+        },
+        {
+          "de": "Meine Eltern sind da, und sie bleiben bis Montag.",
+          "gloss": {
+            "de": "sie meint hier mehrere Personen.",
+            "en": "My parents are here and they are staying until Monday."
+          },
+          "note": {
+            "de": "Mehrere Personen: das Verb endet auf en.",
+            "en": "Several people: the verb ends in en."
+          }
+        },
+        {
+          "de": "Entschuldigung, sprechen Sie Englisch?",
+          "gloss": {
+            "de": "Höfliche Frage an eine fremde Person.",
+            "en": "Excuse me, do you speak English?"
+          },
+          "note": {
+            "de": "Die höfliche Anrede erkennt man am großen S.",
+            "en": "You recognise the polite address by the capital S."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronomen-und-verb",
+      "title": {
+        "de": "Das Pronomen steht direkt beim Verb",
+        "en": "The pronoun stands right next to the verb"
+      },
+      "body": {
+        "de": "Ein deutscher Satz braucht immer ein Subjekt, das Pronomen darf also nie fehlen. Normalerweise steht es vor dem Verb. Beginnt der Satz mit einem anderen Wort oder ist es eine Frage, rutscht das Pronomen direkt hinter das Verb.",
+        "en": "A German sentence always needs a subject, so the pronoun can never be left out. Normally it stands in front of the verb. If the sentence starts with another word, or if it is a question, the pronoun moves directly behind the verb."
+      },
+      "examples": [
+        {
+          "de": "Ich fahre morgen nach Berlin.",
+          "gloss": {
+            "de": "Normale Reihenfolge: erst das Pronomen, dann das Verb.",
+            "en": "I am going to Berlin tomorrow."
+          },
+          "note": {
+            "de": "Das Verb steht an Position zwei.",
+            "en": "The verb stands in second position."
+          }
+        },
+        {
+          "de": "Morgen fahre ich nach Berlin.",
+          "gloss": {
+            "de": "Der Satz beginnt mit der Zeitangabe, das Pronomen folgt dem Verb.",
+            "en": "Tomorrow I am going to Berlin."
+          },
+          "note": {
+            "de": "Nach einem anderen Anfangswort steht ich hinter dem Verb.",
+            "en": "After a different opening word, ich comes after the verb."
+          }
+        },
+        {
+          "de": "Warum lernst du Deutsch?",
+          "gloss": {
+            "de": "In der Frage steht das Pronomen hinter dem Verb.",
+            "en": "Why are you learning German?"
+          },
+          "note": {
+            "de": "In Fragen tauschen Verb und Pronomen den Platz.",
+            "en": "In questions the verb and the pronoun swap places."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "fill",
+      "prompt": "___ bin heute sehr müde.",
+      "promptGloss": {
+        "de": "Ich bin heute sehr müde.",
+        "en": "I am very tired today."
+      },
+      "answer": "Ich",
+      "explain": {
+        "de": "Die Verbform bin passt nur zu ich.",
+        "en": "The verb form bin only goes with ich."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Anna und ich, ___ lernen zusammen Deutsch.",
+      "promptGloss": {
+        "de": "Anna und ich lernen zusammen Deutsch.",
+        "en": "Anna and I are learning German together."
+      },
+      "options": ["wir", "ihr", "sie"],
+      "answer": "wir",
+      "explain": {
+        "de": "Anna und ich ergibt zusammen wir.",
+        "en": "Anna and I together make wir."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wie alt bist ___?",
+      "promptGloss": {
+        "de": "Wie alt bist du?",
+        "en": "How old are you?"
+      },
+      "answer": "du",
+      "explain": {
+        "de": "Zur Verbform bist gehört nur das Pronomen du.",
+        "en": "The verb form bist belongs only to the pronoun du."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ habe zwei Schwestern.",
+      "promptGloss": {
+        "de": "Ich habe zwei Schwestern.",
+        "en": "I have two sisters."
+      },
+      "options": ["Ich", "Du", "Er"],
+      "answer": "Ich",
+      "explain": {
+        "de": "habe ist die Form für ich, du hätte hast und er hätte hat.",
+        "en": "habe is the form for ich, du would take hast and er would take hat."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Herr Weber, was trinken ___?",
+      "promptGloss": {
+        "de": "Herr Weber, was trinken Sie?",
+        "en": "Mr Weber, what would you like to drink?"
+      },
+      "options": ["Sie", "du", "ihr"],
+      "answer": "Sie",
+      "explain": {
+        "de": "Zu einer fremden Person mit Nachnamen sagt man höflich Sie.",
+        "en": "You address a stranger by surname with the polite Sie."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Kinder, wo seid ___?",
+      "promptGloss": {
+        "de": "Kinder, wo seid ihr?",
+        "en": "Children, where are you?"
+      },
+      "answer": "ihr",
+      "explain": {
+        "de": "Mehrere vertraute Personen bekommen ihr, und dazu passt die Form seid.",
+        "en": "Several familiar people take ihr, and seid is the matching verb form."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Papa, kommst ___ heute mit?",
+      "promptGloss": {
+        "de": "Papa, kommst du heute mit?",
+        "en": "Dad, are you coming along today?"
+      },
+      "options": ["du", "ihr", "Sie"],
+      "answer": "du",
+      "explain": {
+        "de": "In der Familie sagt man du, und kommst ist genau diese Form.",
+        "en": "In the family you say du, and kommst is exactly that form."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Frau Klein, kommen ___ auch zur Party?",
+      "promptGloss": {
+        "de": "Frau Klein, kommen Sie auch zur Party?",
+        "en": "Mrs Klein, are you coming to the party as well?"
+      },
+      "answer": "Sie",
+      "explain": {
+        "de": "Die höfliche Anrede an Frau Klein ist Sie mit großem S.",
+        "en": "The polite address to Mrs Klein is Sie with a capital S."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Der Tisch ist neu, und ___ kommt aus Italien.",
+      "promptGloss": {
+        "de": "Der Tisch ist neu und kommt aus Italien.",
+        "en": "The table is new and it comes from Italy."
+      },
+      "answer": "er",
+      "explain": {
+        "de": "der Tisch hat den Artikel der, deshalb steht er.",
+        "en": "der Tisch takes the article der, so the pronoun is er."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das Fahrrad ist alt, aber ___ fährt noch gut.",
+      "promptGloss": {
+        "de": "Das Fahrrad ist alt, aber es fährt noch gut.",
+        "en": "The bike is old but it still rides well."
+      },
+      "options": ["es", "er", "sie"],
+      "answer": "es",
+      "explain": {
+        "de": "das Fahrrad hat den Artikel das, deshalb steht es.",
+        "en": "das Fahrrad takes the article das, so the pronoun is es."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Die Lampe ist klein, aber ___ ist sehr hell.",
+      "promptGloss": {
+        "de": "Die Lampe ist klein, aber sie ist sehr hell.",
+        "en": "The lamp is small but it is very bright."
+      },
+      "answer": "sie",
+      "explain": {
+        "de": "die Lampe hat den Artikel die, deshalb steht sie.",
+        "en": "die Lampe takes the article die, so the pronoun is sie."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Der Hund ist klein, aber ___ läuft sehr schnell.",
+      "promptGloss": {
+        "de": "Der Hund ist klein, aber er läuft sehr schnell.",
+        "en": "The dog is small but it runs very fast."
+      },
+      "options": ["er", "sie", "es"],
+      "answer": "er",
+      "explain": {
+        "de": "der Hund hat den Artikel der, deshalb steht er.",
+        "en": "der Hund takes the article der, so the pronoun is er."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Meine Eltern sind zu Hause, denn ___ arbeiten heute nicht.",
+      "promptGloss": {
+        "de": "Meine Eltern sind zu Hause, denn sie arbeiten heute nicht.",
+        "en": "My parents are at home because they are not working today."
+      },
+      "options": ["sie", "er", "ihr"],
+      "answer": "sie",
+      "explain": {
+        "de": "Meine Eltern sind mehrere Personen, dazu passt sie mit der Endung en.",
+        "en": "Meine Eltern are several people, which matches sie with the ending en."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Maria kocht gern, und ___ backt auch gern.",
+      "promptGloss": {
+        "de": "Maria kocht gern und backt auch gern.",
+        "en": "Maria likes cooking and she also likes baking."
+      },
+      "answer": "sie",
+      "explain": {
+        "de": "Maria ist eine einzelne weibliche Person, also sie mit der Verbform backt.",
+        "en": "Maria is one female person, so sie with the verb form backt."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Entschuldigung, sprechen ___ Englisch?",
+      "promptGloss": {
+        "de": "Entschuldigung, sprechen Sie Englisch?",
+        "en": "Excuse me, do you speak English?"
+      },
+      "options": ["Sie", "sie", "ihr"],
+      "answer": "Sie",
+      "explain": {
+        "de": "Die Frage geht an eine fremde Person, deshalb Sie mit großem S.",
+        "en": "The question is addressed to a stranger, so Sie with a capital S."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Die Studenten sind fleißig, und ___ schreiben morgen einen Test.",
+      "promptGloss": {
+        "de": "Die Studenten sind fleißig und schreiben morgen einen Test.",
+        "en": "The students are hard working and they are writing a test tomorrow."
+      },
+      "answer": "sie",
+      "explain": {
+        "de": "Die Studenten sind mehrere Personen, also sie klein geschrieben.",
+        "en": "Die Studenten are several people, so sie is written in lower case."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Morgen fahre ___ nach Berlin.",
+      "promptGloss": {
+        "de": "Morgen fahre ich nach Berlin.",
+        "en": "Tomorrow I am going to Berlin."
+      },
+      "answer": "ich",
+      "explain": {
+        "de": "Der Satz beginnt mit Morgen, deshalb steht ich hinter der Verbform fahre.",
+        "en": "The sentence starts with Morgen, so ich comes after the verb form fahre."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Warum lernst ___ Deutsch?",
+      "promptGloss": {
+        "de": "Warum lernst du Deutsch?",
+        "en": "Why are you learning German?"
+      },
+      "answer": "du",
+      "explain": {
+        "de": "In der Frage steht das Pronomen hinter dem Verb, und lernst gehört zu du.",
+        "en": "In a question the pronoun follows the verb, and lernst belongs to du."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Heute seid ___ sehr laut.",
+      "promptGloss": {
+        "de": "Heute seid ihr sehr laut.",
+        "en": "Today you are very loud."
+      },
+      "options": ["ihr", "du", "wir"],
+      "answer": "ihr",
+      "explain": {
+        "de": "Nach dem Anfangswort Heute folgt das Pronomen, und seid gehört zu ihr.",
+        "en": "After the opening word Heute the pronoun follows, and seid belongs to ihr."
+      }
+    }
+  ]
+}

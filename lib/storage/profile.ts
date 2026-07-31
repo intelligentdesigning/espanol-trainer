@@ -7,6 +7,8 @@
 // Profiles carry `updatedAt` (+ a `deleted` tombstone) so the server can merge
 // changes from several devices by last-write-wins.
 
+import { getActiveLang, type LearnLang } from "@/lib/lang";
+
 export interface Profile {
   id: string;
   name: string;
@@ -113,9 +115,12 @@ export function mergeProfiles(incoming: Profile[]): Profile[] {
   return getProfiles();
 }
 
-/** IndexedDB name for a profile. Default keeps the original name (no data loss). */
-export function dbNameFor(id: string): string {
-  return id === "default" ? "espanol-trainer" : `espanol-trainer-${id}`;
+/** IndexedDB name for a profile. Default keeps the original name (no data loss).
+ *  Each learned language gets its own database, so progress never mixes; Spanish
+ *  keeps the historic names so existing data survives. */
+export function dbNameFor(id: string, lang: LearnLang = getActiveLang()): string {
+  const base = id === "default" ? "espanol-trainer" : `espanol-trainer-${id}`;
+  return lang === "es" ? base : `${base}--${lang}`;
 }
 
 export function activeDbName(): string {

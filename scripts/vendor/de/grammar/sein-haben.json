@@ -1,0 +1,373 @@
+{
+  "id": "sein-haben",
+  "name": { "de": "sein & haben", "en": "sein & haben" },
+  "summary": {
+    "de": "Die zwei wichtigsten deutschen Verben im Präsens: 'sein' beschreibt, wer oder wie jemand ist, 'haben' sagt, was jemand hat.",
+    "en": "The two most important German verbs in the present tense: 'sein' describes who or how somebody is, 'haben' says what somebody has."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "sein-formen",
+      "title": { "de": "sein: die Formen im Präsens", "en": "sein: the present-tense forms" },
+      "body": {
+        "de": "Das Verb 'sein' ist völlig unregelmäßig: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. Diese sechs Formen folgen keiner Regel, du lernst sie am besten auswendig.",
+        "en": "The verb 'sein' (to be) is completely irregular: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. These six forms follow no pattern, so it is best to learn them by heart."
+      },
+      "examples": [
+        {
+          "de": "Ich bin müde.",
+          "gloss": { "de": "Ich fühle mich müde.", "en": "I am tired." },
+          "note": { "de": "1. Person Singular: bin", "en": "1st person singular: bin" }
+        },
+        {
+          "de": "Du bist sehr nett.",
+          "gloss": { "de": "Du hast ein nettes Wesen.", "en": "You are very nice." },
+          "note": { "de": "2. Person Singular: bist", "en": "2nd person singular: bist" }
+        },
+        {
+          "de": "Wir sind zu Hause.",
+          "gloss": { "de": "Wir befinden uns in der Wohnung.", "en": "We are at home." },
+          "note": { "de": "1. Person Plural: sind", "en": "1st person plural: sind" }
+        }
+      ]
+    },
+    {
+      "id": "haben-formen",
+      "title": { "de": "haben: die Formen im Präsens", "en": "haben: the present-tense forms" },
+      "body": {
+        "de": "Auch 'haben' ist unregelmäßig: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. Nur bei 'du' und bei 'er/sie/es' fällt das b weg, alle anderen Formen behalten es.",
+        "en": "'haben' (to have) is irregular too: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. The b disappears only in the 'du' and 'er/sie/es' forms, all the others keep it."
+      },
+      "examples": [
+        {
+          "de": "Ich habe einen Bruder.",
+          "gloss": { "de": "In meiner Familie gibt es einen Bruder.", "en": "I have a brother." },
+          "note": { "de": "ich-Form mit b: habe", "en": "ich form keeps the b: habe" }
+        },
+        {
+          "de": "Du hast ein Fahrrad.",
+          "gloss": { "de": "Das Fahrrad gehört dir.", "en": "You have a bike." },
+          "note": { "de": "du-Form ohne b: hast", "en": "du form drops the b: hast" }
+        },
+        {
+          "de": "Ihr habt viel Zeit.",
+          "gloss": { "de": "Euch bleibt noch viel Zeit.", "en": "You (plural) have a lot of time." },
+          "note": { "de": "ihr-Form: habt", "en": "ihr form: habt" }
+        }
+      ]
+    },
+    {
+      "id": "sein-gebrauch",
+      "title": { "de": "Wann man 'sein' benutzt", "en": "When to use 'sein'" },
+      "body": {
+        "de": "Mit 'sein' sagst du, wer oder wie jemand ist: Name, Beruf, Herkunft, Eigenschaft oder Ort. Nach 'sein' steht sehr oft ein Adjektiv oder ein Beruf ohne Artikel.",
+        "en": "Use 'sein' to say who or how somebody is: name, job, origin, quality or place. 'sein' is very often followed by an adjective, or by a job title without an article."
+      },
+      "examples": [
+        {
+          "de": "Er ist Lehrer.",
+          "gloss": { "de": "Sein Beruf ist Lehrer.", "en": "He is a teacher." },
+          "note": { "de": "Beruf steht ohne Artikel", "en": "job titles take no article" }
+        },
+        {
+          "de": "Wir sind aus Italien.",
+          "gloss": { "de": "Unsere Heimat ist Italien.", "en": "We are from Italy." },
+          "note": { "de": "Herkunft mit 'aus'", "en": "origin with 'aus'" }
+        },
+        {
+          "de": "Das Wetter ist schön.",
+          "gloss": { "de": "Heute gefällt uns das Wetter.", "en": "The weather is nice." },
+          "note": { "de": "Adjektiv nach 'sein'", "en": "adjective after 'sein'" }
+        }
+      ]
+    },
+    {
+      "id": "haben-gebrauch",
+      "title": { "de": "Wann man 'haben' benutzt", "en": "When to use 'haben'" },
+      "body": {
+        "de": "Mit 'haben' sagst du, was jemand besitzt. Dazu kommen feste Ausdrücke wie Hunger haben, Durst haben, Zeit haben oder Angst haben. Nach 'haben' folgt immer ein Nomen im Akkusativ.",
+        "en": "Use 'haben' to say what somebody owns. It also appears in fixed expressions such as Hunger haben, Durst haben, Zeit haben and Angst haben. 'haben' is always followed by a noun in the accusative."
+      },
+      "examples": [
+        {
+          "de": "Ich habe einen Hund.",
+          "gloss": { "de": "Ein Hund gehört mir.", "en": "I have a dog." },
+          "note": { "de": "Akkusativ: einen Hund", "en": "accusative: einen Hund" }
+        },
+        {
+          "de": "Wir haben Hunger.",
+          "gloss": { "de": "Wir wollen etwas essen.", "en": "We are hungry." },
+          "note": { "de": "Deutsch nimmt hier 'haben', nicht 'sein'", "en": "German uses 'haben' here, not 'sein'" }
+        },
+        {
+          "de": "Sie hat heute Zeit.",
+          "gloss": { "de": "Heute ist sie frei.", "en": "She has time today." },
+          "note": { "de": "festes Paar: Zeit haben", "en": "fixed pair: Zeit haben" }
+        }
+      ]
+    },
+    {
+      "id": "verneinung",
+      "title": { "de": "Verneinung: nicht oder kein", "en": "Negation: nicht or kein" },
+      "body": {
+        "de": "Nach 'sein' verneinst du mit 'nicht', denn dort steht meistens ein Adjektiv. Nach 'haben' verneinst du das Nomen mit 'kein': kein bei maskulin und neutrum, keine bei feminin und im Plural.",
+        "en": "After 'sein' you negate with 'nicht', because an adjective usually follows. After 'haben' you negate the noun with 'kein': kein for masculine and neuter, keine for feminine and plural."
+      },
+      "examples": [
+        {
+          "de": "Ich bin nicht müde.",
+          "gloss": { "de": "Ich fühle mich wach.", "en": "I am not tired." },
+          "note": { "de": "'nicht' steht vor dem Adjektiv", "en": "'nicht' goes before the adjective" }
+        },
+        {
+          "de": "Er hat kein Auto.",
+          "gloss": { "de": "Ihm gehört kein Auto.", "en": "He has no car." },
+          "note": { "de": "Auto ist neutrum: kein", "en": "Auto is neuter: kein" }
+        },
+        {
+          "de": "Wir haben keine Zeit.",
+          "gloss": { "de": "Uns fehlt die Zeit.", "en": "We have no time." },
+          "note": { "de": "Zeit ist feminin: keine", "en": "Zeit is feminine: keine" }
+        }
+      ]
+    },
+    {
+      "id": "fragen",
+      "title": { "de": "Fragen mit sein und haben", "en": "Questions with sein and haben" },
+      "body": {
+        "de": "In der Ja/Nein-Frage steht das Verb ganz vorn und das Subjekt kommt danach. Die Verbform selbst ändert sich nicht, sie wandert nur nach vorn.",
+        "en": "In a yes/no question the verb comes first and the subject follows. The verb form itself does not change, it simply moves to the front."
+      },
+      "examples": [
+        {
+          "de": "Bist du Student?",
+          "gloss": { "de": "Frage danach, ob jemand studiert.", "en": "Are you a student?" },
+          "note": { "de": "Verb auf Position 1", "en": "verb in position 1" }
+        },
+        {
+          "de": "Habt ihr morgen Zeit?",
+          "gloss": { "de": "Frage danach, ob morgen Zeit da ist.", "en": "Do you have time tomorrow?" },
+          "note": { "de": "habt steht vor ihr", "en": "habt comes before ihr" }
+        },
+        {
+          "de": "Sind Sie aus Berlin?",
+          "gloss": { "de": "Höfliche Frage nach der Herkunft.", "en": "Are you from Berlin?" },
+          "note": { "de": "höfliche Sie-Form: sind", "en": "formal Sie form: sind" }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "fill",
+      "prompt": "Ich ___ Lehrer von Beruf.",
+      "promptGloss": { "de": "Mein Beruf ist Lehrer.", "en": "I am a teacher by profession." },
+      "answer": "bin",
+      "explain": {
+        "de": "Zu 'ich' gehört bei 'sein' die Form 'bin'.",
+        "en": "The form of 'sein' that goes with 'ich' is 'bin'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Du ___ sehr nett.",
+      "promptGloss": { "de": "Du hast ein nettes Wesen.", "en": "You are very nice." },
+      "options": ["bist", "bin", "ist"],
+      "answer": "bist",
+      "explain": {
+        "de": "Zu 'du' gehört 'bist'; 'bin' passt zu ich, 'ist' zu er/sie/es.",
+        "en": "'du' takes 'bist'; 'bin' belongs to ich and 'ist' to er/sie/es."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Er ___ heute müde.",
+      "promptGloss": { "de": "Er fühlt sich heute müde.", "en": "He is tired today." },
+      "answer": "ist",
+      "explain": {
+        "de": "Zu 'er' gehört bei 'sein' die Form 'ist'.",
+        "en": "The form of 'sein' that goes with 'er' is 'ist'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir ___ aus Spanien.",
+      "promptGloss": { "de": "Unsere Heimat ist Spanien.", "en": "We are from Spain." },
+      "options": ["sind", "seid", "ist"],
+      "answer": "sind",
+      "explain": {
+        "de": "Zu 'wir' gehört 'sind'; 'seid' passt zu ihr, 'ist' zum Singular.",
+        "en": "'wir' takes 'sind'; 'seid' belongs to ihr and 'ist' to the singular."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ihr ___ sehr freundlich.",
+      "promptGloss": { "de": "Ihr verhaltet euch freundlich.", "en": "You (plural) are very friendly." },
+      "answer": "seid",
+      "explain": {
+        "de": "Zu 'ihr' gehört bei 'sein' die Form 'seid'.",
+        "en": "The form of 'sein' that goes with 'ihr' is 'seid'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Die Kinder ___ im Garten.",
+      "promptGloss": { "de": "Die Kinder halten sich im Garten auf.", "en": "The children are in the garden." },
+      "options": ["sind", "seid", "bist"],
+      "answer": "sind",
+      "explain": {
+        "de": "'Die Kinder' ist Plural, dazu gehört 'sind'.",
+        "en": "'Die Kinder' is plural, so the form is 'sind'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich ___ einen Hund.",
+      "promptGloss": { "de": "Ein Hund gehört mir.", "en": "I have a dog." },
+      "answer": "habe",
+      "explain": {
+        "de": "'einen Hund' ist Besitz, also 'haben', und zu 'ich' gehört 'habe'.",
+        "en": "'einen Hund' is possession, so 'haben', and 'ich' takes 'habe'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Du ___ ein schönes Haus.",
+      "promptGloss": { "de": "Dir gehört ein schönes Haus.", "en": "You have a beautiful house." },
+      "options": ["hast", "habt", "hat"],
+      "answer": "hast",
+      "explain": {
+        "de": "Zu 'du' gehört 'hast'; 'habt' passt zu ihr, 'hat' zu er/sie/es.",
+        "en": "'du' takes 'hast'; 'habt' belongs to ihr and 'hat' to er/sie/es."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Meine Schwester ___ blaue Augen.",
+      "promptGloss": { "de": "Die Augen meiner Schwester sind blau.", "en": "My sister has blue eyes." },
+      "answer": "hat",
+      "explain": {
+        "de": "'Meine Schwester' ist 3. Person Singular, dazu gehört 'hat'.",
+        "en": "'Meine Schwester' is 3rd person singular, so the form is 'hat'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir ___ am Montag Zeit.",
+      "promptGloss": { "de": "Am Montag sind wir frei.", "en": "We have time on Monday." },
+      "options": ["haben", "habt", "hat"],
+      "answer": "haben",
+      "explain": {
+        "de": "Zu 'wir' gehört 'haben'; 'habt' passt zu ihr, 'hat' zum Singular.",
+        "en": "'wir' takes 'haben'; 'habt' belongs to ihr and 'hat' to the singular."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ihr ___ viel Zeit.",
+      "promptGloss": { "de": "Euch bleibt noch viel Zeit.", "en": "You (plural) have a lot of time." },
+      "answer": "habt",
+      "explain": {
+        "de": "Zu 'ihr' gehört bei 'haben' die Form 'habt'.",
+        "en": "The form of 'haben' that goes with 'ihr' is 'habt'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Die Studenten ___ morgen eine Prüfung.",
+      "promptGloss": { "de": "Morgen schreiben die Studenten eine Prüfung.", "en": "The students have an exam tomorrow." },
+      "options": ["haben", "habt", "hast"],
+      "answer": "haben",
+      "explain": {
+        "de": "'Die Studenten' ist Plural, dazu gehört 'haben'.",
+        "en": "'Die Studenten' is plural, so the form is 'haben'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich ___ Hunger und esse ein Brot.",
+      "promptGloss": { "de": "Ich möchte etwas essen und nehme ein Brot.", "en": "I am hungry and eat a piece of bread." },
+      "answer": "habe",
+      "explain": {
+        "de": "Hunger ist ein fester Ausdruck mit 'haben', nicht mit 'sein'.",
+        "en": "Hunger is a fixed expression with 'haben', not with 'sein'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Nach dem Sport ___ ich großen Durst.",
+      "promptGloss": { "de": "Nach dem Sport möchte ich viel trinken.", "en": "After sports I am very thirsty." },
+      "options": ["habe", "bin", "hat"],
+      "answer": "habe",
+      "explain": {
+        "de": "Durst geht mit 'haben', und zu 'ich' gehört 'habe'.",
+        "en": "Durst goes with 'haben', and 'ich' takes 'habe'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Meine Mutter ___ Ärztin.",
+      "promptGloss": { "de": "Der Beruf meiner Mutter ist Ärztin.", "en": "My mother is a doctor." },
+      "answer": "ist",
+      "explain": {
+        "de": "Für den Beruf nimmt man 'sein', in der 3. Person Singular also 'ist'.",
+        "en": "Jobs take 'sein', so the 3rd person singular is 'ist'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das Zimmer ist ___ groß.",
+      "promptGloss": { "de": "Das Zimmer wirkt eher klein.", "en": "The room is not big." },
+      "options": ["nicht", "kein", "keine"],
+      "answer": "nicht",
+      "explain": {
+        "de": "Vor einem Adjektiv nach 'sein' steht 'nicht', nicht 'kein'.",
+        "en": "Before an adjective after 'sein' you use 'nicht', not 'kein'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich habe ___ Auto, ich fahre mit dem Bus.",
+      "promptGloss": { "de": "Mir gehört kein Auto, deshalb nehme ich den Bus.", "en": "I have no car, I take the bus." },
+      "answer": "kein",
+      "explain": {
+        "de": "Ein Nomen nach 'haben' verneint man mit 'kein', und 'Auto' ist neutrum.",
+        "en": "A noun after 'haben' is negated with 'kein', and 'Auto' is neuter."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ du morgen Zeit?",
+      "promptGloss": { "de": "Frage, ob du morgen frei bist.", "en": "Do you have time tomorrow?" },
+      "options": ["Hast", "Habt", "Bist"],
+      "answer": "Hast",
+      "explain": {
+        "de": "In der Frage steht das Verb vorn, zu 'du' gehört 'Hast'.",
+        "en": "In a question the verb comes first, and 'du' takes 'Hast'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ ihr aus Deutschland?",
+      "promptGloss": { "de": "Frage nach eurer Herkunft.", "en": "Are you (plural) from Germany?" },
+      "answer": "Seid",
+      "explain": {
+        "de": "Bei der Herkunft nimmt man 'sein', und zu 'ihr' gehört 'Seid' am Satzanfang.",
+        "en": "Origin takes 'sein', and 'ihr' gives 'Seid' at the start of the question."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ Sie verheiratet?",
+      "promptGloss": { "de": "Höfliche Frage nach dem Familienstand.", "en": "Are you married?" },
+      "options": ["Sind", "Seid", "Bist"],
+      "answer": "Sind",
+      "explain": {
+        "de": "Die höfliche Sie-Form von 'sein' ist 'sind' und steht in der Frage vorn.",
+        "en": "The formal Sie form of 'sein' is 'sind' and it opens the question."
+      }
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "id": "negation",
+  "name": {
+    "de": "Verneinung: nicht & kein",
+    "en": "Negation: nicht & kein"
+  },
+  "summary": {
+    "de": "Im Deutschen verneint man Nomen mit „ein“ oder ohne Artikel mit „kein“, alles andere mit „nicht“, und die Stellung von „nicht“ im Satz folgt festen Regeln.",
+    "en": "German negates nouns with „ein“ or with no article using „kein“, everything else using „nicht“, and the position of „nicht“ in the sentence follows fixed rules."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "kein-bei-nomen",
+      "title": {
+        "de": "kein bei Nomen mit „ein“ oder ohne Artikel",
+        "en": "kein with nouns that have „ein“ or no article"
+      },
+      "body": {
+        "de": "„Kein“ verneint ein Nomen, das im positiven Satz „ein“ oder gar keinen Artikel hat. Das gilt auch für Berufe, Stoffe und Nomen im Plural. „Nicht“ ist an dieser Stelle falsch.",
+        "en": "„Kein“ negates a noun that has „ein“ or no article at all in the positive sentence. This also covers jobs, materials and plural nouns. Using „nicht“ here is wrong."
+      },
+      "examples": [
+        {
+          "de": "Ich habe ein Auto. Ich habe kein Auto.",
+          "gloss": {
+            "de": "Aus „ein Auto“ wird in der Verneinung „kein Auto“.",
+            "en": "„ein Auto“ becomes „kein Auto“ in the negative."
+          },
+          "note": {
+            "de": "„ein“ wird einfach zu „kein“.",
+            "en": "„ein“ simply turns into „kein“."
+          }
+        },
+        {
+          "de": "Ich trinke keinen Kaffee.",
+          "gloss": {
+            "de": "Ich trinke überhaupt keinen Kaffee.",
+            "en": "I do not drink coffee."
+          },
+          "note": {
+            "de": "Nomen ohne Artikel im positiven Satz: „Ich trinke Kaffee.“",
+            "en": "The positive sentence has no article: „Ich trinke Kaffee.“"
+          }
+        },
+        {
+          "de": "Er ist kein Lehrer.",
+          "gloss": {
+            "de": "Er arbeitet nicht als Lehrer.",
+            "en": "He is not a teacher."
+          },
+          "note": {
+            "de": "Berufe stehen ohne Artikel, also „kein“.",
+            "en": "Jobs come without an article, so „kein“ is used."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kein-formen",
+      "title": {
+        "de": "Die Formen von kein",
+        "en": "The forms of kein"
+      },
+      "body": {
+        "de": "„Kein“ bekommt die gleichen Endungen wie „ein“: kein Buch, keine Lampe, kein Auto. Im Akkusativ maskulin heißt es „keinen“. Im Plural gibt es immer „keine“, auch wenn es „ein“ im Plural nicht gibt.",
+        "en": "„Kein“ takes the same endings as „ein“: kein Buch, keine Lampe, kein Auto. In the masculine accusative it becomes „keinen“. In the plural it is always „keine“, even though „ein“ has no plural."
+      },
+      "examples": [
+        {
+          "de": "Das ist keine Lampe.",
+          "gloss": {
+            "de": "Das Objekt ist keine Lampe.",
+            "en": "That is not a lamp."
+          },
+          "note": {
+            "de": "„die Lampe“ ist feminin, also „keine“.",
+            "en": "„die Lampe“ is feminine, so „keine“."
+          }
+        },
+        {
+          "de": "Ich habe keinen Hund.",
+          "gloss": {
+            "de": "Ich besitze keinen Hund.",
+            "en": "I do not have a dog."
+          },
+          "note": {
+            "de": "„der Hund“ im Akkusativ ergibt „keinen“.",
+            "en": "„der Hund“ in the accusative gives „keinen“."
+          }
+        },
+        {
+          "de": "Wir haben keine Kinder.",
+          "gloss": {
+            "de": "Wir haben überhaupt keine Kinder.",
+            "en": "We do not have children."
+          },
+          "note": {
+            "de": "Plural immer „keine“.",
+            "en": "The plural is always „keine“."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nicht-bei-bestimmten",
+      "title": {
+        "de": "nicht bei bestimmtem Artikel, Possessivartikel und Namen",
+        "en": "nicht with definite articles, possessives and names"
+      },
+      "body": {
+        "de": "Steht vor dem Nomen „der“, „die“, „das“, ein Possessivartikel wie „mein“ oder ein Name, dann verneint man mit „nicht“. „Kein“ ist hier falsch.",
+        "en": "If the noun has „der“, „die“, „das“, a possessive such as „mein“, or if it is a name, you negate with „nicht“. „Kein“ is wrong here."
+      },
+      "examples": [
+        {
+          "de": "Das ist nicht mein Auto.",
+          "gloss": {
+            "de": "Dieses Auto gehört mir nicht.",
+            "en": "That is not my car."
+          },
+          "note": {
+            "de": "Possessivartikel „mein“, deshalb „nicht“.",
+            "en": "Possessive „mein“, therefore „nicht“."
+          }
+        },
+        {
+          "de": "Das ist nicht der Bahnhof.",
+          "gloss": {
+            "de": "Dieses Gebäude ist nicht der Bahnhof.",
+            "en": "That is not the station."
+          },
+          "note": {
+            "de": "Bestimmter Artikel „der“, deshalb „nicht“.",
+            "en": "Definite article „der“, therefore „nicht“."
+          }
+        },
+        {
+          "de": "Das ist nicht Frau Meier.",
+          "gloss": {
+            "de": "Diese Person ist nicht Frau Meier.",
+            "en": "That is not Ms Meier."
+          },
+          "note": {
+            "de": "Vor Namen steht immer „nicht“.",
+            "en": "Before names you always use „nicht“."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nicht-am-satzende",
+      "title": {
+        "de": "nicht am Satzende",
+        "en": "nicht at the end of the sentence"
+      },
+      "body": {
+        "de": "Wenn „nicht“ den ganzen Satz verneint, steht es möglichst weit hinten. Es kommt nach dem Verb, nach dem Objekt und nach Zeitangaben. Vor Zeitangaben steht es nur selten.",
+        "en": "When „nicht“ negates the whole sentence, it goes as far back as possible. It comes after the verb, after the object and after time expressions. It rarely stands before a time expression."
+      },
+      "examples": [
+        {
+          "de": "Ich kenne den Mann nicht.",
+          "gloss": {
+            "de": "Dieser Mann ist mir unbekannt.",
+            "en": "I do not know the man."
+          },
+          "note": {
+            "de": "Nach dem Objekt „den Mann“, nicht davor.",
+            "en": "After the object „den Mann“, not before it."
+          }
+        },
+        {
+          "de": "Heute arbeite ich nicht.",
+          "gloss": {
+            "de": "Ich habe heute frei.",
+            "en": "I am not working today."
+          },
+          "note": {
+            "de": "„nicht“ steht ganz am Ende.",
+            "en": "„nicht“ stands right at the end."
+          }
+        },
+        {
+          "de": "Sie versteht die Frage nicht.",
+          "gloss": {
+            "de": "Die Frage ist ihr unklar.",
+            "en": "She does not understand the question."
+          },
+          "note": {
+            "de": "Reihenfolge: Verb, Objekt, dann „nicht“.",
+            "en": "Order: verb, object, then „nicht“."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nicht-vor-element",
+      "title": {
+        "de": "nicht direkt vor dem verneinten Teil",
+        "en": "nicht directly before the negated part"
+      },
+      "body": {
+        "de": "Vor Adjektiven, Adverbien und Ortsangaben steht „nicht“ direkt davor. Genauso steht es vor dem zweiten Verbteil, also vor dem Infinitiv oder dem Partizip am Satzende.",
+        "en": "Before adjectives, adverbs and place expressions, „nicht“ comes directly in front of them. It also stands before the second verb part, that is before an infinitive or participle at the end."
+      },
+      "examples": [
+        {
+          "de": "Der Film ist nicht gut.",
+          "gloss": {
+            "de": "Der Film gefällt mir nicht.",
+            "en": "The film is not good."
+          },
+          "note": {
+            "de": "„nicht“ steht vor dem Adjektiv „gut“.",
+            "en": "„nicht“ comes before the adjective „gut“."
+          }
+        },
+        {
+          "de": "Wir fahren nicht nach Berlin.",
+          "gloss": {
+            "de": "Unser Ziel ist nicht Berlin.",
+            "en": "We are not going to Berlin."
+          },
+          "note": {
+            "de": "„nicht“ steht vor der Ortsangabe.",
+            "en": "„nicht“ comes before the place expression."
+          }
+        },
+        {
+          "de": "Ich kann heute nicht kommen.",
+          "gloss": {
+            "de": "Es ist mir heute unmöglich zu kommen.",
+            "en": "I cannot come today."
+          },
+          "note": {
+            "de": "„nicht“ steht vor dem Infinitiv „kommen“.",
+            "en": "„nicht“ comes before the infinitive „kommen“."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "Ich habe heute ___ Zeit.",
+      "promptGloss": {
+        "de": "Ich habe heute keine Zeit.",
+        "en": "I do not have time today."
+      },
+      "options": ["keine", "nicht"],
+      "answer": "keine",
+      "explain": {
+        "de": "„Zeit“ steht ohne Artikel, deshalb verneint man mit „kein“.",
+        "en": "„Zeit“ has no article, so it is negated with „kein“."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist ___ Problem.",
+      "promptGloss": {
+        "de": "Das ist kein Problem.",
+        "en": "That is not a problem."
+      },
+      "options": ["kein", "nicht"],
+      "answer": "kein",
+      "explain": {
+        "de": "Im positiven Satz heißt es „ein Problem“, also wird daraus „kein Problem“.",
+        "en": "The positive sentence has „ein Problem“, so it becomes „kein Problem“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Er ist ___ Lehrer, er ist Student.",
+      "promptGloss": {
+        "de": "Er ist kein Lehrer, er ist Student.",
+        "en": "He is not a teacher, he is a student."
+      },
+      "answer": "kein",
+      "explain": {
+        "de": "Berufe stehen ohne Artikel und werden mit „kein“ verneint.",
+        "en": "Jobs come without an article and are negated with „kein“."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Sie hat ___ Geschwister.",
+      "promptGloss": {
+        "de": "Sie hat keine Geschwister.",
+        "en": "She does not have any siblings."
+      },
+      "options": ["keine", "nicht"],
+      "answer": "keine",
+      "explain": {
+        "de": "Ein Nomen im Plural ohne Artikel wird mit „kein“ verneint.",
+        "en": "A plural noun without an article is negated with „kein“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich möchte ___ Suppe, danke.",
+      "promptGloss": {
+        "de": "Ich möchte keine Suppe, danke.",
+        "en": "I do not want any soup, thank you."
+      },
+      "answer": "keine",
+      "explain": {
+        "de": "„die Suppe“ ist feminin, im Akkusativ heißt die Form „keine“.",
+        "en": "„die Suppe“ is feminine, so the accusative form is „keine“."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Er hat ___ Bruder.",
+      "promptGloss": {
+        "de": "Er hat keinen Bruder.",
+        "en": "He does not have a brother."
+      },
+      "options": ["keinen", "kein", "keine"],
+      "answer": "keinen",
+      "explain": {
+        "de": "„der Bruder“ steht hier im Akkusativ, deshalb „keinen“.",
+        "en": "„der Bruder“ is in the accusative here, so „keinen“ is correct."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Das ist ___ Fahrrad, das ist ein Motorrad.",
+      "promptGloss": {
+        "de": "Das ist kein Fahrrad, das ist ein Motorrad.",
+        "en": "That is not a bicycle, that is a motorbike."
+      },
+      "answer": "kein",
+      "explain": {
+        "de": "„das Fahrrad“ ist neutrum im Nominativ, also „kein“ ohne Endung.",
+        "en": "„das Fahrrad“ is neuter nominative, so „kein“ takes no ending."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich sehe ___ Kinder auf der Straße.",
+      "promptGloss": {
+        "de": "Ich sehe keine Kinder auf der Straße.",
+        "en": "I do not see any children in the street."
+      },
+      "options": ["keine", "keinen", "kein"],
+      "answer": "keine",
+      "explain": {
+        "de": "Im Plural heißt die Form immer „keine“.",
+        "en": "In the plural the form is always „keine“."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist ___ mein Auto.",
+      "promptGloss": {
+        "de": "Das ist nicht mein Auto.",
+        "en": "That is not my car."
+      },
+      "options": ["nicht", "kein"],
+      "answer": "nicht",
+      "explain": {
+        "de": "Vor dem Possessivartikel „mein“ steht „nicht“.",
+        "en": "Before the possessive „mein“ you use „nicht“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Das ist ___ der richtige Weg.",
+      "promptGloss": {
+        "de": "Das ist nicht der richtige Weg.",
+        "en": "That is not the right way."
+      },
+      "answer": "nicht",
+      "explain": {
+        "de": "Das Nomen hat den bestimmten Artikel „der“, deshalb „nicht“.",
+        "en": "The noun has the definite article „der“, so „nicht“ is used."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Das ist ___ Frau Meier, das ist Frau Schmidt.",
+      "promptGloss": {
+        "de": "Das ist nicht Frau Meier, das ist Frau Schmidt.",
+        "en": "That is not Ms Meier, that is Ms Schmidt."
+      },
+      "answer": "nicht",
+      "explain": {
+        "de": "Vor einem Namen steht immer „nicht“.",
+        "en": "Before a name you always use „nicht“."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich kenne ___.",
+      "promptGloss": {
+        "de": "Ich kenne den Mann nicht.",
+        "en": "I do not know the man."
+      },
+      "options": ["den Mann nicht", "nicht den Mann"],
+      "answer": "den Mann nicht",
+      "explain": {
+        "de": "„Nicht“ steht nach dem Objekt am Satzende.",
+        "en": "„Nicht“ goes after the object at the end of the sentence."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Er versteht ___.",
+      "promptGloss": {
+        "de": "Er versteht die Frage nicht.",
+        "en": "He does not understand the question."
+      },
+      "options": ["die Frage nicht", "nicht die Frage"],
+      "answer": "die Frage nicht",
+      "explain": {
+        "de": "Die Reihenfolge ist Verb, Objekt, dann „nicht“.",
+        "en": "The order is verb, object, then „nicht“."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Heute arbeite ich ___.",
+      "promptGloss": {
+        "de": "Heute arbeite ich nicht.",
+        "en": "Today I am not working."
+      },
+      "answer": "nicht",
+      "explain": {
+        "de": "Ohne Objekt steht „nicht“ ganz am Satzende.",
+        "en": "With no object, „nicht“ stands right at the end."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Sie mag ihren neuen Chef ___.",
+      "promptGloss": {
+        "de": "Sie mag ihren neuen Chef nicht.",
+        "en": "She does not like her new boss."
+      },
+      "answer": "nicht",
+      "explain": {
+        "de": "Das Objekt steht vor „nicht“, die Verneinung schließt den Satz ab.",
+        "en": "The object comes before „nicht“, which closes the sentence."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Der Film ist ___.",
+      "promptGloss": {
+        "de": "Der Film ist nicht gut.",
+        "en": "The film is not good."
+      },
+      "options": ["nicht gut", "gut nicht"],
+      "answer": "nicht gut",
+      "explain": {
+        "de": "Vor einem Adjektiv steht „nicht“ direkt davor.",
+        "en": "Before an adjective, „nicht“ goes directly in front of it."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir fahren ___.",
+      "promptGloss": {
+        "de": "Wir fahren nicht nach Berlin.",
+        "en": "We are not going to Berlin."
+      },
+      "options": ["nicht nach Berlin", "nach Berlin nicht"],
+      "answer": "nicht nach Berlin",
+      "explain": {
+        "de": "Vor einer Ortsangabe steht „nicht“ direkt davor.",
+        "en": "Before a place expression, „nicht“ goes directly in front of it."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich kann heute ___.",
+      "promptGloss": {
+        "de": "Ich kann heute nicht kommen.",
+        "en": "I cannot come today."
+      },
+      "options": ["nicht kommen", "kommen nicht"],
+      "answer": "nicht kommen",
+      "explain": {
+        "de": "Vor dem Infinitiv am Satzende steht „nicht“.",
+        "en": "„Nicht“ comes before the infinitive at the end of the sentence."
+      }
+    }
+  ]
+}

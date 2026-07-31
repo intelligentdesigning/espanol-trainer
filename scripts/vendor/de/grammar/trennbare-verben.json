@@ -1,0 +1,534 @@
+{
+  "id": "trennbare-verben",
+  "name": {
+    "de": "Trennbare Verben",
+    "en": "Separable verbs"
+  },
+  "summary": {
+    "de": "Verben wie aufstehen, einkaufen oder anrufen verlieren im Satz ihre Vorsilbe, und diese wandert ans Satzende.",
+    "en": "Verbs like aufstehen, einkaufen or anrufen lose their prefix in the sentence, and the prefix moves to the end."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "was-sind-trennbare-verben",
+      "title": {
+        "de": "Was sind trennbare Verben?",
+        "en": "What are separable verbs?"
+      },
+      "body": {
+        "de": "Viele Verben bestehen aus einer Vorsilbe und einem Verb, zum Beispiel auf plus stehen wird aufstehen. Häufige trennbare Vorsilben sind auf, ein, an, ab, mit, aus, zu und vor. Im Infinitiv steht die Vorsilbe vorn und wird betont.",
+        "en": "Many verbs consist of a prefix plus a verb, for example auf plus stehen becomes aufstehen. Common separable prefixes are auf, ein, an, ab, mit, aus, zu and vor. In the infinitive the prefix comes first and carries the stress."
+      },
+      "examples": [
+        {
+          "de": "Ich möchte früh aufstehen.",
+          "gloss": {
+            "de": "Die Vorsilbe auf gehört zu stehen.",
+            "en": "I would like to get up early."
+          },
+          "note": {
+            "de": "Betonung auf der Vorsilbe",
+            "en": "stress on the prefix"
+          }
+        },
+        {
+          "de": "Wir gehen heute einkaufen.",
+          "gloss": {
+            "de": "Die Vorsilbe ein gehört zu kaufen.",
+            "en": "We are going shopping today."
+          },
+          "note": {
+            "de": "Infinitiv bleibt zusammen",
+            "en": "the infinitive stays together"
+          }
+        },
+        {
+          "de": "Der Zug soll pünktlich abfahren.",
+          "gloss": {
+            "de": "Die Vorsilbe ab gehört zu fahren.",
+            "en": "The train is supposed to depart on time."
+          },
+          "note": {
+            "de": "ab plus fahren",
+            "en": "ab plus fahren"
+          }
+        }
+      ]
+    },
+    {
+      "id": "praesens-hauptsatz",
+      "title": {
+        "de": "Im Aussagesatz wandert die Vorsilbe ans Ende",
+        "en": "In a statement the prefix moves to the end"
+      },
+      "body": {
+        "de": "Im normalen Aussagesatz steht das konjugierte Verb an Position zwei. Die Vorsilbe löst sich ab und steht ganz am Satzende. So entsteht eine Klammer um den Satz.",
+        "en": "In a normal statement the conjugated verb stands in position two. The prefix detaches and stands right at the end of the sentence. This forms a bracket around the sentence."
+      },
+      "examples": [
+        {
+          "de": "Ich stehe um sieben Uhr auf.",
+          "gloss": {
+            "de": "stehe an Position zwei, auf am Ende.",
+            "en": "I get up at seven o'clock."
+          },
+          "note": {
+            "de": "aufstehen wird getrennt",
+            "en": "aufstehen is separated"
+          }
+        },
+        {
+          "de": "Wir kaufen am Samstag ein.",
+          "gloss": {
+            "de": "kaufen vorn, ein ganz hinten.",
+            "en": "We go shopping on Saturday."
+          },
+          "note": {
+            "de": "einkaufen wird getrennt",
+            "en": "einkaufen is separated"
+          }
+        },
+        {
+          "de": "Er ruft seine Mutter jeden Abend an.",
+          "gloss": {
+            "de": "an steht nach allen anderen Wörtern.",
+            "en": "He calls his mother every evening."
+          },
+          "note": {
+            "de": "an ganz am Ende",
+            "en": "an right at the end"
+          }
+        }
+      ]
+    },
+    {
+      "id": "frage-und-imperativ",
+      "title": {
+        "de": "Frage und Imperativ",
+        "en": "Questions and imperative"
+      },
+      "body": {
+        "de": "In der Ja oder Nein Frage und im Imperativ steht das konjugierte Verb ganz vorn. Bei der W Frage steht es direkt nach dem Fragewort. Die Vorsilbe bleibt in allen Fällen am Satzende.",
+        "en": "In a yes or no question and in the imperative the conjugated verb stands at the very front. In a question with a question word it comes right after that word. In all cases the prefix stays at the end."
+      },
+      "examples": [
+        {
+          "de": "Stehst du morgen früh auf?",
+          "gloss": {
+            "de": "Verb vorn, Vorsilbe hinten.",
+            "en": "Are you getting up early tomorrow?"
+          },
+          "note": {
+            "de": "Ja oder Nein Frage",
+            "en": "yes or no question"
+          }
+        },
+        {
+          "de": "Wann fängt der Film an?",
+          "gloss": {
+            "de": "Nach dem Fragewort steht das Verb.",
+            "en": "When does the film start?"
+          },
+          "note": {
+            "de": "W Frage",
+            "en": "question with a question word"
+          }
+        },
+        {
+          "de": "Ruf mich bitte heute Abend an!",
+          "gloss": {
+            "de": "Im Befehl steht die Vorsilbe am Ende.",
+            "en": "Please call me this evening!"
+          },
+          "note": {
+            "de": "Imperativ",
+            "en": "imperative"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mit-modalverb",
+      "title": {
+        "de": "Mit Modalverb bleibt alles zusammen",
+        "en": "With a modal verb everything stays together"
+      },
+      "body": {
+        "de": "Nach einem Modalverb wie müssen, können oder wollen wird nichts getrennt. Das trennbare Verb steht als ganzer Infinitiv am Satzende. Man schreibt es dort in einem Wort.",
+        "en": "After a modal verb like müssen, können or wollen nothing is separated. The separable verb stands as a complete infinitive at the end of the sentence. It is written there as one word."
+      },
+      "examples": [
+        {
+          "de": "Ich muss morgen früh aufstehen.",
+          "gloss": {
+            "de": "muss an Position zwei, aufstehen am Ende.",
+            "en": "I have to get up early tomorrow."
+          },
+          "note": {
+            "de": "Infinitiv bleibt ganz",
+            "en": "the infinitive stays whole"
+          }
+        },
+        {
+          "de": "Kannst du mich später anrufen?",
+          "gloss": {
+            "de": "anrufen bleibt ein Wort.",
+            "en": "Can you call me later?"
+          },
+          "note": {
+            "de": "nicht rufen an",
+            "en": "not rufen an"
+          }
+        },
+        {
+          "de": "Wir wollen heute Nachmittag einkaufen.",
+          "gloss": {
+            "de": "einkaufen steht komplett am Ende.",
+            "en": "We want to go shopping this afternoon."
+          },
+          "note": {
+            "de": "Modalverb plus Infinitiv",
+            "en": "modal verb plus infinitive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "im-nebensatz",
+      "title": {
+        "de": "Im Nebensatz mit weil oder dass",
+        "en": "In a subordinate clause with weil or dass"
+      },
+      "body": {
+        "de": "Im Nebensatz mit weil oder dass steht das konjugierte Verb ganz am Ende. Dort bleibt die Vorsilbe am Verb kleben. Man schreibt also aufstehe und nicht stehe auf.",
+        "en": "In a subordinate clause with weil or dass the conjugated verb stands right at the end. There the prefix stays attached to the verb. So you write aufstehe, not stehe auf."
+      },
+      "examples": [
+        {
+          "de": "Ich gehe früh ins Bett, weil ich morgen früh aufstehe.",
+          "gloss": {
+            "de": "Im Nebensatz bleibt auf am Verb.",
+            "en": "I go to bed early because I get up early tomorrow."
+          },
+          "note": {
+            "de": "weil Satz",
+            "en": "weil clause"
+          }
+        },
+        {
+          "de": "Ich weiß, dass er dich heute anruft.",
+          "gloss": {
+            "de": "anruft steht als ein Wort am Ende.",
+            "en": "I know that he is calling you today."
+          },
+          "note": {
+            "de": "dass Satz",
+            "en": "dass clause"
+          }
+        },
+        {
+          "de": "Sie sagt, dass sie im Supermarkt einkauft.",
+          "gloss": {
+            "de": "einkauft bleibt zusammen.",
+            "en": "She says that she shops at the supermarket."
+          },
+          "note": {
+            "de": "Verb am Satzende",
+            "en": "verb at the end of the clause"
+          }
+        }
+      ]
+    },
+    {
+      "id": "untrennbare-verben",
+      "title": {
+        "de": "Untrennbare Verben",
+        "en": "Inseparable verbs"
+      },
+      "body": {
+        "de": "Die Vorsilben be, er, ver, ent, emp und ge sind untrennbar. Diese Verben bleiben immer zusammen, und die Betonung liegt auf dem Verbstamm. Man sagt also ich verstehe und niemals ich stehe ver.",
+        "en": "The prefixes be, er, ver, ent, emp and ge are inseparable. These verbs always stay together, and the stress falls on the verb stem. So you say ich verstehe and never ich stehe ver."
+      },
+      "examples": [
+        {
+          "de": "Ich verstehe die Frage nicht.",
+          "gloss": {
+            "de": "ver bleibt am Verb.",
+            "en": "I do not understand the question."
+          },
+          "note": {
+            "de": "ver ist untrennbar",
+            "en": "ver is inseparable"
+          }
+        },
+        {
+          "de": "Er bekommt heute ein Paket.",
+          "gloss": {
+            "de": "be bleibt am Verb.",
+            "en": "He is getting a parcel today."
+          },
+          "note": {
+            "de": "be ist untrennbar",
+            "en": "be is inseparable"
+          }
+        },
+        {
+          "de": "Wir bezahlen die Rechnung.",
+          "gloss": {
+            "de": "Nichts steht am Satzende.",
+            "en": "We are paying the bill."
+          },
+          "note": {
+            "de": "keine Vorsilbe am Ende",
+            "en": "no prefix at the end"
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "fill",
+      "prompt": "Ich stehe jeden Morgen um sechs Uhr ___.",
+      "promptGloss": {
+        "de": "Ich stehe jeden Morgen um sechs Uhr auf.",
+        "en": "I get up at six o'clock every morning."
+      },
+      "answer": "auf",
+      "explain": {
+        "de": "Das Verb heißt aufstehen, und im Aussagesatz steht die Vorsilbe auf am Satzende.",
+        "en": "The verb is aufstehen, and in a statement the prefix auf goes to the end."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir kaufen am Samstag im Supermarkt ___.",
+      "promptGloss": {
+        "de": "Wir kaufen am Samstag im Supermarkt ein.",
+        "en": "We go shopping at the supermarket on Saturday."
+      },
+      "answer": "ein",
+      "explain": {
+        "de": "Das Verb heißt einkaufen, deshalb steht die Vorsilbe ein ganz hinten.",
+        "en": "The verb is einkaufen, so the prefix ein stands right at the end."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Er ruft seine Mutter jeden Abend ___.",
+      "promptGloss": {
+        "de": "Er ruft seine Mutter jeden Abend an.",
+        "en": "He calls his mother every evening."
+      },
+      "options": ["an", "auf", "ein"],
+      "answer": "an",
+      "explain": {
+        "de": "Zu rufen passt hier die Vorsilbe an, denn jemanden anrufen heißt telefonieren.",
+        "en": "The prefix an fits rufen here, because jemanden anrufen means to phone someone."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Der Zug fährt um acht Uhr in Berlin ___.",
+      "promptGloss": {
+        "de": "Der Zug fährt um acht Uhr in Berlin ab.",
+        "en": "The train departs from Berlin at eight o'clock."
+      },
+      "options": ["ab", "auf", "ein"],
+      "answer": "ab",
+      "explain": {
+        "de": "Abfahren bedeutet losfahren, deshalb steht hier die Vorsilbe ab am Ende.",
+        "en": "Abfahren means to depart, so the prefix ab stands at the end here."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich muss morgen leider sehr früh ___.",
+      "promptGloss": {
+        "de": "Ich muss morgen leider sehr früh aufstehen.",
+        "en": "Unfortunately I have to get up very early tomorrow."
+      },
+      "answer": "aufstehen",
+      "explain": {
+        "de": "Nach dem Modalverb muss bleibt das Verb als ganzer Infinitiv aufstehen zusammen.",
+        "en": "After the modal verb muss the verb stays together as the full infinitive aufstehen."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Kannst du mich heute Abend ___?",
+      "promptGloss": {
+        "de": "Kannst du mich heute Abend anrufen?",
+        "en": "Can you call me this evening?"
+      },
+      "options": ["anrufen", "rufen an", "an rufen"],
+      "answer": "anrufen",
+      "explain": {
+        "de": "Nach dem Modalverb kannst steht der komplette Infinitiv anrufen in einem Wort.",
+        "en": "After the modal verb kannst the complete infinitive anrufen stands as one word."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir wollen heute Nachmittag zusammen ___.",
+      "promptGloss": {
+        "de": "Wir wollen heute Nachmittag zusammen einkaufen.",
+        "en": "We want to go shopping together this afternoon."
+      },
+      "answer": "einkaufen",
+      "explain": {
+        "de": "Nach wollen steht der Infinitiv einkaufen ungetrennt am Satzende.",
+        "en": "After wollen the infinitive einkaufen stands undivided at the end."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ du morgen früh auf?",
+      "promptGloss": {
+        "de": "Stehst du morgen früh auf?",
+        "en": "Are you getting up early tomorrow?"
+      },
+      "options": ["Stehst", "Stehen", "Steht"],
+      "answer": "Stehst",
+      "explain": {
+        "de": "In der Frage steht das Verb vorn, und zu du gehört die Form stehst.",
+        "en": "In the question the verb comes first, and du takes the form stehst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ mich bitte heute Abend an!",
+      "promptGloss": {
+        "de": "Ruf mich bitte heute Abend an!",
+        "en": "Please call me this evening!"
+      },
+      "answer": "Ruf",
+      "explain": {
+        "de": "Im Imperativ für du steht das Verb ruf ganz vorn, die Vorsilbe an bleibt am Ende.",
+        "en": "In the du imperative the verb ruf stands at the front, the prefix an stays at the end."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wann fängt der Film heute ___?",
+      "promptGloss": {
+        "de": "Wann fängt der Film heute an?",
+        "en": "When does the film start today?"
+      },
+      "answer": "an",
+      "explain": {
+        "de": "Auch in der Frage mit Fragewort steht die Vorsilbe von anfangen am Satzende.",
+        "en": "Even in a question with a question word the prefix of anfangen stands at the end."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich gehe früh ins Bett, weil ich morgen früh ___.",
+      "promptGloss": {
+        "de": "Ich gehe früh ins Bett, weil ich morgen früh aufstehe.",
+        "en": "I go to bed early because I get up early tomorrow."
+      },
+      "options": ["aufstehe", "stehe auf", "auf stehe"],
+      "answer": "aufstehe",
+      "explain": {
+        "de": "Im weil Satz steht das Verb am Ende, und dort bleibt die Vorsilbe am Verb.",
+        "en": "In a weil clause the verb stands at the end, and there the prefix stays attached."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich weiß, dass er dich später ___.",
+      "promptGloss": {
+        "de": "Ich weiß, dass er dich später anruft.",
+        "en": "I know that he will call you later."
+      },
+      "answer": "anruft",
+      "explain": {
+        "de": "Im dass Satz steht anrufen als ein Wort am Ende, konjugiert mit er also anruft.",
+        "en": "In a dass clause anrufen stands as one word at the end, conjugated with er as anruft."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Der Text ist schwer und ich ___ ihn leider nicht.",
+      "promptGloss": {
+        "de": "Der Text ist schwer und ich verstehe ihn leider nicht.",
+        "en": "The text is difficult and unfortunately I do not understand it."
+      },
+      "answer": "verstehe",
+      "explain": {
+        "de": "Die Vorsilbe ver ist untrennbar, deshalb bleibt verstehe zusammen und am Ende steht nichts.",
+        "en": "The prefix ver is inseparable, so verstehe stays together and nothing goes to the end."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Am Montag ___ ich ein Paket von meiner Oma.",
+      "promptGloss": {
+        "de": "Am Montag bekomme ich ein Paket von meiner Oma.",
+        "en": "On Monday I get a parcel from my grandma."
+      },
+      "options": ["bekomme", "komme be", "bekomme an"],
+      "answer": "bekomme",
+      "explain": {
+        "de": "Bekommen hat die untrennbare Vorsilbe be, deshalb wird hier nichts abgetrennt.",
+        "en": "Bekommen has the inseparable prefix be, so nothing is detached here."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Am Wochenende räumen wir die ganze Wohnung ___.",
+      "promptGloss": {
+        "de": "Am Wochenende räumen wir die ganze Wohnung auf.",
+        "en": "At the weekend we tidy up the whole flat."
+      },
+      "answer": "auf",
+      "explain": {
+        "de": "Das Verb heißt aufräumen, deshalb steht die Vorsilbe auf am Satzende.",
+        "en": "The verb is aufräumen, so the prefix auf stands at the end of the sentence."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Es ist sehr kalt, mach bitte das Fenster ___!",
+      "promptGloss": {
+        "de": "Es ist sehr kalt, mach bitte das Fenster zu!",
+        "en": "It is very cold, please close the window!"
+      },
+      "options": ["zu", "auf", "aus"],
+      "answer": "zu",
+      "explain": {
+        "de": "Weil es kalt ist, passt zumachen, und die Vorsilbe zu steht am Satzende.",
+        "en": "Because it is cold, zumachen fits, and the prefix zu stands at the end."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Der Unterricht hört heute schon um zwei Uhr ___.",
+      "promptGloss": {
+        "de": "Der Unterricht hört heute schon um zwei Uhr auf.",
+        "en": "The lesson finishes as early as two o'clock today."
+      },
+      "answer": "auf",
+      "explain": {
+        "de": "Aufhören bedeutet enden, und im Aussagesatz steht die Vorsilbe auf ganz hinten.",
+        "en": "Aufhören means to stop, and in a statement the prefix auf stands right at the end."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich ___ meine Freundin zur Party mit.",
+      "promptGloss": {
+        "de": "Ich nehme meine Freundin zur Party mit.",
+        "en": "I am bringing my girlfriend along to the party."
+      },
+      "options": ["nehme", "nehme mit", "mitnehme"],
+      "answer": "nehme",
+      "explain": {
+        "de": "Bei mitnehmen steht die Vorsilbe mit schon am Ende, an Position zwei bleibt nur nehme.",
+        "en": "With mitnehmen the prefix mit is already at the end, so only nehme stands in position two."
+      }
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "id": "artikel",
+  "name": {
+    "de": "Artikel: der, die, das",
+    "en": "Articles: der, die, das"
+  },
+  "summary": {
+    "de": "Bestimmte und unbestimmte Artikel, das Genus der Nomen und die Verneinung mit kein und keine.",
+    "en": "Definite and indefinite articles, noun gender, and negation with kein and keine."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "bestimmter-artikel",
+      "title": {
+        "de": "Bestimmter Artikel: der, die, das",
+        "en": "Definite article: der, die, das"
+      },
+      "body": {
+        "de": "Jedes deutsche Nomen hat ein Genus: maskulin (der), feminin (die) oder neutral (das). Der bestimmte Artikel steht, wenn eine Person oder Sache schon bekannt ist. Das Genus lernt man am besten immer zusammen mit dem Nomen.",
+        "en": "Every German noun has a gender: masculine (der), feminine (die) or neuter (das). The definite article is used when a person or thing is already known. Always learn the gender together with the noun."
+      },
+      "examples": [
+        {
+          "de": "Der Mann wohnt in Berlin.",
+          "gloss": {
+            "de": "Ein bestimmter, schon bekannter Mann wohnt in Berlin.",
+            "en": "The man lives in Berlin."
+          },
+          "note": {
+            "de": "der steht bei maskulinen Nomen.",
+            "en": "der goes with masculine nouns."
+          }
+        },
+        {
+          "de": "Die Frau trinkt Kaffee.",
+          "gloss": {
+            "de": "Eine bestimmte Frau trinkt Kaffee.",
+            "en": "The woman drinks coffee."
+          },
+          "note": {
+            "de": "die steht bei femininen Nomen.",
+            "en": "die goes with feminine nouns."
+          }
+        },
+        {
+          "de": "Das Kind spielt im Garten.",
+          "gloss": {
+            "de": "Ein bestimmtes Kind spielt im Garten.",
+            "en": "The child plays in the garden."
+          },
+          "note": {
+            "de": "das steht bei neutralen Nomen.",
+            "en": "das goes with neuter nouns."
+          }
+        }
+      ]
+    },
+    {
+      "id": "unbestimmter-artikel",
+      "title": {
+        "de": "Unbestimmter Artikel: ein, eine",
+        "en": "Indefinite article: ein, eine"
+      },
+      "body": {
+        "de": "Ist eine Sache neu oder noch nicht bekannt, benutzt man ein oder eine. Bei maskulinen und neutralen Nomen heißt es ein, bei femininen Nomen eine. Der unbestimmte Artikel zeigt also auch das Genus.",
+        "en": "If something is new or not yet known, use ein or eine. Masculine and neuter nouns take ein, feminine nouns take eine. So the indefinite article also shows the gender."
+      },
+      "examples": [
+        {
+          "de": "Das ist ein Hund.",
+          "gloss": {
+            "de": "Hier wird ein Hund zum ersten Mal genannt.",
+            "en": "This is a dog."
+          },
+          "note": {
+            "de": "ein bei maskulin: der Hund.",
+            "en": "ein for masculine: der Hund."
+          }
+        },
+        {
+          "de": "Das ist eine Lampe.",
+          "gloss": {
+            "de": "Eine Lampe wird neu eingeführt.",
+            "en": "This is a lamp."
+          },
+          "note": {
+            "de": "eine bei feminin: die Lampe.",
+            "en": "eine for feminine: die Lampe."
+          }
+        },
+        {
+          "de": "Das ist ein Haus.",
+          "gloss": {
+            "de": "Ein Haus wird neu eingeführt.",
+            "en": "This is a house."
+          },
+          "note": {
+            "de": "ein bei neutral: das Haus.",
+            "en": "ein for neuter: das Haus."
+          }
+        }
+      ]
+    },
+    {
+      "id": "plural-artikel",
+      "title": {
+        "de": "Artikel im Plural",
+        "en": "Articles in the plural"
+      },
+      "body": {
+        "de": "Im Plural haben alle Nomen den bestimmten Artikel die, egal welches Genus sie im Singular haben. Einen unbestimmten Artikel gibt es im Plural nicht. Dort steht das Nomen einfach ohne Artikel.",
+        "en": "In the plural every noun takes the definite article die, no matter which gender it has in the singular. There is no indefinite article in the plural. The noun simply stands without an article."
+      },
+      "examples": [
+        {
+          "de": "Die Kinder spielen im Garten.",
+          "gloss": {
+            "de": "Mehrere bekannte Kinder spielen im Garten.",
+            "en": "The children play in the garden."
+          },
+          "note": {
+            "de": "das Kind wird im Plural zu die Kinder.",
+            "en": "das Kind becomes die Kinder in the plural."
+          }
+        },
+        {
+          "de": "Der Tisch ist neu, aber die Tische im Büro sind alt.",
+          "gloss": {
+            "de": "Ein Tisch ist neu, die anderen im Büro sind alt.",
+            "en": "The table is new, but the tables in the office are old."
+          },
+          "note": {
+            "de": "der wird im Plural zu die.",
+            "en": "der becomes die in the plural."
+          }
+        },
+        {
+          "de": "Im Garten sind Blumen.",
+          "gloss": {
+            "de": "Es gibt dort Blumen, aber keine bestimmten.",
+            "en": "There are flowers in the garden."
+          },
+          "note": {
+            "de": "Im Plural steht kein ein oder eine.",
+            "en": "No ein or eine exists in the plural."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kein-keine",
+      "title": {
+        "de": "Verneinung mit kein und keine",
+        "en": "Negation with kein and keine"
+      },
+      "body": {
+        "de": "Nomen mit ein, eine oder ohne Artikel verneint man mit kein. Bei maskulinen und neutralen Nomen steht kein, bei femininen Nomen und im Plural steht keine. Verben und Adjektive verneint man dagegen mit nicht.",
+        "en": "Nouns with ein, eine or with no article are negated with kein. Masculine and neuter nouns take kein, feminine nouns and plurals take keine. Verbs and adjectives are negated with nicht instead."
+      },
+      "examples": [
+        {
+          "de": "Ich habe kein Auto.",
+          "gloss": {
+            "de": "Ein Auto besitze ich nicht.",
+            "en": "I do not have a car."
+          },
+          "note": {
+            "de": "kein bei neutral: das Auto.",
+            "en": "kein for neuter: das Auto."
+          }
+        },
+        {
+          "de": "Ich habe keine Zeit.",
+          "gloss": {
+            "de": "Zeit habe ich gerade nicht.",
+            "en": "I have no time."
+          },
+          "note": {
+            "de": "keine bei feminin: die Zeit.",
+            "en": "keine for feminine: die Zeit."
+          }
+        },
+        {
+          "de": "Ich habe keine Geschwister.",
+          "gloss": {
+            "de": "Ich bin ein Einzelkind.",
+            "en": "I have no siblings."
+          },
+          "note": {
+            "de": "Im Plural steht immer keine.",
+            "en": "The plural always takes keine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "genus-endungen",
+      "title": {
+        "de": "Endungen zeigen das Genus",
+        "en": "Endings that show the gender"
+      },
+      "body": {
+        "de": "Manche Endungen verraten das Genus. Nomen mit den Endungen ung, heit, keit und schaft sind feminin, sie bekommen also die. Nomen mit den Endungen chen und lein sind neutral und bekommen das.",
+        "en": "Some endings reveal the gender. Nouns ending in ung, heit, keit and schaft are feminine, so they take die. Nouns ending in chen and lein are neuter and take das."
+      },
+      "examples": [
+        {
+          "de": "Die Wohnung ist klein.",
+          "gloss": {
+            "de": "Die Räume der Wohnung sind klein.",
+            "en": "The flat is small."
+          },
+          "note": {
+            "de": "Endung ung, also feminin.",
+            "en": "Ending ung, so feminine."
+          }
+        },
+        {
+          "de": "Die Zeitung liegt auf dem Tisch.",
+          "gloss": {
+            "de": "Auf dem Tisch liegt die Zeitung.",
+            "en": "The newspaper is on the table."
+          },
+          "note": {
+            "de": "Auch Zeitung endet auf ung.",
+            "en": "Zeitung also ends in ung."
+          }
+        },
+        {
+          "de": "Das Mädchen heißt Lena.",
+          "gloss": {
+            "de": "Der Name des Mädchens ist Lena.",
+            "en": "The girl is called Lena."
+          },
+          "note": {
+            "de": "Endung chen, also neutral.",
+            "en": "Ending chen, so neuter."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "___ Mann dort ist mein Lehrer.",
+      "promptGloss": {
+        "de": "Der Mann dort ist mein Lehrer.",
+        "en": "The man over there is my teacher."
+      },
+      "options": ["Der", "Die", "Das"],
+      "answer": "Der",
+      "explain": {
+        "de": "Mann ist maskulin, deshalb steht der.",
+        "en": "Mann is masculine, so it takes der."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ Frau heißt Anna.",
+      "promptGloss": {
+        "de": "Die Frau heißt Anna.",
+        "en": "The woman is called Anna."
+      },
+      "options": ["Der", "Die", "Das"],
+      "answer": "Die",
+      "explain": {
+        "de": "Frau ist feminin, deshalb steht die.",
+        "en": "Frau is feminine, so it takes die."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ Kind schläft schon.",
+      "promptGloss": {
+        "de": "Das Kind schläft schon.",
+        "en": "The child is already asleep."
+      },
+      "options": ["Der", "Die", "Das"],
+      "answer": "Das",
+      "explain": {
+        "de": "Kind ist neutral, deshalb steht das.",
+        "en": "Kind is neuter, so it takes das."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wo ist ___ Schlüssel von der Wohnung?",
+      "promptGloss": {
+        "de": "Wo ist der Schlüssel von der Wohnung?",
+        "en": "Where is the key to the flat?"
+      },
+      "answer": "der",
+      "explain": {
+        "de": "Der Schlüssel ist bekannt und maskulin, also der.",
+        "en": "The key is known and masculine, so der."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ Lehrerin von meinem Bruder kommt aus Spanien.",
+      "promptGloss": {
+        "de": "Die Lehrerin von meinem Bruder kommt aus Spanien.",
+        "en": "My brother's teacher comes from Spain."
+      },
+      "answer": "Die",
+      "explain": {
+        "de": "Lehrerin ist feminin und hier genau bestimmt, also die.",
+        "en": "Lehrerin is feminine and clearly specified here, so die."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist ___ Hund.",
+      "promptGloss": {
+        "de": "Das ist ein Hund.",
+        "en": "This is a dog."
+      },
+      "options": ["ein", "eine"],
+      "answer": "ein",
+      "explain": {
+        "de": "Hund ist maskulin, der unbestimmte Artikel heißt ein.",
+        "en": "Hund is masculine, so the indefinite article is ein."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist ___ Lampe.",
+      "promptGloss": {
+        "de": "Das ist eine Lampe.",
+        "en": "This is a lamp."
+      },
+      "options": ["ein", "eine"],
+      "answer": "eine",
+      "explain": {
+        "de": "Lampe ist feminin, der unbestimmte Artikel heißt eine.",
+        "en": "Lampe is feminine, so the indefinite article is eine."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich habe ___ Idee!",
+      "promptGloss": {
+        "de": "Mir fällt gerade etwas ein.",
+        "en": "I have an idea!"
+      },
+      "answer": "eine",
+      "explain": {
+        "de": "Die Idee ist neu, und Idee ist feminin, also eine.",
+        "en": "The idea is new and Idee is feminine, so eine."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist ___ Haus.",
+      "promptGloss": {
+        "de": "Das ist ein Haus.",
+        "en": "This is a house."
+      },
+      "options": ["ein", "eine"],
+      "answer": "ein",
+      "explain": {
+        "de": "Haus ist neutral, der unbestimmte Artikel heißt ein.",
+        "en": "Haus is neuter, so the indefinite article is ein."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ Kinder spielen im Garten.",
+      "promptGloss": {
+        "de": "Die Kinder spielen im Garten.",
+        "en": "The children are playing in the garden."
+      },
+      "options": ["Der", "Die", "Das"],
+      "answer": "Die",
+      "explain": {
+        "de": "Im Plural steht immer die.",
+        "en": "The plural always takes die."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wo sind ___ Bücher von Anna?",
+      "promptGloss": {
+        "de": "Wo sind die Bücher von Anna?",
+        "en": "Where are Anna's books?"
+      },
+      "answer": "die",
+      "explain": {
+        "de": "Bücher ist Plural, also steht die.",
+        "en": "Bücher is plural, so die is used."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Die Blumen sind schön, und ___ Bäume sind alt.",
+      "promptGloss": {
+        "de": "Die Blumen sind schön, und die Bäume sind alt.",
+        "en": "The flowers are beautiful and the trees are old."
+      },
+      "answer": "die",
+      "explain": {
+        "de": "Auch der Baum bekommt im Plural die.",
+        "en": "der Baum also takes die in the plural."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich habe heute ___ Zeit.",
+      "promptGloss": {
+        "de": "Heute habe ich keine Zeit.",
+        "en": "I have no time today."
+      },
+      "options": ["kein", "keine", "keinen"],
+      "answer": "keine",
+      "explain": {
+        "de": "Zeit ist feminin, deshalb keine.",
+        "en": "Zeit is feminine, so keine."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir haben ___ Auto und fahren mit dem Bus.",
+      "promptGloss": {
+        "de": "Wir besitzen kein Auto und fahren mit dem Bus.",
+        "en": "We have no car and travel by bus."
+      },
+      "answer": "kein",
+      "explain": {
+        "de": "Auto ist neutral, die Verneinung heißt kein.",
+        "en": "Auto is neuter, so the negation is kein."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist ___ Problem für mich.",
+      "promptGloss": {
+        "de": "Für mich ist das kein Problem.",
+        "en": "That is no problem for me."
+      },
+      "options": ["kein", "keine"],
+      "answer": "kein",
+      "explain": {
+        "de": "Problem ist neutral, deshalb kein.",
+        "en": "Problem is neuter, so kein."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Zum Frühstück trinke ich Kaffee, aber ___ Milch.",
+      "promptGloss": {
+        "de": "Zum Frühstück trinke ich Kaffee, aber keine Milch.",
+        "en": "For breakfast I drink coffee but no milk."
+      },
+      "answer": "keine",
+      "explain": {
+        "de": "Milch ist feminin, deshalb keine.",
+        "en": "Milch is feminine, so keine."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich habe ___ Geschwister und bin oft allein.",
+      "promptGloss": {
+        "de": "Ich habe keine Geschwister und bin oft allein.",
+        "en": "I have no siblings and am often alone."
+      },
+      "answer": "keine",
+      "explain": {
+        "de": "Geschwister ist Plural, im Plural steht keine.",
+        "en": "Geschwister is plural, and the plural takes keine."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ Wohnung von Peter ist klein.",
+      "promptGloss": {
+        "de": "Peters Wohnung ist klein.",
+        "en": "Peter's flat is small."
+      },
+      "options": ["Der", "Die", "Das"],
+      "answer": "Die",
+      "explain": {
+        "de": "Nomen mit der Endung ung sind feminin.",
+        "en": "Nouns ending in ung are feminine."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ Mädchen dort heißt Lena.",
+      "promptGloss": {
+        "de": "Das Mädchen dort heißt Lena.",
+        "en": "The girl over there is called Lena."
+      },
+      "options": ["Der", "Die", "Das"],
+      "answer": "Das",
+      "explain": {
+        "de": "Nomen mit der Endung chen sind neutral.",
+        "en": "Nouns ending in chen are neuter."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich lese ___ Zeitung von heute.",
+      "promptGloss": {
+        "de": "Ich lese die Zeitung von heute.",
+        "en": "I am reading today's newspaper."
+      },
+      "answer": "die",
+      "explain": {
+        "de": "Zeitung endet auf ung und ist feminin, also die.",
+        "en": "Zeitung ends in ung and is feminine, so die."
+      }
+    }
+  ]
+}

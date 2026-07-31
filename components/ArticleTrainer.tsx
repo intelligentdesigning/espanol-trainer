@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
+import { useLang } from "@/lib/lang";
 import { loadArticles, loadVocab } from "@/lib/data";
 import { recordResult, addSession } from "@/lib/storage/db";
 import { loadArticleProgress, type ArticleProgress } from "@/lib/article-progress";
@@ -25,6 +26,7 @@ function shuffle<T>(a: T[]): T[] {
 
 export function ArticleTrainer() {
   const { t, L } = useI18n();
+  const { lang } = useLang();
   const [articles, setArticles] = useState<NounArticle[] | null>(null);
   const [meaning, setMeaning] = useState<Map<string, string>>(new Map());
   const [prog, setProg] = useState<ArticleProgress | null>(null);
@@ -43,9 +45,20 @@ export function ArticleTrainer() {
 
   const refreshMastery = () => loadArticleProgress().then(setProg);
   useEffect(() => {
-    loadArticles().then(setArticles);
-    loadVocab().then((v) => { const m = new Map<string, string>(); for (const x of v) if (!m.has(x.es)) m.set(x.es, x.clue || x.en[0] || ""); setMeaning(m); });
+    loadArticles().then((a) => {
+      setArticles(a);
+      // German nouns carry their meaning inline; Spanish looks it up in vocab.json
+      if (a.some((x) => x.en)) {
+        const m = new Map<string, string>();
+        for (const x of a) if (x.en) m.set(x.es, x.en);
+        setMeaning(m);
+      }
+    });
+    if (lang === "es") {
+      loadVocab().then((v) => { const m = new Map<string, string>(); for (const x of v) if (!m.has(x.es)) m.set(x.es, x.clue || x.en[0] || ""); setMeaning(m); });
+    }
     refreshMastery();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const begin = (qs: NounArticle[]) => {
@@ -163,7 +176,7 @@ export function ArticleTrainer() {
   const total = questions.length;
   const q = questions[idx];
 
-  const answer = (opt: "el" | "la") => {
+  const answer = (opt: NounArticle["article"]) => {
     if (status !== "idle") return;
     const ok = opt === q.article;
     setPicked(opt);
@@ -206,7 +219,7 @@ export function ArticleTrainer() {
       </div>
 
       <div className="grid grid-cols-2 gap-3">
-        {(["el", "la"] as const).map((opt) => {
+        {(lang === "de" ? (["der", "die", "das"] as const) : (["el", "la"] as const)).map((opt) => {
           const isAnswer = opt === q.article;
           const isPicked = picked === opt;
           let cls = "border-border hover:bg-foreground/5";

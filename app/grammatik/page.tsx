@@ -8,11 +8,17 @@ import { ScoreRing } from "@/components/ScoreRing";
 import { topics } from "@/content/topics";
 import { zeitformen } from "@/content/zeitformen";
 import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progress";
+import { useLang } from "@/lib/lang";
+import { DeGrammar } from "@/components/DeGrammar";
 
 export default function GrammatikPage() {
   const { t } = useI18n();
+  const { lang } = useLang();
   const [prog, setProg] = useState<GrammarProgress | null>(null);
   useEffect(() => { loadGrammarProgress().then(setProg); }, []);
+
+  // German mode has its own (flat) A1 lesson set
+  if (lang === "de") return <DeGrammar />;
 
   const tenseList = zeitformen.filter((z) => z.available);
   const tensesPassed = tenseList.filter((z) => prog?.byId.get(z.id)?.passed).length;

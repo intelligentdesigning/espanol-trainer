@@ -1,8 +1,10 @@
-import type { VocabItem, VerbItem, VocabIndex, BuchData, VocabDetails, BuchDetails, NounArticle, ThemesData } from "@/lib/types";
+import type { VocabItem, VerbItem, VocabIndex, BuchData, VocabDetails, BuchDetails, NounArticle, ThemesData, DeLesson } from "@/lib/types";
+import { getActiveLang } from "@/lib/lang";
 
 // Client-side loaders for the committed data files (in public/data, fetched lazily).
 let vocabPromise: Promise<VocabItem[]> | null = null;
 let themesPromise: Promise<ThemesData> | null = null;
+let deGrammarPromise: Promise<DeLesson[]> | null = null;
 let verbsPromise: Promise<VerbItem[]> | null = null;
 let indexPromise: Promise<VocabIndex> | null = null;
 let buchPromise: Promise<BuchData> | null = null;
@@ -29,9 +31,15 @@ export function loadIndex(): Promise<VocabIndex> {
 export function loadBuch(): Promise<BuchData> {
   return (buchPromise ??= load<BuchData>("buch.json"));
 }
-/** Thematic vocabulary sets ("Temas"). */
+/** Thematic vocabulary sets — per learned language ("Temas" / "Themen"). */
 export function loadThemes(): Promise<ThemesData> {
-  return (themesPromise ??= load<ThemesData>("themes.json"));
+  const file = getActiveLang() === "de" ? "de/themes.json" : "themes.json";
+  return (themesPromise ??= load<ThemesData>(file));
+}
+
+/** German A1 grammar lessons (rules + practice). Empty when not in German mode. */
+export function loadDeGrammar(): Promise<DeLesson[]> {
+  return (deGrammarPromise ??= load<DeLesson[]>("de/grammar.json").catch(() => [] as DeLesson[]));
 }
 /** Definitions + example sentences (keyed by vocab id). Tolerates a missing file. */
 export function loadDetails(): Promise<VocabDetails> {
@@ -41,9 +49,11 @@ export function loadDetails(): Promise<VocabDetails> {
 export function loadBuchDetails(): Promise<BuchDetails> {
   return (buchDetailsPromise ??= load<BuchDetails>("buch-details.json").catch(() => ({} as BuchDetails)));
 }
-/** Noun gender database for the article trainer. Tolerates a missing file. */
+/** Noun gender database for the article trainer (el/la — or der/die/das in German
+ *  mode). Tolerates a missing file. */
 export function loadArticles(): Promise<NounArticle[]> {
-  return (articlesPromise ??= load<NounArticle[]>("articles.json").catch(() => [] as NounArticle[]));
+  const file = getActiveLang() === "de" ? "de/articles.json" : "articles.json";
+  return (articlesPromise ??= load<NounArticle[]>(file).catch(() => [] as NounArticle[]));
 }
 
 const strip = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();

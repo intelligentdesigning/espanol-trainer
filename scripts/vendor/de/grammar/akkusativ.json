@@ -1,0 +1,503 @@
+{
+  "id": "akkusativ",
+  "name": {
+    "de": "Akkusativ",
+    "en": "The Accusative Case"
+  },
+  "summary": {
+    "de": "Wann und wie du den Akkusativ benutzt: den, die, das, die, nach haben und es gibt sowie die Pronomen mich, dich und ihn.",
+    "en": "How and when to use the accusative: den, die, das, die, after haben and es gibt, plus the pronouns mich, dich and ihn."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "akkusativ-direktes-objekt",
+      "title": {
+        "de": "Der Akkusativ ist das direkte Objekt",
+        "en": "The accusative is the direct object"
+      },
+      "body": {
+        "de": "Der Akkusativ ist der Fall für das direkte Objekt im Satz. Du findest ihn mit der Frage „Wen?“ oder „Was?“. Das Subjekt bleibt immer im Nominativ, nur das Objekt steht im Akkusativ.",
+        "en": "The accusative is the case for the direct object of a sentence. You find it by asking 'Wen?' (whom) or 'Was?' (what). The subject always stays in the nominative, only the object goes into the accusative."
+      },
+      "examples": [
+        {
+          "de": "Ich sehe den Hund.",
+          "gloss": {
+            "de": "Wen sehe ich? Den Hund.",
+            "en": "I see the dog."
+          },
+          "note": {
+            "de": "„den Hund“ ist das direkte Objekt.",
+            "en": "'den Hund' is the direct object."
+          }
+        },
+        {
+          "de": "Der Hund sieht mich.",
+          "gloss": {
+            "de": "Wen sieht der Hund? Mich.",
+            "en": "The dog sees me."
+          },
+          "note": {
+            "de": "Das Subjekt „der Hund“ bleibt im Nominativ.",
+            "en": "The subject 'der Hund' stays in the nominative."
+          }
+        },
+        {
+          "de": "Den Kaffee trinke ich später.",
+          "gloss": {
+            "de": "Ich trinke den Kaffee später.",
+            "en": "I will drink the coffee later."
+          },
+          "note": {
+            "de": "Auch am Satzanfang bleibt das Objekt im Akkusativ.",
+            "en": "The object keeps the accusative even at the start of the sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "akkusativ-bestimmter-artikel",
+      "title": {
+        "de": "den, die, das, die",
+        "en": "den, die, das, die"
+      },
+      "body": {
+        "de": "Im Akkusativ ändert sich nur der maskuline Artikel: aus „der“ wird „den“. Feminin bleibt „die“, neutral bleibt „das“ und der Plural bleibt „die“. Merke dir also nur diese eine Änderung.",
+        "en": "In the accusative only the masculine article changes: 'der' becomes 'den'. Feminine stays 'die', neuter stays 'das' and the plural stays 'die'. So there is really only one form to remember."
+      },
+      "examples": [
+        {
+          "de": "Ich kaufe den Tisch.",
+          "gloss": {
+            "de": "Ich kaufe diesen Tisch.",
+            "en": "I am buying the table."
+          },
+          "note": {
+            "de": "„der Tisch“ wird im Akkusativ zu „den Tisch“.",
+            "en": "'der Tisch' becomes 'den Tisch' in the accusative."
+          }
+        },
+        {
+          "de": "Ich öffne die Tür.",
+          "gloss": {
+            "de": "Ich mache die Tür auf.",
+            "en": "I open the door."
+          },
+          "note": {
+            "de": "Feminin bleibt im Akkusativ gleich.",
+            "en": "The feminine form does not change."
+          }
+        },
+        {
+          "de": "Wir besuchen die Großeltern.",
+          "gloss": {
+            "de": "Wir gehen zu den Großeltern.",
+            "en": "We are visiting our grandparents."
+          },
+          "note": {
+            "de": "Im Plural bleibt es „die“.",
+            "en": "The plural stays 'die'."
+          }
+        }
+      ]
+    },
+    {
+      "id": "akkusativ-unbestimmter-artikel",
+      "title": {
+        "de": "einen, eine, ein und kein",
+        "en": "einen, eine, ein and kein"
+      },
+      "body": {
+        "de": "Der unbestimmte Artikel im Akkusativ heißt einen (maskulin), eine (feminin) und ein (neutral). Genau dieselben Endungen bekommen kein und die Possessivartikel: keinen, keine, kein oder meinen, meine, mein.",
+        "en": "The indefinite article in the accusative is einen (masculine), eine (feminine) and ein (neuter). The negative article and the possessives take exactly the same endings: keinen, keine, kein or meinen, meine, mein."
+      },
+      "examples": [
+        {
+          "de": "Ich brauche einen Stift.",
+          "gloss": {
+            "de": "Ich brauche irgendeinen Stift.",
+            "en": "I need a pen."
+          },
+          "note": {
+            "de": "Maskulin bekommt die Endung en.",
+            "en": "The masculine form adds the ending en."
+          }
+        },
+        {
+          "de": "Sie kauft eine Lampe.",
+          "gloss": {
+            "de": "Sie kauft irgendeine Lampe.",
+            "en": "She is buying a lamp."
+          },
+          "note": {
+            "de": "Feminin bleibt „eine“.",
+            "en": "The feminine form stays 'eine'."
+          }
+        },
+        {
+          "de": "Ich trinke keinen Kaffee.",
+          "gloss": {
+            "de": "Ich trinke nie Kaffee.",
+            "en": "I do not drink coffee."
+          },
+          "note": {
+            "de": "kein bekommt dieselben Endungen wie ein.",
+            "en": "kein takes the same endings as ein."
+          }
+        }
+      ]
+    },
+    {
+      "id": "akkusativ-haben-es-gibt",
+      "title": {
+        "de": "Akkusativ nach haben und es gibt",
+        "en": "Accusative after haben and es gibt"
+      },
+      "body": {
+        "de": "Nach dem Verb „haben“ steht immer der Akkusativ. Auch „es gibt“ verlangt immer den Akkusativ, egal ob eine Person oder eine Sache folgt. Diese beiden Ausdrücke kommen sehr oft vor, deshalb lohnt sich die Regel besonders.",
+        "en": "The verb 'haben' is always followed by the accusative. The expression 'es gibt' (there is / there are) also always takes the accusative, no matter whether a person or a thing follows. Both are very frequent, so this rule pays off quickly."
+      },
+      "examples": [
+        {
+          "de": "Ich habe einen Bruder.",
+          "gloss": {
+            "de": "Ich habe einen Bruder in meiner Familie.",
+            "en": "I have a brother."
+          },
+          "note": {
+            "de": "Nach haben nie „ein Bruder“, sondern „einen Bruder“.",
+            "en": "After haben it is never 'ein Bruder' but 'einen Bruder'."
+          }
+        },
+        {
+          "de": "Es gibt einen Supermarkt in der Nähe.",
+          "gloss": {
+            "de": "In der Nähe ist ein Supermarkt.",
+            "en": "There is a supermarket nearby."
+          },
+          "note": {
+            "de": "„es gibt“ steht mit dem Akkusativ.",
+            "en": "'es gibt' is used with the accusative."
+          }
+        },
+        {
+          "de": "Heute gibt es keinen Unterricht.",
+          "gloss": {
+            "de": "Heute fällt der Unterricht aus.",
+            "en": "There are no classes today."
+          },
+          "note": {
+            "de": "Auch die Verneinung steht im Akkusativ.",
+            "en": "The negated form is also in the accusative."
+          }
+        }
+      ]
+    },
+    {
+      "id": "akkusativ-pronomen",
+      "title": {
+        "de": "mich, dich, ihn, sie, es",
+        "en": "mich, dich, ihn, sie, es"
+      },
+      "body": {
+        "de": "Die Personalpronomen im Akkusativ sind mich, dich, ihn, sie, es, uns, euch und sie. Aus „er“ wird „ihn“, während „sie“ und „es“ gleich bleiben. Das Pronomen richtet sich nach dem Genus des Nomens, nicht nach der Bedeutung.",
+        "en": "The personal pronouns in the accusative are mich, dich, ihn, sie, es, uns, euch and sie. 'er' becomes 'ihn', while 'sie' and 'es' keep their form. The pronoun follows the gender of the noun, not its meaning."
+      },
+      "examples": [
+        {
+          "de": "Der Film ist gut, ich finde ihn spannend.",
+          "gloss": {
+            "de": "Ich finde den Film spannend.",
+            "en": "The film is good, I find it exciting."
+          },
+          "note": {
+            "de": "„der Film“ ist maskulin, also „ihn“.",
+            "en": "'der Film' is masculine, so it becomes 'ihn'."
+          }
+        },
+        {
+          "de": "Ich sehe dich, aber du siehst mich nicht.",
+          "gloss": {
+            "de": "Du bemerkst mich nicht.",
+            "en": "I can see you, but you cannot see me."
+          },
+          "note": {
+            "de": "du wird zu dich, ich wird zu mich.",
+            "en": "du becomes dich and ich becomes mich."
+          }
+        },
+        {
+          "de": "Das Buch ist neu, ich lese es heute.",
+          "gloss": {
+            "de": "Ich lese das neue Buch heute.",
+            "en": "The book is new, I am reading it today."
+          },
+          "note": {
+            "de": "Neutrale Nomen bleiben „es“.",
+            "en": "Neuter nouns keep the form 'es'."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "Der Lehrer fragt ___ Schüler.",
+      "promptGloss": {
+        "de": "Der Lehrer stellt dem Schüler eine Frage.",
+        "en": "The teacher asks the student."
+      },
+      "options": ["den", "der", "dem"],
+      "answer": "den",
+      "explain": {
+        "de": "„Schüler“ ist hier das direkte Objekt, maskulin also „den“.",
+        "en": "'Schüler' is the direct object here, so the masculine form is 'den'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ Mann kenne ich gut.",
+      "promptGloss": {
+        "de": "Ich kenne den Mann gut.",
+        "en": "I know that man well."
+      },
+      "options": ["Den", "Der", "Dem"],
+      "answer": "Den",
+      "explain": {
+        "de": "Auch am Satzanfang bleibt das Objekt im Akkusativ: „Den Mann“.",
+        "en": "Even at the start of a sentence the object stays accusative: 'Den Mann'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich nehme ___ Bus, der um acht Uhr fährt.",
+      "promptGloss": {
+        "de": "Ich fahre mit dem Bus von acht Uhr.",
+        "en": "I take the bus that leaves at eight."
+      },
+      "answer": "den",
+      "explain": {
+        "de": "„der Bus“ ist maskulin und wird im Akkusativ zu „den Bus“.",
+        "en": "'der Bus' is masculine and becomes 'den Bus' in the accusative."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich sehe ___ Kind dort drüben.",
+      "promptGloss": {
+        "de": "Ich sehe das Kind auf der anderen Seite.",
+        "en": "I see the child over there."
+      },
+      "options": ["das", "dem", "den"],
+      "answer": "das",
+      "explain": {
+        "de": "„Kind“ ist neutral und bleibt im Akkusativ „das“.",
+        "en": "'Kind' is neuter and keeps 'das' in the accusative."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir besuchen ___ Großeltern am Sonntag.",
+      "promptGloss": {
+        "de": "Am Sonntag fahren wir zu den Großeltern.",
+        "en": "We are visiting our grandparents on Sunday."
+      },
+      "options": ["die", "den", "dem"],
+      "answer": "die",
+      "explain": {
+        "de": "Im Plural bleibt der Artikel im Akkusativ „die“.",
+        "en": "In the plural the accusative article stays 'die'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich brauche ___ Stift zum Schreiben.",
+      "promptGloss": {
+        "de": "Ich brauche einen Stift, um zu schreiben.",
+        "en": "I need a pen for writing."
+      },
+      "options": ["einen", "ein", "eine"],
+      "answer": "einen",
+      "explain": {
+        "de": "„Stift“ ist maskulin, deshalb heißt es im Akkusativ „einen“.",
+        "en": "'Stift' is masculine, so the accusative form is 'einen'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Sie kauft ___ Lampe für das Wohnzimmer.",
+      "promptGloss": {
+        "de": "Sie kauft eine Lampe für ihr Wohnzimmer.",
+        "en": "She is buying a lamp for the living room."
+      },
+      "options": ["eine", "einen", "ein"],
+      "answer": "eine",
+      "explain": {
+        "de": "„Lampe“ ist feminin, also bleibt es „eine“.",
+        "en": "'Lampe' is feminine, so it stays 'eine'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich trinke ___ Alkohol.",
+      "promptGloss": {
+        "de": "Ich trinke nie Alkohol.",
+        "en": "I do not drink alcohol."
+      },
+      "options": ["keinen", "keine", "kein"],
+      "answer": "keinen",
+      "explain": {
+        "de": "„Alkohol“ ist maskulin, deshalb „keinen“ wie „einen“.",
+        "en": "'Alkohol' is masculine, so you use 'keinen', just like 'einen'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Er hat ___ Bruder und zwei Schwestern.",
+      "promptGloss": {
+        "de": "Er hat einen Bruder und zwei Schwestern.",
+        "en": "He has one brother and two sisters."
+      },
+      "answer": "einen",
+      "explain": {
+        "de": "Nach „haben“ steht der Akkusativ, maskulin also „einen“.",
+        "en": "After 'haben' you use the accusative, so masculine becomes 'einen'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Sie hat ___ Schwester, die in Berlin wohnt.",
+      "promptGloss": {
+        "de": "Ihre Schwester wohnt in Berlin.",
+        "en": "She has a sister who lives in Berlin."
+      },
+      "answer": "eine",
+      "explain": {
+        "de": "Nach „haben“ steht der Akkusativ, feminin bleibt „eine“.",
+        "en": "After 'haben' the accusative is used, and the feminine form stays 'eine'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Zum Glück gibt es hier ___ Apotheke.",
+      "promptGloss": {
+        "de": "Hier in der Nähe ist eine Apotheke.",
+        "en": "Luckily there is a pharmacy here."
+      },
+      "answer": "eine",
+      "explain": {
+        "de": "„es gibt“ verlangt den Akkusativ, feminin bleibt „eine“.",
+        "en": "'es gibt' takes the accusative, and the feminine form stays 'eine'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Hier gibt es ___ Supermarkt.",
+      "promptGloss": {
+        "de": "In dieser Gegend ist ein Supermarkt.",
+        "en": "There is a supermarket here."
+      },
+      "options": ["einen", "ein", "eine"],
+      "answer": "einen",
+      "explain": {
+        "de": "Nach „es gibt“ steht der Akkusativ, maskulin also „einen“.",
+        "en": "After 'es gibt' you need the accusative, so masculine becomes 'einen'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Es gibt ___ Problem, alles ist in Ordnung.",
+      "promptGloss": {
+        "de": "Alles ist gut, es gibt kein Problem.",
+        "en": "There is no problem, everything is fine."
+      },
+      "options": ["kein", "keinen", "keine"],
+      "answer": "kein",
+      "explain": {
+        "de": "„Problem“ ist neutral, deshalb heißt die Verneinung „kein“.",
+        "en": "'Problem' is neuter, so the negative form is 'kein'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Der Film ist gut, ich finde ___ sehr spannend.",
+      "promptGloss": {
+        "de": "Ich finde den Film sehr spannend.",
+        "en": "The film is good, I find it very exciting."
+      },
+      "answer": "ihn",
+      "explain": {
+        "de": "„der Film“ ist maskulin, im Akkusativ wird „er“ zu „ihn“.",
+        "en": "'der Film' is masculine, and in the accusative 'er' becomes 'ihn'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Meine Schwester ist nett, ich mag ___ sehr.",
+      "promptGloss": {
+        "de": "Ich mag meine Schwester sehr.",
+        "en": "My sister is nice, I like her a lot."
+      },
+      "answer": "sie",
+      "explain": {
+        "de": "Feminine Nomen bleiben im Akkusativ „sie“.",
+        "en": "Feminine nouns keep the form 'sie' in the accusative."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Das Buch ist neu, ich lese ___ heute Abend.",
+      "promptGloss": {
+        "de": "Ich lese das neue Buch heute Abend.",
+        "en": "The book is new, I am reading it tonight."
+      },
+      "answer": "es",
+      "explain": {
+        "de": "„das Buch“ ist neutral, im Akkusativ bleibt es „es“.",
+        "en": "'das Buch' is neuter, so in the accusative it stays 'es'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich liebe dich und du liebst ___ auch.",
+      "promptGloss": {
+        "de": "Wir lieben uns gegenseitig.",
+        "en": "I love you and you love me too."
+      },
+      "answer": "mich",
+      "explain": {
+        "de": "„ich“ wird im Akkusativ zu „mich“.",
+        "en": "'ich' becomes 'mich' in the accusative."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Sprich bitte lauter, ich verstehe ___ nicht.",
+      "promptGloss": {
+        "de": "Ich verstehe dich nicht, sprich lauter.",
+        "en": "Please speak louder, I cannot understand you."
+      },
+      "answer": "dich",
+      "explain": {
+        "de": "„du“ wird im Akkusativ zu „dich“.",
+        "en": "'du' becomes 'dich' in the accusative."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Der Kuchen ist lecker, ich esse ___ gern.",
+      "promptGloss": {
+        "de": "Ich esse den Kuchen gern.",
+        "en": "The cake is tasty, I like eating it."
+      },
+      "options": ["ihn", "er", "ihm"],
+      "answer": "ihn",
+      "explain": {
+        "de": "„essen“ braucht den Akkusativ, also „ihn“ und nicht „er“ oder „ihm“.",
+        "en": "'essen' takes the accusative, so you need 'ihn' rather than 'er' or 'ihm'."
+      }
+    }
+  ]
+}

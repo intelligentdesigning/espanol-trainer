@@ -1,0 +1,561 @@
+{
+  "id": "praesens-regelmaessig",
+  "name": {
+    "de": "Präsens: regelmäßige Verben",
+    "en": "Present tense: regular verbs"
+  },
+  "summary": {
+    "de": "Regelmäßige Verben bilden das Präsens aus dem Verbstamm und den Endungen e, st, t, en, t, en.",
+    "en": "Regular verbs build the present tense from the verb stem plus the endings e, st, t, en, t, en."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "stamm-und-endung",
+      "title": {
+        "de": "Stamm plus Endung",
+        "en": "Stem plus ending"
+      },
+      "body": {
+        "de": "Jedes regelmäßige Verb besteht im Präsens aus zwei Teilen. Man nimmt den Infinitiv, streicht die Endung en und erhält den Stamm: aus lernen wird lern. An diesen Stamm hängt man dann die Endung der jeweiligen Person, der Stamm selbst ändert sich nie.",
+        "en": "In the present tense every regular verb has two parts. Take the infinitive, cut off the ending en and you get the stem: lernen becomes lern. To this stem you add the ending for the person, and the stem itself never changes."
+      },
+      "examples": [
+        {
+          "de": "Ich lerne jeden Tag.",
+          "gloss": {
+            "de": "Der Stamm lern bekommt die Endung e.",
+            "en": "I study every day."
+          },
+          "note": {
+            "de": "lernen ohne en ergibt lern, dazu kommt e.",
+            "en": "lernen without en gives lern, then add e."
+          }
+        },
+        {
+          "de": "Wir spielen im Garten.",
+          "gloss": {
+            "de": "Der Stamm spiel bekommt die Endung en.",
+            "en": "We play in the garden."
+          },
+          "note": {
+            "de": "Bei wir sieht das Verb aus wie der Infinitiv.",
+            "en": "With wir the verb looks like the infinitive."
+          }
+        },
+        {
+          "de": "Er wohnt in Hamburg.",
+          "gloss": {
+            "de": "Der Stamm wohn bekommt die Endung t.",
+            "en": "He lives in Hamburg."
+          },
+          "note": {
+            "de": "Der Stamm bleibt in allen Formen gleich.",
+            "en": "The stem stays the same in every form."
+          }
+        }
+      ]
+    },
+    {
+      "id": "endungen-singular",
+      "title": {
+        "de": "Die Endungen im Singular",
+        "en": "The singular endings"
+      },
+      "body": {
+        "de": "Im Singular gibt es drei Endungen: ich bekommt e, du bekommt st, und er, sie, es bekommen t. Diese drei Endungen gelten für alle regelmäßigen Verben, deshalb lohnt es sich, sie auswendig zu lernen.",
+        "en": "There are three singular endings: ich takes e, du takes st, and er, sie, es take t. These three endings work for every regular verb, so it pays to learn them by heart."
+      },
+      "examples": [
+        {
+          "de": "Ich sage nichts.",
+          "gloss": {
+            "de": "Stamm sag und Endung e.",
+            "en": "I am not saying anything."
+          },
+          "note": {
+            "de": "ich bekommt immer e.",
+            "en": "ich always takes e."
+          }
+        },
+        {
+          "de": "Du sagst nichts.",
+          "gloss": {
+            "de": "Stamm sag und Endung st.",
+            "en": "You are not saying anything."
+          },
+          "note": {
+            "de": "du bekommt immer st.",
+            "en": "du always takes st."
+          }
+        },
+        {
+          "de": "Meine Schwester sagt nichts.",
+          "gloss": {
+            "de": "Stamm sag und Endung t.",
+            "en": "My sister is not saying anything."
+          },
+          "note": {
+            "de": "er, sie und es bekommen immer t.",
+            "en": "er, sie and es always take t."
+          }
+        }
+      ]
+    },
+    {
+      "id": "endungen-plural",
+      "title": {
+        "de": "Die Endungen im Plural",
+        "en": "The plural endings"
+      },
+      "body": {
+        "de": "Bei wir und bei sie endet das Verb auf en, also genau wie der Infinitiv. Nur ihr bekommt die Endung t, das ist dieselbe Form wie bei er, sie, es. Die höfliche Anrede Sie hat immer die Endung en.",
+        "en": "With wir and with sie the verb ends in en, exactly like the infinitive. Only ihr takes the ending t, which is the same form as for er, sie, es. The polite address Sie always ends in en."
+      },
+      "examples": [
+        {
+          "de": "Wir kaufen Brot.",
+          "gloss": {
+            "de": "Stamm kauf und Endung en.",
+            "en": "We are buying bread."
+          },
+          "note": {
+            "de": "wir bekommt en, wie der Infinitiv.",
+            "en": "wir takes en, just like the infinitive."
+          }
+        },
+        {
+          "de": "Ihr kauft Milch.",
+          "gloss": {
+            "de": "Stamm kauf und Endung t.",
+            "en": "You are buying milk."
+          },
+          "note": {
+            "de": "ihr bekommt t, genau wie er, sie, es.",
+            "en": "ihr takes t, just like er, sie, es."
+          }
+        },
+        {
+          "de": "Die Kinder kaufen Käse.",
+          "gloss": {
+            "de": "Mehrere Personen, also die Endung en.",
+            "en": "The children are buying cheese."
+          },
+          "note": {
+            "de": "sie und die höfliche Form Sie bekommen en.",
+            "en": "sie and the polite form Sie take en."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bindevokal-e",
+      "title": {
+        "de": "Ein zusätzliches e nach t, d, m und n",
+        "en": "An extra e after t, d, m and n"
+      },
+      "body": {
+        "de": "Endet der Stamm auf t oder d, kann man die Endung nicht mehr aussprechen. Deshalb schiebt man ein e ein: du arbeitest, er arbeitet, ihr arbeitet. Dasselbe passiert bei einem Stamm auf m oder n nach einem Konsonanten, zum Beispiel bei öffnen.",
+        "en": "If the stem ends in t or d, the ending can no longer be pronounced. That is why an extra e is inserted: du arbeitest, er arbeitet, ihr arbeitet. The same happens with a stem ending in m or n after a consonant, for example in öffnen."
+      },
+      "examples": [
+        {
+          "de": "Du arbeitest zu viel.",
+          "gloss": {
+            "de": "Der Stamm arbeit bekommt est statt st.",
+            "en": "You work too much."
+          },
+          "note": {
+            "de": "arbeitst wäre nicht sprechbar.",
+            "en": "arbeitst would be impossible to pronounce."
+          }
+        },
+        {
+          "de": "Er findet den Schlüssel nicht.",
+          "gloss": {
+            "de": "Der Stamm find bekommt et statt t.",
+            "en": "He cannot find the key."
+          },
+          "note": {
+            "de": "Nach d steht ebenfalls ein zusätzliches e.",
+            "en": "After d there is also an extra e."
+          }
+        },
+        {
+          "de": "Ihr öffnet das Fenster.",
+          "gloss": {
+            "de": "Der Stamm öffn bekommt et.",
+            "en": "You are opening the window."
+          },
+          "note": {
+            "de": "n nach einem Konsonanten braucht das e ebenso.",
+            "en": "n after a consonant needs the e as well."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stamm-auf-s-z",
+      "title": {
+        "de": "Stamm auf s, ß, z oder x",
+        "en": "Stems ending in s, ß, z or x"
+      },
+      "body": {
+        "de": "Endet der Stamm schon auf einen s-Laut, verliert die Form von du das s der Endung. Aus heiß und st wird heißt, aus tanz und st wird tanzt. Die Form von du sieht dann genauso aus wie die Form von er, sie, es.",
+        "en": "If the stem already ends in an s sound, the du form loses the s of the ending. heiß plus st becomes heißt, tanz plus st becomes tanzt. The du form then looks exactly like the er, sie, es form."
+      },
+      "examples": [
+        {
+          "de": "Wie heißt du?",
+          "gloss": {
+            "de": "Der Stamm heiß bekommt nur t.",
+            "en": "What is your name?"
+          },
+          "note": {
+            "de": "heißst gibt es nicht.",
+            "en": "heißst does not exist."
+          }
+        },
+        {
+          "de": "Du tanzt sehr gut.",
+          "gloss": {
+            "de": "Der Stamm tanz bekommt nur t.",
+            "en": "You dance very well."
+          },
+          "note": {
+            "de": "Nach z fällt das s der Endung weg.",
+            "en": "After z the s of the ending drops out."
+          }
+        },
+        {
+          "de": "Du reist gern nach Italien.",
+          "gloss": {
+            "de": "Der Stamm reis bekommt nur t.",
+            "en": "You like travelling to Italy."
+          },
+          "note": {
+            "de": "Auch nach s bleibt nur das t übrig.",
+            "en": "After s as well, only the t remains."
+          }
+        }
+      ]
+    },
+    {
+      "id": "praesens-gebrauch",
+      "title": {
+        "de": "Wofür man das Präsens benutzt",
+        "en": "What the present tense is used for"
+      },
+      "body": {
+        "de": "Das Deutsche hat nur eine Präsensform. Ich lerne bedeutet sowohl I learn als auch I am learning, es gibt also keine eigene Verlaufsform. Mit einer Zeitangabe wie morgen oder nächste Woche drückt das Präsens außerdem die Zukunft aus.",
+        "en": "German has only one present tense form. Ich lerne means both I learn and I am learning, so there is no separate progressive form. With a time expression like morgen or nächste Woche the present tense also expresses the future."
+      },
+      "examples": [
+        {
+          "de": "Ich lerne gerade Vokabeln.",
+          "gloss": {
+            "de": "Die Handlung läuft in diesem Moment.",
+            "en": "I am learning vocabulary right now."
+          },
+          "note": {
+            "de": "gerade zeigt, dass es jetzt passiert.",
+            "en": "gerade shows that it is happening now."
+          }
+        },
+        {
+          "de": "Ich lerne jeden Abend.",
+          "gloss": {
+            "de": "Eine Gewohnheit, dieselbe Verbform.",
+            "en": "I study every evening."
+          },
+          "note": {
+            "de": "Für Gewohnheiten nimmt man dieselbe Form.",
+            "en": "Habits use exactly the same form."
+          }
+        },
+        {
+          "de": "Morgen lernen wir Grammatik.",
+          "gloss": {
+            "de": "Die Zeitangabe morgen macht daraus Zukunft.",
+            "en": "Tomorrow we are going to study grammar."
+          },
+          "note": {
+            "de": "Präsens plus Zeitangabe genügt für die Zukunft.",
+            "en": "Present tense plus a time expression is enough for the future."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "fill",
+      "prompt": "Ich koche Suppe, und du ___ Reis.",
+      "promptGloss": {
+        "de": "Ich koche Suppe und du kochst Reis.",
+        "en": "I am cooking soup and you are cooking rice."
+      },
+      "answer": "kochst",
+      "explain": {
+        "de": "Der Stamm koch bleibt gleich, nur die Endung wechselt zu st.",
+        "en": "The stem koch stays the same, only the ending changes to st."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir fragen den Lehrer, und ihr ___ die Lehrerin.",
+      "promptGloss": {
+        "de": "Wir fragen den Lehrer und ihr fragt die Lehrerin.",
+        "en": "We are asking the teacher and you are asking the teacher."
+      },
+      "answer": "fragt",
+      "explain": {
+        "de": "Der Stamm frag bleibt gleich und bekommt für ihr die Endung t.",
+        "en": "The stem frag stays the same and takes the ending t for ihr."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Du spielst Gitarre, und ich ___ Klavier.",
+      "promptGloss": {
+        "de": "Du spielst Gitarre und ich spiele Klavier.",
+        "en": "You play the guitar and I play the piano."
+      },
+      "answer": "spiele",
+      "explain": {
+        "de": "ich bekommt im Präsens immer die Endung e.",
+        "en": "In the present tense ich always takes the ending e."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich wohne in Berlin, und du ___ in Hamburg.",
+      "promptGloss": {
+        "de": "Ich wohne in Berlin und du wohnst in Hamburg.",
+        "en": "I live in Berlin and you live in Hamburg."
+      },
+      "options": ["wohnst", "wohnt", "wohne"],
+      "answer": "wohnst",
+      "explain": {
+        "de": "du bekommt die Endung st, also wohnst.",
+        "en": "du takes the ending st, so wohnst."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich lerne Spanisch, und mein Bruder ___ Englisch.",
+      "promptGloss": {
+        "de": "Ich lerne Spanisch und mein Bruder lernt Englisch.",
+        "en": "I am learning Spanish and my brother is learning English."
+      },
+      "answer": "lernt",
+      "explain": {
+        "de": "mein Bruder ist er, und er bekommt die Endung t.",
+        "en": "mein Bruder is er, and er takes the ending t."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir hören gern Musik, und das Kind ___ auch gern Musik.",
+      "promptGloss": {
+        "de": "Wir hören gern Musik und das Kind hört auch gern Musik.",
+        "en": "We like listening to music and the child likes listening to music too."
+      },
+      "options": ["hört", "hören", "hörst"],
+      "answer": "hört",
+      "explain": {
+        "de": "das Kind ist es, deshalb steht die Endung t.",
+        "en": "das Kind is es, so the ending is t."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Du kaufst Brot, und wir ___ Milch.",
+      "promptGloss": {
+        "de": "Du kaufst Brot und wir kaufen Milch.",
+        "en": "You are buying bread and we are buying milk."
+      },
+      "answer": "kaufen",
+      "explain": {
+        "de": "wir bekommt die Endung en, die Form sieht aus wie der Infinitiv.",
+        "en": "wir takes the ending en, and the form looks like the infinitive."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich spiele Fußball, und ihr ___ Tennis.",
+      "promptGloss": {
+        "de": "Ich spiele Fußball und ihr spielt Tennis.",
+        "en": "I play football and you play tennis."
+      },
+      "options": ["spielt", "spielen", "spielst"],
+      "answer": "spielt",
+      "explain": {
+        "de": "ihr bekommt die Endung t, nicht en.",
+        "en": "ihr takes the ending t, not en."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Das Kind lacht laut, und die Eltern ___ auch.",
+      "promptGloss": {
+        "de": "Das Kind lacht laut und die Eltern lachen auch.",
+        "en": "The child is laughing loudly and the parents are laughing too."
+      },
+      "answer": "lachen",
+      "explain": {
+        "de": "die Eltern sind mehrere Personen, also sie mit der Endung en.",
+        "en": "die Eltern are several people, so sie with the ending en."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Herr und Frau Berg, was ___ Sie am Wochenende?",
+      "promptGloss": {
+        "de": "Herr und Frau Berg, was machen Sie am Wochenende?",
+        "en": "Mr and Mrs Berg, what are you doing at the weekend?"
+      },
+      "options": ["machen", "macht", "machst"],
+      "answer": "machen",
+      "explain": {
+        "de": "Die höfliche Anrede Sie bekommt immer die Endung en.",
+        "en": "The polite address Sie always takes the ending en."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich arbeite viel, und du ___ auch viel.",
+      "promptGloss": {
+        "de": "Ich arbeite viel und du arbeitest auch viel.",
+        "en": "I work a lot and you work a lot too."
+      },
+      "answer": "arbeitest",
+      "explain": {
+        "de": "Der Stamm arbeit endet auf t, deshalb kommt ein zusätzliches e vor die Endung.",
+        "en": "The stem arbeit ends in t, so an extra e goes in front of the ending."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir finden das Buch nicht, und er ___ den Schlüssel nicht.",
+      "promptGloss": {
+        "de": "Wir finden das Buch nicht und er findet den Schlüssel nicht.",
+        "en": "We cannot find the book and he cannot find the key."
+      },
+      "options": ["findet", "findt", "findest"],
+      "answer": "findet",
+      "explain": {
+        "de": "Der Stamm find endet auf d, deshalb heißt die Form für er findet.",
+        "en": "The stem find ends in d, so the form for er is findet."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich öffne das Fenster, und ihr ___ die Tür.",
+      "promptGloss": {
+        "de": "Ich öffne das Fenster und ihr öffnet die Tür.",
+        "en": "I am opening the window and you are opening the door."
+      },
+      "answer": "öffnet",
+      "explain": {
+        "de": "Der Stamm öffn endet auf n nach einem Konsonanten, deshalb steht et.",
+        "en": "The stem öffn ends in n after a consonant, so the ending is et."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir reden viel, und du ___ auch viel.",
+      "promptGloss": {
+        "de": "Wir reden viel und du redest auch viel.",
+        "en": "We talk a lot and you talk a lot too."
+      },
+      "options": ["redest", "redst", "redet"],
+      "answer": "redest",
+      "explain": {
+        "de": "Der Stamm red endet auf d, deshalb heißt die Form für du redest.",
+        "en": "The stem red ends in d, so the form for du is redest."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich heiße Tom, und wie ___ du?",
+      "promptGloss": {
+        "de": "Ich heiße Tom, und wie heißt du?",
+        "en": "My name is Tom, and what is your name?"
+      },
+      "answer": "heißt",
+      "explain": {
+        "de": "Der Stamm heiß endet auf einen s-Laut, deshalb bleibt nur die Endung t.",
+        "en": "The stem heiß ends in an s sound, so only the ending t remains."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir tanzen gern, und du ___ auch gern.",
+      "promptGloss": {
+        "de": "Wir tanzen gern und du tanzt auch gern.",
+        "en": "We like dancing and you like dancing too."
+      },
+      "options": ["tanzt", "tanzst", "tanzen"],
+      "answer": "tanzt",
+      "explain": {
+        "de": "Nach dem z im Stamm fällt das s der Endung weg.",
+        "en": "After the z in the stem, the s of the ending drops out."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir reisen im Sommer nach Italien, und du ___ nach Spanien.",
+      "promptGloss": {
+        "de": "Wir reisen im Sommer nach Italien und du reist nach Spanien.",
+        "en": "In summer we travel to Italy and you travel to Spain."
+      },
+      "answer": "reist",
+      "explain": {
+        "de": "Der Stamm reis endet auf s, deshalb bleibt nur die Endung t.",
+        "en": "The stem reis ends in s, so only the ending t remains."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Gerade ___ ich einen Brief an meine Oma.",
+      "promptGloss": {
+        "de": "Gerade schreibe ich einen Brief an meine Oma.",
+        "en": "Right now I am writing a letter to my grandma."
+      },
+      "options": ["schreibe", "schreibst", "schreibt"],
+      "answer": "schreibe",
+      "explain": {
+        "de": "Für eine Handlung, die gerade läuft, genügt das Präsens, und ich bekommt e.",
+        "en": "For an action happening right now the present tense is enough, and ich takes e."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Heute lernen wir Vokabeln, und morgen ___ wir Grammatik.",
+      "promptGloss": {
+        "de": "Heute lernen wir Vokabeln und morgen lernen wir Grammatik.",
+        "en": "Today we are learning vocabulary and tomorrow we will learn grammar."
+      },
+      "answer": "lernen",
+      "explain": {
+        "de": "Mit der Zeitangabe morgen drückt das Präsens die Zukunft aus.",
+        "en": "With the time expression morgen the present tense expresses the future."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Nächste Woche ___ ihr eine Prüfung.",
+      "promptGloss": {
+        "de": "Nächste Woche schreibt ihr eine Prüfung.",
+        "en": "Next week you will take an exam."
+      },
+      "options": ["schreibt", "schreiben", "schreibst"],
+      "answer": "schreibt",
+      "explain": {
+        "de": "Nächste Woche zeigt die Zukunft, dafür genügt das Präsens mit der Endung t für ihr.",
+        "en": "Nächste Woche points to the future, and the present tense with the ending t for ihr is enough."
+      }
+    }
+  ]
+}

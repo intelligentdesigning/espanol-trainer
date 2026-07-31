@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
 import { loadThemes } from "@/lib/data";
+import { useLang } from "@/lib/lang";
 import { checkAnswer, formatNotation } from "@/lib/quiz";
 import { recordResult, addSession } from "@/lib/storage/db";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
@@ -28,6 +29,7 @@ interface Q { es: string; prompt: string; accepted: string[]; canonical: string;
 
 export function ThemeTrainer() {
   const { t, L } = useI18n();
+  const { lang } = useLang();
   const [data, setData] = useState<ThemesData | null>(null);
   const [themeId, setThemeId] = useState<string | null>(null);
   const [dir, setDir] = useState<Dir>("es-de");
@@ -117,7 +119,9 @@ export function ThemeTrainer() {
         <div className="flex flex-wrap gap-2">
           {(["es-de", "de-es"] as Dir[]).map((d) => (
             <button key={d} onClick={() => setDir(d)} className={chip(dir === d)} style={acc}>
-              {d === "es-de" ? t("buch.dirEsDe") : t("buch.dirDeEs")}
+              {lang === "de"
+                ? (d === "es-de" ? "Deutsch → English" : "English → Deutsch")
+                : (d === "es-de" ? t("buch.dirEsDe") : t("buch.dirDeEs"))}
             </button>
           ))}
         </div>
@@ -204,7 +208,7 @@ export function ThemeTrainer() {
           {q.pos && <PosTag pos={q.pos} />}
         </div>
         <div className="flex items-center justify-center gap-2">
-          <span className="font-display text-4xl font-bold" lang={dir === "es-de" ? "es" : "de"}>{formatNotation(q.prompt)}</span>
+          <span className="font-display text-4xl font-bold" lang={dir === "es-de" ? (lang === "de" ? "de" : "es") : (lang === "de" ? "en" : "de")}>{formatNotation(q.prompt)}</span>
           {dir === "es-de" && <SpeakButton text={q.es} />}
         </div>
       </div>

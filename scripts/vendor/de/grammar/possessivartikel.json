@@ -1,0 +1,534 @@
+{
+  "id": "possessivartikel",
+  "name": {
+    "de": "Possessivartikel",
+    "en": "Possessive articles"
+  },
+  "summary": {
+    "de": "Possessivartikel wie mein, dein oder unser stehen vor dem Nomen und zeigen, wem etwas gehört.",
+    "en": "Possessive articles like mein, dein or unser stand before the noun and show who something belongs to."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "was-sind-possessivartikel",
+      "title": {
+        "de": "Der Possessivartikel ersetzt den Artikel",
+        "en": "The possessive article replaces the article"
+      },
+      "body": {
+        "de": "Ein Possessivartikel steht direkt vor dem Nomen und zeigt den Besitzer. Er ersetzt der, die oder das. Man sagt also mein Hund und nicht der mein Hund.",
+        "en": "A possessive article stands directly before the noun and shows the owner. It replaces der, die or das. So you say mein Hund, not der mein Hund."
+      },
+      "examples": [
+        {
+          "de": "Das ist mein Hund.",
+          "gloss": {
+            "de": "Der Hund gehört mir.",
+            "en": "That is my dog."
+          },
+          "note": {
+            "de": "mein statt der",
+            "en": "mein instead of der"
+          }
+        },
+        {
+          "de": "Deine Tasche liegt hier.",
+          "gloss": {
+            "de": "Die Tasche gehört dir.",
+            "en": "Your bag is lying here."
+          },
+          "note": {
+            "de": "deine statt die",
+            "en": "deine instead of die"
+          }
+        },
+        {
+          "de": "Unser Auto ist alt.",
+          "gloss": {
+            "de": "Das Auto gehört uns.",
+            "en": "Our car is old."
+          },
+          "note": {
+            "de": "unser statt das",
+            "en": "unser instead of das"
+          }
+        }
+      ]
+    },
+    {
+      "id": "person-zuordnung",
+      "title": {
+        "de": "Welche Form gehört zu welcher Person?",
+        "en": "Which form belongs to which person?"
+      },
+      "body": {
+        "de": "Jedes Personalpronomen hat seinen eigenen Possessivartikel: ich wird mein, du wird dein, er und es werden sein, sie wird ihr. Im Plural gilt: wir wird unser, ihr wird euer, sie wird ihr. Das Höflichkeitswort Sie wird Ihr.",
+        "en": "Every personal pronoun has its own possessive article: ich becomes mein, du becomes dein, er and es become sein, sie becomes ihr. In the plural: wir becomes unser, ihr becomes euer, sie becomes ihr. The polite Sie becomes Ihr."
+      },
+      "examples": [
+        {
+          "de": "Das ist Paul und das ist sein Auto.",
+          "gloss": {
+            "de": "Das Auto gehört Paul.",
+            "en": "That is Paul and that is his car."
+          },
+          "note": {
+            "de": "er wird sein",
+            "en": "er becomes sein"
+          }
+        },
+        {
+          "de": "Das ist Anna und das ist ihr Hund.",
+          "gloss": {
+            "de": "Der Hund gehört Anna.",
+            "en": "That is Anna and that is her dog."
+          },
+          "note": {
+            "de": "sie wird ihr",
+            "en": "sie becomes ihr"
+          }
+        },
+        {
+          "de": "Wir sind Studenten und unser Kurs ist groß.",
+          "gloss": {
+            "de": "Der Kurs gehört zu uns.",
+            "en": "We are students and our course is big."
+          },
+          "note": {
+            "de": "wir wird unser",
+            "en": "wir becomes unser"
+          }
+        }
+      ]
+    },
+    {
+      "id": "endungen-nominativ",
+      "title": {
+        "de": "Endungen im Nominativ",
+        "en": "Endings in the nominative"
+      },
+      "body": {
+        "de": "Vor einem maskulinen oder neutralen Nomen bekommt der Possessivartikel keine Endung: mein Bruder, mein Kind. Vor einem femininen Nomen und im Plural bekommt er die Endung e: meine Schwester, meine Eltern.",
+        "en": "Before a masculine or neuter noun the possessive article gets no ending: mein Bruder, mein Kind. Before a feminine noun and in the plural it gets the ending e: meine Schwester, meine Eltern."
+      },
+      "examples": [
+        {
+          "de": "Mein Bruder wohnt in Köln.",
+          "gloss": {
+            "de": "Bruder ist maskulin, also keine Endung.",
+            "en": "My brother lives in Cologne."
+          },
+          "note": {
+            "de": "maskulin: keine Endung",
+            "en": "masculine: no ending"
+          }
+        },
+        {
+          "de": "Meine Schwester ist Ärztin.",
+          "gloss": {
+            "de": "Schwester ist feminin, also mit e.",
+            "en": "My sister is a doctor."
+          },
+          "note": {
+            "de": "feminin: Endung e",
+            "en": "feminine: ending e"
+          }
+        },
+        {
+          "de": "Meine Eltern kommen morgen.",
+          "gloss": {
+            "de": "Eltern ist Plural, also mit e.",
+            "en": "My parents are coming tomorrow."
+          },
+          "note": {
+            "de": "Plural: Endung e",
+            "en": "plural: ending e"
+          }
+        }
+      ]
+    },
+    {
+      "id": "akkusativ",
+      "title": {
+        "de": "Im Akkusativ ändert sich nur maskulin",
+        "en": "In the accusative only masculine changes"
+      },
+      "body": {
+        "de": "Beim direkten Objekt steht der Akkusativ. Nur vor maskulinen Nomen kommt die Endung en dazu: Ich rufe meinen Bruder an. Feminin, neutral und Plural bleiben genau wie im Nominativ.",
+        "en": "The direct object takes the accusative. Only before masculine nouns does the ending en appear: Ich rufe meinen Bruder an. Feminine, neuter and plural stay exactly as in the nominative."
+      },
+      "examples": [
+        {
+          "de": "Ich rufe meinen Bruder an.",
+          "gloss": {
+            "de": "Bruder ist maskulin im Akkusativ.",
+            "en": "I am calling my brother."
+          },
+          "note": {
+            "de": "maskulin Akkusativ: Endung en",
+            "en": "masculine accusative: ending en"
+          }
+        },
+        {
+          "de": "Ich suche meine Tasche.",
+          "gloss": {
+            "de": "Tasche ist feminin, die Form bleibt gleich.",
+            "en": "I am looking for my bag."
+          },
+          "note": {
+            "de": "feminin: keine Änderung",
+            "en": "feminine: no change"
+          }
+        },
+        {
+          "de": "Hast du dein Buch dabei?",
+          "gloss": {
+            "de": "Buch ist neutral, die Form bleibt gleich.",
+            "en": "Do you have your book with you?"
+          },
+          "note": {
+            "de": "neutral: keine Änderung",
+            "en": "neuter: no change"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unser-und-euer",
+      "title": {
+        "de": "Besonderheit bei unser und euer",
+        "en": "Special case with unser and euer"
+      },
+      "body": {
+        "de": "Unser und euer haben schon ein e im Wort. Bei euer fällt dieses e weg, sobald eine Endung dazukommt: euer Haus, aber eure Wohnung. Bei unser bleibt das e meistens stehen: unser Haus, unsere Wohnung.",
+        "en": "Unser and euer already contain an e. With euer this e disappears as soon as an ending is added: euer Haus, but eure Wohnung. With unser the e usually stays: unser Haus, unsere Wohnung."
+      },
+      "examples": [
+        {
+          "de": "Euer Haus ist sehr schön.",
+          "gloss": {
+            "de": "Haus ist neutral, keine Endung.",
+            "en": "Your house is very beautiful."
+          },
+          "note": {
+            "de": "ohne Endung: euer",
+            "en": "without ending: euer"
+          }
+        },
+        {
+          "de": "Eure Lehrerin ist nett.",
+          "gloss": {
+            "de": "Lehrerin ist feminin, das e fällt weg.",
+            "en": "Your teacher is nice."
+          },
+          "note": {
+            "de": "mit Endung: eure, nicht euere",
+            "en": "with ending: eure, not euere"
+          }
+        },
+        {
+          "de": "Unsere Wohnung ist klein.",
+          "gloss": {
+            "de": "Wohnung ist feminin, also unsere.",
+            "en": "Our flat is small."
+          },
+          "note": {
+            "de": "unser plus e",
+            "en": "unser plus e"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ihr-und-Ihr",
+      "title": {
+        "de": "ihr, ihr und Ihr",
+        "en": "ihr, ihr and Ihr"
+      },
+      "body": {
+        "de": "Klein geschrieben bedeutet ihr entweder ihr Buch für eine Frau oder ihr Buch für mehrere Personen. Groß geschrieben gehört Ihr zur höflichen Anrede mit Sie. Die Großschreibung zeigt also die Höflichkeitsform.",
+        "en": "Written in lower case, ihr means either her book for a woman or their book for several people. Capitalised, Ihr belongs to the polite address with Sie. So the capital letter marks the polite form."
+      },
+      "examples": [
+        {
+          "de": "Anna sucht ihr Handy.",
+          "gloss": {
+            "de": "Das Handy gehört Anna.",
+            "en": "Anna is looking for her mobile phone."
+          },
+          "note": {
+            "de": "klein: eine Frau",
+            "en": "lower case: one woman"
+          }
+        },
+        {
+          "de": "Die Kinder machen ihre Hausaufgaben.",
+          "gloss": {
+            "de": "Die Hausaufgaben gehören den Kindern.",
+            "en": "The children are doing their homework."
+          },
+          "note": {
+            "de": "klein: mehrere Personen",
+            "en": "lower case: several people"
+          }
+        },
+        {
+          "de": "Herr Klein, wo ist Ihr Auto?",
+          "gloss": {
+            "de": "Das Auto gehört Herrn Klein.",
+            "en": "Mr Klein, where is your car?"
+          },
+          "note": {
+            "de": "groß: Höflichkeitsform",
+            "en": "capital: polite form"
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "Ich habe einen Hund und ___ Hund heißt Rex.",
+      "promptGloss": {
+        "de": "Ich habe einen Hund und mein Hund heißt Rex.",
+        "en": "I have a dog and my dog is called Rex."
+      },
+      "options": ["mein", "meine", "dein"],
+      "answer": "mein",
+      "explain": {
+        "de": "Der Possessivartikel ersetzt den Artikel; ich wird mein und Hund ist maskulin, also ohne Endung.",
+        "en": "The possessive article replaces the article; ich becomes mein and Hund is masculine, so no ending."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich habe eine Schwester und ___ Schwester ist Ärztin.",
+      "promptGloss": {
+        "de": "Ich habe eine Schwester und meine Schwester ist Ärztin.",
+        "en": "I have a sister and my sister is a doctor."
+      },
+      "answer": "meine",
+      "explain": {
+        "de": "Schwester ist feminin, deshalb bekommt mein die Endung e.",
+        "en": "Schwester is feminine, so mein takes the ending e."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wie heißt ___ Bruder, Anna?",
+      "promptGloss": {
+        "de": "Wie heißt dein Bruder, Anna?",
+        "en": "What is your brother called, Anna?"
+      },
+      "answer": "dein",
+      "explain": {
+        "de": "Anna wird mit du angesprochen, also dein; Bruder ist maskulin und bleibt ohne Endung.",
+        "en": "Anna is addressed with du, so dein; Bruder is masculine and takes no ending."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist Paul und das ist ___ Auto.",
+      "promptGloss": {
+        "de": "Das ist Paul und das ist sein Auto.",
+        "en": "That is Paul and that is his car."
+      },
+      "options": ["sein", "ihr", "euer"],
+      "answer": "sein",
+      "explain": {
+        "de": "Paul ist er, deshalb sein; ihr gehört zu sie und euer zu ihr.",
+        "en": "Paul is er, so sein; ihr belongs to sie and euer to ihr."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist Anna und das ist ___ Hund.",
+      "promptGloss": {
+        "de": "Das ist Anna und das ist ihr Hund.",
+        "en": "That is Anna and that is her dog."
+      },
+      "options": ["ihr", "sein", "unser"],
+      "answer": "ihr",
+      "explain": {
+        "de": "Anna ist sie, deshalb ihr; sein gehört zu er und unser zu wir.",
+        "en": "Anna is sie, so ihr; sein belongs to er and unser to wir."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir sind Studenten und ___ Uni ist sehr groß.",
+      "promptGloss": {
+        "de": "Wir sind Studenten und unsere Uni ist sehr groß.",
+        "en": "We are students and our university is very big."
+      },
+      "answer": "unsere",
+      "explain": {
+        "de": "Zu wir gehört unser, und vor dem femininen Wort Uni kommt die Endung e dazu.",
+        "en": "Wir goes with unser, and before the feminine word Uni the ending e is added."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ihr habt ein Haus und ___ Haus ist sehr schön.",
+      "promptGloss": {
+        "de": "Ihr habt ein Haus und euer Haus ist sehr schön.",
+        "en": "You have a house and your house is very beautiful."
+      },
+      "answer": "euer",
+      "explain": {
+        "de": "Zu ihr gehört euer, und Haus ist neutral, also bleibt die Form ohne Endung.",
+        "en": "Ihr goes with euer, and Haus is neuter, so the form stays without an ending."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ihr habt eine Lehrerin und ___ Lehrerin ist sehr nett.",
+      "promptGloss": {
+        "de": "Ihr habt eine Lehrerin und eure Lehrerin ist sehr nett.",
+        "en": "You have a teacher and your teacher is very nice."
+      },
+      "options": ["eure", "euer", "unsere"],
+      "answer": "eure",
+      "explain": {
+        "de": "Vor dem femininen Nomen fällt bei euer das e weg und es bleibt eure.",
+        "en": "Before the feminine noun the e in euer drops out, leaving eure."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Herr Klein, wo ist ___ Auto?",
+      "promptGloss": {
+        "de": "Herr Klein, wo ist Ihr Auto?",
+        "en": "Mr Klein, where is your car?"
+      },
+      "options": ["Ihr", "ihr", "euer"],
+      "answer": "Ihr",
+      "explain": {
+        "de": "Herr Klein wird mit Sie angesprochen, deshalb steht Ihr groß geschrieben.",
+        "en": "Mr Klein is addressed with Sie, so Ihr is written with a capital letter."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Frau Weber, können Sie mir ___ Adresse geben?",
+      "promptGloss": {
+        "de": "Frau Weber, können Sie mir Ihre Adresse geben?",
+        "en": "Mrs Weber, can you give me your address?"
+      },
+      "answer": "Ihre",
+      "explain": {
+        "de": "Das Sie im Satz zeigt die Höflichkeitsform, und Adresse ist feminin, also Ihre.",
+        "en": "The Sie in the sentence marks the polite form, and Adresse is feminine, so Ihre."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Das sind Tom und Lisa und das sind ___ Kinder.",
+      "promptGloss": {
+        "de": "Das sind Tom und Lisa und das sind ihre Kinder.",
+        "en": "That is Tom and Lisa and those are their children."
+      },
+      "answer": "ihre",
+      "explain": {
+        "de": "Zu sie im Plural gehört ihr, und vor dem Plural Kinder kommt die Endung e dazu.",
+        "en": "Plural sie goes with ihr, and before the plural Kinder the ending e is added."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich rufe heute Abend ___ Bruder an.",
+      "promptGloss": {
+        "de": "Ich rufe heute Abend meinen Bruder an.",
+        "en": "I am calling my brother this evening."
+      },
+      "answer": "meinen",
+      "explain": {
+        "de": "Bruder ist maskulin und steht hier im Akkusativ, deshalb meinen.",
+        "en": "Bruder is masculine and stands here in the accusative, hence meinen."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Hast du ___ Handy dabei?",
+      "promptGloss": {
+        "de": "Hast du dein Handy dabei?",
+        "en": "Do you have your mobile phone with you?"
+      },
+      "options": ["dein", "deinen", "deine"],
+      "answer": "dein",
+      "explain": {
+        "de": "Handy ist neutral, deshalb bleibt die Form im Akkusativ unverändert.",
+        "en": "Handy is neuter, so the form stays unchanged in the accusative."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Er liebt ___ Frau sehr.",
+      "promptGloss": {
+        "de": "Er liebt seine Frau sehr.",
+        "en": "He loves his wife very much."
+      },
+      "options": ["seine", "seinen", "sein"],
+      "answer": "seine",
+      "explain": {
+        "de": "Frau ist feminin, deshalb bleibt es auch im Akkusativ bei seine.",
+        "en": "Frau is feminine, so it stays seine in the accusative too."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir besuchen am Sonntag ___ Eltern.",
+      "promptGloss": {
+        "de": "Wir besuchen am Sonntag unsere Eltern.",
+        "en": "We are visiting our parents on Sunday."
+      },
+      "answer": "unsere",
+      "explain": {
+        "de": "Eltern ist Plural, deshalb heißt die Akkusativform genauso wie im Nominativ.",
+        "en": "Eltern is plural, so the accusative form is the same as the nominative."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Du brauchst ___ Pass für die Reise.",
+      "promptGloss": {
+        "de": "Du brauchst deinen Pass für die Reise.",
+        "en": "You need your passport for the trip."
+      },
+      "answer": "deinen",
+      "explain": {
+        "de": "Pass ist maskulin und direktes Objekt, deshalb kommt die Akkusativendung en dazu.",
+        "en": "Pass is masculine and the direct object, so the accusative ending en is added."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ihr sucht ___ Katze im Garten.",
+      "promptGloss": {
+        "de": "Ihr sucht eure Katze im Garten.",
+        "en": "You are looking for your cat in the garden."
+      },
+      "options": ["eure", "euren", "euer"],
+      "answer": "eure",
+      "explain": {
+        "de": "Katze ist feminin, deshalb bleibt es auch im Akkusativ bei eure ohne das mittlere e.",
+        "en": "Katze is feminine, so it stays eure in the accusative, without the middle e."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Haben Sie ___ Ticket dabei?",
+      "promptGloss": {
+        "de": "Haben Sie Ihr Ticket dabei?",
+        "en": "Do you have your ticket with you?"
+      },
+      "answer": "Ihr",
+      "explain": {
+        "de": "Das Sie verlangt die Höflichkeitsform Ihr, und Ticket ist neutral, also ohne Endung.",
+        "en": "The Sie requires the polite form Ihr, and Ticket is neuter, so no ending."
+      }
+    }
+  ]
+}

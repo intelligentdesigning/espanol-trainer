@@ -33,6 +33,53 @@
   --cefr-c2: #7c3aed;
 }
 
+/* ---------- German mode: cool blue / graphite, precise & technical ---------- */
+:root[data-lang="de"] {
+  --background: #f4f6f9;
+  --foreground: #10151c;
+  --card: #ffffff;
+  --border: #dbe2ea;
+  --muted: #5d6b7d;
+  --brand: #1d4ed8;        /* deep cool blue */
+  --brand-2: #0e7490;      /* petrol accent */
+  --accent-vocab: #0369a1;
+  --cat-verb: #4f46e5;     /* indigo  – Verben */
+  --cat-noun: #0284c7;     /* sky     – Nomen */
+  --cat-adj: #0d9488;      /* teal    – Adjektive */
+  --cat-common: #0369a1;
+  --cat-article: #7c3aed;
+  --shadow-card: 0 1px 2px rgba(20, 35, 60, .05), 0 6px 20px -10px rgba(20, 35, 60, .14);
+  --shadow-hover: 0 6px 12px rgba(20, 35, 60, .09), 0 20px 44px -14px rgba(20, 35, 60, .24);
+}
+:root[data-lang="de"] .atmosphere {
+  background:
+    radial-gradient(58rem 38rem at 84% -8%, color-mix(in oklab, var(--brand) 16%, transparent), transparent 60%),
+    radial-gradient(50rem 34rem at 6% 2%, color-mix(in oklab, var(--brand-2) 14%, transparent), transparent 55%),
+    radial-gradient(58rem 48rem at 50% 116%, color-mix(in oklab, var(--cat-noun) 10%, transparent), transparent 60%);
+}
+/* the German mode uses a geometric sans for display type, not the Spanish serif */
+:root[data-lang="de"] .font-display { font-family: var(--font-space), ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.02em; }
+
+@media (prefers-color-scheme: dark) {
+  :root[data-lang="de"] {
+    --background: #0b1017;
+    --foreground: #e8eef6;
+    --card: #141c26;
+    --border: #26313f;
+    --muted: #94a3b8;
+    --brand: #60a5fa;
+    --brand-2: #22d3ee;
+    --accent-vocab: #38bdf8;
+    --cat-verb: #a5b4fc;
+    --cat-noun: #7dd3fc;
+    --cat-adj: #5eead4;
+    --cat-common: #38bdf8;
+    --cat-article: #c4b5fd;
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, .35), 0 6px 20px -10px rgba(0, 0, 0, .55);
+    --shadow-hover: 0 6px 14px rgba(0, 0, 0, .4), 0 22px 48px -14px rgba(0, 0, 0, .65);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #14110f;

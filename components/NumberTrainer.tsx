@@ -3,8 +3,10 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useI18n } from "@/lib/i18n/locale";
+import { useLang } from "@/lib/lang";
 import { addSession } from "@/lib/storage/db";
 import { spellSpanish, checkNumberWords, parseDigits, groupDigits } from "@/lib/numbers-es";
+import { spellGerman, checkGermanWords } from "@/lib/numbers-de";
 import { SpanishInput, type SpanishInputHandle } from "@/components/SpanishInput";
 import { ScoreRing } from "@/components/ScoreRing";
 import { SpeakButton } from "@/components/SpeakButton";
@@ -29,6 +31,10 @@ const randomIn = (max: number) => BigInt(Math.floor(Math.random() * max) + 1);
 
 export function NumberTrainer() {
   const { t } = useI18n();
+  const { lang } = useLang();
+  // the trainer speaks whichever language is being learned
+  const spell = (n: bigint) => (lang === "de" ? spellGerman(n) : spellSpanish(n));
+  const checkWords = (input: string, n: bigint) => (lang === "de" ? checkGermanWords(input, n) : checkNumberWords(input, n));
   const [mode, setMode] = useState<Mode>("d2w");
   const [rangeMax, setRangeMax] = useState(100);
   const [count, setCount] = useState(20);
@@ -119,11 +125,11 @@ export function NumberTrainer() {
   // run
   const total = questions.length;
   const n = questions[idx];
-  const words = spellSpanish(n);
+  const words = spell(n);
 
   const submit = () => {
     if (status !== "idle") return next();
-    const ok = mode === "d2w" ? checkNumberWords(input, n) : parseDigits(input) === n;
+    const ok = mode === "d2w" ? checkWords(input, n) : parseDigits(input) === n;
     setStatus(ok ? "right" : "wrong");
     setCorrect((c) => c + (ok ? 1 : 0));
   };

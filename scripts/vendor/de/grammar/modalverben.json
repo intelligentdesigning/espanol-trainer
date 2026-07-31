@@ -1,0 +1,574 @@
+{
+  "id": "modalverben",
+  "name": {
+    "de": "Modalverben",
+    "en": "Modal verbs"
+  },
+  "summary": {
+    "de": "Wie können, müssen, wollen, dürfen und mögen/möchten funktionieren und warum der zweite Verbteil ans Satzende geht.",
+    "en": "How 'können', 'müssen', 'wollen', 'dürfen' and 'mögen/möchten' work, and why the second verb goes to the end of the sentence."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "modalverb-infinitiv",
+      "title": {
+        "de": "Modalverb plus Infinitiv",
+        "en": "Modal verb plus infinitive"
+      },
+      "body": {
+        "de": "Ein Modalverb steht fast nie allein. Es wird konjugiert und bringt ein zweites Verb im Infinitiv mit. Dieser Infinitiv verändert sich nie.",
+        "en": "A modal verb almost never stands alone. It is conjugated and brings along a second verb in the infinitive. That infinitive never changes."
+      },
+      "examples": [
+        {
+          "de": "Ich kann gut kochen.",
+          "gloss": {
+            "de": "Kochen ist eine Fähigkeit von mir.",
+            "en": "I can cook well."
+          },
+          "note": {
+            "de": "kann ist konjugiert, kochen bleibt Infinitiv.",
+            "en": "'kann' is conjugated, 'kochen' stays in the infinitive."
+          }
+        },
+        {
+          "de": "Er will ein Auto kaufen.",
+          "gloss": {
+            "de": "Sein Wunsch ist ein eigenes Auto.",
+            "en": "He wants to buy a car."
+          },
+          "note": {
+            "de": "Nie zwei konjugierte Verben, also nicht will kauft.",
+            "en": "Never two conjugated verbs, so not 'will kauft'."
+          }
+        },
+        {
+          "de": "Wir müssen morgen früh aufstehen.",
+          "gloss": {
+            "de": "Morgen früh aufstehen ist für uns Pflicht.",
+            "en": "We have to get up early tomorrow."
+          },
+          "note": {
+            "de": "Auch trennbare Verben bleiben im Infinitiv zusammen.",
+            "en": "Separable verbs also stay together in the infinitive."
+          }
+        }
+      ]
+    },
+    {
+      "id": "satzklammer",
+      "title": {
+        "de": "Die Satzklammer",
+        "en": "The sentence bracket"
+      },
+      "body": {
+        "de": "Das Modalverb steht im Aussagesatz an Position 2. Der Infinitiv rutscht ganz ans Satzende. Alles andere steht zwischen diesen beiden Teilen.",
+        "en": "In a statement the modal verb sits in position 2. The infinitive moves to the very end of the sentence. Everything else goes between these two parts."
+      },
+      "examples": [
+        {
+          "de": "Ich möchte am Wochenende ins Kino gehen.",
+          "gloss": {
+            "de": "Mein Wunsch für das Wochenende ist ein Kinobesuch.",
+            "en": "I would like to go to the cinema at the weekend."
+          },
+          "note": {
+            "de": "möchte an Position 2, gehen ganz am Ende.",
+            "en": "'möchte' in position 2, 'gehen' right at the end."
+          }
+        },
+        {
+          "de": "Meine Schwester kann sehr gut Klavier spielen.",
+          "gloss": {
+            "de": "Meine Schwester ist eine sehr gute Pianistin.",
+            "en": "My sister can play the piano very well."
+          },
+          "note": {
+            "de": "Zwischen kann und spielen steht der ganze Rest.",
+            "en": "The whole rest of the sentence sits between 'kann' and 'spielen'."
+          }
+        },
+        {
+          "de": "Am Montag muss ich früh aufstehen.",
+          "gloss": {
+            "de": "Der Montag beginnt für mich sehr früh.",
+            "en": "On Monday I have to get up early."
+          },
+          "note": {
+            "de": "Steht die Zeit vorne, bleibt das Modalverb trotzdem an Position 2.",
+            "en": "If the time comes first, the modal verb still stays in position 2."
+          }
+        }
+      ]
+    },
+    {
+      "id": "konjugation",
+      "title": {
+        "de": "Die Formen der Modalverben",
+        "en": "The forms of the modal verbs"
+      },
+      "body": {
+        "de": "Modalverben haben eigene Formen. Bei ich und bei er/sie/es gibt es keine Endung, und beide Formen sind gleich. Im Singular ändert sich oft der Vokal, aus können wird kann.",
+        "en": "Modal verbs have their own forms. With 'ich' and with 'er/sie/es' there is no ending, and both forms are identical. In the singular the vowel often changes: 'können' becomes 'kann'."
+      },
+      "examples": [
+        {
+          "de": "Ich kann Gitarre spielen, und er kann das auch.",
+          "gloss": {
+            "de": "Wir beide beherrschen die Gitarre.",
+            "en": "I can play the guitar, and he can too."
+          },
+          "note": {
+            "de": "ich kann und er kann sind identisch.",
+            "en": "'ich kann' and 'er kann' are identical."
+          }
+        },
+        {
+          "de": "Du musst noch Hausaufgaben machen.",
+          "gloss": {
+            "de": "Die Hausaufgaben sind für dich noch offen.",
+            "en": "You still have to do your homework."
+          },
+          "note": {
+            "de": "Nur die du-Form bekommt die Endung -st.",
+            "en": "Only the 'du' form takes the ending '-st'."
+          }
+        },
+        {
+          "de": "Wir dürfen hier parken.",
+          "gloss": {
+            "de": "Parken ist an dieser Stelle für uns erlaubt.",
+            "en": "We are allowed to park here."
+          },
+          "note": {
+            "de": "Im Plural sieht die Form aus wie der Infinitiv.",
+            "en": "In the plural the form looks like the infinitive."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bedeutungen",
+      "title": {
+        "de": "Was die Modalverben bedeuten",
+        "en": "What the modal verbs mean"
+      },
+      "body": {
+        "de": "können zeigt eine Fähigkeit, müssen zeigt eine Pflicht oder Notwendigkeit. dürfen zeigt eine Erlaubnis, wollen zeigt einen starken Willen. Ein anderes Modalverb verändert die Aussage des ganzen Satzes.",
+        "en": "'können' shows an ability, 'müssen' shows a duty or necessity. 'dürfen' shows permission, 'wollen' shows a strong intention. A different modal verb changes the meaning of the whole sentence."
+      },
+      "examples": [
+        {
+          "de": "Er kann schwimmen.",
+          "gloss": {
+            "de": "Schwimmen ist eine Fähigkeit von ihm.",
+            "en": "He can swim."
+          },
+          "note": {
+            "de": "können steht für die Fähigkeit.",
+            "en": "'können' stands for ability."
+          }
+        },
+        {
+          "de": "Er muss schwimmen.",
+          "gloss": {
+            "de": "Schwimmen ist für ihn Pflicht.",
+            "en": "He has to swim."
+          },
+          "note": {
+            "de": "müssen steht für die Notwendigkeit.",
+            "en": "'müssen' stands for necessity."
+          }
+        },
+        {
+          "de": "Er darf schwimmen.",
+          "gloss": {
+            "de": "Schwimmen ist für ihn erlaubt.",
+            "en": "He is allowed to swim."
+          },
+          "note": {
+            "de": "dürfen steht für die Erlaubnis.",
+            "en": "'dürfen' stands for permission."
+          }
+        }
+      ]
+    },
+    {
+      "id": "moegen-moechten",
+      "title": {
+        "de": "mögen und möchten",
+        "en": "'mögen' and 'möchten'"
+      },
+      "body": {
+        "de": "mögen steht meistens allein mit einem Nomen und heißt, dass man etwas gern hat. möchten ist der höfliche Wunsch und passt zu Bitten und Bestellungen. Im Restaurant sagt man immer möchte und nicht will.",
+        "en": "'mögen' usually stands alone with a noun and says that you like something. 'möchten' expresses a polite wish and fits requests and orders. In a restaurant you always say 'möchte', never 'will'."
+      },
+      "examples": [
+        {
+          "de": "Ich mag Schokolade.",
+          "gloss": {
+            "de": "Schokolade schmeckt mir gut.",
+            "en": "I like chocolate."
+          },
+          "note": {
+            "de": "mögen steht hier direkt mit einem Nomen, ohne zweites Verb.",
+            "en": "Here 'mögen' goes straight with a noun, without a second verb."
+          }
+        },
+        {
+          "de": "Ich möchte bitte einen Kaffee.",
+          "gloss": {
+            "de": "Höfliche Bestellung von einem Kaffee.",
+            "en": "I would like a coffee, please."
+          },
+          "note": {
+            "de": "möchte klingt höflich, will klingt hart.",
+            "en": "'möchte' sounds polite, 'will' sounds blunt."
+          }
+        },
+        {
+          "de": "Möchten Sie noch etwas trinken?",
+          "gloss": {
+            "de": "Höfliche Frage nach einem weiteren Getränk.",
+            "en": "Would you like something else to drink?"
+          },
+          "note": {
+            "de": "Mit möchten fragt man im Service immer freundlich.",
+            "en": "With 'möchten' service questions always sound friendly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nicht-muessen-nicht-duerfen",
+      "title": {
+        "de": "nicht müssen und nicht dürfen",
+        "en": "'nicht müssen' and 'nicht dürfen'"
+      },
+      "body": {
+        "de": "nicht müssen heißt, dass etwas nicht nötig ist. Man hat also die freie Wahl. nicht dürfen heißt dagegen, dass etwas verboten ist.",
+        "en": "'nicht müssen' means that something is not necessary, so you are free to choose. 'nicht dürfen', in contrast, means that something is forbidden."
+      },
+      "examples": [
+        {
+          "de": "Heute ist Sonntag, du musst nicht arbeiten.",
+          "gloss": {
+            "de": "Arbeit ist heute nicht nötig.",
+            "en": "It is Sunday today, you do not have to work."
+          },
+          "note": {
+            "de": "Arbeiten wäre erlaubt, ist aber nicht nötig.",
+            "en": "Working would be allowed, it is just not necessary."
+          }
+        },
+        {
+          "de": "Hier darfst du nicht rauchen.",
+          "gloss": {
+            "de": "Rauchen ist an diesem Ort verboten.",
+            "en": "You are not allowed to smoke here."
+          },
+          "note": {
+            "de": "Ein klares Verbot, keine freie Wahl.",
+            "en": "A clear ban, no free choice."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "Ich ___ heute leider nicht kommen.",
+      "promptGloss": {
+        "de": "Es ist mir heute leider nicht möglich zu kommen.",
+        "en": "Unfortunately I cannot come today."
+      },
+      "options": [
+        "kann",
+        "kanne",
+        "kannst"
+      ],
+      "answer": "kann",
+      "explain": {
+        "de": "Bei ich bekommt das Modalverb keine Endung: kann.",
+        "en": "With 'ich' the modal verb takes no ending: 'kann'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Du ___ sehr gut Deutsch sprechen.",
+      "promptGloss": {
+        "de": "Dein Deutsch ist wirklich sehr gut.",
+        "en": "You can speak German very well."
+      },
+      "answer": "kannst",
+      "explain": {
+        "de": "Nur die du-Form bekommt die Endung -st: kannst.",
+        "en": "Only the 'du' form takes the ending '-st': 'kannst'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Er ___ jeden Tag um sechs Uhr aufstehen.",
+      "promptGloss": {
+        "de": "Für ihn ist es jeden Tag Pflicht, um sechs Uhr aufzustehen.",
+        "en": "He has to get up at six o'clock every day."
+      },
+      "answer": "muss",
+      "explain": {
+        "de": "er hat dieselbe Form wie ich, ohne Endung: muss.",
+        "en": "'er' has the same form as 'ich', with no ending: 'muss'."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir ___ am Samstag arbeiten.",
+      "promptGloss": {
+        "de": "Am Samstag ist Arbeit für uns Pflicht.",
+        "en": "We have to work on Saturday."
+      },
+      "answer": "müssen",
+      "explain": {
+        "de": "Im Plural sieht die Form aus wie der Infinitiv: müssen.",
+        "en": "In the plural the form looks like the infinitive: 'müssen'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ihr ___ hier nicht rauchen.",
+      "promptGloss": {
+        "de": "Rauchen ist hier für euch verboten.",
+        "en": "You are not allowed to smoke here."
+      },
+      "options": [
+        "dürft",
+        "darft",
+        "dürfen"
+      ],
+      "answer": "dürft",
+      "explain": {
+        "de": "Die ihr-Form heißt dürft, mit Umlaut und Endung -t.",
+        "en": "The 'ihr' form is 'dürft', with umlaut and the ending '-t'."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich muss jetzt nach Hause ___.",
+      "promptGloss": {
+        "de": "Mein Heimweg beginnt jetzt, ich habe keine Wahl.",
+        "en": "I have to go home now."
+      },
+      "options": [
+        "gehen",
+        "gehe",
+        "geht"
+      ],
+      "answer": "gehen",
+      "explain": {
+        "de": "Nach dem Modalverb steht immer der Infinitiv.",
+        "en": "After a modal verb the second verb is always an infinitive."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Kannst du mir bitte ___?",
+      "promptGloss": {
+        "de": "Eine höfliche Bitte um Unterstützung.",
+        "en": "Can you help me, please?"
+      },
+      "options": [
+        "helfen",
+        "hilfst",
+        "hilft"
+      ],
+      "answer": "helfen",
+      "explain": {
+        "de": "Auch in der Frage bleibt das zweite Verb im Infinitiv.",
+        "en": "In a question, too, the second verb stays in the infinitive."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ihr müsst das Buch bis Freitag ___.",
+      "promptGloss": {
+        "de": "Das Buch ist bis Freitag Pflichtlektüre für euch.",
+        "en": "You have to read the book by Friday."
+      },
+      "options": [
+        "lesen",
+        "lest",
+        "liest"
+      ],
+      "answer": "lesen",
+      "explain": {
+        "de": "Nur das Modalverb wird konjugiert, das zweite Verb bleibt Infinitiv.",
+        "en": "Only the modal verb is conjugated, the second verb stays an infinitive."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich möchte morgen mit dir ins Kino ___.",
+      "promptGloss": {
+        "de": "Mein Wunsch für morgen ist ein Kinobesuch mit dir.",
+        "en": "I would like to go to the cinema with you tomorrow."
+      },
+      "answer": "gehen",
+      "explain": {
+        "de": "Der Infinitiv steht ganz am Satzende.",
+        "en": "The infinitive goes to the very end of the sentence."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Am Montag ___ früh aufstehen.",
+      "promptGloss": {
+        "de": "Der Montag beginnt für mich sehr früh.",
+        "en": "On Monday I have to get up early."
+      },
+      "options": [
+        "muss ich",
+        "ich muss"
+      ],
+      "answer": "muss ich",
+      "explain": {
+        "de": "Steht die Zeit vorne, folgt zuerst das Modalverb und dann das Subjekt.",
+        "en": "If the time comes first, the modal verb follows first and then the subject."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Meine Schwester kann sehr gut Klavier ___.",
+      "promptGloss": {
+        "de": "Meine Schwester ist eine sehr gute Pianistin.",
+        "en": "My sister can play the piano very well."
+      },
+      "answer": "spielen",
+      "explain": {
+        "de": "Modalverb an Position 2 und Infinitiv am Ende bilden die Satzklammer.",
+        "en": "Modal verb in position 2 and infinitive at the end form the sentence bracket."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Babys ___ noch nicht laufen.",
+      "promptGloss": {
+        "de": "Babys sind dazu körperlich noch nicht in der Lage.",
+        "en": "Babies cannot walk yet."
+      },
+      "options": [
+        "können",
+        "dürfen",
+        "müssen"
+      ],
+      "answer": "können",
+      "explain": {
+        "de": "können zeigt eine Fähigkeit.",
+        "en": "'können' shows an ability."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Kinder unter sechzehn ___ keinen Alkohol trinken.",
+      "promptGloss": {
+        "de": "Für Kinder unter sechzehn ist Alkohol verboten.",
+        "en": "Children under sixteen are not allowed to drink alcohol."
+      },
+      "options": [
+        "dürfen",
+        "können",
+        "mögen"
+      ],
+      "answer": "dürfen",
+      "explain": {
+        "de": "dürfen zeigt Erlaubnis oder Verbot.",
+        "en": "'dürfen' shows permission or prohibition."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich habe kein Geld, deshalb ___ ich arbeiten.",
+      "promptGloss": {
+        "de": "Ohne Geld bleibt mir nur die Arbeit.",
+        "en": "I have no money, so I have to work."
+      },
+      "options": [
+        "muss",
+        "darf",
+        "mag"
+      ],
+      "answer": "muss",
+      "explain": {
+        "de": "müssen zeigt eine Notwendigkeit.",
+        "en": "'müssen' shows a necessity."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Ich ___ bitte ein Glas Wasser.",
+      "promptGloss": {
+        "de": "Höfliche Bestellung von einem Glas Wasser.",
+        "en": "I would like a glass of water, please."
+      },
+      "options": [
+        "möchte",
+        "mag",
+        "muss"
+      ],
+      "answer": "möchte",
+      "explain": {
+        "de": "möchte ist der höfliche Wunsch, zum Beispiel im Restaurant.",
+        "en": "'möchte' is the polite wish, for example in a restaurant."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Sie ___ keine Katzen, aber sie liebt Hunde.",
+      "promptGloss": {
+        "de": "Katzen findet sie nicht gut, Hunde liebt sie.",
+        "en": "She does not like cats, but she loves dogs."
+      },
+      "answer": "mag",
+      "explain": {
+        "de": "mögen steht direkt bei einem Nomen und heißt gern haben.",
+        "en": "'mögen' goes straight with a noun and means to like."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Heute ist Sonntag, du ___ nicht arbeiten.",
+      "promptGloss": {
+        "de": "Der Sonntag ist frei, Arbeit ist nicht nötig.",
+        "en": "It is Sunday today, you do not have to work."
+      },
+      "options": [
+        "musst",
+        "darfst",
+        "willst"
+      ],
+      "answer": "musst",
+      "explain": {
+        "de": "nicht müssen heißt, dass etwas nicht nötig ist.",
+        "en": "'nicht müssen' means that something is not necessary."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Das ist mein Handy, du ___ es nicht nehmen.",
+      "promptGloss": {
+        "de": "Mein Handy ist für dich tabu.",
+        "en": "That is my phone, you are not allowed to take it."
+      },
+      "options": [
+        "darfst",
+        "musst",
+        "kannst"
+      ],
+      "answer": "darfst",
+      "explain": {
+        "de": "nicht dürfen heißt, dass etwas verboten ist.",
+        "en": "'nicht dürfen' means that something is forbidden."
+      }
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useI18n } from "@/lib/i18n/locale";
+import { useLang, clearLang } from "@/lib/lang";
 import { ProfileSwitcher } from "@/components/ProfileSwitcher";
 import type { UIKey } from "@/lib/i18n/strings";
 
@@ -11,20 +12,42 @@ const isUnder = (pathname: string, href: string) =>
 
 export function Nav() {
   const { t, locale, toggle } = useI18n();
+  const { lang, picked } = useLang();
   const pathname = usePathname();
 
   // Flat bar — every section visible at once (no dropdowns, no sliding).
+  // The coursebook trainer is Spanish-only (it mirrors the user's own book).
   const links: { href: string; key: UIKey }[] = [
     { href: "/", key: "nav.home" },
-    { href: "/vokabular", key: "nav.vocab" },
+    ...(lang === "es" ? [{ href: "/vokabular", key: "nav.vocab" as UIKey }] : []),
     { href: "/themen", key: "nav.themen" },
+    ...(lang === "de" ? [{ href: "/vokabular/artikel", key: "nav.articles" as UIKey }] : []),
     { href: "/zahlen", key: "nav.numbers" },
     { href: "/konjugation", key: "nav.conj" },
     { href: "/grammatik", key: "nav.grammar" },
-    { href: "/buch", key: "nav.buch" },
+    ...(lang === "es" ? [{ href: "/buch", key: "nav.buch" as UIKey }] : []),
     { href: "/vokabelheft", key: "nav.notebook" },
     { href: "/stats", key: "nav.stats" },
   ];
+
+  // Before a language is chosen the bar is just the wordmark (picker is the page).
+  if (!picked) {
+    return (
+      <header className="sticky top-0 z-10 border-b border-border bg-background/85 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center gap-2 px-4 py-3 sm:px-6">
+          <span className="flex items-center gap-2">
+            <span className="inline-block h-2.5 w-2.5 rounded-full bg-brand" />
+            <span className="font-display text-lg font-semibold tracking-tight">Lengua</span>
+          </span>
+          <div className="flex-1" />
+          <button onClick={toggle} aria-label={t("lang.label")} className="btn btn-secondary btn-sm shrink-0">
+            {locale === "de" ? "EN" : "DE"}
+          </button>
+          <ProfileSwitcher />
+        </div>
+      </header>
+    );
+  }
 
   return (
     <header className="sticky top-0 z-10 border-b border-border bg-background/85 backdrop-blur">
@@ -32,7 +55,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-7xl items-center gap-2 px-4 py-3 sm:px-6">
         <Link href="/" className="group flex shrink-0 items-center gap-2">
           <span className="inline-block h-2.5 w-2.5 rounded-full bg-brand transition-transform group-hover:scale-125" />
-          <span className="font-display text-lg font-semibold tracking-tight">Español</span>
+          <span className="font-display text-lg font-semibold tracking-tight">{lang === "de" ? "Deutsch" : "Español"}</span>
         </Link>
         <nav className="flex flex-1 items-center gap-0.5 overflow-x-auto [scrollbar-width:none] sm:gap-1 [&::-webkit-scrollbar]:hidden">
           {links.map((l) => (
@@ -50,6 +73,14 @@ export function Nav() {
             </Link>
           ))}
         </nav>
+        <button
+          onClick={clearLang}
+          title={t("lang.switchLearn")}
+          aria-label={t("lang.switchLearn")}
+          className="btn btn-secondary btn-sm shrink-0"
+        >
+          {lang === "de" ? "🇩🇪" : "🇪🇸"}
+        </button>
         <button
           onClick={toggle}
           aria-label={t("lang.label")}

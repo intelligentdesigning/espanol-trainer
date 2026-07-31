@@ -1,0 +1,522 @@
+{
+  "id": "wortstellung",
+  "name": {
+    "de": "Wortstellung im Satz",
+    "en": "Word order in the sentence"
+  },
+  "summary": {
+    "de": "Warum das Verb im Aussagesatz an Position 2 steht und wie sich die Reihenfolge in Fragen verändert.",
+    "en": "Why the verb comes second in a statement and how the order changes in questions."
+  },
+  "cefr": "A1",
+  "rules": [
+    {
+      "id": "verb-position-2",
+      "title": {
+        "de": "Das Verb an Position 2",
+        "en": "The verb in position 2"
+      },
+      "body": {
+        "de": "Im deutschen Aussagesatz steht das konjugierte Verb immer an zweiter Stelle. Position 1 ist oft das Subjekt. Alles Weitere folgt erst nach dem Verb.",
+        "en": "In a German statement the conjugated verb always comes second. Position 1 is usually the subject. Everything else only follows after the verb."
+      },
+      "examples": [
+        {
+          "de": "Mein Bruder spielt gern Fußball.",
+          "gloss": {
+            "de": "Fußball macht meinem Bruder Freude.",
+            "en": "My brother likes playing football."
+          },
+          "note": {
+            "de": "Position 1 ist mein Bruder, Position 2 ist spielt.",
+            "en": "Position 1 is 'mein Bruder', position 2 is 'spielt'."
+          }
+        },
+        {
+          "de": "Ich trinke jeden Morgen Kaffee.",
+          "gloss": {
+            "de": "Kaffee gehört bei mir zu jedem Morgen.",
+            "en": "I drink coffee every morning."
+          },
+          "note": {
+            "de": "Zwischen Subjekt und Verb passt kein weiteres Wort.",
+            "en": "No other word fits between the subject and the verb."
+          }
+        },
+        {
+          "de": "Die Kinder spielen jetzt im Garten.",
+          "gloss": {
+            "de": "Im Garten sind die Kinder gerade beim Spielen.",
+            "en": "The children are playing in the garden now."
+          },
+          "note": {
+            "de": "Zeit und Ort stehen hinter dem Verb.",
+            "en": "Time and place come after the verb."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inversion",
+      "title": {
+        "de": "Wenn etwas anderes vorne steht",
+        "en": "When something else comes first"
+      },
+      "body": {
+        "de": "Man kann auch die Zeit oder den Ort an Position 1 stellen. Das Verb bleibt trotzdem an Position 2. Das Subjekt rutscht dann direkt hinter das Verb.",
+        "en": "You can also put the time or the place in position 1. The verb still stays in position 2. The subject then moves directly behind the verb."
+      },
+      "examples": [
+        {
+          "de": "Morgen fahre ich nach Berlin.",
+          "gloss": {
+            "de": "Meine Reise nach Berlin ist morgen.",
+            "en": "Tomorrow I am going to Berlin."
+          },
+          "note": {
+            "de": "Falsch wäre Morgen ich fahre nach Berlin.",
+            "en": "'Morgen ich fahre nach Berlin' would be wrong."
+          }
+        },
+        {
+          "de": "Am Wochenende schlafen wir lange.",
+          "gloss": {
+            "de": "Das Wochenende ist unsere Zeit zum langen Schlafen.",
+            "en": "At the weekend we sleep in."
+          },
+          "note": {
+            "de": "Erst die Zeit, dann das Verb, dann das Subjekt.",
+            "en": "First the time, then the verb, then the subject."
+          }
+        },
+        {
+          "de": "In Hamburg wohnen meine Großeltern.",
+          "gloss": {
+            "de": "Der Wohnort meiner Großeltern ist Hamburg.",
+            "en": "My grandparents live in Hamburg."
+          },
+          "note": {
+            "de": "Auch ein Ort an Position 1 dreht die Reihenfolge.",
+            "en": "A place in position 1 also flips the order."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ja-nein-frage",
+      "title": {
+        "de": "Die Ja/Nein-Frage",
+        "en": "The yes/no question"
+      },
+      "body": {
+        "de": "Bei einer Frage ohne Fragewort steht das Verb ganz vorne an Position 1. Direkt danach kommt das Subjekt. Die Antwort auf so eine Frage ist ja oder nein.",
+        "en": "In a question without a question word the verb comes first, in position 1. The subject follows directly after it. The answer to such a question is yes or no."
+      },
+      "examples": [
+        {
+          "de": "Trinkst du Kaffee?",
+          "gloss": {
+            "de": "Frage nach dem Kaffeekonsum, Antwort ja oder nein.",
+            "en": "Do you drink coffee?"
+          },
+          "note": {
+            "de": "Das Verb steht vor dem Subjekt.",
+            "en": "The verb stands before the subject."
+          }
+        },
+        {
+          "de": "Habt ihr heute Zeit?",
+          "gloss": {
+            "de": "Frage an mehrere Personen nach freier Zeit.",
+            "en": "Do you have time today?"
+          },
+          "note": {
+            "de": "Kein Fragewort, also beginnt der Satz mit dem Verb.",
+            "en": "No question word, so the sentence starts with the verb."
+          }
+        },
+        {
+          "de": "Kommen Sie aus Deutschland?",
+          "gloss": {
+            "de": "Höfliche Frage nach der Herkunft.",
+            "en": "Are you from Germany?"
+          },
+          "note": {
+            "de": "Auch die höfliche Form folgt diesem Muster.",
+            "en": "The polite form follows this pattern too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "w-frage",
+      "title": {
+        "de": "Die W-Frage",
+        "en": "The question with a question word"
+      },
+      "body": {
+        "de": "Fragen mit einem Fragewort beginnen mit wer, was, wo, wann, wie oder warum. Das Fragewort steht an Position 1 und das Verb bleibt an Position 2. Das Subjekt folgt erst danach.",
+        "en": "Questions with a question word start with 'wer', 'was', 'wo', 'wann', 'wie' or 'warum'. The question word is in position 1 and the verb stays in position 2. The subject only follows after that."
+      },
+      "examples": [
+        {
+          "de": "Wie heißt du?",
+          "gloss": {
+            "de": "Frage nach dem Namen.",
+            "en": "What is your name?"
+          },
+          "note": {
+            "de": "Nach dem Namen fragt man mit wie, nicht mit was.",
+            "en": "You ask for a name with 'wie', not with 'was'."
+          }
+        },
+        {
+          "de": "Wo wohnst du?",
+          "gloss": {
+            "de": "Frage nach dem Wohnort.",
+            "en": "Where do you live?"
+          },
+          "note": {
+            "de": "Fragewort, Verb, Subjekt in dieser Reihenfolge.",
+            "en": "Question word, verb, subject in that order."
+          }
+        },
+        {
+          "de": "Wann kommt der Bus?",
+          "gloss": {
+            "de": "Frage nach der Ankunftszeit des Busses.",
+            "en": "When does the bus come?"
+          },
+          "note": {
+            "de": "wann fragt nach der Zeit.",
+            "en": "'wann' asks about time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "zweiter-verbteil-am-ende",
+      "title": {
+        "de": "Der zweite Verbteil am Ende",
+        "en": "The second verb part at the end"
+      },
+      "body": {
+        "de": "Manche Sätze haben zwei Verbteile. Der konjugierte Teil bleibt an Position 2, der zweite Teil geht ganz ans Satzende. So entsteht eine Klammer um den Rest des Satzes.",
+        "en": "Some sentences have two verb parts. The conjugated part stays in position 2 and the second part goes right to the end. This forms a bracket around the rest of the sentence."
+      },
+      "examples": [
+        {
+          "de": "Ich stehe jeden Morgen um sechs Uhr auf.",
+          "gloss": {
+            "de": "Mein Tag beginnt jeden Morgen um sechs.",
+            "en": "I get up at six every morning."
+          },
+          "note": {
+            "de": "auf gehört zu aufstehen und steht am Satzende.",
+            "en": "'auf' belongs to 'aufstehen' and stands at the end."
+          }
+        },
+        {
+          "de": "Wir kaufen am Samstag im Supermarkt ein.",
+          "gloss": {
+            "de": "Unsere Einkäufe machen wir samstags im Supermarkt.",
+            "en": "We do our shopping at the supermarket on Saturday."
+          },
+          "note": {
+            "de": "einkaufen ist trennbar, ein rutscht ans Ende.",
+            "en": "'einkaufen' is separable, so 'ein' moves to the end."
+          }
+        },
+        {
+          "de": "Sie will morgen ihre Großmutter besuchen.",
+          "gloss": {
+            "de": "Ihr Plan für morgen ist ein Besuch bei der Großmutter.",
+            "en": "She wants to visit her grandmother tomorrow."
+          },
+          "note": {
+            "de": "Auch der Infinitiv steht ganz am Satzende.",
+            "en": "The infinitive also stands right at the end."
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "kind": "choice",
+      "prompt": "Mein Bruder ___ Fußball.",
+      "promptGloss": {
+        "de": "Fußball macht meinem Bruder Freude.",
+        "en": "My brother likes playing football."
+      },
+      "options": [
+        "spielt gern",
+        "gern spielt"
+      ],
+      "answer": "spielt gern",
+      "explain": {
+        "de": "Das Verb steht an Position 2, direkt nach dem Subjekt.",
+        "en": "The verb is in position 2, right after the subject."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Wir ___ ins Schwimmbad.",
+      "promptGloss": {
+        "de": "Das Schwimmbad besuchen wir häufig.",
+        "en": "We often go to the swimming pool."
+      },
+      "options": [
+        "gehen oft",
+        "oft gehen"
+      ],
+      "answer": "gehen oft",
+      "explain": {
+        "de": "Zwischen Subjekt und Verb passt kein anderes Wort.",
+        "en": "No other word fits between the subject and the verb."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Die Kinder ___ im Garten.",
+      "promptGloss": {
+        "de": "Im Garten sind die Kinder gerade beim Spielen.",
+        "en": "The children are playing in the garden now."
+      },
+      "options": [
+        "spielen jetzt",
+        "jetzt spielen"
+      ],
+      "answer": "spielen jetzt",
+      "explain": {
+        "de": "Das konjugierte Verb bleibt an Position 2, die Zeit folgt danach.",
+        "en": "The conjugated verb stays in position 2 and the time follows after it."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Anna ___ heute ihre Freundin.",
+      "promptGloss": {
+        "de": "Anna macht heute einen Besuch bei ihrer Freundin.",
+        "en": "Anna is visiting her friend today."
+      },
+      "answer": "besucht",
+      "explain": {
+        "de": "Position 1 ist das Subjekt Anna, Position 2 gehört dem Verb.",
+        "en": "Position 1 is the subject 'Anna', position 2 belongs to the verb."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Morgen ___ nach Berlin.",
+      "promptGloss": {
+        "de": "Meine Reise nach Berlin ist morgen.",
+        "en": "Tomorrow I am going to Berlin."
+      },
+      "options": [
+        "fahre ich",
+        "ich fahre"
+      ],
+      "answer": "fahre ich",
+      "explain": {
+        "de": "Nach der Zeitangabe an Position 1 kommt das Verb und erst dann das Subjekt.",
+        "en": "After the time expression in position 1 comes the verb, and only then the subject."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Am Wochenende ___ lange.",
+      "promptGloss": {
+        "de": "Das Wochenende ist unsere Zeit zum langen Schlafen.",
+        "en": "At the weekend we sleep in."
+      },
+      "options": [
+        "schlafen wir",
+        "wir schlafen"
+      ],
+      "answer": "schlafen wir",
+      "explain": {
+        "de": "Das Verb bleibt an Position 2, das Subjekt rutscht dahinter.",
+        "en": "The verb stays in position 2 and the subject moves behind it."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Heute Abend ___ einen Film.",
+      "promptGloss": {
+        "de": "Für heute Abend ist ein Film geplant.",
+        "en": "Tonight we are watching a film."
+      },
+      "options": [
+        "sehen wir",
+        "wir sehen"
+      ],
+      "answer": "sehen wir",
+      "explain": {
+        "de": "Steht die Zeit vorne, folgt sofort das Verb.",
+        "en": "If the time comes first, the verb follows immediately."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "In Hamburg ___ meine Großeltern.",
+      "promptGloss": {
+        "de": "Der Wohnort meiner Großeltern ist Hamburg.",
+        "en": "My grandparents live in Hamburg."
+      },
+      "answer": "wohnen",
+      "explain": {
+        "de": "Der Ort steht an Position 1, deshalb kommt das Verb vor dem Subjekt.",
+        "en": "The place is in position 1, so the verb comes before the subject."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ du gern Musik?",
+      "promptGloss": {
+        "de": "Frage nach dem Musikgeschmack, Antwort ja oder nein.",
+        "en": "Do you like listening to music?"
+      },
+      "answer": "Hörst",
+      "explain": {
+        "de": "In der Frage ohne Fragewort steht das Verb an Position 1.",
+        "en": "In a question without a question word the verb comes first."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ heute Zeit?",
+      "promptGloss": {
+        "de": "Frage an mehrere Personen nach freier Zeit.",
+        "en": "Do you have time today?"
+      },
+      "options": [
+        "Habt ihr",
+        "Ihr habt"
+      ],
+      "answer": "Habt ihr",
+      "explain": {
+        "de": "Ohne Fragewort beginnt der Satz mit dem Verb, danach kommt das Subjekt.",
+        "en": "Without a question word the sentence starts with the verb, then the subject."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ Sie aus Deutschland?",
+      "promptGloss": {
+        "de": "Höfliche Frage nach der Herkunft.",
+        "en": "Are you from Germany?"
+      },
+      "answer": "Kommen",
+      "explain": {
+        "de": "Auch die höfliche Ja/Nein-Frage beginnt mit dem Verb.",
+        "en": "The polite yes/no question also starts with the verb."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ heißt du?",
+      "promptGloss": {
+        "de": "Frage nach dem Namen.",
+        "en": "What is your name?"
+      },
+      "answer": "Wie",
+      "explain": {
+        "de": "Nach dem Namen fragt man mit wie, das Verb folgt an Position 2.",
+        "en": "You ask for a name with 'wie', and the verb follows in position 2."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "___ wohnst du?",
+      "promptGloss": {
+        "de": "Frage nach dem Wohnort.",
+        "en": "Where do you live?"
+      },
+      "answer": "Wo",
+      "explain": {
+        "de": "wo fragt nach dem Ort und steht an Position 1.",
+        "en": "'wo' asks about a place and stands in position 1."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "___ kommt der Bus?",
+      "promptGloss": {
+        "de": "Frage nach der Ankunftszeit des Busses.",
+        "en": "When does the bus come?"
+      },
+      "options": [
+        "Wann",
+        "Wer",
+        "Was"
+      ],
+      "answer": "Wann",
+      "explain": {
+        "de": "wann fragt nach der Zeit, danach folgt sofort das Verb.",
+        "en": "'wann' asks about time, and the verb follows immediately."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Woher ___?",
+      "promptGloss": {
+        "de": "Frage nach dem Herkunftsland.",
+        "en": "Where do you come from?"
+      },
+      "options": [
+        "kommst du",
+        "du kommst"
+      ],
+      "answer": "kommst du",
+      "explain": {
+        "de": "Nach dem Fragewort steht das Verb und erst dann das Subjekt.",
+        "en": "After the question word comes the verb, and only then the subject."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Ich stehe jeden Morgen um sechs Uhr ___.",
+      "promptGloss": {
+        "de": "Mein Tag beginnt jeden Morgen um sechs.",
+        "en": "I get up at six every morning."
+      },
+      "answer": "auf",
+      "explain": {
+        "de": "Bei trennbaren Verben steht der zweite Teil am Satzende.",
+        "en": "With separable verbs the second part stands at the end of the sentence."
+      }
+    },
+    {
+      "kind": "fill",
+      "prompt": "Wir kaufen am Samstag im Supermarkt ___.",
+      "promptGloss": {
+        "de": "Unsere Einkäufe machen wir samstags im Supermarkt.",
+        "en": "We do our shopping at the supermarket on Saturday."
+      },
+      "answer": "ein",
+      "explain": {
+        "de": "einkaufen ist trennbar, deshalb rutscht ein ganz ans Ende.",
+        "en": "'einkaufen' is separable, so 'ein' moves right to the end."
+      }
+    },
+    {
+      "kind": "choice",
+      "prompt": "Sie will morgen ihre Großmutter ___.",
+      "promptGloss": {
+        "de": "Ihr Plan für morgen ist ein Besuch bei der Großmutter.",
+        "en": "She wants to visit her grandmother tomorrow."
+      },
+      "options": [
+        "besuchen",
+        "besucht",
+        "besuche"
+      ],
+      "answer": "besuchen",
+      "explain": {
+        "de": "Der zweite Verbteil steht als Infinitiv am Satzende.",
+        "en": "The second verb part stands at the end of the sentence as an infinitive."
+      }
+    }
+  ]
+}

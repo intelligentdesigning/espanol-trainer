@@ -1,7 +1,10 @@
 "use client";
 
-// Free, no-backend pronunciation via the browser's Web Speech API. Speaks any
-// Spanish text using the device's installed voices — no API key, works offline.
+// Free, no-backend pronunciation via the browser's Web Speech API. Speaks the
+// text in the language being learned, using the device's installed voices —
+// no API key, works offline.
+
+import { getActiveLang } from "@/lib/lang";
 
 let voices: SpeechSynthesisVoice[] = [];
 let primed = false;
@@ -24,28 +27,33 @@ export function primeVoices(): void {
   } catch {}
 }
 
-function pickSpanishVoice(): SpeechSynthesisVoice | undefined {
+/** Best voice for a BCP-47 tag, preferring the exact locale then any of that language. */
+function pickVoice(tag: string): SpeechSynthesisVoice | undefined {
   if (!voices.length) loadVoices();
-  const es = voices.filter((v) => v.lang && v.lang.toLowerCase().startsWith("es"));
-  if (!es.length) return undefined;
-  const code = (c: string) => es.find((v) => v.lang.toLowerCase().replace("_", "-") === c);
-  return code("es-es") || code("es-mx") || code("es-us") || code("es-419") || es[0];
+  const base = tag.slice(0, 2).toLowerCase();
+  const same = voices.filter((v) => v.lang && v.lang.toLowerCase().startsWith(base));
+  if (!same.length) return undefined;
+  const code = (c: string) => same.find((v) => v.lang.toLowerCase().replace("_", "-") === c);
+  if (base === "de") return code("de-de") || code("de-at") || code("de-ch") || same[0];
+  return code("es-es") || code("es-mx") || code("es-us") || code("es-419") || same[0];
 }
 
 export function canSpeak(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
-/** Speak Spanish text. Cancels any ongoing utterance first. Returns false if unsupported. */
-export function speak(text: string, opts?: { onStart?: () => void; onEnd?: () => void }): boolean {
+/** Speak text in the language currently being learned (Spanish or German).
+ *  Cancels any ongoing utterance first. Returns false if unsupported. */
+export function speak(text: string, opts?: { onStart?: () => void; onEnd?: () => void; lang?: string }): boolean {
   if (!canSpeak() || !text.trim()) return false;
   try {
     const synth = window.speechSynthesis;
     synth.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = "es-ES";
+    const tag = opts?.lang || (getActiveLang() === "de" ? "de-DE" : "es-ES");
+    u.lang = tag;
     u.rate = 0.9; // a touch slower for learners
-    const v = pickSpanishVoice();
+    const v = pickVoice(tag);
     if (v) u.voice = v;
     if (opts?.onStart) u.onstart = opts.onStart;
     if (opts?.onEnd) {
