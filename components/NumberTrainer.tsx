@@ -41,6 +41,7 @@ export function NumberTrainer() {
   const [phase, setPhase] = useState<Phase>("setup");
 
   const [questions, setQuestions] = useState<bigint[]>([]);
+  const [wrongQs, setWrongQs] = useState<bigint[]>([]);
   const [idx, setIdx] = useState(0);
   const [input, setInput] = useState("");
   const [status, setStatus] = useState<Status>("idle");
@@ -51,12 +52,14 @@ export function NumberTrainer() {
 
   useEffect(() => { if (phase === "run" && status === "idle") inputRef.current?.focus(); }, [phase, status, idx]);
 
-  const start = () => {
-    setQuestions(Array.from({ length: count }, () => randomIn(rangeMax)));
-    setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
+  /** Start a round with exactly these numbers (fresh, a repeat, or the misses). */
+  const run = (qs: bigint[]) => {
+    setQuestions(qs); setWrongQs([]); setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
     startedAt.current = Date.now();
     setPhase("run");
   };
+
+  const start = () => run(Array.from({ length: count }, () => randomIn(rangeMax)));
 
   const chip = (selected: boolean) => `chip${selected ? " is-active" : ""}`;
 
@@ -115,7 +118,16 @@ export function NumberTrainer() {
           <div className="card py-3"><div className="font-display text-2xl font-bold">{timeStr}</div><div className="text-xs text-muted">{t("buch.time")}</div></div>
         </div>
         <div className="space-y-2">
+          {wrongQs.length > 0 && (
+            <button onClick={() => run(wrongQs)}
+              className="w-full rounded-xl border-2 border-danger/40 px-5 py-3 font-semibold text-danger transition-colors hover:bg-danger/10">
+              {t("buch.retryWrong")} ({wrongQs.length})
+            </button>
+          )}
           <button onClick={start} className="btn btn-lg bg-noun text-white w-full">{t("buch.more")} ({count})</button>
+          <button onClick={() => run(questions)} className="btn btn-secondary btn-lg w-full">
+            {t("quiz.result.again")} ({total})
+          </button>
           <button onClick={() => setPhase("setup")} className="btn btn-ghost w-full">{t("buch.overview")}</button>
         </div>
       </div>
@@ -132,6 +144,7 @@ export function NumberTrainer() {
     const ok = mode === "d2w" ? checkWords(input, n) : parseDigits(input) === n;
     setStatus(ok ? "right" : "wrong");
     setCorrect((c) => c + (ok ? 1 : 0));
+    if (!ok) setWrongQs((w) => [...w, n]);
   };
   const next = () => {
     if (idx + 1 >= total) {

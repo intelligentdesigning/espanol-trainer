@@ -35,6 +35,7 @@ export function SentenceTrainer() {
   const [topics, setTopics] = useState<{ id: string; name: LocalizedText }[]>([]);
 
   const [tasks, setTasks] = useState<SentenceTask[]>([]);
+  const [wrongTasks, setWrongTasks] = useState<SentenceTask[]>([]);
   const [idx, setIdx] = useState(0);
   const [placed, setPlaced] = useState<number[]>([]);   // indices into tiles
   const [status, setStatus] = useState<Status>("idle");
@@ -56,6 +57,14 @@ export function SentenceTrainer() {
     return () => { alive = false; };
   }, [source, topic, length, level, knownOnly, locale]);
 
+  /** Start a round with exactly these sentences, tiles reshuffled. */
+  const run = (list: SentenceTask[]) => {
+    setTasks(list.map((s) => ({ ...s, tiles: shuffleTiles(s.solution) })));
+    setWrongTasks([]); setIdx(0); setPlaced([]); setStatus("idle"); setCorrect(0);
+    startedAt.current = Date.now();
+    setPhase("run");
+  };
+
   const start = async () => {
     const pool = await buildSentencePool({
       source, topic: topic || undefined, length, cefr: level, knownOnly,
@@ -63,13 +72,7 @@ export function SentenceTrainer() {
     });
     if (pool.length === 0) { setNote(t("sentence.empty")); return; }
     setNote("");
-    const picked = shuffleTiles(pool.map((_, i) => String(i)))
-      .slice(0, count)
-      .map((i) => pool[Number(i)])
-      .map((s) => ({ ...s, tiles: shuffleTiles(s.solution) }));
-    setTasks(picked); setIdx(0); setPlaced([]); setStatus("idle"); setCorrect(0);
-    startedAt.current = Date.now();
-    setPhase("run");
+    run(shuffleTiles(pool.map((_, i) => String(i))).slice(0, count).map((i) => pool[Number(i)]));
   };
 
   const chip = (sel: boolean) => `chip${sel ? " is-active" : ""}`;
@@ -160,7 +163,16 @@ export function SentenceTrainer() {
           <div className="card py-3"><div className="font-display text-2xl font-bold text-danger">{total - correct}</div><div className="text-xs text-muted">{t("stats.todayWrong")}</div></div>
         </div>
         <div className="space-y-2">
+          {wrongTasks.length > 0 && (
+            <button onClick={() => run(wrongTasks)}
+              className="w-full rounded-xl border-2 border-danger/40 px-5 py-3 font-semibold text-danger transition-colors hover:bg-danger/10">
+              {t("buch.retryWrong")} ({wrongTasks.length})
+            </button>
+          )}
           <button onClick={() => void start()} className="btn btn-lg w-full bg-brand-2 text-white">{t("buch.more")} ({count})</button>
+          <button onClick={() => run(tasks)} className="btn btn-secondary btn-lg w-full">
+            {t("quiz.result.again")} ({total})
+          </button>
           <button onClick={() => setPhase("setup")} className="btn btn-ghost w-full">{t("buch.overview")}</button>
         </div>
       </div>
@@ -183,6 +195,7 @@ export function SentenceTrainer() {
     const ok = v.kind !== "wrong";
     setStatus(v.kind === "correct" ? "right" : v.kind === "alsoOk" ? "alsoOk" : "wrong");
     setCorrect((c) => c + (ok ? 1 : 0));
+    if (!ok) setWrongTasks((w) => [...w, task]);
     recordResult(`sentence:${task.target.slice(0, 60)}`, "grammar", ok);
   };
   const next = () => {

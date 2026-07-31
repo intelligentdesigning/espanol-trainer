@@ -40,6 +40,7 @@ export function ThemeTrainer() {
   const [phase, setPhase] = useState<Phase>("index");
 
   const [questions, setQuestions] = useState<Q[]>([]);
+  const [wrongQs, setWrongQs] = useState<Q[]>([]);
   const [idx, setIdx] = useState(0);
   const [input, setInput] = useState("");
   const [status, setStatus] = useState<Status>("idle");
@@ -61,6 +62,14 @@ export function ThemeTrainer() {
   const theme = themeId ? data.themes.find((x) => x.id === themeId) : null;
   const entriesOf = (id: string) => data.byTheme[id] ?? [];
 
+  /** Start a round with exactly these questions (fresh words, a repeat, or the
+   *  ones that went wrong). */
+  const run = (qs: Q[]) => {
+    setQuestions(qs); setWrongQs([]); setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
+    startedAt.current = Date.now();
+    setPhase("run");
+  };
+
   const start = () => {
     if (!themeId) return;
     let pool: ThemeEntry[] = entriesOf(themeId);
@@ -68,12 +77,9 @@ export function ThemeTrainer() {
     if (pool.length === 0) { setNote(t("themes.emptyLevel")); return; }
     setNote("");
     const picked = shuffle(pool).slice(0, count);
-    const qs: Q[] = picked.map((e) => dir === "es-de"
+    run(picked.map((e) => dir === "es-de"
       ? { es: e.es, prompt: e.es, accepted: [...splitMeanings(e.de), ...(e.en ? splitMeanings(e.en) : [])], canonical: e.en ? `${e.de}  ·  ${e.en}` : e.de, pos: e.pos, cefr: e.cefr }
-      : { es: e.es, prompt: e.de, accepted: splitMeanings(e.es), canonical: e.es, pos: e.pos, cefr: e.cefr });
-    setQuestions(qs); setIdx(0); setInput(""); setStatus("idle"); setCorrect(0);
-    startedAt.current = Date.now();
-    setPhase("run");
+      : { es: e.es, prompt: e.de, accepted: splitMeanings(e.es), canonical: e.es, pos: e.pos, cefr: e.cefr }));
   };
 
   // ---- Index: pick a theme ----
@@ -165,7 +171,16 @@ export function ThemeTrainer() {
           <div className="card py-3"><div className="font-display text-2xl font-bold text-danger">{wrong}</div><div className="text-xs text-muted">{t("stats.todayWrong")}</div></div>
         </div>
         <div className="space-y-2">
+          {wrongQs.length > 0 && (
+            <button onClick={() => run(shuffle(wrongQs))}
+              className="w-full rounded-xl border-2 border-danger/40 px-5 py-3 font-semibold text-danger transition-colors hover:bg-danger/10">
+              {t("buch.retryWrong")} ({wrongQs.length})
+            </button>
+          )}
           <button onClick={start} className="btn btn-lg bg-vocab text-white w-full">{t("buch.more")} ({count})</button>
+          <button onClick={() => run(shuffle(questions))} className="btn btn-secondary btn-lg w-full">
+            {t("quiz.result.again")} ({total})
+          </button>
           <button onClick={() => setPhase("setup")} className="btn btn-ghost w-full">{t("buch.overview")}</button>
         </div>
       </div>
@@ -180,6 +195,7 @@ export function ThemeTrainer() {
     const ok = checkAnswer(input, q.accepted);
     setStatus(ok ? "right" : "wrong");
     setCorrect((c) => c + (ok ? 1 : 0));
+    if (!ok) setWrongQs((w) => [...w, q]);
     recordResult(`theme:${themeId}:${dir}:${keyOf(q.es)}`, "vocab", ok);
   };
   const next = () => {

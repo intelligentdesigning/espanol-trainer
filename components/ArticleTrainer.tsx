@@ -166,6 +166,9 @@ export function ArticleTrainer() {
             </button>
           )}
           <button onClick={start} className="btn w-full bg-article text-white">{t("buch.more")} ({count})</button>
+          <button onClick={() => begin(shuffle(questions))} className="btn btn-secondary w-full">
+            {t("quiz.result.again")} ({questions.length})
+          </button>
           <button onClick={() => { setPhase("setup"); refreshMastery(); }} className="btn btn-ghost btn-sm w-full">{t("buch.overview")}</button>
         </div>
       </div>

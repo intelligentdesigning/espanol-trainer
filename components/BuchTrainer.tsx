@@ -276,6 +276,9 @@ export function BuchTrainer() {
           <button onClick={() => start()} className="btn btn-lg w-full bg-vocab text-white">
             {t("buch.more")} ({count})
           </button>
+          <button onClick={() => beginRound(shuffle(questions), lektion)} className="btn btn-secondary btn-lg w-full">
+            {t("quiz.result.again")} ({questions.length})
+          </button>
           {nextLek && (
             <button onClick={() => start(nextLek)} className="btn btn-secondary btn-lg w-full gap-1.5">
               {t("buch.next").replace("{l}", nextLek)} →
