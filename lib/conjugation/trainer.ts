@@ -12,6 +12,10 @@ export const PERSON_LABELS: Record<Locale, string[]> = {
     "yo (I)", "tú (you)", "él/ella (he/she)",
     "nosotros (we)", "vosotros (you, pl.)", "ellos/ellas (they)",
   ],
+  ka: [
+    "yo (მე)", "tú (შენ)", "él/ella (ის)",
+    "nosotros (ჩვენ)", "vosotros (თქვენ)", "ellos/ellas (ისინი)",
+  ],
 };
 
 export const FORM_LABELS: Record<FormKey, string> = {

@@ -1,7 +1,9 @@
 // Shared types for the Spanish trainer.
 
-export type Locale = "de" | "en";
-export type LocalizedText = { de: string; en: string };
+/** Interface language: what the app itself is written in (not what you learn). */
+export type Locale = "en" | "de" | "ka";
+/** Authored content. `ka` is optional — Georgian falls back to English. */
+export type LocalizedText = { de: string; en: string; ka?: string };
 
 export type Pos =
   | "verb" | "noun" | "adj" | "adv" | "pron"

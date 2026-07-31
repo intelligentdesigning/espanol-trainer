@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useI18n } from "@/lib/i18n/locale";
 import { useLang, clearLang } from "@/lib/lang";
 import { ProfileSwitcher } from "@/components/ProfileSwitcher";
+import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { IconChevronDown } from "@/components/icons";
 import type { UIKey } from "@/lib/i18n/strings";
 
@@ -12,7 +13,7 @@ const isUnder = (pathname: string, href: string) =>
   href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(href + "/");
 
 export function Nav() {
-  const { t, locale, toggle } = useI18n();
+  const { t } = useI18n();
   const { lang } = useLang();
   const pathname = usePathname();
 
@@ -66,13 +67,7 @@ export function Nav() {
           <span className="hidden sm:inline">{lang === "de" ? "DE" : "ES"}</span>
           <IconChevronDown className="h-3 w-3 opacity-60" />
         </button>
-        <button
-          onClick={toggle}
-          aria-label={t("lang.label")}
-          className="btn btn-secondary btn-sm shrink-0"
-        >
-          {locale === "de" ? "EN" : "DE"}
-        </button>
+        <LocaleSwitcher />
         <ProfileSwitcher />
       </div>
     </header>
