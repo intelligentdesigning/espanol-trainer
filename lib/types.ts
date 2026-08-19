@@ -128,9 +128,14 @@ export interface VocabIndex {
 
 // --- Grammar content -------------------------------------------------------
 export interface GrammarExample {
-  es: string;            // the Spanish example (subject matter, not translated)
+  es: string;            // the target-language example (Spanish / German / Georgian)
   gloss: LocalizedText;  // its meaning in DE/EN
   note?: LocalizedText;
+  /** Further word orders that are equally correct, each a full sentence.
+   *  Used by the sentence builder for languages with free constituent order. */
+  alt?: string[];
+  /** Set when this example should feed the sentence builder. */
+  buildable?: boolean;
 }
 export interface GrammarRule {
   id: string;

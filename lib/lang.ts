@@ -4,16 +4,18 @@ import { createContext, createElement, useContext, useEffect, useState, type Rea
 
 /** Which language the app currently teaches. Each mode is a separate world:
  *  own content, own colours, own progress database. */
-export type LearnLang = "es" | "de";
+export type LearnLang = "es" | "de" | "ka";
 
 const KEY = "learn-lang";
-export const LANGS: LearnLang[] = ["es", "de"];
+export const LANGS: LearnLang[] = ["es", "de", "ka"];
+
+const isLang = (v: unknown): v is LearnLang => v === "es" || v === "de" || v === "ka";
 
 /** Read the chosen language outside React (storage layer, before hydration). */
 export function getActiveLang(): LearnLang {
   if (typeof window === "undefined") return "es";
   const v = window.localStorage.getItem(KEY);
-  return v === "de" ? "de" : "es";
+  return isLang(v) ? v : "es";
 }
 
 /** Has the learner picked a language yet? (null → show the picker) */
@@ -35,6 +37,9 @@ export function clearLang(): void {
   window.localStorage.removeItem(KEY);
   window.location.href = "/";
 }
+
+/** BCP-47 tag per learned language, for speech + `lang` attributes. */
+export const SPEECH: Record<LearnLang, string> = { es: "es-ES", de: "de-DE", ka: "ka-GE" };
 
 interface LangCtx {
   lang: LearnLang;
@@ -58,7 +63,7 @@ export function LangProvider({ children }: { children: ReactNode }) {
 
   return createElement(
     Ctx.Provider,
-    { value: { lang, picked, speechLang: lang === "de" ? "de-DE" : "es-ES" } },
+    { value: { lang, picked, speechLang: SPEECH[lang] } },
     children,
   );
 }

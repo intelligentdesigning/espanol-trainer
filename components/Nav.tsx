@@ -19,19 +19,31 @@ export function Nav() {
 
   // Flat bar — every section visible at once (no dropdowns, no sliding).
   // The coursebook trainer is Spanish-only (it mirrors the user's own book).
-  const links: { href: string; key: UIKey }[] = [
-    { href: "/", key: "nav.home" },
-    ...(lang === "es" ? [{ href: "/vokabular", key: "nav.vocab" as UIKey }] : []),
-    { href: "/themen", key: "nav.themen" },
-    { href: "/satzbau", key: "nav.sentence" },
-    ...(lang === "de" ? [{ href: "/vokabular/artikel", key: "nav.articles" as UIKey }] : []),
-    { href: "/zahlen", key: "nav.numbers" },
-    { href: "/konjugation", key: "nav.conj" },
-    { href: "/grammatik", key: "nav.grammar" },
-    ...(lang === "es" ? [{ href: "/buch", key: "nav.buch" as UIKey }] : []),
-    { href: "/vokabelheft", key: "nav.notebook" },
-    { href: "/stats", key: "nav.stats" },
-  ];
+  // Georgian is a grammar reference: it has no articles, and every other
+  // trainer would need a Georgian keyboard, so only the tap-only ones are shown.
+  const links: { href: string; key: UIKey }[] = lang === "ka"
+    ? [
+        { href: "/", key: "nav.home" },
+        { href: "/grammatik", key: "nav.grammar" },
+        { href: "/satzbau", key: "nav.sentence" },
+        { href: "/stats", key: "nav.stats" },
+      ]
+    : [
+        { href: "/", key: "nav.home" },
+        ...(lang === "es" ? [{ href: "/vokabular", key: "nav.vocab" as UIKey }] : []),
+        { href: "/themen", key: "nav.themen" },
+        { href: "/satzbau", key: "nav.sentence" },
+        ...(lang === "de" ? [{ href: "/vokabular/artikel", key: "nav.articles" as UIKey }] : []),
+        { href: "/zahlen", key: "nav.numbers" },
+        { href: "/konjugation", key: "nav.conj" },
+        { href: "/grammatik", key: "nav.grammar" },
+        ...(lang === "es" ? [{ href: "/buch", key: "nav.buch" as UIKey }] : []),
+        { href: "/vokabelheft", key: "nav.notebook" },
+        { href: "/stats", key: "nav.stats" },
+      ];
+
+  const WORDMARK = { es: "Español", de: "Deutsch", ka: "ქართული" };
+  const FLAG = { es: "🇪🇸", de: "🇩🇪", ka: "🇬🇪" };
 
   return (
     <header className="sticky top-0 z-10 border-b border-border bg-background/85 backdrop-blur">
@@ -39,7 +51,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-7xl items-center gap-2 px-4 py-3 sm:px-6">
         <Link href="/" className="group flex shrink-0 items-center gap-2">
           <span className="inline-block h-2.5 w-2.5 rounded-full bg-brand transition-transform group-hover:scale-125" />
-          <span className="font-display text-lg font-semibold tracking-tight">{lang === "de" ? "Deutsch" : "Español"}</span>
+          <span className="font-display text-lg font-semibold tracking-tight" lang={lang}>{WORDMARK[lang]}</span>
         </Link>
         <nav className="flex flex-1 items-center gap-0.5 overflow-x-auto [scrollbar-width:none] sm:gap-1 [&::-webkit-scrollbar]:hidden">
           {links.map((l) => (
@@ -64,8 +76,8 @@ export function Nav() {
           aria-label={t("lang.switchLearn")}
           className="btn btn-secondary btn-sm shrink-0 gap-1"
         >
-          <span>{lang === "de" ? "🇩🇪" : "🇪🇸"}</span>
-          <span className="hidden sm:inline">{lang === "de" ? "DE" : "ES"}</span>
+          <span>{FLAG[lang]}</span>
+          <span className="hidden sm:inline">{lang.toUpperCase()}</span>
           <IconChevronDown className="h-3 w-3 opacity-60" />
         </button>
         <LocaleSwitcher />

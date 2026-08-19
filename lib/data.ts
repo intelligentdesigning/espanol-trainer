@@ -45,9 +45,13 @@ export function loadThemeDetails(): Promise<BuchDetails> {
   return (themeDetailsPromise ??= load<BuchDetails>(file).catch(() => ({} as BuchDetails)));
 }
 
-/** German A1 grammar lessons (rules + practice). Empty when not in German mode. */
-export function loadDeGrammar(): Promise<DeLesson[]> {
-  return (deGrammarPromise ??= load<DeLesson[]>("de/grammar.json").catch(() => [] as DeLesson[]));
+/** Lesson-based grammar for the modes that use it: German A1 and Georgian.
+ *  Spanish has its own hand-built topics/tenses content instead. Switching the
+ *  learned language reloads the app, so one cache is enough. */
+export function loadLessonGrammar(): Promise<DeLesson[]> {
+  const lang = getActiveLang();
+  if (lang === "es") return Promise.resolve([]);
+  return (deGrammarPromise ??= load<DeLesson[]>(`${lang}/grammar.json`).catch(() => [] as DeLesson[]));
 }
 /** Definitions + example sentences (keyed by vocab id). Tolerates a missing file. */
 export function loadDetails(): Promise<VocabDetails> {

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
 import { useLang } from "@/lib/lang";
-import { loadThemes, loadBuch } from "@/lib/data";
+import { loadThemes, loadBuch, loadLessonGrammar } from "@/lib/data";
 import { recordResult, addSession } from "@/lib/storage/db";
 import { shuffleTiles, checkSentence, splitSentence, type SentenceTask } from "@/lib/sentence";
 import { buildSentencePool, type SentenceSource, type LengthBand } from "@/lib/sentence-pool";
@@ -44,7 +44,11 @@ export function SentenceTrainer() {
 
   // topic list for the "restrict to" chips
   useEffect(() => {
-    loadThemes().then((d) => setTopics(d.themes.map((x) => ({ id: x.id, name: x.name })))).catch(() => {});
+    if (lang === "ka") {
+      loadLessonGrammar().then((ls) => setTopics(ls.map((l) => ({ id: l.id, name: l.name })))).catch(() => {});
+    } else {
+      loadThemes().then((d) => setTopics(d.themes.map((x) => ({ id: x.id, name: x.name })))).catch(() => {});
+    }
     if (lang === "es") loadBuch().catch(() => {});
   }, [lang]);
 
@@ -87,30 +91,47 @@ export function SentenceTrainer() {
           <p className="mt-1 text-muted">{t("sentence.subtitle")}</p>
         </div>
 
-        <button onClick={() => setKnownOnly((v) => !v)} className={`${chip(knownOnly)} !px-4 !py-2.5`} style={accent}>
-          {knownOnly ? "✓ " : ""}{t("sentence.knownOnly")}
-        </button>
+        {/* Georgian has no vocabulary trainer, so "only words I know" has nothing
+            to filter on, and every sentence comes from a lesson — the source row
+            collapses into a plain lesson picker. */}
+        {lang !== "ka" && (
+          <button onClick={() => setKnownOnly((v) => !v)} className={`${chip(knownOnly)} !px-4 !py-2.5`} style={accent}>
+            {knownOnly ? "✓ " : ""}{t("sentence.knownOnly")}
+          </button>
+        )}
 
-        <div>
-          <div className="mb-2 section-label">{t("sentence.source")}</div>
-          <div className="flex flex-wrap gap-2">
-            {(["all", "vocab", "buch", "theme"] as SentenceSource[])
-              .filter((s) => lang === "es" || (s !== "vocab" && s !== "buch"))
-              .map((s) => (
-                <button key={s} onClick={() => { setSource(s); if (s !== "theme") setTopic(""); }} className={chip(source === s)} style={accent}>
-                  {t(`sentence.src.${s}` as never)}
-                </button>
-              ))}
-          </div>
-          {source === "theme" && topics.length > 0 && (
-            <div className="mt-2 flex flex-wrap gap-1.5">
+        {lang === "ka" ? (
+          <div>
+            <div className="mb-2 section-label">{t("sentence.lesson")}</div>
+            <div className="flex flex-wrap gap-1.5">
               <button onClick={() => setTopic("")} className={`${chip(!topic)} !text-xs`} style={accent}>{t("themes.levelAll")}</button>
               {topics.map((x) => (
                 <button key={x.id} onClick={() => setTopic(x.id)} className={`${chip(topic === x.id)} !text-xs`} style={accent}>{L(x.name)}</button>
               ))}
             </div>
-          )}
-        </div>
+          </div>
+        ) : (
+          <div>
+            <div className="mb-2 section-label">{t("sentence.source")}</div>
+            <div className="flex flex-wrap gap-2">
+              {(["all", "vocab", "buch", "theme"] as SentenceSource[])
+                .filter((s) => lang === "es" || (s !== "vocab" && s !== "buch"))
+                .map((s) => (
+                  <button key={s} onClick={() => { setSource(s); if (s !== "theme") setTopic(""); }} className={chip(source === s)} style={accent}>
+                    {t(`sentence.src.${s}` as never)}
+                  </button>
+                ))}
+            </div>
+            {source === "theme" && topics.length > 0 && (
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                <button onClick={() => setTopic("")} className={`${chip(!topic)} !text-xs`} style={accent}>{t("themes.levelAll")}</button>
+                {topics.map((x) => (
+                  <button key={x.id} onClick={() => setTopic(x.id)} className={`${chip(topic === x.id)} !text-xs`} style={accent}>{L(x.name)}</button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         <div className="grid gap-5 sm:grid-cols-2">
           <div>
@@ -191,7 +212,7 @@ export function SentenceTrainer() {
   const submit = () => {
     if (answered) return next();
     const attempt = placed.map((i) => task.tiles[i]);
-    const v = checkSentence(attempt, task.solution);
+    const v = checkSentence(attempt, task.solution, { alt: task.alt, allowRotation: task.allowRotation });
     const ok = v.kind !== "wrong";
     setStatus(v.kind === "correct" ? "right" : v.kind === "alsoOk" ? "alsoOk" : "wrong");
     setCorrect((c) => c + (ok ? 1 : 0));

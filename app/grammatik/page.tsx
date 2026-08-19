@@ -9,7 +9,7 @@ import { topics } from "@/content/topics";
 import { zeitformen } from "@/content/zeitformen";
 import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progress";
 import { useLang } from "@/lib/lang";
-import { DeGrammar } from "@/components/DeGrammar";
+import { LessonGrammar } from "@/components/LessonGrammar";
 
 export default function GrammatikPage() {
   const { t } = useI18n();
@@ -18,7 +18,7 @@ export default function GrammatikPage() {
   useEffect(() => { loadGrammarProgress().then(setProg); }, []);
 
   // German mode has its own (flat) A1 lesson set
-  if (lang === "de") return <DeGrammar />;
+  if (lang === "de" || lang === "ka") return <LessonGrammar />;
 
   const tenseList = zeitformen.filter((z) => z.available);
   const tensesPassed = tenseList.filter((z) => prog?.byId.get(z.id)?.passed).length;

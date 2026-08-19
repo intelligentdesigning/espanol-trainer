@@ -80,6 +80,60 @@
   }
 }
 
+/* ---- Georgian mode: garnet + forest, distinct from the Spanish terracotta
+   and the German blue. ---- */
+:root[data-lang="ka"] {
+  --background: #f5f7f4;
+  --foreground: #17201a;
+  --card: #ffffff;
+  --border: #dbe4dc;
+  --muted: #5c6b60;
+  --brand: #9b1c31;        /* garnet — wine */
+  --brand-2: #2f7d5b;      /* forest green */
+  --accent-vocab: #7a1628;
+  --cat-verb: #b45309;
+  --cat-noun: #2f7d5b;
+  --cat-adj: #6d28d9;
+  --cat-common: #9b1c31;
+  --cat-article: #7c3aed;
+  --shadow-card: 0 1px 2px rgba(25, 40, 30, .05), 0 6px 20px -10px rgba(25, 40, 30, .16);
+  --shadow-hover: 0 6px 12px rgba(25, 40, 30, .1), 0 20px 44px -14px rgba(25, 40, 30, .26);
+}
+:root[data-lang="ka"] .atmosphere {
+  background:
+    radial-gradient(58rem 38rem at 86% -8%, color-mix(in oklab, var(--brand) 15%, transparent), transparent 60%),
+    radial-gradient(50rem 34rem at 4% 4%, color-mix(in oklab, var(--brand-2) 14%, transparent), transparent 55%),
+    radial-gradient(58rem 48rem at 50% 116%, color-mix(in oklab, var(--cat-verb) 9%, transparent), transparent 60%);
+}
+/* Fraunces and Space Grotesk carry no Mkhedruli, so the Georgian mode sets its
+   display face to the Georgian family — and any element marked lang="ka" uses
+   it too, whichever mode is active. */
+:root[data-lang="ka"] .font-display,
+[lang="ka"] {
+  font-family: var(--font-georgian), "Noto Sans Georgian", "BPG Nino Mtavruli", system-ui, sans-serif;
+}
+:root[data-lang="ka"] .font-display { letter-spacing: -0.01em; }
+
+@media (prefers-color-scheme: dark) {
+  :root[data-lang="ka"] {
+    --background: #101613;
+    --foreground: #eef2ee;
+    --card: #18211c;
+    --border: #2a352d;
+    --muted: #9aa89f;
+    --brand: #f0899b;
+    --brand-2: #5cc199;
+    --accent-vocab: #f0899b;
+    --cat-verb: #fbbf24;
+    --cat-noun: #5cc199;
+    --cat-adj: #c4b5fd;
+    --cat-common: #f0899b;
+    --cat-article: #c4b5fd;
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, .35), 0 6px 20px -10px rgba(0, 0, 0, .55);
+    --shadow-hover: 0 6px 14px rgba(0, 0, 0, .4), 0 22px 48px -14px rgba(0, 0, 0, .65);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #14110f;

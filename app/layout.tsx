@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Fraunces, Space_Grotesk } from "next/font/google";
+import { Geist, Fraunces, Space_Grotesk, Noto_Sans_Georgian } from "next/font/google";
 import "./globals.css";
 import { LocaleProvider } from "@/lib/i18n/locale";
 import { LangProvider } from "@/lib/lang";
@@ -11,6 +11,9 @@ const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const fraunces = Fraunces({ variable: "--font-fraunces", subsets: ["latin"], display: "swap" });
 // display face for the German mode (geometric, precise — contrast to the Spanish serif)
 const space = Space_Grotesk({ variable: "--font-space", subsets: ["latin"], display: "swap" });
+// Mkhedruli face — the three faces above carry no Georgian glyphs, so without
+// this every Georgian string would fall back to a random system font.
+const georgian = Noto_Sans_Georgian({ variable: "--font-georgian", subsets: ["georgian"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "Español Trainer",
@@ -19,10 +22,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="de" className={`${geist.variable} ${fraunces.variable} ${space.variable} h-full antialiased`} suppressHydrationWarning>
+    <html lang="de" className={`${geist.variable} ${fraunces.variable} ${space.variable} ${georgian.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
         {/* apply the learned-language theme before paint (no colour flash) */}
-        <script dangerouslySetInnerHTML={{ __html: `try{var l=localStorage.getItem('learn-lang');if(l==='de')document.documentElement.setAttribute('data-lang','de')}catch(e){}` }} />
+        <script dangerouslySetInnerHTML={{ __html: `try{var l=localStorage.getItem('learn-lang');if(l==='de'||l==='ka')document.documentElement.setAttribute('data-lang',l)}catch(e){}` }} />
       </head>
       <body className="min-h-full flex flex-col">
         <div aria-hidden className="atmosphere pointer-events-none fixed inset-0 z-0" />

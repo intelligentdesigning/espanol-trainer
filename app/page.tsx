@@ -24,6 +24,12 @@ export default function Home() {
         cls: "border-[#1d4ed8]/30 hover:border-[#1d4ed8]/70",
         glow: "bg-[#1d4ed8]/15", accent: "text-[#1d4ed8] dark:text-[#60a5fa]", face: "font-sans",
       },
+      {
+        id: "ka" as const, word: "ქართული", flag: "🇬🇪",
+        title: t("pick.ka.title"), desc: t("pick.ka.desc"),
+        cls: "border-[#9b1c31]/30 hover:border-[#9b1c31]/70",
+        glow: "bg-[#9b1c31]/15", accent: "text-[#9b1c31] dark:text-[#f0899b]", face: "font-sans",
+      },
     ];
     return (
       <div className="space-y-8">
@@ -40,7 +46,7 @@ export default function Home() {
               <div aria-hidden className={`pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full ${c.glow} blur-2xl`} />
               <div className="relative">
                 <div className="text-3xl">{c.flag}</div>
-                <div className={`mt-3 text-3xl font-bold ${c.face} ${c.accent}`}>{c.word}</div>
+                <div className={`mt-3 text-3xl font-bold ${c.face} ${c.accent}`} lang={c.id}>{c.word}</div>
                 <div className="mt-1 font-medium">{c.title}</div>
                 <p className="mt-1 text-sm leading-relaxed text-muted">{c.desc}</p>
               </div>
@@ -68,20 +74,30 @@ export default function Home() {
     { href: "/zahlen", Icon: IconHash, title: t("numbers.title"), desc: t("numbers.subtitle"), accent: "text-noun", bg: "bg-noun/10" },
     { href: "/vokabelheft", Icon: IconNotebook, title: t("home.notebook.title"), desc: t("home.notebook.desc"), accent: "text-brand-2", bg: "bg-brand-2/10" },
   ];
-  const cards = lang === "de" ? deCards : esCards;
+  // Georgian is a grammar reference: only the two tap-only sections exist.
+  const kaCards = [
+    { href: "/grammatik", Icon: IconBook, title: t("home.grammar.title"), desc: t("ka.grammar.desc"), accent: "text-brand", bg: "bg-brand/10" },
+    { href: "/satzbau", Icon: IconCards, title: t("sentence.title"), desc: t("ka.sentence.desc"), accent: "text-brand-2", bg: "bg-brand-2/10" },
+  ];
+  const cards = lang === "ka" ? kaCards : lang === "de" ? deCards : esCards;
+  const HERO_GLYPH = { es: "\u00f1", de: "\u00df", ka: "\u10e5" };
 
   return (
     <div className="space-y-10">
       <section className="relative pt-2">
         <div aria-hidden className="pointer-events-none absolute -right-2 -top-12 select-none font-display text-[8rem] leading-none text-brand/[0.08] sm:text-[11rem]">
-          {lang === "de" ? "ß" : "ñ"}
+          <span lang={lang}>{HERO_GLYPH[lang]}</span>
         </div>
         <div className="relative">
-          <p className="section-label mb-2">{lang === "de" ? t("home.de.kicker") : "¡Hola! · Vamos a aprender"}</p>
+          <p className="section-label mb-2">
+            {lang === "ka" ? t("home.ka.kicker") : lang === "de" ? t("home.de.kicker") : "¡Hola! · Vamos a aprender"}
+          </p>
           <h1 className="font-display text-5xl font-semibold leading-[1.02] tracking-tight sm:text-6xl">
-            <span className="text-brand">{lang === "de" ? "Deutsch" : "Español"}</span> Trainer
+            <span className="text-brand" lang={lang}>{lang === "ka" ? "ქართული" : lang === "de" ? "Deutsch" : "Español"}</span> Trainer
           </h1>
-          <p className="mt-4 max-w-md text-lg leading-relaxed text-muted">{lang === "de" ? t("home.de.tagline") : t("app.tagline")}</p>
+          <p className="mt-4 max-w-md text-lg leading-relaxed text-muted">
+            {lang === "ka" ? t("home.ka.tagline") : lang === "de" ? t("home.de.tagline") : t("app.tagline")}
+          </p>
         </div>
       </section>
 

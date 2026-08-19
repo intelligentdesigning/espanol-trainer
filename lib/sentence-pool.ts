@@ -3,13 +3,13 @@
 // Builds the pool of buildable sentences from everything the app already has:
 // vocabulary examples, coursebook examples and topic examples.
 
-import { loadVocab, loadDetails, loadBuch, loadBuchDetails, loadThemes, loadThemeDetails } from "@/lib/data";
+import { loadVocab, loadDetails, loadBuch, loadBuchDetails, loadThemes, loadThemeDetails, loadLessonGrammar } from "@/lib/data";
 import { getAllProgress } from "@/lib/storage/db";
 import { getActiveLang } from "@/lib/lang";
 import { splitSentence, isBuildable, normalizeWord, type SentenceTask } from "@/lib/sentence";
 import type { Cefr, ThemesData } from "@/lib/types";
 
-export type SentenceSource = "all" | "vocab" | "buch" | "theme";
+export type SentenceSource = "all" | "vocab" | "buch" | "theme" | "lesson";
 export type LengthBand = "short" | "medium" | "long" | "any";
 
 export const LENGTH_BANDS: Record<Exclude<LengthBand, "any">, [number, number]> = {
@@ -54,6 +54,7 @@ export async function buildSentencePool(opts: PoolOptions = {}): Promise<Sentenc
   const push = (
     target: string, glossDe: string, glossEn: string,
     source: SentenceTask["source"], topic?: string, cefr?: Cefr,
+    alt?: string[][], allowRotation?: boolean,
   ) => {
     if (!target || !target.trim()) return;
     const { tokens } = splitSentence(target);
@@ -63,10 +64,28 @@ export async function buildSentencePool(opts: PoolOptions = {}): Promise<Sentenc
     seen.add(key);
     const gloss = (glossLang === "en" ? glossEn : glossDe) || glossEn || glossDe;
     if (!gloss) return;
-    out.push({ target: target.trim(), gloss: gloss.trim(), tiles: [], solution: tokens, source, topic, cefr });
+    out.push({
+      target: target.trim(), gloss: gloss.trim(), tiles: [], solution: tokens,
+      source, topic, cefr, alt, allowRotation,
+    });
   };
 
-  if (lang === "es") {
+  if (lang === "ka") {
+    // Georgian has no vocabulary trainer; the sentences are the lesson examples,
+    // so building them drills exactly the case forms the lesson just taught.
+    // Word order is free, so the heuristic is off and only the orders the
+    // content declares count as alternatives.
+    const lessons = await loadLessonGrammar().catch(() => []);
+    for (const lesson of lessons) {
+      for (const rule of lesson.rules ?? []) {
+        for (const ex of rule.examples ?? []) {
+          if (ex.buildable === false) continue;
+          const alt = (ex.alt ?? []).map((a) => splitSentence(a).tokens).filter((t) => t.length > 0);
+          push(ex.es, ex.gloss?.de ?? "", ex.gloss?.en ?? "", "lesson", lesson.id, lesson.cefr, alt, false);
+        }
+      }
+    }
+  } else if (lang === "es") {
     const [vocab, details, buch, buchDetails, themes, themeDetails] = await Promise.all([
       loadVocab().catch(() => []), loadDetails().catch(() => ({})),
       loadBuch().catch(() => ({ lektionen: [], entries: [] })), loadBuchDetails().catch(() => ({})),
@@ -104,7 +123,7 @@ export async function buildSentencePool(opts: PoolOptions = {}): Promise<Sentenc
     const [lo, hi] = LENGTH_BANDS[opts.length];
     pool = pool.filter((s) => s.solution.length >= lo && s.solution.length <= hi);
   }
-  if (opts.knownOnly) {
+  if (opts.knownOnly && lang !== "ka") {
     const known = await knownWords();
     pool = pool.filter((s) => isBuildable(s.solution, known));
   }

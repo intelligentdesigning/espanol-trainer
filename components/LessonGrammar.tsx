@@ -2,7 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
-import { loadDeGrammar } from "@/lib/data";
+import { loadLessonGrammar } from "@/lib/data";
+import { useLang } from "@/lib/lang";
 import { loadGrammarProgress, type GrammarProgress } from "@/lib/grammar-progress";
 import { RuleList } from "@/components/RuleList";
 import { GrammarPractice } from "@/components/GrammarPractice";
@@ -12,15 +13,17 @@ import { ChapterBadge } from "@/components/grammar/ChapterBadge";
 import { CefrBadge } from "@/components/CefrBadge";
 import type { DeLesson } from "@/lib/types";
 
-/** German A1 grammar: an index of lessons, and the lesson view (rules + test). */
-export function DeGrammar() {
+/** Lesson-based grammar (German A1 and Georgian): an index of lessons, and the
+ *  lesson view (rules + test). The content shape is identical for both. */
+export function LessonGrammar() {
   const { t, L } = useI18n();
+  const { lang } = useLang();
   const [lessons, setLessons] = useState<DeLesson[] | null>(null);
   const [prog, setProg] = useState<GrammarProgress | null>(null);
   const [openId, setOpenId] = useState<string | null>(null);
   const [testRunning, setTestRunning] = useState(false);
 
-  useEffect(() => { loadDeGrammar().then(setLessons); }, []);
+  useEffect(() => { loadLessonGrammar().then(setLessons); }, []);
   useEffect(() => { loadGrammarProgress().then(setProg); }, [openId]);
 
   if (!lessons) return (
@@ -83,7 +86,7 @@ export function DeGrammar() {
           {hasTest && (
             <Segment id="test" title={t("lesson.test")} hint={`${lesson.practice.length}`}>
               {!testRunning && <p className="text-sm text-muted">{t("lesson.testIntro")}</p>}
-              <GrammarPractice topicId={`de-${lesson.id}`} items={lesson.practice} cefr={lesson.cefr} onRunningChange={setTestRunning} />
+              <GrammarPractice topicId={`${lang}-${lesson.id}`} items={lesson.practice} cefr={lesson.cefr} onRunningChange={setTestRunning} />
             </Segment>
           )}
         </div>
@@ -92,16 +95,23 @@ export function DeGrammar() {
   }
 
   // ---- index ----
-  const passed = lessons.filter((l) => prog?.byId.get(`de-${l.id}`)?.passed).length;
+  const passed = lessons.filter((l) => prog?.byId.get(`${lang}-${l.id}`)?.passed).length;
   return (
     <div className="space-y-5">
       <div className="flex items-end justify-between gap-3">
         <div>
           <h1 className="font-display text-2xl font-bold tracking-tight">{t("nav.grammar")}</h1>
-          <p className="mt-1 text-muted">{t("de.grammar.desc")}</p>
+          <p className="mt-1 text-muted">{t(lang === "ka" ? "ka.grammar.desc" : "de.grammar.desc")}</p>
         </div>
         {prog && <span className="shrink-0 rounded-full bg-foreground/5 px-3 py-1 text-sm font-semibold">{passed}/{lessons.length}</span>}
       </div>
+
+      {lang === "ka" && (
+        <div className="rounded-xl border border-dashed border-border bg-foreground/[0.03] p-4">
+          <div className="text-sm font-semibold">{t("ka.unverified.title")}</div>
+          <p className="mt-1 text-sm leading-relaxed text-muted">{t("ka.unverified.body")}</p>
+        </div>
+      )}
 
       <div className="grid gap-2 stagger sm:grid-cols-2">
         {lessons.map((l) => (
@@ -111,7 +121,7 @@ export function DeGrammar() {
                 <span className="font-display font-semibold group-hover:text-brand">{L(l.name)}</span>
                 {l.cefr && <CefrBadge level={l.cefr} />}
               </div>
-              <ChapterBadge stat={prog?.byId.get(`de-${l.id}`)} />
+              <ChapterBadge stat={prog?.byId.get(`${lang}-${l.id}`)} />
             </div>
             <div className="mt-0.5 line-clamp-2 text-sm text-muted">{L(l.summary)}</div>
           </button>

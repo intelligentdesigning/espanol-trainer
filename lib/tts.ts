@@ -4,7 +4,7 @@
 // text in the language being learned, using the device's installed voices —
 // no API key, works offline.
 
-import { getActiveLang } from "@/lib/lang";
+import { getActiveLang, SPEECH } from "@/lib/lang";
 
 let voices: SpeechSynthesisVoice[] = [];
 let primed = false;
@@ -35,7 +35,35 @@ function pickVoice(tag: string): SpeechSynthesisVoice | undefined {
   if (!same.length) return undefined;
   const code = (c: string) => same.find((v) => v.lang.toLowerCase().replace("_", "-") === c);
   if (base === "de") return code("de-de") || code("de-at") || code("de-ch") || same[0];
+  if (base === "ka") return code("ka-ge") || same[0];
   return code("es-es") || code("es-mx") || code("es-us") || code("es-419") || same[0];
+}
+
+/** How many voices the device has reported so far (0 = still unknown). */
+export function voiceCount(): number {
+  if (!voices.length) loadVoices();
+  return voices.length;
+}
+
+/** Does this device actually have a voice for the language being learned?
+ *  Georgian voices ship with almost no desktop OS, so the speak button is
+ *  hidden rather than offering a control that can only stay silent. Voices load
+ *  asynchronously, so call this after primeVoices() and re-check on the
+ *  `voiceschanged` event. */
+export function hasVoiceForActiveLang(): boolean {
+  if (!canSpeak()) return false;
+  return !!pickVoice(SPEECH[getActiveLang()]);
+}
+
+/** Run `cb` whenever the voice list changes (it arrives asynchronously). */
+export function onVoicesChanged(cb: () => void): () => void {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) return () => {};
+  try {
+    window.speechSynthesis.addEventListener("voiceschanged", cb);
+    return () => window.speechSynthesis.removeEventListener("voiceschanged", cb);
+  } catch {
+    return () => {};
+  }
 }
 
 export function canSpeak(): boolean {

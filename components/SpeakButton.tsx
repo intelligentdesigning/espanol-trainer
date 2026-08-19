@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n/locale";
-import { speak, primeVoices } from "@/lib/tts";
+import { speak, primeVoices, hasVoiceForActiveLang, onVoicesChanged, voiceCount } from "@/lib/tts";
 import { IconVolume } from "@/components/icons";
 
 /** Small speaker button: clicking pronounces the word in the language you learn.
@@ -12,8 +12,20 @@ export function SpeakButton({ text, className = "" }: { text: string; className?
   const { t } = useI18n();
   const [speaking, setSpeaking] = useState(false);
   const [blocked, setBlocked] = useState(false);
+  const [hidden, setHidden] = useState(false);
 
-  useEffect(() => { primeVoices(); }, []);
+  // Hide the button entirely when the device has no voice for the language
+  // being learned — Georgian ships with almost no desktop OS, and a speaker
+  // icon that can only ever stay silent is worse than no icon. Only decide once
+  // the voice list has actually arrived, otherwise the button would flicker.
+  useEffect(() => {
+    primeVoices();
+    const check = () => { if (voiceCount() > 0) setHidden(!hasVoiceForActiveLang()); };
+    check();
+    const off = onVoicesChanged(check);
+    const id = setTimeout(check, 1200); // some browsers never fire voiceschanged
+    return () => { off(); clearTimeout(id); };
+  }, []);
   useEffect(() => {
     if (!blocked) return;
     const id = setTimeout(() => setBlocked(false), 6000);
@@ -30,6 +42,8 @@ export function SpeakButton({ text, className = "" }: { text: string; className?
       onFail: () => setBlocked(true),
     });
   };
+
+  if (hidden) return null;
 
   return (
     <span className="relative inline-flex">
