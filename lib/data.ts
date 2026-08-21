@@ -13,6 +13,14 @@ let detailsPromise: Promise<VocabDetails> | null = null;
 let buchDetailsPromise: Promise<BuchDetails> | null = null;
 let articlesPromise: Promise<NounArticle[]> | null = null;
 
+/** Path of a per-language data file. Spanish keeps the historic root paths,
+ *  every other language lives in its own folder. Must not be a "de or else"
+ *  check: that quietly served the Spanish files to any third language. */
+function langFile(name: string): string {
+  const lang = getActiveLang();
+  return lang === "es" ? name : `${lang}/${name}`;
+}
+
 function load<T>(file: string): Promise<T> {
   return fetch(`/data/${file}`).then((r) => {
     if (!r.ok) throw new Error(`failed to load ${file}: ${r.status}`);
@@ -34,14 +42,14 @@ export function loadBuch(): Promise<BuchData> {
 }
 /** Thematic vocabulary sets — per learned language ("Temas" / "Themen"). */
 export function loadThemes(): Promise<ThemesData> {
-  const file = getActiveLang() === "de" ? "de/themes.json" : "themes.json";
+  const file = langFile("themes.json");
   return (themesPromise ??= load<ThemesData>(file));
 }
 
 /** Definitions + example sentences for the topic words (per learned language,
  *  keyed by accent-stripped word). Tolerates a missing file. */
 export function loadThemeDetails(): Promise<BuchDetails> {
-  const file = getActiveLang() === "de" ? "de/theme-details.json" : "theme-details.json";
+  const file = langFile("theme-details.json");
   return (themeDetailsPromise ??= load<BuchDetails>(file).catch(() => ({} as BuchDetails)));
 }
 
@@ -64,7 +72,7 @@ export function loadBuchDetails(): Promise<BuchDetails> {
 /** Noun gender database for the article trainer (el/la — or der/die/das in German
  *  mode). Tolerates a missing file. */
 export function loadArticles(): Promise<NounArticle[]> {
-  const file = getActiveLang() === "de" ? "de/articles.json" : "articles.json";
+  const file = langFile("articles.json");
   return (articlesPromise ??= load<NounArticle[]>(file).catch(() => [] as NounArticle[]));
 }
 

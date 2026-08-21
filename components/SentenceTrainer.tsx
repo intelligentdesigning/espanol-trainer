@@ -21,7 +21,7 @@ const LEVELS: (Cefr | "all")[] = ["all", "A1", "A2", "B1", "B2"];
 
 export function SentenceTrainer() {
   const { t, L, locale } = useI18n();
-  const { lang } = useLang();
+  const { lang, picked } = useLang();
 
   const [source, setSource] = useState<SentenceSource>("all");
   const [topic, setTopic] = useState<string>("");
@@ -42,15 +42,24 @@ export function SentenceTrainer() {
   const [correct, setCorrect] = useState(0);
   const startedAt = useRef(Date.now());
 
-  // topic list for the "restrict to" chips
+  // topic list for the "restrict to" chips. `lang` starts as "es" and only
+  // settles after hydration, so this effect runs twice — without the guard the
+  // first (Spanish) response can land after the second and overwrite it.
   useEffect(() => {
+    // `lang` defaults to "es" until the provider's effect runs, so loading here
+    // too early fetches the wrong language's files (a 404 plus a pointless
+    // download). `picked` flips in that same effect, so it is the ready signal.
+    if (!picked) return;
+    let alive = true;
+    const set = (xs: { id: string; name: LocalizedText }[]) => { if (alive) setTopics(xs); };
     if (lang === "ka") {
-      loadLessonGrammar().then((ls) => setTopics(ls.map((l) => ({ id: l.id, name: l.name })))).catch(() => {});
+      loadLessonGrammar().then((ls) => set(ls.map((l) => ({ id: l.id, name: l.name })))).catch(() => {});
     } else {
-      loadThemes().then((d) => setTopics(d.themes.map((x) => ({ id: x.id, name: x.name })))).catch(() => {});
+      loadThemes().then((d) => set(d.themes.map((x) => ({ id: x.id, name: x.name })))).catch(() => {});
     }
     if (lang === "es") loadBuch().catch(() => {});
-  }, [lang]);
+    return () => { alive = false; };
+  }, [lang, picked]);
 
   // live count of what the current filters would give
   useEffect(() => {
