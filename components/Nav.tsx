@@ -6,6 +6,7 @@ import { useI18n } from "@/lib/i18n/locale";
 import { useLang, clearLang } from "@/lib/lang";
 import { ProfileSwitcher } from "@/components/ProfileSwitcher";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
+import { KA_SECTIONS } from "@/lib/sections";
 import { IconChevronDown } from "@/components/icons";
 import type { UIKey } from "@/lib/i18n/strings";
 
@@ -22,12 +23,7 @@ export function Nav() {
   // Georgian is a grammar reference: it has no articles, and every other
   // trainer would need a Georgian keyboard, so only the tap-only ones are shown.
   const links: { href: string; key: UIKey }[] = lang === "ka"
-    ? [
-        { href: "/", key: "nav.home" },
-        { href: "/grammatik", key: "nav.grammar" },
-        { href: "/satzbau", key: "nav.sentence" },
-        { href: "/stats", key: "nav.stats" },
-      ]
+    ? KA_SECTIONS
     : [
         { href: "/", key: "nav.home" },
         ...(lang === "es" ? [{ href: "/vokabular", key: "nav.vocab" as UIKey }] : []),

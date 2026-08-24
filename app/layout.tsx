@@ -5,6 +5,7 @@ import { LocaleProvider } from "@/lib/i18n/locale";
 import { LangProvider } from "@/lib/lang";
 import { Nav } from "@/components/Nav";
 import { ProfileGate } from "@/components/ProfileGate";
+import { LangRouteGuard } from "@/components/LangRouteGuard";
 import { BackupWarning } from "@/components/BackupWarning";
 
 const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body className="min-h-full flex flex-col">
         <div aria-hidden className="atmosphere pointer-events-none fixed inset-0 z-0" />
         <LangProvider>
+          <LangRouteGuard />
           <LocaleProvider>
             <Nav />
             <ProfileGate />

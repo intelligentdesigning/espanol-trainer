@@ -60,8 +60,11 @@ export type SentenceVerdict =
   | { kind: "alsoOk"; canonical: string }
   | { kind: "wrong"; canonical: string };
 
-/** Front-field shifts ("Hoy comemos …" ↔ "Comemos hoy …") and a moved final
- *  adverbial are the two variants we accept; everything else must match. */
+/** Accepts a rotation: one contiguous chunk of up to three words moved from the
+ *  very front to the very back or vice versa ("Hoy comemos en casa" ↔ "Comemos
+ *  en casa hoy"). Swapping neighbours is NOT a rotation and stays wrong.
+ *  Orders listed in `alt` always count; `allowRotation: false` turns the
+ *  heuristic off for languages whose word order it cannot model. */
 export function checkSentence(
   attempt: string[],
   solution: string[],
